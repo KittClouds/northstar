@@ -28,21 +28,37 @@ input datetime InpResearchWindowStart = 0;
 input datetime InpResearchWindowEnd = 0;
 ```
 
-## Research controller versus chart map
+## Research controller versus isolated chart indicator
 
-Two indicator entry points intentionally share one structural implementation:
+The research controller and chart indicator are intentionally independent:
 
 - `MasterStructureController.mq5` is the research/testing machine. It retains
   receipt, parity-oracle, deterministic cutoff, and research-identity inputs.
-- `MasterStructureMap.mq5` is the chart and visual Strategy Tester projection.
-  It compiles with `MST_VISUAL_ONLY`, fixes the instance namespace to `MAP`,
-  and compiles logging, parity capture, cutoff, and research-window controls
-  out of its public surface.
+- `MasterStructureChart.mq5` is the complete chart-facing structural indicator.
+  It imports its private engine from `MasterStructureChart/` and that engine
+  imports only `02marketmain.mqh`, `02dayswings.mqh`, and `02wayne.mqh`.
+- The chart indicator does not import the research `MasterStructure/` tree or
+  any `01*` producer. The two programs can therefore evolve and run without
+  sharing MQL5 source dependencies or chart-object ownership.
 
-The map owns only `MST_MAP_<symbol>_*` chart objects and removes that complete
-owner namespace on deinitialization or timeframe reload. Live initialization
-is asynchronous: one forced producer snapshot is followed by the cached timer
-path, with bounded retry backoff while broker histories synchronize.
+The chart indicator owns only `MSC_CHART_<symbol>_<chart-period>_*` chart
+objects and removes that complete owner namespace on deinitialization or
+timeframe reload. The first live render may wait while MT5 synchronizes the
+producer timeframes. Optional indicator-buffer publication is guarded until
+MT5 has sized those buffers; rendering itself does not depend on them.
+
+Install the isolated chart bundle as follows:
+
+```text
+MQL5/Indicators/BuiltMasterStructure/MasterStructureChart.mq5
+MQL5/Include/MasterStructureChart/*.mqh
+MQL5/Include/02marketmain.mqh
+MQL5/Include/02dayswings.mqh
+MQL5/Include/02wayne.mqh
+```
+
+`MasterStructureMap.mq5` is retained only as historical parity-work evidence.
+It is not the live chart indicator and must not be used as its wrapper.
 
 Production qualification presets must supply all research identity fields and
 an explicit deterministic finalization time. The controller does not emit

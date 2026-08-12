@@ -8,8 +8,8 @@
   "warnings": 0,
   "elapsed_ms": 7355,
   "compile_log_sha256": "4be4d74a82d30cb6699c68564580b583b00098e5fe509a88d4abc060a55f2677",
-  "ex5_bytes": 287022,
-  "ex5_sha256": "cc1cbf7933cf38d7653641c5411a2db90442b47ba0eae3c6add733a4a878cd64",
+  "ex5_bytes": 291108,
+  "ex5_sha256": "c52718df779b3bf8909a5ca8ddddf556b2a490856d689e4f6070e034f60e6dcf",
   "oracle_default_enabled": false,
   "semantic_note": "The recorder observes the deterministic engine boundary and does not enter configuration identity or auction decisions."
 }

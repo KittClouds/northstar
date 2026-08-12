@@ -1,0 +1,16 @@
+{
+  "contract": "NORTHSTAR_MT5_REPLAY_DETERMINISM_V1",
+  "status": "MATCH",
+  "left_run_key": "RG2_US30_PERIOD_M5_1776038400_1776124800_3849407814919534837",
+  "right_run_key": "RG2_US30_PERIOD_M5_1776038400_1776124800_3849407814919534837",
+  "left_invocation_id": "RG2_US30_PERIOD_M5_1776038400_1776124800_3849407814919534837_I1776038400_7091234215478131638",
+  "right_invocation_id": "RG2_US30_PERIOD_M5_1776038400_1776124800_3849407814919534837_I1776038400_7053931084467817041",
+  "left_frame_count": 1056,
+  "right_frame_count": 1056,
+  "left_canonical_capture_sha256": "839c07b98b77d4db707493b97ce04ad677878a3f79c54a7834d1de1658bb0ce7",
+  "right_canonical_capture_sha256": "839c07b98b77d4db707493b97ce04ad677878a3f79c54a7834d1de1658bb0ce7",
+  "last_matching_sequence": 1056,
+  "first_divergent_block_start_sequence": null,
+  "left_prefix_sha256": null,
+  "right_prefix_sha256": null
+}

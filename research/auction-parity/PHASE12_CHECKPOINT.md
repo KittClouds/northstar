@@ -1,6 +1,6 @@
 # Phase 12 checkpoint
 
-Status: `SERVING LANE PASS / FRESH REPLAY CERTIFICATE AWAITING CAPTURE`
+Status: `SERVING LANE PASS / FRESH INPUT TAPE DETERMINISM PASS / INDEPENDENT RECONSTRUCTION OPEN`
 
 ## Isolation and authority
 
@@ -84,10 +84,18 @@ These are diagnostic measurements, not a cross-machine performance promise.
 - Rust validates the five-file capture, feature/frame bijection, referential
   sequence, hashes, and deterministic prefixes. Divergence receipts identify
   the first differing prefix block without claiming an unmeasured exact row.
+- The bounded US30 M5 open-prices qualification window produced 1,056 frames,
+  101,070 normalized levels, 9,714 node rows, 59,346 provenance rows, and
+  1,056 causal feature snapshots.
+- Two fresh headless invocations have distinct invocation IDs and physical
+  `frames.tsv` hashes but the same canonical semantic capture SHA-256:
+  `839c07b98b77d4db707493b97ce04ad677878a3f79c54a7834d1de1658bb0ce7`.
+- All five 256-frame semantic prefixes match through sequence 1,056.
 
-No fresh capture has been generated while the user's running tester is active.
-Consequently, historical C2-C5 and auction-state parity are implemented but not
-certified. Full C1 producer parity additionally requires raw producer inputs and
+This certifies capture contract integrity and repeat determinism for the bounded
+qualification window. It does not certify independent Rust reconstruction of
+historical auction state, topology, or features. Those remain the next 12B-D
+cuts. Full C1 producer parity additionally requires raw producer inputs and
 warmup/state contracts in the capture.
 
 ## Verification commands

@@ -20,7 +20,17 @@ The indicator exposes:
 
 ```mql5
 input bool InpEnableParityOracle = false;
+input datetime InpTesterFinalizeAt = 0;
+input string InpCanonicalInstrument = "";
+input string InpDataSourceId = "";
+input string InpDataFingerprint = "";
+input datetime InpResearchWindowStart = 0;
+input datetime InpResearchWindowEnd = 0;
 ```
+
+Production qualification presets must supply all research identity fields and
+an explicit deterministic finalization time. The controller does not emit
+pre-window frames and finalizes once at the configured cutoff.
 
 When enabled, files are written under the terminal common-files directory:
 
@@ -54,3 +64,17 @@ cargo run --release -p northstar-parity-cli -- verify-oracle `
 The verifier rejects missing frames, changing identities, noncontiguous frame
 sequences, orphan child records, and missing per-frame causal feature records.
 It emits cumulative prefix hashes every 256 frames for first-divergence search.
+`invocation_id` is excluded from semantic capture and prefix hashes but remains
+in the physical `frames.tsv` hash.
+
+Compare repeated invocations with:
+
+```powershell
+cargo run --release -p northstar-parity-cli -- compare-oracles `
+  --left-receipt 'proof/oracle_run_a.json' `
+  --right-receipt 'proof/oracle_run_b.json' `
+  --receipt 'proof/oracle_determinism.json'
+```
+
+The feature schema uses `regional_cog_velocity_atr` for the regional field
+velocity, preserving the separate auction-context `cog_velocity_atr` column.

@@ -5,7 +5,7 @@ use northstar_model_parity::verify_model_registry_with_sha;
 use northstar_mt5_corpus::CorpusVerifier;
 use northstar_packed_corpus::{PackedCorpus, pack_verified_corpus};
 use northstar_parity_fixtures::verify_fixtures;
-use northstar_replay_oracle::verify_capture;
+use northstar_replay_oracle::{OracleReceipt, compare_prefixes, verify_capture};
 use northstar_research_adapter::ResearchAdapter;
 use serde::{Deserialize, Serialize};
 
@@ -60,8 +60,29 @@ fn run() -> Result<(), String> {
         Some("verify-packed-interface") => verify_packed_interface(&pairs),
         Some("verify-models") => verify_models(&pairs),
         Some("verify-oracle") => verify_oracle(&pairs),
+        Some("compare-oracles") => compare_oracles(&pairs),
         _ => Err(usage(&binary)),
     }
+}
+
+fn compare_oracles(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let left = read_oracle_receipt(&required(pairs, "--left-receipt")?)?;
+    let right = read_oracle_receipt(&required(pairs, "--right-receipt")?)?;
+    let report = compare_prefixes(&left, &right);
+    if let Some(path) = optional(pairs, "--receipt") {
+        write_json(path, &report)?;
+    }
+    println!("REPLAY_ORACLE_{}", report.status);
+    println!(
+        "last_matching_sequence={} first_divergent_block_start_sequence={}",
+        report.last_matching_sequence,
+        report
+            .first_divergent_block_start_sequence
+            .map_or_else(|| "NONE".into(), |value| value.to_string())
+    );
+    (report.status == "MATCH")
+        .then_some(())
+        .ok_or_else(|| "oracle receipts diverged".into())
 }
 
 fn verify_oracle(pairs: &[(String, PathBuf)]) -> Result<(), String> {
@@ -300,6 +321,8 @@ fn parse_pairs(
                 | "--artifact"
                 | "--registry"
                 | "--oracle"
+                | "--left-receipt"
+                | "--right-receipt"
                 | "--freeze-receipt"
         ) {
             return Err(format!("unknown argument {flag}"));
@@ -345,9 +368,20 @@ fn read_freeze_receipt(path: &PathBuf) -> Result<FreezeReceipt, String> {
     Ok(receipt)
 }
 
+fn read_oracle_receipt(path: &PathBuf) -> Result<OracleReceipt, String> {
+    let bytes = fs::read(path).map_err(|error| error.to_string())?;
+    let receipt: OracleReceipt =
+        serde_json::from_slice(&bytes).map_err(|error| error.to_string())?;
+    if receipt.contract != "NORTHSTAR_MT5_PARITY_ORACLE_RECEIPT_V2" || receipt.status != "PASS" {
+        return Err("oracle receipt identity or status failed".into());
+    }
+    Ok(receipt)
+}
+
 fn usage(binary: &OsStr) -> String {
     format!(
-        "usage:\n  {} verify --corpus <runs> --seal <corpus_seal.json> [--receipt <json>]\n  {} verify-interface --workspace <eas> [--receipt <json>]\n  {} verify-golden [--receipt <json>]\n  {} pack --corpus <runs> --seal <seal> --output <bin> --receipt <json>\n  {} verify-packed --artifact <bin>\n  {} verify-packed-interface --artifact <bin> --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-models --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-oracle --oracle <directory> [--receipt <json>]",
+        "usage:\n  {} verify --corpus <runs> --seal <corpus_seal.json> [--receipt <json>]\n  {} verify-interface --workspace <eas> [--receipt <json>]\n  {} verify-golden [--receipt <json>]\n  {} pack --corpus <runs> --seal <seal> --output <bin> --receipt <json>\n  {} verify-packed --artifact <bin>\n  {} verify-packed-interface --artifact <bin> --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-models --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-oracle --oracle <directory> [--receipt <json>]\n  {} compare-oracles --left-receipt <json> --right-receipt <json> [--receipt <json>]",
+        binary.to_string_lossy(),
         binary.to_string_lossy(),
         binary.to_string_lossy(),
         binary.to_string_lossy(),

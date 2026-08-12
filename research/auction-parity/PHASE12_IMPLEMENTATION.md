@@ -55,22 +55,36 @@ retest hold          boosted stumps  1,251 x 94
 
 The future holdout remains untouched.
 
-## Capture-ready, awaiting fresh replay evidence
+## Fresh input-tape determinism proven
 
 ### 12B.0
 
-The optional MT5 oracle recorder and Rust verifier are implemented and the MQL5
-controller compiles with 0 errors and 0 warnings. A capture has not been
-manufactured from sealed RG2 because RG2 never recorded this input tape.
+The optional MT5 oracle recorder and Rust verifier are implemented, and the
+deployed MQL5 controller compiles with 0 errors and 0 warnings. Two independent
+headless US30 M5 bounded replays each produced 1,056 frames over the same
+research window. Their canonical capture SHA-256 is identical:
 
-Fresh bounded replays must now produce the five oracle files before full
-historical auction parity can be certified.
+`839c07b98b77d4db707493b97ce04ad677878a3f79c54a7834d1de1658bb0ce7`.
+
+All five cumulative semantic frame prefixes match through sequence 1,056.
+Their unique invocation IDs and physical `frames.tsv` hashes differ, proving
+that invocation provenance remains distinct without contaminating market
+semantics. The machine-readable evidence is in
+`proof/mt5_fresh_oracle_receipt_run5.json`,
+`proof/mt5_fresh_oracle_receipt_run6.json`, and
+`proof/mt5_fresh_oracle_determinism.json`.
+
+The canonical capture hash excludes `invocation_id` by contract. Physical
+per-file hashes retain it, so repeated executions can have distinct provenance
+while identical market semantics remain directly comparable.
 
 ### 12B / 12C / 12D
 
-These remain evidence-gated:
+These remain reconstruction-gated:
 
-- 12B requires captured frame-by-frame auction inputs.
+- 12B now has deterministic captured frame-by-frame auction inputs, but the
+  independent Rust historical auction replay has not yet been run against the
+  captured MT5 event ledger.
 - 12C.2–12C.5 use captured normalized levels, nodes, provenance, and regional
   geometry.
 - 12C.1 full producer parity additionally requires raw producer input history

@@ -245,7 +245,6 @@ name = "northstar-replay-oracle"
 version = "0.1.0"
 dependencies = [
  "hashbrown",
- "memchr",
  "memmap2",
  "northstar-mt5-corpus",
  "serde",

@@ -24,6 +24,7 @@ and reconstructs its sealed ledgers before any later Northstar wiring.
 - Exact packed Phase 10.5 target ID-set parity, not count-only parity.
 - Complete Phase 11 candidate artifacts and exact Rust inference parity.
 - Disabled-by-default MT5 parity-oracle capture and fail-closed Rust verifier.
+- Fresh bounded replay input-tape determinism through 1,056 frames.
 
 No UI, TradeLocker, order, macro, execution, or live-stream integration exists here.
 
@@ -77,5 +78,5 @@ cargo run --release -p northstar-parity-cli -- verify-models `
 
 The isolated read-only artifact, adapter, and inference crates are ready to be
 wired later. Northstar application authority is unchanged. Full independent
-historical reconstruction remains blocked on fresh oracle captures; see
+historical reconstruction now proceeds from the certified fresh oracle tape; see
 `PHASE12_IMPLEMENTATION.md`.

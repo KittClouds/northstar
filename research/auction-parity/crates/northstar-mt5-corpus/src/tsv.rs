@@ -74,6 +74,11 @@ impl MappedTsv {
             })
     }
 
+    /// Returns the ordered header fields exactly as mapped from the file.
+    pub fn header_fields(&self) -> impl Iterator<Item = &[u8]> {
+        split_fields(trim_cr(&self.mmap[..self.header_end]))
+    }
+
     #[must_use]
     pub fn rows(&self) -> Rows<'_> {
         let start = (self.header_end + 1).min(self.mmap.len());

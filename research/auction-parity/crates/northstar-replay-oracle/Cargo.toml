@@ -7,7 +7,6 @@ publish.workspace = true
 
 [dependencies]
 hashbrown.workspace = true
-memchr.workspace = true
 memmap2.workspace = true
 northstar-mt5-corpus = { path = "../northstar-mt5-corpus" }
 serde.workspace = true

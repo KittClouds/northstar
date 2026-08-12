@@ -1,0 +1,43 @@
+{
+  "contract": "NORTHSTAR_MT5_PARITY_ORACLE_RECEIPT_V2",
+  "status": "PASS",
+  "run_key": "RG2_US30_PERIOD_M5_1776038400_1776124800_3849407814919534837",
+  "invocation_id": "RG2_US30_PERIOD_M5_1776038400_1776124800_3849407814919534837_I1776038400_7053931084467817041",
+  "frame_count": 1056,
+  "files": [
+    {
+      "name": "frames.tsv",
+      "rows": 1056,
+      "sha256": "0e2ca120a37266bd20678086de87d93fc827b947be29cd2d192c0d44c394bdfa"
+    },
+    {
+      "name": "levels.tsv",
+      "rows": 101070,
+      "sha256": "654d3323d990a9e73a1dbd368ca0317ec0dd1ee340bb9637eda1f3fa5516a130"
+    },
+    {
+      "name": "nodes.tsv",
+      "rows": 9714,
+      "sha256": "801747e7a3ef18b09393b1816b592ed696967cbc2b0171daa4f7cf3cc4604711"
+    },
+    {
+      "name": "sources.tsv",
+      "rows": 59346,
+      "sha256": "af62dacf3648cd3cf2f4fe7edec0551f41fa2d0fd01f77162ac8303e21c59fd5"
+    },
+    {
+      "name": "features.tsv",
+      "rows": 1056,
+      "sha256": "662976331df746f332b066894da92fc0d6c617d82f90e4be313d381b37de3109"
+    }
+  ],
+  "canonical_capture_sha256": "839c07b98b77d4db707493b97ce04ad677878a3f79c54a7834d1de1658bb0ce7",
+  "prefix_stride": 256,
+  "frame_prefix_sha256": [
+    "7c74df458b2b1b5966fc64a8817315604bf6fdde4537e3d0b78bb63a4598971e",
+    "4ba90bcce67d456c2bd5ed496e67c552864f9bdaf97fc872ca201a032820d55d",
+    "fb2fe62ea39cc56858dbafac0001f6898b10a8b021ccb7b7228c3c9d997c7af8",
+    "9fc0c3e58244f7cefbf1cbe4079cb212e461e4752c58d3a6782227bca99c7d91",
+    "e9fa1d7b98caa897c04cbfb9c82634ca931dc4ae7e3c4a0159956af5ede9b7d6"
+  ]
+}

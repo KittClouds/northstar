@@ -1,9 +1,24 @@
 use std::{env, ffi::OsStr, fs, path::PathBuf, process::ExitCode, time::Instant};
 
 use northstar_auction_replay::{ResearchInterfaceVerifier, verify_golden_grammar};
+use northstar_model_parity::verify_model_registry_with_sha;
 use northstar_mt5_corpus::CorpusVerifier;
+use northstar_packed_corpus::{PackedCorpus, pack_verified_corpus};
 use northstar_parity_fixtures::verify_fixtures;
-use serde::Serialize;
+use northstar_replay_oracle::verify_capture;
+use northstar_research_adapter::ResearchAdapter;
+use serde::{Deserialize, Serialize};
+
+#[derive(Deserialize)]
+struct FreezeReceipt {
+    contract: String,
+    status: String,
+    holdout_touched: bool,
+    model_count: usize,
+    source_corpus_sha256: String,
+    target_registry_sha256: String,
+    model_registry_sha256: String,
+}
 
 #[derive(Serialize)]
 struct CorpusParityReceipt<'a> {
@@ -40,8 +55,121 @@ fn run() -> Result<(), String> {
         Some("verify") => verify_corpus(&pairs),
         Some("verify-interface") => verify_interface(&pairs),
         Some("verify-golden") => verify_golden(&pairs),
+        Some("pack") => pack_corpus(&pairs),
+        Some("verify-packed") => verify_packed(&pairs),
+        Some("verify-packed-interface") => verify_packed_interface(&pairs),
+        Some("verify-models") => verify_models(&pairs),
+        Some("verify-oracle") => verify_oracle(&pairs),
         _ => Err(usage(&binary)),
     }
+}
+
+fn verify_oracle(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let root = required(pairs, "--oracle")?;
+    let report = verify_capture(&root, 256).map_err(|error| error.to_string())?;
+    if let Some(path) = optional(pairs, "--receipt") {
+        write_json(path, &report)?;
+    }
+    println!("REPLAY_ORACLE_PASS");
+    println!(
+        "run_key={} frames={} capture_sha256={}",
+        report.run_key, report.frame_count, report.canonical_capture_sha256
+    );
+    Ok(())
+}
+
+fn verify_models(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let registry = required(pairs, "--registry")?;
+    let freeze = read_freeze_receipt(&required(pairs, "--freeze-receipt")?)?;
+    let report = verify_model_registry_with_sha(&registry, &freeze.model_registry_sha256)
+        .map_err(|error| error.to_string())?;
+    if report.source_corpus_sha256 != freeze.source_corpus_sha256
+        || report.models.len() != freeze.model_count
+    {
+        return Err("model registry does not match freeze receipt identity".into());
+    }
+    if let Some(path) = optional(pairs, "--receipt") {
+        write_json(path, &report)?;
+    }
+    println!("MODEL_INFERENCE_PARITY_PASS");
+    for model in &report.models {
+        println!(
+            "target={} model={} rows={} features={} max_score_error={:e} max_probability_error={:e}",
+            model.target,
+            model.model_class,
+            model.rows,
+            model.features,
+            model.maximum_score_absolute_error,
+            model.maximum_probability_absolute_error
+        );
+    }
+    Ok(())
+}
+
+fn verify_packed_interface(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let artifact = required(pairs, "--artifact")?;
+    let registry = required(pairs, "--registry")?;
+    let freeze = read_freeze_receipt(&required(pairs, "--freeze-receipt")?)?;
+    let receipt_path = optional(pairs, "--receipt");
+    let report = ResearchAdapter::open(&artifact)
+        .and_then(|adapter| {
+            adapter.verify_registry_with_sha(&registry, &freeze.target_registry_sha256)
+        })
+        .map_err(|error| error.to_string())?;
+    if report.source_corpus_sha256 != freeze.source_corpus_sha256 {
+        return Err("target registry does not match freeze receipt corpus".into());
+    }
+    if let Some(path) = receipt_path {
+        write_json(path, &report)?;
+    }
+    println!("PACKED_INTERFACE_PARITY_PASS");
+    println!("source_corpus_sha256={}", report.source_corpus_sha256);
+    for target in &report.targets {
+        println!(
+            "target={} eligible={} observed={} censored={} analyzable={} eligible_ids_sha256={}",
+            target.target,
+            target.eligible_count,
+            target.observed_count,
+            target.censored_count,
+            target.analyzable_count,
+            target.eligible_ids_sha256
+        );
+    }
+    Ok(())
+}
+
+fn pack_corpus(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let corpus = required(pairs, "--corpus")?;
+    let seal = required(pairs, "--seal")?;
+    let output = required(pairs, "--output")?;
+    let receipt_path = required(pairs, "--receipt")?;
+    let started = Instant::now();
+    let receipt =
+        pack_verified_corpus(&corpus, &seal, &output).map_err(|error| error.to_string())?;
+    write_json(&receipt_path, &receipt)?;
+    println!("PACKED_CORPUS_PASS");
+    println!("source_corpus_sha256={}", receipt.source_corpus_sha256);
+    println!("packed_semantic_sha256={}", receipt.packed_semantic_sha256);
+    println!("artifact_sha256={}", receipt.artifact_sha256);
+    println!("artifact_bytes={}", receipt.artifact_bytes);
+    println!("elapsed_ms={}", started.elapsed().as_millis());
+    Ok(())
+}
+
+fn verify_packed(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let artifact = required(pairs, "--artifact")?;
+    let packed = PackedCorpus::open(&artifact).map_err(|error| error.to_string())?;
+    packed
+        .verify_all_sections()
+        .map_err(|error| error.to_string())?;
+    println!("PACKED_REOPEN_PASS");
+    println!("source_corpus_sha256={}", packed.source_corpus_sha256());
+    println!("packed_semantic_sha256={}", packed.packed_semantic_sha256());
+    for code in 1..=7 {
+        let kind = northstar_packed_corpus::RelationKind::from_code(code).unwrap();
+        println!("{}={}", kind.name(), packed.section(kind).len());
+    }
+    Ok(())
 }
 
 fn verify_corpus(pairs: &[(String, PathBuf)]) -> Result<(), String> {
@@ -164,7 +292,15 @@ fn parse_pairs(
             .map_err(|flag| format!("argument is not Unicode: {}", flag.to_string_lossy()))?;
         if !matches!(
             flag.as_str(),
-            "--corpus" | "--seal" | "--workspace" | "--receipt"
+            "--corpus"
+                | "--seal"
+                | "--workspace"
+                | "--receipt"
+                | "--output"
+                | "--artifact"
+                | "--registry"
+                | "--oracle"
+                | "--freeze-receipt"
         ) {
             return Err(format!("unknown argument {flag}"));
         }
@@ -196,9 +332,27 @@ fn write_json(path: &PathBuf, value: &impl Serialize) -> Result<(), String> {
     fs::write(path, bytes).map_err(|error| error.to_string())
 }
 
+fn read_freeze_receipt(path: &PathBuf) -> Result<FreezeReceipt, String> {
+    let bytes = fs::read(path).map_err(|error| error.to_string())?;
+    let receipt: FreezeReceipt =
+        serde_json::from_slice(&bytes).map_err(|error| error.to_string())?;
+    if receipt.contract != "MST_PHASE12_PYTHON_FREEZE_RECEIPT_V1"
+        || receipt.status != "PASS"
+        || receipt.holdout_touched
+    {
+        return Err("freeze receipt identity or holdout gate failed".into());
+    }
+    Ok(receipt)
+}
+
 fn usage(binary: &OsStr) -> String {
     format!(
-        "usage:\n  {} verify --corpus <runs> --seal <corpus_seal.json> [--receipt <json>]\n  {} verify-interface --workspace <eas> [--receipt <json>]\n  {} verify-golden [--receipt <json>]",
+        "usage:\n  {} verify --corpus <runs> --seal <corpus_seal.json> [--receipt <json>]\n  {} verify-interface --workspace <eas> [--receipt <json>]\n  {} verify-golden [--receipt <json>]\n  {} pack --corpus <runs> --seal <seal> --output <bin> --receipt <json>\n  {} verify-packed --artifact <bin>\n  {} verify-packed-interface --artifact <bin> --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-models --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-oracle --oracle <directory> [--receipt <json>]",
+        binary.to_string_lossy(),
+        binary.to_string_lossy(),
+        binary.to_string_lossy(),
+        binary.to_string_lossy(),
+        binary.to_string_lossy(),
         binary.to_string_lossy(),
         binary.to_string_lossy(),
         binary.to_string_lossy()

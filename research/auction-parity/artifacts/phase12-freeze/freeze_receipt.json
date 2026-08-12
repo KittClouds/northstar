@@ -1,0 +1,9 @@
+{
+  "contract": "MST_PHASE12_PYTHON_FREEZE_RECEIPT_V1",
+  "holdout_touched": false,
+  "model_count": 4,
+  "model_registry_sha256": "79f43b7a5076b5103113c17a1fd6aba879d32e4986332f99a1abe29b023abdec",
+  "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "status": "PASS",
+  "target_registry_sha256": "3234133ffc27576d4f5ed31efd030d92c8e418f4a7e5195565ca025f53637bc8"
+}

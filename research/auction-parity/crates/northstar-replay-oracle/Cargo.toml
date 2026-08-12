@@ -1,0 +1,18 @@
+[package]
+name = "northstar-replay-oracle"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+hashbrown.workspace = true
+memchr.workspace = true
+memmap2.workspace = true
+northstar-mt5-corpus = { path = "../northstar-mt5-corpus" }
+serde.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+tempfile = "3.20"

@@ -1,0 +1,15 @@
+{
+  "contract": "NORTHSTAR_MQL5_PARITY_ORACLE_COMPILE_V1",
+  "status": "PASS",
+  "terminal_data_id": "D0E8209F77C8CF37AD8BF550E51FF075",
+  "source": "MQL5/Indicators/MasterStructure/MasterStructureController.mq5",
+  "compiler": "C:/Program Files/MetaTrader 5/MetaEditor64.exe",
+  "errors": 0,
+  "warnings": 0,
+  "elapsed_ms": 7355,
+  "compile_log_sha256": "4be4d74a82d30cb6699c68564580b583b00098e5fe509a88d4abc060a55f2677",
+  "ex5_bytes": 287022,
+  "ex5_sha256": "cc1cbf7933cf38d7653641c5411a2db90442b47ba0eae3c6add733a4a878cd64",
+  "oracle_default_enabled": false,
+  "semantic_note": "The recorder observes the deterministic engine boundary and does not enter configuration identity or auction decisions."
+}

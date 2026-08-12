@@ -1,0 +1,15 @@
+[package]
+name = "northstar-research-adapter"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+hashbrown.workspace = true
+northstar-auction-contract = { path = "../northstar-auction-contract" }
+northstar-packed-corpus = { path = "../northstar-packed-corpus" }
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true

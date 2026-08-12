@@ -17,6 +17,7 @@
 *.ledger
 *.journal
 *.mmap
+*.reference.f64
 
 # Local diagnostics and editor/OS state
 *.log

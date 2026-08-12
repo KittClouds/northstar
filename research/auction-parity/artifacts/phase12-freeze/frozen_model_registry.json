@@ -1,0 +1,47 @@
+{
+  "calibration": "NONE",
+  "candidate_protocol_sha256": "8d8525c082be23be43e75e9c15e4002ab598e88fc371c4b482ff7cf2d2a444bf",
+  "contract": "MST_PHASE11_FROZEN_MODEL_REGISTRY_V1",
+  "feature_schema_sha256": "d580e254a46f4f750bd9e24b7f4580f7a7b88837bcfd8ffcc30cbcb8dbc74472",
+  "holdout_touched": false,
+  "models": [
+    {
+      "features": 99,
+      "model": "reclaim_given_break.model.json",
+      "model_sha256": "f5b4e593739379f4eed8db177730bf21919288c6310375a4553213649f3bff36",
+      "reference": "reclaim_given_break.reference.f64",
+      "reference_sha256": "b07591593cf1b109ce5d55401974e9a7ee23b32b2972d93da9e7b08769fdebb3",
+      "rows": 1547,
+      "target": "reclaim_given_break"
+    },
+    {
+      "features": 129,
+      "model": "initial_acceptance_given_initial_contact.model.json",
+      "model_sha256": "88942e1c39278133a615c2b1e8ae9cf2730a19093785593f66745c753b75bf2d",
+      "reference": "initial_acceptance_given_initial_contact.reference.f64",
+      "reference_sha256": "38b989c80c5a12602f4c5d28f0a68c25fbc9aaecbda9dea56875f4ad8e3c97a8",
+      "rows": 5051,
+      "target": "initial_acceptance_given_initial_contact"
+    },
+    {
+      "features": 129,
+      "model": "rejection_given_initial_contact.model.json",
+      "model_sha256": "eedd556581131cbd74b2e6758ae1987d71a48ca0a2ba484745746d4a6109ec95",
+      "reference": "rejection_given_initial_contact.reference.f64",
+      "reference_sha256": "8c333a4c8cdecfdc8a5901a2ac37456f4609b8d365a95b11deb45c1c8a95d700",
+      "rows": 5051,
+      "target": "rejection_given_initial_contact"
+    },
+    {
+      "features": 94,
+      "model": "retest_hold_given_retest_contact.model.json",
+      "model_sha256": "6b3180f5ab96ebdb0abbf1b5da6d723c89e2c0f78de40072c2501588f32aae3f",
+      "reference": "retest_hold_given_retest_contact.reference.f64",
+      "reference_sha256": "1606607f425a863c729a711a094c3609d679493d687610a3074b7d888bdc7c51",
+      "rows": 1251,
+      "target": "retest_hold_given_retest_contact"
+    }
+  ],
+  "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "status": "PASS"
+}

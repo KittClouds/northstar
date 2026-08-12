@@ -1,0 +1,19 @@
+{
+  "contract": "RG2_AUCTION_RESEARCH_PACKED_V1",
+  "status": "PASS",
+  "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "packed_semantic_sha256": "2bcbfccec8261dcb9894baae7623b3ec3452612af99d28f201c0f2a5d1a78dec",
+  "artifact_sha256": "3b7ddff33bffa55814e8493d5727a9bbb9ca62bb4cb26e71251812859b5d6b25",
+  "schema_dictionary_sha256": "d48977075cc3a07f779c04cb23f2700842a7f7ee4064e43b07f2647e4e453a6b",
+  "artifact_bytes": 46776680,
+  "counts": [
+    40,
+    38957,
+    7764,
+    1462,
+    49281,
+    7764,
+    628
+  ],
+  "artifact": "artifacts\\rg2-auction-research-v1.mmap"
+}

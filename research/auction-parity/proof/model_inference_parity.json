@@ -1,0 +1,40 @@
+{
+  "contract": "NORTHSTAR_PHASE11_MODEL_INFERENCE_PARITY_V1",
+  "status": "PASS",
+  "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "holdout_touched": false,
+  "models": [
+    {
+      "target": "reclaim_given_break",
+      "model_class": "RIDGE_LOGISTIC",
+      "rows": 1547,
+      "features": 99,
+      "maximum_score_absolute_error": 0.0,
+      "maximum_probability_absolute_error": 0.0
+    },
+    {
+      "target": "initial_acceptance_given_initial_contact",
+      "model_class": "RIDGE_LOGISTIC",
+      "rows": 5051,
+      "features": 129,
+      "maximum_score_absolute_error": 0.0,
+      "maximum_probability_absolute_error": 0.0
+    },
+    {
+      "target": "rejection_given_initial_contact",
+      "model_class": "RIDGE_LOGISTIC",
+      "rows": 5051,
+      "features": 129,
+      "maximum_score_absolute_error": 0.0,
+      "maximum_probability_absolute_error": 0.0
+    },
+    {
+      "target": "retest_hold_given_retest_contact",
+      "model_class": "BOOSTED_STUMPS",
+      "rows": 1251,
+      "features": 94,
+      "maximum_score_absolute_error": 0.0,
+      "maximum_probability_absolute_error": 0.0
+    }
+  ]
+}

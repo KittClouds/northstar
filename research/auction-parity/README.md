@@ -20,8 +20,12 @@ and reconstructs its sealed ledgers before any later Northstar wiring.
 - Exact reproduction of all 32 MQL5 ledger serialization hashes.
 - Exact reproduction of all 32 MQL5 terminal accumulator hashes.
 - Threshold, idempotence, mirror, and episode-gap boundary proofs.
+- Versioned 46.8 MB mmap artifact for the seven auction research relations.
+- Exact packed Phase 10.5 target ID-set parity, not count-only parity.
+- Complete Phase 11 candidate artifacts and exact Rust inference parity.
+- Disabled-by-default MT5 parity-oracle capture and fail-closed Rust verifier.
 
-No UI, TradeLocker, order, macro, ledger, or live-stream integration exists here.
+No UI, TradeLocker, order, macro, execution, or live-stream integration exists here.
 
 ## Build
 
@@ -47,11 +51,31 @@ cargo run -p northstar-parity-cli -- verify-interface `
   --workspace "$researchRoot"
 
 cargo run -p northstar-parity-cli -- verify-golden
+
+cargo run --release -p northstar-parity-cli -- pack `
+  --corpus "$researchRoot\furnace\corpus" `
+  --seal "$researchRoot\phase10\seal\corpus_seal.json" `
+  --output "artifacts\rg2-auction-research-v1.mmap" `
+  --receipt "proof\rg2_packed_corpus.json"
+
+cargo run --release -p northstar-parity-cli -- verify-packed `
+  --artifact "artifacts\rg2-auction-research-v1.mmap"
+
+cargo run --release -p northstar-parity-cli -- verify-packed-interface `
+  --artifact "artifacts\rg2-auction-research-v1.mmap" `
+  --registry "artifacts\phase12-freeze\target_id_registry.json" `
+  --freeze-receipt "artifacts\phase12-freeze\freeze_receipt.json" `
+  --receipt "proof\packed_interface_parity.json"
+
+cargo run --release -p northstar-parity-cli -- verify-models `
+  --registry "artifacts\phase12-freeze\frozen_model_registry.json" `
+  --freeze-receipt "artifacts\phase12-freeze\freeze_receipt.json" `
+  --receipt "proof\model_inference_parity.json"
 ```
 
-## Deliberate stop line
+## Deliberate authority line
 
-The workspace is not wired into Northstar. The cross-language golden ledger is
-now exact; verified corpus rows still need to be packed into a stable mmap
-artifact and reopened with row/key/view parity. Only that artifact will become
-a candidate dependency for a later Northstar adapter crate.
+The isolated read-only artifact, adapter, and inference crates are ready to be
+wired later. Northstar application authority is unchanged. Full independent
+historical reconstruction remains blocked on fresh oracle captures; see
+`PHASE12_IMPLEMENTATION.md`.

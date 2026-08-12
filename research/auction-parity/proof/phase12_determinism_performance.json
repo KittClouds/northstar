@@ -1,0 +1,37 @@
+{
+  "contract": "NORTHSTAR_PHASE12_DETERMINISM_PERFORMANCE_V1",
+  "status": "PASS",
+  "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "original_artifact_sha256": "3b7ddff33bffa55814e8493d5727a9bbb9ca62bb4cb26e71251812859b5d6b25",
+  "repacked_artifact_sha256": "3b7ddff33bffa55814e8493d5727a9bbb9ca62bb4cb26e71251812859b5d6b25",
+  "original_bytes": 46776680,
+  "repacked_bytes": 46776680,
+  "byte_identical": true,
+  "repack_elapsed_ms": 5646.897,
+  "python_freeze_receipt_sha256": "72f1cb2753d2302c94b9d77bcabeb27cc309f00520a3a87684a098c3ce05b271",
+  "python_freeze_repeat_identical": true,
+  "warm_process_measurements": [
+    {
+      "operation": "verify_packed",
+      "runs": 5,
+      "minimum_ms": 96.809,
+      "median_ms": 103.420,
+      "maximum_ms": 178.877
+    },
+    {
+      "operation": "verify_packed_interface",
+      "runs": 5,
+      "minimum_ms": 125.542,
+      "median_ms": 127.223,
+      "maximum_ms": 137.503
+    },
+    {
+      "operation": "verify_models",
+      "runs": 5,
+      "minimum_ms": 35.121,
+      "median_ms": 39.605,
+      "maximum_ms": 43.564
+    }
+  ],
+  "note": "Diagnostic workstation wall-clock measurements; not a cross-machine performance promise."
+}

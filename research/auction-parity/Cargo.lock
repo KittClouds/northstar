@@ -177,6 +177,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "northstar-model-parity"
+version = "0.1.0"
+dependencies = [
+ "memmap2",
+ "serde",
+ "serde_json",
+ "sha2",
+ "thiserror",
+]
+
+[[package]]
 name = "northstar-mt5-corpus"
 version = "0.1.0"
 dependencies = [
@@ -192,12 +203,31 @@ dependencies = [
 ]
 
 [[package]]
+name = "northstar-packed-corpus"
+version = "0.1.0"
+dependencies = [
+ "memchr",
+ "memmap2",
+ "northstar-auction-contract",
+ "northstar-mt5-corpus",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tempfile",
+ "thiserror",
+]
+
+[[package]]
 name = "northstar-parity-cli"
 version = "0.1.0"
 dependencies = [
  "northstar-auction-replay",
+ "northstar-model-parity",
  "northstar-mt5-corpus",
+ "northstar-packed-corpus",
  "northstar-parity-fixtures",
+ "northstar-replay-oracle",
+ "northstar-research-adapter",
  "serde",
  "serde_json",
 ]
@@ -208,6 +238,33 @@ version = "0.1.0"
 dependencies = [
  "northstar-auction-contract",
  "serde",
+]
+
+[[package]]
+name = "northstar-replay-oracle"
+version = "0.1.0"
+dependencies = [
+ "hashbrown",
+ "memchr",
+ "memmap2",
+ "northstar-mt5-corpus",
+ "serde",
+ "sha2",
+ "tempfile",
+ "thiserror",
+]
+
+[[package]]
+name = "northstar-research-adapter"
+version = "0.1.0"
+dependencies = [
+ "hashbrown",
+ "northstar-auction-contract",
+ "northstar-packed-corpus",
+ "serde",
+ "serde_json",
+ "sha2",
+ "thiserror",
 ]
 
 [[package]]

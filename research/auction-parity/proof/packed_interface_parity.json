@@ -1,0 +1,78 @@
+{
+  "contract": "NORTHSTAR_RG2_PACKED_RESEARCH_ADAPTER_V1",
+  "status": "PASS",
+  "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "packed_semantic_sha256": "2bcbfccec8261dcb9894baae7623b3ec3452612af99d28f201c0f2a5d1a78dec",
+  "views": {
+    "runs": 40,
+    "attempts": 7764,
+    "attempt_chains": 7764,
+    "episodes": 1462,
+    "event_timeline": 38957,
+    "transits": 628,
+    "contributors": 49281,
+    "features": 7764
+  },
+  "targets": [
+    {
+      "target": "reclaim_given_break",
+      "identity_kind": "run_key+attempt_id",
+      "eligible_count": 2073,
+      "observed_count": 880,
+      "censored_count": 526,
+      "analyzable_count": 1547,
+      "eligible_ids_sha256": "7b91e4ed326f064181f235b86c5dbbff331fae5784e6055fda8e9448b12e83d5",
+      "observed_ids_sha256": "d431a7a153b98c8b3348b536644f9a3efddc06dc508d4a37a2e79df524f495a4",
+      "censored_ids_sha256": "716248383316157bd5630e4d93db67392f1623e637c9f66887ad5f93738fe4e7",
+      "analyzable_ids_sha256": "6664f2a81a497cf7ec45abe5cab2a1eab647ebd0e9215249d621ae9fdb8f7afd"
+    },
+    {
+      "target": "initial_acceptance_given_initial_contact",
+      "identity_kind": "run_key+attempt_id",
+      "eligible_count": 5737,
+      "observed_count": 667,
+      "censored_count": 686,
+      "analyzable_count": 5051,
+      "eligible_ids_sha256": "b538799c20a8679a26ac19e49206c8a9e9bc65fcfac97a88835576a1681e1a09",
+      "observed_ids_sha256": "27fd34fd546331ce67dbe582ff1ba970b759f34145143562e1cc5b1a36a52b08",
+      "censored_ids_sha256": "35f4ef0f16696663b85be1f6991fa55982f096636238eaa3a0b6a446d634c93f",
+      "analyzable_ids_sha256": "c044f0f62c235a010317c2846e51960ae3ac0ab074a7986113ad964df219bf16"
+    },
+    {
+      "target": "rejection_given_initial_contact",
+      "identity_kind": "run_key+attempt_id",
+      "eligible_count": 5737,
+      "observed_count": 3504,
+      "censored_count": 686,
+      "analyzable_count": 5051,
+      "eligible_ids_sha256": "b538799c20a8679a26ac19e49206c8a9e9bc65fcfac97a88835576a1681e1a09",
+      "observed_ids_sha256": "109e76681093017143146b14cb9194fa086bf1cdfdf81c5ae8bce1c1678e370f",
+      "censored_ids_sha256": "35f4ef0f16696663b85be1f6991fa55982f096636238eaa3a0b6a446d634c93f",
+      "analyzable_ids_sha256": "c044f0f62c235a010317c2846e51960ae3ac0ab074a7986113ad964df219bf16"
+    },
+    {
+      "target": "retest_hold_given_retest_contact",
+      "identity_kind": "run_key+attempt_id",
+      "eligible_count": 1267,
+      "observed_count": 763,
+      "censored_count": 16,
+      "analyzable_count": 1251,
+      "eligible_ids_sha256": "3a196cf3e253a142188814aaf9adf9f3b694f722ab141e882e01878a17c790e2",
+      "observed_ids_sha256": "09d0bab65a7e69ede79ba1a59877e5ced8c52ec89e18ee5be804760bdffda397",
+      "censored_ids_sha256": "8eda3bfd04aab9eb2432600de7c52bced3bdd547c50441a0789698f1600790b4",
+      "analyzable_ids_sha256": "1dedac9e14167d33801d0fe4c4e2d5e6f8249b173ad60b50e37b19a9948e7363"
+    },
+    {
+      "target": "transit_given_episode_acceptance",
+      "identity_kind": "run_key+episode_id",
+      "eligible_count": 386,
+      "observed_count": 227,
+      "censored_count": 123,
+      "analyzable_count": 263,
+      "eligible_ids_sha256": "466596672c2d99d721301190d47ff9e9232925c51826e2cd5a966b836ddbaf7a",
+      "observed_ids_sha256": "c6e573bd0ee24a0fbc8e0a5af8bc77fe05b05fdf3c71411b640ef74cd28fd5bd",
+      "censored_ids_sha256": "4f4ef6a229fb9d7934228f32ce17605da05e1189bab5d3cd9e08c107fb5363d9",
+      "analyzable_ids_sha256": "4311a0f9954773c72ff4d5fca254c02301ba85ed2ad6ebe2bfce147204c5263e"
+    }
+  ]
+}

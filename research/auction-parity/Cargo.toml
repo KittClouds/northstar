@@ -3,6 +3,10 @@ resolver = "2"
 members = [
     "crates/northstar-auction-contract",
     "crates/northstar-mt5-corpus",
+    "crates/northstar-packed-corpus",
+    "crates/northstar-research-adapter",
+    "crates/northstar-model-parity",
+    "crates/northstar-replay-oracle",
     "crates/northstar-auction-replay",
     "crates/northstar-parity-fixtures",
     "crates/northstar-parity-cli",

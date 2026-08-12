@@ -1,0 +1,27 @@
+/target/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Northstar runtime truth stays local; fixtures remain explicitly tracked.
+/data/
+/runtime/
+/qa-*/
+*.canonical
+*.raw
+*.ledger
+*.journal
+*.mmap
+
+# Local diagnostics and editor/OS state
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

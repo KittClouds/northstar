@@ -1,0 +1,12 @@
+{
+  "BEAAPI": {
+    "Request": {"RequestParam": []},
+    "Results": {
+      "Data": [
+        {"TableName":"T20804","SeriesCode":"DPCERD3M086SBEA","LineNumber":"6","LineDescription":"Personal consumption expenditures excluding food and energy","TimePeriod":"2025M05","CL_UNIT":"Index","UNIT_MULT":"0","DataValue":"124.317","NoteRef":"T20804"},
+        {"TableName":"T20804","SeriesCode":"DPCERD3M086SBEA","LineNumber":"6","LineDescription":"Personal consumption expenditures excluding food and energy","TimePeriod":"2025M06","CL_UNIT":"Index","UNIT_MULT":"0","DataValue":"124.529","NoteRef":"T20804"},
+        {"TableName":"T20804","SeriesCode":"DPCERD3M086SBEA","LineNumber":"5","LineDescription":"Personal consumption expenditures","TimePeriod":"2025M06","CL_UNIT":"Index","UNIT_MULT":"0","DataValue":"123.901","NoteRef":"T20804"}
+      ]
+    }
+  }
+}

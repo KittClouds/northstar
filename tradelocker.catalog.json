@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "environment": "live",
+  "bindings": [
+    { "instrumentId": 1, "northstarSymbol": "US100", "providerSymbol": "NAS100", "priceScale": 10000 },
+    { "instrumentId": 2, "northstarSymbol": "US500", "providerSymbol": "SPX500", "priceScale": 10000 },
+    { "instrumentId": 3, "northstarSymbol": "US30", "providerSymbol": "US30", "priceScale": 10000 },
+    { "instrumentId": 4, "northstarSymbol": "DE40", "providerSymbol": "DE40", "priceScale": 10000 },
+    { "instrumentId": 5, "northstarSymbol": "UK100", "providerSymbol": "UK100", "priceScale": 10000 },
+    { "instrumentId": 6, "northstarSymbol": "JP225", "providerSymbol": "JP225", "priceScale": 10000 }
+  ]
+}

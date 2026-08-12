@@ -1,0 +1,43 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 95,
+  "message": [],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SA0",
+        "data": [
+          {
+            "year": "2026",
+            "period": "M06",
+            "periodName": "June",
+            "latest": "true",
+            "value": "333.952",
+            "footnotes": [{"code": "P", "text": "Preliminary."}]
+          },
+          {
+            "year": "2026",
+            "period": "M05",
+            "periodName": "May",
+            "value": "335.123",
+            "footnotes": [{}]
+          },
+          {
+            "year": "2025",
+            "period": "M13",
+            "periodName": "Annual",
+            "value": "321.943",
+            "footnotes": [{}]
+          },
+          {
+            "year": "2025",
+            "period": "M10",
+            "periodName": "October",
+            "value": "-",
+            "footnotes": [{"code": "X", "text": "Data unavailable."}]
+          }
+        ]
+      }
+    ]
+  }
+}

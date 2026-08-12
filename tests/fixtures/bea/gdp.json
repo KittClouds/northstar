@@ -1,0 +1,12 @@
+{
+  "BEAAPI": {
+    "Request": {"RequestParam": []},
+    "Results": {
+      "Data": [
+        {"TableName":"T10101","SeriesCode":"A191RL","LineNumber":"1","LineDescription":"Real gross domestic product","TimePeriod":"2024Q4","METRIC_NAME":"PercentChangeFromPrecedingPeriod","CL_UNIT":"Percent","UNIT_MULT":"0","DataValue":"3.8","NoteRef":"T10101"},
+        {"TableName":"T10101","SeriesCode":"A191RL","LineNumber":"1","LineDescription":"Real gross domestic product","TimePeriod":"2025Q1","METRIC_NAME":"PercentChangeFromPrecedingPeriod","CL_UNIT":"Percent","UNIT_MULT":"0","DataValue":"-0.5","NoteRef":"T10101"},
+        {"TableName":"T10101","SeriesCode":"A006RL","LineNumber":"2","LineDescription":"Personal consumption expenditures","TimePeriod":"2025Q1","METRIC_NAME":"PercentChangeFromPrecedingPeriod","CL_UNIT":"Percent","UNIT_MULT":"0","DataValue":"0.5","NoteRef":"T10101"}
+      ]
+    }
+  }
+}

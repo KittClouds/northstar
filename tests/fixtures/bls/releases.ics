@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//U.S. Bureau of Labor Statistics//Release Calendar//EN
+BEGIN:VEVENT
+UID:cpi-2026-07@bls.gov
+DTSTART;TZID=America/New_York:20260714T083000
+SUMMARY:Consumer Price Index for June 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-07@bls.gov
+DTSTART;TZID=America/New_York:20260715T083000
+SUMMARY:Producer Price Index for June 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:empsit-2026-08@bls.gov
+DTSTART;TZID=America/New_York:20260807T083000
+SUMMARY:Employment Situation for July 2026
+END:VEVENT
+END:VCALENDAR

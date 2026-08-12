@@ -1,0 +1,34 @@
+[
+  {
+    "id":"26080420974+F","report_date_as_yyyy_mm_dd":"2026-08-04T00:00:00.000","cftc_contract_market_code":"20974+","open_interest_all":"334748",
+    "dealer_positions_long_all":"78508","dealer_positions_short_all":"59894","dealer_positions_spread_all":"9438",
+    "asset_mgr_positions_long":"100767","asset_mgr_positions_short":"35515","asset_mgr_positions_spread":"5113",
+    "lev_money_positions_long":"40114","lev_money_positions_short":"140754","lev_money_positions_spread":"31829",
+    "other_rept_positions_long":"13782","other_rept_positions_short":"7937","other_rept_positions_spread":"57",
+    "nonrept_positions_long_all":"55140","nonrept_positions_short_all":"44211"
+  },
+  {
+    "id":"26080413874+F","report_date_as_yyyy_mm_dd":"2026-08-04T00:00:00.000","cftc_contract_market_code":"13874+","open_interest_all":"2140892",
+    "dealer_positions_long_all":"236360","dealer_positions_short_all":"945716","dealer_positions_spread_all":"65072",
+    "asset_mgr_positions_long":"1164371","asset_mgr_positions_short":"225287","asset_mgr_positions_spread":"91724",
+    "lev_money_positions_long":"201532","lev_money_positions_short":"534631","lev_money_positions_spread":"55503",
+    "other_rept_positions_long":"53004","other_rept_positions_short":"54744","other_rept_positions_spread":"866",
+    "nonrept_positions_long_all":"272461","nonrept_positions_short_all":"167349"
+  },
+  {
+    "id":"260804124603F","report_date_as_yyyy_mm_dd":"2026-08-04T00:00:00.000","cftc_contract_market_code":"124603","open_interest_all":"91653",
+    "dealer_positions_long_all":"40781","dealer_positions_short_all":"52017","dealer_positions_spread_all":"308",
+    "asset_mgr_positions_long":"15524","asset_mgr_positions_short":"6921","asset_mgr_positions_spread":"2547",
+    "lev_money_positions_long":"15439","lev_money_positions_short":"18552","lev_money_positions_spread":"658",
+    "other_rept_positions_long":"218","other_rept_positions_short":"0","other_rept_positions_spread":"0",
+    "nonrept_positions_long_all":"16178","nonrept_positions_short_all":"10650"
+  },
+  {
+    "id":"260804240743F","report_date_as_yyyy_mm_dd":"2026-08-04T00:00:00.000","cftc_contract_market_code":"240743","open_interest_all":"33506",
+    "dealer_positions_long_all":"12910","dealer_positions_short_all":"8571","dealer_positions_spread_all":"386",
+    "asset_mgr_positions_long":"7449","asset_mgr_positions_short":"679","asset_mgr_positions_spread":"114",
+    "lev_money_positions_long":"6246","lev_money_positions_short":"3092","lev_money_positions_spread":"20",
+    "other_rept_positions_long":"0","other_rept_positions_short":"0","other_rept_positions_spread":"0",
+    "nonrept_positions_long_all":"6381","nonrept_positions_short_all":"20644"
+  }
+]

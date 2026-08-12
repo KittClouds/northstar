@@ -177,9 +177,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "northstar-holdout-eval"
+version = "0.1.0"
+dependencies = [
+ "hashbrown",
+ "memchr",
+ "memmap2",
+ "serde",
+ "serde_json",
+ "sha2",
+ "thiserror",
+]
+
+[[package]]
 name = "northstar-model-parity"
 version = "0.1.0"
 dependencies = [
+ "memchr",
  "memmap2",
  "serde",
  "serde_json",

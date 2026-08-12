@@ -1,0 +1,11 @@
+*.rs text eol=lf
+*.toml text eol=lf
+Cargo.lock text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.py text eol=lf
+*.mq5 text eol=crlf
+*.mqh text eol=crlf
+*.f64 binary
+*.mmap binary

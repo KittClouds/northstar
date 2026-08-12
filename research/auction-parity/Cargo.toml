@@ -6,6 +6,7 @@ members = [
     "crates/northstar-packed-corpus",
     "crates/northstar-research-adapter",
     "crates/northstar-model-parity",
+    "crates/northstar-holdout-eval",
     "crates/northstar-replay-oracle",
     "crates/northstar-auction-replay",
     "crates/northstar-parity-fixtures",

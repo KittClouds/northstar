@@ -5,6 +5,7 @@ use std::{
     path::{Path, PathBuf},
 };
 
+use memchr::memchr_iter;
 use memmap2::MmapOptions;
 use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
@@ -147,7 +148,7 @@ pub fn verify_model_registry_with_sha(
     path: &Path,
     expected_sha256: &str,
 ) -> Result<ModelParityReceipt> {
-    verify_sha(path, expected_sha256)?;
+    verify_text_sha(path, expected_sha256)?;
     verify_model_registry_inner(path)
 }
 
@@ -168,7 +169,7 @@ fn verify_model_registry_inner(path: &Path) -> Result<ModelParityReceipt> {
     for row in &registry.models {
         let model_path = root.join(&row.model);
         let reference_path = root.join(&row.reference);
-        verify_sha(&model_path, &row.model_sha256)?;
+        verify_text_sha(&model_path, &row.model_sha256)?;
         verify_sha(&reference_path, &row.reference_sha256)?;
         let artifact: Artifact = read_json(&model_path)?;
         if artifact.contract != "MST_PHASE11_FROZEN_MODEL_V1"
@@ -351,6 +352,29 @@ fn verify_sha(path: &Path, expected: &str) -> Result<()> {
     if actual != expected {
         return Err(ModelError::Contract(format!(
             "{} SHA-256 mismatch",
+            path.display()
+        )));
+    }
+    Ok(())
+}
+
+fn verify_text_sha(path: &Path, expected: &str) -> Result<()> {
+    let bytes = fs::read(path).map_err(|source| ModelError::Io {
+        path: path.to_path_buf(),
+        source,
+    })?;
+    let mut digest = Sha256::new();
+    let mut start = 0;
+    for cr in memchr_iter(b'\r', &bytes) {
+        if bytes.get(cr + 1) == Some(&b'\n') {
+            digest.update(&bytes[start..cr]);
+            start = cr + 1;
+        }
+    }
+    digest.update(&bytes[start..]);
+    if hex(&digest.finalize()) != expected {
+        return Err(ModelError::Contract(format!(
+            "canonical text SHA-256 mismatch: {}",
             path.display()
         )));
     }

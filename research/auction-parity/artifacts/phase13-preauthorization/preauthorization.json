@@ -1,0 +1,308 @@
+{
+  "contract": "NORTHSTAR_RG2_HOLDOUT_PREAUTHORIZATION_V1",
+  "status": "PREAUTHORIZED_NOT_AUTHORIZED",
+  "holdout_authorized": false,
+  "research_generation": 2,
+  "identities": {
+    "source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+    "packed_corpus_semantic_sha256": "2bcbfccec8261dcb9894baae7623b3ec3452612af99d28f201c0f2a5d1a78dec",
+    "phase11_seal_sha256": "7dae7cf7a9dae67603419efa180815ad6c321183e8a054d4e1a185daa4d56d90",
+    "candidate_protocol_sha256": "8d8525c082be23be43e75e9c15e4002ab598e88fc371c4b482ff7cf2d2a444bf",
+    "model_registry_sha256": "79f43b7a5076b5103113c17a1fd6aba879d32e4986332f99a1abe29b023abdec",
+    "reservation_manifest_sha256": "a1d32de22a3e4dfa0b315fcb77eca923a2d517e1f76d666eebe4939d9e410777",
+    "feature_schema_sha256": "d580e254a46f4f750bd9e24b7f4580f7a7b88837bcfd8ffcc30cbcb8dbc74472",
+    "research_interface_sha256": "7000d52d9b4234de19df4ba0b7ddb225ccf9556d095e3589e4018ed57bac60e6",
+    "evaluator_code_sha256": "3482303a643947da7ec1e2ec4a4bd1fb9738897c31c63c07f4dfeac43f119d29"
+  },
+  "candidates": [
+    {
+      "target": "initial_acceptance_given_initial_contact",
+      "model_class": "RIDGE_LOGISTIC",
+      "model_file": "models/initial_acceptance_given_initial_contact.model.json",
+      "model_canonical_sha256": "88942e1c39278133a615c2b1e8ae9cf2730a19093785593f66745c753b75bf2d",
+      "model_semantic_sha256": "809afc6222f0a49568e7446c739549f976163f5b55e384dd76e4d72e3c25234a",
+      "eligibility": "run-blocked attempts; episode membership never crosses a run fold",
+      "development": {
+        "prevalence": 0.12852112676056338,
+        "forward_auc": 0.7904281167842813,
+        "forward_average_precision": 0.29729907613759665,
+        "forward_brier": 0.10022065508617645,
+        "forward_log_loss": 0.327869757161391,
+        "forward_ece": 0.038101982301262244
+      },
+      "gates": {
+        "minimum_eligible": 300,
+        "minimum_analyzable": 250,
+        "minimum_positive": 30,
+        "minimum_negative": 100,
+        "minimum_runs": 8,
+        "maximum_censoring_rate": 0.3,
+        "minimum_auc": 0.65,
+        "minimum_auc_delta": -0.1,
+        "maximum_log_loss_delta": 0.075,
+        "maximum_brier_delta": 0.04,
+        "minimum_calibration_intercept": -0.75,
+        "maximum_calibration_intercept": 0.75,
+        "minimum_calibration_slope": 0.5,
+        "maximum_calibration_slope": 1.5,
+        "maximum_ece": 0.15,
+        "require_positive_primary_delta_each_calendar_block": true
+      }
+    },
+    {
+      "target": "reclaim_given_break",
+      "model_class": "RIDGE_LOGISTIC",
+      "model_file": "models/reclaim_given_break.model.json",
+      "model_canonical_sha256": "f5b4e593739379f4eed8db177730bf21919288c6310375a4553213649f3bff36",
+      "model_semantic_sha256": "c27cffc56f907863c753c47dcfb895563bfd8e9f4cfd3bffc2b20d4ef74f5102",
+      "eligibility": "run-blocked attempts; episode membership never crosses a run fold",
+      "development": {
+        "prevalence": 0.558645707376058,
+        "forward_auc": 0.5889758643183302,
+        "forward_average_precision": 0.6045237565244169,
+        "forward_brier": 0.23681553982856474,
+        "forward_log_loss": 0.6654763321351604,
+        "forward_ece": 0.05832778588392756
+      },
+      "gates": {
+        "minimum_eligible": 150,
+        "minimum_analyzable": 100,
+        "minimum_positive": 25,
+        "minimum_negative": 25,
+        "minimum_runs": 8,
+        "maximum_censoring_rate": 0.4,
+        "minimum_auc": 0.52,
+        "minimum_auc_delta": -0.1,
+        "maximum_log_loss_delta": 0.075,
+        "maximum_brier_delta": 0.04,
+        "minimum_calibration_intercept": -0.75,
+        "maximum_calibration_intercept": 0.75,
+        "minimum_calibration_slope": 0.5,
+        "maximum_calibration_slope": 1.5,
+        "maximum_ece": 0.15,
+        "require_positive_primary_delta_each_calendar_block": true
+      }
+    },
+    {
+      "target": "rejection_given_initial_contact",
+      "model_class": "RIDGE_LOGISTIC",
+      "model_file": "models/rejection_given_initial_contact.model.json",
+      "model_canonical_sha256": "eedd556581131cbd74b2e6758ae1987d71a48ca0a2ba484745746d4a6109ec95",
+      "model_semantic_sha256": "ffcefdaaabbe210af31243b515ba98792f75063cfc1a32c8c812cb2b333c9bec",
+      "eligibility": "run-blocked attempts; episode membership never crosses a run fold",
+      "development": {
+        "prevalence": 0.7088028169014085,
+        "forward_auc": 0.9073447020004795,
+        "forward_average_precision": 0.9605221897835798,
+        "forward_brier": 0.11012649593381069,
+        "forward_log_loss": 0.3483029826609859,
+        "forward_ece": 0.03490662928568896
+      },
+      "gates": {
+        "minimum_eligible": 300,
+        "minimum_analyzable": 250,
+        "minimum_positive": 100,
+        "minimum_negative": 50,
+        "minimum_runs": 8,
+        "maximum_censoring_rate": 0.3,
+        "minimum_auc": 0.75,
+        "minimum_auc_delta": -0.1,
+        "maximum_log_loss_delta": 0.075,
+        "maximum_brier_delta": 0.04,
+        "minimum_calibration_intercept": -0.75,
+        "maximum_calibration_intercept": 0.75,
+        "minimum_calibration_slope": 0.5,
+        "maximum_calibration_slope": 1.5,
+        "maximum_ece": 0.15,
+        "require_positive_primary_delta_each_calendar_block": true
+      }
+    },
+    {
+      "target": "retest_hold_given_retest_contact",
+      "model_class": "BOOSTED_STUMPS",
+      "model_file": "models/retest_hold_given_retest_contact.model.json",
+      "model_canonical_sha256": "6b3180f5ab96ebdb0abbf1b5da6d723c89e2c0f78de40072c2501588f32aae3f",
+      "model_semantic_sha256": "92dcd32ffc71019c2751c27855ac1f5d04508129ac2eb679fa5ccf44c0d80614",
+      "eligibility": "run-blocked attempts; episode membership never crosses a run fold",
+      "development": {
+        "prevalence": 0.6174698795180723,
+        "forward_auc": 0.8816641060111389,
+        "forward_average_precision": 0.894915520646475,
+        "forward_brier": 0.12209692505598649,
+        "forward_log_loss": 0.406890064172368,
+        "forward_ece": 0.06469232393405239
+      },
+      "gates": {
+        "minimum_eligible": 100,
+        "minimum_analyzable": 80,
+        "minimum_positive": 20,
+        "minimum_negative": 20,
+        "minimum_runs": 8,
+        "maximum_censoring_rate": 0.2,
+        "minimum_auc": 0.7,
+        "minimum_auc_delta": -0.12,
+        "maximum_log_loss_delta": 0.075,
+        "maximum_brier_delta": 0.04,
+        "minimum_calibration_intercept": -0.75,
+        "maximum_calibration_intercept": 0.75,
+        "minimum_calibration_slope": 0.5,
+        "maximum_calibration_slope": 1.5,
+        "maximum_ece": 0.15,
+        "require_positive_primary_delta_each_calendar_block": true
+      }
+    }
+  ],
+  "reservations": [
+    {
+      "canonical_instrument": "DE40",
+      "broker_symbol": "DE40",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_A",
+      "window_start": 1770595200,
+      "window_end_exclusive": 1771027200,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "DE40",
+      "broker_symbol": "DE40",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_B",
+      "window_start": 1781481600,
+      "window_end_exclusive": 1781913600,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "FRA40",
+      "broker_symbol": "FRA40",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_A",
+      "window_start": 1770595200,
+      "window_end_exclusive": 1771027200,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "FRA40",
+      "broker_symbol": "FRA40",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_B",
+      "window_start": 1781481600,
+      "window_end_exclusive": 1781913600,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "JPN225",
+      "broker_symbol": "JPN225",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_A",
+      "window_start": 1770595200,
+      "window_end_exclusive": 1771027200,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "JPN225",
+      "broker_symbol": "JPN225",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_B",
+      "window_start": 1781481600,
+      "window_end_exclusive": 1781913600,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "US30",
+      "broker_symbol": "US30",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_A",
+      "window_start": 1770595200,
+      "window_end_exclusive": 1771027200,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "US30",
+      "broker_symbol": "US30",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_B",
+      "window_start": 1781481600,
+      "window_end_exclusive": 1781913600,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "US500",
+      "broker_symbol": "US500",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_A",
+      "window_start": 1770595200,
+      "window_end_exclusive": 1771027200,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "US500",
+      "broker_symbol": "US500",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_B",
+      "window_start": 1781481600,
+      "window_end_exclusive": 1781913600,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "USTEC",
+      "broker_symbol": "USTEC",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_A",
+      "window_start": 1770595200,
+      "window_end_exclusive": 1771027200,
+      "status": "RESERVED_UNTOUCHED"
+    },
+    {
+      "canonical_instrument": "USTEC",
+      "broker_symbol": "USTEC",
+      "data_source_id": "METAQUOTES_DEMO",
+      "holdout_id": "VERIFICATION_B",
+      "window_start": 1781481600,
+      "window_end_exclusive": 1781913600,
+      "status": "RESERVED_UNTOUCHED"
+    }
+  ],
+  "evaluation": {
+    "primary_metric": "PAIRED_LOG_LOSS_IMPROVEMENT_VS_FROZEN_DEVELOPMENT_PREVALENCE",
+    "baseline": "FROZEN_DEVELOPMENT_PREVALENCE",
+    "censoring": "EXCLUDE_CENSORED_FROM_SCORE_RETAIN_IN_DENOMINATORS",
+    "probability_clip": 1e-15,
+    "reliability_boundaries": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "bootstrap": {
+      "unit": "RUN_CLUSTER",
+      "seed": 117011,
+      "repetitions": 10000,
+      "confidence_level": 0.95
+    },
+    "multiplicity": {
+      "method": "HOLM_ONE_SIDED_PRIMARY_P",
+      "family_alpha": 0.05,
+      "candidate_family": [
+        "initial_acceptance_given_initial_contact",
+        "reclaim_given_break",
+        "rejection_given_initial_contact",
+        "retest_hold_given_retest_contact"
+      ]
+    },
+    "one_shot": {
+      "expected_reservations": 12,
+      "infrastructure_failure_status": "ABORT_NO_CANDIDATE_REPORT",
+      "consumed_before_scoring": true,
+      "atomic_report_publication": true,
+      "partial_results_forbidden": true
+    }
+  },
+  "protocol_sha256": "869402c193435f149120f1130ddefd817f87a39240c51bc5536292fd2b285d2d"
+}

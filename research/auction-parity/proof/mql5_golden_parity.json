@@ -13,6 +13,8 @@
     "scenarios": 16,
     "directional_ledgers": 32,
     "semantic_assertions": 128,
+    "ledger_hash_assertions": 32,
+    "terminal_hash_assertions": 32,
     "boundary_assertions": 56
   }
 }

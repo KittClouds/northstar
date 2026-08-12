@@ -1,5 +1,6 @@
 //! Independent reconstruction of the sealed Phase 10.5 analytical interface.
 
+mod golden_exact;
 mod grammar;
 mod interface;
 

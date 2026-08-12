@@ -17,6 +17,8 @@ and reconstructs its sealed ledgers before any later Northstar wiring.
 - Independent reconstruction of all Phase 10.5 view and target cardinalities.
 - Independent auction grammar for all 16 golden scenarios in both directions.
 - Exact reproduction of all 32 frozen MQL5 event-ID hashes.
+- Exact reproduction of all 32 MQL5 ledger serialization hashes.
+- Exact reproduction of all 32 MQL5 terminal accumulator hashes.
 - Threshold, idempotence, mirror, and episode-gap boundary proofs.
 
 No UI, TradeLocker, order, macro, ledger, or live-stream integration exists here.
@@ -49,7 +51,7 @@ cargo run -p northstar-parity-cli -- verify-golden
 
 ## Deliberate stop line
 
-The workspace is not wired into Northstar. Full MQL5 ledger serialization and
-terminal-accumulator hashes remain to be reproduced before the verified data is
-packed into a stable mmap artifact. Only that artifact will become a candidate
-dependency for a later Northstar adapter crate.
+The workspace is not wired into Northstar. The cross-language golden ledger is
+now exact; verified corpus rows still need to be packed into a stable mmap
+artifact and reopened with row/key/view parity. Only that artifact will become
+a candidate dependency for a later Northstar adapter crate.

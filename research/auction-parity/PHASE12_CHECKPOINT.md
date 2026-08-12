@@ -20,8 +20,11 @@ Status: `PARITY FOUNDATION PASS / NORTHSTAR INTEGRATION DEFERRED`
 - Phase 10.5 parity: all five canonical view cardinalities and all five target
   eligible/observed/censored counts match the sealed Python registry.
 - Golden grammar: 16 scenarios, two directions, 32 directional ledgers,
-  128 semantic/identity assertions, and 56 boundary assertions.
+  128 semantic/identity assertions, 32 exact ledger-hash assertions,
+  32 exact terminal-hash assertions, and 56 boundary assertions.
 - Exact event identity: all 32 MQL5 event-ID hashes match.
+- Exact serialization: all 32 MQL5 frozen ledger hashes match.
+- Exact accumulator: all 32 MQL5 terminal hashes match.
 - Unit suite, doc tests, formatting, and strict Clippy all pass.
 - Same-length sealed-file mutation is rejected.
 
@@ -29,9 +32,7 @@ Machine-readable receipts live in `proof/`.
 
 ## Remaining before any Northstar wiring
 
-1. Reproduce the full MQL5 golden ledger serialization hashes.
-2. Reproduce the MQL5 terminal accumulator hashes.
-3. Pack verified rows into a versioned, checksummed, zero-copy mmap artifact.
-4. Reopen the artifact and prove row/key/view parity from the packed bytes.
-5. Expose a tiny read-only adapter crate; keep Northstar integration a separate,
+1. Pack verified rows into a versioned, checksummed, zero-copy mmap artifact.
+2. Reopen the artifact and prove row/key/view parity from the packed bytes.
+3. Expose a tiny read-only adapter crate; keep Northstar integration a separate,
    explicitly approved cut.

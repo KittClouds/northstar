@@ -138,6 +138,14 @@ fn verify_golden(pairs: &[(String, PathBuf)]) -> Result<(), String> {
         report.fixtures.directional_certificates
     );
     println!("semantic_assertions={}", report.grammar.semantic_assertions);
+    println!(
+        "ledger_hash_assertions={}",
+        report.grammar.ledger_hash_assertions
+    );
+    println!(
+        "terminal_hash_assertions={}",
+        report.grammar.terminal_hash_assertions
+    );
     println!("boundary_assertions={}", report.grammar.boundary_assertions);
     Ok(())
 }

@@ -127,7 +127,6 @@ bool g_live_primed = false;
 ulong g_live_next_prime_ms = 0;
 int g_live_prime_failures = 0;
 
-#define MST_PERF_STAGE_COUNT 18
 enum MST_PERF_STAGE
 {
    MST_PERF_TOTAL = 0,
@@ -147,7 +146,8 @@ enum MST_PERF_STAGE
    MST_PERF_RENDER,
    MST_PERF_DELETE,
    MST_PERF_DRAW,
-   MST_PERF_REDRAW
+   MST_PERF_REDRAW,
+   MST_PERF_STAGE_COUNT
 };
 
 struct MST_RenderPerformance
@@ -710,6 +710,19 @@ int OnInit(void)
    DeleteOwnedObjects();
    if(!ValidConfiguredTimeframes())
       return INIT_PARAMETERS_INCORRECT;
+
+#ifdef MST_VISUAL_ONLY
+   // This build owns the visual Strategy Tester lane.  A live chart already
+   // carrying the producer indicators must not start a second embedded
+   // producer stack on the chart thread; that can stall the chart while MT5
+   // waits for nested histories/handles.  The eventual live projection will
+   // consume a read-only controller snapshot instead.
+   if(!g_is_tester)
+   {
+      Print("MST MAP: Strategy Tester visual mode only; live snapshot bridge is not active");
+      return INIT_FAILED;
+   }
+#endif
 
    SetupHiddenBuffer(0, NearestNodeBuffer, "Nearest Structural Node");
    SetupHiddenBuffer(1, LowerNodeBuffer, "Lower Structural Node");

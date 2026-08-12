@@ -33,6 +33,10 @@ and reconstructs its sealed ledgers before any later Northstar wiring.
 
 No UI, TradeLocker, order, macro, execution, or live-stream integration exists here.
 
+The active MT5 controller's chart lifecycle and live scheduling hardening are
+tracked in `CONTROLLER_RUNTIME_FIX.md`; these operational changes do not alter
+the certified replay grammar or research semantics.
+
 ## Build
 
 Create the ignored workspace-local `target` junction once so Cargo output stays

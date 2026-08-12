@@ -1,0 +1,17 @@
+{
+  "contract": "NORTHSTAR_MQL5_CONTROLLER_RUNTIME_FIX_V1",
+  "status": "COMPILE_PASS",
+  "scope": "LIVE_SCHEDULING_BUFFER_SAFETY_CHART_OBJECT_OWNERSHIP",
+  "research_semantics_changed": false,
+  "compiler": "C:\\Program Files\\MetaTrader 5\\metaeditor64.exe",
+  "terminal_id": "D0E8209F77C8CF37AD8BF550E51FF075",
+  "active_source_sha256": "9a77cf374a2f30540dab6197df986577c723b52e902bc147a0ec9bba874c9ed4",
+  "canonical_source_sha256": "9a77cf374a2f30540dab6197df986577c723b52e902bc147a0ec9bba874c9ed4",
+  "ex5_sha256": "35d0fa1640af0a01939bbaeb14f918a9c66eb0f6f3503a818bdddb10bdc4ccaf",
+  "ex5_bytes": 292480,
+  "errors": 0,
+  "warnings": 0,
+  "auction_golden_compile": "PASS_0_ERRORS_0_WARNINGS",
+  "research_identity_compile": "PASS_0_ERRORS_0_WARNINGS",
+  "live_chart_behavior": "REQUIRES_USER_SMOKE_CONFIRMATION"
+}

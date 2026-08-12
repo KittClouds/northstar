@@ -25,6 +25,11 @@ and reconstructs its sealed ledgers before any later Northstar wiring.
 - Complete Phase 11 candidate artifacts and exact Rust inference parity.
 - Disabled-by-default MT5 parity-oracle capture and fail-closed Rust verifier.
 - Fresh bounded replay input-tape determinism through 1,056 frames.
+- Independent Phase 12B auction replay with exact event and relational ledgers.
+- Independent Phase 12C.2-C.5 normalization, DBSCAN, node lifecycle,
+  provenance, corridor, and regional reconstruction.
+- Independent Phase 12D causal feature reconstruction.
+- Transit-bearing five-session proof through 5,155 frames and seven transits.
 
 No UI, TradeLocker, order, macro, execution, or live-stream integration exists here.
 
@@ -72,11 +77,16 @@ cargo run --release -p northstar-parity-cli -- verify-models `
   --registry "artifacts\phase12-freeze\frozen_model_registry.json" `
   --freeze-receipt "artifacts\phase12-freeze\freeze_receipt.json" `
   --receipt "proof\model_inference_parity.json"
+
+cargo run --release -p northstar-parity-cli -- verify-bd `
+  --oracle "X:\path\to\MasterStructureParity\<run_key>" `
+  --ledger-prefix "X:\path\to\MasterAuction_<tag>_RG2_v7" `
+  --receipt "proof\phase12_bd_transit_parity_receipt.json"
 ```
 
 ## Deliberate authority line
 
 The isolated read-only artifact, adapter, and inference crates are ready to be
-wired later. Northstar application authority is unchanged. Full independent
-historical reconstruction now proceeds from the certified fresh oracle tape; see
-`PHASE12_IMPLEMENTATION.md`.
+wired later. Northstar application authority is unchanged. Independent B-D
+historical reconstruction is certified from the raw producer-output boundary;
+full C1 producer reconstruction remains open. See `PHASE12_BD_CERTIFICATE.md`.

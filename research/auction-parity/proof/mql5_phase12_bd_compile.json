@@ -1,0 +1,15 @@
+{
+  "contract": "NORTHSTAR_PHASE12_BD_MQL5_COMPILE_V1",
+  "status": "PASS",
+  "compiler": "C:\\Program Files\\MetaTrader 5\\metaeditor64.exe",
+  "target": "D0E8209F77C8CF37AD8BF550E51FF075",
+  "source_sha256": "7c2211ae887b2dd1e0f92d53c8e386d17a74dbc5748a9f47daac5aa5ce1248a4",
+  "parity_include_sha256": "e103724cb60642d04d5e5170ee0e28eec198b04d5debb9926dec92cdc34abaea",
+  "ex5_sha256": "9b6e1e7e6ef84d0a66fd734f28f81c2f97dd63ce51763437721bad6d92c05cba",
+  "errors": 0,
+  "warnings": 0,
+  "elapsed_ms": 6598,
+  "cpu": "X64 Regular",
+  "metaeditor_exit_code": 1,
+  "exit_code_note": "MetaEditor reports 1 despite an explicit 0-error 0-warning compiler result"
+}

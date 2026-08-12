@@ -5,7 +5,7 @@ use northstar_model_parity::verify_model_registry_with_sha;
 use northstar_mt5_corpus::CorpusVerifier;
 use northstar_packed_corpus::{PackedCorpus, pack_verified_corpus};
 use northstar_parity_fixtures::verify_fixtures;
-use northstar_replay_oracle::{OracleReceipt, compare_prefixes, verify_capture};
+use northstar_replay_oracle::{OracleReceipt, bd::verify_bd, compare_prefixes, verify_capture};
 use northstar_research_adapter::ResearchAdapter;
 use serde::{Deserialize, Serialize};
 
@@ -60,9 +60,31 @@ fn run() -> Result<(), String> {
         Some("verify-packed-interface") => verify_packed_interface(&pairs),
         Some("verify-models") => verify_models(&pairs),
         Some("verify-oracle") => verify_oracle(&pairs),
+        Some("verify-bd") => verify_bd_command(&pairs),
         Some("compare-oracles") => compare_oracles(&pairs),
         _ => Err(usage(&binary)),
     }
+}
+
+fn verify_bd_command(pairs: &[(String, PathBuf)]) -> Result<(), String> {
+    let root = required(pairs, "--oracle")?;
+    let ledger = required(pairs, "--ledger-prefix")?;
+    let report = verify_bd(&root, &ledger).map_err(|error| error.to_string())?;
+    if let Some(path) = optional(pairs, "--receipt") {
+        write_json(path, &report)?;
+    }
+    println!("PHASE12_BD_{}", report.status);
+    println!(
+        "frames={} rebuilds={} levels={} nodes={} sources={} features={} point={}",
+        report.frames,
+        report.dbscan_rebuilds_verified,
+        report.normalized_levels_verified,
+        report.stable_nodes_verified,
+        report.provenance_rows_verified,
+        report.causal_features_verified,
+        report.inferred_point,
+    );
+    Ok(())
 }
 
 fn compare_oracles(pairs: &[(String, PathBuf)]) -> Result<(), String> {
@@ -321,6 +343,7 @@ fn parse_pairs(
                 | "--artifact"
                 | "--registry"
                 | "--oracle"
+                | "--ledger-prefix"
                 | "--left-receipt"
                 | "--right-receipt"
                 | "--freeze-receipt"
@@ -380,7 +403,8 @@ fn read_oracle_receipt(path: &PathBuf) -> Result<OracleReceipt, String> {
 
 fn usage(binary: &OsStr) -> String {
     format!(
-        "usage:\n  {} verify --corpus <runs> --seal <corpus_seal.json> [--receipt <json>]\n  {} verify-interface --workspace <eas> [--receipt <json>]\n  {} verify-golden [--receipt <json>]\n  {} pack --corpus <runs> --seal <seal> --output <bin> --receipt <json>\n  {} verify-packed --artifact <bin>\n  {} verify-packed-interface --artifact <bin> --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-models --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-oracle --oracle <directory> [--receipt <json>]\n  {} compare-oracles --left-receipt <json> --right-receipt <json> [--receipt <json>]",
+        "usage:\n  {} verify --corpus <runs> --seal <corpus_seal.json> [--receipt <json>]\n  {} verify-interface --workspace <eas> [--receipt <json>]\n  {} verify-golden [--receipt <json>]\n  {} pack --corpus <runs> --seal <seal> --output <bin> --receipt <json>\n  {} verify-packed --artifact <bin>\n  {} verify-packed-interface --artifact <bin> --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-models --registry <json> --freeze-receipt <json> [--receipt <json>]\n  {} verify-oracle --oracle <directory> [--receipt <json>]\n  {} verify-bd --oracle <directory> --ledger-prefix <path> [--receipt <json>]\n  {} compare-oracles --left-receipt <json> --right-receipt <json> [--receipt <json>]",
+        binary.to_string_lossy(),
         binary.to_string_lossy(),
         binary.to_string_lossy(),
         binary.to_string_lossy(),

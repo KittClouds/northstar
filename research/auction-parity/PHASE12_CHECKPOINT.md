@@ -1,6 +1,6 @@
 # Phase 12 checkpoint
 
-Status: `SERVING LANE PASS / FRESH INPUT TAPE DETERMINISM PASS / INDEPENDENT RECONSTRUCTION OPEN`
+Status: `SERVING PASS / FRESH TAPE DETERMINISM PASS / B-D RECONSTRUCTION PASS / C1 OPEN`
 
 ## Isolation and authority
 
@@ -92,11 +92,11 @@ These are diagnostic measurements, not a cross-machine performance promise.
   `839c07b98b77d4db707493b97ce04ad677878a3f79c54a7834d1de1658bb0ce7`.
 - All five 256-frame semantic prefixes match through sequence 1,056.
 
-This certifies capture contract integrity and repeat determinism for the bounded
-qualification window. It does not certify independent Rust reconstruction of
-historical auction state, topology, or features. Those remain the next 12B-D
-cuts. Full C1 producer parity additionally requires raw producer inputs and
-warmup/state contracts in the capture.
+The extended five-session certificate independently reproduces historical
+auction state, C2-C5 topology, provenance, regional geometry, and D causal
+features across 5,155 frames, including seven completed transit receipts. Full
+C1 producer parity still requires raw producer inputs and warmup/state
+contracts in a future capture.
 
 ## Verification commands
 

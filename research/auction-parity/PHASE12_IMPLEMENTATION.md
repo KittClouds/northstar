@@ -78,21 +78,24 @@ The canonical capture hash excludes `invocation_id` by contract. Physical
 per-file hashes retain it, so repeated executions can have distinct provenance
 while identical market semantics remain directly comparable.
 
-### 12B / 12C / 12D
+### 12B / 12C.2-C.5 / 12D
 
-These remain reconstruction-gated:
+These reconstruction cuts now pass on the five-session, transit-bearing US30
+M5 oracle. Rust independently reproduces normalization, compatibility-gated
+DBSCAN, deterministic nodes and provenance, stable node lifecycle, regional
+geometry, causal frozen features, and the complete auction ledger.
 
-- 12B now has deterministic captured frame-by-frame auction inputs, but the
-  independent Rust historical auction replay has not yet been run against the
-  captured MT5 event ledger.
-- 12C.2–12C.5 use captured normalized levels, nodes, provenance, and regional
-  geometry.
-- 12C.1 full producer parity additionally requires raw producer input history
-  and producer warmup/state contracts; MT5 remains producer authority until
-  those inputs are captured.
-- 12D causal reconstruction compares Rust state at each captured frame against
-  the captured feature snapshot. Merely reopening frozen feature rows is
-  already proven by 12A, but is not mislabeled as independent reconstruction.
+The certificate covers 5,155 frames, 487,662 normalized levels, 1,554 DBSCAN
+rebuilds, 40,459 stable-node rows, 283,419 provenance rows, 643 events, 145
+attempts, 52 episodes, and seven transits. Event order, relational rows,
+censoring, terminal event sequence, and terminal hash all agree exactly under
+their serialization contracts.
+
+### 12C.1 remains open
+
+Full producer parity still requires raw producer input history plus exact
+producer warmup and state contracts. The present tape starts at raw producer
+outputs, so MT5 remains producer authority. See `PHASE12_BD_CERTIFICATE.md`.
 
 No live socket, TradeLocker, order execution, UI, or portfolio authority has
 been added.

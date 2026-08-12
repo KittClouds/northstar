@@ -1,5 +1,7 @@
 //! Fail-closed reader for fresh MT5 auction and structural parity tapes.
 
+pub mod bd;
+
 use std::{
     fs::File,
     path::{Path, PathBuf},

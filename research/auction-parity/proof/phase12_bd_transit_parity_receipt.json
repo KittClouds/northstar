@@ -1,0 +1,22 @@
+{
+  "contract": "NORTHSTAR_PHASE12_BD_PARITY_V1",
+  "status": "PASS",
+  "frames": 5155,
+  "normalized_levels_verified": 487662,
+  "dbscan_rebuilds_verified": 1554,
+  "stable_nodes_verified": 40459,
+  "provenance_rows_verified": 283419,
+  "regional_snapshots_verified": 5155,
+  "causal_features_verified": 5155,
+  "auction_events_verified": 643,
+  "auction_attempts_verified": 145,
+  "auction_episodes_verified": 52,
+  "auction_transits_verified": 7,
+  "auction_terminal_hash": 5277863164389634815,
+  "inferred_point": 0.01,
+  "first_sequence": 1,
+  "last_sequence": 5155,
+  "c1_producer_reconstruction": "NOT_IN_SCOPE_INPUT_TAPE_STARTS_AT_RAW_PRODUCER_OUTPUT",
+  "c2_c5_topology_parity": "EXACT",
+  "phase_d_feature_parity": "EXACT_CAUSAL_FRAME_SNAPSHOT"
+}

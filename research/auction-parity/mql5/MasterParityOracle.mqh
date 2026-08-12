@@ -48,7 +48,7 @@ public:
       FolderCreate("MasterStructureParity", FILE_COMMON);
       FolderCreate("MasterStructureParity\\" + run_key, FILE_COMMON);
       if(!OpenOne(m_frames, root + "frames.tsv",
-         "contract\trun_key\tinvocation_id\tsequence\tmarket_time\tclosed_bar_time\treference_price\tclosed_bar_price\tatr\tstructure_snapshot_hash\tstructure_generation\tnode_count\tlevel_count\tsource_count\tauction_event_sequence")) return false;
+         "contract\trun_key\tinvocation_id\tsequence\tmarket_time\tcalculation_bar_time\tclosed_bar_time\tbid\task\treference_price\tclosed_bar_price\tatr\tstructure_snapshot_hash\tstructure_generation\tnode_count\tlevel_count\tsource_count\tauction_event_sequence")) return false;
       if(!OpenOne(m_levels, root + "levels.tsv",
          "contract\trun_key\tsequence\tordinal\tsource_key\tproducer\tproducer_instance\tlocal_id\tfamily\tsource_kind\trole\tlower\tprice\tupper\tnormalized_lower\tnormalized_price\tnormalized_upper\twidth_atr\ttimeframe\tcreated_at\tupdated_at\teffective_start\teffective_end\tdeveloping\tfrozen\tstate\ttouches\trejections\treclaims\tacceptance_bars\tmass\tmass_share\tevidence_weight\tmax_excursion_atr")) return false;
       if(!OpenOne(m_nodes, root + "nodes.tsv",
@@ -71,8 +71,12 @@ public:
    {
       if(!m_enabled) return true;
       m_sequence++;
+      MqlTick tick;
+      ZeroMemory(tick);
+      SymbolInfoTick(_Symbol, tick);
       FileWrite(m_frames, "MST_AUCTION_REPLAY_INPUT_V1", m_run_key, m_invocation_id,
-                m_sequence, (long)market_time, (long)closed_bar_time, D(reference_price),
+                m_sequence, (long)market_time, (long)feature.frozen_bar_time,
+                (long)closed_bar_time, D(tick.bid), D(tick.ask), D(reference_price),
                 D(closed_bar_price), D(atr), structure_snapshot_hash, structure_generation,
                 node_count, level_count, source_count, auction_sequence);
       for(int i = 0; i < level_count; i++)

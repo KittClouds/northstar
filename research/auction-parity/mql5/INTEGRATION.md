@@ -28,6 +28,22 @@ input datetime InpResearchWindowStart = 0;
 input datetime InpResearchWindowEnd = 0;
 ```
 
+## Research controller versus chart map
+
+Two indicator entry points intentionally share one structural implementation:
+
+- `MasterStructureController.mq5` is the research/testing machine. It retains
+  receipt, parity-oracle, deterministic cutoff, and research-identity inputs.
+- `MasterStructureMap.mq5` is the chart and visual Strategy Tester projection.
+  It compiles with `MST_VISUAL_ONLY`, fixes the instance namespace to `MAP`,
+  and compiles logging, parity capture, cutoff, and research-window controls
+  out of its public surface.
+
+The map owns only `MST_MAP_<symbol>_*` chart objects and removes that complete
+owner namespace on deinitialization or timeframe reload. Live initialization
+is asynchronous: one forced producer snapshot is followed by the cached timer
+path, with bounded retry backoff while broker histories synchronize.
+
 Production qualification presets must supply all research identity fields and
 an explicit deterministic finalization time. The controller does not emit
 pre-window frames and finalizes once at the configured cutoff.

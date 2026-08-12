@@ -10,7 +10,11 @@
 #include <MasterStructure\MasterController.mqh>
 
 input group "Master Runtime"
+#ifdef MST_VISUAL_ONLY
+input string          InpInstanceTag          = "MAP";
+#else
 input string          InpInstanceTag          = "MASTER";
+#endif
 input ENUM_TIMEFRAMES InpMasterTimeframe      = PERIOD_M5;
 input int             InpATRPeriod            = 100;
 input uint            InpTimerMilliseconds    = 750;
@@ -62,6 +66,7 @@ input double          InpDepartureDistanceATR   = 0.25;
 input int             InpMaxAttemptBars         = 24;
 input int             InpEpisodeGapBars         = 12;
 
+#ifndef MST_VISUAL_ONLY
 input group "Research Receipts"
 input bool            InpEnableLogging         = false;
 input bool            InpEnableParityOracle    = false;
@@ -74,6 +79,17 @@ input string          InpDataSourceId          = "BROKER_MT5";
 input string          InpDataFingerprint       = "AUTO";
 input datetime        InpResearchWindowStart   = 0;
 input datetime        InpResearchWindowEnd     = 0;
+#else
+#define InpEnableLogging false
+#define InpEnableParityOracle false
+#define InpLogFlushSnapshots 0
+#define InpTesterFinalizeAt 0
+#define InpCanonicalInstrument "LIVE_MAP"
+#define InpDataSourceId "BROKER_MT5"
+#define InpDataFingerprint "VISUAL_ONLY"
+#define InpResearchWindowStart 0
+#define InpResearchWindowEnd 0
+#endif
 
 input group "Live Map"
 input bool            InpShowNodes             = true;
@@ -82,6 +98,7 @@ input bool            InpShowProvenance         = true;
 input int             InpMaximumRenderedNodes  = 64;
 input int             InpHistoryBars           = 150;
 input int             InpFutureBars            = 30;
+input int             InpLabelGapBars          = 6;
 
 input group "Performance Telemetry"
 input bool            InpEnablePerformanceTelemetry = false;
@@ -94,15 +111,21 @@ double UpperNodeBuffer[];
 double NodeCountBuffer[];
 
 CMasterStructureController g_master;
+MST_ControllerConfig g_pending_config;
 bool  g_ready = false;
 bool  g_is_tester = false;
 ulong g_rendered_generation = 0;
+bool  g_has_rendered_snapshot = false;
 string g_prefix = "MST_";
+string g_owner_prefix = "MST_";
 ulong g_rendered_node_ids[];
 datetime g_replay_checkpoint_bar = 0;
 int g_replay_checkpoint_bars = 0;
 bool g_tester_cutoff_finalized = false;
 bool g_refresh_in_progress = false;
+bool g_live_primed = false;
+ulong g_live_next_prime_ms = 0;
+int g_live_prime_failures = 0;
 
 #define MST_PERF_STAGE_COUNT 18
 enum MST_PERF_STAGE
@@ -181,22 +204,42 @@ void SetupHiddenBuffer(const int index, double &buffer[], const string label)
    PlotIndexSetString(index, PLOT_LABEL, label);
 }
 
-color NodeColor(const MST_NODE_ROLE role)
+color NodeRegionColor(const MST_Node &node, const bool is_median_anchor)
 {
-   if(role == MST_NODE_LOWER) return clrDeepSkyBlue;
-   if(role == MST_NODE_UPPER) return clrTomato;
-   return clrGold;
+   if(is_median_anchor) return clrYellow;
+   if(node.contains_cog) return clrLimeGreen;
+   if(node.structural_region == MST_REGION_EXTREME_BELOW) return clrViolet;
+   if(node.structural_region == MST_REGION_FAR_BELOW) return clrIndigo;
+   if(node.structural_region == MST_REGION_BELOW) return clrDeepSkyBlue;
+   if(node.structural_region == MST_REGION_MEDIAN_CORE)
+      return node.median_distance_sigma < 0.0 ? clrTurquoise : clrGoldenrod;
+   if(node.structural_region == MST_REGION_ABOVE)
+   {
+      if(node.median_distance_sigma < 1.0) return clrOrange;
+      if(node.median_distance_sigma < 1.25) return clrDarkOrange;
+      return clrOrangeRed;
+   }
+   if(node.structural_region == MST_REGION_FAR_ABOVE) return clrTomato;
+   if(node.structural_region == MST_REGION_EXTREME_ABOVE) return clrRed;
+   return clrSilver;
 }
 
-color NodeLifecycleColor(const MST_Node &node)
+string NodeVisualRegionName(const MST_Node &node, const bool is_median_anchor)
+{
+   if(is_median_anchor) return "MEDIAN";
+   if(node.structural_region == MST_REGION_MEDIAN_CORE)
+      return node.median_distance_sigma < 0.0 ? "LOWER_CORE" : "UPPER_CORE";
+   return MST_RegionName(node.structural_region);
+}
+
+ENUM_LINE_STYLE NodeLifecycleStyle(const MST_Node &node)
 {
    MST_AUCTION_STATE state = (MST_AUCTION_STATE)node.interaction_state;
    if(state == MST_AUCTION_BROKEN || state == MST_AUCTION_PROVISIONAL_ACCEPTANCE)
-      return clrMediumPurple;
-   if(state == MST_AUCTION_ACCEPTED) return clrLimeGreen;
+      return STYLE_DASH;
    if(state == MST_AUCTION_CONTACT || state == MST_AUCTION_PENETRATION ||
-      state == MST_AUCTION_RETEST) return clrOrange;
-   return NodeColor(node.role);
+      state == MST_AUCTION_RETEST) return STYLE_DASHDOT;
+   return node.family_count > 1 ? STYLE_SOLID : STYLE_DOT;
 }
 
 string NodeName(const ulong node_id, const string suffix)
@@ -244,8 +287,31 @@ void DeleteOwnedObjects(void)
       DeleteNodeObjects(g_rendered_node_ids[i]);
    ArrayResize(g_rendered_node_ids, 0);
    ObjectsDeleteAll(0, g_prefix);
+   if(g_owner_prefix != g_prefix)
+      ObjectsDeleteAll(0, g_owner_prefix);
    ChartRedraw(0);
 }
+
+#ifdef MST_VISUAL_ONLY
+void SetMapBootStatus(const string text)
+{
+   string name = g_prefix + "BOOT";
+   if(ObjectFind(0, name) < 0)
+      ObjectCreate(0, name, OBJ_LABEL, 0, 0, 0);
+   ConfigureObject(name, clrSilver);
+   // Initialization feedback must remain visible while producer histories
+   // synchronize. Ordinary map objects stay hidden from manual object lists.
+   ObjectSetInteger(0, name, OBJPROP_HIDDEN, false);
+   ObjectSetInteger(0, name, OBJPROP_BACK, false);
+   ObjectSetInteger(0, name, OBJPROP_ZORDER, 1000);
+   ObjectSetInteger(0, name, OBJPROP_CORNER, CORNER_LEFT_UPPER);
+   ObjectSetInteger(0, name, OBJPROP_XDISTANCE, 10);
+   ObjectSetInteger(0, name, OBJPROP_YDISTANCE, 36);
+   ObjectSetInteger(0, name, OBJPROP_FONTSIZE, 9);
+   ObjectSetString(0, name, OBJPROP_TEXT, text);
+   ChartRedraw(0);
+}
+#endif
 
 bool ValidConfiguredTimeframes(void)
 {
@@ -277,29 +343,38 @@ bool ContainsNodeId(const ulong &ids[], const ulong id)
 
 void DrawNode(const MST_Node &node,
               const datetime left_time,
-              const datetime right_time,
+              const datetime line_right_time,
+              const datetime band_right_time,
               const datetime label_time,
-              const double point)
+              const double point,
+              const bool is_median_anchor)
 {
-   color base_color = NodeLifecycleColor(node);
+   color base_color = NodeRegionColor(node, is_median_anchor);
    string line_name = NodeName(node.node_id, "_LINE");
+   if(ObjectFind(0, line_name) >= 0 &&
+      (ENUM_OBJECT)ObjectGetInteger(0, line_name, OBJPROP_TYPE) != OBJ_TREND)
+      ObjectDelete(0, line_name);
    if(ObjectFind(0, line_name) < 0)
-      ObjectCreate(0, line_name, OBJ_HLINE, 0, 0, node.price);
-   ObjectSetDouble(0, line_name, OBJPROP_PRICE, node.price);
+      ObjectCreate(0, line_name, OBJ_TREND, 0,
+                   left_time, node.price, line_right_time, node.price);
+   ObjectMove(0, line_name, 0, left_time, node.price);
+   ObjectMove(0, line_name, 1, line_right_time, node.price);
    ConfigureObject(line_name, base_color);
+   ObjectSetInteger(0, line_name, OBJPROP_RAY_LEFT, false);
+   ObjectSetInteger(0, line_name, OBJPROP_RAY_RIGHT, false);
    ObjectSetInteger(0, line_name, OBJPROP_WIDTH,
                     MathMin(MathMax(node.family_count, 1), 5));
    ObjectSetInteger(0, line_name, OBJPROP_STYLE,
-                    node.family_count > 1 ? STYLE_SOLID : STYLE_DOT);
+                    NodeLifecycleStyle(node));
 
    if(node.upper - node.lower > point * 2.0)
    {
       string band_name = NodeName(node.node_id, "_BAND");
       if(ObjectFind(0, band_name) < 0)
          ObjectCreate(0, band_name, OBJ_RECTANGLE, 0,
-                      left_time, node.lower, right_time, node.upper);
+                      left_time, node.lower, band_right_time, node.upper);
       ObjectMove(0, band_name, 0, left_time, node.lower);
-      ObjectMove(0, band_name, 1, right_time, node.upper);
+      ObjectMove(0, band_name, 1, band_right_time, node.upper);
       ConfigureObject(band_name, (color)ColorToARGB(base_color, 36));
       ObjectSetInteger(0, band_name, OBJPROP_FILL, true);
       ObjectSetInteger(0, band_name, OBJPROP_BACK, true);
@@ -318,10 +393,13 @@ void DrawNode(const MST_Node &node,
       ObjectSetInteger(0, text_name, OBJPROP_FONTSIZE, 8);
       string provenance = NodeProvenance(node);
       if(StringLen(provenance) > 0) provenance = " " + provenance;
+      string region_name = NodeVisualRegionName(node, is_median_anchor);
       ObjectSetString(0, text_name, OBJPROP_TEXT,
-                       StringFormat("%s/%s A%d N%d F%d %.2fATR%s",
+                       StringFormat("%s/%s %s z%.2f A%d N%d F%d %.2fATR%s",
                                     MST_NodeStateName(node.existence),
                                     MST_AuctionStateName((MST_AUCTION_STATE)node.interaction_state),
+                                    region_name,
+                                    node.median_distance_sigma,
                                     node.attempt_count, node.member_count,
                                    node.family_count, node.distance_atr,
                                    provenance));
@@ -379,9 +457,16 @@ void RenderSnapshot(const MST_ControllerReading &reading,
    datetime left_time = chart_time - (datetime)(period_seconds * MathMax(InpHistoryBars, 1));
    datetime right_time = chart_time + (datetime)(period_seconds * MathMax(InpFutureBars, 1));
    datetime label_time = right_time;
+   int label_gap_bars = MathMin(MathMax(InpLabelGapBars, 0),
+                                MathMax(InpFutureBars, 1));
+   datetime line_right_time = label_time -
+      (datetime)(period_seconds * label_gap_bars);
    double point = SymbolInfoDouble(_Symbol, SYMBOL_POINT);
    ulong current_ids[];
    ArrayResize(current_ids, 0);
+   MST_Node render_nodes[];
+   ArrayResize(render_nodes, render_count);
+   int selected_count = 0;
    stage_start_us = GetMicrosecondCount();
 
    for(int rendered = 0; rendered < render_count; rendered++)
@@ -405,7 +490,31 @@ void RenderSnapshot(const MST_ControllerReading &reading,
       }
       if(best_index < 0) break;
       used[best_index] = true;
-      DrawNode(best_node, left_time, right_time, label_time, point);
+      render_nodes[selected_count++] = best_node;
+   }
+
+   ulong median_anchor_id = 0;
+   if(reading.regional.valid && selected_count > 0)
+   {
+      double nearest_median = DBL_MAX;
+      for(int i = 0; i < selected_count; i++)
+      {
+         double distance = MathAbs(render_nodes[i].price - reading.regional.median_price);
+         if(distance < nearest_median ||
+            (distance == nearest_median && render_nodes[i].node_id < median_anchor_id))
+         {
+            nearest_median = distance;
+            median_anchor_id = render_nodes[i].node_id;
+         }
+      }
+   }
+
+   for(int i = 0; i < selected_count; i++)
+   {
+      MST_Node best_node = render_nodes[i];
+      bool is_median_anchor = best_node.node_id == median_anchor_id;
+      DrawNode(best_node, left_time, line_right_time, right_time,
+               label_time, point, is_median_anchor);
       int id_slot = ArraySize(current_ids);
       ArrayResize(current_ids, id_slot + 1, MathMax(render_count, 1));
       current_ids[id_slot] = best_node.node_id;
@@ -573,10 +682,11 @@ bool RefreshMaster(const bool force_heavy,
    PublishBuffers(reading);
    MST_RenderPerformance rendering;
    ZeroMemory(rendering);
-   if(reading.render_generation != g_rendered_generation)
+   if(!g_has_rendered_snapshot || reading.render_generation != g_rendered_generation)
    {
       RenderSnapshot(reading, rendering);
       g_rendered_generation = reading.render_generation;
+      g_has_rendered_snapshot = true;
    }
    RecordAndReportPerformance(reading, rendering);
    return true;
@@ -587,7 +697,16 @@ int OnInit(void)
    g_ready = false;
    g_is_tester = (bool)(MQLInfoInteger(MQL_TESTER) || MQLInfoInteger(MQL_OPTIMIZATION));
    g_refresh_in_progress = false;
-   g_prefix = "MST_" + InpInstanceTag + "_" + _Symbol + "_" + IntegerToString(_Period) + "_";
+   g_live_primed = false;
+   g_live_next_prime_ms = 0;
+   g_live_prime_failures = 0;
+   g_owner_prefix = "MST_" + InpInstanceTag + "_" + _Symbol + "_";
+   g_prefix = g_owner_prefix + IntegerToString(_Period) + "_";
+#ifdef MST_VISUAL_ONLY
+   // One-time migration cleanup for chart objects stranded by controller
+   // builds that used timeframe-specific MASTER ownership.
+   ObjectsDeleteAll(0, "MST_MASTER_" + _Symbol + "_");
+#endif
    DeleteOwnedObjects();
    if(!ValidConfiguredTimeframes())
       return INIT_PARAMETERS_INCORRECT;
@@ -597,7 +716,11 @@ int OnInit(void)
    SetupHiddenBuffer(2, UpperNodeBuffer, "Upper Structural Node");
    SetupHiddenBuffer(3, NodeCountBuffer, "Structural Node Count");
    IndicatorSetInteger(INDICATOR_DIGITS, _Digits);
+#ifdef MST_VISUAL_ONLY
+   IndicatorSetString(INDICATOR_SHORTNAME, "Master Structure Map");
+#else
    IndicatorSetString(INDICATOR_SHORTNAME, "Master Structure Controller");
+#endif
 
    MST_ControllerConfig config;
    MST_DefaultControllerConfig(config);
@@ -652,10 +775,15 @@ int OnInit(void)
    config.auction.max_attempt_bars = InpMaxAttemptBars;
    config.auction.episode_gap_bars = InpEpisodeGapBars;
 
-   if(!g_master.Init(_Symbol, config))
-      return INIT_FAILED;
-   g_ready = true;
+   g_pending_config = config;
+   if(g_is_tester)
+   {
+      if(!g_master.Init(_Symbol, g_pending_config))
+         return INIT_FAILED;
+      g_ready = true;
+   }
    g_rendered_generation = 0;
+   g_has_rendered_snapshot = false;
    g_replay_checkpoint_bar = 0;
    g_replay_checkpoint_bars = 0;
    g_tester_cutoff_finalized = false;
@@ -673,6 +801,9 @@ int OnInit(void)
          return INIT_FAILED;
       }
    }
+#ifdef MST_VISUAL_ONLY
+   SetMapBootStatus("MAP LOADING STRUCTURE");
+#endif
    // Live charts initialize asynchronously on the timer. Performing the full
    // producer/profile/DBSCAN rebuild inside OnInit blocks chart loading and
    // multiplies the load when the visual producer indicators are also present.
@@ -701,8 +832,64 @@ void OnDeinit(const int reason)
 
 void OnTimer(void)
 {
-   if(!g_is_tester)
-      RefreshMaster(false, false, true);
+   if(g_is_tester)
+      return;
+
+   // Keep the chart-loading path cheap. Producer handles and research identity
+   // can require broker history synchronization, so live initialization owns
+   // the same bounded timer/backoff lane as the first structural snapshot.
+   if(!g_ready)
+   {
+      ulong init_now_ms = GetTickCount64();
+      if(init_now_ms < g_live_next_prime_ms)
+         return;
+      if(!g_master.Init(_Symbol, g_pending_config))
+      {
+         g_live_prime_failures++;
+         ulong init_retry_ms = (ulong)MathMin(2000 * g_live_prime_failures, 10000);
+         g_live_next_prime_ms = init_now_ms + init_retry_ms;
+#ifdef MST_VISUAL_ONLY
+         SetMapBootStatus(StringFormat("MAP WAITING FOR PRODUCERS (%d)",
+                                      g_live_prime_failures));
+#endif
+         return;
+      }
+      g_ready = true;
+      g_live_next_prime_ms = 0;
+      g_live_prime_failures = 0;
+   }
+
+   // Live initialization must not block OnInit, but a fresh controller still
+   // needs one complete structural snapshot before the cached fast path can
+   // take ownership. History synchronization can be transient, so failed
+   // primes back off instead of hammering the chart thread every 750 ms.
+   if(!g_live_primed)
+   {
+      ulong now_ms = GetTickCount64();
+      if(now_ms < g_live_next_prime_ms)
+         return;
+
+      if(RefreshMaster(true, true, false))
+      {
+         g_live_primed = true;
+         g_live_prime_failures = 0;
+         ObjectDelete(0, g_prefix + "BOOT");
+         Print("MST LIVE READY: initial structural snapshot published");
+         return;
+      }
+
+      g_live_prime_failures++;
+      ulong retry_ms = (ulong)MathMin(2000 * g_live_prime_failures, 10000);
+      g_live_next_prime_ms = now_ms + retry_ms;
+#ifdef MST_VISUAL_ONLY
+      SetMapBootStatus(StringFormat("MAP WAITING FOR HISTORY (%d)", g_live_prime_failures));
+#endif
+      if(g_live_prime_failures == 1 || (g_live_prime_failures % 5) == 0)
+         PrintFormat("MST LIVE WAIT: producer history not ready; retry=%dms failures=%d",
+                     (int)retry_ms, g_live_prime_failures);
+      return;
+   }
+   RefreshMaster(false, false, true);
 }
 
 int OnCalculate(const int rates_total,

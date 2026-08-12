@@ -23,6 +23,12 @@ corridors, fast market location, and renderer-only chart projections. Volume
 algorithms fail closed until qualified volume exists. See
 `docs/STRUCTURAL_MARKET_STATE_RUNTIME.md`.
 
+The MT5-to-Northstar parity bridge is isolated in
+`research/auction-parity`. It verifies the sealed RG2 corpus, reconstructs the
+Phase 10.5 research interface, and checks Rust auction-grammar semantics against
+frozen MQL5 golden fixtures. It is deliberately not wired into the live office
+runtime yet; see `research/auction-parity/PHASE12_CHECKPOINT.md`.
+
 The indices-only official macro and CFTC positioning plan is frozen in
 `docs/MACRO_DATA_SPINE.md`. Its first operating vertical slices are now
 live-capable: four BLS series, BLS release provenance, FRED rates, BEA GDP/core

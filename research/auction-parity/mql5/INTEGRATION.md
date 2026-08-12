@@ -37,6 +37,11 @@ The research controller and chart indicator are intentionally independent:
 - `MasterStructureChart.mq5` is the complete chart-facing structural indicator.
   It imports its private engine from `MasterStructureChart/` and that engine
   imports only `02marketmain.mqh`, `02dayswings.mqh`, and `02wayne.mqh`.
+- The private chart engine is intentionally only seven modules:
+  `ChartController.mqh`, `ChartInteraction.mqh`, `MasterTypes.mqh`,
+  `MasterAdapters.mqh`, `MasterClusterer.mqh`, `MasterNodeTracker.mqh`, and
+  `MasterRegionalModel.mqh`. It contains no auction engine, logger, transit,
+  receipt, manifest, censoring, or research-finalization implementation.
 - The chart indicator does not import the research `MasterStructure/` tree or
   any `01*` producer. The two programs can therefore evolve and run without
   sharing MQL5 source dependencies or chart-object ownership.
@@ -46,6 +51,13 @@ objects and removes that complete owner namespace on deinitialization or
 timeframe reload. The first live render may wait while MT5 synchronizes the
 producer timeframes. Optional indicator-buffer publication is guarded until
 MT5 has sized those buffers; rendering itself does not depend on them.
+
+The chart controller retains only compact, transient interaction state for
+labels (`IDLE`, `APPROACH`, `CONTACT`, `PENETRATION`, `BROKEN`, `ACCEPTED`, and
+`RETEST`). These are visual annotations, not persisted research episodes.
+An offline market can leave a valid chart static; live qualification therefore
+uses an actively ticking symbol and treats feed availability separately from
+controller health.
 
 Install the isolated chart bundle as follows:
 

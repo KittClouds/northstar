@@ -7,7 +7,7 @@
 #property indicator_buffers 4
 #property indicator_plots   4
 
-#include <MasterStructureChart\MasterController.mqh>
+#include <MasterStructureChart\ChartController.mqh>
 
 input group "Master Runtime"
 input string          InpInstanceTag          = "CHART";
@@ -50,22 +50,13 @@ input group "Stable Node Existence"
 input double          InpNodeMatchDistanceATR   = 0.20;
 input int             InpRetireAfterRebuilds    = 3;
 
-input group "Auction Episode Grammar"
-input bool            InpEnableAuctionEngine    = true;
+input group "Visual Interaction State"
+input bool            InpEnableInteractionState = true;
 input double          InpApproachDistanceATR    = 0.50;
-input double          InpRejectionDistanceATR   = 0.20;
 input double          InpBreakBufferATR         = 0.00;
 input int             InpAcceptanceCloses       = 2;
 input double          InpAcceptanceDistanceATR  = 0.00;
-input double          InpReclaimToleranceATR    = 0.05;
 input double          InpDepartureDistanceATR   = 0.25;
-input int             InpMaxAttemptBars         = 24;
-input int             InpEpisodeGapBars         = 12;
-
-input group "Research Receipts"
-input bool            InpEnableLogging         = false;
-input int             InpLogFlushSnapshots     = 10;
-input datetime        InpTesterFinalizeAt      = 0;
 
 input group "Chart Projection"
 input bool            InpShowNodes             = true;
@@ -86,17 +77,14 @@ double LowerNodeBuffer[];
 double UpperNodeBuffer[];
 double NodeCountBuffer[];
 
-CMasterStructureController g_master;
+CMasterStructureChartController g_master;
 bool  g_ready = false;
 bool  g_is_tester = false;
 ulong g_rendered_generation = 0;
 string g_prefix = "MSC_";
 ulong g_rendered_node_ids[];
-datetime g_replay_checkpoint_bar = 0;
-int g_replay_checkpoint_bars = 0;
-bool g_tester_cutoff_finalized = false;
 
-#define MST_PERF_STAGE_COUNT 18
+#define MST_PERF_STAGE_COUNT 17
 enum MST_PERF_STAGE
 {
    MST_PERF_TOTAL = 0,
@@ -112,7 +100,6 @@ enum MST_PERF_STAGE
    MST_PERF_NODE_BUILD,
    MST_PERF_LIFECYCLE,
    MST_PERF_HASH,
-   MST_PERF_LOGGER,
    MST_PERF_RENDER,
    MST_PERF_DELETE,
    MST_PERF_DRAW,
@@ -203,11 +190,11 @@ string NodeVisualRegionName(const MST_Node &node, const bool is_median_anchor)
 
 ENUM_LINE_STYLE NodeLifecycleStyle(const MST_Node &node)
 {
-   MST_AUCTION_STATE state = (MST_AUCTION_STATE)node.interaction_state;
-   if(state == MST_AUCTION_BROKEN || state == MST_AUCTION_PROVISIONAL_ACCEPTANCE)
+   MSC_INTERACTION_STATE state = (MSC_INTERACTION_STATE)node.interaction_state;
+   if(state == MSC_INTERACTION_BROKEN || state == MSC_INTERACTION_ACCEPTED)
       return STYLE_DASH;
-   if(state == MST_AUCTION_CONTACT || state == MST_AUCTION_PENETRATION ||
-      state == MST_AUCTION_RETEST) return STYLE_DASHDOT;
+   if(state == MSC_INTERACTION_CONTACT || state == MSC_INTERACTION_PENETRATION ||
+      state == MSC_INTERACTION_RETEST) return STYLE_DASHDOT;
    return node.family_count > 1 ? STYLE_SOLID : STYLE_DOT;
 }
 
@@ -313,7 +300,7 @@ void DrawNode(const MST_Node &node,
       ObjectSetString(0, text_name, OBJPROP_TEXT,
                        StringFormat("%s/%s %s z%.2f A%d N%d F%d %.2fATR%s",
                                     MST_NodeStateName(node.existence),
-                                    MST_AuctionStateName((MST_AUCTION_STATE)node.interaction_state),
+                                    MSC_InteractionStateName((MSC_INTERACTION_STATE)node.interaction_state),
                                     region_name,
                                     node.median_distance_sigma,
                                     node.attempt_count, node.member_count,
@@ -334,11 +321,10 @@ void DrawStatus(const MST_ControllerReading &reading)
    ObjectSetInteger(0, name, OBJPROP_YDISTANCE, 18);
    ObjectSetInteger(0, name, OBJPROP_FONTSIZE, 9);
    ObjectSetString(0, name, OBJPROP_TEXT,
-                     StringFormat("MASTER L%d C%d N%d A%d EP%d TR%d E%d noise=%d %.0fus",
+                     StringFormat("MASTER CHART L%d C%d N%d I%d E%d noise=%d %.0fus",
                                   reading.raw_level_count, reading.cluster_count,
                                   reading.node_count, reading.active_attempt_count,
-                                  reading.active_episode_count, reading.active_transit_count,
-                                  reading.auction_event_count, reading.noise_count,
+                                  reading.lifecycle_event_count, reading.noise_count,
                                   (double)reading.update_microseconds));
 }
 
@@ -471,7 +457,6 @@ void RecordAndReportPerformance(const MST_ControllerReading &reading,
    RecordPerformanceStage(MST_PERF_NODE_BUILD, reading.node_build_microseconds);
    RecordPerformanceStage(MST_PERF_LIFECYCLE, reading.lifecycle_microseconds);
    RecordPerformanceStage(MST_PERF_HASH, reading.hash_microseconds);
-   RecordPerformanceStage(MST_PERF_LOGGER, reading.logger_microseconds);
    if(rendering.ran)
    {
       RecordPerformanceStage(MST_PERF_RENDER, rendering.total_microseconds);
@@ -497,14 +482,13 @@ void RecordAndReportPerformance(const MST_ControllerReading &reading,
                   reading.volkitt_profile_microseconds,
                   (int)reading.volkitt_profile_rebuilt,
                   reading.day_swings_microseconds, reading.wayne_microseconds);
-      PrintFormat("MST_PERF_DETAIL structure_rebuilt=%d events=%d refatr=%I64u collect=%I64u normalize=%I64u dbscan=%I64u nodes=%I64u lifecycle=%I64u hash=%I64u logger=%I64u render=%I64u delete=%I64u draw=%I64u redraw=%I64u rendered_nodes=%d",
+   PrintFormat("MSC_PERF_DETAIL structure_rebuilt=%d events=%d refatr=%I64u collect=%I64u normalize=%I64u dbscan=%I64u nodes=%I64u lifecycle=%I64u hash=%I64u render=%I64u delete=%I64u draw=%I64u redraw=%I64u rendered_nodes=%d",
                    (int)reading.structure_rebuilt,
                    reading.lifecycle_event_count,
                    reading.reference_atr_microseconds, reading.collect_microseconds,
                    reading.normalize_microseconds, reading.dbscan_microseconds,
                    reading.node_build_microseconds, reading.lifecycle_microseconds,
-                   reading.hash_microseconds,
-                  reading.logger_microseconds, rendering.total_microseconds,
+                   reading.hash_microseconds, rendering.total_microseconds,
                    rendering.delete_microseconds, rendering.draw_microseconds,
                    rendering.redraw_microseconds, rendering.rendered_nodes);
       g_perf_first_frame_pending = false;
@@ -522,16 +506,15 @@ void RecordAndReportPerformance(const MST_ControllerReading &reading,
                PerformanceMean(MST_PERF_VOLKITT_PROFILE, g_perf_count), g_perf_max[MST_PERF_VOLKITT_PROFILE],
                PerformanceMean(MST_PERF_DAY_SWINGS, g_perf_count), g_perf_max[MST_PERF_DAY_SWINGS],
                PerformanceMean(MST_PERF_WAYNE, g_perf_count), g_perf_max[MST_PERF_WAYNE]);
-   PrintFormat("MST_PERF_SUM_B refatr=%.1f/%I64u collect=%.1f/%I64u normalize=%.1f/%I64u dbscan=%.1f/%I64u nodes=%.1f/%I64u lifecycle=%.1f/%I64u hash=%.1f/%I64u logger=%.1f/%I64u renders=%I64u render=%.1f/%I64u delete=%.1f/%I64u draw=%.1f/%I64u redraw=%.1f/%I64u",
+   PrintFormat("MSC_PERF_SUM_B refatr=%.1f/%I64u collect=%.1f/%I64u normalize=%.1f/%I64u dbscan=%.1f/%I64u nodes=%.1f/%I64u lifecycle=%.1f/%I64u hash=%.1f/%I64u renders=%I64u render=%.1f/%I64u delete=%.1f/%I64u draw=%.1f/%I64u redraw=%.1f/%I64u",
                PerformanceMean(MST_PERF_REFERENCE_ATR, g_perf_count), g_perf_max[MST_PERF_REFERENCE_ATR],
                PerformanceMean(MST_PERF_COLLECT, g_perf_count), g_perf_max[MST_PERF_COLLECT],
                PerformanceMean(MST_PERF_NORMALIZE, g_perf_count), g_perf_max[MST_PERF_NORMALIZE],
                PerformanceMean(MST_PERF_DBSCAN, g_perf_count), g_perf_max[MST_PERF_DBSCAN],
                PerformanceMean(MST_PERF_NODE_BUILD, g_perf_count), g_perf_max[MST_PERF_NODE_BUILD],
                PerformanceMean(MST_PERF_LIFECYCLE, g_perf_count), g_perf_max[MST_PERF_LIFECYCLE],
-               PerformanceMean(MST_PERF_HASH, g_perf_count), g_perf_max[MST_PERF_HASH],
-               PerformanceMean(MST_PERF_LOGGER, g_perf_count), g_perf_max[MST_PERF_LOGGER],
-               g_perf_render_count,
+                PerformanceMean(MST_PERF_HASH, g_perf_count), g_perf_max[MST_PERF_HASH],
+                g_perf_render_count,
                PerformanceMean(MST_PERF_RENDER, render_divisor), g_perf_max[MST_PERF_RENDER],
                PerformanceMean(MST_PERF_DELETE, render_divisor), g_perf_max[MST_PERF_DELETE],
                PerformanceMean(MST_PERF_DRAW, render_divisor), g_perf_max[MST_PERF_DRAW],
@@ -565,28 +548,10 @@ bool RefreshMaster(const bool force_heavy,
                    const bool force_profile,
                    const bool allow_cached_structure = false)
 {
-   if(g_tester_cutoff_finalized) return true;
    if(!g_ready || !g_master.Update(force_heavy, force_profile, allow_cached_structure))
       return false;
    MST_ControllerReading reading;
    g_master.GetReading(reading);
-   if(g_is_tester && reading.calculation_bar_time > g_replay_checkpoint_bar)
-   {
-      g_replay_checkpoint_bar = reading.calculation_bar_time;
-      g_replay_checkpoint_bars++;
-      if((g_replay_checkpoint_bars % 100) == 0)
-         PrintFormat("MST_AUCTION_CHECKPOINT bars=%d hash=%I64u sequence=%I64u attempts=%d episodes=%d transits=%d",
-                     g_replay_checkpoint_bars, reading.auction_terminal_hash,
-                     reading.auction_event_sequence, reading.active_attempt_count,
-                     reading.active_episode_count, reading.active_transit_count);
-   }
-   if(g_is_tester && InpTesterFinalizeAt > 0 &&
-      reading.calculation_bar_time >= InpTesterFinalizeAt)
-   {
-      g_master.Finalize(10001);
-      g_tester_cutoff_finalized = true;
-      return true;
-   }
    if(!reading.valid) return false;
    PublishBuffers(reading);
    MST_RenderPerformance rendering;
@@ -609,18 +574,14 @@ int OnInit(void)
    IndicatorSetInteger(INDICATOR_DIGITS, _Digits);
    IndicatorSetString(INDICATOR_SHORTNAME, "Master Structure Chart");
 
-   MST_ControllerConfig config;
-   MST_DefaultControllerConfig(config);
+   MSC_ControllerConfig config;
+   MSC_DefaultControllerConfig(config);
    config.master_timeframe = InpMasterTimeframe;
    config.volkitt_timeframe = InpVolKittTimeframe;
    config.profile_timeframe = InpProfileTimeframe;
    config.day_swings_timeframe = InpDaySwingsTimeframe;
    config.wayne_timeframe = InpWayneTimeframe;
    config.atr_period = InpATRPeriod;
-   config.instance_tag = InpInstanceTag;
-   config.enable_logging = InpEnableLogging;
-   config.log_flush_interval = InpLogFlushSnapshots;
-   config.deterministic_terminal_time = InpTesterFinalizeAt;
 
    config.volkitt.lookback = InpVolKittLookback;
    config.volkitt.clusters = InpVolKittClusters;
@@ -645,16 +606,12 @@ int OnInit(void)
    config.compatibility.require_role_compatibility = InpRequireRoleCompatibility;
    config.lifecycle.match_distance_atr = InpNodeMatchDistanceATR;
    config.lifecycle.retire_after_rebuilds = InpRetireAfterRebuilds;
-   config.auction.enabled = InpEnableAuctionEngine;
-   config.auction.approach_radius_atr = InpApproachDistanceATR;
-   config.auction.rejection_min_excursion_atr = InpRejectionDistanceATR;
-   config.auction.break_buffer_atr = InpBreakBufferATR;
-   config.auction.acceptance_bars = InpAcceptanceCloses;
-   config.auction.acceptance_min_distance_atr = InpAcceptanceDistanceATR;
-   config.auction.reclaim_tolerance_atr = InpReclaimToleranceATR;
-   config.auction.departure_distance_atr = InpDepartureDistanceATR;
-   config.auction.max_attempt_bars = InpMaxAttemptBars;
-   config.auction.episode_gap_bars = InpEpisodeGapBars;
+   config.interaction.enabled = InpEnableInteractionState;
+   config.interaction.approach_radius_atr = InpApproachDistanceATR;
+   config.interaction.break_buffer_atr = InpBreakBufferATR;
+   config.interaction.acceptance_closes = InpAcceptanceCloses;
+   config.interaction.acceptance_distance_atr = InpAcceptanceDistanceATR;
+   config.interaction.departure_distance_atr = InpDepartureDistanceATR;
 
    g_prefix = "MSC_" + InpInstanceTag + "_" + _Symbol + "_" + IntegerToString(_Period) + "_";
    if(!g_master.Init(_Symbol, config))
@@ -662,9 +619,6 @@ int OnInit(void)
    g_ready = true;
    g_is_tester = (bool)(MQLInfoInteger(MQL_TESTER) || MQLInfoInteger(MQL_OPTIMIZATION));
    g_rendered_generation = 0;
-   g_replay_checkpoint_bar = 0;
-   g_replay_checkpoint_bars = 0;
-   g_tester_cutoff_finalized = false;
    ArrayResize(g_rendered_node_ids, 0);
    g_perf_first_frame_pending = true;
    ResetPerformanceWindow();
@@ -686,13 +640,6 @@ int OnInit(void)
 void OnDeinit(const int reason)
 {
    EventKillTimer();
-   g_master.Finalize(reason);
-   MST_ControllerReading reading;
-   g_master.GetReading(reading);
-   if(g_is_tester)
-      PrintFormat("MST_AUCTION_FINAL bars=%d hash=%I64u sequence=%I64u reason=%d",
-                  g_replay_checkpoint_bars, reading.auction_terminal_hash,
-                  reading.auction_event_sequence, reason);
    g_master.Deinit();
    g_ready = false;
    ObjectsDeleteAll(0, g_prefix);

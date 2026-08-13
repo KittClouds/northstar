@@ -1,0 +1,33 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_QUALIFICATION_REPORT_V1",
+    "status":  "PASS",
+    "scope":  "REPLAY_SAMPLE",
+    "research_generation":  3,
+    "instruments":  [
+                        {
+                            "canonical_instrument":  "US30",
+                            "broker_symbol":  "US30",
+                            "run_key":  "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651",
+                            "balanced":  true,
+                            "compression_objects":  12,
+                            "compression_samples":  390,
+                            "expansion_objects":  12,
+                            "expansion_samples":  718,
+                            "relations":  55,
+                            "structural_samples":  1104,
+                            "raw_corpus_sha256":  "130f028c1a39880cacad87fa1bccb196639d9038dd98f0247ce1295ef510ec13",
+                            "packed_sha256":  "11a6a07f50d5fc0ef024847e8a2795ffa7c22a930ff9007b25485ef29f1e5818",
+                            "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                            "status":  "PASS"
+                        }
+                    ],
+    "totals":  {
+                   "compressions":  12,
+                   "compression_samples":  390,
+                   "expansions":  12,
+                   "expansion_samples":  718,
+                   "relations":  55,
+                   "structural_samples":  1104
+               },
+    "canonical_corpus_sha256":  "8460fd4208411d40bf02f70a6928560f52e4635f70878906df452db80c49196f"
+}

@@ -1,0 +1,5 @@
+{
+    "contract":  "NORTHSTAR_RG3_QUARANTINE_V1",
+    "reason":  "Could not find a part of the path \u0027C:\\Users\\shuga\\AppData\\Local\\Temp\\northstar-regression-10dc04428bc74210a5830a07d402010c\\research\\market-objects\\artifacts\\rg3-qualification\\staging\\US30_1785715200_1786060800\\raw\\MarketObjects_US30_M5_RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651_measurement_runs.tsv\u0027.",
+    "deletion_performed":  false
+}

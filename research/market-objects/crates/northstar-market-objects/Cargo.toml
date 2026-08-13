@@ -1,0 +1,23 @@
+[package]
+name = "northstar-market-objects"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "northstar-market-object-seal"
+path = "src/main.rs"
+
+[dependencies]
+hashbrown.workspace = true
+memchr.workspace = true
+memmap2.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+zerocopy.workspace = true
+
+[dev-dependencies]
+tempfile = "3.20"

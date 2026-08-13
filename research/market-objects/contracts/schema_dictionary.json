@@ -1,0 +1,34 @@
+{
+  "contract": "NORTHSTAR_RG3_RAW_OBJECT_SCHEMA_V1",
+  "status": "FROZEN",
+  "null_token": "\\N",
+  "datasets": {
+    "measurement_runs": {"primary_key": ["run_key", "invocation_id", "record_type"]},
+    "compression_objects": {"primary_key": ["run_key", "compression_id"]},
+    "compression_samples": {"primary_key": ["run_key", "compression_id", "bar_time"]},
+    "compression_events": {"primary_key": ["run_key", "sequence"]},
+    "expansion_objects": {"primary_key": ["run_key", "expansion_id"]},
+    "expansion_samples": {"primary_key": ["run_key", "expansion_id", "bar_time"]},
+    "expansion_events": {"primary_key": ["run_key", "sequence"]},
+    "object_relations": {"primary_key": ["run_key", "relation_id"]},
+    "structural_samples": {"primary_key": ["run_key", "bar_time"]}
+  },
+  "foreign_keys": [
+    "compression_samples.compression_id -> compression_objects.compression_id",
+    "compression_events.compression_id -> compression_objects.compression_id",
+    "expansion_objects.origin_compression_id -> compression_objects.compression_id",
+    "expansion_objects.destination_compression_id -> compression_objects.compression_id when non-null",
+    "expansion_samples.expansion_id -> expansion_objects.expansion_id",
+    "expansion_events.expansion_id -> expansion_objects.expansion_id"
+  ],
+  "invariants": [
+    "every raw sample is a closed-bar observation",
+    "samples are unique and strictly ordered within an object",
+    "no sample occurs after terminal_time",
+    "completed object terminal_time equals its final sample time",
+    "censored object terminal_time is the authorized censor horizon and may follow its final observed sample",
+    "terminal summaries equal reductions over raw samples",
+    "every active object is explicitly censored at finalization",
+    "derived values are forbidden from authoritative datasets"
+  ]
+}

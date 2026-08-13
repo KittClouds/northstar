@@ -1,0 +1,2 @@
+# Sealed evidence is byte-authoritative. Git must not normalize line endings.
+artifacts/** -text

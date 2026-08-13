@@ -1,0 +1,40 @@
+{
+  "contract": "NORTHSTAR_RG3_RAW_AUTHORITY_V1",
+  "status": "FROZEN",
+  "authoritative": [
+    "closed_bar_timestamp",
+    "open",
+    "high",
+    "low",
+    "close",
+    "origin_atr",
+    "origin_seed_geometry",
+    "origin_containment_geometry",
+    "raw_displacement",
+    "raw_max_displacement",
+    "raw_opposite_displacement",
+    "raw_return_depth",
+    "raw_close_path_length",
+    "raw_velocity_per_bar",
+    "raw_acceleration_per_bar2",
+    "state_codes",
+    "event_codes",
+    "terminal_and_censor_reasons",
+    "structural_snapshot_hash",
+    "node_geometry_at_observation"
+  ],
+  "derived_only": [
+    "atr_normalization",
+    "time_normalization",
+    "trajectory_resampling",
+    "direction_mirroring",
+    "interpolation",
+    "embeddings",
+    "cluster_assignments",
+    "human_family_names",
+    "behavioral_forecasts",
+    "feature_selection",
+    "economic_or_trading_labels"
+  ],
+  "law": "sealed raw observations are immutable; every derived artifact binds the raw corpus hash and a deterministic recipe hash"
+}

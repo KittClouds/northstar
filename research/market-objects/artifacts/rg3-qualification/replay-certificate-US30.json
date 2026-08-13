@@ -1,0 +1,27 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_REPLAY_DETERMINISM_CERTIFICATE_V1",
+    "status":  "PASS",
+    "research_generation":  3,
+    "canonical_instrument":  "US30",
+    "run_key":  "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651",
+    "baseline_invocation_id":  "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651_I1785542400_9693892014732620319",
+    "replay_invocation_id":  "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651_I1785542400_13995776332786825510",
+    "canonical_semantic_sha256":  "130f028c1a39880cacad87fa1bccb196639d9038dd98f0247ce1295ef510ec13",
+    "baseline_byte_sha256":  "50baa47078717926a5e506d0f90a94286b323c314b35664d424c13fdec660055",
+    "replay_byte_sha256":  "05137adbdab270ad6edcab1377bc4ad7c3ff6acf028340b1e62f911dc06fd113",
+    "unique_invocation_bytes":  true,
+    "canonical_semantics_equal":  true,
+    "exact_non_invocation_datasets":  {
+                                          "compression_objects":  "568bde2a263f7d5fd629d0aa81e3b517dbd6e5de7fe6109bc93447fc2256b876",
+                                          "compression_samples":  "1897c19febb59cfd1f5525e7ff248ef1f85c903a8c34de62051dde907602ae68",
+                                          "compression_events":  "87c078a81b096dcec86ea539811d787f75a98970d4899ede35a84bc822036eca",
+                                          "expansion_objects":  "8529d845ab0f5c017a35b659dbf4d032100f38d68d8d1826b0d9d66b96954fbb",
+                                          "expansion_samples":  "bf8abfc0d0ff2181b4848f2d2dc50fc9eca1a6e9fa3ef28602c9e2d0acf4d857",
+                                          "expansion_events":  "2a62fd3fbf2f71aac99a317bed862b9c5a102fe27a84c789350b0c913e0cc05c",
+                                          "object_relations":  "50c8afea60a6c3c2efc7a4d35b5d78a7a863b2a28e1596d6dc296e31fb4b0476",
+                                          "structural_samples":  "3bbdc3760ba3f3a863b1adee09ae7637bc12e3d05742226cebfd154eacd171fe"
+                                      },
+    "baseline_packed_sha256":  "6fa19ed11bc1d2888defb467779013ae8a31013f336ea92f61e1899ab4b6e3df",
+    "replay_packed_sha256":  "11a6a07f50d5fc0ef024847e8a2795ffa7c22a930ff9007b25485ef29f1e5818",
+    "note":  "Packed artifacts are lossless and therefore retain unique invocation bytes; canonical semantic identity excludes invocation_id."
+}

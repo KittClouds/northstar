@@ -1,0 +1,10 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_IMMUTABLE_CORPUS_MANIFEST_V1",
+    "status":  "SEALED",
+    "research_generation":  3,
+    "source_manifest_sha256":  "17f703d17540674b2c57172ca7ae7ffa99f2caea44fde16d95b632349d4ec730",
+    "run_keys":  [
+                     "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651"
+                 ],
+    "canonical_corpus_sha256":  "8460fd4208411d40bf02f70a6928560f52e4635f70878906df452db80c49196f"
+}

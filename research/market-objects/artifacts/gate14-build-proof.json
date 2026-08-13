@@ -1,0 +1,21 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE14_BUILD_PROOF_V1",
+  "status": "PASS",
+  "mql5": {
+    "source": "MarketObjectResearch/MarketObjectCollector.mq5",
+    "compiler": "MetaEditor64 X64 Regular",
+    "errors": 0,
+    "warnings": 0
+  },
+  "rust": {
+    "target_directory": "D:/northstar-target-gate14",
+    "format": "PASS",
+    "tests_passed": 4,
+    "tests_failed": 0,
+    "performance_tests_explicit": 1,
+    "clippy_deny_warnings": "PASS",
+    "release_build": "PASS",
+    "mmap_validation_rows": 100000,
+    "mmap_validation_elapsed_us": 84053
+  }
+}

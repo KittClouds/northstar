@@ -1,0 +1,20 @@
+{
+  "contract": "NORTHSTAR_RG3_MARKET_OBJECT_IDENTITY_V1",
+  "status": "FROZEN",
+  "research_generation": 3,
+  "source_auction_generation": 2,
+  "master_controller_version": 2,
+  "topology_version": 2,
+  "auction_grammar_version": 1,
+  "compression_grammar": "RCM_V2",
+  "expansion_grammar": "ETO_V1",
+  "raw_dataset_schema_version": 1,
+  "derived_schema_version": 1,
+  "object_relation_schema_version": 1,
+  "timestamp_encoding": "unix_seconds",
+  "timestamp_timezone": "MT5_SERVER",
+  "null_token": "\\N",
+  "canonical_instruments": ["DE40", "FRA40", "JPN225", "US30", "US500", "USTEC"],
+  "raw_mutation_rule": "append_only_then_seal",
+  "derived_mutation_rule": "replaceable_from_sealed_raw_and_recipe"
+}

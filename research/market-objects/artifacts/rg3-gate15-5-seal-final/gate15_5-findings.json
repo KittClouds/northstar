@@ -1,0 +1,28 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_5_FINDINGS_V1",
+  "status": "EXPLORATORY",
+  "source_canonical_atlas_sha256": "bec6327b636eac3f67c967ef6912912a606e2a5fdac0f60590743332957c0f28",
+  "findings": [
+    {
+      "statement": "Master structural strata do not reconcile the three compression family systems",
+      "evidence": "supported compression strata retain low directional refinement and high variation of information"
+    },
+    {
+      "statement": "Master structural context sharpens selected expansion view relationships",
+      "evidence": "shape to hybrid directional refinement is 0.530 in REGION_1|OPEN_CORRIDOR versus 0.278 globally; N=48, 16 runs, six instruments, five windows, seven supported blocks, blocked p10/median/p90=0.224/0.332/0.681"
+    },
+    {
+      "statement": "compression-to-expansion coupling is weak globally",
+      "evidence": "all nine global directional refinement values are at most 0.014"
+    },
+    {
+      "statement": "one structurally conditioned coupling cell is worth prospective scrutiny",
+      "evidence": "compression summary to expansion shape refinement is 0.212 in REGION_2|NODE_CONTACT; N=39, 10 runs, six instruments, five windows, six supported blocks, blocked p10/median/p90=0.139/0.168/0.229"
+    },
+    {
+      "statement": "the exact lineage tuple is not a supported categorical grammar",
+      "evidence": "470 exact lineage phenotypes occur among 538 lineages; zero meet the eight-object descriptive floor"
+    }
+  ],
+  "claim_boundary": "descriptive exploratory organization only; no confirmation, prediction, taxonomy, or trading claim"
+}

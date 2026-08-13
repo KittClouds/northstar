@@ -1,0 +1,2729 @@
+[
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1783900800:1784505600": 2
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 4.617875421719653e-6,
+    "blocked_refinement_left_to_right_median": 0.13331478129756513,
+    "blocked_refinement_left_to_right_p90": 0.2505026028157117,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.002139901621253104,
+    "blocked_refinement_left_to_right_median": 0.07448308596203634,
+    "blocked_refinement_left_to_right_p90": 0.14252463738831622,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.033064148521205095,
+    "blocked_refinement_left_to_right_median": 0.08579885800551745,
+    "blocked_refinement_left_to_right_p90": 0.11689800358692548,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.011439626978959727,
+    "blocked_refinement_left_to_right_median": 0.038301332564047996,
+    "blocked_refinement_left_to_right_p90": 0.382290373553242,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.00033566488143510487,
+    "blocked_refinement_left_to_right_median": 0.058498867922211706,
+    "blocked_refinement_left_to_right_p90": 0.2936429548646672,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.01929750724700252,
+    "blocked_refinement_left_to_right_median": 0.08421262596545309,
+    "blocked_refinement_left_to_right_p90": 0.16840699929781577,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.03487206491561312,
+    "blocked_refinement_left_to_right_p90": 0.0530085931771771,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.054265128685810016,
+    "blocked_refinement_left_to_right_p90": 0.1423429262988417,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 13,
+    "instrument_counts": {
+      "DE40": 11,
+      "FRA40": 12,
+      "JPN225": 13,
+      "US30": 11,
+      "US500": 10,
+      "USTEC": 24
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1774224000:1774828800": 49,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 17,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 9,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.052259233359071344,
+    "blocked_refinement_left_to_right_p90": 0.09775329126516763,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-1|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "DE40": 5
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 1,
+    "instrument_counts": {
+      "JPN225": 7
+    },
+    "window_counts": {
+      "1774224000:1774828800": 7
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_-2|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "run_count": 3,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.0010535834465641436,
+    "blocked_refinement_left_to_right_median": 0.0035935702683989046,
+    "blocked_refinement_left_to_right_p90": 0.13700643957737757,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.004666554528968914,
+    "blocked_refinement_left_to_right_median": 0.023863454517867533,
+    "blocked_refinement_left_to_right_p90": 0.5400729331587271,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.004666554528968914,
+    "blocked_refinement_left_to_right_median": 0.1490926301086828,
+    "blocked_refinement_left_to_right_p90": 0.21412755840754583,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.0036600332666372193,
+    "blocked_refinement_left_to_right_median": 0.046527028608012055,
+    "blocked_refinement_left_to_right_p90": 0.08084427608928335,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.0001182598549245295,
+    "blocked_refinement_left_to_right_median": 0.004256358929180748,
+    "blocked_refinement_left_to_right_p90": 0.1699143221203685,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.0001182598549245295,
+    "blocked_refinement_left_to_right_median": 0.08803502599508495,
+    "blocked_refinement_left_to_right_p90": 0.19703555382793225,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.00016744569144533372,
+    "blocked_refinement_left_to_right_median": 0.003498038254722946,
+    "blocked_refinement_left_to_right_p90": 0.13792538097002993,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.023195071631899045,
+    "blocked_refinement_left_to_right_median": 0.0927225744614526,
+    "blocked_refinement_left_to_right_p90": 1.0,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 145,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 22,
+      "FRA40": 15,
+      "JPN225": 20,
+      "US30": 34,
+      "US500": 36,
+      "USTEC": 18
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 34,
+      "1774224000:1774828800": 11,
+      "1777852800:1778457600": 15,
+      "1781481600:1782086400": 35,
+      "1783900800:1784505600": 21,
+      "1785715200:1786060800": 8
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 13,
+    "blocked_refinement_left_to_right_p10": 0.02585782475608389,
+    "blocked_refinement_left_to_right_median": 0.06926171867351028,
+    "blocked_refinement_left_to_right_p90": 0.10709151279973583,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_0|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 4,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 1
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.0008768126114379049,
+    "blocked_refinement_left_to_right_median": 0.009147530488241573,
+    "blocked_refinement_left_to_right_p90": 0.09799698901363885,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.010571480794990817,
+    "blocked_refinement_left_to_right_median": 0.10070635320642962,
+    "blocked_refinement_left_to_right_p90": 0.20917374142286793,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.03034411559565242,
+    "blocked_refinement_left_to_right_median": 0.06546105838501781,
+    "blocked_refinement_left_to_right_p90": 0.10003324289134563,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.0012933091561637688,
+    "blocked_refinement_left_to_right_median": 0.03512772692289734,
+    "blocked_refinement_left_to_right_p90": 0.1157496169581449,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.0025677736075152557,
+    "blocked_refinement_left_to_right_median": 0.0494327812972174,
+    "blocked_refinement_left_to_right_p90": 0.1311291855980926,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.002143035186360165,
+    "blocked_refinement_left_to_right_median": 0.05938107088737987,
+    "blocked_refinement_left_to_right_p90": 0.0970806867137699,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.0013175253078577809,
+    "blocked_refinement_left_to_right_median": 0.0383690850764874,
+    "blocked_refinement_left_to_right_p90": 0.10825761159004144,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.0015089886540080588,
+    "blocked_refinement_left_to_right_median": 0.027262408648784042,
+    "blocked_refinement_left_to_right_p90": 0.07417043282997937,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 162,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 29,
+    "instrument_counts": {
+      "DE40": 21,
+      "FRA40": 27,
+      "JPN225": 20,
+      "US30": 28,
+      "US500": 32,
+      "USTEC": 34
+    },
+    "window_counts": {
+      "1768176000:1768780800": 35,
+      "1771200000:1771804800": 16,
+      "1777852800:1778457600": 34,
+      "1781481600:1782086400": 36,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 27
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 12,
+    "blocked_refinement_left_to_right_p10": 0.020609365572138882,
+    "blocked_refinement_left_to_right_median": 0.03320041983565769,
+    "blocked_refinement_left_to_right_p90": 0.1041457902138645,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.12846603124941103,
+    "blocked_refinement_left_to_right_p90": 0.27401754212128104,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.10311128269063419,
+    "blocked_refinement_left_to_right_p90": 0.14581874826654384,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.019367128128313538,
+    "blocked_refinement_left_to_right_median": 0.17055983823490106,
+    "blocked_refinement_left_to_right_p90": 1.0,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 2.220446049250313e-16,
+    "blocked_refinement_left_to_right_median": 0.1031072942736746,
+    "blocked_refinement_left_to_right_p90": 0.17110871057416333,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.0008729012234529598,
+    "blocked_refinement_left_to_right_median": 0.05635716030391413,
+    "blocked_refinement_left_to_right_p90": 0.15106563978903298,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.07118475190321072,
+    "blocked_refinement_left_to_right_median": 0.15106563978903298,
+    "blocked_refinement_left_to_right_p90": 1.0,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.05832734601451062,
+    "blocked_refinement_left_to_right_p90": 0.1031072942736746,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.05635716030391413,
+    "blocked_refinement_left_to_right_p90": 0.08557910103462063,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_1|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 48,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 14,
+    "instrument_counts": {
+      "DE40": 8,
+      "FRA40": 9,
+      "JPN225": 9,
+      "US30": 7,
+      "US500": 8,
+      "USTEC": 7
+    },
+    "window_counts": {
+      "1768176000:1768780800": 15,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 13,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 15
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 7,
+    "blocked_refinement_left_to_right_p10": 0.042454680972096925,
+    "blocked_refinement_left_to_right_median": 0.09091987815158065,
+    "blocked_refinement_left_to_right_p90": 1.0,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.007182567608992163,
+    "blocked_refinement_left_to_right_median": 0.04879494069539858,
+    "blocked_refinement_left_to_right_p90": 0.13891484521147368,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.13891484521147368,
+    "blocked_refinement_left_to_right_median": 0.16840699929781577,
+    "blocked_refinement_left_to_right_p90": 0.22890018166859094,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.04879494069539858,
+    "blocked_refinement_left_to_right_median": 0.1540989101148985,
+    "blocked_refinement_left_to_right_p90": 0.16840699929781577,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.01847565748187696,
+    "blocked_refinement_left_to_right_median": 0.09400833241463313,
+    "blocked_refinement_left_to_right_p90": 0.5584331011203431,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.0003897597105527728,
+    "blocked_refinement_left_to_right_median": 0.11689800358692548,
+    "blocked_refinement_left_to_right_p90": 0.3917664344536761,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 2.220446049250313e-16,
+    "blocked_refinement_left_to_right_median": 0.16309615559301838,
+    "blocked_refinement_left_to_right_p90": 0.3081978202297966,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.03991973790042702,
+    "blocked_refinement_left_to_right_p90": 0.14880710164946864,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.03424998552388803,
+    "blocked_refinement_left_to_right_median": 0.05250589226225788,
+    "blocked_refinement_left_to_right_p90": 0.3677498760605039,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|NODE_CONTACT",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 39,
+    "support_class": "SUPPORTED_COMPARISON",
+    "run_count": 10,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 8,
+      "JPN225": 10,
+      "US30": 2,
+      "US500": 4,
+      "USTEC": 10
+    },
+    "window_counts": {
+      "1771200000:1771804800": 9,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 17,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 9
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 6,
+    "blocked_refinement_left_to_right_p10": 0.0,
+    "blocked_refinement_left_to_right_median": 0.04784152615191162,
+    "blocked_refinement_left_to_right_p90": 0.3726071827572397,
+    "transport_support": "DISTRIBUTED_EXPLORATORY_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_summary_geometry_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_resampled_shape_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_summary_geometry_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_resampled_shape_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  },
+  {
+    "object_kind": "COMPRESSION_TO_EXPANSION",
+    "stratum": "REGION_2|OPEN_CORRIDOR",
+    "left_representation": "compression_hybrid_mirrored_v1",
+    "right_representation": "expansion_hybrid_mirrored_v1",
+    "eligible_population": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "run_count": 5,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 3,
+      "US30": 2,
+      "US500": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 5
+    },
+    "null_structural_denominator": 0,
+    "blocked_unit": "INSTRUMENT_AND_WINDOW_BLOCKS_WITH_N_AT_LEAST_8",
+    "blocked_supported_units": 0,
+    "blocked_refinement_left_to_right_p10": null,
+    "blocked_refinement_left_to_right_median": null,
+    "blocked_refinement_left_to_right_p90": null,
+    "transport_support": "LIMITED_CONTEXT_SUPPORT"
+  }
+]

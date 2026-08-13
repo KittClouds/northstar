@@ -1,0 +1,2290 @@
+[
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 20,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 4,
+      "JPN225": 1,
+      "US30": 5,
+      "US500": 2,
+      "USTEC": 6
+    },
+    "window_counts": {
+      "1771200000:1771804800": 3,
+      "1774224000:1774828800": 16,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_-1|OPEN_CORRIDOR",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3
+    },
+    "window_counts": {
+      "1774224000:1774828800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 42,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 6,
+      "FRA40": 1,
+      "JPN225": 4,
+      "US30": 16,
+      "US500": 9,
+      "USTEC": 6
+    },
+    "window_counts": {
+      "1768176000:1768780800": 7,
+      "1771200000:1771804800": 14,
+      "1774224000:1774828800": 5,
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 8,
+      "1783900800:1784505600": 4,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 2,
+      "JPN225": 4,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1771200000:1771804800": 4,
+      "1777852800:1778457600": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 59,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 6,
+      "FRA40": 5,
+      "JPN225": 8,
+      "US30": 11,
+      "US500": 17,
+      "USTEC": 12
+    },
+    "window_counts": {
+      "1768176000:1768780800": 14,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 18,
+      "1781481600:1782086400": 13,
+      "1783900800:1784505600": 3,
+      "1785715200:1786060800": 6
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 19,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "FRA40": 6,
+      "JPN225": 2,
+      "US30": 3,
+      "US500": 4,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 5,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 4,
+      "1781481600:1782086400": 2,
+      "1785715200:1786060800": 7
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 11,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "JPN225": 3,
+      "US500": 1,
+      "USTEC": 4
+    },
+    "window_counts": {
+      "1771200000:1771804800": 3,
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "US30": 2,
+      "US500": 2
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 2,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1,
+      "1783900800:1784505600": 4
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1,
+      "US30": 1,
+      "US500": 4
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1774224000:1774828800": 1,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "JPN225": 1,
+      "US30": 3,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 37,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 6,
+      "FRA40": 5,
+      "JPN225": 5,
+      "US30": 3,
+      "US500": 5,
+      "USTEC": 13
+    },
+    "window_counts": {
+      "1771200000:1771804800": 4,
+      "1774224000:1774828800": 18,
+      "1783900800:1784505600": 12,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_-1|OPEN_CORRIDOR",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 6
+    },
+    "window_counts": {
+      "1774224000:1774828800": 6
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_-2|OPEN_CORRIDOR",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 52,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 6,
+      "FRA40": 5,
+      "JPN225": 8,
+      "US30": 11,
+      "US500": 16,
+      "USTEC": 6
+    },
+    "window_counts": {
+      "1768176000:1768780800": 7,
+      "1771200000:1771804800": 10,
+      "1774224000:1774828800": 2,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 18,
+      "1783900800:1784505600": 9,
+      "1785715200:1786060800": 4
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 40,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 5,
+      "FRA40": 11,
+      "JPN225": 4,
+      "US30": 8,
+      "US500": 3,
+      "USTEC": 9
+    },
+    "window_counts": {
+      "1768176000:1768780800": 12,
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 12,
+      "1783900800:1784505600": 6,
+      "1785715200:1786060800": 6
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "JPN225": 5,
+      "US30": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 7,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 9,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 4,
+      "JPN225": 2,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1771200000:1771804800": 3,
+      "1781481600:1782086400": 4,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 1,
+      "US30": 1,
+      "US500": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5,
+      "1783900800:1784505600": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 9,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 4,
+      "FRA40": 1,
+      "JPN225": 1,
+      "US500": 2,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 2,
+      "1774224000:1774828800": 1,
+      "1781481600:1782086400": 3,
+      "1783900800:1784505600": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 12,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 2,
+      "JPN225": 1,
+      "US30": 2,
+      "US500": 2,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1,
+      "US30": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 10,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 2,
+      "JPN225": 3,
+      "US30": 1,
+      "US500": 2
+    },
+    "window_counts": {
+      "1774224000:1774828800": 8,
+      "1777852800:1778457600": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 24,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 4,
+      "JPN225": 4,
+      "US30": 6,
+      "US500": 4,
+      "USTEC": 4
+    },
+    "window_counts": {
+      "1768176000:1768780800": 3,
+      "1771200000:1771804800": 7,
+      "1774224000:1774828800": 2,
+      "1777852800:1778457600": 5,
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 4,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 34,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 6,
+      "FRA40": 7,
+      "JPN225": 5,
+      "US30": 4,
+      "US500": 7,
+      "USTEC": 5
+    },
+    "window_counts": {
+      "1768176000:1768780800": 4,
+      "1771200000:1771804800": 3,
+      "1777852800:1778457600": 10,
+      "1781481600:1782086400": 5,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 10
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1,
+      "US30": 2,
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 1,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 12,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 2,
+      "JPN225": 4,
+      "US30": 2,
+      "US500": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1781481600:1782086400": 6,
+      "1783900800:1784505600": 1,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C1",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US500": 1
+    },
+    "window_counts": {
+      "1777852800:1778457600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1,
+      "US30": 2,
+      "US500": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 2,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "JPN225": 1,
+      "US500": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 2,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 4,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "US500": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C1|C2",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 2,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1771200000:1771804800": 3,
+      "1774224000:1774828800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 2,
+      "JPN225": 2,
+      "US30": 1,
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1774224000:1774828800": 1,
+      "1777852800:1778457600": 3,
+      "1783900800:1784505600": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US500": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 12,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1,
+      "JPN225": 2,
+      "US30": 1,
+      "US500": 3,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 4,
+      "1771200000:1771804800": 4,
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 1,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "US30": 1,
+      "US500": 1,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 4,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C1",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1,
+      "US30": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "C2|C2|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "COMPRESSION_MULTIVIEW",
+    "coordinate": "NOT_APPLICABLE|NOT_APPLICABLE|NOT_APPLICABLE",
+    "structural_coordinate": "NULL_STRUCTURAL_CONTEXT",
+    "count": 15,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 15,
+    "instrument_counts": {
+      "DE40": 4,
+      "FRA40": 3,
+      "JPN225": 4,
+      "US30": 1,
+      "US500": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1771200000:1771804800": 2,
+      "1774224000:1774828800": 1,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 6,
+      "1783900800:1784505600": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1,
+      "US30": 2,
+      "US500": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 3,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGIONAL_STATE_UNAVAILABLE|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 37,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 5,
+      "JPN225": 8,
+      "US30": 4,
+      "US500": 6,
+      "USTEC": 13
+    },
+    "window_counts": {
+      "1771200000:1771804800": 4,
+      "1774224000:1774828800": 25,
+      "1783900800:1784505600": 5,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_-1|OPEN_CORRIDOR",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "JPN225": 1,
+      "US500": 2
+    },
+    "window_counts": {
+      "1774224000:1774828800": 4,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 84,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 14,
+      "FRA40": 8,
+      "JPN225": 8,
+      "US30": 21,
+      "US500": 22,
+      "USTEC": 11
+    },
+    "window_counts": {
+      "1768176000:1768780800": 10,
+      "1771200000:1771804800": 22,
+      "1774224000:1774828800": 7,
+      "1777852800:1778457600": 8,
+      "1781481600:1782086400": 20,
+      "1783900800:1784505600": 14,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 5,
+      "US30": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1771200000:1771804800": 5,
+      "1777852800:1778457600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 95,
+    "support_class": "SUPPORTED_COMPARISON",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 10,
+      "FRA40": 12,
+      "JPN225": 12,
+      "US30": 16,
+      "US500": 23,
+      "USTEC": 22
+    },
+    "window_counts": {
+      "1768176000:1768780800": 21,
+      "1771200000:1771804800": 8,
+      "1777852800:1778457600": 24,
+      "1781481600:1782086400": 24,
+      "1783900800:1784505600": 5,
+      "1785715200:1786060800": 13
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 27,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "FRA40": 7,
+      "JPN225": 6,
+      "US30": 4,
+      "US500": 4,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 9,
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 5,
+      "1781481600:1782086400": 2,
+      "1785715200:1786060800": 9
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 28,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "FRA40": 5,
+      "JPN225": 6,
+      "US30": 2,
+      "US500": 3,
+      "USTEC": 9
+    },
+    "window_counts": {
+      "1771200000:1771804800": 4,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 13,
+      "1783900800:1784505600": 1,
+      "1785715200:1786060800": 8
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C1|C2",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 2,
+      "JPN225": 1,
+      "US30": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 1,
+      "1785715200:1786060800": 4
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 2,
+      "US30": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 1,
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1,
+      "1781481600:1782086400": 1,
+      "1783900800:1784505600": 2,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 4,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "US30": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 2,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C1",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "JPN225": 1,
+      "US30": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 5
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1774224000:1774828800": 1,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C2",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C3",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C1|C2|C3",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US30": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "JPN225": 1,
+      "US500": 1,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2,
+      "1783900800:1784505600": 5
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 8,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1,
+      "JPN225": 1,
+      "US30": 2,
+      "US500": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 3,
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C1",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 13,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 6,
+      "FRA40": 3,
+      "JPN225": 1,
+      "US30": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1774224000:1774828800": 7,
+      "1777852800:1778457600": 1,
+      "1783900800:1784505600": 3
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_-1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US500": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 3
+    },
+    "window_counts": {
+      "1774224000:1774828800": 3
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 28,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "FRA40": 4,
+      "JPN225": 6,
+      "US30": 5,
+      "US500": 7,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 4,
+      "1771200000:1771804800": 6,
+      "1774224000:1774828800": 1,
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 5,
+      "1783900800:1784505600": 6,
+      "1785715200:1786060800": 4
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 23,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 3,
+      "FRA40": 5,
+      "JPN225": 5,
+      "US30": 3,
+      "US500": 4,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 6,
+      "1771200000:1771804800": 3,
+      "1777852800:1778457600": 4,
+      "1781481600:1782086400": 5,
+      "1783900800:1784505600": 3,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1777852800:1778457600": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C2",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 4,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "JPN225": 2
+    },
+    "window_counts": {
+      "1781481600:1782086400": 2,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C3",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C3",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1777852800:1778457600": 2,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C3",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 12,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 2,
+      "JPN225": 2,
+      "US30": 4,
+      "US500": 1,
+      "USTEC": 3
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1777852800:1778457600": 5,
+      "1781481600:1782086400": 2,
+      "1785715200:1786060800": 3
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C3",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 5,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "US500": 2,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1777852800:1778457600": 1,
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C3",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 4,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2,
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C1|C3",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 3,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "US30": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 2,
+      "US30": 2,
+      "US500": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 3,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C1",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 6,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "US30": 1,
+      "US500": 2,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1,
+      "1771200000:1771804800": 1,
+      "1777852800:1778457600": 3,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US30": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C2",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US30": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C2",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1768176000:1768780800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C3",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 4,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1,
+      "US30": 2,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1,
+      "1774224000:1774828800": 3
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C3",
+    "structural_coordinate": "REGION_-1|OPEN_CORRIDOR",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1,
+      "1783900800:1784505600": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C3",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 4,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 2,
+      "FRA40": 2
+    },
+    "window_counts": {
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C3",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 7,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1,
+      "FRA40": 1,
+      "US30": 3,
+      "USTEC": 2
+    },
+    "window_counts": {
+      "1768176000:1768780800": 2,
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 2,
+      "1783900800:1784505600": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C3",
+    "structural_coordinate": "REGION_2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "C3|C2|C3",
+    "structural_coordinate": "REGION_2|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "FRA40": 1
+    },
+    "window_counts": {
+      "1771200000:1771804800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NOT_APPLICABLE|NOT_APPLICABLE|NOT_APPLICABLE",
+    "structural_coordinate": "NULL_STRUCTURAL_CONTEXT",
+    "count": 22,
+    "support_class": "DESCRIPTIVE_ONLY",
+    "censored_count": 22,
+    "instrument_counts": {
+      "DE40": 3,
+      "FRA40": 3,
+      "JPN225": 2,
+      "US30": 5,
+      "US500": 5,
+      "USTEC": 4
+    },
+    "window_counts": {
+      "1768176000:1768780800": 4,
+      "1771200000:1771804800": 4,
+      "1774224000:1774828800": 5,
+      "1777852800:1778457600": 4,
+      "1783900800:1784505600": 5
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NOT_APPLICABLE|NOT_APPLICABLE|NOT_APPLICABLE",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 2,
+    "instrument_counts": {
+      "FRA40": 1,
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NOT_APPLICABLE|NOT_APPLICABLE|NOT_APPLICABLE",
+    "structural_coordinate": "REGION_0|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 1,
+    "instrument_counts": {
+      "US500": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NOT_APPLICABLE|NOT_APPLICABLE|NOT_APPLICABLE",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 1,
+    "instrument_counts": {
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NOT_APPLICABLE|NOT_APPLICABLE|NOT_APPLICABLE",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 2,
+    "instrument_counts": {
+      "JPN225": 1,
+      "US30": 1
+    },
+    "window_counts": {
+      "1777852800:1778457600": 1,
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C1|C2",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US30": 1,
+      "US500": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C1|C2",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C1",
+    "structural_coordinate": "REGION_-1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US500": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C1",
+    "structural_coordinate": "REGION_-2|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1
+    },
+    "window_counts": {
+      "1774224000:1774828800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C1",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US30": 2
+    },
+    "window_counts": {
+      "1771200000:1771804800": 2
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C1",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 2,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US500": 1,
+      "USTEC": 1
+    },
+    "window_counts": {
+      "1777852800:1778457600": 1,
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C1",
+    "structural_coordinate": "REGION_1|OPEN_CORRIDOR",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "DE40": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C2",
+    "structural_coordinate": "REGION_1|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "US30": 1
+    },
+    "window_counts": {
+      "1781481600:1782086400": 1
+    }
+  },
+  {
+    "phenotype_type": "EXPANSION_MULTIVIEW",
+    "coordinate": "NULL_FAMILY|C2|C3",
+    "structural_coordinate": "REGION_0|NODE_CONTACT",
+    "count": 1,
+    "support_class": "INSUFFICIENT_SUPPORT",
+    "censored_count": 0,
+    "instrument_counts": {
+      "JPN225": 1
+    },
+    "window_counts": {
+      "1785715200:1786060800": 1
+    }
+  }
+]

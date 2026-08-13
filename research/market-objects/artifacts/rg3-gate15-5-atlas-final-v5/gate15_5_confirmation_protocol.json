@@ -1,0 +1,94 @@
+{
+  "atlas_tests": [
+    "family recurrence",
+    "correspondence transport with and without NULL_FAMILY",
+    "structural-stratum correspondence transport",
+    "lineage phenotype support",
+    "population drift"
+  ],
+  "authorization": "NOT_AUTHORIZED_IN_GATE15_5",
+  "confirmation_windows": [
+    {
+      "window_end": "2025-10-13T00:00:00Z",
+      "window_id": "confirm_2025w41",
+      "window_start": "2025-10-06T00:00:00Z"
+    },
+    {
+      "window_end": "2026-04-13T00:00:00Z",
+      "window_id": "confirm_2026w15",
+      "window_start": "2026-04-06T00:00:00Z"
+    }
+  ],
+  "contract": "NORTHSTAR_RG3_GATE15_5_CONFIRMATION_PROTOCOL_V1",
+  "expected_runs": 12,
+  "family_system_artifact_sha256": "f3d89ed9eef62c7bd9599478df224fd3d8442ea39671d6807774c44129b43e0f",
+  "holdout_rule": "the 12 exact windows remain unopened until explicit future authorization",
+  "layers": {
+    "frozen_system_transport": {
+      "assignment": "nearest frozen centroid; no OOS rejection radius authorized",
+      "fit": "FORBIDDEN",
+      "null_rule": "future NULL cannot be invented from distance in Gate15.5"
+    },
+    "independent_rediscovery": {
+      "claim": "distinct from frozen-system transport",
+      "comparison": "label-invariant partition and atlas correspondence",
+      "recipe": "frozen Gate15 V2 discovery recipe"
+    }
+  },
+  "status": "FROZEN_UNOPENED",
+  "support_floors": {
+    "DESCRIPTIVE_ONLY": 8,
+    "INSUFFICIENT_SUPPORT": "0..7",
+    "SUPPORTED_COMPARISON": 30
+  },
+  "tolerances": [
+    {
+      "derivation": "exploratory supported instrument/window blocked empirical p95 with 0.05 floor",
+      "left_representation": "resampled_shape_v1",
+      "maximum": 0.05,
+      "metric": "JS_DIVERGENCE_BITS",
+      "object_kind": "COMPRESSION",
+      "right_representation": "hybrid_mirrored_v1"
+    },
+    {
+      "derivation": "exploratory supported instrument/window blocked empirical p95 with 0.05 floor",
+      "left_representation": "summary_geometry_v1",
+      "maximum": 0.05,
+      "metric": "JS_DIVERGENCE_BITS",
+      "object_kind": "COMPRESSION",
+      "right_representation": "hybrid_mirrored_v1"
+    },
+    {
+      "derivation": "exploratory supported instrument/window blocked empirical p95 with 0.05 floor",
+      "left_representation": "summary_geometry_v1",
+      "maximum": 0.05,
+      "metric": "JS_DIVERGENCE_BITS",
+      "object_kind": "COMPRESSION",
+      "right_representation": "resampled_shape_v1"
+    },
+    {
+      "derivation": "exploratory supported instrument/window blocked empirical p95 with 0.05 floor",
+      "left_representation": "resampled_shape_v1",
+      "maximum": 0.05,
+      "metric": "JS_DIVERGENCE_BITS",
+      "object_kind": "EXPANSION",
+      "right_representation": "hybrid_mirrored_v1"
+    },
+    {
+      "derivation": "exploratory supported instrument/window blocked empirical p95 with 0.05 floor",
+      "left_representation": "summary_geometry_v1",
+      "maximum": 0.05,
+      "metric": "JS_DIVERGENCE_BITS",
+      "object_kind": "EXPANSION",
+      "right_representation": "hybrid_mirrored_v1"
+    },
+    {
+      "derivation": "exploratory supported instrument/window blocked empirical p95 with 0.05 floor",
+      "left_representation": "summary_geometry_v1",
+      "maximum": 0.05,
+      "metric": "JS_DIVERGENCE_BITS",
+      "object_kind": "EXPANSION",
+      "right_representation": "resampled_shape_v1"
+    }
+  ]
+}

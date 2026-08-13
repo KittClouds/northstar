@@ -153,6 +153,32 @@ pub struct Gate15Report {
     pub limitations: Vec<String>,
 }
 
+/// Complete fitted representation system needed to replay Gate 15 assignments.
+///
+/// `NULL` is deliberately not represented as a centroid. It is the result of
+/// an unsupported training partition. Gate 15.5 does not invent an OOS
+/// distance-rejection boundary; that remains a Gate 16 concern.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct FittedFamilySystem {
+    pub object_kind: String,
+    pub representation: String,
+    pub family_system_sha256: String,
+    pub recipe_id: String,
+    pub feature_order: Vec<String>,
+    pub winsor_low: Vec<f32>,
+    pub winsor_high: Vec<f32>,
+    pub means: Vec<f64>,
+    pub scales: Vec<f64>,
+    pub standardized_clip: [f32; 2],
+    pub distance: String,
+    pub selected_k: usize,
+    pub centroids: Vec<Vec<f32>>,
+    pub centroid_labels: Vec<String>,
+    pub supported: Vec<bool>,
+    pub assignment_rule: String,
+    pub oos_rejection_rule: String,
+}
+
 #[derive(Clone, Copy)]
 struct CompressionSample {
     age: f32,
@@ -375,6 +401,7 @@ fn analyze_kind(
     records: &[ObjectRecord],
     kind: ObjectKind,
     assignments: &mut Vec<CandidateAssignment>,
+    fitted: &mut Vec<FittedFamilySystem>,
 ) -> KindReport {
     let all: Vec<_> = records
         .iter()
@@ -400,6 +427,40 @@ fn analyze_kind(
         .iter()
         .map(|view| analyze_view(&eligible, view))
         .collect();
+    for (view, analysis) in views.iter().zip(&analyses) {
+        fitted.push(FittedFamilySystem {
+            object_kind: kind.name().into(),
+            representation: (*view).into(),
+            family_system_sha256: analysis.report.family_system_sha256.clone(),
+            recipe_id: RECIPE.into(),
+            feature_order: feature_order(kind, view),
+            winsor_low: analysis.winsor_low.clone(),
+            winsor_high: analysis.winsor_high.clone(),
+            means: analysis.means.clone(),
+            scales: analysis.scales.clone(),
+            standardized_clip: [-6.0, 6.0],
+            distance: "SQUARED_EUCLIDEAN_STANDARDIZED".into(),
+            selected_k: analysis.report.selected_k,
+            centroids: analysis
+                .centroids
+                .chunks_exact(analysis.report.dimensions)
+                .map(<[f32]>::to_vec)
+                .collect(),
+            centroid_labels: (0..analysis.report.selected_k)
+                .map(|index| format!("C{}", index + 1))
+                .collect(),
+            supported: analysis
+                .report
+                .families
+                .iter()
+                .map(|family| family.common_support)
+                .collect(),
+            assignment_rule:
+                "nearest fitted centroid; unsupported training centroid maps to NULL_FAMILY".into(),
+            oos_rejection_rule: "NONE_FROZEN_GATE15_5; distance rejection deferred to Gate16"
+                .into(),
+        });
+    }
     for (view, analysis) in views.iter().zip(&analyses) {
         for record in &all {
             assignments.push(CandidateAssignment {
@@ -525,6 +586,20 @@ fn analyze_kind(
 pub fn discover_trajectory_families(
     corpora: &[RawCorpus],
 ) -> Result<(Gate15Report, Vec<CandidateAssignment>), RawError> {
+    let (report, assignments, _) = fit_trajectory_family_systems(corpora)?;
+    Ok((report, assignments))
+}
+
+pub fn fit_trajectory_family_systems(
+    corpora: &[RawCorpus],
+) -> Result<
+    (
+        Gate15Report,
+        Vec<CandidateAssignment>,
+        Vec<FittedFamilySystem>,
+    ),
+    RawError,
+> {
     let mut records = Vec::new();
     let mut missingness = BTreeMap::new();
     let mut run_hashes = Vec::with_capacity(corpora.len());
@@ -553,9 +628,20 @@ pub fn discover_trajectory_families(
     }
     let minimum_instrument_objects = by_instrument.values().copied().min().unwrap_or(0);
     let mut assignments = Vec::with_capacity(records.len() * 3);
+    let mut fitted = Vec::with_capacity(6);
     let kinds = vec![
-        analyze_kind(&records, ObjectKind::Compression, &mut assignments),
-        analyze_kind(&records, ObjectKind::Expansion, &mut assignments),
+        analyze_kind(
+            &records,
+            ObjectKind::Compression,
+            &mut assignments,
+            &mut fitted,
+        ),
+        analyze_kind(
+            &records,
+            ObjectKind::Expansion,
+            &mut assignments,
+            &mut fitted,
+        ),
     ];
     let common_family_support = kinds.iter().all(|kind| {
         kind.views
@@ -589,7 +675,7 @@ pub fn discover_trajectory_families(
         && exit_checks.within_view_stability
         && exit_checks.cross_view_agreement
         && exit_checks.raw_generation_consistent;
-    Ok((Gate15Report {
+    let report = Gate15Report {
         contract: "NORTHSTAR_RG3_GATE15_DISCOVERY_REPORT_V1".into(),
         status: if pass { "PASS" } else { "COLLECT_MORE" }.into(),
         epistemic_status: "CANDIDATE_ONLY_NOT_MARKET_TRUTH".into(),
@@ -610,7 +696,51 @@ pub fn discover_trajectory_families(
             "Centroid silhouette is a compact selection diagnostic and is not a probabilistic confidence.".into(),
             "No trading, profitability, entry, exit, or directional-value label is present.".into(),
         ],
-    }, assignments))
+    };
+    Ok((report, assignments, fitted))
+}
+
+fn feature_order(kind: ObjectKind, view: &str) -> Vec<String> {
+    let summary: &[&str] = match kind {
+        ObjectKind::Compression => &[
+            "log_sample_count",
+            "seed_width_atr",
+            "terminal_width_seed",
+            "mid_migration_atr",
+            "escape_count",
+            "terminal_close_mid_atr",
+        ],
+        ObjectKind::Expansion => &[
+            "log_sample_count",
+            "terminal_displacement_atr",
+            "max_displacement_atr",
+            "opposite_displacement_atr",
+            "return_depth_max",
+            "path_efficiency",
+            "containment_extension_atr",
+        ],
+    };
+    if view == "summary_geometry_v1" {
+        return summary.iter().map(|name| (*name).into()).collect();
+    }
+    let (points, channels): (usize, &[&str]) = match kind {
+        ObjectKind::Compression => (16, &["width_seed", "mid_migration_atr", "close_mid_atr"]),
+        ObjectKind::Expansion => (32, &["displacement_atr", "velocity_atr_bar"]),
+    };
+    let mut shape = Vec::with_capacity(points * channels.len());
+    for point in 0..points {
+        for channel in channels {
+            shape.push(format!("t{point:02}_{channel}"));
+        }
+    }
+    if view == "resampled_shape_v1" {
+        return shape;
+    }
+    summary
+        .iter()
+        .map(|name| format!("summary_{name}"))
+        .chain(shape.into_iter().map(|name| format!("mirrored_{name}")))
+        .collect()
 }
 
 #[cfg(test)]

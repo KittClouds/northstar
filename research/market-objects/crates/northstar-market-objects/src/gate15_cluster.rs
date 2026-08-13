@@ -24,7 +24,15 @@ fn feature<'a>(record: &'a ObjectRecord, view: &str) -> &'a [f32] {
     }
 }
 
-fn standardized(records: &[&ObjectRecord], view: &str) -> Matrix {
+struct Standardized {
+    matrix: Matrix,
+    lows: Vec<f32>,
+    highs: Vec<f32>,
+    means: Vec<f64>,
+    scales: Vec<f64>,
+}
+
+fn standardized(records: &[&ObjectRecord], view: &str) -> Standardized {
     let cols = feature(records[0], view).len();
     let mut lows = vec![0.0f32; cols];
     let mut highs = vec![0.0f32; cols];
@@ -81,10 +89,16 @@ fn standardized(records: &[&ObjectRecord], view: &str) -> Matrix {
             data.push(((value.clamp(low, high) as f64 - mean) / scale).clamp(-6.0, 6.0) as f32);
         }
     }
-    Matrix {
-        rows: records.len(),
-        cols,
-        data,
+    Standardized {
+        matrix: Matrix {
+            rows: records.len(),
+            cols,
+            data,
+        },
+        lows,
+        highs,
+        means,
+        scales,
     }
 }
 
@@ -235,19 +249,25 @@ fn centroid_silhouette(matrix: &Matrix, result: &KmeansResult, k: usize) -> f64 
 pub(super) struct ViewAnalysis {
     pub(super) report: ViewReport,
     pub(super) labels: Vec<usize>,
+    pub(super) winsor_low: Vec<f32>,
+    pub(super) winsor_high: Vec<f32>,
+    pub(super) means: Vec<f64>,
+    pub(super) scales: Vec<f64>,
+    pub(super) centroids: Vec<f32>,
 }
 
 pub(super) fn analyze_view(records: &[&ObjectRecord], view: &str) -> ViewAnalysis {
-    let matrix = standardized(records, view);
+    let standardized = standardized(records, view);
+    let matrix = &standardized.matrix;
     let max_k = 8usize.min((matrix.rows / 10).max(2));
     let mut best: Option<(f64, f64, f64, KmeansResult)> = None;
     for k in 2..=max_k {
-        let base = kmeans(&matrix, k, 0);
+        let base = kmeans(matrix, k, 0);
         let stability = (1..8)
-            .map(|seed| adjusted_rand(&base.labels, &kmeans(&matrix, k, seed).labels))
+            .map(|seed| adjusted_rand(&base.labels, &kmeans(matrix, k, seed).labels))
             .sum::<f64>()
             / 7.0;
-        let silhouette = centroid_silhouette(&matrix, &base, k);
+        let silhouette = centroid_silhouette(matrix, &base, k);
         let mut counts = vec![0usize; k];
         for &label in &base.labels {
             counts[label] += 1;
@@ -391,5 +411,10 @@ pub(super) fn analyze_view(records: &[&ObjectRecord], view: &str) -> ViewAnalysi
             families,
         },
         labels: result.labels,
+        winsor_low: standardized.lows,
+        winsor_high: standardized.highs,
+        means: standardized.means,
+        scales: standardized.scales,
+        centroids: result.centroids,
     }
 }

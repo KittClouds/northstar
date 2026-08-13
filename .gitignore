@@ -1,5 +1,6 @@
 /target/
 /research/auction-parity/target/
+/research/market-objects/target/
 
 # Local credentials and environment overrides
 .env

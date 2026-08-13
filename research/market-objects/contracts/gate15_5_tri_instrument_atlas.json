@@ -1,0 +1,76 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_5_TRI_INSTRUMENT_ATLAS_PROTOCOL_V1",
+  "status": "FROZEN",
+  "purpose": "characterize relationships among Master structural point-state, compression coordinates, expansion coordinates, and compression-expansion-compression lineages without discovering new families",
+  "authorities": {
+    "space": "RG3 closed-bar Master Controller structural snapshots, regional geometry, nearest-node geometry, and node-contact receipts",
+    "auction_intervals": "unavailable for the 42 RG3 run identities; RG2 ancestry is bound but RG2 attempt and episode rows are not joined by resemblance",
+    "constraint": "RG3 compression objects and the three frozen Gate 15 compression family systems",
+    "motion": "RG3 expansion objects and the three frozen Gate 15 expansion family systems"
+  },
+  "point_state_join": {
+    "operator": "exact timestamp else latest Master snapshot at or before object event time",
+    "future_rows": "forbidden",
+    "maximum_gap": "one source closed-bar interval",
+    "failure": "NULL_STRUCTURAL_CONTEXT",
+    "receipt_fields": [
+      "object_event_time",
+      "master_snapshot_time",
+      "snapshot_age_seconds",
+      "join_mode",
+      "master_generation",
+      "master_snapshot_hash",
+      "regional_basis_hash"
+    ]
+  },
+  "interval_join": {
+    "operator": "closed temporal interval intersection",
+    "geometry": [
+      "overlap_start",
+      "overlap_end",
+      "overlap_seconds",
+      "fraction_of_object_lifetime",
+      "fraction_of_episode_lifetime"
+    ],
+    "current_authority": "AUCTION_INTERVAL_AUTHORITY_NOT_CO_COLLECTED_IN_RG3",
+    "law": "unavailable authority is not NO_AUCTION_INTERSECTION"
+  },
+  "qualified_namespaces": [
+    "producer_family_code",
+    "compression_summary_family_id",
+    "compression_shape_family_id",
+    "compression_hybrid_family_id",
+    "expansion_summary_family_id",
+    "expansion_shape_family_id",
+    "expansion_hybrid_family_id"
+  ],
+  "null_codes": [
+    "NULL_FAMILY",
+    "NULL_STRUCTURAL_CONTEXT",
+    "NO_AUCTION_INTERSECTION",
+    "CENSORED_DESTINATION",
+    "NOT_APPLICABLE",
+    "DATA_GAP",
+    "AUCTION_AUTHORITY_UNAVAILABLE"
+  ],
+  "support_floors": {
+    "SUPPORTED_COMPARISON": 30,
+    "DESCRIPTIVE_ONLY": 8,
+    "INSUFFICIENT_SUPPORT": "0..7"
+  },
+  "invariants": [
+    "Gate 15 assignments and family-system hashes remain unchanged",
+    "NULL_FAMILY is never a family graph node",
+    "family labels are local to object kind and representation",
+    "adding future Master snapshots cannot rewrite an earlier bridge receipt",
+    "object and structural row order cannot change atlas semantics",
+    "multiview tuples and lineages remain coordinates rather than new families",
+    "all correspondence is reported with and without NULL_FAMILY",
+    "the twelve confirmation runs remain unopened",
+    "no consensus taxonomy, prediction, strategy, or economic interpretation is authorized"
+  ],
+  "confirmation_layers": [
+    "frozen-system transport",
+    "independent rediscovery"
+  ]
+}

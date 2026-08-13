@@ -1,0 +1,14 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_5_REPLAY_PROOF_V1",
+  "status": "PASS",
+  "canonical_artifact": "../rg3-gate15-5-atlas-final-v5",
+  "replay_artifact": "../rg3-gate15-5-atlas-final-v5-replay",
+  "file_count": 19,
+  "all_files_byte_identical": true,
+  "canonical_atlas_sha256": "bec6327b636eac3f67c967ef6912912a606e2a5fdac0f60590743332957c0f28",
+  "canonical_receipt_sha256": "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+  "replay_receipt_sha256": "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+  "protocol_sha256": "76a12432bd3fadbd3e0dc3df035b69ccaf09d8fdb9a4267210588f5baba17875",
+  "confirmation_windows_opened": false,
+  "proof": "same sealed RG3 corpus plus same executable semantics produced identical renderer-neutral artifacts"
+}

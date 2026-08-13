@@ -1,0 +1,782 @@
+[
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "DE40",
+    "population": 78,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0055934916797614285
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "FRA40",
+    "population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.00711148808654292
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "JPN225",
+    "population": 89,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005433529016615795
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US30",
+    "population": 91,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.009863725083267483
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US500",
+    "population": 99,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0026811903421550733
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "USTEC",
+    "population": 100,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0051928031373515635
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1768176000:1768780800",
+    "population": 76,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0068952906233085125
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1771200000:1771804800",
+    "population": 80,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.009663794843013713
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1774224000:1774828800",
+    "population": 79,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.013034899453774649
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1777852800:1778457600",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0851143153213168
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1781481600:1782086400",
+    "population": 92,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005854410260786938
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1783900800:1784505600",
+    "population": 63,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.028212427977604412
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1785715200:1786060800",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.010373966436294804
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "DE40",
+    "population": 78,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.008760407275458851
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "FRA40",
+    "population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0031525212346034314
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "JPN225",
+    "population": 89,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0009701871939041083
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US30",
+    "population": 91,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0034484388015854606
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US500",
+    "population": 99,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0010275794378196796
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "USTEC",
+    "population": 100,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0001273169878901767
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1768176000:1768780800",
+    "population": 76,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.007647844497968246
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1771200000:1771804800",
+    "population": 80,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005905801830619091
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1774224000:1774828800",
+    "population": 79,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.00971998905845943
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1777852800:1778457600",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.03338109464741559
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1781481600:1782086400",
+    "population": 92,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0031046107924545792
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1783900800:1784505600",
+    "population": 63,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.01438534896434921
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1785715200:1786060800",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005478520554770793
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "DE40",
+    "population": 78,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.00006311780968096953
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "FRA40",
+    "population": 81,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0018881815462759139
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "JPN225",
+    "population": 89,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005376104888272636
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US30",
+    "population": 91,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.007823139372739995
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US500",
+    "population": 99,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0021598731104313677
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "USTEC",
+    "population": 100,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.003012150597913358
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1768176000:1768780800",
+    "population": 76,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.006002145768226856
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1771200000:1771804800",
+    "population": 80,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.01885103857807479
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1774224000:1774828800",
+    "population": 79,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.014279183852593256
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1777852800:1778457600",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.053161069343600084
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1781481600:1782086400",
+    "population": 92,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0012137682471944483
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1783900800:1784505600",
+    "population": 63,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.03494586669413931
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1785715200:1786060800",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0037951902479723444
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "DE40",
+    "population": 75,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.017665543791126472
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "FRA40",
+    "population": 77,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.016691134357650995
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "JPN225",
+    "population": 85,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.007770023820362107
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US30",
+    "population": 85,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.008532182826965915
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US500",
+    "population": 93,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.012409713030512179
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "USTEC",
+    "population": 95,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.004903708156377612
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1768176000:1768780800",
+    "population": 72,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.014404802034458365
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1771200000:1771804800",
+    "population": 76,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.008083504936692434
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1774224000:1774828800",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.023939635789400886
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1777852800:1778457600",
+    "population": 69,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.03599649322588534
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1781481600:1782086400",
+    "population": 92,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005487867767127216
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1783900800:1784505600",
+    "population": 58,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.03223982220130891
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "resampled_shape_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1785715200:1786060800",
+    "population": 69,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.013297507246048397
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "DE40",
+    "population": 75,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.017373810325737798
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "FRA40",
+    "population": 77,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.02247126296331051
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "JPN225",
+    "population": 85,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.028395236926940404
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US30",
+    "population": 85,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.009624603828326254
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US500",
+    "population": 93,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0130064213657754
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "USTEC",
+    "population": 95,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.010441490573368385
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1768176000:1768780800",
+    "population": 72,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.017546100293514458
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1771200000:1771804800",
+    "population": 76,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.01785617690500919
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1774224000:1774828800",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.014467292885857578
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1777852800:1778457600",
+    "population": 69,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.038061453743063786
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1781481600:1782086400",
+    "population": 92,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.012796772993020795
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1783900800:1784505600",
+    "population": 58,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.04092060742358691
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "summary_geometry_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1785715200:1786060800",
+    "population": 69,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.024587785050295956
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "DE40",
+    "population": 75,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.006882732212609356
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "FRA40",
+    "population": 77,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.02491265388371005
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "JPN225",
+    "population": 85,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.008451167272749473
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US30",
+    "population": 85,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0036803715042445524
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "US500",
+    "population": 93,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.02519387238757613
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "INSTRUMENT",
+    "cohort_id": "USTEC",
+    "population": 95,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0009281468739833756
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1768176000:1768780800",
+    "population": 72,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.0014565582143875235
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1771200000:1771804800",
+    "population": 76,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.005075234967934039
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1774224000:1774828800",
+    "population": 74,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.042023561177609636
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1777852800:1778457600",
+    "population": 69,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.04122653863055728
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1781481600:1782086400",
+    "population": 92,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.006153869354611987
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1783900800:1784505600",
+    "population": 58,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.026554927513387762
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "resampled_shape_v1",
+    "right_representation": "hybrid_mirrored_v1",
+    "cohort_type": "WINDOW",
+    "cohort_id": "1785715200:1786060800",
+    "population": 69,
+    "support_class": "SUPPORTED_COMPARISON",
+    "js_divergence_bits": 0.008432562704192745
+  }
+]

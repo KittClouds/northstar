@@ -1,0 +1,22 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_5_PERFORMANCE_PROOF_V1",
+  "status": "PASS",
+  "profile": "release, opt-level=3, fat LTO, codegen-units=1, panic=abort",
+  "target_directory": "D:/northstar-target-gate155",
+  "workload": {
+    "sealed_runs": 42,
+    "objects": 1091,
+    "bridge_receipts": 2735,
+    "lineages": 538,
+    "graph_nodes": 3236,
+    "graph_edges": 10106,
+    "output_files": 19,
+    "output_bytes": 6878168
+  },
+  "wall_clock_ms": [1492.859, 1510.434, 1534.138],
+  "minimum_ms": 1492.859,
+  "median_ms": 1510.434,
+  "maximum_ms": 1534.138,
+  "scope": "end-to-end mmap corpus admission, Gate 15 fitted-system reconstruction, tri-instrument atlas construction, and artifact serialization",
+  "note": "wall-clock diagnostic on this workstation; not a cross-machine service-level claim"
+}

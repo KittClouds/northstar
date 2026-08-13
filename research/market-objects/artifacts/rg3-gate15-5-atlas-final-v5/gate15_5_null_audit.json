@@ -1,0 +1,44 @@
+[
+  {
+    "null_code": "NULL_FAMILY",
+    "object_kind": "EXPANSION",
+    "representation": "summary_geometry_v1",
+    "count": 12,
+    "interpretation": "eligible object assigned to unsupported training partition; not a family"
+  },
+  {
+    "null_code": "NULL_STRUCTURAL_CONTEXT",
+    "object_kind": "ALL",
+    "representation": "MASTER_POINT_STATE",
+    "count": 40,
+    "interpretation": "no causal Master snapshot within one closed-bar gap"
+  },
+  {
+    "null_code": "CENSORED_DESTINATION",
+    "object_kind": "LINEAGE",
+    "representation": "DESTINATION_COMPRESSION",
+    "count": 28,
+    "interpretation": "expansion ended without an observed compression handoff"
+  },
+  {
+    "null_code": "NOT_APPLICABLE",
+    "object_kind": "ALL",
+    "representation": "CROSS_KIND_FAMILY_COLUMNS",
+    "count": 3273,
+    "interpretation": "compression and expansion family namespaces are disjoint"
+  },
+  {
+    "null_code": "DATA_GAP",
+    "object_kind": "ALL",
+    "representation": "FAMILY_ASSIGNMENT",
+    "count": 0,
+    "interpretation": "no missing Gate 15 assignment keys detected"
+  },
+  {
+    "null_code": "AUCTION_AUTHORITY_UNAVAILABLE",
+    "object_kind": "ALL",
+    "representation": "AUCTION_INTERVAL_INTERSECTION",
+    "count": 1091,
+    "interpretation": "RG2 attempt and episode intervals were not co-collected under RG3 run identities"
+  }
+]

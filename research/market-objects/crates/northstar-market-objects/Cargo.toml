@@ -13,6 +13,10 @@ path = "src/main.rs"
 name = "northstar-market-object-discover"
 path = "src/discover_main.rs"
 
+[[bin]]
+name = "northstar-market-object-atlas"
+path = "src/atlas_main.rs"
+
 [dependencies]
 hashbrown.workspace = true
 memchr.workspace = true

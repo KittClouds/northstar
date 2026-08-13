@@ -1,0 +1,32 @@
+{
+  "canonical_atlas_sha256": "bec6327b636eac3f67c967ef6912912a606e2a5fdac0f60590743332957c0f28",
+  "confirmation_windows_opened": false,
+  "contract": "NORTHSTAR_RG3_GATE15_5_ATLAS_RECEIPT_V1",
+  "files": {
+    "gate15_5_atlas_edges.tsv": "92a4a799df3998c2006d481dc674ac3ee1f05c6adcc7a480dcdea263a99abed2",
+    "gate15_5_atlas_nodes.tsv": "0d7861af0bd9a06a7bdba249457b2bb2f16bcc4b3954f58d78be14ccc6037a13",
+    "gate15_5_auction_interval_intersections.tsv": "abebccd73f0cbc28efe06b7427f8bb2d67cc41442af499a38427ab880501ce64",
+    "gate15_5_conditioned_support_audit.json": "66781a5bd595dad06f05d6b2682c57ef8f4dedb803fbdc4e762f833fe1d78a58",
+    "gate15_5_confirmation_protocol.json": "b2fbacc2c1ba9cfd1811b4123ac403e15e5be71e94aca223a77de88b6b0e0d41",
+    "gate15_5_constraint_motion_correspondence.json": "1260dcfb9428dd438e40ab897aece2767d1e6eb6c8d09f1d78c8019d301e17f6",
+    "gate15_5_constraint_motion_support_audit.json": "d504d4f84bc76e9b6b6236e59ce5da3eb85e03424253b99d4318d9ae9c42adcd",
+    "gate15_5_correspondence.json": "b64a51d866f3e50113ff5725099f7f0ebdaece2971c56320c6ad02c68e70c708",
+    "gate15_5_exit_report.json": "ba4fa15131f84b97de2227696d52eded21a2ad1d92c1d06265bba5771938af93",
+    "gate15_5_family_system_artifacts.json": "f3d89ed9eef62c7bd9599478df224fd3d8442ea39671d6807774c44129b43e0f",
+    "gate15_5_lineage_coordinates.tsv": "6e50192627d55bf032c71b0f6f8edfd17d8e2a53dd17839f37ba834c5e0662d4",
+    "gate15_5_lineage_phenotype_census.json": "3a44ba32c81ffcd0f11a9fabe68e3267701387feeaa679faf181e8ffa6f3299e",
+    "gate15_5_null_audit.json": "439f8df3de0bd657c1b7710a59ad5dfdf482353a8c69319e02ec511727232eb3",
+    "gate15_5_object_coordinates.tsv": "4aee66e6402d3a4023987916a5d3a544f4530b9dbdcdeb558b2aafa01bbdfce6",
+    "gate15_5_object_phenotype_census.json": "59b09293f25ecb9d9b2c4077d2811f485462a3da7e8a06c8563f87b31002a112",
+    "gate15_5_structural_bridge_receipts.tsv": "8e1338ad5f749eac636f7eebce8167dfdfb678aaa981bbb3ccdbe36e6248773b",
+    "gate15_5_subcohort_stability.json": "7a8bdf933bdfb1bd08521b08794a16c026c2566f7260e3d5fa6ca3dac536d7e5",
+    "source-raw-directories.txt": "f35b299531659b6a064a2cde60aad5a58fbc2bb6d020f908ee6deaa0be0f3de9"
+  },
+  "rg2_source_corpus_sha256": "9cbad8545db23cba7ccea2bd062aeba700597deb4be19cecbb74647f65ef8413",
+  "source_confirmation_manifest_sha256": "68fc21baaa768ed4597cb9025078bf6c7e242509ebf0167132e2a153903a3e47",
+  "source_corpus_sha256": "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+  "source_gate15_5_protocol_sha256": "76a12432bd3fadbd3e0dc3df035b69ccaf09d8fdb9a4267210588f5baba17875",
+  "source_gate15_exit_sha256": "2eba12c57fc5001a5bf6cf7b1f90fabebf4462221163b9aa777a082704a42af4",
+  "source_rg2_proof_sha256": "f900f2094f74a4aa2a73cd81918260ba093149cedc5057cc480be2de2cb71d00",
+  "status": "PASS"
+}

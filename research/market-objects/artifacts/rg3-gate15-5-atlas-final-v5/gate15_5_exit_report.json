@@ -1,0 +1,51 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_5_TRI_INSTRUMENT_ATLAS_V1",
+  "status": "PASS",
+  "epistemic_status": "EXPLORATORY_RELATIONAL_ATLAS_NOT_TAXONOMY",
+  "source_run_count": 42,
+  "source_object_count": 1091,
+  "source_corpus_sha256": "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+  "source_auction_generation": 2,
+  "master_authority": "RG3 closed-bar Master Controller structural snapshots and node-contact receipts",
+  "auction_interval_authority": "NOT_CO_COLLECTED; no attempt/episode/transit interval intersections claimed",
+  "structural_bridge_receipts": 2735,
+  "exact_receipts": 2690,
+  "asof_receipts": 5,
+  "null_structural_receipts": 40,
+  "lineage_count": 538,
+  "lineage_with_destination": 510,
+  "graph_nodes": 3236,
+  "graph_edges": 10106,
+  "global_correspondence_count": 6,
+  "conditioned_correspondence_count": 69,
+  "constraint_motion_correspondence_count": 108,
+  "object_phenotype_count": 131,
+  "lineage_phenotype_count": 470,
+  "null_counts": {
+    "AUCTION_AUTHORITY_UNAVAILABLE": 1091,
+    "CENSORED_DESTINATION": 28,
+    "DATA_GAP": 0,
+    "NOT_APPLICABLE": 3273,
+    "NULL_FAMILY": 12,
+    "NULL_STRUCTURAL_CONTEXT": 40
+  },
+  "checks": {
+    "rg3_corpus_unchanged": true,
+    "master_point_state_present": true,
+    "causal_bridge_receipts_complete": true,
+    "bridge_monotonicity": true,
+    "six_family_systems_unchanged": true,
+    "null_is_not_family_node": true,
+    "namespace_qualified": true,
+    "auction_interval_authority_explicit": true,
+    "confirmation_unopened": true,
+    "no_consensus_taxonomy": true,
+    "no_trading_interpretation": true
+  },
+  "limitations": [
+    "Master SPACE is first-class through causal closed-bar snapshot receipts; the seven RG2 auction ledgers do not share the 42 RG3 run identities, so interval intersections remain explicitly not evaluable.",
+    "NULL_FAMILY, NULL_STRUCTURAL_CONTEXT, CENSORED_DESTINATION, NOT_APPLICABLE, DATA_GAP, and unavailable auction authority are distinct states.",
+    "Multiview tuples and lineages are coordinates, never promoted to new families.",
+    "Fitted systems replay training assignments; no out-of-sample rejection radius is authorized before Gate 16."
+  ]
+}

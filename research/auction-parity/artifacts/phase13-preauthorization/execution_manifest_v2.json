@@ -1,0 +1,48 @@
+{
+  "contract": "NORTHSTAR_PHASE13_EXECUTION_MANIFEST_V2",
+  "status": "FROZEN_BEFORE_REAUTHORIZATION",
+  "protocol_sha256": "869402c193435f149120f1130ddefd817f87a39240c51bc5536292fd2b285d2d",
+  "predecessor": {
+    "manifest": "execution_manifest.json",
+    "status": "ABORTED_UNCONSUMED_INFRASTRUCTURE_ONLY",
+    "sealed_holdout_runs": 0,
+    "evaluator_invocations": 0,
+    "candidate_scores_exposed": 0
+  },
+  "semantic_freeze": {
+    "candidate_hashes_unchanged": true,
+    "feature_schema_unchanged": true,
+    "metrics_unchanged": true,
+    "decision_rules_unchanged": true,
+    "reserved_windows_unchanged": true
+  },
+  "collector": {
+    "path": "tools/Invoke-Phase13HoldoutCollection.ps1",
+    "sha256": "64f0b9bf30ca600a8ea5898085e5270b54c080b89566aa5c968612b61ed05e7c"
+  },
+  "run_sealer": {
+    "path": "tools/Seal-Phase13HoldoutRun.ps1",
+    "sha256": "7c365efc5eef841da62ed2306d0d9686a06d2357d882b7d4bce08a383096090c"
+  },
+  "bundle_producer": {
+    "path": "tools/build_phase13_bundle.py",
+    "sha256": "ef2b6bacce50106bba87a91656c3bd68be74ef7984c5df744543ddf7f04bf263"
+  },
+  "evaluator": {
+    "release_sha256": "ac550c720480431b05a501d160f92e28a3816fbf5f5ed3bf9066c2f87c6c9ac7",
+    "source_sha256": "3482303a643947da7ec1e2ec4a4bd1fb9738897c31c63c07f4dfeac43f119d29"
+  },
+  "mt5": {
+    "indicator": "BuiltMasterStructure/MasterStructureHoldoutCollector.ex5",
+    "indicator_sha256": "45d90c1cebf21a1eac1a33aca50a14f35856fb47c0aa14ce98c0f23d536c6856",
+    "wrapper_source_sha256": "fda713d746317ab4de75d8d5829b077bd1645a371e60a0930bebc7703c28a1fd",
+    "controller_source_sha256": "567c8a93269e774a4dd5c964a5beb3cb3dcc09ea49fdaccce4bc04e033887c70",
+    "compile_result": "PASS_0_ERRORS_0_WARNINGS",
+    "preset_id": "RG2_M5_SIX_INDEX_V1",
+    "configuration_hash": "4284550518493202411",
+    "window_semantics": "half-open; first later market bar triggers finalization before update and is excluded",
+    "visual": false,
+    "single_writer": true
+  },
+  "mutation_rule": "any identity change requires an infrastructure abort before evaluator consumption and a new frozen execution manifest"
+}

@@ -647,9 +647,22 @@ bool RefreshMaster(const bool force_heavy,
 {
    if(g_tester_cutoff_finalized) return true;
    if(g_refresh_in_progress) return true;
+   datetime calculation_bar = 0;
+   if(g_is_tester)
+      calculation_bar = iTime(_Symbol, InpMasterTimeframe, 0);
+#ifdef MST_HOLDOUT_COLLECTOR
+   // A bounded half-open holdout window can end while the market is closed.
+   // The first later bar is only a deterministic finalization trigger: it must
+   // never enter topology, feature, or auction state.
+   if(InpTesterFinalizeAt > 0 && calculation_bar >= InpTesterFinalizeAt)
+   {
+      g_master.Finalize(10001);
+      g_tester_cutoff_finalized = true;
+      return true;
+   }
+#endif
    if(g_is_tester && InpResearchWindowStart > 0)
    {
-      datetime calculation_bar = iTime(_Symbol, InpMasterTimeframe, 0);
       if(calculation_bar <= 0 || calculation_bar < InpResearchWindowStart)
          return true;
    }

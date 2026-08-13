@@ -1,0 +1,34 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_FINDINGS_V1",
+  "status": "OBSERVATIONAL_FINDINGS_ONLY",
+  "census": {
+    "contract_qualified_evaluations": 5941620,
+    "exact_zero_relations": 498115,
+    "unique_exact_zero_object_pairs": 161957,
+    "unique_by_kind": {
+      "COMPRESSION": 31811,
+      "EXPANSION": 130146
+    },
+    "epsilon_near_relations": 0,
+    "not_comparable_relations": 276174
+  },
+  "observations": [
+    "No summary or trajectory contract produced an exact or machine-derived epsilon-near collision in the admitted RG3 corpus.",
+    "Every event and graph exact-zero pair retained different raw-history and continuous-trajectory hashes.",
+    "Canonicalization strictly enlarged the observed raw event and graph zero sets by erasing directional orientation.",
+    "Canonical expansion Graph V1 collapsed into three exhaustive classes of sizes 510, 27, and 1 under both frozen graph distances.",
+    "Typed-multiset and WL2 graph zero kernels were identical for expansion and nearly identical for compression.",
+    "Graph disagreement did not establish incremental information because authoritative branch/merge topology is unavailable.",
+    "Point-state structural strata showed a small pooled distance association with mixed run-level signs; auction interval conditioning remained not evaluable."
+  ],
+  "forbidden_inferences": [
+    "raw object equivalence",
+    "best representation",
+    "universal geometry",
+    "family truth",
+    "prediction",
+    "mechanism",
+    "economic meaning"
+  ],
+  "confirmation_windows_opened": false
+}

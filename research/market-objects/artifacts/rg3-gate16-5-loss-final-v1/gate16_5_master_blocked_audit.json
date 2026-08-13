@@ -1,0 +1,521 @@
+{
+  "contract_id": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+  "anchors_with_available_context": 1054,
+  "null_structural_context": 37,
+  "exact_join_count": 1049,
+  "asof_join_count": 5,
+  "unavailable_join_count": 37,
+  "pooled_same_stratum_median": 1.2721463293046125,
+  "pooled_different_stratum_median": 1.29801229903853,
+  "pooled_median_difference": 0.025865969733917638,
+  "anchor_delta_median": 0.005597343800469501,
+  "positive_delta_fraction": 0.5386819484240688,
+  "bootstrap_replicates": 4096,
+  "bootstrap_p10": 0.0026652570881822157,
+  "bootstrap_median": 0.005597343800469501,
+  "bootstrap_p90": 0.008806042592895191,
+  "run_blocks": 42,
+  "instrument_blocks": 6,
+  "calendar_window_blocks": 7,
+  "supported_blocks": 55,
+  "support_status": "SUPPORTED_COMPARISON",
+  "block_rows": [
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1768176000_1768780800_8137587626228657912",
+      "anchors": 15,
+      "same_stratum_pairs": 1694,
+      "different_stratum_pairs": 6165,
+      "median_anchor_delta": 0.03705314209968491,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1771200000_1771804800_7817652877554072043",
+      "anchors": 23,
+      "same_stratum_pairs": 2455,
+      "different_stratum_pairs": 9588,
+      "median_anchor_delta": 0.007232036880315373,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1774224000_1774828800_16769896615923389005",
+      "anchors": 24,
+      "same_stratum_pairs": 1269,
+      "different_stratum_pairs": 11283,
+      "median_anchor_delta": 0.06594318623984341,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1777852800_1778457600_14397091333611658795",
+      "anchors": 22,
+      "same_stratum_pairs": 3144,
+      "different_stratum_pairs": 8362,
+      "median_anchor_delta": 0.009981149434896697,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1781481600_1782086400_6195331328867226598",
+      "anchors": 32,
+      "same_stratum_pairs": 4835,
+      "different_stratum_pairs": 11901,
+      "median_anchor_delta": -0.04395619556130326,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1783900800_1784505600_9564959796063117251",
+      "anchors": 15,
+      "same_stratum_pairs": 1585,
+      "different_stratum_pairs": 6274,
+      "median_anchor_delta": 0.024803058058297855,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_DE40_PERIOD_M5_1785715200_1786060800_2606365987753202252",
+      "anchors": 22,
+      "same_stratum_pairs": 1786,
+      "different_stratum_pairs": 9720,
+      "median_anchor_delta": 0.002071073250346833,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1768176000_1768780800_7648442211186610174",
+      "anchors": 22,
+      "same_stratum_pairs": 2536,
+      "different_stratum_pairs": 8970,
+      "median_anchor_delta": 0.008928563345678597,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1771200000_1771804800_1968818525264721670",
+      "anchors": 24,
+      "same_stratum_pairs": 2168,
+      "different_stratum_pairs": 10384,
+      "median_anchor_delta": 0.012707011845018323,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1774224000_1774828800_14575658576911331190",
+      "anchors": 23,
+      "same_stratum_pairs": 1953,
+      "different_stratum_pairs": 10090,
+      "median_anchor_delta": 0.03417580955807298,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1777852800_1778457600_3950759615288727177",
+      "anchors": 19,
+      "same_stratum_pairs": 2587,
+      "different_stratum_pairs": 7364,
+      "median_anchor_delta": -0.015943967220209743,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1781481600_1782086400_317235149503321393",
+      "anchors": 28,
+      "same_stratum_pairs": 3076,
+      "different_stratum_pairs": 11568,
+      "median_anchor_delta": 0.03393696371879218,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1783900800_1784505600_9090742951363683789",
+      "anchors": 17,
+      "same_stratum_pairs": 2226,
+      "different_stratum_pairs": 6679,
+      "median_anchor_delta": 0.013994912981155627,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_FRA40_PERIOD_M5_1785715200_1786060800_6098486160590205421",
+      "anchors": 25,
+      "same_stratum_pairs": 2210,
+      "different_stratum_pairs": 10879,
+      "median_anchor_delta": 0.010060608057772535,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1768176000_1768780800_17871390277607299118",
+      "anchors": 26,
+      "same_stratum_pairs": 2672,
+      "different_stratum_pairs": 10926,
+      "median_anchor_delta": -0.029683661410354056,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1771200000_1771804800_16175888908372551973",
+      "anchors": 28,
+      "same_stratum_pairs": 2394,
+      "different_stratum_pairs": 12250,
+      "median_anchor_delta": 0.002196721328631246,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1774224000_1774828800_828979282129269557",
+      "anchors": 25,
+      "same_stratum_pairs": 1077,
+      "different_stratum_pairs": 12012,
+      "median_anchor_delta": 0.053089493806957044,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1777852800_1778457600_731365208587059786",
+      "anchors": 20,
+      "same_stratum_pairs": 3089,
+      "different_stratum_pairs": 7399,
+      "median_anchor_delta": -0.009898489502273344,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1781481600_1782086400_9437459071525760070",
+      "anchors": 32,
+      "same_stratum_pairs": 2245,
+      "different_stratum_pairs": 14491,
+      "median_anchor_delta": 0.025497795460956207,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1783900800_1784505600_16697415774406944896",
+      "anchors": 22,
+      "same_stratum_pairs": 2630,
+      "different_stratum_pairs": 8876,
+      "median_anchor_delta": -0.008889199512093882,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_JPN225_PERIOD_M5_1785715200_1786060800_16673594142441126755",
+      "anchors": 21,
+      "same_stratum_pairs": 2408,
+      "different_stratum_pairs": 8589,
+      "median_anchor_delta": -0.03908217510945855,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1768176000_1768780800_14299449350608203917",
+      "anchors": 27,
+      "same_stratum_pairs": 3467,
+      "different_stratum_pairs": 10668,
+      "median_anchor_delta": 0.010821145027073653,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1771200000_1771804800_15393471454727288637",
+      "anchors": 23,
+      "same_stratum_pairs": 3461,
+      "different_stratum_pairs": 8582,
+      "median_anchor_delta": -0.01497867927640728,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1774224000_1774828800_14068181511802716677",
+      "anchors": 27,
+      "same_stratum_pairs": 2567,
+      "different_stratum_pairs": 11568,
+      "median_anchor_delta": -0.0180716065277039,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1777852800_1778457600_6821376586980274840",
+      "anchors": 25,
+      "same_stratum_pairs": 3609,
+      "different_stratum_pairs": 9480,
+      "median_anchor_delta": -0.009367694524610726,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1781481600_1782086400_9939459563788191184",
+      "anchors": 28,
+      "same_stratum_pairs": 3875,
+      "different_stratum_pairs": 10769,
+      "median_anchor_delta": 0.0030608429737915,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1783900800_1784505600_318110170989838139",
+      "anchors": 23,
+      "same_stratum_pairs": 3644,
+      "different_stratum_pairs": 8399,
+      "median_anchor_delta": -0.008527316952691155,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651",
+      "anchors": 23,
+      "same_stratum_pairs": 2169,
+      "different_stratum_pairs": 9874,
+      "median_anchor_delta": -0.028689958185129316,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1768176000_1768780800_17180753283749702142",
+      "anchors": 31,
+      "same_stratum_pairs": 4502,
+      "different_stratum_pairs": 11725,
+      "median_anchor_delta": 0.005587147224751732,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1771200000_1771804800_16907777243792436315",
+      "anchors": 29,
+      "same_stratum_pairs": 4475,
+      "different_stratum_pairs": 10706,
+      "median_anchor_delta": 0.008428747997321073,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1774224000_1774828800_1890775757493427196",
+      "anchors": 25,
+      "same_stratum_pairs": 1978,
+      "different_stratum_pairs": 11111,
+      "median_anchor_delta": -0.012361935064119645,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1777852800_1778457600_15690359251172544486",
+      "anchors": 29,
+      "same_stratum_pairs": 2606,
+      "different_stratum_pairs": 12575,
+      "median_anchor_delta": 0.010174540445977986,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1781481600_1782086400_15824288097372850924",
+      "anchors": 30,
+      "same_stratum_pairs": 4585,
+      "different_stratum_pairs": 11105,
+      "median_anchor_delta": -0.005226102485988426,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1783900800_1784505600_3208920806467451907",
+      "anchors": 23,
+      "same_stratum_pairs": 3181,
+      "different_stratum_pairs": 8862,
+      "median_anchor_delta": -0.015495677796711682,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_US500_PERIOD_M5_1785715200_1786060800_8620801695057607233",
+      "anchors": 25,
+      "same_stratum_pairs": 3032,
+      "different_stratum_pairs": 10057,
+      "median_anchor_delta": -0.0031639761073067874,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1768176000_1768780800_7128405155079592654",
+      "anchors": 27,
+      "same_stratum_pairs": 4297,
+      "different_stratum_pairs": 9838,
+      "median_anchor_delta": 0.004656468416344928,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1771200000_1771804800_8488883873716319363",
+      "anchors": 29,
+      "same_stratum_pairs": 3148,
+      "different_stratum_pairs": 12033,
+      "median_anchor_delta": 0.007976470910822764,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1774224000_1774828800_8427243982755741149",
+      "anchors": 29,
+      "same_stratum_pairs": 3061,
+      "different_stratum_pairs": 12120,
+      "median_anchor_delta": -0.020252320350900632,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1777852800_1778457600_2749301626223637730",
+      "anchors": 28,
+      "same_stratum_pairs": 2765,
+      "different_stratum_pairs": 11879,
+      "median_anchor_delta": 0.03538900360985808,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1781481600_1782086400_1420130309434895637",
+      "anchors": 34,
+      "same_stratum_pairs": 4757,
+      "different_stratum_pairs": 13025,
+      "median_anchor_delta": 0.013495237822259365,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1783900800_1784505600_8244317532604104187",
+      "anchors": 20,
+      "same_stratum_pairs": 1551,
+      "different_stratum_pairs": 8937,
+      "median_anchor_delta": 0.08294496491843839,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "RUN",
+      "block_id": "RG3_USTEC_PERIOD_M5_1785715200_1786060800_7485449445728991300",
+      "anchors": 27,
+      "same_stratum_pairs": 2481,
+      "different_stratum_pairs": 11654,
+      "median_anchor_delta": -0.00782926501387593,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "INSTRUMENT",
+      "block_id": "DE40",
+      "anchors": 153,
+      "same_stratum_pairs": 16768,
+      "different_stratum_pairs": 63293,
+      "median_anchor_delta": 0.007606840559318817,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "INSTRUMENT",
+      "block_id": "FRA40",
+      "anchors": 158,
+      "same_stratum_pairs": 16756,
+      "different_stratum_pairs": 65934,
+      "median_anchor_delta": 0.013994912981155627,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "INSTRUMENT",
+      "block_id": "JPN225",
+      "anchors": 174,
+      "same_stratum_pairs": 16515,
+      "different_stratum_pairs": 74543,
+      "median_anchor_delta": 0.00043206771652004594,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "INSTRUMENT",
+      "block_id": "US30",
+      "anchors": 176,
+      "same_stratum_pairs": 22792,
+      "different_stratum_pairs": 69340,
+      "median_anchor_delta": -0.005170231296314554,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "INSTRUMENT",
+      "block_id": "US500",
+      "anchors": 192,
+      "same_stratum_pairs": 24359,
+      "different_stratum_pairs": 76141,
+      "median_anchor_delta": 0.0026652570881822157,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "INSTRUMENT",
+      "block_id": "USTEC",
+      "anchors": 194,
+      "same_stratum_pairs": 22060,
+      "different_stratum_pairs": 79486,
+      "median_anchor_delta": 0.010719482672104985,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1768176000|1768780800",
+      "anchors": 148,
+      "same_stratum_pairs": 19168,
+      "different_stratum_pairs": 58292,
+      "median_anchor_delta": 0.0016743909895862163,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1771200000|1771804800",
+      "anchors": 156,
+      "same_stratum_pairs": 18101,
+      "different_stratum_pairs": 63543,
+      "median_anchor_delta": 0.007976470910822764,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1774224000|1774828800",
+      "anchors": 153,
+      "same_stratum_pairs": 11905,
+      "different_stratum_pairs": 68184,
+      "median_anchor_delta": 0.00436824012360626,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1777852800|1778457600",
+      "anchors": 143,
+      "same_stratum_pairs": 17800,
+      "different_stratum_pairs": 57059,
+      "median_anchor_delta": 0.010988959902946571,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1781481600|1782086400",
+      "anchors": 184,
+      "same_stratum_pairs": 23373,
+      "different_stratum_pairs": 72859,
+      "median_anchor_delta": 0.00762862118674823,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1783900800|1784505600",
+      "anchors": 120,
+      "same_stratum_pairs": 14817,
+      "different_stratum_pairs": 48027,
+      "median_anchor_delta": 0.00352252359264027,
+      "support_status": "SUPPORTED_COMPARISON"
+    },
+    {
+      "block_type": "CALENDAR_WINDOW",
+      "block_id": "1785715200|1786060800",
+      "anchors": 143,
+      "same_stratum_pairs": 14086,
+      "different_stratum_pairs": 60773,
+      "median_anchor_delta": -0.0005595644524195587,
+      "support_status": "SUPPORTED_COMPARISON"
+    }
+  ],
+  "auction_interval_status": "NOT_EVALUABLE_RG2_INTERVALS_NOT_COIDENTIFIED_WITH_RG3",
+  "interpretation": "POINT_STATE_SPACE_ASSOCIATION_ONLY_BLOCKED_OBSERVATION_NO_CAUSAL_OR_MECHANISM_CLAIM"
+}

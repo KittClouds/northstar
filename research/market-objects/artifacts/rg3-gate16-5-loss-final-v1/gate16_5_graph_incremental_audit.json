@@ -1,0 +1,24 @@
+[
+  {
+    "object_kind": "COMPRESSION",
+    "event_contract_id": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "graph_contract_id": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "both_zero": 1521,
+    "event_only_zero": 0,
+    "graph_only_zero": 30264,
+    "authoritative_graph_only_distinction": "NOT_ESTABLISHED_BY_DISAGREEMENT",
+    "branch_merge_authority": "NOT_EVALUABLE_RG3_DID_NOT_EMIT_BRANCH_MERGE_TOPOLOGY",
+    "conclusion": "DISAGREEMENT_OBSERVED_INCREMENTAL_INFORMATION_UNRESOLVED"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "event_contract_id": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "graph_contract_id": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "both_zero": 4767,
+    "event_only_zero": 0,
+    "graph_only_zero": 125379,
+    "authoritative_graph_only_distinction": "NOT_ESTABLISHED_BY_DISAGREEMENT",
+    "branch_merge_authority": "NOT_EVALUABLE_RG3_DID_NOT_EMIT_BRANCH_MERGE_TOPOLOGY",
+    "conclusion": "DISAGREEMENT_OBSERVED_INCREMENTAL_INFORMATION_UNRESOLVED"
+  }
+]

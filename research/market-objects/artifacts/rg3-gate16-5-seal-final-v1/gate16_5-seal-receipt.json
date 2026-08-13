@@ -1,0 +1,18 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_SEAL_RECEIPT_V1",
+  "status": "PASS_WITH_OBSERVATIONAL_FINDINGS",
+  "source_corpus_sha256": "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+  "source_gate16_lab_sha256": "49937da6b2f3abac1f6426a15b40525ec614b74052446437bbb484c93aefe833",
+  "gate16_5_protocol_sha256": "aa8894dedd689ac9ff593d30d7801eb62b8d594cf2825f80bbf70683cfcd77fd",
+  "gate16_5_receipt_sha256": "baf13bac4985589c703118a8c74da9ade449497cc7b18241780c6dbb2a401111",
+  "gate16_5_exit_report_sha256": "b95c2fbe1accdb3b3dd85e2e6d9dd49d32d4ee061d30fd004acbbe43fea95b47",
+  "compact_rehydration_proof_sha256": "a47ad70d651079d8d3b275c37b265b891fd386f7bf0fce5803e7e817b335ee1e",
+  "admission_proof_sha256": "16b58d7b0136b1169082307b4c053721bcd7bc2f8fdb877dd4cd381c87a9e568",
+  "replay_proof_sha256": "90a50deba3e58fe4e9351272157f126368e6e32ba236365fb7fc3f6fa3f0e88d",
+  "performance_proof_sha256": "17d35af8ae29b03ed3c8b1ee9531dd8314e6cb876e95c8f09e6c759d79f01251",
+  "findings_sha256": "bd4e6bdc99f25b28d947b89f5824665c623729268cf621d0d90c6754e340030d",
+  "logical_census_sha256": "f88bbdffa5c6579617b1ade8ca6c1361da0aba3cc681a6a04e89c5be0c9c5cda",
+  "physical_artifact_set_sha256": "8d8ab934fa9cf4a352a0bb51ee6fd8455ae7a55c4a4110408147727295abe731",
+  "confirmation_windows_opened": false,
+  "claim": "REPRESENTATION_LOSS_OBSERVATION_ONLY"
+}

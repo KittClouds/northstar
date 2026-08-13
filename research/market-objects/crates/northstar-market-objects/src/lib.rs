@@ -10,6 +10,9 @@ mod gate155_graph;
 mod gate155_info;
 mod gate155_types;
 mod gate16;
+mod gate165;
+mod gate165_analysis;
+mod gate165_types;
 mod gate16_collect;
 mod gate16_compare;
 mod gate16_diagnostics;
@@ -37,6 +40,8 @@ pub use gate155::{
     StructuralBridgeReceipt, SubcohortStability, build_gate155_atlas,
 };
 pub use gate155_info::{CorrespondenceCell, InformationGeometry, PairwiseCorrespondence};
+pub use gate165::{Gate165Inputs, Gate165Reference, build_gate165_census};
+pub use gate165_types::{DIFFERENCE_AXES, Gate165Package, Gate165Report};
 pub use pack::{PackReceipt, PackedCorpus, pack_raw_corpus};
 pub use raw::{DATASETS, RawCorpus, RawError, RawReport};
 pub use view::{DerivedReceipt, NormalizedExpansionSample, normalize_expansion_samples};

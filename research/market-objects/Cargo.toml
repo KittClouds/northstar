@@ -9,6 +9,8 @@ license = "MIT OR Apache-2.0"
 publish = false
 
 [workspace.dependencies]
+blake3 = "1.8"
+zstd = "0.13"
 hashbrown = { version = "0.15", features = ["serde"] }
 memchr = "2.7"
 memmap2 = "0.9"

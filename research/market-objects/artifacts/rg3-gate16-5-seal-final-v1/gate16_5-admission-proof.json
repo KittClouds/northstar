@@ -1,0 +1,17 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_ADMISSION_PROOF_V1",
+  "status": "PASS",
+  "negative_fixture": {
+    "admitted_run_directories": 36,
+    "sealed_required_runs": 42,
+    "exit_code": 1,
+    "output_created": false,
+    "error": "Gate 16.5 admitted 36 runs; sealed Gate 15 requires 42"
+  },
+  "positive_fixture": {
+    "admitted_runs": 42,
+    "admitted_objects": 1091,
+    "status": "PASS_WITH_OBSERVATIONAL_FINDINGS"
+  },
+  "statement": "Partial-corpus admission fails before comparison or output creation."
+}

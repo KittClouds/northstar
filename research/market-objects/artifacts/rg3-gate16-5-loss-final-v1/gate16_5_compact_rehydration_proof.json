@@ -1,0 +1,12 @@
+{
+  "contract": "NORTHSTAR_GATE16_5_COMPACT_REHYDRATION_PROOF_V1",
+  "difference_pair_stream_blake3": "5ba8f5d39f25a306da1651847a0917876f0f6a5bea98588001aa643b51bb9f68",
+  "epsilon_near_pair_rows": 0,
+  "exact_pair_stream_blake3": "5ba8f5d39f25a306da1651847a0917876f0f6a5bea98588001aa643b51bb9f68",
+  "exact_zero_pair_rows": 498115,
+  "not_comparable_pair_rows": 276174,
+  "object_authority_rows": 1091,
+  "raw_difference_rows": 498115,
+  "statement": "Every retained pair resolves to two admitted authority objects; every exact-zero pair has exactly one compact raw-difference receipt.",
+  "status": "PASS"
+}

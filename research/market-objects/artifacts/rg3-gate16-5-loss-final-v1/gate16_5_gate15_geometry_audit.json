@@ -1,0 +1,74 @@
+[
+  {
+    "object_kind": "COMPRESSION",
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "eligible_anchors": 538,
+    "same_family_nearest": 461,
+    "different_family_nearest": 77,
+    "null_family_anchors": 0,
+    "same_family_rate_excluding_null": 0.8568773234200744,
+    "instrument_support": 6,
+    "run_support": 42,
+    "interpretation": "RETROSPECTIVE_DIAGNOSTIC_NULL_EXCLUDED_FROM_FAMILY_RATE"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "eligible_anchors": 494,
+    "same_family_nearest": 473,
+    "different_family_nearest": 21,
+    "null_family_anchors": 12,
+    "same_family_rate_excluding_null": 0.9574898785425101,
+    "instrument_support": 6,
+    "run_support": 42,
+    "interpretation": "RETROSPECTIVE_DIAGNOSTIC_NULL_EXCLUDED_FROM_FAMILY_RATE"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "representation_id": "TRAJECTORY_RAW_U21_V1",
+    "eligible_anchors": 538,
+    "same_family_nearest": 511,
+    "different_family_nearest": 27,
+    "null_family_anchors": 0,
+    "same_family_rate_excluding_null": 0.949814126394052,
+    "instrument_support": 6,
+    "run_support": 42,
+    "interpretation": "RETROSPECTIVE_DIAGNOSTIC_NULL_EXCLUDED_FROM_FAMILY_RATE"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "representation_id": "TRAJECTORY_RAW_U21_V1",
+    "eligible_anchors": 510,
+    "same_family_nearest": 435,
+    "different_family_nearest": 75,
+    "null_family_anchors": 0,
+    "same_family_rate_excluding_null": 0.8529411764705882,
+    "instrument_support": 6,
+    "run_support": 42,
+    "interpretation": "RETROSPECTIVE_DIAGNOSTIC_NULL_EXCLUDED_FROM_FAMILY_RATE"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "representation_id": "TRAJECTORY_CANONICAL_U21_V1",
+    "eligible_anchors": 538,
+    "same_family_nearest": 515,
+    "different_family_nearest": 23,
+    "null_family_anchors": 0,
+    "same_family_rate_excluding_null": 0.9572490706319703,
+    "instrument_support": 6,
+    "run_support": 42,
+    "interpretation": "RETROSPECTIVE_DIAGNOSTIC_NULL_EXCLUDED_FROM_FAMILY_RATE"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "representation_id": "TRAJECTORY_CANONICAL_U21_V1",
+    "eligible_anchors": 510,
+    "same_family_nearest": 440,
+    "different_family_nearest": 70,
+    "null_family_anchors": 0,
+    "same_family_rate_excluding_null": 0.8627450980392157,
+    "instrument_support": 6,
+    "run_support": 42,
+    "interpretation": "RETROSPECTIVE_DIAGNOSTIC_NULL_EXCLUDED_FROM_FAMILY_RATE"
+  }
+]

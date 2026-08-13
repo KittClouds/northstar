@@ -25,7 +25,13 @@ path = "src/gate16_main.rs"
 name = "northstar-market-object-geometry-perf"
 path = "src/gate16_perf_main.rs"
 
+[[bin]]
+name = "northstar-market-object-loss-census"
+path = "src/gate165_main.rs"
+
 [dependencies]
+blake3.workspace = true
+zstd.workspace = true
 hashbrown.workspace = true
 memchr.workspace = true
 memmap2.workspace = true

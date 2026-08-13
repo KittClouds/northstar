@@ -1,0 +1,49 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_REPRESENTATION_LOSS_CENSUS_V1",
+  "status": "PASS_WITH_OBSERVATIONAL_FINDINGS",
+  "epistemic_status": "EXHAUSTIVE_REPRESENTATION_BLINDNESS_CENSUS_NOT_SELECTION",
+  "source_corpus_sha256": "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+  "source_gate16_lab_sha256": "49937da6b2f3abac1f6426a15b40525ec614b74052446437bbb484c93aefe833",
+  "source_run_count": 42,
+  "source_object_count": 1091,
+  "total_same_kind_pairs": 297081,
+  "contract_pair_evaluations": 5941620,
+  "exact_zero_relations": 498115,
+  "unique_exact_zero_object_pairs": 161957,
+  "unique_exact_zero_object_pairs_by_kind": {
+    "COMPRESSION": 31811,
+    "EXPANSION": 130146
+  },
+  "epsilon_near_relations": 0,
+  "not_comparable_relations": 276174,
+  "checks": {
+    "rg3_unchanged": true,
+    "gate15_unchanged": true,
+    "gate15_5_unchanged": true,
+    "gate16_unchanged": true,
+    "confirmation_unopened": true,
+    "exhaustive_compare_authoritative": true,
+    "exact_zero_near_zero_separate": true,
+    "fixed_domain_quotients_verified": true,
+    "partial_domains_not_mislabeled": true,
+    "all_zero_pairs_have_difference_receipts": true,
+    "pair_accounting_reconciles": true,
+    "input_order_invariant": true,
+    "pair_orientation_invariant": true,
+    "parallel_deterministic": true,
+    "scalar_simd_parity": true,
+    "no_representation_repaired": true,
+    "no_representation_superiority": true,
+    "no_new_family": true,
+    "no_prediction": true,
+    "no_economic_interpretation": true
+  },
+  "limitations": [
+    "Exact zero means only that one frozen distance contract cannot distinguish the pair; raw-object equivalence is never claimed.",
+    "Shared-prefix support is pair-dependent, so its zero relation remains an indistinguishability graph rather than a quotient unless transitivity is separately proven.",
+    "RG3 contains no authoritative attempt identity or intrinsic branch/merge topology; those loss axes remain NOT_EVALUABLE.",
+    "Master analysis is point-state only. Auction interval overlap remains NOT_EVALUABLE under non-coidentified RG2/RG3 runs.",
+    "Gate 15 labels are retrospective diagnostics and never parameters or truth labels."
+  ],
+  "final_statement": "Gate 16.5 characterizes exact and partial indistinguishability induced by frozen Gate 16 contracts, reports raw distinctions erased by each watcher, measures cross-contract overlap and canonicalization turnover, and pressure-tests point-state structural organization. It does not establish object equivalence, representation superiority, taxonomy, prediction, mechanism, or economic meaning."
+}

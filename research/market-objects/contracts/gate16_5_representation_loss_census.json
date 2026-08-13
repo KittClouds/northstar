@@ -1,0 +1,47 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_REPRESENTATION_LOSS_CENSUS_V1",
+  "status": "FROZEN",
+  "purpose": "map the blindness of each frozen Gate 16 distance contract without selecting, repairing, or interpreting a representation",
+  "authority": {
+    "observational": "sealed RG3 corpus",
+    "geometry": "sealed Gate 16 representation and distance contracts",
+    "pair_census": "exhaustive frozen Compare evaluation over every same-kind unordered pair",
+    "hash_buckets": "optimization cross-check only; never discovery authority",
+    "confirmation_windows": "frozen and unopened"
+  },
+  "relation_law": "R_r(i,j) iff the frozen comparison returns finite exact zero",
+  "quotient_law": "equivalence-class terminology is authorized only after reflexivity, symmetry, and transitivity are proven on one fixed comparison domain",
+  "zero_policy": {
+    "exact": "IEEE finite value equals 0.0 after the frozen distance implementation",
+    "epsilon_near": {
+      "standardized_numeric": 0.000001,
+      "edit_and_graph": 0.0,
+      "basis": "frozen Gate 16 machine-precision diagnostic; never fitted from the corpus"
+    },
+    "exact_and_near_never_merged": true
+  },
+  "raw_difference_policy": {
+    "statuses": ["EXACT_SAME", "EXACT_DIFFERENT", "NOT_APPLICABLE", "NOT_EVALUABLE", "DATA_GAP", "CENSORED"],
+    "new_distance_functions_forbidden": true,
+    "attempt_identity": "NOT_EVALUABLE",
+    "branch_merge_topology": "NOT_EVALUABLE"
+  },
+  "master_pressure_test": {
+    "geometry_contract": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "unit": "anchor object median distance to same versus different available structural stratum",
+    "blocks": ["run", "instrument", "calendar_window"],
+    "uncertainty": "deterministic instrument-stratified run-block bootstrap",
+    "replicates": 4096,
+    "seed": 16520260813,
+    "minimum_supported_blocks": 8,
+    "auction_intervals": "NOT_EVALUABLE"
+  },
+  "invariants": [
+    "RG3 and Gate 15, Gate 15.5, and Gate 16 bytes remain unchanged",
+    "every pair is canonical and unique",
+    "pair accounting reconciles by exact contract identity",
+    "input order and pair orientation cannot alter results",
+    "scalar and SIMD exact-zero decisions agree",
+    "no family, prediction, economic, or representation-superiority claim"
+  ]
+}

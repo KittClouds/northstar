@@ -1,0 +1,150 @@
+{
+  "axes": [
+    {
+      "authority": "RG3_RAW_HISTORY_HASH",
+      "axis": "raw_history_sha256",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 0
+    },
+    {
+      "authority": "EXACT_DERIVATION_TERMINAL_MINUS_START",
+      "axis": "duration_seconds",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 1
+    },
+    {
+      "authority": "RG3_SAMPLE_AGE",
+      "axis": "observed_bars",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 2
+    },
+    {
+      "authority": "RG3_OBJECT_DIRECTION",
+      "axis": "raw_direction",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 3
+    },
+    {
+      "authority": "RG3_TERMINAL_SEMANTICS",
+      "axis": "censor_state",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 4
+    },
+    {
+      "authority": "RG3_TERMINAL_REASON",
+      "axis": "terminal_mechanism",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 5
+    },
+    {
+      "authority": "RG3_EVENT_ROWS",
+      "axis": "event_multiplicity",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 6
+    },
+    {
+      "authority": "EXACT_HASH_OF_ORDERED_RG3_EVENT_AUTHORITY",
+      "axis": "event_order_and_type",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 7
+    },
+    {
+      "authority": "EXACT_HASH_OF_RG3_EVENT_BAR_AND_SECOND_GAPS",
+      "axis": "event_timing_gaps",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 8
+    },
+    {
+      "authority": "EXACT_HASH_OF_GATE16_RAW_SUMMARY_COORDINATES",
+      "axis": "raw_summary_coordinates",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 9
+    },
+    {
+      "authority": "EXACT_HASH_OF_ORDERED_RG3_DERIVED_RAW_COORDINATES",
+      "axis": "raw_continuous_trajectory",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 10
+    },
+    {
+      "authority": "RG3_DID_NOT_EMIT_ATTEMPT_IDENTITIES",
+      "axis": "attempt_lineage",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 11
+    },
+    {
+      "authority": "RG3_DID_NOT_EMIT_BRANCH_MERGE_TOPOLOGY",
+      "axis": "branch_merge_topology",
+      "encoding": {
+        "0": "EXACT_SAME",
+        "1": "EXACT_DIFFERENT",
+        "2": "NOT_EVALUABLE",
+        "3": "RESERVED"
+      },
+      "index": 12
+    }
+  ],
+  "contract": "NORTHSTAR_GATE16_5_DIFFERENCE_AXIS_DICTIONARY_V1",
+  "packing": "two bits per axis at index*2, least-significant axis first",
+  "raw_values": "normalized once per object in gate16_5_object_authority.tsv"
+}

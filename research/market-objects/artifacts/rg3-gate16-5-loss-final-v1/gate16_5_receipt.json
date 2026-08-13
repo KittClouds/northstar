@@ -1,0 +1,51 @@
+{
+  "canonical_gate16_5_sha256": "f88bbdffa5c6579617b1ade8ca6c1361da0aba3cc681a6a04e89c5be0c9c5cda",
+  "compressed_containers": {
+    "gate16_5_pair_census.tsv.zst": {
+      "codec": "ZSTD",
+      "implementation": "zstd-rs 0.13.3; exact implementation pinned by Cargo.lock",
+      "level": 9
+    },
+    "gate16_5_raw_difference_receipts.tsv.zst": {
+      "codec": "ZSTD",
+      "implementation": "zstd-rs 0.13.3; exact implementation pinned by Cargo.lock",
+      "level": 9
+    }
+  },
+  "confirmation_windows_opened": false,
+  "contract": "NORTHSTAR_RG3_GATE16_5_RECEIPT_V1",
+  "exhaustive_compare_authoritative": true,
+  "files": {
+    "gate16_5_canonicalization_turnover.tsv": "f557ea0af268d979c202997cd4c84cc77cc91c576311d0d853ef87c94c07a454",
+    "gate16_5_compact_rehydration_proof.json": "a47ad70d651079d8d3b275c37b265b891fd386f7bf0fce5803e7e817b335ee1e",
+    "gate16_5_cross_representation_sets.json": "85ef2c369b9c3adcf833547b6fd01d45c8c8ef0abe332d38a31fd2c8a76c2bcb",
+    "gate16_5_difference_axis_dictionary.json": "bd4aa2f134ae8fb1b3e86d55c855594203f93c2e10235c579ec959d4874c268e",
+    "gate16_5_equivalence_classes.tsv": "b9a36889aa46a152c909deb340708557bd64b98c67bcfcaa3216d1436937f78d",
+    "gate16_5_exit_report.json": "b95c2fbe1accdb3b3dd85e2e6d9dd49d32d4ee061d30fd004acbbe43fea95b47",
+    "gate16_5_gate15_geometry_audit.json": "e56f977b4f11be7d3495d273f29372770332a1faddfebeb67b5161c579f71f1b",
+    "gate16_5_graph_incremental_audit.json": "9d668f5c38f094249d434a4a8dfea270c77425cc579ef83e7be3ccb8fd4a0fe0",
+    "gate16_5_loss_profiles.json": "9b84072d506216d09f71fb6db061fe3e19f814a0559f95c3110deb8aa094ce8c",
+    "gate16_5_master_blocked_audit.json": "4a731fc289e7bee35a264080e1d49a261a1d9724306670f01b4cd70d092a1f8f",
+    "gate16_5_object_authority.tsv": "b00ee6c2ff6c65c91dcf32227cc76162f7b8ee4056d7fc769007b76f1c75996c",
+    "gate16_5_pair_census.tsv.zst": "1c230b6643f0fdc2fc52a09b8c89d7b0e47944f23041c5b2b6d194e5ca39bdee",
+    "gate16_5_pair_census_summary.json": "41be3610704b77e1bf589451336e11046ce6f8e09fcc3319b9ace3168f817f36",
+    "gate16_5_raw_difference_receipts.tsv.zst": "ac4891b5135c1d37dc5b85759c8a470df556ad6ca5a07c0b53d51a0628e57858",
+    "source-raw-directories.txt": "f35b299531659b6a064a2cde60aad5a58fbc2bb6d020f908ee6deaa0be0f3de9"
+  },
+  "hash_buckets_authoritative": false,
+  "logical_census_sha256": "f88bbdffa5c6579617b1ade8ca6c1361da0aba3cc681a6a04e89c5be0c9c5cda",
+  "physical_artifact_set_sha256": "8d8ab934fa9cf4a352a0bb51ee6fd8455ae7a55c4a4110408147727295abe731",
+  "scientific_claim": "REPRESENTATION_LOSS_OBSERVATION_ONLY",
+  "source_confirmation_manifest_sha256": "68fc21baaa768ed4597cb9025078bf6c7e242509ebf0167132e2a153903a3e47",
+  "source_corpus_sha256": "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+  "source_gate15_5_bridges_sha256": "8e1338ad5f749eac636f7eebce8167dfdfb678aaa981bbb3ccdbe36e6248773b",
+  "source_gate15_5_coordinates_sha256": "4aee66e6402d3a4023987916a5d3a544f4530b9dbdcdeb558b2aafa01bbdfce6",
+  "source_gate15_5_receipt_sha256": "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+  "source_gate15_exit_sha256": "2eba12c57fc5001a5bf6cf7b1f90fabebf4462221163b9aa777a082704a42af4",
+  "source_gate16_5_protocol_sha256": "aa8894dedd689ac9ff593d30d7801eb62b8d594cf2825f80bbf70683cfcd77fd",
+  "source_gate16_lab_sha256": "49937da6b2f3abac1f6426a15b40525ec614b74052446437bbb484c93aefe833",
+  "source_gate16_protocol_sha256": "f4a48b15264c0e2a193947d3093f484dcc54ea26cd9bda0ca5e4d1d83eeadb5b",
+  "source_gate16_receipt_sha256": "2fd0011c6523f5c98e0efc862c9fc25cedcf6bde4dc603d4eba2b87255318c70",
+  "source_rg3_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+  "status": "PASS_WITH_OBSERVATIONAL_FINDINGS"
+}

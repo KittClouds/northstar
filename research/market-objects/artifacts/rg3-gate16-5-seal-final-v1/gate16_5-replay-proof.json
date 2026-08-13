@@ -1,0 +1,20 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_REPLAY_PROOF_V1",
+  "status": "PASS",
+  "executions": [
+    {
+      "rayon_threads": 1,
+      "elapsed_ms": 49113
+    },
+    {
+      "rayon_threads": 4,
+      "elapsed_ms": 44437
+    }
+  ],
+  "artifact_files_compared": 16,
+  "byte_mismatches": 0,
+  "logical_census_sha256": "f88bbdffa5c6579617b1ade8ca6c1361da0aba3cc681a6a04e89c5be0c9c5cda",
+  "physical_artifact_set_sha256": "8d8ab934fa9cf4a352a0bb51ee6fd8455ae7a55c4a4110408147727295abe731",
+  "input_order": "canonical raw-directory and object-key ordering",
+  "statement": "One-thread and four-thread exhaustive release runs produced byte-identical complete artifact sets."
+}

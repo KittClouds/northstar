@@ -1,0 +1,21 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_5_PERFORMANCE_PROOF_V1",
+  "status": "PASS",
+  "scientific_fixture": true,
+  "source_runs": 42,
+  "source_objects": 1091,
+  "same_kind_pairs": 297081,
+  "contract_pair_evaluations": 5941620,
+  "release_profile": {
+    "opt_level": 3,
+    "lto": "fat",
+    "codegen_units": 1,
+    "panic": "abort",
+    "cargo_target_dir": "D:\\northstar-target-gate165"
+  },
+  "one_thread_elapsed_ms": 49113,
+  "four_thread_elapsed_ms": 44437,
+  "sealed_artifact_bytes": 59174515,
+  "compact_rehydration_included": true,
+  "claim_boundary": "Observed wall-clock evidence on this workstation; not a cross-machine throughput claim."
+}

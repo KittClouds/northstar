@@ -116,3 +116,23 @@ largest family window share 23.8%
 derived byte replay          PASS
 aggregate corpus seal        PASS
 ```
+
+## Gates 15.5, 16, and 16.5
+
+Gate 15.5 treats the six exploratory family systems as representation-local
+coordinates and preserves their correspondence disagreement. Gate 16 freezes
+partial, censor-aware summary, trajectory, event-sequence, and graph
+geometries. Gate 16.5 then exhaustively observes the distinctions those frozen
+watchers erase.
+
+Gate 16.5 evaluated all 297,081 same-kind object pairs across 20 frozen
+contracts. It found 498,115 contract-qualified exact-zero relations affecting
+161,957 unique object pairs. Summary and trajectory contracts had no exact
+collisions in RG3; event and graph contracts did. Graph V1 was particularly
+lossy for expansion objects, but disagreement is explicitly not treated as
+incremental information.
+
+The full observational report is
+[`GATE16_5_REPRESENTATION_LOSS_CENSUS.md`](GATE16_5_REPRESENTATION_LOSS_CENSUS.md).
+Sealed data lives under `artifacts/rg3-gate16-5-loss-final-v1`, with replay,
+performance, and findings receipts under `artifacts/rg3-gate16-5-seal-final-v1`.

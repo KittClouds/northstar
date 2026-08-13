@@ -1,0 +1,27 @@
+{
+  "contract": "NORTHSTAR_PHASE13_ONE_SHOT_INCIDENT_V1",
+  "status": "CONSUMED_ABORTED_BEFORE_SCORING",
+  "protocol_sha256": "869402c193435f149120f1130ddefd817f87a39240c51bc5536292fd2b285d2d",
+  "protocol_file_sha256": "3ad427a0c5484b324c1417a20cb72c6970cb3d4d9a286c176e572c0c9c0fbd22",
+  "authorization_file_sha256": "a5584b1ae837d41f324db80702c0662cfc7b5461d67d8914b664848015cca8f6",
+  "authorization_token_sha256": "fb1cb67ef47ea922f4f3515843f9adac50d8ff62f4f13bb10d5311849be286b0",
+  "bundle_semantic_sha256": "7c9b417ef4e86ea3a245e1895b7a80e417a20fa636db99d352edd0d8cf825386",
+  "bundle_file_sha256": "1bb232e1e1794f3b07a864d66187e7d59f3903774049711fbf24f613c225394e",
+  "producer_receipt_sha256": "dc37cd52d6e282961d907a2e7c73b8748e872ac78ee7eeb1c358949d30d67a86",
+  "sealed_run_set_sha256": "90c76cc8e225edabeda90c172ddf1f38727f513f7bf8ac86ad2c0788a28bb4d6",
+  "sealed_runs": 12,
+  "eligible_rows": {
+    "initial_acceptance_given_initial_contact": 2789,
+    "reclaim_given_break": 722,
+    "rejection_given_initial_contact": 2789,
+    "retest_hold_given_retest_contact": 522
+  },
+  "evaluator_release_sha256": "ac550c720480431b05a501d160f92e28a3816fbf5f5ed3bf9066c2f87c6c9ac7",
+  "consumption_receipt_sha256": "35b1fdc61b8864722a8967b7f56562e40a9f34888fd82d185dcb7d935065161b",
+  "abort_receipt_sha256": "f070fc515f5c7cb5367aa89908b8b66e425c0d8806d0041029fcae373d06bc45",
+  "scoring_started": false,
+  "candidate_results_exposed": 0,
+  "root_cause": "sealed terminal run receipts are UTF-8 BOM JSON; post-consumption verifier parses them with serde_json::from_slice",
+  "retry_permitted": false,
+  "candidate_disposition": "NO_RESULT"
+}

@@ -278,6 +278,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "northstar-osv1-release"
+version = "0.1.0"
+dependencies = [
+ "hashbrown",
+ "memchr",
+ "memmap2",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tempfile",
+ "thiserror",
+ "zerocopy",
+ "zstd",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.21.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"

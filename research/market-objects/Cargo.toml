@@ -1,6 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["crates/northstar-market-objects"]
+members = [
+    "crates/northstar-market-objects",
+    "crates/northstar-osv1-release",
+]
 
 [workspace.package]
 version = "0.1.0"

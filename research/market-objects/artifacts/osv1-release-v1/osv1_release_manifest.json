@@ -1,0 +1,745 @@
+{
+    "contract":  "NORTHSTAR_GATE16_7_OSV1_RELEASE_MANIFEST_V1",
+    "status":  "SEALED",
+    "release_id":  "OSV1_V1_0_0",
+    "osv1_root_sha256":  "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+    "theta0_sha256":  "fbcbfdfb79e91cbb70e3e39b673d2cfa15164000c28002b6f76f2e9ce98a2fa7",
+    "ancestry_sha256":  "30ed4e61b090e96e56f20f096d420bb9cfa87aef9ddc88876bc8579bf7acb4cc",
+    "findings_sha256":  "d2fa9783ee7a75b5748e3dd6c1241d340f8b443b623c8f8b5ccdfaa7a473f697",
+    "parity_matrix_sha256":  "82e44071b792f206da9b1c3fdb0c60a9c7b454ca87a3f4a0da5f10af6c656eae",
+    "cold_rehydration":  "REQUIRED",
+    "cold_source_regeneration":  "NOT_EVALUABLE_EXTERNAL_MT5_SOURCE_CAPSULE_ABSENT",
+    "source_regeneration_portability":  "NOT_PORTABLE_WITHOUT_EXTERNAL_SOURCE_CAPSULE",
+    "source_capsule":  "ABSENT_OPTIONAL_ADJUNCT",
+    "entries":  [
+                    {
+                        "path":  "research/auction-parity/artifacts/phase12-freeze/frozen_model_registry.json",
+                        "authority_kind":  "RG2_ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "79f43b7a5076b5103113c17a1fd6aba879d32e4986332f99a1abe29b023abdec",
+                        "bytes":  2104
+                    },
+                    {
+                        "path":  "research/auction-parity/artifacts/phase13r-evaluation/certificate_manifest.json",
+                        "authority_kind":  "RG2_ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "7393ec2eebc7416bcf407689d10c424a03a1a91331d327e2d61f562d13fbc20c",
+                        "bytes":  2424
+                    },
+                    {
+                        "path":  "research/auction-parity/proof/model_inference_parity.json",
+                        "authority_kind":  "RG2_ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "499b0a13d077917ce6b5823883ab959e5a473be2ec880e8c8affe38a956c34c1",
+                        "bytes":  1167
+                    },
+                    {
+                        "path":  "research/auction-parity/proof/phase10_5_interface_parity.json",
+                        "authority_kind":  "RG2_ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "a3640d13bf3a261285ad440e04fcf53f70ea73f5312d0e63201523025f4660ef",
+                        "bytes":  1293
+                    },
+                    {
+                        "path":  "research/auction-parity/proof/rg2_corpus_parity.json",
+                        "authority_kind":  "RG2_ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "32f7c2edb36f9be02bac56bccca2d5a7d155ff287b6cabea798bd7c4fd5f8cd0",
+                        "bytes":  13953
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate14-build-proof.json",
+                        "authority_kind":  "RELEASE_SUPPORT_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "d140abe5f604714b1163468ac05ec463face32c3aea5c27662931bb99ac08961",
+                        "bytes":  553
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_ancestry_dag.json",
+                        "authority_kind":  "ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b6d3f7f0010cd8c2fbf77d16389272376e9f25b7e7e0048d0f0718bd0f98e30d",
+                        "bytes":  11213
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_ancestry_edges.tsv",
+                        "authority_kind":  "ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "ae1f2ad39abddcbe262bdc8e12c2f0e0cae9749c372a9c9f9099b4becdfba9fb",
+                        "bytes":  459
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_ancestry_nodes.tsv",
+                        "authority_kind":  "ANCESTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "2d2143994e4b48948b1e2f53c2110a35af158dc0802fbbd70b2d702be033d3d4",
+                        "bytes":  2299
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_double_rebuild_proof.json",
+                        "authority_kind":  "DETERMINISM_PROOF",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "2da7645e2358d4feb28de9893d38f6cb56610142bb1738764432d5606ddc995f",
+                        "bytes":  5988
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_machine_findings.json",
+                        "authority_kind":  "FINDINGS_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "103f4da600e4bf5975921e20573f7a47910f284f09d0f353285f11173c5f87af",
+                        "bytes":  72915
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_machine_findings.tsv",
+                        "authority_kind":  "FINDINGS_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b4ded032045fd6f9d815983bd19194d2dcad0542f916bd5bfa36797dde8257ea",
+                        "bytes":  14520
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_machine_findings_receipt.json",
+                        "authority_kind":  "FINDINGS_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "0df9600db43063330708489a583417149062fa98d103f4f442901d555ad9b0db",
+                        "bytes":  632
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_machine_insufficiencies.tsv",
+                        "authority_kind":  "INSUFFICIENCY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "375dc7dea0678b7bcf0e27f5228f66fceba8b1e9b6a777b00e7d6df529b6c9c2",
+                        "bytes":  2723
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_root_manifest.json",
+                        "authority_kind":  "OSV1_ROOT_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "e7f54f73d20fcf784e7920fad1a8688835fa85705f3a23357a474e6a120eef31",
+                        "bytes":  6177
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_root_receipt.json",
+                        "authority_kind":  "OSV1_ROOT_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "afc1f94c0c76b2ffc0404bb1dbdc0aa70b677737d03f806967b89d400f07920a",
+                        "bytes":  719
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_source_dependency_closure.json",
+                        "authority_kind":  "SOURCE_CLOSURE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "2e3cf229e7ce33c12629b41978176eb2700a41916ac8b3adb913b6c8e765ea69",
+                        "bytes":  166985
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_stagewise_parity_matrix.json",
+                        "authority_kind":  "PARITY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "e0bc6e4d1f9e17ebd7053f16a62e89a840803e9acbdf99b17093ec247a97d321",
+                        "bytes":  20054
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_stagewise_parity_matrix.tsv",
+                        "authority_kind":  "PARITY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "895e603e84ccf012b12926ed5f66b59d0be4070ea4d369cbe05d14da09d008db",
+                        "bytes":  4801
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_stagewise_parity_matrix_receipt.json",
+                        "authority_kind":  "PARITY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "c891e4693a284888bb8cfde3cb4a8e62793c807cda61d5c87daeb7a20efe8ff3",
+                        "bytes":  529
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_theta0_fields.json",
+                        "authority_kind":  "OBSERVER_INSTANCE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "35cf5d08284363244492af3c7a729c3fb22e4448f705521282a36f2070d176ae",
+                        "bytes":  363959
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_theta0_fields.tsv",
+                        "authority_kind":  "OBSERVER_INSTANCE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "6b42d8b13ffc99779c31e3ac2e3c49597e855149d6a598cbc7401df2678d783e",
+                        "bytes":  98926
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_theta0_receipt.json",
+                        "authority_kind":  "OBSERVER_INSTANCE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "23c25b26380a831854823de2493dae2459a6d58267d7a103189a6fc947e767f3",
+                        "bytes":  571
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_theta0_runs.tsv",
+                        "authority_kind":  "OBSERVER_INSTANCE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "a1d9ea90211b004d02e1bca1efddd48272366cc5351c014234e1d985f33e4a50",
+                        "bytes":  28435
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_atlas_edges.tsv",
+                        "authority_kind":  "ATLAS_GRAPH_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "92a4a799df3998c2006d481dc674ac3ee1f05c6adcc7a480dcdea263a99abed2",
+                        "bytes":  3545910
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_atlas_nodes.tsv",
+                        "authority_kind":  "ATLAS_GRAPH_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "0d7861af0bd9a06a7bdba249457b2bb2f16bcc4b3954f58d78be14ccc6037a13",
+                        "bytes":  497930
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_auction_interval_intersections.tsv",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "abebccd73f0cbc28efe06b7427f8bb2d67cc41442af499a38427ab880501ce64",
+                        "bytes":  193799
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_conditioned_support_audit.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "66781a5bd595dad06f05d6b2682c57ef8f4dedb803fbdc4e762f833fe1d78a58",
+                        "bytes":  62588
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_confirmation_protocol.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b2fbacc2c1ba9cfd1811b4123ac403e15e5be71e94aca223a77de88b6b0e0d41",
+                        "bytes":  3383
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_constraint_motion_correspondence.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "1260dcfb9428dd438e40ab897aece2767d1e6eb6c8d09f1d78c8019d301e17f6",
+                        "bytes":  302251
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_constraint_motion_support_audit.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "d504d4f84bc76e9b6b6236e59ce5da3eb85e03424253b99d4318d9ae9c42adcd",
+                        "bytes":  93350
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_correspondence.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b64a51d866f3e50113ff5725099f7f0ebdaece2971c56320c6ad02c68e70c708",
+                        "bytes":  214544
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_exit_report.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "ba4fa15131f84b97de2227696d52eded21a2ad1d92c1d06265bba5771938af93",
+                        "bytes":  2199
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_family_system_artifacts.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "f3d89ed9eef62c7bd9599478df224fd3d8442ea39671d6807774c44129b43e0f",
+                        "bytes":  46927
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_lineage_coordinates.tsv",
+                        "authority_kind":  "LINEAGE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "6e50192627d55bf032c71b0f6f8edfd17d8e2a53dd17839f37ba834c5e0662d4",
+                        "bytes":  129583
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_lineage_phenotype_census.json",
+                        "authority_kind":  "LINEAGE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "3a44ba32c81ffcd0f11a9fabe68e3267701387feeaa679faf181e8ffa6f3299e",
+                        "bytes":  206578
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_null_audit.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "439f8df3de0bd657c1b7710a59ad5dfdf482353a8c69319e02ec511727232eb3",
+                        "bytes":  1353
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_object_coordinates.tsv",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "4aee66e6402d3a4023987916a5d3a544f4530b9dbdcdeb558b2aafa01bbdfce6",
+                        "bytes":  282558
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_object_phenotype_census.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "59b09293f25ecb9d9b2c4077d2811f485462a3da7e8a06c8563f87b31002a112",
+                        "bytes":  56069
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_receipt.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+                        "bytes":  2809
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_structural_bridge_receipts.tsv",
+                        "authority_kind":  "PROVENANCE_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "8e1338ad5f749eac636f7eebce8167dfdfb678aaa981bbb3ccdbe36e6248773b",
+                        "bytes":  1203981
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_subcohort_stability.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "7a8bdf933bdfb1bd08521b08794a16c026c2566f7260e3d5fa6ca3dac536d7e5",
+                        "bytes":  25049
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/source-raw-directories.txt",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "f35b299531659b6a064a2cde60aad5a58fbc2bb6d020f908ee6deaa0be0f3de9",
+                        "bytes":  7307
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-corpus-manifest.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "438b8f977a32708f41bc7a1ef08c7269b1a76d41140f5ea71351ffb8a33d87bc",
+                        "bytes":  37825
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-exit-report.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "2eba12c57fc5001a5bf6cf7b1f90fabebf4462221163b9aa777a082704a42af4",
+                        "bytes":  36695
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-seal-receipt.json",
+                        "authority_kind":  "EXPLORATORY_ATLAS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "04b653860ce8e6e86de9e69d986a6a25fd8f0ced4acbd95d0d647d412118fce4",
+                        "bytes":  419
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_canonicalization_turnover.tsv",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "f557ea0af268d979c202997cd4c84cc77cc91c576311d0d853ef87c94c07a454",
+                        "bytes":  330581
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_compact_rehydration_proof.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "a47ad70d651079d8d3b275c37b265b891fd386f7bf0fce5803e7e817b335ee1e",
+                        "bytes":  610
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_cross_representation_sets.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "85ef2c369b9c3adcf833547b6fd01d45c8c8ef0abe332d38a31fd2c8a76c2bcb",
+                        "bytes":  173390
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_difference_axis_dictionary.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "bd4aa2f134ae8fb1b3e86d55c855594203f93c2e10235c579ec959d4874c268e",
+                        "bytes":  3636
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_equivalence_classes.tsv",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b9a36889aa46a152c909deb340708557bd64b98c67bcfcaa3216d1436937f78d",
+                        "bytes":  3246008
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_exit_report.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b95c2fbe1accdb3b3dd85e2e6d9dd49d32d4ee061d30fd004acbbe43fea95b47",
+                        "bytes":  2628
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_gate15_geometry_audit.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "e56f977b4f11be7d3495d273f29372770332a1faddfebeb67b5161c579f71f1b",
+                        "bytes":  2473
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_graph_incremental_audit.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "9d668f5c38f094249d434a4a8dfea270c77425cc579ef83e7be3ccb8fd4a0fe0",
+                        "bytes":  1134
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_loss_profiles.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "9b84072d506216d09f71fb6db061fe3e19f814a0559f95c3110deb8aa094ce8c",
+                        "bytes":  34654
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_master_blocked_audit.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "4a731fc289e7bee35a264080e1d49a261a1d9724306670f01b4cd70d092a1f8f",
+                        "bytes":  17922
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_object_authority.tsv",
+                        "authority_kind":  "OBJECT_REGISTRY_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "b00ee6c2ff6c65c91dcf32227cc76162f7b8ee4056d7fc769007b76f1c75996c",
+                        "bytes":  470191
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_pair_census.tsv.zst",
+                        "authority_kind":  "REPRESENTATION_LOSS_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "1c230b6643f0fdc2fc52a09b8c89d7b0e47944f23041c5b2b6d194e5ca39bdee",
+                        "bytes":  35331221
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_pair_census_summary.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "41be3610704b77e1bf589451336e11046ce6f8e09fcc3319b9ace3168f817f36",
+                        "bytes":  21404
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_raw_difference_receipts.tsv.zst",
+                        "authority_kind":  "REPRESENTATION_LOSS_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "ac4891b5135c1d37dc5b85759c8a470df556ad6ca5a07c0b53d51a0628e57858",
+                        "bytes":  19527605
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_receipt.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "baf13bac4985589c703118a8c74da9ade449497cc7b18241780c6dbb2a401111",
+                        "bytes":  3751
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/source-raw-directories.txt",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "f35b299531659b6a064a2cde60aad5a58fbc2bb6d020f908ee6deaa0be0f3de9",
+                        "bytes":  7307
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-admission-proof.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "16b58d7b0136b1169082307b4c053721bcd7bc2f8fdb877dd4cd381c87a9e568",
+                        "bytes":  518
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-findings.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "bd4e6bdc99f25b28d947b89f5824665c623729268cf621d0d90c6754e340030d",
+                        "bytes":  1562
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-performance-proof.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "17d35af8ae29b03ed3c8b1ee9531dd8314e6cb876e95c8f09e6c759d79f01251",
+                        "bytes":  654
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-replay-proof.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "90a50deba3e58fe4e9351272157f126368e6e32ba236365fb7fc3f6fa3f0e88d",
+                        "bytes":  670
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-seal-receipt.json",
+                        "authority_kind":  "REPRESENTATION_LOSS_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "aac266a506d9e0dd4779ba876f50636321272c954f72222ca1a5c7fd3164d908",
+                        "bytes":  1365
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_authority_census.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "bf9fe32582e8ec441029f15eedf840bba9d5bda39e07e02d617cde6257675104",
+                        "bytes":  3230
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_capability_profiles.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "1fc923a47d19a5a5e1861f7f8e35dfa429c4ea76707a7517029e70616c23c80e",
+                        "bytes":  1873
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_collision_audit.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "d232fc16feb1d73337c73da72b47d373d36b47a2231ce5c07857b541ae75b3bf",
+                        "bytes":  7080
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_comparison_receipts.tsv",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "8d1edf22fecea15d21a3fab51cc278d4b9a718da5c69fdc458d0d95f376453ca",
+                        "bytes":  1852548
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_distance_probes.json",
+                        "authority_kind":  "DISTANCE_CONTRACT_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "939a51a3b0bfec6a8987a5a9ddd882a0f01b986804e7cdb26e9c254bb2ebd0f5",
+                        "bytes":  12072
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_exit_report.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "43ee90090959fda01ba66c7c752d2bbe61a596ff24839621fe620f4178caee64",
+                        "bytes":  2434
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_local_geometry.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "76eab4317d8df8b4d4cf6347a37beb6636e4db2dd7e15c414d985187731e7153",
+                        "bytes":  4333
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_metric_diagnostics.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "e11177168e03b2db3cc88142ab33aa88d3c38172b7dfcce150757e2b8a1eb5da",
+                        "bytes":  2536
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_neighborhood_agreement.json",
+                        "authority_kind":  "NEIGHBORHOOD_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "574bcdb5b19e109827924a7fb64f39f826036e5fd3f99b613760edd47f66ec07",
+                        "bytes":  12843
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_neighborhoods.tsv",
+                        "authority_kind":  "NEIGHBORHOOD_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "546e70d696268738e0391379ad35469068e366d973c83a6dc2d86da457dd2d9c",
+                        "bytes":  15701066
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_packed_vector_index.tsv",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "3d7b1cb61e845af5d9becfb4238390eebbd3f4b2ff1f3324b1390a38e14f95ec",
+                        "bytes":  536964
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_packed_vectors.f32le",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "48b342f81621b0f9566cba8ed19edcfc37145ae3987780c27b6acde6fd067891",
+                        "bytes":  1049848
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_partial_distance_vectors.json",
+                        "authority_kind":  "DISTANCE_CONTRACT_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "a59165f0c19b5f0c2ff57adddbad55b4f919193d245b0bd829d097839d47ce65",
+                        "bytes":  2370951
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_receipt.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "2fd0011c6523f5c98e0efc862c9fc25cedcf6bde4dc603d4eba2b87255318c70",
+                        "bytes":  2813
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_representation_manifests.json",
+                        "authority_kind":  "REPRESENTATION_CONTRACT_AUTHORITY",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "2731c829db0764146c406e581db7652ae23370e3ad76e46703e08cf384afb076",
+                        "bytes":  19253
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_retrospective_diagnostics.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "bc2c5c66dd533e682dd45835e77f184eb08d20c5bd1338ae7473c251cc273b43",
+                        "bytes":  1184
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_robust_scales.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "e013569f826274fd610c8e9bdc5bf8482cdb0a96018ad42f7e69b732c6366242",
+                        "bytes":  2241
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/source-raw-directories.txt",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "deae61a263557ca85238e727ab86f076f5dc2ff67b4d688232ac237a5367b710",
+                        "bytes":  3611
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-findings.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "8d054e33892ed66aedecf37151391aa090b0845635a522ebf26a643979a64443",
+                        "bytes":  1855
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-performance-proof.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "1294769a90ba91b1eb34695e1a418d13a24767c76ee6dd83cca776e61a8a2786",
+                        "bytes":  1017
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-replay-proof.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "f5ce6ee2e217659db64c0d480dc0bf428014ba248b162bab05f397e43966df2a",
+                        "bytes":  710
+                    },
+                    {
+                        "path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-seal-receipt.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "8a20debf6b8075026c3fdb1d5eb3f391cdbda3026df63cfd7a1407bef15d30f9",
+                        "bytes":  3149
+                    },
+                    {
+                        "path":  "research/market-objects/contracts/gate16_6_osv1_closure.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "d7009cf6862632f3dba7535ab4316148892657b9cce996bfb05f6e3948210587",
+                        "bytes":  11038
+                    },
+                    {
+                        "path":  "research/market-objects/contracts/gate16_7_osv1_release.json",
+                        "authority_kind":  "REPRESENTATION_GEOMETRY_DERIVATION",
+                        "availability":  "AVAILABLE",
+                        "mutability":  "IMMUTABLE",
+                        "sha256":  "bcd2b645aa2257c9808811454bfd53995382f866c1eea6966041b72a3968463d",
+                        "bytes":  4860
+                    }
+                ],
+    "logical_release_manifest_sha256":  "af25c11951262a74764fe3127e12f9b8ec4184dff1075b5b6065370101d384d9"
+}

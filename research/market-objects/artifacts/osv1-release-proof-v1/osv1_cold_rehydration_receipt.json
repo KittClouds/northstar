@@ -1,0 +1,17 @@
+{
+  "contract": "NORTHSTAR_GATE16_7_OSV1_COLD_REHYDRATION_RECEIPT_V1",
+  "status": "PASS",
+  "release_id": "OSV1_V1_0_0",
+  "osv1_root_sha256": "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+  "pack_sha256": "502d55a37e0592901906f3aa46f6298fb3f5d0614a4150b9e61fecb8d480d980",
+  "entry_count": 93,
+  "extracted_entry_count": 93,
+  "hash_mismatch_count": 0,
+  "original_prep_accessed": false,
+  "cold_source_regeneration": "NOT_EVALUABLE_EXTERNAL_MT5_SOURCE_CAPSULE_ABSENT",
+  "source_regeneration_portability": "NOT_PORTABLE_WITHOUT_EXTERNAL_SOURCE_CAPSULE",
+  "declared_authoritative_reads": 93,
+  "undeclared_authoritative_reads": 0,
+  "absolute_authority_resolution_attempts": 0,
+  "allowed_read_authority": "RELEASE_PACK_MEMBERS_ONLY"
+}

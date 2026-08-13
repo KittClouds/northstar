@@ -1,0 +1,28 @@
+[package]
+name = "northstar-osv1-release"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "northstar-osv1-release"
+path = "src/bin/release.rs"
+
+[[bin]]
+name = "northstar-osv1-consumer-smoke"
+path = "src/bin/consumer_smoke.rs"
+
+[dependencies]
+hashbrown.workspace = true
+memchr.workspace = true
+memmap2.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+zerocopy.workspace = true
+zstd.workspace = true
+
+[dev-dependencies]
+tempfile = "3.20"

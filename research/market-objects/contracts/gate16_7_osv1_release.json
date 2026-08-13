@@ -1,0 +1,129 @@
+{
+  "contract": "NORTHSTAR_GATE16_7_OSV1_RELEASE_PROTOCOL_V1",
+  "status": "FROZEN_PROTOCOL",
+  "purpose": "package, cold-rehydrate, independently verify, expose, and consume OSV1 without changing its scientific meaning",
+  "governing_law": [
+    "Gate 16.7 may move, package, verify, expose, and consume OSV1",
+    "Gate 16.7 may not change OSV1 science",
+    "cold rehydration and cold source regeneration are distinct claims",
+    "the optional source capsule is adjunct regeneration authority and never part of OSV1 scientific identity"
+  ],
+  "frozen_identity": {
+    "osv1_root_sha256": "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+    "gate16_6_closure_commit": "96a4069dd202cb0ddd935bc7c43ca855228b76c5",
+    "theta0_sha256": "fbcbfdfb79e91cbb70e3e39b673d2cfa15164000c28002b6f76f2e9ce98a2fa7",
+    "ancestry_sha256": "30ed4e61b090e96e56f20f096d420bb9cfa87aef9ddc88876bc8579bf7acb4cc",
+    "findings_sha256": "d2fa9783ee7a75b5748e3dd6c1241d340f8b443b623c8f8b5ccdfaa7a473f697",
+    "parity_matrix_sha256": "82e44071b792f206da9b1c3fdb0c60a9c7b454ca87a3f4a0da5f10af6c656eae"
+  },
+  "claims": {
+    "cold_rehydration": "REQUIRED",
+    "cold_source_regeneration": "NOT_EVALUABLE_EXTERNAL_MT5_SOURCE_CAPSULE_ABSENT",
+    "source_regeneration_portability": "NOT_PORTABLE_WITHOUT_EXTERNAL_SOURCE_CAPSULE",
+    "unqualified_cold_rebuild_term": "FORBIDDEN"
+  },
+  "payload_groups": [
+    "research/market-objects/artifacts/gate16-6-prep/*",
+    "research/market-objects/artifacts/rg3-gate15-seal-final-v4/*",
+    "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/*",
+    "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/*",
+    "research/market-objects/artifacts/rg3-gate16-seal-final-v1/*",
+    "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/*",
+    "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/*"
+  ],
+  "individual_payload_authorities": [
+    "research/market-objects/artifacts/gate14-build-proof.json",
+    "research/market-objects/contracts/gate16_6_osv1_closure.json",
+    "research/market-objects/contracts/gate16_7_osv1_release.json",
+    "research/auction-parity/proof/rg2_corpus_parity.json",
+    "research/auction-parity/proof/phase10_5_interface_parity.json",
+    "research/auction-parity/artifacts/phase12-freeze/frozen_model_registry.json",
+    "research/auction-parity/proof/model_inference_parity.json",
+    "research/auction-parity/artifacts/phase13r-evaluation/certificate_manifest.json"
+  ],
+  "consumer_permissions": [
+    "READ",
+    "FILTER",
+    "PROJECT",
+    "VISUALIZE",
+    "DERIVE_SIDECAR"
+  ],
+  "consumer_forbidden": [
+    "MUTATE_AUTHORITY",
+    "REWRITE_OBJECT_ID",
+    "RECLASSIFY_FINDING",
+    "PROMOTE_INSUFFICIENCY",
+    "ALTER_THETA0",
+    "REPLACE_PROVENANCE",
+    "CLAIM_ECONOMIC_AUTHORITY",
+    "CLAIM_TRADING_AUTHORITY"
+  ],
+  "path_independence": {
+    "allowed_authoritative_read": "the release pack only",
+    "forbidden_resolution": [
+      "absolute packed member",
+      "parent traversal",
+      "OneDrive fallback",
+      "MetaQuotes Terminal fallback",
+      "original temporary checkout fallback",
+      "original gate16-6-prep fallback",
+      "environment-variable authority fallback"
+    ],
+    "audit_fields": [
+      "declared_authoritative_reads",
+      "undeclared_authoritative_reads",
+      "absolute_authority_resolution_attempts"
+    ]
+  },
+  "typed_state_law": {
+    "encoding": "tagged enum object with required kind field",
+    "illegal_required_state_encodings": [
+      null,
+      "",
+      0,
+      false,
+      "unknown"
+    ],
+    "required_states": [
+      "NULL",
+      "CENSORED",
+      "NOT_APPLICABLE",
+      "NOT_EVALUABLE",
+      "INSUFFICIENT_SUPPORT",
+      "OPEN",
+      "FROZEN_UNOPENED",
+      "SOURCE_RECOVERED",
+      "NOT_RUN_BOUND"
+    ]
+  },
+  "phoenix_boundary": {
+    "authority_namespace": "NORTHSTAR_AUTHORITY",
+    "derived_namespace": "PHOENIX_DERIVED",
+    "sidecar_location": "outside release payload directory",
+    "source_mutation_count": 0
+  },
+  "forbidden": [
+    "new observation",
+    "new watcher",
+    "new representation or distance",
+    "new finding or interpretation",
+    "new market object",
+    "new parameter or model",
+    "opening confirmation windows",
+    "economic or trading authority"
+  ],
+  "release_tag": "osv1-v1.0.0",
+  "exit_requirements": [
+    "Gate 16.6 root unchanged",
+    "content-addressed release payload sealed",
+    "original Gate 16.6 prep directory inaccessible during cold rehydration",
+    "all authoritative reads declared",
+    "cold rehydrated root exact",
+    "typed epistemic states reject coercion",
+    "Phoenix read-only sidecar smoke passes",
+    "payload hash unchanged before and after consumption",
+    "clean release commit and verified annotated tag",
+    "confirmation windows unopened",
+    "zero scientific mutation"
+  ]
+}

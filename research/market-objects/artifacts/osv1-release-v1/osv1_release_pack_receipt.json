@@ -1,0 +1,13 @@
+{
+  "contract": "NORTHSTAR_GATE16_7_OSV1_RELEASE_PACK_RECEIPT_V1",
+  "status": "PASS",
+  "release_id": "OSV1_V1_0_0",
+  "osv1_root_sha256": "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+  "pack_sha256": "502d55a37e0592901906f3aa46f6298fb3f5d0614a4150b9e61fecb8d480d980",
+  "manifest_sha256": "817550ab5233aae6fbc3e33f7607d96345f2e9234df47a74b3ad939e7c9f0b78",
+  "consumer_contract_sha256": "92306d4cc8ea53fc4e2e98b42feef40a718223f95a9ed7b187cd14c8adc0b426",
+  "entry_count": 93,
+  "raw_bytes": 88620911,
+  "packed_bytes": 56789311,
+  "compression": "ZSTD_LEVEL_19_PER_ENTRY_NO_TIMESTAMP"
+}

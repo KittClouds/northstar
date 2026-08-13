@@ -1,0 +1,160 @@
+{
+    "contract":  "NORTHSTAR_GATE16_7_OSV1_CONSUMER_CONTRACT_V1",
+    "status":  "READ_ONLY",
+    "release_id":  "OSV1_V1_0_0",
+    "osv1_root_sha256":  "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+    "authority_namespace":  "NORTHSTAR_AUTHORITY",
+    "derived_namespace":  "PHOENIX_DERIVED",
+    "permissions":  [
+                        "READ",
+                        "FILTER",
+                        "PROJECT",
+                        "VISUALIZE",
+                        "DERIVE_SIDECAR"
+                    ],
+    "forbidden":  [
+                      "MUTATE_AUTHORITY",
+                      "REWRITE_OBJECT_ID",
+                      "RECLASSIFY_FINDING",
+                      "PROMOTE_INSUFFICIENCY",
+                      "ALTER_THETA0",
+                      "REPLACE_PROVENANCE",
+                      "CLAIM_ECONOMIC_AUTHORITY",
+                      "CLAIM_TRADING_AUTHORITY"
+                  ],
+    "exported_authorities":  [
+                                 {
+                                     "kind":  "OBJECT_REGISTRY",
+                                     "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_object_authority.tsv"
+                                 },
+                                 {
+                                     "kind":  "LINEAGE_RELATIONS",
+                                     "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_lineage_coordinates.tsv"
+                                 },
+                                 {
+                                     "kind":  "REPRESENTATION_CONTRACTS",
+                                     "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_representation_manifests.json"
+                                 },
+                                 {
+                                     "kind":  "DISTANCE_CONTRACTS",
+                                     "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_representation_manifests.json"
+                                 },
+                                 {
+                                     "kind":  "NEIGHBORHOOD_LEDGERS",
+                                     "path":  "research/market-objects/artifacts/rg3-gate16-geometry-final-v1/gate16_neighborhoods.tsv"
+                                 },
+                                 {
+                                     "kind":  "REPRESENTATION_LOSS_LEDGERS",
+                                     "path":  "research/market-objects/artifacts/rg3-gate16-5-loss-final-v1/gate16_5_pair_census.tsv.zst"
+                                 },
+                                 {
+                                     "kind":  "FINDINGS_LEDGER",
+                                     "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_machine_findings.json"
+                                 },
+                                 {
+                                     "kind":  "INSUFFICIENCY_LEDGER",
+                                     "path":  "research/market-objects/artifacts/gate16-6-prep/osv1_machine_insufficiencies.tsv"
+                                 },
+                                 {
+                                     "kind":  "PROVENANCE",
+                                     "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_structural_bridge_receipts.tsv"
+                                 }
+                             ],
+    "typed_states":  [
+                         {
+                             "value":  {
+                                           "kind":  "NULL"
+                                       },
+                             "class":  "MISSINGNESS",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_lineage_coordinates.tsv",
+                             "evidence_token":  "NULL_STRUCTURAL_CONTEXT"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "CENSORED"
+                                       },
+                             "class":  "CENSORING",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_lineage_coordinates.tsv",
+                             "evidence_token":  "CENSORED_DESTINATION"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "NOT_APPLICABLE"
+                                       },
+                             "class":  "AVAILABILITY",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_lineage_coordinates.tsv",
+                             "evidence_token":  "NOT_APPLICABLE"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "NOT_EVALUABLE"
+                                       },
+                             "class":  "AVAILABILITY",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_auction_interval_intersections.tsv",
+                             "evidence_token":  "NOT_EVALUABLE"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "INSUFFICIENT_SUPPORT"
+                                       },
+                             "class":  "SUPPORT",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_conditioned_support_audit.json",
+                             "evidence_token":  "INSUFFICIENT_SUPPORT"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "OPEN"
+                                       },
+                             "class":  "PARITY",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/gate16-6-prep/osv1_stagewise_parity_matrix.json",
+                             "evidence_token":  "OPEN"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "FROZEN_UNOPENED"
+                                       },
+                             "class":  "CONFIRMATION",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_confirmation_protocol.json",
+                             "evidence_token":  "FROZEN_UNOPENED"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "SOURCE_RECOVERED"
+                                       },
+                             "class":  "PROVENANCE",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/gate16-6-prep/osv1_theta0_fields.json",
+                             "evidence_token":  "RECOVERED_FROM_COLLECTION_ENVIRONMENT"
+                         },
+                         {
+                             "value":  {
+                                           "kind":  "NOT_RUN_BOUND"
+                                       },
+                             "class":  "PROVENANCE",
+                             "transport":  "TYPED_ENUM",
+                             "evidence_path":  "research/market-objects/artifacts/gate16-6-prep/osv1_theta0_fields.json",
+                             "evidence_token":  "NOT_RUN_BOUND_NO_EX5_OR_EXPANDED_MASTER_CONFIG_IN_RUN_RECEIPT"
+                         }
+                     ],
+    "source_kinds":  [
+                         "MACHINE_DERIVED",
+                         "ARTIFACT_DECLARED",
+                         "HUMAN_SUMMARY"
+                     ],
+    "human_summary_authority_count":  0,
+    "theta0_source_recovered_count":  84,
+    "theta0_source_recovered_authority_value":  "RECOVERED_FROM_COLLECTION_ENVIRONMENT",
+    "theta0_not_run_bound_authority_value":  "NOT_RUN_BOUND_NO_EX5_OR_EXPANDED_MASTER_CONFIG_IN_RUN_RECEIPT",
+    "source_capsule":  {
+                           "role":  "OPTIONAL_ADJUNCT_REGENERATION_AUTHORITY",
+                           "status":  "ABSENT",
+                           "included_in_osv1_scientific_identity":  false
+                       }
+}

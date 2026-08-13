@@ -1,0 +1,48 @@
+{
+    "contract":  "NORTHSTAR_GATE16_7_OSV1_COLD_RELEASE_PROOF_V1",
+    "status":  "PASS",
+    "osv1_root_sha256":  "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+    "release_id":  "OSV1_V1_0_0",
+    "release_pack_sha256":  "502d55a37e0592901906f3aa46f6298fb3f5d0614a4150b9e61fecb8d480d980",
+    "payload_tree_sha256_before":  "20d27c6e7f2b8d420b2fbe0f3391c4097a27880725a44ac18634a08eab6fdd90",
+    "payload_tree_sha256_after":  "20d27c6e7f2b8d420b2fbe0f3391c4097a27880725a44ac18634a08eab6fdd90",
+    "payload_file_count":  4,
+    "original_gate16_6_prep_accessible":  false,
+    "cold_rehydration":  {
+                             "status":  "PASS",
+                             "entry_count":  93,
+                             "hash_mismatch_count":  0,
+                             "allowed_read_authority":  "RELEASE_PACK_MEMBERS_ONLY",
+                             "declared_authoritative_reads":  93,
+                             "undeclared_authoritative_reads":  0,
+                             "absolute_authority_resolution_attempts":  0
+                         },
+    "cold_source_regeneration":  {
+                                     "status":  "NOT_EVALUABLE",
+                                     "reason":  "EXTERNAL_MT5_SOURCE_CAPSULE_ABSENT"
+                                 },
+    "source_regeneration_portability":  {
+                                            "status":  "NOT_PORTABLE_WITHOUT_EXTERNAL_SOURCE_CAPSULE",
+                                            "source_capsule_part_of_osv1_identity":  false
+                                        },
+    "phoenix_consumer":  {
+                             "status":  "PASS",
+                             "source_kind":  "PHOENIX_DERIVED",
+                             "sidecar_outside_payload":  true,
+                             "typed_states_verified":  9,
+                             "source_kinds_verified":  3,
+                             "theta0_source_recovered_count":  84,
+                             "c1_parity_status":  "OPEN",
+                             "source_mutation_count":  0
+                         },
+    "invariants":  {
+                       "released_root_exact":  true,
+                       "payload_tree_unchanged":  true,
+                       "only_declared_authoritative_bytes_read":  true,
+                       "typed_epistemic_states_round_trip":  true,
+                       "illegal_state_coercions_rejected_by_consumer_type":  true,
+                       "confirmation_windows_unopened":  true,
+                       "scientific_mutation_count":  0,
+                       "economic_or_trading_authority":  false
+                   }
+}

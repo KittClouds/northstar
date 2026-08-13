@@ -1,0 +1,15 @@
+{
+  "contract": "NORTHSTAR_GATE16_7_OSV1_PHOENIX_READ_ONLY_SMOKE_V1",
+  "status": "PASS",
+  "source_kind": "PHOENIX_DERIVED",
+  "parent_osv1_root_sha256": "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+  "release_id": "OSV1_V1_0_0",
+  "pack_sha256_before": "502d55a37e0592901906f3aa46f6298fb3f5d0614a4150b9e61fecb8d480d980",
+  "pack_sha256_after": "502d55a37e0592901906f3aa46f6298fb3f5d0614a4150b9e61fecb8d480d980",
+  "authority_entries_read": 93,
+  "typed_states_verified": 9,
+  "source_kinds_verified": 3,
+  "theta0_source_recovered_count": 84,
+  "c1_parity_status": "OPEN",
+  "source_mutation_count": 0
+}

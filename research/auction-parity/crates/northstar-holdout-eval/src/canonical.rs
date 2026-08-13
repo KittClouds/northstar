@@ -1,6 +1,6 @@
 use std::{fs, path::Path};
 
-use serde::Serialize;
+use serde::{Serialize, de::DeserializeOwned};
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 
@@ -90,13 +90,21 @@ pub fn canonical_hash_without<T: Serialize>(value: &T, field: &str) -> Result<St
     json_hash_without(&serde_json::to_vec(value)?, field)
 }
 
+pub fn parse_json<T: DeserializeOwned>(bytes: &[u8]) -> Result<T> {
+    Ok(serde_json::from_slice(strip_utf8_bom(bytes))?)
+}
+
 pub fn json_hash_without(bytes: &[u8], field: &str) -> Result<String> {
-    let mut value: Value = serde_json::from_slice(bytes)?;
+    let mut value: Value = parse_json(bytes)?;
     value
         .as_object_mut()
         .ok_or_else(|| Error::Contract("expected JSON object".into()))?
         .remove(field);
     canonical_hash(&value)
+}
+
+fn strip_utf8_bom(bytes: &[u8]) -> &[u8] {
+    bytes.strip_prefix(&[0xef, 0xbb, 0xbf]).unwrap_or(bytes)
 }
 
 pub fn write_pretty_json<T: Serialize>(path: &Path, value: &T) -> Result<()> {
@@ -128,6 +136,19 @@ mod tests {
         assert_eq!(
             canonical_json(&json!({"z": 1, "a": [true, null]})).unwrap(),
             b"{\"a\":[true,null],\"z\":1}"
+        );
+    }
+
+    #[test]
+    fn json_parser_and_semantic_hash_accept_utf8_bom() {
+        let plain = br#"{"value":7,"semantic":"ignored"}"#;
+        let mut bom = vec![0xef, 0xbb, 0xbf];
+        bom.extend_from_slice(plain);
+        let value: Value = parse_json(&bom).unwrap();
+        assert_eq!(value["value"], 7);
+        assert_eq!(
+            json_hash_without(&bom, "semantic").unwrap(),
+            json_hash_without(plain, "semantic").unwrap()
         );
     }
 }

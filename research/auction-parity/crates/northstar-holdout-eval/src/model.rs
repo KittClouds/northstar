@@ -88,7 +88,7 @@ impl Registry {
             path: path.into(),
             source,
         })?;
-        let value: Self = serde_json::from_slice(&bytes)?;
+        let value: Self = canonical::parse_json(&bytes)?;
         if value.contract != "MST_PHASE11_FROZEN_MODEL_REGISTRY_V1"
             || value.status != "PASS"
             || value.holdout_touched
@@ -114,7 +114,7 @@ impl RuntimeArtifact {
             path: path.clone(),
             source,
         })?;
-        let artifact: Artifact = serde_json::from_slice(&bytes)?;
+        let artifact: Artifact = canonical::parse_json(&bytes)?;
         if artifact.contract != "MST_PHASE11_FROZEN_MODEL_V1"
             || artifact.target != row.target
             || artifact.calibration.kind != "NONE"
@@ -181,8 +181,24 @@ impl RuntimeArtifact {
             RuntimeModel::Ridge(beta) if beta.len() != width + 1 => {
                 return Err(Error::Contract("ridge width mismatch".into()));
             }
+            RuntimeModel::Ridge(beta) if beta.iter().any(|value| !value.is_finite()) => {
+                return Err(Error::Contract(
+                    "ridge contains non-finite coefficient".into(),
+                ));
+            }
             RuntimeModel::Stumps { trees, .. } if trees.iter().any(|v| v.0 >= width) => {
                 return Err(Error::Contract("stump width mismatch".into()));
+            }
+            RuntimeModel::Stumps { rate, base, trees }
+                if !rate.is_finite()
+                    || !base.is_finite()
+                    || trees.iter().any(|(_, threshold, left, right)| {
+                        !threshold.is_finite() || !left.is_finite() || !right.is_finite()
+                    }) =>
+            {
+                return Err(Error::Contract(
+                    "stump model contains non-finite parameter".into(),
+                ));
             }
             _ => {}
         }
@@ -198,7 +214,7 @@ impl RuntimeArtifact {
             .map(String::as_str)
     }
 
-    pub fn score(&self, raw: &HashMap<String, String>, scratch: &mut Vec<f64>) -> Result<f64> {
+    pub fn prepare(&self, raw: &HashMap<String, String>, scratch: &mut Vec<f64>) -> Result<()> {
         let p = &self.artifact.preprocessor;
         scratch.clear();
         scratch.reserve(p.feature_order.len().saturating_sub(scratch.capacity()));
@@ -246,10 +262,18 @@ impl RuntimeArtifact {
                 p.feature_order.len()
             )));
         }
+        Ok(())
+    }
+
+    pub fn score_prepared(&self, features: &[f64]) -> f64 {
+        debug_assert_eq!(
+            features.len(),
+            self.artifact.preprocessor.feature_order.len()
+        );
         let score = match &self.model {
             RuntimeModel::Ridge(beta) => {
                 beta[0]
-                    + scratch
+                    + features
                         .iter()
                         .zip(&beta[1..])
                         .map(|(x, b)| x * b)
@@ -259,14 +283,12 @@ impl RuntimeArtifact {
                 *base
                     + trees
                         .iter()
-                        .map(|(c, t, l, r)| rate * if scratch[*c] <= *t { l } else { r })
+                        .map(|(c, t, l, r)| rate * if features[*c] <= *t { l } else { r })
                         .sum::<f64>()
             }
         };
-        if !score.is_finite() {
-            return Err(Error::Input("non-finite model score".into()));
-        }
-        Ok(sigmoid(score))
+        debug_assert!(score.is_finite());
+        sigmoid(score)
     }
 }
 

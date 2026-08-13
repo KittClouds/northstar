@@ -137,7 +137,7 @@ impl Preauthorization {
             path: path.to_path_buf(),
             source,
         })?;
-        let value: Self = serde_json::from_slice(&bytes)?;
+        let value: Self = canonical::parse_json(&bytes)?;
         value.validate_semantics()?;
         let actual = canonical::json_hash_without(&bytes, "protocol_sha256")?;
         if actual != value.protocol_sha256 {

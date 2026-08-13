@@ -1,0 +1,50 @@
+﻿{
+    "contract":  "NORTHSTAR_PHASE13R_CERTIFICATE_V1",
+    "status":  "COMPLETE",
+    "protocol_sha256":  "6be4368c07fe912c6e35df0e9c76e96d5c2a60e3c6f40db33c67370125acdebc",
+    "authorization_token_sha256":  "f45a6fdc2c822498eeba0685b93abf7c50b6d51ad4f9058fd361fb6028985120",
+    "bundle_semantic_sha256":  "98d5550e327eef9b167d3cfd7ec1e3a7bae9262304d2bf1caff4dc98660c6ce8",
+    "report_semantic_sha256":  "ab199b75dd2788875b74e356d2b3e451a555b599c12b90c74aaec7cbdb95452c",
+    "sealed_runs":  12,
+    "quarantined_runs":  0,
+    "candidate_outcomes":  {
+                               "initial_acceptance_given_initial_contact":  "PASS",
+                               "reclaim_given_break":  "PASS",
+                               "rejection_given_initial_contact":  "PASS",
+                               "retest_hold_given_retest_contact":  "PASS"
+                           },
+    "behavioral_only":  true,
+    "trade_policy":  false,
+    "files":  [
+                  {
+                      "file":  "authorization.json",
+                      "bytes":  315,
+                      "sha256":  "d62bf279c5200f909184879c8c69e4c1401139d14afce28e4874411e4d4fa2ae"
+                  },
+                  {
+                      "file":  "bundle_producer_receipt.json",
+                      "bytes":  1032,
+                      "sha256":  "f105668c3a228618bda3753da21374b82e21d8a806d16347729a0af528c993e2"
+                  },
+                  {
+                      "file":  "consumed.json",
+                      "bytes":  381,
+                      "sha256":  "25315dc7177064691d3cf9099fe7b183fd8e9594e159047e45eec51e9ec2ac35"
+                  },
+                  {
+                      "file":  "evaluation_report.json",
+                      "bytes":  31653,
+                      "sha256":  "8d27f3c0cab8ce3ecd332940b7729fd0f09bdf0eaee9756814907023e812e38a"
+                  },
+                  {
+                      "file":  "infrastructure_retry.json",
+                      "bytes":  865,
+                      "sha256":  "dbff1a2644edac546107d2e329a341f78a8fd263f38a366445e598cb5ede9b4c"
+                  },
+                  {
+                      "file":  "README.md",
+                      "bytes":  937,
+                      "sha256":  "246e0b0e93a47fd5d4567656bec48f0f3224387e807aca969cf5a7012524144d"
+                  }
+              ]
+}

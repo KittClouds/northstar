@@ -92,6 +92,39 @@ struct AbortReceipt {
     reason: String,
 }
 
+#[derive(Debug)]
+struct PreparedCandidate {
+    candidate_index: usize,
+    artifact: RuntimeArtifact,
+    eligible: usize,
+    censored: usize,
+    episodes: usize,
+    rows: Vec<PreparedRow>,
+}
+
+#[derive(Debug)]
+struct PreparedRow {
+    run_key: String,
+    instrument: String,
+    holdout_id: String,
+    label: bool,
+    features: Box<[f64]>,
+}
+
+#[derive(Debug)]
+struct PendingCandidate<'a> {
+    candidate: &'a Candidate,
+    eligible: usize,
+    censored: usize,
+    episodes: usize,
+    runs: usize,
+    metrics: Metrics,
+    reliability: Vec<ReliabilityBucket>,
+    bootstrap: BootstrapResult,
+    instruments: Vec<Breakdown>,
+    temporal_blocks: Vec<Breakdown>,
+}
+
 pub fn freeze_protocol(args: &FreezeArgs) -> Result<Preauthorization> {
     fs::create_dir_all(&args.output_dir).map_err(|source| Error::Io {
         path: args.output_dir.clone(),
@@ -174,7 +207,7 @@ pub fn freeze_protocol(args: &FreezeArgs) -> Result<Preauthorization> {
         });
     }
     candidates.sort_by(|a, b| a.target.cmp(&b.target));
-    let packed: Value = serde_json::from_slice(&read(&args.packed_receipt)?)?;
+    let packed: Value = canonical::parse_json(&read(&args.packed_receipt)?)?;
     let packed_hash = packed
         .get("packed_semantic_sha256")
         .and_then(Value::as_str)
@@ -286,22 +319,21 @@ pub fn evaluate_once(args: &EvaluateArgs) -> Result<()> {
             "running evaluator code differs from preauthorized evaluator".into(),
         ));
     }
-    let auth: Authorization = serde_json::from_slice(&read(&args.authorization)?)?;
+    let auth: Authorization = canonical::parse_json(&read(&args.authorization)?)?;
     auth.validate(&protocol)?;
     let bundle_root = args
         .bundle
         .parent()
         .ok_or_else(|| Error::Contract("bundle parent missing".into()))?;
     let bundle = BundleManifest::load_and_validate(&args.bundle, &protocol)?;
-    consume(&args.state_dir, &protocol, &auth, &bundle)?;
     let protocol_root = args
         .protocol
         .parent()
         .ok_or_else(|| Error::Contract("protocol parent missing".into()))?;
-    let result = (|| {
-        verify_bundle_files(bundle_root, &bundle)?;
-        evaluate_consumed(&protocol, &auth, &bundle, bundle_root, protocol_root)
-    })();
+    verify_bundle_files(bundle_root, &bundle)?;
+    let prepared = prepare_evaluation(&protocol, &bundle, bundle_root, protocol_root)?;
+    consume(&args.state_dir, &protocol, &auth, &bundle)?;
+    let result = evaluate_consumed(&protocol, &auth, &bundle, prepared);
     match result {
         Ok(mut report) => {
             report.report_semantic_sha256 =
@@ -327,51 +359,29 @@ fn evaluate_consumed(
     protocol: &Preauthorization,
     auth: &Authorization,
     bundle: &BundleManifest,
-    root: &Path,
-    protocol_root: &Path,
+    prepared: Vec<PreparedCandidate>,
 ) -> Result<EvaluationReport> {
     let mut pending = Vec::with_capacity(protocol.candidates.len());
-    for candidate in &protocol.candidates {
-        let model_path = protocol_root.join(&candidate.model_file);
-        let registry_row = crate::model::RegistryModel {
-            target: candidate.target.clone(),
-            model: model_path
-                .file_name()
-                .unwrap()
-                .to_string_lossy()
-                .into_owned(),
-            model_sha256: candidate.model_canonical_sha256.clone(),
-        };
-        let artifact = RuntimeArtifact::load(model_path.parent().unwrap(), &registry_row)?;
-        let target = bundle
-            .targets
-            .iter()
-            .find(|t| t.target == candidate.target)
-            .ok_or_else(|| Error::Contract("target file absent".into()))?;
-        let observations = input::load_observations(
-            root,
-            target,
-            artifact.raw_columns().map(str::to_owned),
-            &bundle.runs,
-        )?;
-        let eligible = observations.len();
-        let censored = observations.iter().filter(|o| o.censored).count();
-        let episodes = observations
-            .iter()
-            .map(|o| (&o.run_key, &o.episode_id))
-            .collect::<HashSet<_>>()
-            .len();
-        let mut scratch = Vec::new();
-        let mut scored = Vec::with_capacity(eligible - censored);
-        for observation in observations.iter().filter(|o| !o.censored) {
-            scored.push(ScoredRow {
-                run_key: observation.run_key.clone(),
-                instrument: observation.instrument.clone(),
-                holdout_id: observation.holdout_id.clone(),
-                label: observation.label.expect("uncensored labels validated"),
-                probability: artifact.score(&observation.raw, &mut scratch)?,
-            });
-        }
+    for prepared_candidate in prepared {
+        let candidate = &protocol.candidates[prepared_candidate.candidate_index];
+        let PreparedCandidate {
+            artifact,
+            eligible,
+            censored,
+            episodes,
+            rows,
+            ..
+        } = prepared_candidate;
+        let scored = rows
+            .into_iter()
+            .map(|row| ScoredRow {
+                run_key: row.run_key,
+                instrument: row.instrument,
+                holdout_id: row.holdout_id,
+                label: row.label,
+                probability: artifact.score_prepared(&row.features),
+            })
+            .collect::<Vec<_>>();
         let run_count = scored
             .iter()
             .map(|r| r.run_key.as_str())
@@ -421,38 +431,108 @@ fn evaluate_consumed(
                 temporal_blocks,
             )
         };
-        pending.push((
+        pending.push(PendingCandidate {
             candidate,
             eligible,
             censored,
             episodes,
-            run_count,
+            runs: run_count,
             metrics,
             reliability,
             bootstrap,
             instruments,
             temporal_blocks,
-        ));
+        });
     }
+    finish_report(protocol, auth, bundle, pending)
+}
+
+fn prepare_evaluation(
+    protocol: &Preauthorization,
+    bundle: &BundleManifest,
+    root: &Path,
+    protocol_root: &Path,
+) -> Result<Vec<PreparedCandidate>> {
+    let mut prepared = Vec::with_capacity(protocol.candidates.len());
+    for (candidate_index, candidate) in protocol.candidates.iter().enumerate() {
+        let model_path = protocol_root.join(&candidate.model_file);
+        let registry_row = crate::model::RegistryModel {
+            target: candidate.target.clone(),
+            model: model_path
+                .file_name()
+                .unwrap()
+                .to_string_lossy()
+                .into_owned(),
+            model_sha256: candidate.model_canonical_sha256.clone(),
+        };
+        let artifact = RuntimeArtifact::load(model_path.parent().unwrap(), &registry_row)?;
+        let target = bundle
+            .targets
+            .iter()
+            .find(|t| t.target == candidate.target)
+            .ok_or_else(|| Error::Contract("target file absent".into()))?;
+        let observations = input::load_observations(
+            root,
+            target,
+            artifact.raw_columns().map(str::to_owned),
+            &bundle.runs,
+        )?;
+        let eligible = observations.len();
+        let censored = observations.iter().filter(|o| o.censored).count();
+        let episodes = observations
+            .iter()
+            .map(|o| (&o.run_key, &o.episode_id))
+            .collect::<HashSet<_>>()
+            .len();
+        let mut scratch = Vec::new();
+        let mut rows = Vec::with_capacity(eligible - censored);
+        for observation in observations.iter().filter(|o| !o.censored) {
+            artifact.prepare(&observation.raw, &mut scratch)?;
+            rows.push(PreparedRow {
+                run_key: observation.run_key.clone(),
+                instrument: observation.instrument.clone(),
+                holdout_id: observation.holdout_id.clone(),
+                label: observation.label.expect("uncensored labels validated"),
+                features: scratch.clone().into_boxed_slice(),
+            });
+        }
+        prepared.push(PreparedCandidate {
+            candidate_index,
+            artifact,
+            eligible,
+            censored,
+            episodes,
+            rows,
+        });
+    }
+    Ok(prepared)
+}
+
+fn finish_report<'a>(
+    protocol: &'a Preauthorization,
+    auth: &Authorization,
+    bundle: &BundleManifest,
+    pending: Vec<PendingCandidate<'a>>,
+) -> Result<EvaluationReport> {
     let adjusted = metrics::holm_adjust(
         &pending
             .iter()
-            .map(|v| (v.0.target.clone(), v.7.one_sided_p))
+            .map(|v| (v.candidate.target.clone(), v.bootstrap.one_sided_p))
             .collect::<Vec<_>>(),
     );
     let mut reports = Vec::with_capacity(pending.len());
-    for (
+    for PendingCandidate {
         candidate,
         eligible,
         censored,
         episodes,
         runs,
-        metric,
+        metrics: metric,
         reliability,
         bootstrap,
         instruments,
-        blocks,
-    ) in pending
+        temporal_blocks: blocks,
+    } in pending
     {
         let adjusted_p = adjusted[&candidate.target];
         let (outcome, failures) = metrics::candidate_gate(
@@ -558,7 +638,7 @@ fn verify_bundle_files(root: &Path, bundle: &BundleManifest) -> Result<()> {
         if canonical::file_sha256(&path)? != run.run_receipt_sha256 {
             return Err(Error::Contract("run receipt hash mismatch".into()));
         }
-        let receipt: serde_json::Value = serde_json::from_slice(&read(&path)?)?;
+        let receipt: serde_json::Value = canonical::parse_json(&read(&path)?)?;
         if receipt.get("run_key").and_then(serde_json::Value::as_str) != Some(run.run_key.as_str())
         {
             return Err(Error::Contract(
@@ -812,10 +892,11 @@ mod tests {
             std::env::temp_dir().join(format!("northstar-holdout-e2e-{}", std::process::id()));
         let _ = fs::remove_dir_all(&root);
         fs::create_dir_all(root.join("receipts")).unwrap();
-        let protocol_path = package.join("preauthorization.json");
-        let protocol_bytes = fs::read(&protocol_path).unwrap();
+        let source_protocol_path = package.join("preauthorization.json");
+        let protocol_path = root.join("preauthorization.json");
+        let protocol_bytes = fs::read(&source_protocol_path).unwrap();
         let protocol_raw: serde_json::Value = serde_json::from_slice(&protocol_bytes).unwrap();
-        let protocol: Preauthorization = serde_json::from_slice(&protocol_bytes).unwrap();
+        let mut protocol: Preauthorization = serde_json::from_slice(&protocol_bytes).unwrap();
         let typed_value = serde_json::to_value(&protocol).unwrap();
         if protocol_raw != typed_value {
             panic!(
@@ -852,6 +933,20 @@ mod tests {
             );
         }
         protocol.validate().unwrap();
+        protocol.identities.evaluator_code_sha256 =
+            evaluator_code_hash(Path::new(env!("CARGO_MANIFEST_DIR")).join("src")).unwrap();
+        protocol.protocol_sha256 =
+            canonical::canonical_hash_without(&protocol, "protocol_sha256").unwrap();
+        canonical::write_pretty_json(&protocol_path, &protocol).unwrap();
+        fs::create_dir_all(root.join("models")).unwrap();
+        for candidate in &protocol.candidates {
+            let name = Path::new(&candidate.model_file).file_name().unwrap();
+            fs::copy(
+                package.join(&candidate.model_file),
+                root.join("models").join(name),
+            )
+            .unwrap();
+        }
         let auth_path = root.join("authorization.json");
         authorize_once(&AuthorizeArgs {
             protocol: protocol_path.clone(),
@@ -867,7 +962,9 @@ mod tests {
             );
             let receipt_file = format!("receipts/{run_key}.json");
             let receipt_path = root.join(&receipt_file);
-            fs::write(&receipt_path, format!("{{\"run_key\":\"{run_key}\"}}\n")).unwrap();
+            let mut receipt = vec![0xef, 0xbb, 0xbf];
+            receipt.extend_from_slice(format!("{{\"run_key\":\"{run_key}\"}}\r\n").as_bytes());
+            fs::write(&receipt_path, receipt).unwrap();
             runs.push(input::BundleRun {
                 run_key,
                 canonical_instrument: reservation.canonical_instrument.clone(),
@@ -923,8 +1020,8 @@ mod tests {
                     format!("attempt-{index}"),
                     run.canonical_instrument.clone(),
                     run.holdout_id.clone(),
-                    "false".into(),
-                    usize::from(index % 2 == 0).to_string(),
+                    "False".into(),
+                    if index % 2 == 0 { "True" } else { "False" }.into(),
                 ];
                 for name in &extras {
                     let value = if artifact
@@ -976,6 +1073,14 @@ mod tests {
             state_dir: root.join("state"),
             report: root.join("report.json"),
         };
+        let receipt_path = root.join(&bundle.runs[0].run_receipt_file);
+        let receipt_bytes = fs::read(&receipt_path).unwrap();
+        fs::write(&receipt_path, b"{\"run_key\":").unwrap();
+        assert!(evaluate_once(&args).is_err());
+        assert!(!args.state_dir.exists());
+        assert!(!args.report.exists());
+        assert!(!args.report.with_extension("abort.json").exists());
+        fs::write(&receipt_path, receipt_bytes).unwrap();
         evaluate_once(&args).unwrap();
         assert!(args.report.exists());
         assert!(evaluate_once(&args).is_err());

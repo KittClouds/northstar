@@ -60,7 +60,7 @@ impl BundleManifest {
             path: path.into(),
             source,
         })?;
-        let value: Self = serde_json::from_slice(&bytes)?;
+        let value: Self = canonical::parse_json(&bytes)?;
         if value.contract != BUNDLE_CONTRACT
             || value.status != "SEALED"
             || value.research_generation != protocol.research_generation
@@ -272,8 +272,10 @@ pub(crate) fn safe_join(root: &Path, relative: &str) -> Result<PathBuf> {
 
 fn parse_bool(text: &str) -> Result<bool> {
     match text {
-        "1" | "true" | "TRUE" => Ok(true),
-        "0" | "false" | "FALSE" => Ok(false),
+        "1" => Ok(true),
+        "0" => Ok(false),
+        value if value.eq_ignore_ascii_case("true") => Ok(true),
+        value if value.eq_ignore_ascii_case("false") => Ok(false),
         _ => Err(Error::Input(format!("invalid bool {text}"))),
     }
 }
@@ -309,4 +311,15 @@ fn text(bytes: &[u8]) -> Result<String> {
     std::str::from_utf8(bytes)
         .map(str::to_owned)
         .map_err(|_| Error::Input("TSV is not UTF-8".into()))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::parse_bool;
+
+    #[test]
+    fn python_boolean_spellings_are_valid() {
+        assert!(parse_bool("True").unwrap());
+        assert!(!parse_bool("False").unwrap());
+    }
 }

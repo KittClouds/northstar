@@ -4,6 +4,8 @@ param(
     [string]$Terminal = 'C:\Program Files\MetaTrader 5\terminal64.exe',
     [string]$CommonFiles = "$env:APPDATA\MetaQuotes\Terminal\Common\Files",
     [int]$TimeoutSeconds = 900,
+    [ValidatePattern('^[A-Z0-9_]+$')][string]$CampaignTag = 'P13',
+    [ValidatePattern('^[A-Z0-9_]+$')][string]$FingerprintPrefix = 'PHASE13',
     [switch]$DryRun
 )
 
@@ -77,7 +79,7 @@ InpLogFlushSnapshots=10
 InpTesterFinalizeAt=$($row.window_end_exclusive)
 InpCanonicalInstrument=$($row.canonical_instrument)
 InpDataSourceId=$($row.data_source_id)
-InpDataFingerprint=PHASE13_$($row.canonical_instrument)_$($row.holdout_id)_RG2
+InpDataFingerprint=${FingerprintPrefix}_$($row.canonical_instrument)_$($row.holdout_id)_RG2
 InpResearchWindowStart=$($row.window_start)
 InpResearchWindowEnd=$($row.window_end_exclusive)
 InpShowNodes=false
@@ -106,13 +108,13 @@ try{
     if($reservations.Count -ne 12){throw "Expected 12 reservations, found $($reservations.Count)"}
     $sealed=0
     foreach($row in $reservations){
-        $tag="P13_$($row.canonical_instrument)_$($row.holdout_id)"
+        $tag="${CampaignTag}_$($row.canonical_instrument)_$($row.holdout_id)"
         $auctionStem="MasterAuction_$($row.broker_symbol)_PERIOD_M5_${tag}_RG2_v7"
         $structureStem="MasterStructure_$($row.broker_symbol)_PERIOD_M5_${tag}_v6"
         $stage=Join-Path $stagingRoot $tag;$config=Join-Path $configsRoot "$tag.ini"
         if(Test-Path -LiteralPath $stage){throw "Existing stage detected: $stage"};[IO.Directory]::CreateDirectory($stage)|Out-Null
         [IO.File]::WriteAllText($config,(New-Config $row $tag),[Text.Encoding]::ASCII)
-        if($DryRun){Write-Host "P13_DRY_RUN $tag";Remove-Item -LiteralPath $stage;continue}
+        if($DryRun){Write-Host "${CampaignTag}_DRY_RUN $tag";Remove-Item -LiteralPath $stage;continue}
         $process=$null;$before=@(Get-Process metatester64 -ErrorAction SilentlyContinue|ForEach-Object Id)
         try{
             $process=Start-Process -FilePath $Terminal -ArgumentList "/config:`"$config`"" -WindowStyle Hidden -PassThru
@@ -123,7 +125,7 @@ try{
             $sealArgs=@{Protocol=$Protocol;Instrument=$row.canonical_instrument;HoldoutId=$row.holdout_id;AuctionStem=$auctionStem;StructureStem=$structureStem;StagingDirectory=$stage;RunsDirectory=$runsRoot;CommonFiles=$CommonFiles}
             $result=& "$PSScriptRoot\Seal-Phase13HoldoutRun.ps1" @sealArgs 2>&1
             if('status=SEALED' -notin @($result)){throw "Sealer failed: $($result -join '; ')"}
-            $sealed++;Write-Host "P13_SEALED $tag"
+            $sealed++;Write-Host "${CampaignTag}_SEALED $tag"
         }catch{
             if($null-ne$process -and -not $process.HasExited){Stop-Process -Id $process.Id;[void]$process.WaitForExit(5000)}
             $owned=@(Get-Process metatester64 -ErrorAction SilentlyContinue|Where-Object Id -notin $before)

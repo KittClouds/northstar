@@ -57,7 +57,12 @@ def one(root: Path, pattern: str) -> Path:
     return paths[0]
 
 
-def load_runs(runs_root: Path, protocol: dict[str, Any], interface) -> list[dict[str, Any]]:
+def load_runs(
+    runs_root: Path,
+    protocol: dict[str, Any],
+    interface,
+    retry: dict[str, Any] | None,
+) -> list[dict[str, Any]]:
     expected = {
         (
             str(row["canonical_instrument"]),
@@ -110,6 +115,15 @@ def load_runs(runs_root: Path, protocol: dict[str, Any], interface) -> list[dict
                 raise RuntimeError(f"terminal receipt mismatch {key}: {directory}")
         if admission.get("contract") != "MST_HOLDOUT_ADMISSION_V1" or admission.get("status") != "SEALED":
             raise RuntimeError(f"holdout admission mismatch: {directory}")
+        admitted_protocol = str(admission.get("protocol_sha256", ""))
+        current_protocol = str(protocol["protocol_sha256"])
+        if admitted_protocol != current_protocol:
+            if retry is None or (
+                retry.get("status") != "AUTHORIZED_RETRY_BEFORE_SCORING"
+                or retry.get("previous_protocol_sha256") != admitted_protocol
+                or retry.get("replacement_protocol_sha256") != current_protocol
+            ):
+                raise RuntimeError(f"run admission protocol mismatch: {directory}")
         rows.append(
             {
                 "directory": directory,
@@ -203,6 +217,7 @@ def main() -> int:
     parser.add_argument("--runs-root", type=Path, required=True)
     parser.add_argument("--protocol", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--retry-amendment", type=Path)
     args = parser.parse_args()
 
     workspace = args.workspace.resolve()
@@ -220,12 +235,17 @@ def main() -> int:
     interface = load_module("phase13_frozen_research_interface", interface_path)
     statistics = load_module("phase13_frozen_statistics", statistics_path)
     protocol = json.loads(protocol_path.read_text(encoding="utf-8"))
+    retry = None
+    if args.retry_amendment is not None:
+        retry = json.loads(args.retry_amendment.read_text(encoding="utf-8"))
+        if retry.get("contract") != "NORTHSTAR_PHASE13_INFRASTRUCTURE_RETRY_V1":
+            raise RuntimeError("invalid infrastructure retry contract")
     if protocol.get("status") != "PREAUTHORIZED_NOT_AUTHORIZED" or protocol.get("holdout_authorized"):
         raise RuntimeError("bundle producer requires the frozen preauthorization document")
     if interface_hash(interface_path.parent) != protocol["identities"]["research_interface_sha256"]:
         raise RuntimeError("frozen research interface hash mismatch")
 
-    rows = load_runs(runs_root, protocol, interface)
+    rows = load_runs(runs_root, protocol, interface, retry)
     corpus = build_corpus(workspace, rows, interface)
     run_to_holdout = {str(row["terminal"]["run_key"]): str(row["admission"]["holdout_id"]) for row in rows}
 
@@ -283,6 +303,7 @@ def main() -> int:
         "sealed_runs": len(rows),
         "target_row_counts": row_counts,
         "market_outcomes_exposed_by_producer": False,
+        "infrastructure_retry_amendment_sha256": sha256(args.retry_amendment) if args.retry_amendment else None,
     }
     (output / "producer_receipt.json").write_text(json.dumps(producer, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"status=PASS\nruns={len(rows)}\nbundle_semantic_sha256={bundle['bundle_semantic_sha256']}")

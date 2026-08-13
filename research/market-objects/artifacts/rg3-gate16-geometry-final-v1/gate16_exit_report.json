@@ -1,0 +1,52 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_REPRESENTATION_DISTANCE_LAB_V1",
+  "status": "PASS",
+  "epistemic_status": "DERIVED_PARTIAL_GEOMETRIES_NOT_TAXONOMY",
+  "source_corpus_sha256": "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+  "source_run_count": 42,
+  "source_object_count": 1091,
+  "completed_objects": 1048,
+  "censored_objects": 43,
+  "representation_count": 8,
+  "distance_contract_count": 9,
+  "comparison_receipt_count": 6546,
+  "partial_distance_vector_count": 1091,
+  "neighborhood_row_count": 64150,
+  "packed_vector_bytes": 1049848,
+  "availability_counts": {
+    "AVAILABLE": 6415,
+    "CENSORED_SUFFIX": 43,
+    "NOT_COMPARABLE": 131,
+    "OBJECT_COMPLETE": 1048
+  },
+  "checks": {
+    "rg3_unchanged": true,
+    "gate15_unchanged": true,
+    "gate15_5_unchanged": true,
+    "confirmation_unopened": true,
+    "authority_census_complete": true,
+    "summary_contracts_frozen": true,
+    "trajectory_contracts_frozen": true,
+    "event_contracts_frozen": true,
+    "graph_contracts_frozen": true,
+    "reflection_involutive": true,
+    "canonicalization_idempotent": true,
+    "censored_suffix_not_fabricated": true,
+    "shared_prefix_proven": true,
+    "null_semantics_preserved": true,
+    "input_order_invariant": true,
+    "parallel_deterministic": true,
+    "scalar_simd_parity": true,
+    "no_universal_winner": true,
+    "no_new_family": true,
+    "no_trading_interpretation": true
+  },
+  "limitations": [
+    "Intrinsic branch/merge and compression-attempt identity are unavailable in RG3; graph V1 is a typed relational representation of emitted event/state authority.",
+    "Auction interval overlaps remain NOT_EVALUABLE because RG2 auction ledgers were not co-collected under RG3 run identities.",
+    "Full-life summary and full-life trajectory comparisons exclude censored objects; causal shared-prefix comparisons retain pair-specific support receipts.",
+    "Gate 15 and Gate 15.5 systems are retrospective diagnostic probes only and never optimization targets.",
+    "No scalar composition of representation-local distances is authorized."
+  ],
+  "final_statement": "Gate 16 establishes deterministic, censor-aware, direction-explicit partial geometries for RG3 market-process objects. It characterizes what each representation preserves, loses, and regards as locally similar; it does not establish a universal geometry, discover market families, or assign economic meaning."
+}

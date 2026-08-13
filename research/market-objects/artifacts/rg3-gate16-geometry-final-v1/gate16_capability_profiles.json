@@ -1,0 +1,62 @@
+[
+  {
+    "representation_id": "SUMMARY_RAW_AND_CANONICAL_V1",
+    "preserves": [
+      "endpoint morphology",
+      "duration and counts"
+    ],
+    "destroys_or_omits": [
+      "within-life ordering",
+      "path recurrence"
+    ],
+    "comparison_domain": "completed objects only",
+    "formal_status": "FIXED_WIDTH_PARTIAL_GEOMETRY",
+    "packed_bytes_per_object": 40.0,
+    "graph_incremental_information_status": null
+  },
+  {
+    "representation_id": "TRAJECTORY_RAW_AND_CANONICAL_U21_V1",
+    "preserves": [
+      "continuous path shape",
+      "as-of state path"
+    ],
+    "destroys_or_omits": [
+      "absolute full-life duration in normalized shape",
+      "events between grid points"
+    ],
+    "comparison_domain": "completed full-life or causal shared prefix",
+    "formal_status": "RESAMPLED_PARTIAL_GEOMETRY",
+    "packed_bytes_per_object": null,
+    "graph_incremental_information_status": null
+  },
+  {
+    "representation_id": "EVENT_SEQUENCE_RAW_AND_CANONICAL_V1",
+    "preserves": [
+      "event order",
+      "multiplicity",
+      "inter-event time"
+    ],
+    "destroys_or_omits": [
+      "continuous path between events"
+    ],
+    "comparison_domain": "observed event prefixes",
+    "formal_status": "TYPED_NON_EUCLIDEAN_DISSIMILARITY",
+    "packed_bytes_per_object": null,
+    "graph_incremental_information_status": null
+  },
+  {
+    "representation_id": "INTRINSIC_TYPED_PROCESS_GRAPH_RAW_AND_CANONICAL_V1",
+    "preserves": [
+      "typed event/state relations",
+      "terminal relation"
+    ],
+    "destroys_or_omits": [
+      "unemitted branch/merge topology",
+      "Master context"
+    ],
+    "comparison_domain": "observed intrinsic graph",
+    "formal_status": "WL_MULTISET_DISSIMILARITY",
+    "packed_bytes_per_object": null,
+    "graph_incremental_information_status": "LOCAL_NEIGHBORHOODS_DIFFER_INCREMENTAL_CAUSE_UNRESOLVED"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "object_kind": "BOTH",
+    "coordinate": "closed_bar_path",
+    "classification": "RAW_AUTHORITY",
+    "source": "compression_samples.tsv / expansion_samples.tsv",
+    "availability": "AVAILABLE",
+    "note": "ordered closed-bar prices and timestamps"
+  },
+  {
+    "object_kind": "BOTH",
+    "coordinate": "typed_event_sequence",
+    "classification": "RAW_AUTHORITY",
+    "source": "compression_events.tsv / expansion_events.tsv",
+    "availability": "AVAILABLE",
+    "note": "multiplicity and sequence preserved"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "coordinate": "seed_and_containment_geometry",
+    "classification": "RAW_AUTHORITY",
+    "source": "compression_objects.tsv and compression_samples.tsv",
+    "availability": "AVAILABLE",
+    "note": "price coordinates remain raw authority"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "coordinate": "attempt_identity",
+    "classification": "UNAVAILABLE",
+    "source": "none",
+    "availability": "NOT_EVALUABLE",
+    "note": "escape_count exists but attempt identities are not emitted"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "coordinate": "reclaim_count",
+    "classification": "EXACT_DERIVATION",
+    "source": "compression_events.event_code 4/5",
+    "availability": "AVAILABLE",
+    "note": "frozen RCM V2 event mapping"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "coordinate": "origin_geometry_and_atr",
+    "classification": "RAW_AUTHORITY",
+    "source": "expansion_objects.tsv",
+    "availability": "AVAILABLE",
+    "note": "frozen at expansion origin"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "coordinate": "raw_velocity_and_acceleration",
+    "classification": "RAW_AUTHORITY",
+    "source": "expansion_samples.tsv",
+    "availability": "AVAILABLE",
+    "note": "Gate 16 also verifies exact close-path derivation"
+  },
+  {
+    "object_kind": "BOTH",
+    "coordinate": "normalized_coordinates",
+    "classification": "EXACT_DERIVATION",
+    "source": "raw price coordinates and frozen ATR/seed geometry",
+    "availability": "AVAILABLE",
+    "note": "never written back into RG3"
+  },
+  {
+    "object_kind": "BOTH",
+    "coordinate": "terminal_full_life_shape_when_censored",
+    "classification": "UNAVAILABLE",
+    "source": "censored suffix is unobserved",
+    "availability": "CENSORED_SUFFIX",
+    "note": "no padding, extrapolation or independent stretching"
+  },
+  {
+    "object_kind": "BOTH",
+    "coordinate": "master_structural_context",
+    "classification": "CONTEXTUAL_AUTHORITY_EXCLUDED",
+    "source": "Gate 15.5 causal bridge",
+    "availability": "NOT_APPLICABLE",
+    "note": "intrinsic Gate 16 representations exclude SPACE"
+  },
+  {
+    "object_kind": "BOTH",
+    "coordinate": "auction_interval_overlap",
+    "classification": "UNAVAILABLE",
+    "source": "RG2 intervals not co-collected under RG3 run identities",
+    "availability": "NOT_EVALUABLE",
+    "note": "known Gate 15.5 limitation remains explicit"
+  },
+  {
+    "object_kind": "BOTH",
+    "coordinate": "branch_or_merge_topology",
+    "classification": "UNAVAILABLE",
+    "source": "no intrinsic branch records",
+    "availability": "NOT_EVALUABLE",
+    "note": "first graph is a typed relational re-encoding and must earn incremental status"
+  }
+]

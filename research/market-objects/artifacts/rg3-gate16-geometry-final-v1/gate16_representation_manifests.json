@@ -1,0 +1,570 @@
+[
+  {
+    "representation_id": "EVENT_SEQUENCE_CANONICAL_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "event_code",
+      "direction",
+      "state_code",
+      "terminal_reason_code",
+      "delta_bars",
+      "delta_seconds"
+    ],
+    "units": [
+      "categorical",
+      "categorical",
+      "categorical",
+      "categorical",
+      "bars",
+      "seconds"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed events only; completed and prefix modes remain explicit",
+    "reflection_policy": "event-pair/state-pair reflection table from frozen grammars",
+    "canonicalization_policy": "conditional grammar reflection",
+    "distance_contracts": [
+      "TYPED_EDIT_DURATION_AWARE_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "2a1fd201865fe40dabe851e923056486ee756a37ebf22411b24b160fe6b65ceb"
+  },
+  {
+    "representation_id": "EVENT_SEQUENCE_RAW_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "event_code",
+      "direction",
+      "state_code",
+      "terminal_reason_code",
+      "delta_bars",
+      "delta_seconds"
+    ],
+    "units": [
+      "categorical",
+      "categorical",
+      "categorical",
+      "categorical",
+      "bars",
+      "seconds"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed events only; completed and prefix modes remain explicit",
+    "reflection_policy": "event-pair/state-pair reflection table from frozen grammars",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "TYPED_EDIT_DURATION_AWARE_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "837f2d5446c48a88523d60c27eb23771fab0d2f4b57bfdb2f0909c4685f28e31"
+  },
+  {
+    "representation_id": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "typed_nodes",
+      "typed_directed_edges",
+      "wl_round_1",
+      "wl_round_2"
+    ],
+    "units": [
+      "multiset",
+      "multiset",
+      "multiset",
+      "multiset"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed intrinsic graph only",
+    "reflection_policy": "typed event/state reflection",
+    "canonicalization_policy": "conditional grammar reflection",
+    "distance_contracts": [
+      "TYPED_MULTISET_JACCARD_V1",
+      "WL2_MULTISET_JACCARD_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "c3eb67023cfb4efd77b0feb7e29f8cef764e541cfca592fecb6221a2e509052e"
+  },
+  {
+    "representation_id": "INTRINSIC_TYPED_PROCESS_GRAPH_RAW_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "typed_nodes",
+      "typed_directed_edges",
+      "wl_round_1",
+      "wl_round_2"
+    ],
+    "units": [
+      "multiset",
+      "multiset",
+      "multiset",
+      "multiset"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed intrinsic graph only",
+    "reflection_policy": "typed event/state reflection",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "TYPED_MULTISET_JACCARD_V1",
+      "WL2_MULTISET_JACCARD_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "1c03a625cd351b2895307b8fcb4ba02df6534fe9b93579d33402343eb352d5c0"
+  },
+  {
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "sample_count",
+      "duration_seconds",
+      "seed_width_atr",
+      "terminal_width_seed",
+      "center_migration_atr",
+      "upper_expansion_atr",
+      "lower_expansion_atr",
+      "containment_asymmetry",
+      "escape_count",
+      "terminal_close_mid_atr",
+      "direction_category",
+      "terminal_mechanism_category"
+    ],
+    "units": [
+      "count",
+      "seconds",
+      "ATR",
+      "ratio",
+      "ATR",
+      "ATR",
+      "ATR",
+      "ratio",
+      "count",
+      "ATR",
+      "categorical",
+      "categorical"
+    ],
+    "normalization": "median/IQR by object kind; continuous values clipped to +/-12 IQR",
+    "resampling": "NONE",
+    "censor_policy": "completed-object terminal summary only",
+    "reflection_policy": "M is available and involutive",
+    "canonicalization_policy": "C reflects negative-direction objects; C(C(x))=C(x)",
+    "distance_contracts": [
+      "ROBUST_L1_V1",
+      "ROBUST_L2_V1",
+      "MIXED_GOWER_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "9f7d85414e3f466603756d71f7d1654071d8602ce361b22e6cd76be55f0b0353"
+  },
+  {
+    "representation_id": "SUMMARY_RAW_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "sample_count",
+      "duration_seconds",
+      "seed_width_atr",
+      "terminal_width_seed",
+      "center_migration_atr",
+      "upper_expansion_atr",
+      "lower_expansion_atr",
+      "containment_asymmetry",
+      "escape_count",
+      "terminal_close_mid_atr",
+      "direction_category",
+      "terminal_mechanism_category"
+    ],
+    "units": [
+      "count",
+      "seconds",
+      "ATR",
+      "ratio",
+      "ATR",
+      "ATR",
+      "ATR",
+      "ratio",
+      "count",
+      "ATR",
+      "categorical",
+      "categorical"
+    ],
+    "normalization": "median/IQR by object kind; continuous values clipped to +/-12 IQR",
+    "resampling": "NONE",
+    "censor_policy": "completed-object terminal summary only",
+    "reflection_policy": "M is available and involutive",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "ROBUST_L1_V1",
+      "ROBUST_L2_V1",
+      "MIXED_GOWER_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "dcabb05bc05b8dd3be594048cda0cca05740c5311912c2afd04c96d16f2780f6"
+  },
+  {
+    "representation_id": "TRAJECTORY_CANONICAL_U21_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "contain_upper_from_seed_mid_atr",
+      "contain_lower_from_seed_mid_atr",
+      "contain_mid_from_seed_mid_atr",
+      "close_from_contain_mid_atr",
+      "contain_width_seed",
+      "state_code_asof"
+    ],
+    "units": [
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless"
+    ],
+    "normalization": "origin ATR / seed-relative coordinates; absolute bars and seconds retained separately",
+    "resampling": "21 common-grid points; continuous linear; state left-continuous as-of",
+    "censor_policy": "complete mode or causal common shared-prefix mode; no suffix fabrication",
+    "reflection_policy": "M is channel-declared and involutive",
+    "canonicalization_policy": "C conditionally reflects negative-direction objects and is idempotent",
+    "distance_contracts": [
+      "POINTWISE_L2_V1",
+      "DERIVATIVE_AWARE_L2_V1",
+      "BOUNDED_DTW_W2_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "76112b6eac922210bc0d68b8c5c49979cb4ae95b4105366a4429852e75c602c2"
+  },
+  {
+    "representation_id": "TRAJECTORY_RAW_U21_V1",
+    "object_kind": "COMPRESSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "contain_upper_from_seed_mid_atr",
+      "contain_lower_from_seed_mid_atr",
+      "contain_mid_from_seed_mid_atr",
+      "close_from_contain_mid_atr",
+      "contain_width_seed",
+      "state_code_asof"
+    ],
+    "units": [
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless"
+    ],
+    "normalization": "origin ATR / seed-relative coordinates; absolute bars and seconds retained separately",
+    "resampling": "21 common-grid points; continuous linear; state left-continuous as-of",
+    "censor_policy": "complete mode or causal common shared-prefix mode; no suffix fabrication",
+    "reflection_policy": "M is channel-declared and involutive",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "POINTWISE_L2_V1",
+      "DERIVATIVE_AWARE_L2_V1",
+      "BOUNDED_DTW_W2_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "308e023ba019c2ccc42eb63daac65751b6ba959e10be79a6a3a1d106d7dea2b4"
+  },
+  {
+    "representation_id": "EVENT_SEQUENCE_CANONICAL_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "event_code",
+      "direction",
+      "state_code",
+      "terminal_reason_code",
+      "delta_bars",
+      "delta_seconds"
+    ],
+    "units": [
+      "categorical",
+      "categorical",
+      "categorical",
+      "categorical",
+      "bars",
+      "seconds"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed events only; completed and prefix modes remain explicit",
+    "reflection_policy": "event-pair/state-pair reflection table from frozen grammars",
+    "canonicalization_policy": "conditional grammar reflection",
+    "distance_contracts": [
+      "TYPED_EDIT_DURATION_AWARE_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "82d8e3b5644bd57b0eddeb71a076c389142df097fd3533bcd283f15f429e513b"
+  },
+  {
+    "representation_id": "EVENT_SEQUENCE_RAW_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "event_code",
+      "direction",
+      "state_code",
+      "terminal_reason_code",
+      "delta_bars",
+      "delta_seconds"
+    ],
+    "units": [
+      "categorical",
+      "categorical",
+      "categorical",
+      "categorical",
+      "bars",
+      "seconds"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed events only; completed and prefix modes remain explicit",
+    "reflection_policy": "event-pair/state-pair reflection table from frozen grammars",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "TYPED_EDIT_DURATION_AWARE_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "4d1b8b4cdc20ee78d59b5a10e6d54299340a20ccfa21917a799629c7ba9ca3ee"
+  },
+  {
+    "representation_id": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "typed_nodes",
+      "typed_directed_edges",
+      "wl_round_1",
+      "wl_round_2"
+    ],
+    "units": [
+      "multiset",
+      "multiset",
+      "multiset",
+      "multiset"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed intrinsic graph only",
+    "reflection_policy": "typed event/state reflection",
+    "canonicalization_policy": "conditional grammar reflection",
+    "distance_contracts": [
+      "TYPED_MULTISET_JACCARD_V1",
+      "WL2_MULTISET_JACCARD_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "730d76b9e53ac6f538ceeb1b3add3271ad3098c8744b58eeed484a4877247e77"
+  },
+  {
+    "representation_id": "INTRINSIC_TYPED_PROCESS_GRAPH_RAW_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "typed_nodes",
+      "typed_directed_edges",
+      "wl_round_1",
+      "wl_round_2"
+    ],
+    "units": [
+      "multiset",
+      "multiset",
+      "multiset",
+      "multiset"
+    ],
+    "normalization": "NONE",
+    "resampling": "NONE",
+    "censor_policy": "observed intrinsic graph only",
+    "reflection_policy": "typed event/state reflection",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "TYPED_MULTISET_JACCARD_V1",
+      "WL2_MULTISET_JACCARD_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "e80c7c4de384b1087e4b95138f78c9de896b8b88fce896f416fe64e66f332ea7"
+  },
+  {
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "sample_count",
+      "duration_seconds",
+      "terminal_signed_displacement_atr",
+      "maximum_directional_displacement_atr",
+      "opposite_displacement_atr",
+      "return_ratio",
+      "close_path_length_atr",
+      "path_efficiency",
+      "maximum_velocity_atr_per_bar",
+      "maximum_acceleration_atr_per_bar2",
+      "direction_category",
+      "terminal_mechanism_category"
+    ],
+    "units": [
+      "count",
+      "seconds",
+      "ATR",
+      "ratio",
+      "ATR",
+      "ATR",
+      "ATR",
+      "ratio",
+      "count",
+      "ATR",
+      "categorical",
+      "categorical"
+    ],
+    "normalization": "median/IQR by object kind; continuous values clipped to +/-12 IQR",
+    "resampling": "NONE",
+    "censor_policy": "completed-object terminal summary only",
+    "reflection_policy": "M is available and involutive",
+    "canonicalization_policy": "C reflects negative-direction objects; C(C(x))=C(x)",
+    "distance_contracts": [
+      "ROBUST_L1_V1",
+      "ROBUST_L2_V1",
+      "MIXED_GOWER_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "473646f62468ec1b53a462719b9a7429478342cf979cc0e796029a49ed082d14"
+  },
+  {
+    "representation_id": "SUMMARY_RAW_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "sample_count",
+      "duration_seconds",
+      "terminal_signed_displacement_atr",
+      "maximum_directional_displacement_atr",
+      "opposite_displacement_atr",
+      "return_ratio",
+      "close_path_length_atr",
+      "path_efficiency",
+      "maximum_velocity_atr_per_bar",
+      "maximum_acceleration_atr_per_bar2",
+      "direction_category",
+      "terminal_mechanism_category"
+    ],
+    "units": [
+      "count",
+      "seconds",
+      "ATR",
+      "ratio",
+      "ATR",
+      "ATR",
+      "ATR",
+      "ratio",
+      "count",
+      "ATR",
+      "categorical",
+      "categorical"
+    ],
+    "normalization": "median/IQR by object kind; continuous values clipped to +/-12 IQR",
+    "resampling": "NONE",
+    "censor_policy": "completed-object terminal summary only",
+    "reflection_policy": "M is available and involutive",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "ROBUST_L1_V1",
+      "ROBUST_L2_V1",
+      "MIXED_GOWER_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "7e3c20257326106044ab77b99520b3251ea633578f12d957b3b9a25438064d6f"
+  },
+  {
+    "representation_id": "TRAJECTORY_CANONICAL_U21_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "signed_displacement_atr",
+      "running_up_excursion_atr",
+      "running_down_excursion_atr",
+      "close_path_length_atr",
+      "signed_velocity_atr_per_bar",
+      "signed_acceleration_atr_per_bar2",
+      "state_code_asof"
+    ],
+    "units": [
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless"
+    ],
+    "normalization": "origin ATR / seed-relative coordinates; absolute bars and seconds retained separately",
+    "resampling": "21 common-grid points; continuous linear; state left-continuous as-of",
+    "censor_policy": "complete mode or causal common shared-prefix mode; no suffix fabrication",
+    "reflection_policy": "M is channel-declared and involutive",
+    "canonicalization_policy": "C conditionally reflects negative-direction objects and is idempotent",
+    "distance_contracts": [
+      "POINTWISE_L2_V1",
+      "DERIVATIVE_AWARE_L2_V1",
+      "BOUNDED_DTW_W2_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "b19e86f07861b562a0c66f94fdfce4c4e0f1f76b3ddf18f6e6e29beea2bd9322"
+  },
+  {
+    "representation_id": "TRAJECTORY_RAW_U21_V1",
+    "object_kind": "EXPANSION",
+    "intrinsic": true,
+    "input_schema_sha256": "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+    "feature_or_channel_order": [
+      "signed_displacement_atr",
+      "running_up_excursion_atr",
+      "running_down_excursion_atr",
+      "close_path_length_atr",
+      "signed_velocity_atr_per_bar",
+      "signed_acceleration_atr_per_bar2",
+      "state_code_asof"
+    ],
+    "units": [
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless",
+      "dimensionless"
+    ],
+    "normalization": "origin ATR / seed-relative coordinates; absolute bars and seconds retained separately",
+    "resampling": "21 common-grid points; continuous linear; state left-continuous as-of",
+    "censor_policy": "complete mode or causal common shared-prefix mode; no suffix fabrication",
+    "reflection_policy": "M is channel-declared and involutive",
+    "canonicalization_policy": "NONE",
+    "distance_contracts": [
+      "POINTWISE_L2_V1",
+      "DERIVATIVE_AWARE_L2_V1",
+      "BOUNDED_DTW_W2_V1"
+    ],
+    "missingness_policy": "typed availability; NOT_COMPARABLE is returned, never numeric zero",
+    "manifest_sha256": "e50af1dd82d7cc11ba9ac31f4f7d56efaf6da592504d7c24a22b49a38cc0a1c7"
+  }
+]

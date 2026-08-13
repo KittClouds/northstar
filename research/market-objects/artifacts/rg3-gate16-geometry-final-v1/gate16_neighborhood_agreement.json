@@ -1,0 +1,272 @@
+[
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.10503395579845531,
+    "mean_shared_rank_correlation": 0.11193249462280168,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.10576295639581097,
+    "mean_shared_rank_correlation": 0.14378214588903931,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.14034426888766507,
+    "mean_shared_rank_correlation": 0.1007958457346554,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.1680108557407781,
+    "mean_shared_rank_correlation": 0.1553192928357416,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.0653398155714384,
+    "mean_shared_rank_correlation": 0.08073315171798208,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.06596062917771177,
+    "mean_shared_rank_correlation": 0.16122199343487284,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.06265625339681317,
+    "mean_shared_rank_correlation": 0.06213603376047246,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.04374870797198252,
+    "mean_shared_rank_correlation": 0.14149640401881397,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.039363456202281384,
+    "mean_shared_rank_correlation": 0.0744863209005229,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.010010319917440658,
+    "mean_shared_rank_correlation": -0.1111111111111111,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.3813799066239014,
+    "mean_shared_rank_correlation": 0.9800410268398156,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.42708661509881646,
+    "mean_shared_rank_correlation": 0.8583346015829771,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.16074735183318783,
+    "mean_shared_rank_correlation": 0.4658205017455678,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.10203800462405495,
+    "mean_shared_rank_correlation": 0.5899007012140582,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.059997308125624316,
+    "mean_shared_rank_correlation": 0.04111462419709623,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.048410569276531874,
+    "mean_shared_rank_correlation": 0.2561527257341171,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.022048433277961223,
+    "mean_shared_rank_correlation": -0.029521275840869637,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.011411265572620512,
+    "mean_shared_rank_correlation": -0.16611660564989858,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.24746836465217814,
+    "mean_shared_rank_correlation": 0.43810038549628905,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.17735268906276042,
+    "mean_shared_rank_correlation": 0.5135845248118062,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.078819876610398,
+    "mean_shared_rank_correlation": -0.016451570060300343,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.050434227036849646,
+    "mean_shared_rank_correlation": -0.003785320362573477,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.024131918468815752,
+    "mean_shared_rank_correlation": -0.10178713602643084,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 510,
+    "mean_top_k_jaccard": 0.012223368879715613,
+    "mean_shared_rank_correlation": -0.07692307692307693,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 552,
+    "mean_top_k_jaccard": 0.07480658167157049,
+    "mean_shared_rank_correlation": 0.12882573089447077,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "right_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "comparable_objects": 537,
+    "mean_top_k_jaccard": 0.016383109158590387,
+    "mean_shared_rank_correlation": 0.2619521959278364,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 552,
+    "mean_top_k_jaccard": 0.013235792664383302,
+    "mean_shared_rank_correlation": -0.12950314851579234,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 537,
+    "mean_top_k_jaccard": 0.0072418787502586445,
+    "mean_shared_rank_correlation": 0.5,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "left_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 553,
+    "mean_top_k_jaccard": 0.1854177730036405,
+    "mean_shared_rank_correlation": 0.20405657645846387,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "left_representation": "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+    "right_representation": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED",
+    "comparable_objects": 538,
+    "mean_top_k_jaccard": 0.06378399530424586,
+    "mean_shared_rank_correlation": 0.5675675675675675,
+    "interpretation": "LOCAL_GEOMETRY_CORRESPONDENCE_ONLY_NOT_TAXONOMY"
+  }
+]

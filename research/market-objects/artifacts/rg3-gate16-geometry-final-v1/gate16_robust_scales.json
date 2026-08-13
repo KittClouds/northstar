@@ -1,0 +1,122 @@
+[
+  {
+    "object_kind": "COMPRESSION",
+    "representation_id": "SUMMARY_RAW_V1",
+    "medians": [
+      22.0,
+      12900.0,
+      2.0,
+      1.9287772,
+      0.2874334,
+      0.901103,
+      0.8652101,
+      0.3830541,
+      2.0,
+      0.63067985
+    ],
+    "iqrs": [
+      23.0,
+      7500.0,
+      0.000001,
+      0.8733511,
+      1.5017805,
+      1.744345,
+      1.8170234,
+      2.0,
+      2.0,
+      2.6119995
+    ],
+    "fitted_population": 538,
+    "fit_rule": "completed exploratory RG3 objects only; deterministic median and IQR"
+  },
+  {
+    "object_kind": "COMPRESSION",
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "medians": [
+      22.0,
+      12900.0,
+      2.0,
+      1.9287772,
+      0.7398,
+      1.711546,
+      0.0,
+      1.0,
+      2.0,
+      1.305491
+    ],
+    "iqrs": [
+      23.0,
+      7500.0,
+      0.000001,
+      0.8733511,
+      0.6230004,
+      1.4357173,
+      0.32119405,
+      0.25447804,
+      2.0,
+      0.8818575
+    ],
+    "fitted_population": 538,
+    "fit_rule": "completed exploratory RG3 objects only; deterministic median and IQR"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "representation_id": "SUMMARY_RAW_V1",
+    "medians": [
+      44.0,
+      13800.0,
+      0.13429159,
+      1.7077258,
+      1.6950356,
+      0.5885542,
+      16.451603,
+      0.10835303,
+      1.470101,
+      1.9781042
+    ],
+    "iqrs": [
+      71.0,
+      22500.0,
+      3.6986494,
+      3.6873472,
+      3.9225812,
+      1.5178924,
+      45.125244,
+      0.15268254,
+      1.9774163,
+      2.7053187
+    ],
+    "fitted_population": 510,
+    "fit_rule": "completed exploratory RG3 objects only; deterministic median and IQR"
+  },
+  {
+    "object_kind": "EXPANSION",
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "medians": [
+      44.0,
+      13800.0,
+      0.18628272,
+      1.7077258,
+      1.6950356,
+      0.5885542,
+      16.451603,
+      0.10835303,
+      1.470101,
+      1.9781042
+    ],
+    "iqrs": [
+      71.0,
+      22500.0,
+      3.7889557,
+      3.6873472,
+      3.9225812,
+      1.5178924,
+      45.125244,
+      0.15268254,
+      1.9774163,
+      2.7053187
+    ],
+    "fitted_population": 510,
+    "fit_rule": "completed exploratory RG3 objects only; deterministic median and IQR"
+  }
+]

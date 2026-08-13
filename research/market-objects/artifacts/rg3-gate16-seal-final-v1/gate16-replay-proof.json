@@ -1,0 +1,14 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_REPLAY_PROOF_V1",
+  "status": "PASS",
+  "canonical_lab_sha256": "49937da6b2f3abac1f6426a15b40525ec614b74052446437bbb484c93aefe833",
+  "canonical_receipt_sha256": "2fd0011c6523f5c98e0efc862c9fc25cedcf6bde4dc603d4eba2b87255318c70",
+  "one_thread_output": "research/market-objects/artifacts/rg3-gate16-geometry-final-v1",
+  "four_thread_proof_output": "D:/northstar-gate16-proof-absolute-final-t4-20260813",
+  "files_compared": 18,
+  "mismatches": 0,
+  "input_order_rule": "raw directories and objects sorted by canonical identity before derived construction",
+  "parallel_determinism": true,
+  "confirmation_windows_opened": false,
+  "gate15_and_gate15_5_unchanged": true
+}

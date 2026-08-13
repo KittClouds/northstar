@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Do Gate 15 exploratory labels align with Gate 16 nearest neighborhoods?",
+    "population": 3144,
+    "result": "nearest-neighbor same-local-family rate=0.904580;instrument_support=6;observed_object_seconds=26873700",
+    "interpretation": "DIAGNOSTIC_PROBE_ONLY_PARAMETERS_WERE_FROZEN_FIRST",
+    "optimization_target": false
+  },
+  {
+    "question": "Does Master point-state SPACE organize canonical trajectory neighborhoods?",
+    "population": 1048,
+    "result": "same_stratum_median=Some(0.3371167911668911);different_stratum_median=Some(0.3721592142336868)",
+    "interpretation": "POINT_STATE_CONDITIONED_ONLY_AUCTION_INTERVALS_NOT_EVALUABLE",
+    "optimization_target": false
+  },
+  {
+    "question": "Do summary NULL assignments remain explicit?",
+    "population": 1091,
+    "result": "null_reference_count=12",
+    "interpretation": "NULL_IS_NOT_A_FAMILY",
+    "optimization_target": false
+  },
+  {
+    "question": "Can censored objects enter complete-life geometry?",
+    "population": 43,
+    "result": "zero admitted by construction",
+    "interpretation": "CENSORED_SUFFIX_REMAINS_TYPED_NONCOMPARABILITY",
+    "optimization_target": false
+  }
+]

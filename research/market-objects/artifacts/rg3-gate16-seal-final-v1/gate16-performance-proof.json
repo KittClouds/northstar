@@ -1,0 +1,21 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_PERFORMANCE_FIXTURE_V1",
+  "status": "PASS",
+  "scientific_evidence": false,
+  "computational_evidence": true,
+  "fixture_objects": 100000,
+  "dimensions": 10,
+  "packed_bytes": 4000000,
+  "construction_microseconds": 959,
+  "scalar_scan_microseconds": 574,
+  "parallel_scan_microseconds": 493,
+  "top10_selection_microseconds": 83,
+  "mmap_traversal_microseconds": 15210,
+  "scalar_simd_max_error": 0.000029496848583221436,
+  "scalar_distance_sha256": "d078db2cca2fca1ead345b14c9c8ff69a5c038fbf454f78767082b138824ed16",
+  "parallel_distance_sha256": "d078db2cca2fca1ead345b14c9c8ff69a5c038fbf454f78767082b138824ed16",
+  "mmap_value_sha256": "cb9a44cbb380e53ba7d402b60ddf75603d09b9511168ace6cd19d3ee543309e0",
+  "thread_count": 4,
+  "claimed_workload": "representation construction; one-query to 100k scan; deterministic top-10 selection; mmap traversal; scalar/SIMD and parallel parity",
+  "excluded_claim": "100k by 100k all-pairs matrix construction was not run or claimed"
+}

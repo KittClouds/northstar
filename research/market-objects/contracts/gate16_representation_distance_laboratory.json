@@ -1,0 +1,114 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_REPRESENTATION_DISTANCE_LAB_V1",
+  "status": "FROZEN",
+  "purpose": "establish deterministic partial geometries for intrinsic market-process objects without selecting one universal representation",
+  "authority": {
+    "observational": "sealed RG3 closed-bar corpus",
+    "derived_only": true,
+    "gate15_use": "retrospective diagnostic reference only after representation and distance parameters are frozen",
+    "gate15_5_use": "retrospective structural diagnostic only; Master state is excluded from intrinsic representations",
+    "confirmation_windows": "frozen and unopened"
+  },
+  "public_comparison": {
+    "result": "FINITE_DISTANCE_WITH_RECEIPT_OR_NOT_COMPARABLE_WITH_REASON",
+    "distance_domain": "explicit subset of represented object pairs",
+    "null_is_not_zero": true,
+    "nan_is_not_missingness": true,
+    "tie_break": "distance then canonical object key"
+  },
+  "availability_codes": [
+    "AVAILABLE",
+    "CENSORED_SUFFIX",
+    "NOT_APPLICABLE",
+    "NOT_EVALUABLE",
+    "DATA_GAP",
+    "NOT_COMPARABLE"
+  ],
+  "direction_maps": {
+    "raw": "preserve prices and event directions as observed",
+    "reflection": "explicit directional reflection M with M(M(x))=x",
+    "canonicalization": "conditional origin-direction map C with C(C(x))=C(x)",
+    "law": "reflection and canonicalization are distinct operations"
+  },
+  "representations": {
+    "summary": {
+      "versions": ["SUMMARY_RAW_V1", "SUMMARY_CANONICAL_V1"],
+      "distances": ["ROBUST_L1_V1", "ROBUST_L2_V1", "MIXED_GOWER_V1"],
+      "scaling": "exploratory-corpus median and IQR fitted separately by object kind",
+      "terminal_policy": "completed objects only"
+    },
+    "trajectory": {
+      "versions": ["TRAJECTORY_RAW_U21_V1", "TRAJECTORY_CANONICAL_U21_V1"],
+      "grid": "21 points over the common admitted interval",
+      "continuous_sampling": "deterministic linear interpolation",
+      "state_sampling": "deterministic left-continuous as-of",
+      "distances": ["POINTWISE_L2_V1", "DERIVATIVE_AWARE_L2_V1", "BOUNDED_DTW_W2_V1"],
+      "complete_mode": "full observed life only for completed objects",
+      "shared_prefix_mode": "compare both objects on [0,min(observed_age_left,observed_age_right)] before common rescaling",
+      "forbidden": ["independent censored-prefix stretching", "zero padding", "terminal padding", "suffix extrapolation"]
+    },
+    "event_sequence": {
+      "versions": ["EVENT_SEQUENCE_RAW_V1", "EVENT_SEQUENCE_CANONICAL_V1"],
+      "distance": "TYPED_EDIT_DURATION_AWARE_V1",
+      "multiplicity": "preserved",
+      "ordering": "preserved",
+      "timing": "bars and seconds since prior event",
+      "terminal_policy": "completed mode and observed-prefix mode remain distinct"
+    },
+    "graph": {
+      "versions": ["INTRINSIC_TYPED_PROCESS_GRAPH_RAW_V1", "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1"],
+      "distances": ["TYPED_MULTISET_JACCARD_V1", "WL2_MULTISET_JACCARD_V1"],
+      "wl_rounds": 2,
+      "context_edges": false,
+      "admission_law": "graph must report whether it adds local geometry beyond its event-sequence source"
+    }
+  },
+  "primary_neighborhoods": {
+    "k": 10,
+    "contracts": [
+      "SUMMARY_CANONICAL_V1::ROBUST_L2_V1::COMPLETE",
+      "TRAJECTORY_RAW_U21_V1::POINTWISE_L2_V1::COMPLETE",
+      "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::COMPLETE",
+      "TRAJECTORY_CANONICAL_U21_V1::POINTWISE_L2_V1::SHARED_PREFIX",
+      "EVENT_SEQUENCE_CANONICAL_V1::TYPED_EDIT_DURATION_AWARE_V1::OBSERVED",
+      "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1::WL2_MULTISET_JACCARD_V1::OBSERVED"
+    ]
+  },
+  "collision_epsilon": {
+    "standardized_numeric": 0.000001,
+    "edit_and_graph": 0.0,
+    "basis": "f32 derived-artifact precision; not a market-probability threshold"
+  },
+  "support_floors": {
+    "minimum_trajectory_points": 4,
+    "minimum_shared_prefix_bars": 3,
+    "minimum_neighborhood_population": 11
+  },
+  "performance_fixture": {
+    "objects": 100000,
+    "scientific_evidence": false,
+    "computational_evidence": true,
+    "measure": [
+      "packed representation construction",
+      "one query against 100000 objects",
+      "top-10 selection",
+      "memory footprint",
+      "mmap traversal",
+      "scalar SIMD parity",
+      "one-thread four-thread artifact parity"
+    ],
+    "not_claimed": "100000 by 100000 all-pairs matrix"
+  },
+  "invariants": [
+    "RG3 authority is never mutated",
+    "Gate 15 and Gate 15.5 artifacts remain byte-identical",
+    "representation parameters freeze before retrospective family diagnostics",
+    "reflection is involutive",
+    "canonicalization is idempotent",
+    "censored suffix is never fabricated",
+    "missingness remains typed",
+    "nearest-neighbor ties are canonical",
+    "distance vector coordinates remain independent",
+    "no universal winner, clustering, new family, prediction, strategy, or economic interpretation"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE16_FINDINGS_V1",
+  "status": "PASS_WITH_EXPLICIT_LIMITS",
+  "object_population": 1091,
+  "completed_objects": 1048,
+  "censored_objects": 43,
+  "instruments": 6,
+  "findings": [
+    {
+      "finding": "raw_and_canonical_trajectory_geometry_related_not_identical",
+      "compression_top10_jaccard": 0.3813799066239014,
+      "compression_shared_rank_correlation": 0.9800410268398156,
+      "expansion_top10_jaccard": 0.42708661509881646,
+      "expansion_shared_rank_correlation": 0.8583346015829771
+    },
+    {
+      "finding": "event_and_graph_neighborhoods_differ",
+      "compression_top10_jaccard": 0.1854177730036405,
+      "expansion_top10_jaccard": 0.06378399530424586,
+      "claim_limit": "incremental graph information unresolved because RG3 lacks intrinsic branch and merge authority"
+    },
+    {
+      "finding": "representation_loss_visible_in_zero_distance_top10_edges",
+      "event_sequence_material_collisions": 2970,
+      "graph_material_collisions": 9520,
+      "scope": "exact within emitted top-10 neighbor edges, not all pairs"
+    },
+    {
+      "finding": "matching_gate15_family_local_geometry_alignment",
+      "nearest_neighbor_same_family_rate": 0.904580,
+      "population": 3144,
+      "claim_limit": "retrospective diagnostic only"
+    },
+    {
+      "finding": "master_point_state_descriptively_organizes_canonical_trajectory_distance",
+      "same_stratum_median": 0.3371167911668911,
+      "different_stratum_median": 0.3721592142336868,
+      "population": 1048,
+      "claim_limit": "no blocked uncertainty and no auction interval conditioning"
+    }
+  ],
+  "forbidden_conclusions": [
+    "universal best representation",
+    "new family or taxonomy",
+    "prediction or economic meaning",
+    "confirmation-run transportability",
+    "auction episode overlap organization"
+  ]
+}

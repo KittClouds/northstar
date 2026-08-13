@@ -1,0 +1,80 @@
+[
+  {
+    "representation_id": "SUMMARY_CANONICAL_V1",
+    "distance_contract": "ROBUST_L2_V1",
+    "comparison_mode": "COMPLETE",
+    "identity": "PASS",
+    "nonnegative": "PASS",
+    "symmetric": "PASS",
+    "triangle_inequality": "NO_VIOLATION_IN_DETERMINISTIC_SAMPLE",
+    "tested_pairs": 256,
+    "tested_triplets": 714,
+    "maximum_symmetry_error": 0.0,
+    "maximum_triangle_violation": 0.0
+  },
+  {
+    "representation_id": "TRAJECTORY_RAW_U21_V1",
+    "distance_contract": "POINTWISE_L2_V1",
+    "comparison_mode": "COMPLETE",
+    "identity": "PASS",
+    "nonnegative": "PASS",
+    "symmetric": "PASS",
+    "triangle_inequality": "NO_VIOLATION_IN_DETERMINISTIC_SAMPLE",
+    "tested_pairs": 256,
+    "tested_triplets": 714,
+    "maximum_symmetry_error": 0.0,
+    "maximum_triangle_violation": 0.0
+  },
+  {
+    "representation_id": "TRAJECTORY_CANONICAL_U21_V1",
+    "distance_contract": "POINTWISE_L2_V1",
+    "comparison_mode": "COMPLETE",
+    "identity": "PASS",
+    "nonnegative": "PASS",
+    "symmetric": "PASS",
+    "triangle_inequality": "NO_VIOLATION_IN_DETERMINISTIC_SAMPLE",
+    "tested_pairs": 256,
+    "tested_triplets": 714,
+    "maximum_symmetry_error": 0.0,
+    "maximum_triangle_violation": 0.0
+  },
+  {
+    "representation_id": "TRAJECTORY_CANONICAL_U21_V1",
+    "distance_contract": "POINTWISE_L2_V1",
+    "comparison_mode": "SHARED_PREFIX",
+    "identity": "PASS",
+    "nonnegative": "PASS",
+    "symmetric": "PASS",
+    "triangle_inequality": "NOT_CLAIMED_PAIR_DEPENDENT_SUPPORT",
+    "tested_pairs": 256,
+    "tested_triplets": 672,
+    "maximum_symmetry_error": 0.0,
+    "maximum_triangle_violation": 8.360759077408073
+  },
+  {
+    "representation_id": "EVENT_SEQUENCE_CANONICAL_V1",
+    "distance_contract": "TYPED_EDIT_DURATION_AWARE_V1",
+    "comparison_mode": "OBSERVED",
+    "identity": "PASS",
+    "nonnegative": "PASS",
+    "symmetric": "PASS",
+    "triangle_inequality": "NO_VIOLATION_IN_DETERMINISTIC_SAMPLE",
+    "tested_pairs": 256,
+    "tested_triplets": 672,
+    "maximum_symmetry_error": 0.0,
+    "maximum_triangle_violation": 3.469446951953614e-18
+  },
+  {
+    "representation_id": "INTRINSIC_TYPED_PROCESS_GRAPH_CANONICAL_V1",
+    "distance_contract": "WL2_MULTISET_JACCARD_V1",
+    "comparison_mode": "OBSERVED",
+    "identity": "PASS",
+    "nonnegative": "PASS",
+    "symmetric": "PASS",
+    "triangle_inequality": "NO_VIOLATION_IN_DETERMINISTIC_SAMPLE",
+    "tested_pairs": 256,
+    "tested_triplets": 672,
+    "maximum_symmetry_error": 0.0,
+    "maximum_triangle_violation": 0.0
+  }
+]

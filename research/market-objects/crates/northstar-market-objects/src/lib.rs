@@ -9,6 +9,17 @@ mod gate155_analysis;
 mod gate155_graph;
 mod gate155_info;
 mod gate155_types;
+mod gate16;
+mod gate16_collect;
+mod gate16_compare;
+mod gate16_diagnostics;
+mod gate16_distance;
+mod gate16_graph;
+mod gate16_perf;
+mod gate16_repr;
+#[cfg(test)]
+mod gate16_tests;
+mod gate16_types;
 mod pack;
 mod raw;
 mod view;
@@ -17,6 +28,9 @@ pub use gate15::{
     CandidateAssignment, FittedFamilySystem, Gate15Report, discover_trajectory_families,
     fit_trajectory_family_systems,
 };
+pub use gate16::{Gate16Inputs, Gate16Reference, build_gate16_laboratory};
+pub use gate16_perf::{Gate16PerformanceReport, run_gate16_performance_fixture};
+pub use gate16_types::{Gate16Package, Gate16Report};
 pub use gate155::{
     AtlasEdge, AtlasNode, AuctionIntervalIntersection, ConditionedSupportAudit, Gate155Package,
     Gate155Report, LineageCoordinate, NullAuditRow, ObjectCoordinate, PhenotypeCensusRow,

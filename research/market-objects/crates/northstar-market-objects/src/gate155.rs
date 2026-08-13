@@ -691,7 +691,7 @@ pub fn build_gate155_atlas(
             == objects
                 .iter()
                 .map(|object| if object.kind == "COMPRESSION" { 3 } else { 2 })
-                .sum(),
+                .sum::<usize>(),
         bridge_monotonicity,
         six_family_systems_unchanged: fitted.len() == 6,
         null_is_not_family_node: nodes.iter().all(|node| node.local_label != "NULL_FAMILY"),

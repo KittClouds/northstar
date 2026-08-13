@@ -1,0 +1,32 @@
+{
+    "contract":  "NORTHSTAR_RG3_GATE16_SEAL_RECEIPT_V1",
+    "status":  "PASS",
+    "canonical_lab_sha256":  "49937da6b2f3abac1f6426a15b40525ec614b74052446437bbb484c93aefe833",
+    "sealed_artifact_sha256":  "f59a9b0e9e71440cbbfb1abcc9470d88b35e5548a1ff6cf2c1b622cfdb5a3403",
+    "files":  {
+                  "geometry/gate16_authority_census.json":  "bf9fe32582e8ec441029f15eedf840bba9d5bda39e07e02d617cde6257675104",
+                  "geometry/gate16_capability_profiles.json":  "1fc923a47d19a5a5e1861f7f8e35dfa429c4ea76707a7517029e70616c23c80e",
+                  "geometry/gate16_collision_audit.json":  "d232fc16feb1d73337c73da72b47d373d36b47a2231ce5c07857b541ae75b3bf",
+                  "geometry/gate16_comparison_receipts.tsv":  "8d1edf22fecea15d21a3fab51cc278d4b9a718da5c69fdc458d0d95f376453ca",
+                  "geometry/gate16_distance_probes.json":  "939a51a3b0bfec6a8987a5a9ddd882a0f01b986804e7cdb26e9c254bb2ebd0f5",
+                  "geometry/gate16_exit_report.json":  "43ee90090959fda01ba66c7c752d2bbe61a596ff24839621fe620f4178caee64",
+                  "geometry/gate16_local_geometry.json":  "76eab4317d8df8b4d4cf6347a37beb6636e4db2dd7e15c414d985187731e7153",
+                  "geometry/gate16_metric_diagnostics.json":  "e11177168e03b2db3cc88142ab33aa88d3c38172b7dfcce150757e2b8a1eb5da",
+                  "geometry/gate16_neighborhood_agreement.json":  "574bcdb5b19e109827924a7fb64f39f826036e5fd3f99b613760edd47f66ec07",
+                  "geometry/gate16_neighborhoods.tsv":  "546e70d696268738e0391379ad35469068e366d973c83a6dc2d86da457dd2d9c",
+                  "geometry/gate16_packed_vector_index.tsv":  "3d7b1cb61e845af5d9becfb4238390eebbd3f4b2ff1f3324b1390a38e14f95ec",
+                  "geometry/gate16_packed_vectors.f32le":  "48b342f81621b0f9566cba8ed19edcfc37145ae3987780c27b6acde6fd067891",
+                  "geometry/gate16_partial_distance_vectors.json":  "a59165f0c19b5f0c2ff57adddbad55b4f919193d245b0bd829d097839d47ce65",
+                  "geometry/gate16_receipt.json":  "2fd0011c6523f5c98e0efc862c9fc25cedcf6bde4dc603d4eba2b87255318c70",
+                  "geometry/gate16_representation_manifests.json":  "2731c829db0764146c406e581db7652ae23370e3ad76e46703e08cf384afb076",
+                  "geometry/gate16_retrospective_diagnostics.json":  "bc2c5c66dd533e682dd45835e77f184eb08d20c5bd1338ae7473c251cc273b43",
+                  "geometry/gate16_robust_scales.json":  "e013569f826274fd610c8e9bdc5bf8482cdb0a96018ad42f7e69b732c6366242",
+                  "geometry/source-raw-directories.txt":  "deae61a263557ca85238e727ab86f076f5dc2ff67b4d688232ac237a5367b710",
+                  "seal/gate16-findings.json":  "8d054e33892ed66aedecf37151391aa090b0845635a522ebf26a643979a64443",
+                  "seal/gate16-performance-proof.json":  "1294769a90ba91b1eb34695e1a418d13a24767c76ee6dd83cca776e61a8a2786",
+                  "seal/gate16-replay-proof.json":  "f5ce6ee2e217659db64c0d480dc0bf428014ba248b162bab05f397e43966df2a"
+              },
+    "confirmation_windows_opened":  false,
+    "scientific_performance_fixture":  false,
+    "distance_vector_composed":  false
+}

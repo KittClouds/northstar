@@ -1,0 +1,41 @@
+{
+  "contract": "NORTHSTAR_PHASE13_EXECUTION_MANIFEST_V1",
+  "status": "FROZEN_BEFORE_AUTHORIZATION",
+  "protocol_sha256": "869402c193435f149120f1130ddefd817f87a39240c51bc5536292fd2b285d2d",
+  "holdout_authorized": false,
+  "reserved_windows_touched": 0,
+  "collector": {
+    "path": "tools/Invoke-Phase13HoldoutCollection.ps1",
+    "sha256": "f49f96ccba26d0c919cb338c6262e6a63493c7046181073ca296cf776f6ce868"
+  },
+  "run_sealer": {
+    "path": "tools/Seal-Phase13HoldoutRun.ps1",
+    "sha256": "7c365efc5eef841da62ed2306d0d9686a06d2357d882b7d4bce08a383096090c"
+  },
+  "bundle_producer": {
+    "path": "tools/build_phase13_bundle.py",
+    "sha256": "ef2b6bacce50106bba87a91656c3bd68be74ef7984c5df744543ddf7f04bf263"
+  },
+  "evaluator": {
+    "binary": "northstar-holdout.exe",
+    "release_sha256": "ac550c720480431b05a501d160f92e28a3816fbf5f5ed3bf9066c2f87c6c9ac7",
+    "source_sha256": "3482303a643947da7ec1e2ec4a4bd1fb9738897c31c63c07f4dfeac43f119d29"
+  },
+  "mt5": {
+    "terminal": "C:/Program Files/MetaTrader 5/terminal64.exe",
+    "indicator": "BuiltMasterStructure/MasterStructureController.ex5",
+    "preset_id": "RG2_M5_SIX_INDEX_V1",
+    "configuration_hash": "4284550518493202411",
+    "visual": false,
+    "single_writer": true
+  },
+  "rehearsal": {
+    "configuration_generation": "PASS_12_OF_12",
+    "python_interface_tests": "PASS_9_OF_9",
+    "rust_evaluator_tests": "PASS_6_OF_6",
+    "rust_clippy": "PASS",
+    "release_build": "PASS",
+    "synthetic_one_shot": "PASS"
+  },
+  "mutation_rule": "any identity change before authorization requires a new execution manifest; after authorization no changes are permitted"
+}

@@ -1,0 +1,28 @@
+{
+  "contract": "NORTHSTAR_PHASE13_EXECUTION_MANIFEST_V4",
+  "status": "FROZEN_BEFORE_REAUTHORIZATION",
+  "protocol_sha256": "869402c193435f149120f1130ddefd817f87a39240c51bc5536292fd2b285d2d",
+  "predecessor": {
+    "manifest": "execution_manifest_v3.json",
+    "status": "ABORTED_UNCONSUMED_INFRASTRUCTURE_ONLY",
+    "sealed_holdout_runs": 12,
+    "evaluator_invocations": 0,
+    "candidate_scores_exposed": 0
+  },
+  "semantic_freeze": {
+    "candidate_hashes_unchanged": true,
+    "feature_schema_unchanged": true,
+    "metrics_unchanged": true,
+    "decision_rules_unchanged": true,
+    "reserved_windows_unchanged": true,
+    "sealed_run_bytes_unchanged": true
+  },
+  "bundle_producer": {
+    "path": "tools/build_phase13_bundle.py",
+    "sha256": "22d41d35725d20347707655b9472b39d27ecc8b8f7ec9adb833e68553ce0f4e3",
+    "compatibility_mapping": "admission holdout_id aliases Phase 10.5 window_id in memory"
+  },
+  "interface_tests": "PASS_9_OF_9",
+  "evaluator_release_sha256": "ac550c720480431b05a501d160f92e28a3816fbf5f5ed3bf9066c2f87c6c9ac7",
+  "mutation_rule": "no further changes after reauthorization; bundle verification or evaluation failure is final fail-closed"
+}

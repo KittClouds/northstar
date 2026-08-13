@@ -77,6 +77,11 @@ def load_runs(runs_root: Path, protocol: dict[str, Any], interface) -> list[dict
         admission_path = directory / "receipts" / "admission_receipt.json"
         terminal = json.loads(receipt_path.read_text(encoding="utf-8-sig"))
         admission = json.loads(admission_path.read_text(encoding="utf-8-sig"))
+        # Phase 10.5 names a reserved evaluation slice `window_id`; Phase 13's
+        # admission contract calls the same stable key `holdout_id`. Present a
+        # compatibility view to the sealed interface without changing either
+        # on-disk contract.
+        admission["window_id"] = admission["holdout_id"]
         identity = (
             str(terminal["canonical_instrument"]),
             str(terminal["symbol"]),

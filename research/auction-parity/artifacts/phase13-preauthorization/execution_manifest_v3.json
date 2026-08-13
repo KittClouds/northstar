@@ -1,0 +1,29 @@
+{
+  "contract": "NORTHSTAR_PHASE13_EXECUTION_MANIFEST_V3",
+  "status": "FROZEN_BEFORE_REAUTHORIZATION",
+  "protocol_sha256": "869402c193435f149120f1130ddefd817f87a39240c51bc5536292fd2b285d2d",
+  "predecessor": {
+    "manifest": "execution_manifest_v2.json",
+    "status": "ABORTED_UNCONSUMED_INFRASTRUCTURE_ONLY",
+    "sealed_holdout_runs": 0,
+    "evaluator_invocations": 0,
+    "candidate_scores_exposed": 0
+  },
+  "semantic_freeze": {
+    "candidate_hashes_unchanged": true,
+    "feature_schema_unchanged": true,
+    "metrics_unchanged": true,
+    "decision_rules_unchanged": true,
+    "reserved_windows_unchanged": true,
+    "collector_indicator_unchanged": true
+  },
+  "collector": {
+    "path": "tools/Invoke-Phase13HoldoutCollection.ps1",
+    "sha256": "83071f6fa3a2c6a99faea9baf2395b05fb658d963ad21e6e4ed31f2274f1e064",
+    "tester_envelope": "reserved exclusive boundary plus three calendar days",
+    "semantic_cutoff": "frozen reservation window_end_exclusive"
+  },
+  "mt5_indicator_sha256": "45d90c1cebf21a1eac1a33aca50a14f35856fb47c0aa14ce98c0f23d536c6856",
+  "evaluator_release_sha256": "ac550c720480431b05a501d160f92e28a3816fbf5f5ed3bf9066c2f87c6c9ac7",
+  "mutation_rule": "no further changes after reauthorization; any failure is fail-closed"
+}

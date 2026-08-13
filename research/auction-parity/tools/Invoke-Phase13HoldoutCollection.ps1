@@ -29,7 +29,7 @@ Symbol=$($row.broker_symbol)
 Period=M5
 Model=0
 FromDate=$([DateTimeOffset]::FromUnixTimeSeconds([long]$row.window_start).UtcDateTime.ToString('yyyy.MM.dd'))
-ToDate=$([DateTimeOffset]::FromUnixTimeSeconds([long]$row.window_end_exclusive).UtcDateTime.AddDays(2).ToString('yyyy.MM.dd'))
+ToDate=$([DateTimeOffset]::FromUnixTimeSeconds([long]$row.window_end_exclusive).UtcDateTime.AddDays(3).ToString('yyyy.MM.dd'))
 Visual=0
 ShutdownTerminal=1
 [TesterInputs]

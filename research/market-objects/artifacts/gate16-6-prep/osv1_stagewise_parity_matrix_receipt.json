@@ -1,0 +1,12 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_STAGEWISE_PARITY_MATRIX_RECEIPT_V1",
+    "status":  "PASS",
+    "logical_matrix_sha256":  "82e44071b792f206da9b1c3fdb0c60a9c7b454ca87a3f4a0da5f10af6c656eae",
+    "json_sha256":  "e0bc6e4d1f9e17ebd7053f16a62e89a840803e9acbdf99b17093ec247a97d321",
+    "tsv_sha256":  "895e603e84ccf012b12926ed5f66b59d0be4070ea4d369cbe05d14da09d008db",
+    "stage_count":  13,
+    "evidence_count":  11,
+    "c1_open":  true,
+    "c2_d_pass":  true,
+    "confirmation_windows_opened":  false
+}

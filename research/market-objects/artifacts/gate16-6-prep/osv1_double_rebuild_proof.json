@@ -1,0 +1,104 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_DOUBLE_REBUILD_PROOF_V1",
+    "status":  "PASS",
+    "execution_count":  2,
+    "compared_artifact_count":  17,
+    "byte_mismatch_count":  0,
+    "canonical_match":  true,
+    "closure_artifacts":  [
+                              {
+                                  "name":  "osv1_source_dependency_closure.json",
+                                  "sha256":  "2e3cf229e7ce33c12629b41978176eb2700a41916ac8b3adb913b6c8e765ea69",
+                                  "bytes":  166985
+                              },
+                              {
+                                  "name":  "osv1_stagewise_parity_matrix.json",
+                                  "sha256":  "e0bc6e4d1f9e17ebd7053f16a62e89a840803e9acbdf99b17093ec247a97d321",
+                                  "bytes":  20054
+                              },
+                              {
+                                  "name":  "osv1_stagewise_parity_matrix.tsv",
+                                  "sha256":  "895e603e84ccf012b12926ed5f66b59d0be4070ea4d369cbe05d14da09d008db",
+                                  "bytes":  4801
+                              },
+                              {
+                                  "name":  "osv1_stagewise_parity_matrix_receipt.json",
+                                  "sha256":  "c891e4693a284888bb8cfde3cb4a8e62793c807cda61d5c87daeb7a20efe8ff3",
+                                  "bytes":  529
+                              },
+                              {
+                                  "name":  "osv1_theta0_fields.json",
+                                  "sha256":  "35cf5d08284363244492af3c7a729c3fb22e4448f705521282a36f2070d176ae",
+                                  "bytes":  363959
+                              },
+                              {
+                                  "name":  "osv1_theta0_fields.tsv",
+                                  "sha256":  "6b42d8b13ffc99779c31e3ac2e3c49597e855149d6a598cbc7401df2678d783e",
+                                  "bytes":  98926
+                              },
+                              {
+                                  "name":  "osv1_theta0_runs.tsv",
+                                  "sha256":  "a1d9ea90211b004d02e1bca1efddd48272366cc5351c014234e1d985f33e4a50",
+                                  "bytes":  28435
+                              },
+                              {
+                                  "name":  "osv1_theta0_receipt.json",
+                                  "sha256":  "23c25b26380a831854823de2493dae2459a6d58267d7a103189a6fc947e767f3",
+                                  "bytes":  571
+                              },
+                              {
+                                  "name":  "osv1_machine_findings.json",
+                                  "sha256":  "103f4da600e4bf5975921e20573f7a47910f284f09d0f353285f11173c5f87af",
+                                  "bytes":  72915
+                              },
+                              {
+                                  "name":  "osv1_machine_findings.tsv",
+                                  "sha256":  "b4ded032045fd6f9d815983bd19194d2dcad0542f916bd5bfa36797dde8257ea",
+                                  "bytes":  14520
+                              },
+                              {
+                                  "name":  "osv1_machine_insufficiencies.tsv",
+                                  "sha256":  "375dc7dea0678b7bcf0e27f5228f66fceba8b1e9b6a777b00e7d6df529b6c9c2",
+                                  "bytes":  2723
+                              },
+                              {
+                                  "name":  "osv1_machine_findings_receipt.json",
+                                  "sha256":  "0df9600db43063330708489a583417149062fa98d103f4f442901d555ad9b0db",
+                                  "bytes":  632
+                              },
+                              {
+                                  "name":  "osv1_ancestry_dag.json",
+                                  "sha256":  "b6d3f7f0010cd8c2fbf77d16389272376e9f25b7e7e0048d0f0718bd0f98e30d",
+                                  "bytes":  11213
+                              },
+                              {
+                                  "name":  "osv1_ancestry_nodes.tsv",
+                                  "sha256":  "2d2143994e4b48948b1e2f53c2110a35af158dc0802fbbd70b2d702be033d3d4",
+                                  "bytes":  2299
+                              },
+                              {
+                                  "name":  "osv1_ancestry_edges.tsv",
+                                  "sha256":  "ae1f2ad39abddcbe262bdc8e12c2f0e0cae9749c372a9c9f9099b4becdfba9fb",
+                                  "bytes":  459
+                              },
+                              {
+                                  "name":  "osv1_root_manifest.json",
+                                  "sha256":  "e7f54f73d20fcf784e7920fad1a8688835fa85705f3a23357a474e6a120eef31",
+                                  "bytes":  6177
+                              },
+                              {
+                                  "name":  "osv1_root_receipt.json",
+                                  "sha256":  "afc1f94c0c76b2ffc0404bb1dbdc0aa70b677737d03f806967b89d400f07920a",
+                                  "bytes":  719
+                              }
+                          ],
+    "invariants":  {
+                       "rebuild_a_equals_rebuild_b":  true,
+                       "rebuild_a_equals_canonical":  true,
+                       "ancestry_is_two_branch_dag":  true,
+                       "root_receipt_verified":  true,
+                       "source_kind_required":  true,
+                       "human_summary_authority_count":  0
+                   },
+    "logical_proof_sha256":  "8eb54926bc062407426bbaf4b4ac076b87b34940117beda87d808e1b61944192"
+}

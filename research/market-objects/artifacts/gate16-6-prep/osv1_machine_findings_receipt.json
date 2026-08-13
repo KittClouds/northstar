@@ -1,0 +1,12 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_MACHINE_FINDINGS_RECEIPT_V1",
+    "status":  "PASS",
+    "logical_findings_sha256":  "d2fa9783ee7a75b5748e3dd6c1241d340f8b443b623c8f8b5ccdfaa7a473f697",
+    "findings_json_sha256":  "103f4da600e4bf5975921e20573f7a47910f284f09d0f353285f11173c5f87af",
+    "findings_tsv_sha256":  "b4ded032045fd6f9d815983bd19194d2dcad0542f916bd5bfa36797dde8257ea",
+    "insufficiencies_tsv_sha256":  "375dc7dea0678b7bcf0e27f5228f66fceba8b1e9b6a777b00e7d6df529b6c9c2",
+    "evidence_count":  8,
+    "finding_count":  24,
+    "insufficiency_count":  18,
+    "confirmation_windows_opened":  false
+}

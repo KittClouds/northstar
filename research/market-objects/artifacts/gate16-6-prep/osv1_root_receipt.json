@@ -1,0 +1,14 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_ROOT_RECEIPT_V1",
+    "status":  "PASS",
+    "root_manifest":  "osv1_root_manifest.json",
+    "root_manifest_sha256":  "e7f54f73d20fcf784e7920fad1a8688835fa85705f3a23357a474e6a120eef31",
+    "logical_osv1_sha256":  "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d",
+    "logical_ancestry_sha256":  "30ed4e61b090e96e56f20f096d420bb9cfa87aef9ddc88876bc8579bf7acb4cc",
+    "physical_child_set_sha256":  "a8986e4a21645d4c4a05b942847d63740e65692d3af0a5d72bd8057f9f4266b5",
+    "child_artifact_count":  15,
+    "rg2_leaf":  "RG2_GATE13R",
+    "rg3_leaf":  "RG3_GATE16_5",
+    "receipt_written_last":  true,
+    "confirmation_windows_opened":  false
+}

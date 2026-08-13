@@ -1,0 +1,108 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_ROOT_MANIFEST_V1",
+    "status":  "SEALED",
+    "observer_system":  "OSV1",
+    "protocol":  {
+                     "path":  "research/market-objects/contracts/gate16_6_osv1_closure.json",
+                     "sha256":  "d7009cf6862632f3dba7535ab4316148892657b9cce996bfb05f6e3948210587",
+                     "contract":  "NORTHSTAR_GATE16_6_OSV1_CLOSURE_V1"
+                 },
+    "ancestry":  {
+                     "contract":  "NORTHSTAR_GATE16_6_OSV1_ANCESTRY_DAG_V1",
+                     "logical_sha256":  "30ed4e61b090e96e56f20f096d420bb9cfa87aef9ddc88876bc8579bf7acb4cc",
+                     "branch_count":  2,
+                     "rg2_leaf":  "RG2_GATE13R",
+                     "rg3_leaf":  "RG3_GATE16_5"
+                 },
+    "child_artifacts":  [
+                            {
+                                "name":  "osv1_source_dependency_closure.json",
+                                "sha256":  "2e3cf229e7ce33c12629b41978176eb2700a41916ac8b3adb913b6c8e765ea69",
+                                "bytes":  166985
+                            },
+                            {
+                                "name":  "osv1_stagewise_parity_matrix.json",
+                                "sha256":  "e0bc6e4d1f9e17ebd7053f16a62e89a840803e9acbdf99b17093ec247a97d321",
+                                "bytes":  20054
+                            },
+                            {
+                                "name":  "osv1_stagewise_parity_matrix.tsv",
+                                "sha256":  "895e603e84ccf012b12926ed5f66b59d0be4070ea4d369cbe05d14da09d008db",
+                                "bytes":  4801
+                            },
+                            {
+                                "name":  "osv1_stagewise_parity_matrix_receipt.json",
+                                "sha256":  "c891e4693a284888bb8cfde3cb4a8e62793c807cda61d5c87daeb7a20efe8ff3",
+                                "bytes":  529
+                            },
+                            {
+                                "name":  "osv1_theta0_fields.json",
+                                "sha256":  "35cf5d08284363244492af3c7a729c3fb22e4448f705521282a36f2070d176ae",
+                                "bytes":  363959
+                            },
+                            {
+                                "name":  "osv1_theta0_fields.tsv",
+                                "sha256":  "6b42d8b13ffc99779c31e3ac2e3c49597e855149d6a598cbc7401df2678d783e",
+                                "bytes":  98926
+                            },
+                            {
+                                "name":  "osv1_theta0_runs.tsv",
+                                "sha256":  "a1d9ea90211b004d02e1bca1efddd48272366cc5351c014234e1d985f33e4a50",
+                                "bytes":  28435
+                            },
+                            {
+                                "name":  "osv1_theta0_receipt.json",
+                                "sha256":  "23c25b26380a831854823de2493dae2459a6d58267d7a103189a6fc947e767f3",
+                                "bytes":  571
+                            },
+                            {
+                                "name":  "osv1_machine_findings.json",
+                                "sha256":  "103f4da600e4bf5975921e20573f7a47910f284f09d0f353285f11173c5f87af",
+                                "bytes":  72915
+                            },
+                            {
+                                "name":  "osv1_machine_findings.tsv",
+                                "sha256":  "b4ded032045fd6f9d815983bd19194d2dcad0542f916bd5bfa36797dde8257ea",
+                                "bytes":  14520
+                            },
+                            {
+                                "name":  "osv1_machine_insufficiencies.tsv",
+                                "sha256":  "375dc7dea0678b7bcf0e27f5228f66fceba8b1e9b6a777b00e7d6df529b6c9c2",
+                                "bytes":  2723
+                            },
+                            {
+                                "name":  "osv1_machine_findings_receipt.json",
+                                "sha256":  "0df9600db43063330708489a583417149062fa98d103f4f442901d555ad9b0db",
+                                "bytes":  632
+                            },
+                            {
+                                "name":  "osv1_ancestry_dag.json",
+                                "sha256":  "b6d3f7f0010cd8c2fbf77d16389272376e9f25b7e7e0048d0f0718bd0f98e30d",
+                                "bytes":  11213
+                            },
+                            {
+                                "name":  "osv1_ancestry_nodes.tsv",
+                                "sha256":  "2d2143994e4b48948b1e2f53c2110a35af158dc0802fbbd70b2d702be033d3d4",
+                                "bytes":  2299
+                            },
+                            {
+                                "name":  "osv1_ancestry_edges.tsv",
+                                "sha256":  "ae1f2ad39abddcbe262bdc8e12c2f0e0cae9749c372a9c9f9099b4becdfba9fb",
+                                "bytes":  459
+                            }
+                        ],
+    "preserved_limits":  [
+                             "C1_INDEPENDENT_RUST_PRODUCER_PARITY_OPEN",
+                             "AUCTION_INTERVAL_CONDITIONING_NOT_EVALUABLE",
+                             "CROSS_SCALE_TRANSPORT_NOT_EVALUABLE",
+                             "GATE15_CONFIRMATION_WINDOWS_FROZEN_UNOPENED",
+                             "NO_ECONOMIC_OR_TRADING_AUTHORITY"
+                         ],
+    "closure_invariants":  {
+                               "source_kind_attached_to_every_finding":  true,
+                               "human_summary_authority_count":  0,
+                               "two_branch_ancestry_acyclic":  true,
+                               "root_receipt_written_last":  true
+                           },
+    "logical_osv1_sha256":  "6e18e10fc0fb3571aa21b4e20105f783dafe2872812d217d672ab5e959bb890d"
+}

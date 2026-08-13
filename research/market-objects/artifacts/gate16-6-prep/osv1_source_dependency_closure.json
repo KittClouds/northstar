@@ -1,0 +1,1930 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_SOURCE_DEPENDENCY_CLOSURE_V1",
+    "status":  "PASS",
+    "authority":  {
+                      "mt5_c1":  "AUTHORITATIVE_OPEN_RUST_PARITY",
+                      "rust_c2_d":  "PARITY_VERIFIED_FROM_RAW_PRODUCER_OUTPUT_BOUNDARY",
+                      "rust_rg3":  "DETERMINISTIC_DERIVATION_AND_SEALING"
+                  },
+    "protocol":  {
+                     "path":  "research/market-objects/contracts/gate16_6_osv1_closure.json",
+                     "sha256":  "d7009cf6862632f3dba7535ab4316148892657b9cce996bfb05f6e3948210587"
+                 },
+    "authority_evidence":  [
+                               {
+                                   "path":  "research/auction-parity/PHASE12_BD_CERTIFICATE.md",
+                                   "sha256":  "840a655d0763f94a4738059d3380aab93456c1504c4ceb7adceccf9d4c785a3e"
+                               },
+                               {
+                                   "path":  "research/auction-parity/PHASE12_CHECKPOINT.md",
+                                   "sha256":  "f9700835b9da618afb3a92b3ece3f0b5cd4e0d79673c758cb5d85eff00df701a"
+                               },
+                               {
+                                   "path":  "research/auction-parity/artifacts/phase13r-evaluation/certificate_manifest.json",
+                                   "sha256":  "7393ec2eebc7416bcf407689d10c424a03a1a91331d327e2d61f562d13fbc20c"
+                               },
+                               {
+                                   "path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-corpus-manifest.json",
+                                   "sha256":  "438b8f977a32708f41bc7a1ef08c7269b1a76d41140f5ea71351ffb8a33d87bc"
+                               },
+                               {
+                                   "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-seal-receipt.json",
+                                   "sha256":  "aac266a506d9e0dd4779ba876f50636321272c954f72222ca1a5c7fd3164d908"
+                               }
+                           ],
+    "mt5":  {
+                "entrypoint":  "Indicators/MarketObjectResearch/MarketObjectCollector.mq5",
+                "root":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5",
+                "file_count":  26,
+                "edge_count":  36,
+                "unresolved_count":  0,
+                "files":  [
+                              {
+                                  "logical_path":  "Include/MarketObjectResearch/MarketObjectLogger.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MarketObjectResearch/MarketObjectLogger.mqh",
+                                  "sha256":  "c7b6f4ddcf0c9bc3deb4fb0d44b56e962b5dd6775e267594fcb198334b207fb6",
+                                  "bytes":  10659,
+                                  "authority_role":  "MT5_RG3_OBJECT_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/01Marketmain.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/01Marketmain.mqh",
+                                  "sha256":  "c684af82ce1d313f590aed7a7072119e6864407fb20fcdd2c651e8984189987f",
+                                  "bytes":  79680,
+                                  "authority_role":  "MT5_C1_PRODUCER_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/01dayswings.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/01dayswings.mqh",
+                                  "sha256":  "d8d96be1a0773018731bbe27642ebbfc5ddf064569d65588d4a2a65b8e8bd0c5",
+                                  "bytes":  23180,
+                                  "authority_role":  "MT5_C1_PRODUCER_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterParityOracle.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterParityOracle.mqh",
+                                  "sha256":  "06da2f129a0c960a253396fe44f26070f00c20c15cc93305992397906460454a",
+                                  "bytes":  245,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/RCMExpansion.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/RCMExpansion.mqh",
+                                  "sha256":  "99b3df12b94462eee98377509a66b9bd6eca7b3b302336ed1a1ad30e11c90684",
+                                  "bytes":  16031,
+                                  "authority_role":  "MT5_RG3_OBJECT_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/ExpansionTrajectoryObserver/ETOStateMachineV1.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/ExpansionTrajectoryObserver/ETOStateMachineV1.mqh",
+                                  "sha256":  "c9fc114aad463343fb60db8b2168f070f425c6d7be783a9d15c83d676805db18",
+                                  "bytes":  10052,
+                                  "authority_role":  "MT5_RG3_OBJECT_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/01wayne.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/01wayne.mqh",
+                                  "sha256":  "fd81fc9c667272c15c4005ad65f9821863050d45ee4437171809946c23c94f77",
+                                  "bytes":  21844,
+                                  "authority_role":  "MT5_C1_PRODUCER_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "external://C:/code land/clean-rust/index-fund-prototype/research/auction-parity/mql5/MasterParityOracle.mqh",
+                                  "physical_path":  "C:/code land/clean-rust/index-fund-prototype/research/auction-parity/mql5/MasterParityOracle.mqh",
+                                  "sha256":  "e103724cb60642d04d5e5170ee0e28eec198b04d5debb9926dec92cdc34abaea",
+                                  "bytes":  10341,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MarketObjectResearch/MarketObjectTypes.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MarketObjectResearch/MarketObjectTypes.mqh",
+                                  "sha256":  "376c4a69d3e60457f4eec502eee4e678f559a463d72133bb79e0c9e5f9297f4c",
+                                  "bytes":  3443,
+                                  "authority_role":  "MT5_RG3_OBJECT_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterDatasetContract.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterDatasetContract.mqh",
+                                  "sha256":  "13bf3c32e6298b0fec7d82377ac366c6a53b8d388732dda87f4b1ac00c7eae6b",
+                                  "bytes":  19657,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "sha256":  "eebceed692eaeed4a4fc987488dba5c34b5d6045a962d83135001a7831b74f3b",
+                                  "bytes":  16607,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterAuctionTransit.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterAuctionTransit.mqh",
+                                  "sha256":  "5054f0e7c265af76304eac6748aefaafe944d66bd04b0d3a97713ea568a282af",
+                                  "bytes":  8500,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterDatasetRows.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterDatasetRows.mqh",
+                                  "sha256":  "54a71cc2795533f479655b38ed60a0d7eb4986b4647c42d9bbaa238ca1e0948c",
+                                  "bytes":  15080,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterTypes.mqh",
+                                  "sha256":  "ec80e5a2770bd55048990111ca96af9bd18eb17b06f8057cd1bafbe3d1fa7d8e",
+                                  "bytes":  16236,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterAdapters.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterAdapters.mqh",
+                                  "sha256":  "caa10727b087e04043c7ea03d0c2cb2d7046a2398a4c08fd9679c7d33fe650ca",
+                                  "bytes":  10489,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterClusterer.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterClusterer.mqh",
+                                  "sha256":  "b38d75b4d2ab53f1791f07f6a2e7f6b10b5868dc9cb9b4bbc1784acaca5375a4",
+                                  "bytes":  14591,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Indicators/MarketObjectResearch/MarketObjectCollector.mq5",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Indicators/MarketObjectResearch/MarketObjectCollector.mq5",
+                                  "sha256":  "9b3910dc437410e95eb2aa692fa2ccc484ad9f8ca705d8724d6dec2420bd0779",
+                                  "bytes":  12287,
+                                  "authority_role":  "MT5_RG3_ENTRYPOINT"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterController.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterController.mqh",
+                                  "sha256":  "237ee3d3c8197ee19c9d2f65d746e9b0386030df438d29528ea5aa1935d5e0fd",
+                                  "bytes":  44824,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "sha256":  "11b224696fe6b15c597df1c92a847754fd53a18f7af008f0bf979b26bb044d6a",
+                                  "bytes":  18362,
+                                  "authority_role":  "MT5_RG3_OBJECT_AUTHORITY"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterNodeTracker.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterNodeTracker.mqh",
+                                  "sha256":  "7451db1d4221c7f39744cda88d6dae225ddf9a19164bdd2992289023b93b07db",
+                                  "bytes":  11232,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterAuctionContext.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterAuctionContext.mqh",
+                                  "sha256":  "205e34b6d4192fa6306d7a723e671d90f8a6ba48b8384afa52e8ffaa9bf091e1",
+                                  "bytes":  7520,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterRegionalModel.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterRegionalModel.mqh",
+                                  "sha256":  "617137ebdc600e6e4e857f7d78f5d74c0b8e5071c56dd699a5bd239c0f8a4032",
+                                  "bytes":  12292,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterResearchIdentity.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterResearchIdentity.mqh",
+                                  "sha256":  "3ebf7fb18cc24466836c1c365c46f71e3ed468de88eddbede4d1fb7dedac4334",
+                                  "bytes":  7658,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterLogger.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterLogger.mqh",
+                                  "sha256":  "4806b5c45af3f36e5741bfb8e3fe1cd74ffc481014e22102eb998fa1016ee0c7",
+                                  "bytes":  12123,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterAuctionEngine.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterAuctionEngine.mqh",
+                                  "sha256":  "df6c3ac4ac83faaae8969338c918ed2c4796aa44b08ac97437c28da693e84940",
+                                  "bytes":  41487,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              },
+                              {
+                                  "logical_path":  "Include/MasterStructure/MasterAuctionLogger.mqh",
+                                  "physical_path":  "C:/Users/shuga/AppData/Roaming/MetaQuotes/Terminal/D0E8209F77C8CF37AD8BF550E51FF075/MQL5/Include/MasterStructure/MasterAuctionLogger.mqh",
+                                  "sha256":  "26be4bd065ee4662b93909b934842b226d9888bfe7214bde49db7fd550ca2c10",
+                                  "bytes":  31735,
+                                  "authority_role":  "MT5_C2_D_ORACLE_IMPLEMENTATION"
+                              }
+                          ],
+                "edges":  [
+                              {
+                                  "from":  "Include/MasterStructure/MasterAuctionEngine.mqh",
+                                  "include":  "MasterAuctionTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterLogger.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAuctionLogger.mqh",
+                                  "include":  "MasterDatasetRows.mqh",
+                                  "to":  "Include/MasterStructure/MasterDatasetRows.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAuctionEngine.mqh",
+                                  "include":  "MasterAuctionTransit.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionTransit.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterNodeTracker.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAdapters.mqh",
+                                  "include":  "01dayswings.mqh",
+                                  "to":  "Include/01dayswings.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAdapters.mqh",
+                                  "include":  "01Marketmain.mqh",
+                                  "to":  "Include/01Marketmain.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterClusterer.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAdapters.mqh",
+                                  "include":  "01wayne.mqh",
+                                  "to":  "Include/01wayne.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAuctionTransit.mqh",
+                                  "include":  "MasterAuctionTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterDatasetContract.mqh",
+                                  "include":  "MasterAuctionTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterDatasetRows.mqh",
+                                  "include":  "MasterDatasetContract.mqh",
+                                  "to":  "Include/MasterStructure/MasterDatasetContract.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MarketObjectResearch/MarketObjectLogger.mqh",
+                                  "include":  "MarketObjectTypes.mqh",
+                                  "to":  "Include/MarketObjectResearch/MarketObjectTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterRegionalModel.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAuctionContext.mqh",
+                                  "include":  "MasterAuctionTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterParityOracle.mqh",
+                                  "include":  "C:\\code land\\clean-rust\\index-fund-prototype\\research\\auction-parity\\mql5\\MasterParityOracle.mqh",
+                                  "to":  "external://C:/code land/clean-rust/index-fund-prototype/research/auction-parity/mql5/MasterParityOracle.mqh",
+                                  "resolution":  "ABSOLUTE_EXTERNAL"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterResearchIdentity.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterLogger.mqh",
+                                  "to":  "Include/MasterStructure/MasterLogger.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterNodeTracker.mqh",
+                                  "to":  "Include/MasterStructure/MasterNodeTracker.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterAuctionLogger.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionLogger.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterAuctionEngine.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionEngine.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterClusterer.mqh",
+                                  "to":  "Include/MasterStructure/MasterClusterer.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Indicators/MarketObjectResearch/MarketObjectCollector.mq5",
+                                  "include":  "MarketObjectResearch\\MarketObjectEngine.mqh",
+                                  "to":  "Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Indicators/MarketObjectResearch/MarketObjectCollector.mq5",
+                                  "include":  "MasterStructure\\MasterController.mqh",
+                                  "to":  "Include/MasterStructure/MasterController.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterAdapters.mqh",
+                                  "to":  "Include/MasterStructure/MasterAdapters.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "include":  "MasterStructure\\MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "include":  "ExpansionTrajectoryObserver\\ETOStateMachineV1.mqh",
+                                  "to":  "Include/ExpansionTrajectoryObserver/ETOStateMachineV1.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterAdapters.mqh",
+                                  "include":  "MasterTypes.mqh",
+                                  "to":  "Include/MasterStructure/MasterTypes.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "include":  "MarketObjectLogger.mqh",
+                                  "to":  "Include/MarketObjectResearch/MarketObjectLogger.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MarketObjectResearch/MarketObjectEngine.mqh",
+                                  "include":  "RCMExpansion.mqh",
+                                  "to":  "Include/RCMExpansion.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterRegionalModel.mqh",
+                                  "to":  "Include/MasterStructure/MasterRegionalModel.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterAuctionContext.mqh",
+                                  "to":  "Include/MasterStructure/MasterAuctionContext.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterParityOracle.mqh",
+                                  "to":  "Include/MasterStructure/MasterParityOracle.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              },
+                              {
+                                  "from":  "Include/MasterStructure/MasterController.mqh",
+                                  "include":  "MasterResearchIdentity.mqh",
+                                  "to":  "Include/MasterStructure/MasterResearchIdentity.mqh",
+                                  "resolution":  "MT5_INCLUDE_ROOT"
+                              }
+                          ],
+                "unresolved":  [
+
+                               ]
+            },
+    "rust_workspaces":  [
+                            {
+                                "workspace":  "research/auction-parity",
+                                "authority_role":  "RUST_C2_D_PARITY_AND_GATE13R",
+                                "file_count":  53,
+                                "files":  [
+                                              {
+                                                  "logical_path":  "research/auction-parity/Cargo.lock",
+                                                  "sha256":  "8603dbd03b3c628d283dad6be18bbb762f94f6d5b7e6adf2d8d8a3dd22f0194d",
+                                                  "bytes":  11459
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/Cargo.toml",
+                                                  "sha256":  "a1d1aac564cb67673c249292650a919e48eba411b43db967f3aabc270a2fbdd7",
+                                                  "bytes":  976
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-contract/Cargo.toml",
+                                                  "sha256":  "cee5e87f764396d1a960a6a92dbd6d473b8dbe8b8e19294ea049f26dbd68b49f",
+                                                  "bytes":  249
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-contract/src/decimal.rs",
+                                                  "sha256":  "457ac92066577717b18c9044f97a19479590f92a4beb2e0a2dbfc3056ecccd8f",
+                                                  "bytes":  4329
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-contract/src/enums.rs",
+                                                  "sha256":  "557d8f6b042381acb8da6e0c79b3a4351f30bf6d01b1724b3e4c94fd12263b1a",
+                                                  "bytes":  5846
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-contract/src/ids.rs",
+                                                  "sha256":  "9f77b152f92a8c774415eaf6da6caf8e9a318531844e44c0c84893c27bb35fb8",
+                                                  "bytes":  1241
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-contract/src/lib.rs",
+                                                  "sha256":  "0d5ec440c06b81ec93fe6d51b4e28ac27d298ff4661869fe678c5532a9ee01b7",
+                                                  "bytes":  1210
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/Cargo.toml",
+                                                  "sha256":  "1e9e6aa7f05c4daf329ea1f58676e3f057a61e841b18279018f3a655e22d247a",
+                                                  "bytes":  531
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/src/golden_exact.rs",
+                                                  "sha256":  "83a2daf20a90f4ac52fa613987573eadf5015852167b9cfdf90c9ff9ec8aed6f",
+                                                  "bytes":  26464
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/src/golden_exact/scenarios.rs",
+                                                  "sha256":  "b8c6158fe35208057b15af4543a46257211f4469f1017c17fc3e3f0c42c1926a",
+                                                  "bytes":  12160
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/src/grammar.rs",
+                                                  "sha256":  "a6d2d04d9b4932c6bd45ea5ead0ac1ae705b93720154d3dc04b73ce30b072993",
+                                                  "bytes":  22954
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/src/grammar/boundaries.rs",
+                                                  "sha256":  "1647eed446dc6c9f2cf301e305efff91be74dca4b6e2c7906a5f3310415dd6fd",
+                                                  "bytes":  7117
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/src/interface.rs",
+                                                  "sha256":  "88399998f3e6d2fc1f7d5cf45f921b7ca1a9bf69d457f9cdeaac1a320acd5558",
+                                                  "bytes":  19256
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-auction-replay/src/lib.rs",
+                                                  "sha256":  "f3e6884671345e58cb230bb3f9c49cefe050e4b91798e1c0b95e40e684c68d3a",
+                                                  "bytes":  379
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/Cargo.toml",
+                                                  "sha256":  "28f153536126f4b948e1503ba3b3aabb1c46029caf726c2b4ea360a8814cf8f7",
+                                                  "bytes":  391
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/canonical.rs",
+                                                  "sha256":  "e6ad04b73206812480e152d9bde9ba2d6212912ad581bf4aa63f93ec86ec25c3",
+                                                  "bytes":  4754
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/engine.rs",
+                                                  "sha256":  "3eb30351945b40767123e59af481c09d32308a0621513dc41b1451b3a87de81b",
+                                                  "bytes":  45571
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/input.rs",
+                                                  "sha256":  "349bc9f8bb4423b57e7f6785cc6dc4ea902848218f740da536e09e0b9a24fa03",
+                                                  "bytes":  9984
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/lib.rs",
+                                                  "sha256":  "3fb5784bb562fa83aee4851bca96df1f13d0afdf758c36da28be62b972182be9",
+                                                  "bytes":  768
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/main.rs",
+                                                  "sha256":  "c4d21cd830f12a481bbb45f167d8e34fb973a5681a4c31148eb9c1e54928e28c",
+                                                  "bytes":  3136
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/manifest.rs",
+                                                  "sha256":  "80164f9321991eda1b0d9c4c5228917bfe5d3f9f5f39fe4b14f2ad1f88ae1d6f",
+                                                  "bytes":  8251
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/metrics.rs",
+                                                  "sha256":  "1265f3faae29ef6c53a3822aeec0183c52ff8180f9bbf9ed13c782b1f658bf09",
+                                                  "bytes":  14102
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-holdout-eval/src/model.rs",
+                                                  "sha256":  "0657ff9dfab6378813a8619e1f2d1cd4e460bb90dd62f615cb3b7858b43ada08",
+                                                  "bytes":  10682
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-model-parity/Cargo.toml",
+                                                  "sha256":  "17e86729ac0eb4da9692f8f749fdf50f08aca5dcd7325f342ec98362c72c8242",
+                                                  "bytes":  318
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-model-parity/src/lib.rs",
+                                                  "sha256":  "83d9da65412efa23deb7ab0984a0b8239ca06be685d321409b03657cf1c50b2d",
+                                                  "bytes":  12635
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-mt5-corpus/Cargo.toml",
+                                                  "sha256":  "aef671cec839c43442fc4a713eef9c8cba7ec6441ecb2ecfa94325c9ad845e9e",
+                                                  "bytes":  461
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-mt5-corpus/src/error.rs",
+                                                  "sha256":  "4de9cbae5b2b723e15d83e96da0f95f102231604d84e1086cea0ffe4ab9ef5e4",
+                                                  "bytes":  1240
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-mt5-corpus/src/lib.rs",
+                                                  "sha256":  "85f298bfef08856579d4a1d7cbd1624b44b372953f9d0cb09e7bc2941d7a12f1",
+                                                  "bytes":  422
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-mt5-corpus/src/relational.rs",
+                                                  "sha256":  "9aa5a8054a7145256c992a88945a46c09bad486616939ac4065131f595ec497f",
+                                                  "bytes":  20863
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-mt5-corpus/src/seal.rs",
+                                                  "sha256":  "007203fae00084cc77490c3a63f0617b86ef2b90f6d40638111f22404c5ca027",
+                                                  "bytes":  16586
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-mt5-corpus/src/tsv.rs",
+                                                  "sha256":  "8eeae89827642ea97487eef5051691f7fdcb8999dbb2ade65a4206cb774adaf5",
+                                                  "bytes":  6881
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-packed-corpus/Cargo.toml",
+                                                  "sha256":  "5e90ab3936a07a2dab16f708eb9ed0114616c05d0d07ba9a952620ad185fe48d",
+                                                  "bytes":  497
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-packed-corpus/src/format.rs",
+                                                  "sha256":  "f815dcbcc23479df9045bafbc48c8369aa2f9a3b5683e491c4ec7a302f221011",
+                                                  "bytes":  5759
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-packed-corpus/src/lib.rs",
+                                                  "sha256":  "5fed2561ec6d3a80efe08eb630222e27de5131071d6560c728358083dadc8dec",
+                                                  "bytes":  458
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-packed-corpus/src/pack.rs",
+                                                  "sha256":  "b6aaf3cb3e0f2c89cdefb9f6dac411e46b0ecbeb0010666637fee36ba46bea28",
+                                                  "bytes":  12383
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-packed-corpus/src/view.rs",
+                                                  "sha256":  "6d09cb3bc7f8a5af9ef1292c99b56e79a995849b73195e218382adaf3acc06a5",
+                                                  "bytes":  11485
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-parity-cli/Cargo.toml",
+                                                  "sha256":  "b6d4a3b5d193444138628158ab8a9f335702d278f0047d8bf8e79c48d2913d8c",
+                                                  "bytes":  750
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-parity-cli/src/main.rs",
+                                                  "sha256":  "6b796409b51adb64f7a3034bc93e8db273ed1eba1cf6da9de2676597679170fc",
+                                                  "bytes":  16545
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-parity-fixtures/Cargo.toml",
+                                                  "sha256":  "6cc55ab1324731ab41a6f92a2e7e93b992662f5a1305201030fbb321d49940f0",
+                                                  "bytes":  266
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-parity-fixtures/src/lib.rs",
+                                                  "sha256":  "ec1d16d420183d96e9ff9793ca2a1e99548349aee8ff4994f96471b5ca4332ae",
+                                                  "bytes":  10929
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/Cargo.toml",
+                                                  "sha256":  "63f5cbd1d09c17c76994bf4a596499f035ad9aa51407bf35db759f4e44a85ce9",
+                                                  "bytes":  398
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/auction.rs",
+                                                  "sha256":  "7d14bed2e03cdc672c6d44f162d759c64539fff816d38e7b611ee120dd9a76aa",
+                                                  "bytes":  39199
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/auction_types.rs",
+                                                  "sha256":  "fd352b8763f3f84115c9b370a2e1f682bd0d73ca157ca026cbb6261db81249da",
+                                                  "bytes":  5744
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/auction_verify.rs",
+                                                  "sha256":  "2001cd6904a938da88533cc2cda2f6cf26d3e54d8c7c6c90ba0485a9a16c8d96",
+                                                  "bytes":  8391
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/auction_verify_relations.rs",
+                                                  "sha256":  "27788a6613e877cfeac55c4ad5b5411744a943122cce45cfba4a9a874bf0e965",
+                                                  "bytes":  16970
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/input.rs",
+                                                  "sha256":  "c6077013e51c0fce9a589cc1f2cfa81707b08a11949da2559f0e73c82e00bd2d",
+                                                  "bytes":  18869
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/mod.rs",
+                                                  "sha256":  "78402b9db0116c0ffb68502691caf4122e3cb1f51ff33ef73d7277712e488739",
+                                                  "bytes":  199
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/regional.rs",
+                                                  "sha256":  "68a6cd626e7d610a1b7212eafc7dcad561b4105f8afc5330039858da9c913060",
+                                                  "bytes":  19582
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/topology.rs",
+                                                  "sha256":  "b6a13da5a6437c139244ebaedbfb81b2c0ce6678fa015fec202850b15ea527db",
+                                                  "bytes":  23639
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/bd/topology_core.rs",
+                                                  "sha256":  "fc97cd31910ffbb2e9a0affbf19d95192b42448da82de6b2fdbe1ce0e61c79ad",
+                                                  "bytes":  12086
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-replay-oracle/src/lib.rs",
+                                                  "sha256":  "0343aaec235360a80ff24a46afb05732bb4f79edaa7392abb6a5d061a40f0f03",
+                                                  "bytes":  18208
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-research-adapter/Cargo.toml",
+                                                  "sha256":  "707a06e8cf73f1bc7c9b299f693c37a1fcecaca95442c257f8f8b3578601c877",
+                                                  "bytes":  442
+                                              },
+                                              {
+                                                  "logical_path":  "research/auction-parity/crates/northstar-research-adapter/src/lib.rs",
+                                                  "sha256":  "cec9e7c7730aea7574bbfecdb4dcbcbeb382131fb8030cd2687fe986ce552981",
+                                                  "bytes":  17545
+                                              }
+                                          ],
+                                "local_packages":  [
+                                                       {
+                                                           "name":  "northstar-auction-contract",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-auction-contract/Cargo.toml",
+                                                           "local_dependencies":  [
+
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_auction_contract",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-auction-contract/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-auction-replay",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-auction-replay/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-auction-contract",
+                                                                                          "path":  "research/auction-parity/crates/northstar-auction-contract"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-mt5-corpus",
+                                                                                          "path":  "research/auction-parity/crates/northstar-mt5-corpus"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-parity-fixtures",
+                                                                                          "path":  "research/auction-parity/crates/northstar-parity-fixtures"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_auction_replay",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-auction-replay/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-holdout-eval",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-holdout-eval/Cargo.toml",
+                                                           "local_dependencies":  [
+
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_holdout_eval",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-holdout-eval/src/lib.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-holdout",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-holdout-eval/src/main.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-model-parity",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-model-parity/Cargo.toml",
+                                                           "local_dependencies":  [
+
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_model_parity",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-model-parity/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-mt5-corpus",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-mt5-corpus/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-auction-contract",
+                                                                                          "path":  "research/auction-parity/crates/northstar-auction-contract"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_mt5_corpus",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-mt5-corpus/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-packed-corpus",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-packed-corpus/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-auction-contract",
+                                                                                          "path":  "research/auction-parity/crates/northstar-auction-contract"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-mt5-corpus",
+                                                                                          "path":  "research/auction-parity/crates/northstar-mt5-corpus"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_packed_corpus",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-packed-corpus/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-parity-cli",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-parity-cli/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-auction-replay",
+                                                                                          "path":  "research/auction-parity/crates/northstar-auction-replay"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-model-parity",
+                                                                                          "path":  "research/auction-parity/crates/northstar-model-parity"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-mt5-corpus",
+                                                                                          "path":  "research/auction-parity/crates/northstar-mt5-corpus"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-packed-corpus",
+                                                                                          "path":  "research/auction-parity/crates/northstar-packed-corpus"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-parity-fixtures",
+                                                                                          "path":  "research/auction-parity/crates/northstar-parity-fixtures"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-replay-oracle",
+                                                                                          "path":  "research/auction-parity/crates/northstar-replay-oracle"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-research-adapter",
+                                                                                          "path":  "research/auction-parity/crates/northstar-research-adapter"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar-parity",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-parity-cli/src/main.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-parity-fixtures",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-parity-fixtures/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-auction-contract",
+                                                                                          "path":  "research/auction-parity/crates/northstar-auction-contract"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_parity_fixtures",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-parity-fixtures/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-replay-oracle",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-replay-oracle/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-mt5-corpus",
+                                                                                          "path":  "research/auction-parity/crates/northstar-mt5-corpus"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_replay_oracle",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-replay-oracle/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       },
+                                                       {
+                                                           "name":  "northstar-research-adapter",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/auction-parity/crates/northstar-research-adapter/Cargo.toml",
+                                                           "local_dependencies":  [
+                                                                                      {
+                                                                                          "name":  "northstar-auction-contract",
+                                                                                          "path":  "research/auction-parity/crates/northstar-auction-contract"
+                                                                                      },
+                                                                                      {
+                                                                                          "name":  "northstar-packed-corpus",
+                                                                                          "path":  "research/auction-parity/crates/northstar-packed-corpus"
+                                                                                      }
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_research_adapter",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/auction-parity/crates/northstar-research-adapter/src/lib.rs"
+                                                                           }
+                                                                       ]
+                                                       }
+                                                   ],
+                                "locked_packages":  [
+                                                        {
+                                                            "name":  "serde_core",
+                                                            "version":  "1.0.229",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "67dca2c9c51e58a4791a4b1ed58308b39c64224d349a935ab5039aa360942a48"
+                                                        },
+                                                        {
+                                                            "name":  "serde",
+                                                            "version":  "1.0.229",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "4148590afebada386688f18773da617792bf2ef03ffc1e4cbd2b1d45b023e0ba"
+                                                        },
+                                                        {
+                                                            "name":  "rustix",
+                                                            "version":  "1.1.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "b6fe4565b9518b83ef4f91bb47ce29620ca828bd32cb7e408f0062e9930ba190"
+                                                        },
+                                                        {
+                                                            "name":  "sha2",
+                                                            "version":  "0.10.9",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "a7507d819769d01a365ab707794a4084392c824f54a7a6a7862f8c3d0892b283"
+                                                        },
+                                                        {
+                                                            "name":  "serde_json",
+                                                            "version":  "1.0.151",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "c841b55ecdae098c80dcae9cf767f6f8a0c2cdb3416bbef72181df4d0fe73f14"
+                                                        },
+                                                        {
+                                                            "name":  "serde_derive",
+                                                            "version":  "1.0.229",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "e7a5d71263a5a7d47b41f6b3f06ba276f10cc18b0931f1799f710578e2309348"
+                                                        },
+                                                        {
+                                                            "name":  "r-efi",
+                                                            "version":  "6.0.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-research-adapter",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-replay-oracle",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-parity-fixtures",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "quote",
+                                                            "version":  "1.0.47",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001"
+                                                        },
+                                                        {
+                                                            "name":  "proc-macro2",
+                                                            "version":  "1.0.107",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
+                                                        },
+                                                        {
+                                                            "name":  "once_cell",
+                                                            "version":  "1.21.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50"
+                                                        },
+                                                        {
+                                                            "name":  "windows-sys",
+                                                            "version":  "0.61.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc"
+                                                        },
+                                                        {
+                                                            "name":  "windows-link",
+                                                            "version":  "0.2.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5"
+                                                        },
+                                                        {
+                                                            "name":  "version_check",
+                                                            "version":  "0.9.5",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+                                                        },
+                                                        {
+                                                            "name":  "zmij",
+                                                            "version":  "1.0.23",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "29666d0abbfad1e3dc4dcf6144730dd3a3ab225bbbdac83319345b1b44ccfc1b"
+                                                        },
+                                                        {
+                                                            "name":  "zerocopy-derive",
+                                                            "version":  "0.8.56",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f2ab42fc20575779bd240faa45f94a74256f755c0fa9e89f0ede20d91d0cdfc1"
+                                                        },
+                                                        {
+                                                            "name":  "zerocopy",
+                                                            "version":  "0.8.56",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "556764e583adb45a9f8d413c2a147fa7e8d821e48e12b14fd560b607998b75eb"
+                                                        },
+                                                        {
+                                                            "name":  "unicode-ident",
+                                                            "version":  "1.0.24",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
+                                                        },
+                                                        {
+                                                            "name":  "tempfile",
+                                                            "version":  "3.27.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd"
+                                                        },
+                                                        {
+                                                            "name":  "syn",
+                                                            "version":  "3.0.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "53e9bae58849f64dfa4f5d5ae372c8341f7305f82a3868709269343628b659a3"
+                                                        },
+                                                        {
+                                                            "name":  "syn",
+                                                            "version":  "2.0.119",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297"
+                                                        },
+                                                        {
+                                                            "name":  "typenum",
+                                                            "version":  "1.20.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20"
+                                                        },
+                                                        {
+                                                            "name":  "thiserror-impl",
+                                                            "version":  "2.0.20",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "bc04cd3e1236dd4a98afca4569f2deb3f120e5422a4023be2cb683f8486292af"
+                                                        },
+                                                        {
+                                                            "name":  "thiserror",
+                                                            "version":  "2.0.20",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "ec86235f5fcc2a73650310756d2ac5b138a5780bbbdfae3eeccec992c435ba4f"
+                                                        },
+                                                        {
+                                                            "name":  "fastrand",
+                                                            "version":  "2.5.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "da7c62ceae207dd37ea5b845da6a0696c799f85e97da1ab5b7910be3c1c80223"
+                                                        },
+                                                        {
+                                                            "name":  "errno",
+                                                            "version":  "0.3.14",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
+                                                        },
+                                                        {
+                                                            "name":  "equivalent",
+                                                            "version":  "1.0.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
+                                                        },
+                                                        {
+                                                            "name":  "getrandom",
+                                                            "version":  "0.4.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "300e883d756b2e4ec94e02791f39b04b522276138852cfc41d9fb7e904106099"
+                                                        },
+                                                        {
+                                                            "name":  "generic-array",
+                                                            "version":  "0.14.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a"
+                                                        },
+                                                        {
+                                                            "name":  "foldhash",
+                                                            "version":  "0.1.5",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "d9c4f5dac5e15c24eb999c26181a6ca40b39fe946cbe4c263c7209467bc83af2"
+                                                        },
+                                                        {
+                                                            "name":  "digest",
+                                                            "version":  "0.10.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292"
+                                                        },
+                                                        {
+                                                            "name":  "block-buffer",
+                                                            "version":  "0.10.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
+                                                        },
+                                                        {
+                                                            "name":  "bitflags",
+                                                            "version":  "2.13.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "b588b76d00fde79687d7646a9b5bdf3cc0f655e0bbd080335a95d7e96f3587da"
+                                                        },
+                                                        {
+                                                            "name":  "allocator-api2",
+                                                            "version":  "0.2.21",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923"
+                                                        },
+                                                        {
+                                                            "name":  "crypto-common",
+                                                            "version":  "0.1.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "78c8292055d1c1df0cce5d180393dc8cce0abec0a7102adb6c7b1eef6016d60a"
+                                                        },
+                                                        {
+                                                            "name":  "cpufeatures",
+                                                            "version":  "0.2.17",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "59ed5838eebb26a2bb2e58f6d5b5316989ae9d08bab10e0e6d103e656d1b0280"
+                                                        },
+                                                        {
+                                                            "name":  "cfg-if",
+                                                            "version":  "1.0.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-model-parity",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-holdout-eval",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-auction-replay",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-parity-cli",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-packed-corpus",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-mt5-corpus",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-auction-contract",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "libc",
+                                                            "version":  "0.2.189",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2"
+                                                        },
+                                                        {
+                                                            "name":  "itoa",
+                                                            "version":  "1.0.18",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
+                                                        },
+                                                        {
+                                                            "name":  "hashbrown",
+                                                            "version":  "0.15.5",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9229cfe53dfd69f0609a49f65461bd93001ea1ef889cd5529dd176593f5338a1"
+                                                        },
+                                                        {
+                                                            "name":  "memmap2",
+                                                            "version":  "0.9.11",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "d1219ed1b7f229ee7104d281dd01d6802fe28bb6e95d292942c4daacdeb798c0"
+                                                        },
+                                                        {
+                                                            "name":  "memchr",
+                                                            "version":  "2.8.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
+                                                        },
+                                                        {
+                                                            "name":  "linux-raw-sys",
+                                                            "version":  "0.12.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "32a66949e030da00e8c7d4434b251670a91556f4144941d37452769c25d58a53"
+                                                        }
+                                                    ]
+                            },
+                            {
+                                "workspace":  "research/market-objects",
+                                "authority_role":  "RUST_RG3_DERIVATION_GATES14_TO16_5",
+                                "file_count":  40,
+                                "files":  [
+                                              {
+                                                  "logical_path":  "research/market-objects/Cargo.lock",
+                                                  "sha256":  "d54ddc2bd6caefcef86570fd825806a68af6560796d7968ff026390508b8351f",
+                                                  "bytes":  14668
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/Cargo.toml",
+                                                  "sha256":  "80568915b52938e7446febd29bd14a523f91225fd11e9b615644bdef568c100f",
+                                                  "bytes":  579
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/Cargo.toml",
+                                                  "sha256":  "f01b134ad53597779e99a6397b940c026bb4b88dc05ccc5d75f6d13991af0980",
+                                                  "bytes":  966
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/atlas_main.rs",
+                                                  "sha256":  "c62ce0b4793a0f78ba1b3af983be9571c2d1272bbbd59a1fd1deaea374a77867",
+                                                  "bytes":  18658
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/discover_main.rs",
+                                                  "sha256":  "e84c6fa7c193faf32c4ff03c60946210968d9015f2e5239db05c1dc950d320e5",
+                                                  "bytes":  4911
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate15.rs",
+                                                  "sha256":  "15928fed33ec763393dcd6d474233f3bf119b678b1f12e8b873c732c2faae6b5",
+                                                  "bytes":  27558
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate15_cluster.rs",
+                                                  "sha256":  "9a731bcdc97371b336dff34bb166cff904b67835a0259b10e479591f0d25786b",
+                                                  "bytes":  14424
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate155.rs",
+                                                  "sha256":  "0994f976f020b0fb24aba952bee93959f4f69e34d354b8bbc1e6b620ef8cdf54",
+                                                  "bytes":  29999
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate155_analysis.rs",
+                                                  "sha256":  "60d075d772693b7925db7a62036a2a66e996b5ffe6f547203faaff4d6c2f220b",
+                                                  "bytes":  21906
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate155_graph.rs",
+                                                  "sha256":  "e2ca01d32b2ca95fcc0ecae51d93795546c4fea19281e071061fdf7dd2e37748",
+                                                  "bytes":  7612
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate155_info.rs",
+                                                  "sha256":  "13ffc82a24447b1c733720d9ff494842e213c1aa4b1fa7e50dfc02e2de99284e",
+                                                  "bytes":  7339
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate155_tests.rs",
+                                                  "sha256":  "6af87c7780f554f58d2ca48bee58b2ce303d19babf8d457466874b89764a0742",
+                                                  "bytes":  1760
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate155_types.rs",
+                                                  "sha256":  "c35e7faa7b42988f04b20212dd7fde861fa62f7bad20a69ef9aeeb955022277f",
+                                                  "bytes":  7957
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16.rs",
+                                                  "sha256":  "3fc7cce05fd4e00677b4b333fc41122e2d4208cfdc752568104836ccddaea7f1",
+                                                  "bytes":  6207
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_collect.rs",
+                                                  "sha256":  "dafc6fd195f90ab007caa7652c3a8458a43a92671144d9ee6f59d8583d122de7",
+                                                  "bytes":  19666
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_compare.rs",
+                                                  "sha256":  "d076c50a237dc045ef40666e4f5111259ed13980dc5400576e8375503fb4b9e0",
+                                                  "bytes":  18233
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_diagnostics.rs",
+                                                  "sha256":  "335dd1eb7cb0941b77b14525ef5b541847fa9986f01c1784366033eab4f86cac",
+                                                  "bytes":  27906
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_distance.rs",
+                                                  "sha256":  "8152dea8f5b08dc78c9461fcc7e3cc336ec79ca4936dd90041fa54539a970c25",
+                                                  "bytes":  8536
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_graph.rs",
+                                                  "sha256":  "1aec5818f36a583773ff977cdd893851aa47df4c762235e5f1576ab1d5daf943",
+                                                  "bytes":  4639
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_main.rs",
+                                                  "sha256":  "506ee7fb7bb8d575b59845445eddf86367c90b95dc051ae6c9954dda4f55aaa2",
+                                                  "bytes":  13553
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_perf.rs",
+                                                  "sha256":  "8dd93aacf08a6804309229e4db9523351cdb48a1a6fab1ecf92c589d81fc66e0",
+                                                  "bytes":  6192
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_perf_main.rs",
+                                                  "sha256":  "821787ba2db1fb7e2e2d16199cbda5f13a48dba111ef941e3a5c8ebbc57870ee",
+                                                  "bytes":  1299
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_repr.rs",
+                                                  "sha256":  "7749c44c950187a06e2531ae3f367f604865db699917c2521fe1e3656f382300",
+                                                  "bytes":  19573
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_tests.rs",
+                                                  "sha256":  "317125a80c9a7d235de3d52e41216948960055d9bcffc3c417c1da0b48c21e3c",
+                                                  "bytes":  6316
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_types.rs",
+                                                  "sha256":  "fc976c6988a72d8196b06417a861b2392c69a9b3492bb40f9ca692a8a26b47c5",
+                                                  "bytes":  11071
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate165.rs",
+                                                  "sha256":  "3e081eabe7ec1d5a6e493eb255dbe557cc1576dcd8f3dc556c566366629be5d5",
+                                                  "bytes":  45281
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate165_analysis.rs",
+                                                  "sha256":  "178de27f93034db07b39cb0fcac9ed113a193fdbb4fd73b2fc6fbf51f84a2ce8",
+                                                  "bytes":  17336
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate165_main.rs",
+                                                  "sha256":  "a6f12e7ea5de4abe18fba738b32e87a1ae2016562f13c2d58b222b38942fb892",
+                                                  "bytes":  26366
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/gate165_types.rs",
+                                                  "sha256":  "e99e819f3d4dc0b31a2d830387d41d0bbcfbb51cb5c07849daa974babdb254b7",
+                                                  "bytes":  9021
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/lib.rs",
+                                                  "sha256":  "40abd94bdb484533795d2a161a46c379e95c6df08c021c3c5ba2495a8bb55966",
+                                                  "bytes":  1669
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/main.rs",
+                                                  "sha256":  "d5c0209e426e8c69a769b09250c19a035a0525d5bac185e779df1ce9e747fff7",
+                                                  "bytes":  1743
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/pack.rs",
+                                                  "sha256":  "c0eb101f497dabbf5ee55447b68014f6f228779ee32040ed82c93618d20c9503",
+                                                  "bytes":  6509
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/raw.rs",
+                                                  "sha256":  "304a61a4fa37723423e5b564a7177c2ee3d160d4346d10d4c9d31119a9ebbef2",
+                                                  "bytes":  31119
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/crates/northstar-market-objects/src/view.rs",
+                                                  "sha256":  "0fe47ab7d8da6efaad0af91a972ca35a6dc9c71c8071a4d1b1fdcddf01af39c8",
+                                                  "bytes":  3476
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/target/debug/build/serde_core-2393ce3d8e7e502f/out/private.rs",
+                                                  "sha256":  "899563ce84b59b13cd7036e25f7897c1e730906f62a43aff14472d11c4229f34",
+                                                  "bytes":  90
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/target/debug/build/serde-12f5dc20d286d7b8/out/private.rs",
+                                                  "sha256":  "edaefc31eb178d1c82d9ab94c18a374316f8ff13ad55147cc631698dc9498162",
+                                                  "bytes":  142
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/target/debug/build/thiserror-522fb8c3d12da1a6/out/private.rs",
+                                                  "sha256":  "c2ecb9a0205121ce129c369a8ba8abdab85c8658153dabff7b6b2b0d5a57c065",
+                                                  "bytes":  89
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/target/release/build/serde_core-42a25bf6bf68bcb8/out/private.rs",
+                                                  "sha256":  "899563ce84b59b13cd7036e25f7897c1e730906f62a43aff14472d11c4229f34",
+                                                  "bytes":  90
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/target/release/build/serde-e99c384f53039299/out/private.rs",
+                                                  "sha256":  "edaefc31eb178d1c82d9ab94c18a374316f8ff13ad55147cc631698dc9498162",
+                                                  "bytes":  142
+                                              },
+                                              {
+                                                  "logical_path":  "research/market-objects/target/release/build/thiserror-4a057edf9e633a15/out/private.rs",
+                                                  "sha256":  "c2ecb9a0205121ce129c369a8ba8abdab85c8658153dabff7b6b2b0d5a57c065",
+                                                  "bytes":  89
+                                              }
+                                          ],
+                                "local_packages":  [
+                                                       {
+                                                           "name":  "northstar-market-objects",
+                                                           "version":  "0.1.0",
+                                                           "manifest":  "research/market-objects/crates/northstar-market-objects/Cargo.toml",
+                                                           "local_dependencies":  [
+
+                                                                                  ],
+                                                           "targets":  [
+                                                                           {
+                                                                               "name":  "northstar_market_objects",
+                                                                               "kind":  [
+                                                                                            "lib"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/lib.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-market-object-atlas",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/atlas_main.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-market-object-discover",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/discover_main.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-market-object-geometry",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_main.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-market-object-geometry-perf",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/gate16_perf_main.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-market-object-loss-census",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/gate165_main.rs"
+                                                                           },
+                                                                           {
+                                                                               "name":  "northstar-market-object-seal",
+                                                                               "kind":  [
+                                                                                            "bin"
+                                                                                        ],
+                                                                               "src_path":  "research/market-objects/crates/northstar-market-objects/src/main.rs"
+                                                                           }
+                                                                       ]
+                                                       }
+                                                   ],
+                                "locked_packages":  [
+                                                        {
+                                                            "name":  "serde_core",
+                                                            "version":  "1.0.229",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "67dca2c9c51e58a4791a4b1ed58308b39c64224d349a935ab5039aa360942a48"
+                                                        },
+                                                        {
+                                                            "name":  "serde_derive",
+                                                            "version":  "1.0.229",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "e7a5d71263a5a7d47b41f6b3f06ba276f10cc18b0931f1799f710578e2309348"
+                                                        },
+                                                        {
+                                                            "name":  "safe_arch",
+                                                            "version":  "0.7.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "96b02de82ddbe1b636e6170c21be622223aea188ef2e139be0a5b219ec215323"
+                                                        },
+                                                        {
+                                                            "name":  "serde",
+                                                            "version":  "1.0.229",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "4148590afebada386688f18773da617792bf2ef03ffc1e4cbd2b1d45b023e0ba"
+                                                        },
+                                                        {
+                                                            "name":  "shlex",
+                                                            "version":  "2.0.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba"
+                                                        },
+                                                        {
+                                                            "name":  "syn",
+                                                            "version":  "2.0.119",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297"
+                                                        },
+                                                        {
+                                                            "name":  "serde_json",
+                                                            "version":  "1.0.151",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "c841b55ecdae098c80dcae9cf767f6f8a0c2cdb3416bbef72181df4d0fe73f14"
+                                                        },
+                                                        {
+                                                            "name":  "sha2",
+                                                            "version":  "0.10.9",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "a7507d819769d01a365ab707794a4084392c824f54a7a6a7862f8c3d0892b283"
+                                                        },
+                                                        {
+                                                            "name":  "proc-macro2",
+                                                            "version":  "1.0.107",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
+                                                        },
+                                                        {
+                                                            "name":  "quote",
+                                                            "version":  "1.0.47",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001"
+                                                        },
+                                                        {
+                                                            "name":  "once_cell",
+                                                            "version":  "1.21.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50"
+                                                        },
+                                                        {
+                                                            "name":  "pkg-config",
+                                                            "version":  "0.3.33",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "19f132c84eca552bf34cab8ec81f1c1dcc229b811638f9d283dceabe58c5569e"
+                                                        },
+                                                        {
+                                                            "name":  "rayon-core",
+                                                            "version":  "1.13.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "22e18b0f0062d30d4230b2e85ff77fdfe4326feb054b9783a3460d8435c8ab91"
+                                                        },
+                                                        {
+                                                            "name":  "rustix",
+                                                            "version":  "1.1.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "b6fe4565b9518b83ef4f91bb47ce29620ca828bd32cb7e408f0062e9930ba190"
+                                                        },
+                                                        {
+                                                            "name":  "r-efi",
+                                                            "version":  "6.0.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
+                                                        },
+                                                        {
+                                                            "name":  "rayon",
+                                                            "version":  "1.12.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "fb39b166781f92d482534ef4b4b1b2568f42613b53e5b6c160e24cfbfa30926d"
+                                                        },
+                                                        {
+                                                            "name":  "zerocopy",
+                                                            "version":  "0.8.56",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "556764e583adb45a9f8d413c2a147fa7e8d821e48e12b14fd560b607998b75eb"
+                                                        },
+                                                        {
+                                                            "name":  "zerocopy-derive",
+                                                            "version":  "0.8.56",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f2ab42fc20575779bd240faa45f94a74256f755c0fa9e89f0ede20d91d0cdfc1"
+                                                        },
+                                                        {
+                                                            "name":  "windows-link",
+                                                            "version":  "0.2.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5"
+                                                        },
+                                                        {
+                                                            "name":  "windows-sys",
+                                                            "version":  "0.61.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc"
+                                                        },
+                                                        {
+                                                            "name":  "zstd-safe",
+                                                            "version":  "7.2.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "8f49c4d5f0abb602a93fb8736af2a4f4dd9512e36f7f570d66e65ff867ed3b9d"
+                                                        },
+                                                        {
+                                                            "name":  "zstd-sys",
+                                                            "version":  "2.0.16+zstd.1.5.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "91e19ebc2adc8f83e43039e79776e3fda8ca919132d68a1fed6a5faca2683748"
+                                                        },
+                                                        {
+                                                            "name":  "zmij",
+                                                            "version":  "1.0.23",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "29666d0abbfad1e3dc4dcf6144730dd3a3ab225bbbdac83319345b1b44ccfc1b"
+                                                        },
+                                                        {
+                                                            "name":  "zstd",
+                                                            "version":  "0.13.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "e91ee311a569c327171651566e07972200e76fcfe2242a4fa446149a3881c08a"
+                                                        },
+                                                        {
+                                                            "name":  "thiserror",
+                                                            "version":  "2.0.20",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "ec86235f5fcc2a73650310756d2ac5b138a5780bbbdfae3eeccec992c435ba4f"
+                                                        },
+                                                        {
+                                                            "name":  "thiserror-impl",
+                                                            "version":  "2.0.20",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "bc04cd3e1236dd4a98afca4569f2deb3f120e5422a4023be2cb683f8486292af"
+                                                        },
+                                                        {
+                                                            "name":  "syn",
+                                                            "version":  "3.0.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "53e9bae58849f64dfa4f5d5ae372c8341f7305f82a3868709269343628b659a3"
+                                                        },
+                                                        {
+                                                            "name":  "tempfile",
+                                                            "version":  "3.27.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd"
+                                                        },
+                                                        {
+                                                            "name":  "version_check",
+                                                            "version":  "0.9.5",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+                                                        },
+                                                        {
+                                                            "name":  "wide",
+                                                            "version":  "0.7.33",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "0ce5da8ecb62bcd8ec8b7ea19f69a51275e91299be594ea5cc6ef7819e16cd03"
+                                                        },
+                                                        {
+                                                            "name":  "typenum",
+                                                            "version":  "1.20.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20"
+                                                        },
+                                                        {
+                                                            "name":  "unicode-ident",
+                                                            "version":  "1.0.24",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
+                                                        },
+                                                        {
+                                                            "name":  "northstar-market-objects",
+                                                            "version":  "0.1.0"
+                                                        },
+                                                        {
+                                                            "name":  "cpufeatures",
+                                                            "version":  "0.2.17",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "59ed5838eebb26a2bb2e58f6d5b5316989ae9d08bab10e0e6d103e656d1b0280"
+                                                        },
+                                                        {
+                                                            "name":  "cpufeatures",
+                                                            "version":  "0.3.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "8b2a41393f66f16b0823bb79094d54ac5fbd34ab292ddafb9a0456ac9f87d201"
+                                                        },
+                                                        {
+                                                            "name":  "cfg-if",
+                                                            "version":  "1.0.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
+                                                        },
+                                                        {
+                                                            "name":  "constant_time_eq",
+                                                            "version":  "0.4.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "3d52eff69cd5e647efe296129160853a42795992097e8af39800e1060caeea9b"
+                                                        },
+                                                        {
+                                                            "name":  "crossbeam-utils",
+                                                            "version":  "0.8.22",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "61803da095bee82a81bb1a452ecc25d3b2f1416d1897eb86430c6159ef717c17"
+                                                        },
+                                                        {
+                                                            "name":  "crypto-common",
+                                                            "version":  "0.1.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "78c8292055d1c1df0cce5d180393dc8cce0abec0a7102adb6c7b1eef6016d60a"
+                                                        },
+                                                        {
+                                                            "name":  "crossbeam-deque",
+                                                            "version":  "0.8.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "5181e0de7b61eb03a81e347d6dd8797bae9da5146707b51077e2d71a54ec0ceb"
+                                                        },
+                                                        {
+                                                            "name":  "crossbeam-epoch",
+                                                            "version":  "0.9.20",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "2d6914041f254d6e9176c01941b21115dcfb7089e55135a35411081bd106ef3f"
+                                                        },
+                                                        {
+                                                            "name":  "arrayvec",
+                                                            "version":  "0.7.8",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "d3fb67a6e08acf24fdeccbac2cb6ac4305825bd1f117462e0e6f2f193345ad56"
+                                                        },
+                                                        {
+                                                            "name":  "bitflags",
+                                                            "version":  "2.13.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "b588b76d00fde79687d7646a9b5bdf3cc0f655e0bbd080335a95d7e96f3587da"
+                                                        },
+                                                        {
+                                                            "name":  "allocator-api2",
+                                                            "version":  "0.2.21",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "683d7910e743518b0e34f1186f92494becacb047c7b6bf616c96772180fef923"
+                                                        },
+                                                        {
+                                                            "name":  "arrayref",
+                                                            "version":  "0.3.9",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "76a2e8124351fda1ef8aaaa3bbd7ebbcb486bbcd4225aca0aa0d84bb2db8fecb"
+                                                        },
+                                                        {
+                                                            "name":  "bytemuck",
+                                                            "version":  "1.25.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "95832e849adfb21180ccb6826a99da14e5d266ae5c2e668e1602cf234f153797"
+                                                        },
+                                                        {
+                                                            "name":  "cc",
+                                                            "version":  "1.4.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "5d262e149917187838d5b42777c8253bcb64500067342904e7d429499a6f277e"
+                                                        },
+                                                        {
+                                                            "name":  "blake3",
+                                                            "version":  "1.8.6",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "76ae7bad254120e9e4c63bafc385310756f90c484eac0e36b8317cf09cb92a77"
+                                                        },
+                                                        {
+                                                            "name":  "block-buffer",
+                                                            "version":  "0.10.4",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
+                                                        },
+                                                        {
+                                                            "name":  "itoa",
+                                                            "version":  "1.0.18",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
+                                                        },
+                                                        {
+                                                            "name":  "jobserver",
+                                                            "version":  "0.1.35",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "1c00acbd29eabad4a2392fa0e921c874934dbbf4194312ad20f04a0ed67a3cb3"
+                                                        },
+                                                        {
+                                                            "name":  "getrandom",
+                                                            "version":  "0.4.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "300e883d756b2e4ec94e02791f39b04b522276138852cfc41d9fb7e904106099"
+                                                        },
+                                                        {
+                                                            "name":  "hashbrown",
+                                                            "version":  "0.15.5",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9229cfe53dfd69f0609a49f65461bd93001ea1ef889cd5529dd176593f5338a1"
+                                                        },
+                                                        {
+                                                            "name":  "memchr",
+                                                            "version":  "2.8.3",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98"
+                                                        },
+                                                        {
+                                                            "name":  "memmap2",
+                                                            "version":  "0.9.11",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "d1219ed1b7f229ee7104d281dd01d6802fe28bb6e95d292942c4daacdeb798c0"
+                                                        },
+                                                        {
+                                                            "name":  "libc",
+                                                            "version":  "0.2.189",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2"
+                                                        },
+                                                        {
+                                                            "name":  "linux-raw-sys",
+                                                            "version":  "0.12.1",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "32a66949e030da00e8c7d4434b251670a91556f4144941d37452769c25d58a53"
+                                                        },
+                                                        {
+                                                            "name":  "equivalent",
+                                                            "version":  "1.0.2",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
+                                                        },
+                                                        {
+                                                            "name":  "errno",
+                                                            "version":  "0.3.14",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
+                                                        },
+                                                        {
+                                                            "name":  "digest",
+                                                            "version":  "0.10.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292"
+                                                        },
+                                                        {
+                                                            "name":  "either",
+                                                            "version":  "1.17.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "9e5e8f6c15a24b9a3ee5efec809ccd006d3b30e8b3bb63c39af737c7f87daa1d"
+                                                        },
+                                                        {
+                                                            "name":  "foldhash",
+                                                            "version":  "0.1.5",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "d9c4f5dac5e15c24eb999c26181a6ca40b39fe946cbe4c263c7209467bc83af2"
+                                                        },
+                                                        {
+                                                            "name":  "generic-array",
+                                                            "version":  "0.14.7",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a"
+                                                        },
+                                                        {
+                                                            "name":  "fastrand",
+                                                            "version":  "2.5.0",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "da7c62ceae207dd37ea5b845da6a0696c799f85e97da1ab5b7910be3c1c80223"
+                                                        },
+                                                        {
+                                                            "name":  "find-msvc-tools",
+                                                            "version":  "0.1.10",
+                                                            "source":  "registry+https://github.com/rust-lang/crates.io-index",
+                                                            "checksum":  "26b73573e6edcd2af0cdf47bd6cb58f0b3839491263c314eaad1ccf24430e1de"
+                                                        }
+                                                    ]
+                            }
+                        ],
+    "mirror_comparison":  {
+                              "selected_absolute_dependency_count":  1,
+                              "repository_mirror_path":  "research/auction-parity/mql5/MasterParityOracle.mqh",
+                              "repository_mirror_sha256":  "b466fe9b7081f90cc35f004e1dc24568149b703424ac6cc29904fe4883e229d4",
+                              "selected_dependency_sha256":  "e103724cb60642d04d5e5170ee0e28eec198b04d5debb9926dec92cdc34abaea",
+                              "byte_identical":  false,
+                              "substitution_performed":  false
+                          },
+    "invariants":  {
+                       "mt5_unresolved_includes_zero":  true,
+                       "absolute_dependencies_preserved":  true,
+                       "mirror_substitution_forbidden":  true,
+                       "rust_lockfiles_present":  true,
+                       "predecessor_artifacts_mutated":  false,
+                       "confirmation_windows_opened":  false
+                   },
+    "logical_closure_sha256":  "ef21a72a0109c179469e8b4fd7820a8db218d687622a21c5bb932792e07d42fa"
+}

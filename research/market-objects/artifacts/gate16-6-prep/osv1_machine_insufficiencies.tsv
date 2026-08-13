@@ -1,0 +1,19 @@
+insufficiency_id	statement	source_kind	epistemic_status	gate	evidence_id	json_pointer
+G16_5_FORBIDDEN_01	raw object equivalence	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/0
+G16_5_FORBIDDEN_02	best representation	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/1
+G16_FORBIDDEN_04	confirmation-run transportability	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16	G16_FINDINGS	/forbidden_conclusions/3
+G16_FORBIDDEN_05	auction episode overlap organization	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16	G16_FINDINGS	/forbidden_conclusions/4
+G16_5_FORBIDDEN_03	universal geometry	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/2
+G16_5_FORBIDDEN_06	mechanism	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/5
+G16_5_FORBIDDEN_07	economic meaning	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/6
+G16_5_FORBIDDEN_04	family truth	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/3
+G16_5_FORBIDDEN_05	prediction	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16_5	G16_5_FINDINGS	/forbidden_inferences/4
+G15_5_LIMIT_01	Master SPACE is first-class through causal closed-bar snapshot receipts; the seven RG2 auction ledgers do not share the 42 RG3 run identities, so interval intersections remain explicitly not evaluable.	ARTIFACT_DECLARED	INSUFFICIENT_SUPPORT	GATE15_5	G15_5_EXIT	/limitations/0
+G15_5_LIMIT_02	NULL_FAMILY, NULL_STRUCTURAL_CONTEXT, CENSORED_DESTINATION, NOT_APPLICABLE, DATA_GAP, and unavailable auction authority are distinct states.	ARTIFACT_DECLARED	INSUFFICIENT_SUPPORT	GATE15_5	G15_5_EXIT	/limitations/1
+G13R_NO_TRADE_POLICY	trade_policy::False	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE13R	G13R_CERTIFICATE	/trade_policy
+G15_5_AUCTION_INTERVAL_AUTHORITY	NOT_CO_COLLECTED; no attempt/episode/transit interval intersections claimed	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE15_5	G15_5_EXIT	/auction_interval_authority
+G15_5_LIMIT_03	Multiview tuples and lineages are coordinates, never promoted to new families.	ARTIFACT_DECLARED	INSUFFICIENT_SUPPORT	GATE15_5	G15_5_EXIT	/limitations/2
+G16_FORBIDDEN_02	new family or taxonomy	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16	G16_FINDINGS	/forbidden_conclusions/1
+G16_FORBIDDEN_03	prediction or economic meaning	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16	G16_FINDINGS	/forbidden_conclusions/2
+G15_5_LIMIT_04	Fitted systems replay training assignments; no out-of-sample rejection radius is authorized before Gate 16.	ARTIFACT_DECLARED	INSUFFICIENT_SUPPORT	GATE15_5	G15_5_EXIT	/limitations/3
+G16_FORBIDDEN_01	universal best representation	ARTIFACT_DECLARED	NOT_EVALUABLE	GATE16	G16_FINDINGS	/forbidden_conclusions/0

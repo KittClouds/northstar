@@ -1,0 +1,185 @@
+{
+  "contract": "NORTHSTAR_GATE16_6_OSV1_CLOSURE_V1",
+  "status": "FROZEN_PROTOCOL",
+  "purpose": "close Observational System V1 by sealing the admitted observer instance, its stage-qualified implementation authority, empirical ancestry, findings, and explicit insufficiencies without producing new observations",
+  "constitutional_law": "record exactly what the existing observational system saw, how it saw it, where it is blind, and where it has not been evaluated",
+  "identity": {
+    "formula": "OSV1=(W_stage_matrix,Theta0,D0,A0)",
+    "implementation": "a typed MT5 and Rust component bundle whose authority and parity status are declared per stage",
+    "observer_instance": "the exact semantically relevant composite configuration admitted by the sealed corpus",
+    "corpus": "the immutable RG2 and RG3 empirical branches admitted by their existing seals",
+    "ancestry": "a directed acyclic graph of immutable contracts, artifacts, receipts, source closures, and findings through Gate 16.5"
+  },
+  "authority_matrix": [
+    {
+      "stage": "C1_RAW_STRUCTURAL_PRODUCERS",
+      "mt5_status": "AUTHORITATIVE",
+      "rust_status": "NOT_IMPLEMENTED_FOR_INDEPENDENT_PARITY",
+      "parity_status": "OPEN",
+      "boundary": "VolKitt, profile, day-swings, and Wayne raw producer outputs",
+      "reason": "the parity tape does not contain the raw historical producer inputs and exact warmup/state contracts required for independent C1 reconstruction"
+    },
+    {
+      "stage": "C2_D_DOWNSTREAM_RECONSTRUCTION",
+      "mt5_status": "BEHAVIORAL_ORACLE",
+      "rust_status": "INDEPENDENT_RECONSTRUCTION",
+      "parity_status": "PASS",
+      "boundary": "normalization, compatibility, DBSCAN, nodes and lifecycle, provenance, regional state, causal frozen features, auction attempts, episodes, events, censoring, and transits",
+      "reason": "certified from the raw producer-output boundary"
+    },
+    {
+      "stage": "RG3_MARKET_OBJECT_DERIVATION",
+      "mt5_status": "RAW_OBSERVATIONAL_AUTHORITY",
+      "rust_status": "DETERMINISTIC_DERIVATION_AND_SEALING",
+      "parity_status": "REBUILD_DETERMINISM_PASS",
+      "boundary": "compression and expansion objects, representations, atlases, distances, and representation-loss receipts",
+      "reason": "Rust consumes sealed MT5 observations and does not replace MT5 C1 producer authority"
+    }
+  ],
+  "stagewise_matrix_law": {
+    "machine_artifact": "artifacts/gate16-6-prep/osv1_stagewise_parity_matrix.json",
+    "tabular_projection": "artifacts/gate16-6-prep/osv1_stagewise_parity_matrix.tsv",
+    "receipt": "artifacts/gate16-6-prep/osv1_stagewise_parity_matrix_receipt.json",
+    "row_identity": "each row binds one stage, claim class, input boundary, MT5 role, Rust role, status, measured population, certified scope, explicit exclusion, and hashed evidence identifiers",
+    "parity_lane": "only C1 through D3 use the independent reconstruction parity claim class; C1 remains OPEN and C2 through D3 pass only on the bounded admitted oracle",
+    "adjacent_evidence": "MT5 replay determinism, model inference parity, behavioral holdout confirmation, RG3 sealing, and Gate 15 through Gate 16.5 rebuild determinism remain separately typed and cannot be aggregated into a broader implementation-parity claim"
+  },
+  "observer_scope": {
+    "theta0_kind": "COMPOSITE_MULTITIMEFRAME_CONFIGURATION",
+    "known_clock_vector": {
+      "master": "M5",
+      "volkitt": "H1",
+      "profile": "H1",
+      "day_swings": "M5",
+      "wayne": "D1"
+    },
+    "scope_statement": "OSV1 deeply observed one composite multitimeframe configuration, not one timeframe and not the full parameterized observer family",
+    "unobserved": [
+      "alternative composite clock vectors",
+      "alternative Master clocks",
+      "global clock dilation with preserved clock relationships",
+      "single-producer clock substitutions",
+      "altered producer-to-Master clock relationships",
+      "configuration sensitivity outside Theta0"
+    ],
+    "ratio_policy": "timeframe ratios may be recorded only as descriptive configuration metadata; session calendars and nonuniform market time forbid physical scale interpretation"
+  },
+  "theta0_evidence_classes": [
+    "RUN_RECORDED",
+    "CAMPAIGN_CONFIGURED",
+    "COMPILED_DEFAULT",
+    "RECOVERED_FROM_COLLECTION_ENVIRONMENT",
+    "DECLARED_HASHED_NOT_OPERATIONAL",
+    "UNAVAILABLE"
+  ],
+  "theta0_law": [
+    "no parameter is admitted without a source locator and evidence class",
+    "declared inputs are distinguished from settings consumed by executable semantics",
+    "all 42 admitted RG3 runs must resolve to one recorded configuration hash",
+    "a recovered source or executable hash is not called run-bound unless an admitted run receipt contains that hash",
+    "a semantically different configuration is a different observer instance"
+  ],
+  "theta0_artifact_law": {
+    "field_census": "artifacts/gate16-6-prep/osv1_theta0_fields.json",
+    "field_projection": "artifacts/gate16-6-prep/osv1_theta0_fields.tsv",
+    "run_provenance": "artifacts/gate16-6-prep/osv1_theta0_runs.tsv",
+    "receipt": "artifacts/gate16-6-prep/osv1_theta0_receipt.json",
+    "required_field_contract": "every field carries a typed value summary, evidence class, run-binding status, consumption status, configuration-hash membership, and one or more exact provenance locators",
+    "run_binding_limit": "campaign INI values are CAMPAIGN_CONFIGURED; measurement-run values are RUN_RECORDED; expanded Master defaults are RECOVERED_FROM_COLLECTION_ENVIRONMENT and remain not run-bound because no admitted receipt contains the exact EX5 identity or expanded Master ConfigText",
+    "nonoperational_input": "InpRequireFreshLineageWindow is present in every campaign INI and in the RG3 configuration hash but has no operational use outside ObjectConfigText"
+  },
+  "ancestry_law": {
+    "shape": "DAG_NOT_LINEAR_CHAIN",
+    "branches": [
+      "RG2 -> Phase 10 -> Phase 10.5 -> Phase 11 -> Gate 13R",
+      "RG3 -> Gate 14 -> Gate 15 -> Gate 15.5 -> Gate 16 -> Gate 16.5"
+    ],
+    "dag_artifact": "artifacts/gate16-6-prep/osv1_ancestry_dag.json",
+    "node_projection": "artifacts/gate16-6-prep/osv1_ancestry_nodes.tsv",
+    "edge_projection": "artifacts/gate16-6-prep/osv1_ancestry_edges.tsv",
+    "root_manifest": "artifacts/gate16-6-prep/osv1_root_manifest.json",
+    "root_receipt": "artifacts/gate16-6-prep/osv1_root_receipt.json",
+    "root_rule": "leaf identities and registries are hashed first; the OSV1 root manifest is built after all children; the root receipt is written last",
+    "evidence_rule": "every ancestry node binds the exact SHA-256, declared contract, and admitted status of its machine artifact"
+  },
+  "findings_law": {
+    "required_fields": [
+      "finding_id",
+      "statement",
+      "epistemic_status",
+      "source_kind",
+      "gate",
+      "population",
+      "contract_id",
+      "artifact_path",
+      "artifact_sha256"
+    ],
+    "source_kinds": [
+      "MACHINE_DERIVED",
+      "ARTIFACT_DECLARED",
+      "HUMAN_SUMMARY"
+    ],
+    "statuses": [
+      "OBSERVED",
+      "SUPPORTED_EXPLORATORY",
+      "CONFIRMED",
+      "MIXED",
+      "INSUFFICIENT_SUPPORT",
+      "NOT_EVALUABLE",
+      "FROZEN_UNOPENED",
+      "UNSEALED_STATEMENT"
+    ],
+    "authority_rule": "a prose-only or human-summary claim cannot become an authoritative OSV1 fact without a sealed machine artifact"
+  },
+  "findings_artifact_law": {
+    "ledger": "artifacts/gate16-6-prep/osv1_machine_findings.json",
+    "finding_projection": "artifacts/gate16-6-prep/osv1_machine_findings.tsv",
+    "insufficiency_projection": "artifacts/gate16-6-prep/osv1_machine_insufficiencies.tsv",
+    "receipt": "artifacts/gate16-6-prep/osv1_machine_findings_receipt.json",
+    "admission": "only JSON artifacts whose exact SHA-256 is bound by a machine certificate, manifest, or seal receipt may produce a finding or insufficiency",
+    "excluded_sources": "Markdown, prose reports, human summaries, unsealed JSON, inferred values, and rewritten interpretations are never finding authority"
+  },
+  "source_closure_law": {
+    "mt5": "resolve the recursive preprocessor include closure from the RG3 collector source actually present in the collection terminal; preserve absolute external includes exactly and fail on unresolved dependencies",
+    "rust": "seal repository-relative local source, manifests, and lockfiles for the auction-parity and market-object workspaces; preserve registry package identities through Cargo.lock",
+    "replacement_forbidden": "a current repository mirror may be compared but never silently substituted for the source path selected by the admitted build",
+    "logical_identity": "hash canonical logical locators and file SHA-256 values in deterministic order",
+    "physical_identity": "record exact source locators and file SHA-256 values separately from logical identity"
+  },
+  "rebuild_law": {
+    "proof": "artifacts/gate16-6-prep/osv1_double_rebuild_proof.json",
+    "execution_count": 2,
+    "comparison": "all 17 closure artifacts are rebuilt independently and must be byte-identical to one another and to the canonical closure",
+    "failure_mode": "any missing artifact, byte mismatch, ancestry failure, or root receipt mismatch aborts closure"
+  },
+  "preserved_limits": [
+    "C1 independent Rust producer parity remains OPEN",
+    "auction interval conditioning remains NOT_EVALUABLE",
+    "cross-scale object and geometry transport remain NOT_EVALUABLE",
+    "Gate 15 confirmation windows remain FROZEN_UNOPENED",
+    "no representation is universally preferred",
+    "no mechanism, economic usefulness, policy, deployment, or trading authority is created"
+  ],
+  "forbidden": [
+    "new market observations",
+    "new watcher",
+    "new representation or distance",
+    "new clustering or model",
+    "parameter search",
+    "opening Gate 15 confirmation windows",
+    "economic or trading interpretation",
+    "mutation of RG2, RG3, or Gate 13R through Gate 16.5 artifacts"
+  ],
+  "exit_requirements": [
+    "stage-qualified implementation identity sealed",
+    "Theta0 field census complete with evidence and consumption status",
+    "MT5 and Rust source dependency closure resolves without substitution",
+    "empirical ancestry DAG resolves",
+    "findings and insufficiency ledgers are deterministic",
+    "two independent closure rebuilds are byte-identical",
+    "OSV1 root manifest and receipt bind both ancestry leaves",
+    "all predecessor artifacts remain byte-identical",
+    "confirmation windows remain unopened"
+  ],
+  "constrained_claim": "Gate 16.6 closes one admitted composite observer instance with MT5 producer authority and independently parity-verified downstream Rust reconstruction from the raw producer-output boundary. It seals the RG2 and RG3 empirical ancestry through Gate 16.5 while leaving independent C1 parity, alternative observer configurations, cross-scale transport, auction-interval conditioning, mechanism, economics, and trading authority explicitly unresolved."
+}

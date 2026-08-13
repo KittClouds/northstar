@@ -1,0 +1,11 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_THETA0_RECEIPT_V1",
+    "status":  "PASS",
+    "logical_theta0_sha256":  "fbcbfdfb79e91cbb70e3e39b673d2cfa15164000c28002b6f76f2e9ce98a2fa7",
+    "fields_sha256":  "35cf5d08284363244492af3c7a729c3fb22e4448f705521282a36f2070d176ae",
+    "fields_tsv_sha256":  "6b42d8b13ffc99779c31e3ac2e3c49597e855149d6a598cbc7401df2678d783e",
+    "runs_tsv_sha256":  "a1d9ea90211b004d02e1bca1efddd48272366cc5351c014234e1d985f33e4a50",
+    "field_count":  134,
+    "admitted_run_count":  42,
+    "confirmation_windows_opened":  false
+}

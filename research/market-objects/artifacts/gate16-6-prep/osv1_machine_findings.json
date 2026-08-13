@@ -1,0 +1,1079 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_MACHINE_FINDINGS_V1",
+    "status":  "PASS_MACHINE_ARTIFACTS_ONLY",
+    "authority_rule":  "every finding and insufficiency is read from a JSON artifact bound by a machine certificate, manifest, or seal receipt",
+    "evidence_count":  8,
+    "finding_count":  24,
+    "insufficiency_count":  18,
+    "evidence":  [
+                     {
+                         "evidence_id":  "G13R_CERTIFICATE",
+                         "artifact_path":  "research/auction-parity/artifacts/phase13r-evaluation/certificate_manifest.json",
+                         "artifact_sha256":  "7393ec2eebc7416bcf407689d10c424a03a1a91331d327e2d61f562d13fbc20c",
+                         "seal_path":  "research/auction-parity/artifacts/phase13r-evaluation/certificate_manifest.json",
+                         "seal_sha256":  "7393ec2eebc7416bcf407689d10c424a03a1a91331d327e2d61f562d13fbc20c",
+                         "seal_binding":  "ROOT_MACHINE_CERTIFICATE_OR_MANIFEST",
+                         "contract":  "NORTHSTAR_PHASE13R_CERTIFICATE_V1",
+                         "observed_status":  "COMPLETE"
+                     },
+                     {
+                         "evidence_id":  "G15_CORPUS",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-corpus-manifest.json",
+                         "artifact_sha256":  "438b8f977a32708f41bc7a1ef08c7269b1a76d41140f5ea71351ffb8a33d87bc",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-corpus-manifest.json",
+                         "seal_sha256":  "438b8f977a32708f41bc7a1ef08c7269b1a76d41140f5ea71351ffb8a33d87bc",
+                         "seal_binding":  "ROOT_MACHINE_CERTIFICATE_OR_MANIFEST",
+                         "contract":  "NORTHSTAR_RG3_GATE15_SEALED_CORPUS_MANIFEST_V1",
+                         "observed_status":  "SEALED"
+                     },
+                     {
+                         "evidence_id":  "G15_5_RECEIPT",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_receipt.json",
+                         "artifact_sha256":  "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_receipt.json",
+                         "seal_sha256":  "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+                         "seal_binding":  "ROOT_MACHINE_CERTIFICATE_OR_MANIFEST",
+                         "contract":  "NORTHSTAR_RG3_GATE15_5_ATLAS_RECEIPT_V1",
+                         "observed_status":  "PASS"
+                     },
+                     {
+                         "evidence_id":  "G15_5_EXIT",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_exit_report.json",
+                         "artifact_sha256":  "ba4fa15131f84b97de2227696d52eded21a2ad1d92c1d06265bba5771938af93",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_receipt.json",
+                         "seal_sha256":  "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+                         "seal_binding":  "FILES_MAP::gate15_5_exit_report.json",
+                         "contract":  "NORTHSTAR_RG3_GATE15_5_TRI_INSTRUMENT_ATLAS_V1",
+                         "observed_status":  "PASS"
+                     },
+                     {
+                         "evidence_id":  "G16_SEAL",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-seal-receipt.json",
+                         "artifact_sha256":  "8a20debf6b8075026c3fdb1d5eb3f391cdbda3026df63cfd7a1407bef15d30f9",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-seal-receipt.json",
+                         "seal_sha256":  "8a20debf6b8075026c3fdb1d5eb3f391cdbda3026df63cfd7a1407bef15d30f9",
+                         "seal_binding":  "ROOT_MACHINE_CERTIFICATE_OR_MANIFEST",
+                         "contract":  "NORTHSTAR_RG3_GATE16_SEAL_RECEIPT_V1",
+                         "observed_status":  "PASS"
+                     },
+                     {
+                         "evidence_id":  "G16_FINDINGS",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-findings.json",
+                         "artifact_sha256":  "8d054e33892ed66aedecf37151391aa090b0845635a522ebf26a643979a64443",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-seal-receipt.json",
+                         "seal_sha256":  "8a20debf6b8075026c3fdb1d5eb3f391cdbda3026df63cfd7a1407bef15d30f9",
+                         "seal_binding":  "FILES_MAP::seal/gate16-findings.json",
+                         "contract":  "NORTHSTAR_RG3_GATE16_FINDINGS_V1",
+                         "observed_status":  "PASS_WITH_EXPLICIT_LIMITS"
+                     },
+                     {
+                         "evidence_id":  "G16_5_SEAL",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-seal-receipt.json",
+                         "artifact_sha256":  "aac266a506d9e0dd4779ba876f50636321272c954f72222ca1a5c7fd3164d908",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-seal-receipt.json",
+                         "seal_sha256":  "aac266a506d9e0dd4779ba876f50636321272c954f72222ca1a5c7fd3164d908",
+                         "seal_binding":  "ROOT_MACHINE_CERTIFICATE_OR_MANIFEST",
+                         "contract":  "NORTHSTAR_RG3_GATE16_5_SEAL_RECEIPT_V1",
+                         "observed_status":  "PASS_WITH_OBSERVATIONAL_FINDINGS"
+                     },
+                     {
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "artifact_path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-findings.json",
+                         "artifact_sha256":  "bd4e6bdc99f25b28d947b89f5824665c623729268cf621d0d90c6754e340030d",
+                         "seal_path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-seal-receipt.json",
+                         "seal_sha256":  "aac266a506d9e0dd4779ba876f50636321272c954f72222ca1a5c7fd3164d908",
+                         "seal_binding":  "DIRECT_HASH::findings_sha256",
+                         "contract":  "NORTHSTAR_RG3_GATE16_5_FINDINGS_V1",
+                         "observed_status":  "OBSERVATIONAL_FINDINGS_ONLY"
+                     }
+                 ],
+    "findings":  [
+                     {
+                         "finding_id":  "G16_MATCHING_GATE15_FAMILY_LOCAL_GEOMETRY_ALIGNMENT",
+                         "statement":  "matching_gate15_family_local_geometry_alignment",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16",
+                         "population":  {
+                                            "objects":  1091,
+                                            "completed":  1048,
+                                            "censored":  43,
+                                            "instruments":  6
+                                        },
+                         "measurements":  {
+                                              "nearest_neighbor_same_family_rate":  0.904580,
+                                              "population":  3144
+                                          },
+                         "evidence_id":  "G16_FINDINGS",
+                         "json_pointers":  [
+                                               "/findings/3",
+                                               "/object_population",
+                                               "/completed_objects",
+                                               "/censored_objects",
+                                               "/instruments"
+                                           ],
+                         "artifact_limits":  "retrospective diagnostic only"
+                     },
+                     {
+                         "finding_id":  "G16_MASTER_POINT_STATE_DESCRIPTIVELY_ORGANIZES_CANONICAL_TRAJECTORY_DISTANCE",
+                         "statement":  "master_point_state_descriptively_organizes_canonical_trajectory_distance",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16",
+                         "population":  {
+                                            "objects":  1091,
+                                            "completed":  1048,
+                                            "censored":  43,
+                                            "instruments":  6
+                                        },
+                         "measurements":  {
+                                              "same_stratum_median":  0.3371167911668911,
+                                              "different_stratum_median":  0.3721592142336868,
+                                              "population":  1048
+                                          },
+                         "evidence_id":  "G16_FINDINGS",
+                         "json_pointers":  [
+                                               "/findings/4",
+                                               "/object_population",
+                                               "/completed_objects",
+                                               "/censored_objects",
+                                               "/instruments"
+                                           ],
+                         "artifact_limits":  "no blocked uncertainty and no auction interval conditioning"
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_01",
+                         "statement":  "No summary or trajectory contract produced an exact or machine-derived epsilon-near collision in the admitted RG3 corpus.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/0",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_RAW_AND_CANONICAL_TRAJECTORY_GEOMETRY_RELATED_NOT_IDENTICAL",
+                         "statement":  "raw_and_canonical_trajectory_geometry_related_not_identical",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16",
+                         "population":  {
+                                            "objects":  1091,
+                                            "completed":  1048,
+                                            "censored":  43,
+                                            "instruments":  6
+                                        },
+                         "measurements":  {
+                                              "compression_top10_jaccard":  0.3813799066239014,
+                                              "compression_shared_rank_correlation":  0.9800410268398156,
+                                              "expansion_top10_jaccard":  0.42708661509881646,
+                                              "expansion_shared_rank_correlation":  0.8583346015829771
+                                          },
+                         "evidence_id":  "G16_FINDINGS",
+                         "json_pointers":  [
+                                               "/findings/0",
+                                               "/object_population",
+                                               "/completed_objects",
+                                               "/censored_objects",
+                                               "/instruments"
+                                           ],
+                         "artifact_limits":  [
+                                                 "universal best representation",
+                                                 "new family or taxonomy",
+                                                 "prediction or economic meaning",
+                                                 "confirmation-run transportability",
+                                                 "auction episode overlap organization"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_EVENT_AND_GRAPH_NEIGHBORHOODS_DIFFER",
+                         "statement":  "event_and_graph_neighborhoods_differ",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16",
+                         "population":  {
+                                            "objects":  1091,
+                                            "completed":  1048,
+                                            "censored":  43,
+                                            "instruments":  6
+                                        },
+                         "measurements":  {
+                                              "compression_top10_jaccard":  0.1854177730036405,
+                                              "expansion_top10_jaccard":  0.06378399530424586
+                                          },
+                         "evidence_id":  "G16_FINDINGS",
+                         "json_pointers":  [
+                                               "/findings/1",
+                                               "/object_population",
+                                               "/completed_objects",
+                                               "/censored_objects",
+                                               "/instruments"
+                                           ],
+                         "artifact_limits":  "incremental graph information unresolved because RG3 lacks intrinsic branch and merge authority"
+                     },
+                     {
+                         "finding_id":  "G16_REPRESENTATION_LOSS_VISIBLE_IN_ZERO_DISTANCE_TOP10_EDGES",
+                         "statement":  "representation_loss_visible_in_zero_distance_top10_edges",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16",
+                         "population":  {
+                                            "objects":  1091,
+                                            "completed":  1048,
+                                            "censored":  43,
+                                            "instruments":  6
+                                        },
+                         "measurements":  {
+                                              "event_sequence_material_collisions":  2970,
+                                              "graph_material_collisions":  9520,
+                                              "scope":  "exact within emitted top-10 neighbor edges, not all pairs"
+                                          },
+                         "evidence_id":  "G16_FINDINGS",
+                         "json_pointers":  [
+                                               "/findings/2",
+                                               "/object_population",
+                                               "/completed_objects",
+                                               "/censored_objects",
+                                               "/instruments"
+                                           ],
+                         "artifact_limits":  [
+                                                 "universal best representation",
+                                                 "new family or taxonomy",
+                                                 "prediction or economic meaning",
+                                                 "confirmation-run transportability",
+                                                 "auction episode overlap organization"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_05",
+                         "statement":  "Typed-multiset and WL2 graph zero kernels were identical for expansion and nearly identical for compression.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/4",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_06",
+                         "statement":  "Graph disagreement did not establish incremental information because authoritative branch/merge topology is unavailable.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/5",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_07",
+                         "statement":  "Point-state structural strata showed a small pooled distance association with mixed run-level signs; auction interval conditioning remained not evaluable.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/6",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_02",
+                         "statement":  "Every event and graph exact-zero pair retained different raw-history and continuous-trajectory hashes.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/1",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_03",
+                         "statement":  "Canonicalization strictly enlarged the observed raw event and graph zero sets by erasing directional orientation.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/2",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G16_5_OBSERVATION_04",
+                         "statement":  "Canonical expansion Graph V1 collapsed into three exhaustive classes of sizes 510, 27, and 1 under both frozen graph distances.",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE16_5",
+                         "population":  {
+                                            "census":  {
+                                                           "contract_qualified_evaluations":  5941620,
+                                                           "exact_zero_relations":  498115,
+                                                           "unique_exact_zero_object_pairs":  161957,
+                                                           "unique_by_kind":  {
+                                                                                  "COMPRESSION":  31811,
+                                                                                  "EXPANSION":  130146
+                                                                              },
+                                                           "epsilon_near_relations":  0,
+                                                           "not_comparable_relations":  276174
+                                                       }
+                                        },
+                         "measurements":  {
+                                              "census":  {
+                                                             "contract_qualified_evaluations":  5941620,
+                                                             "exact_zero_relations":  498115,
+                                                             "unique_exact_zero_object_pairs":  161957,
+                                                             "unique_by_kind":  {
+                                                                                    "COMPRESSION":  31811,
+                                                                                    "EXPANSION":  130146
+                                                                                },
+                                                             "epsilon_near_relations":  0,
+                                                             "not_comparable_relations":  276174
+                                                         }
+                                          },
+                         "evidence_id":  "G16_5_FINDINGS",
+                         "json_pointers":  [
+                                               "/observations/3",
+                                               "/census"
+                                           ],
+                         "artifact_limits":  [
+                                                 "raw object equivalence",
+                                                 "best representation",
+                                                 "universal geometry",
+                                                 "family truth",
+                                                 "prediction",
+                                                 "mechanism",
+                                                 "economic meaning"
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G13R_RETEST_HOLD_GIVEN_RETEST_CONTACT",
+                         "statement":  "candidate::retest_hold_given_retest_contact::PASS",
+                         "epistemic_status":  "CONFIRMED",
+                         "source_kind":  "ARTIFACT_DECLARED",
+                         "gate":  "GATE13R",
+                         "population":  {
+                                            "sealed_runs":  12,
+                                            "quarantined_runs":  0
+                                        },
+                         "measurements":  {
+                                              "candidate":  "retest_hold_given_retest_contact",
+                                              "outcome":  "PASS",
+                                              "behavioral_only":  true,
+                                              "trade_policy":  false
+                                          },
+                         "evidence_id":  "G13R_CERTIFICATE",
+                         "json_pointers":  [
+                                               "/candidate_outcomes/retest_hold_given_retest_contact",
+                                               "/sealed_runs",
+                                               "/quarantined_runs",
+                                               "/behavioral_only",
+                                               "/trade_policy"
+                                           ],
+                         "artifact_limits":  {
+                                                 "behavioral_only":  true,
+                                                 "trade_policy":  false
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_RG3_CORPUS_SEALED",
+                         "statement":  "NORTHSTAR_RG3_GATE15_SEALED_CORPUS_MANIFEST_V1::SEALED",
+                         "epistemic_status":  "OBSERVED",
+                         "source_kind":  "ARTIFACT_DECLARED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "runs":  42,
+                                            "objects":  1091,
+                                            "instruments":  6
+                                        },
+                         "measurements":  {
+                                              "canonical_corpus_sha256":  "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+                                              "totals":  {
+                                                             "compression_objects":  553,
+                                                             "expansion_objects":  538,
+                                                             "compression_samples":  14972,
+                                                             "expansion_samples":  38458,
+                                                             "object_relations":  4408,
+                                                             "structural_samples":  55150
+                                                         },
+                                              "objects_by_instrument":  {
+                                                                            "DE40":  160,
+                                                                            "FRA40":  165,
+                                                                            "JPN225":  182,
+                                                                            "US30":  183,
+                                                                            "US500":  199,
+                                                                            "USTEC":  202
+                                                                        }
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/admitted_run_count",
+                                               "/canonical_corpus_sha256",
+                                               "/totals",
+                                               "/objects_by_instrument"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_COMPRESSION_HYBRID_MIRRORED_V1",
+                         "statement":  "family_system::COMPRESSION::hybrid_mirrored_v1",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "supported_objects":  538,
+                                            "noise_objects":  0
+                                        },
+                         "measurements":  {
+                                              "family_system_sha256":  "5eb5a2741a3c0de08701438efe24f1326da1bc298f2f1bdee875a56d69315599",
+                                              "common_families":  2,
+                                              "mean_seed_ari":  0.9740790154777201,
+                                              "noise_fraction":  0.0
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/family_systems"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     },
+                     {
+                         "finding_id":  "G13R_INITIAL_ACCEPTANCE_GIVEN_INITIAL_CONTACT",
+                         "statement":  "candidate::initial_acceptance_given_initial_contact::PASS",
+                         "epistemic_status":  "CONFIRMED",
+                         "source_kind":  "ARTIFACT_DECLARED",
+                         "gate":  "GATE13R",
+                         "population":  {
+                                            "sealed_runs":  12,
+                                            "quarantined_runs":  0
+                                        },
+                         "measurements":  {
+                                              "candidate":  "initial_acceptance_given_initial_contact",
+                                              "outcome":  "PASS",
+                                              "behavioral_only":  true,
+                                              "trade_policy":  false
+                                          },
+                         "evidence_id":  "G13R_CERTIFICATE",
+                         "json_pointers":  [
+                                               "/candidate_outcomes/initial_acceptance_given_initial_contact",
+                                               "/sealed_runs",
+                                               "/quarantined_runs",
+                                               "/behavioral_only",
+                                               "/trade_policy"
+                                           ],
+                         "artifact_limits":  {
+                                                 "behavioral_only":  true,
+                                                 "trade_policy":  false
+                                             }
+                     },
+                     {
+                         "finding_id":  "G13R_RECLAIM_GIVEN_BREAK",
+                         "statement":  "candidate::reclaim_given_break::PASS",
+                         "epistemic_status":  "CONFIRMED",
+                         "source_kind":  "ARTIFACT_DECLARED",
+                         "gate":  "GATE13R",
+                         "population":  {
+                                            "sealed_runs":  12,
+                                            "quarantined_runs":  0
+                                        },
+                         "measurements":  {
+                                              "candidate":  "reclaim_given_break",
+                                              "outcome":  "PASS",
+                                              "behavioral_only":  true,
+                                              "trade_policy":  false
+                                          },
+                         "evidence_id":  "G13R_CERTIFICATE",
+                         "json_pointers":  [
+                                               "/candidate_outcomes/reclaim_given_break",
+                                               "/sealed_runs",
+                                               "/quarantined_runs",
+                                               "/behavioral_only",
+                                               "/trade_policy"
+                                           ],
+                         "artifact_limits":  {
+                                                 "behavioral_only":  true,
+                                                 "trade_policy":  false
+                                             }
+                     },
+                     {
+                         "finding_id":  "G13R_REJECTION_GIVEN_INITIAL_CONTACT",
+                         "statement":  "candidate::rejection_given_initial_contact::PASS",
+                         "epistemic_status":  "CONFIRMED",
+                         "source_kind":  "ARTIFACT_DECLARED",
+                         "gate":  "GATE13R",
+                         "population":  {
+                                            "sealed_runs":  12,
+                                            "quarantined_runs":  0
+                                        },
+                         "measurements":  {
+                                              "candidate":  "rejection_given_initial_contact",
+                                              "outcome":  "PASS",
+                                              "behavioral_only":  true,
+                                              "trade_policy":  false
+                                          },
+                         "evidence_id":  "G13R_CERTIFICATE",
+                         "json_pointers":  [
+                                               "/candidate_outcomes/rejection_given_initial_contact",
+                                               "/sealed_runs",
+                                               "/quarantined_runs",
+                                               "/behavioral_only",
+                                               "/trade_policy"
+                                           ],
+                         "artifact_limits":  {
+                                                 "behavioral_only":  true,
+                                                 "trade_policy":  false
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_EXPANSION_RESAMPLED_SHAPE_V1",
+                         "statement":  "family_system::EXPANSION::resampled_shape_v1",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "supported_objects":  510,
+                                            "noise_objects":  0
+                                        },
+                         "measurements":  {
+                                              "family_system_sha256":  "58b56f65841117821e44b18d673cfbb724cd5634db5b5747ed1942b1ec4531e1",
+                                              "common_families":  2,
+                                              "mean_seed_ari":  0.8309302687062207,
+                                              "noise_fraction":  0.0
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/family_systems"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_EXPANSION_SUMMARY_GEOMETRY_V1",
+                         "statement":  "family_system::EXPANSION::summary_geometry_v1",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "supported_objects":  498,
+                                            "noise_objects":  12
+                                        },
+                         "measurements":  {
+                                              "family_system_sha256":  "ab7a0b1ee23b4f15713a65550bc59230eb702d8e1e3842b025330ae51207cd92",
+                                              "common_families":  2,
+                                              "mean_seed_ari":  0.910814405237795,
+                                              "noise_fraction":  0.023529411764705882
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/family_systems"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_5_RELATIONAL_ATLAS",
+                         "statement":  "EXPLORATORY_RELATIONAL_ATLAS_NOT_TAXONOMY",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "ARTIFACT_DECLARED",
+                         "gate":  "GATE15_5",
+                         "population":  {
+                                            "runs":  42,
+                                            "objects":  1091,
+                                            "lineages":  538
+                                        },
+                         "measurements":  {
+                                              "structural_bridge_receipts":  2735,
+                                              "exact_receipts":  2690,
+                                              "asof_receipts":  5,
+                                              "null_structural_receipts":  40,
+                                              "graph_nodes":  3236,
+                                              "graph_edges":  10106
+                                          },
+                         "evidence_id":  "G15_5_EXIT",
+                         "json_pointers":  [
+                                               "/epistemic_status",
+                                               "/source_run_count",
+                                               "/source_object_count",
+                                               "/structural_bridge_receipts",
+                                               "/exact_receipts",
+                                               "/asof_receipts",
+                                               "/null_structural_receipts",
+                                               "/graph_nodes",
+                                               "/graph_edges"
+                                           ],
+                         "artifact_limits":  [
+                                                 "Master SPACE is first-class through causal closed-bar snapshot receipts; the seven RG2 auction ledgers do not share the 42 RG3 run identities, so interval intersections remain explicitly not evaluable.",
+                                                 "NULL_FAMILY, NULL_STRUCTURAL_CONTEXT, CENSORED_DESTINATION, NOT_APPLICABLE, DATA_GAP, and unavailable auction authority are distinct states.",
+                                                 "Multiview tuples and lineages are coordinates, never promoted to new families.",
+                                                 "Fitted systems replay training assignments; no out-of-sample rejection radius is authorized before Gate 16."
+                                             ]
+                     },
+                     {
+                         "finding_id":  "G15_COMPRESSION_RESAMPLED_SHAPE_V1",
+                         "statement":  "family_system::COMPRESSION::resampled_shape_v1",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "supported_objects":  538,
+                                            "noise_objects":  0
+                                        },
+                         "measurements":  {
+                                              "family_system_sha256":  "97373352c79af3746b7718cd3cc03c3880ee3f1f124aba1f415e4970f807f17b",
+                                              "common_families":  2,
+                                              "mean_seed_ari":  0.995774792595591,
+                                              "noise_fraction":  0.0
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/family_systems"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_COMPRESSION_SUMMARY_GEOMETRY_V1",
+                         "statement":  "family_system::COMPRESSION::summary_geometry_v1",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "supported_objects":  538,
+                                            "noise_objects":  0
+                                        },
+                         "measurements":  {
+                                              "family_system_sha256":  "297001a37593a9f07f114956e146320e18f378912d6e483f8c6ea92499bc2c5e",
+                                              "common_families":  2,
+                                              "mean_seed_ari":  0.897676915084478,
+                                              "noise_fraction":  0.0
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/family_systems"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     },
+                     {
+                         "finding_id":  "G15_EXPANSION_HYBRID_MIRRORED_V1",
+                         "statement":  "family_system::EXPANSION::hybrid_mirrored_v1",
+                         "epistemic_status":  "SUPPORTED_EXPLORATORY",
+                         "source_kind":  "MACHINE_DERIVED",
+                         "gate":  "GATE15",
+                         "population":  {
+                                            "supported_objects":  510,
+                                            "noise_objects":  0
+                                        },
+                         "measurements":  {
+                                              "family_system_sha256":  "aec22711ee5d4716189e7ee5fdb6f66806372f7673db38195f12c52920b27f37",
+                                              "common_families":  3,
+                                              "mean_seed_ari":  0.9787750066075149,
+                                              "noise_fraction":  0.0
+                                          },
+                         "evidence_id":  "G15_CORPUS",
+                         "json_pointers":  [
+                                               "/family_systems"
+                                           ],
+                         "artifact_limits":  {
+                                                 "discovery_v2_status":  "COLLECT_MORE"
+                                             }
+                     }
+                 ],
+    "insufficiencies":  [
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_01",
+                                "statement":  "raw object equivalence",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/0"
+                            },
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_02",
+                                "statement":  "best representation",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/1"
+                            },
+                            {
+                                "insufficiency_id":  "G16_FORBIDDEN_04",
+                                "statement":  "confirmation-run transportability",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16",
+                                "evidence_id":  "G16_FINDINGS",
+                                "json_pointer":  "/forbidden_conclusions/3"
+                            },
+                            {
+                                "insufficiency_id":  "G16_FORBIDDEN_05",
+                                "statement":  "auction episode overlap organization",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16",
+                                "evidence_id":  "G16_FINDINGS",
+                                "json_pointer":  "/forbidden_conclusions/4"
+                            },
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_03",
+                                "statement":  "universal geometry",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/2"
+                            },
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_06",
+                                "statement":  "mechanism",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/5"
+                            },
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_07",
+                                "statement":  "economic meaning",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/6"
+                            },
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_04",
+                                "statement":  "family truth",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/3"
+                            },
+                            {
+                                "insufficiency_id":  "G16_5_FORBIDDEN_05",
+                                "statement":  "prediction",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16_5",
+                                "evidence_id":  "G16_5_FINDINGS",
+                                "json_pointer":  "/forbidden_inferences/4"
+                            },
+                            {
+                                "insufficiency_id":  "G15_5_LIMIT_01",
+                                "statement":  "Master SPACE is first-class through causal closed-bar snapshot receipts; the seven RG2 auction ledgers do not share the 42 RG3 run identities, so interval intersections remain explicitly not evaluable.",
+                                "epistemic_status":  "INSUFFICIENT_SUPPORT",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE15_5",
+                                "evidence_id":  "G15_5_EXIT",
+                                "json_pointer":  "/limitations/0"
+                            },
+                            {
+                                "insufficiency_id":  "G15_5_LIMIT_02",
+                                "statement":  "NULL_FAMILY, NULL_STRUCTURAL_CONTEXT, CENSORED_DESTINATION, NOT_APPLICABLE, DATA_GAP, and unavailable auction authority are distinct states.",
+                                "epistemic_status":  "INSUFFICIENT_SUPPORT",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE15_5",
+                                "evidence_id":  "G15_5_EXIT",
+                                "json_pointer":  "/limitations/1"
+                            },
+                            {
+                                "insufficiency_id":  "G13R_NO_TRADE_POLICY",
+                                "statement":  "trade_policy::False",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE13R",
+                                "evidence_id":  "G13R_CERTIFICATE",
+                                "json_pointer":  "/trade_policy"
+                            },
+                            {
+                                "insufficiency_id":  "G15_5_AUCTION_INTERVAL_AUTHORITY",
+                                "statement":  "NOT_CO_COLLECTED; no attempt/episode/transit interval intersections claimed",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE15_5",
+                                "evidence_id":  "G15_5_EXIT",
+                                "json_pointer":  "/auction_interval_authority"
+                            },
+                            {
+                                "insufficiency_id":  "G15_5_LIMIT_03",
+                                "statement":  "Multiview tuples and lineages are coordinates, never promoted to new families.",
+                                "epistemic_status":  "INSUFFICIENT_SUPPORT",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE15_5",
+                                "evidence_id":  "G15_5_EXIT",
+                                "json_pointer":  "/limitations/2"
+                            },
+                            {
+                                "insufficiency_id":  "G16_FORBIDDEN_02",
+                                "statement":  "new family or taxonomy",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16",
+                                "evidence_id":  "G16_FINDINGS",
+                                "json_pointer":  "/forbidden_conclusions/1"
+                            },
+                            {
+                                "insufficiency_id":  "G16_FORBIDDEN_03",
+                                "statement":  "prediction or economic meaning",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16",
+                                "evidence_id":  "G16_FINDINGS",
+                                "json_pointer":  "/forbidden_conclusions/2"
+                            },
+                            {
+                                "insufficiency_id":  "G15_5_LIMIT_04",
+                                "statement":  "Fitted systems replay training assignments; no out-of-sample rejection radius is authorized before Gate 16.",
+                                "epistemic_status":  "INSUFFICIENT_SUPPORT",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE15_5",
+                                "evidence_id":  "G15_5_EXIT",
+                                "json_pointer":  "/limitations/3"
+                            },
+                            {
+                                "insufficiency_id":  "G16_FORBIDDEN_01",
+                                "statement":  "universal best representation",
+                                "epistemic_status":  "NOT_EVALUABLE",
+                                "source_kind":  "ARTIFACT_DECLARED",
+                                "gate":  "GATE16",
+                                "evidence_id":  "G16_FINDINGS",
+                                "json_pointer":  "/forbidden_conclusions/0"
+                            }
+                        ],
+    "invariants":  {
+                       "human_summary_sources":  0,
+                       "markdown_sources":  0,
+                       "unsealed_machine_sources":  0,
+                       "confirmation_windows_opened":  false,
+                       "economic_authority":  false,
+                       "trading_authority":  false
+                   },
+    "logical_findings_sha256":  "d2fa9783ee7a75b5748e3dd6c1241d340f8b443b623c8f8b5ccdfaa7a473f697"
+}

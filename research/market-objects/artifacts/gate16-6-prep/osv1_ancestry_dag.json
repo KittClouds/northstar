@@ -1,0 +1,215 @@
+{
+    "contract":  "NORTHSTAR_GATE16_6_OSV1_ANCESTRY_DAG_V1",
+    "status":  "PASS",
+    "shape":  "TWO_BRANCH_DAG",
+    "branch_count":  2,
+    "root_node_id":  "OSV1_ROOT",
+    "nodes":  [
+                  {
+                      "node_id":  "RG2_PHASE10",
+                      "branch":  "RG2",
+                      "stage":  "PHASE_10_CORPUS_SEAL",
+                      "authority_role":  "EMPIRICAL_CORPUS_AND_PARITY_FOUNDATION",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/auction-parity/proof/rg2_corpus_parity.json",
+                                           "sha256":  "32f7c2edb36f9be02bac56bccca2d5a7d155ff287b6cabea798bd7c4fd5f8cd0",
+                                           "contract":  "NORTHSTAR_MT5_CORPUS_PARITY_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG2_PHASE10_5",
+                      "branch":  "RG2",
+                      "stage":  "PHASE_10_5_INTERFACE",
+                      "authority_role":  "CAUSAL_RESEARCH_INTERFACE",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/auction-parity/proof/phase10_5_interface_parity.json",
+                                           "sha256":  "a3640d13bf3a261285ad440e04fcf53f70ea73f5312d0e63201523025f4660ef",
+                                           "contract":  "NORTHSTAR_PHASE10_5_PARITY_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG2_PHASE11",
+                      "branch":  "RG2",
+                      "stage":  "PHASE_11_BEHAVIORAL_MODELS",
+                      "authority_role":  "FROZEN_MODEL_AND_INFERENCE_EVIDENCE",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/auction-parity/artifacts/phase12-freeze/frozen_model_registry.json",
+                                           "sha256":  "79f43b7a5076b5103113c17a1fd6aba879d32e4986332f99a1abe29b023abdec",
+                                           "contract":  "MST_PHASE11_FROZEN_MODEL_REGISTRY_V1",
+                                           "status":  "PASS"
+                                       },
+                                       {
+                                           "path":  "research/auction-parity/proof/model_inference_parity.json",
+                                           "sha256":  "499b0a13d077917ce6b5823883ab959e5a473be2ec880e8c8affe38a956c34c1",
+                                           "contract":  "NORTHSTAR_PHASE11_MODEL_INFERENCE_PARITY_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG2_GATE13R",
+                      "branch":  "RG2",
+                      "stage":  "GATE_13R_HOLDOUT",
+                      "authority_role":  "BEHAVIORAL_HOLDOUT_CERTIFICATE",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/auction-parity/artifacts/phase13r-evaluation/certificate_manifest.json",
+                                           "sha256":  "7393ec2eebc7416bcf407689d10c424a03a1a91331d327e2d61f562d13fbc20c",
+                                           "contract":  "NORTHSTAR_PHASE13R_CERTIFICATE_V1",
+                                           "status":  "COMPLETE"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG3_GATE14",
+                      "branch":  "RG3",
+                      "stage":  "GATE_14_OBJECT_INSTRUMENTS",
+                      "authority_role":  "DETERMINISTIC_MARKET_OBJECT_BUILD",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/market-objects/artifacts/gate14-build-proof.json",
+                                           "sha256":  "d140abe5f604714b1163468ac05ec463face32c3aea5c27662931bb99ac08961",
+                                           "contract":  "NORTHSTAR_RG3_GATE14_BUILD_PROOF_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG3_GATE15",
+                      "branch":  "RG3",
+                      "stage":  "GATE_15_DISCOVERY",
+                      "authority_role":  "EXPLORATORY_FAMILY_SYSTEM_SEAL",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/market-objects/artifacts/rg3-gate15-seal-final-v4/gate15-seal-receipt.json",
+                                           "sha256":  "04b653860ce8e6e86de9e69d986a6a25fd8f0ced4acbd95d0d647d412118fce4",
+                                           "contract":  "NORTHSTAR_RG3_GATE15_SEAL_RECEIPT_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG3_GATE15_5",
+                      "branch":  "RG3",
+                      "stage":  "GATE_15_5_ATLAS",
+                      "authority_role":  "MULTIVIEW_ATLAS_SEAL",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/market-objects/artifacts/rg3-gate15-5-atlas-final-v5/gate15_5_receipt.json",
+                                           "sha256":  "5ad73c9cc117e31e3f4726381264cba41fda8e714389fbdb4a43b0212c604648",
+                                           "contract":  "NORTHSTAR_RG3_GATE15_5_ATLAS_RECEIPT_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG3_GATE16",
+                      "branch":  "RG3",
+                      "stage":  "GATE_16_GEOMETRY",
+                      "authority_role":  "REPRESENTATION_AND_DISTANCE_SEAL",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/market-objects/artifacts/rg3-gate16-seal-final-v1/gate16-seal-receipt.json",
+                                           "sha256":  "8a20debf6b8075026c3fdb1d5eb3f391cdbda3026df63cfd7a1407bef15d30f9",
+                                           "contract":  "NORTHSTAR_RG3_GATE16_SEAL_RECEIPT_V1",
+                                           "status":  "PASS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "RG3_GATE16_5",
+                      "branch":  "RG3",
+                      "stage":  "GATE_16_5_LOSS_CENSUS",
+                      "authority_role":  "REPRESENTATION_LOSS_SEAL",
+                      "evidence":  [
+                                       {
+                                           "path":  "research/market-objects/artifacts/rg3-gate16-5-seal-final-v1/gate16_5-seal-receipt.json",
+                                           "sha256":  "aac266a506d9e0dd4779ba876f50636321272c954f72222ca1a5c7fd3164d908",
+                                           "contract":  "NORTHSTAR_RG3_GATE16_5_SEAL_RECEIPT_V1",
+                                           "status":  "PASS_WITH_OBSERVATIONAL_FINDINGS"
+                                       }
+                                   ]
+                  },
+                  {
+                      "node_id":  "OSV1_ROOT",
+                      "branch":  "OSV1",
+                      "stage":  "GATE_16_6_CLOSURE",
+                      "authority_role":  "TWO_BRANCH_CLOSURE_ROOT",
+                      "evidence":  [
+
+                                   ]
+                  }
+              ],
+    "edges":  [
+                  {
+                      "edge_id":  "E01",
+                      "from_node":  "RG2_PHASE10",
+                      "to_node":  "RG2_PHASE10_5",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E02",
+                      "from_node":  "RG2_PHASE10_5",
+                      "to_node":  "RG2_PHASE11",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E03",
+                      "from_node":  "RG2_PHASE11",
+                      "to_node":  "RG2_GATE13R",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E04",
+                      "from_node":  "RG3_GATE14",
+                      "to_node":  "RG3_GATE15",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E05",
+                      "from_node":  "RG3_GATE15",
+                      "to_node":  "RG3_GATE15_5",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E06",
+                      "from_node":  "RG3_GATE15_5",
+                      "to_node":  "RG3_GATE16",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E07",
+                      "from_node":  "RG3_GATE16",
+                      "to_node":  "RG3_GATE16_5",
+                      "relation":  "PRECEDES"
+                  },
+                  {
+                      "edge_id":  "E08",
+                      "from_node":  "RG2_GATE13R",
+                      "to_node":  "OSV1_ROOT",
+                      "relation":  "CONVERGES_INTO"
+                  },
+                  {
+                      "edge_id":  "E09",
+                      "from_node":  "RG3_GATE16_5",
+                      "to_node":  "OSV1_ROOT",
+                      "relation":  "CONVERGES_INTO"
+                  }
+              ],
+    "invariants":  {
+                       "acyclic":  true,
+                       "all_evidence_present":  true,
+                       "all_evidence_contracts_match":  true,
+                       "rg2_leaf":  "RG2_GATE13R",
+                       "rg3_leaf":  "RG3_GATE16_5",
+                       "root_indegree":  2
+                   },
+    "logical_ancestry_sha256":  "30ed4e61b090e96e56f20f096d420bb9cfa87aef9ddc88876bc8579bf7acb4cc"
+}

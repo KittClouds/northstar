@@ -1,0 +1,18 @@
+{
+  "contract": "NORTHSTAR_RG3_RAW_MARKET_OBJECTS_V1",
+  "run_key": "RG3_FRA40_PERIOD_M5_1777852800_1778457600_3950759615288727177",
+  "byte_sha256": "9ee276aa6178be956a6d24c168cdc9fd441e1db5300b6d418eba55b4eaf71c3c",
+  "canonical_sha256": "053164ad85ed26a1fbdf173998f4665800aad9a5b9f7a3344bc9d2f512ea83f9",
+  "rows": {
+    "expansion_events": 19,
+    "compression_events": 72,
+    "expansion_samples": 707,
+    "structural_samples": 1284,
+    "compression_samples": 370,
+    "compression_objects": 10,
+    "measurement_runs": 2,
+    "expansion_objects": 10,
+    "object_relations": 148
+  },
+  "balanced": true
+}

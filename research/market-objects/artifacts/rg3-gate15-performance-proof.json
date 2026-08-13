@@ -1,0 +1,28 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_PERFORMANCE_PROOF_V1",
+  "status": "PASS",
+  "research_generation": 3,
+  "workstation_observations": {
+    "mmap_relational_validation": {
+      "rows": 100000,
+      "elapsed_us": 85766,
+      "test": "raw::tests::validates_one_hundred_thousand_samples",
+      "result": "PASS"
+    },
+    "full_multi_view_discovery": {
+      "runs": 42,
+      "objects": 1091,
+      "assignments": 3273,
+      "canonical_elapsed_ms": 1335.752,
+      "replay_elapsed_ms": 1150.8274,
+      "result": "PASS"
+    }
+  },
+  "build": {
+    "target_directory": "D:\\northstar-target-gate15",
+    "cargo_test": "7 passed, 0 failed, 1 explicit performance test ignored in ordinary lane",
+    "cargo_clippy": "PASS with -D warnings",
+    "cargo_release": "PASS"
+  },
+  "interpretation": "Observed workstation timings are reproducibility and regression baselines, not universal latency guarantees."
+}

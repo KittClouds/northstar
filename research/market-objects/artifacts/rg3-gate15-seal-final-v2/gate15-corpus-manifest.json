@@ -1,0 +1,510 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_GATE15_SEALED_CORPUS_MANIFEST_V1",
+    "status":  "SEALED",
+    "research_generation":  3,
+    "admitted_run_count":  42,
+    "admitted_runs":  [
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1768176000_1768780800_8137587626228657912",
+                              "instrument":  "DE40",
+                              "window_start":  1768176000,
+                              "window_end":  1768780800,
+                              "raw_corpus_sha256":  "6bdbb42255e9b0c34c9f88f23d69fe13383d86cd4887dfa257a349d3ea65e5be",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "39a855a27a1bee632a6bfc9a5ffb91024b45f2203a873b88ff7d470cc53210c5"
+                          },
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1771200000_1771804800_7817652877554072043",
+                              "instrument":  "DE40",
+                              "window_start":  1771200000,
+                              "window_end":  1771804800,
+                              "raw_corpus_sha256":  "4f82a8e083268e3c27728584a2d9211789cc6bb6904bd528665c2475dc94ec05",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "db4f84ab51614457d02ee890226e758a09f4a59ae3ab572c26d7580b33c135c3"
+                          },
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1774224000_1774828800_16769896615923389005",
+                              "instrument":  "DE40",
+                              "window_start":  1774224000,
+                              "window_end":  1774828800,
+                              "raw_corpus_sha256":  "ea4d3991b627b5711832516d39e71cfb345ed09a42ccb2cd199932bc6a8ebaaf",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "1d1f8be1752b602932c58b5169c9cb6b8bfe77df839f152ed3841ca17b5678d6"
+                          },
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1777852800_1778457600_14397091333611658795",
+                              "instrument":  "DE40",
+                              "window_start":  1777852800,
+                              "window_end":  1778457600,
+                              "raw_corpus_sha256":  "2b09be78841d7511a37b90b2d1956d25db75f5817596b193c9ec9a20b91269e2",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "0b94c42d886998c20f46e1a0b351ed26707a65dc667d75a5c76712f3d8e14caa"
+                          },
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1781481600_1782086400_6195331328867226598",
+                              "instrument":  "DE40",
+                              "window_start":  1781481600,
+                              "window_end":  1782086400,
+                              "raw_corpus_sha256":  "5842a2061fceac5f374bb2d63a5af87e0fa06486fd3f5ce44b5b6ece347f4751",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "88e3082d2c27156af7c26a061a226b72146a2b9a13f771727d3411dcd1ebd1b3"
+                          },
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1783900800_1784505600_9564959796063117251",
+                              "instrument":  "DE40",
+                              "window_start":  1783900800,
+                              "window_end":  1784505600,
+                              "raw_corpus_sha256":  "b7a9cdd291711edb6a5810d764f985e98822acb522effad75e9b18e3ec792eba",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "ca1eb3f3b8363dc21d5289934fe63d030c5591765a51cf6bd5697615dee42e01"
+                          },
+                          {
+                              "run_key":  "RG3_DE40_PERIOD_M5_1785715200_1786060800_2606365987753202252",
+                              "instrument":  "DE40",
+                              "window_start":  1785715200,
+                              "window_end":  1786060800,
+                              "raw_corpus_sha256":  "758fc76c1cd60b3d1f12f5ee1806ff629cf325851d9d8505c086a907aaa191fb",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "0b54b8b582a703594b675c392f44063adc0139b253d06f5e8f4483f47cc73592"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1768176000_1768780800_7648442211186610174",
+                              "instrument":  "FRA40",
+                              "window_start":  1768176000,
+                              "window_end":  1768780800,
+                              "raw_corpus_sha256":  "534cee6081ccfdbfe71ddc7db25775ebc8ca6441c91868493a141babe2555175",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "3a80d7415d5a97e83958948652d4f6a1d5e368eb721c745ce6f123592a463ffe"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1771200000_1771804800_1968818525264721670",
+                              "instrument":  "FRA40",
+                              "window_start":  1771200000,
+                              "window_end":  1771804800,
+                              "raw_corpus_sha256":  "947e5546a683b524b2c86d6d505d3c13b8193fe330d798c42df15f39a980d37b",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "025c812442b5d695e3ef73a1cade379f1de7c3c98babe2f2e416de7c085bd7dc"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1774224000_1774828800_14575658576911331190",
+                              "instrument":  "FRA40",
+                              "window_start":  1774224000,
+                              "window_end":  1774828800,
+                              "raw_corpus_sha256":  "a622f9b4e5b96dcbdd74282774cd3d8973e420caa48af4af5c32064c07438643",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "7565a23320546c1c982b449ce12493b9cf177b8aac8bdbbb95c8021431235649"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1777852800_1778457600_3950759615288727177",
+                              "instrument":  "FRA40",
+                              "window_start":  1777852800,
+                              "window_end":  1778457600,
+                              "raw_corpus_sha256":  "053164ad85ed26a1fbdf173998f4665800aad9a5b9f7a3344bc9d2f512ea83f9",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "59c949e596994ea80226b15117a9fdfe7b7b96e6ab6c9c5446b4881b4b50abc6"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1781481600_1782086400_317235149503321393",
+                              "instrument":  "FRA40",
+                              "window_start":  1781481600,
+                              "window_end":  1782086400,
+                              "raw_corpus_sha256":  "81afafd48f7d089b38e45b8407ade5285a65334efbccac7c3220f3ff16aabe5b",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "84c8494662b84f63d8c7185dc040665c7671ab95f56ed60357eca2c9e4a90020"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1783900800_1784505600_9090742951363683789",
+                              "instrument":  "FRA40",
+                              "window_start":  1783900800,
+                              "window_end":  1784505600,
+                              "raw_corpus_sha256":  "6ea89a15de42558e09864624ba7b0400ac23978439003ca32dc8007f2b1c7034",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "328501232674deb9130ba297ba529ede01355c4d722cbfa53c26baf87e1645b4"
+                          },
+                          {
+                              "run_key":  "RG3_FRA40_PERIOD_M5_1785715200_1786060800_6098486160590205421",
+                              "instrument":  "FRA40",
+                              "window_start":  1785715200,
+                              "window_end":  1786060800,
+                              "raw_corpus_sha256":  "8a833913f2d446f7bbc6614b3acc5b14a94cb0a043f0d3eda64af64d308c80ad",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "cf412ef070e51cb82f13c563d42328f828ff38b62169e44d2cc3bb7a9e7304af"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1768176000_1768780800_17871390277607299118",
+                              "instrument":  "JPN225",
+                              "window_start":  1768176000,
+                              "window_end":  1768780800,
+                              "raw_corpus_sha256":  "2847b503380342b1e448983c9e419b7ca2d1db6aec9a8aad1d01f0914bb05557",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "7166f42a9965322fa1ce8815409aa8fdbfd28ed671534036c7f8640afaf2d86e"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1771200000_1771804800_16175888908372551973",
+                              "instrument":  "JPN225",
+                              "window_start":  1771200000,
+                              "window_end":  1771804800,
+                              "raw_corpus_sha256":  "4880cbe4752485a148a5f3e36e4c1258c87a03437bc53959c17642f932918664",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "3a46ed7237c61b0a193b0d0ccb20faacbd4398b84f42dee50ca9933fa6fd52ce"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1774224000_1774828800_828979282129269557",
+                              "instrument":  "JPN225",
+                              "window_start":  1774224000,
+                              "window_end":  1774828800,
+                              "raw_corpus_sha256":  "29a1826e7d3e64142a77b4540b0954c39ccea9f68d45fec4d719debb99394cc1",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "f69fd8138d3b4e0cf4fb434605a93026080565b367bcc5d3e49170525d1be460"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1777852800_1778457600_731365208587059786",
+                              "instrument":  "JPN225",
+                              "window_start":  1777852800,
+                              "window_end":  1778457600,
+                              "raw_corpus_sha256":  "163d37024d5923daca86e4214abbed0bc2608013f84597aa67e88d9e6228c49e",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "fa4ec01fadcab74688e4be6b0757aa81a0637164a0639c11ee2a1178e6cb363a"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1781481600_1782086400_9437459071525760070",
+                              "instrument":  "JPN225",
+                              "window_start":  1781481600,
+                              "window_end":  1782086400,
+                              "raw_corpus_sha256":  "86f41fdd830640cb3c060d8a9225989117e170911f336bd448b6ddb947a2798f",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "736a633f028b003ebe1b87fc7765b19f6687f997ffb8417b2e961d5f1b613ccf"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1783900800_1784505600_16697415774406944896",
+                              "instrument":  "JPN225",
+                              "window_start":  1783900800,
+                              "window_end":  1784505600,
+                              "raw_corpus_sha256":  "8b5f6d8381245e667c95e4876dd60091f6930b41caabb3f57e8d583093351a63",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "864cc71d7e179c332d908422a471e7729ff90ba360ba8112ccec0b6e104c6272"
+                          },
+                          {
+                              "run_key":  "RG3_JPN225_PERIOD_M5_1785715200_1786060800_16673594142441126755",
+                              "instrument":  "JPN225",
+                              "window_start":  1785715200,
+                              "window_end":  1786060800,
+                              "raw_corpus_sha256":  "4ac736d0571b0f9c221c753376bd13046489307c69af9dc2872e1c63c2a30117",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "a6323aba6efaf03cfaf12447c464ffe28ae95e11ccdd6d3b07923cb8d344d870"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1768176000_1768780800_14299449350608203917",
+                              "instrument":  "US30",
+                              "window_start":  1768176000,
+                              "window_end":  1768780800,
+                              "raw_corpus_sha256":  "984d6c669e4fa524b0893d8a42bcf181463db91b402852a05a93619d529b3d78",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "07495b2673ce7dbe2d60f2f88bdd08e140fee36b5b81327b90526d714185f358"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1771200000_1771804800_15393471454727288637",
+                              "instrument":  "US30",
+                              "window_start":  1771200000,
+                              "window_end":  1771804800,
+                              "raw_corpus_sha256":  "9a7247227354506cff932fc0f905490cdb0f3feaee989d1225bbbb3e04371bd0",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "41a56a07a8adee0734118fb9fcb45194c8f0fabe04e31703ff236d5d15af086e"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1774224000_1774828800_14068181511802716677",
+                              "instrument":  "US30",
+                              "window_start":  1774224000,
+                              "window_end":  1774828800,
+                              "raw_corpus_sha256":  "02a52d7e63c75161720e1c639fa888d5e79ceccfd4bbd13dbd1fc5801eec247b",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "454a2f48a54376de02ff756e704478ddaa58a65d3593694b9ce58d13e5ff3118"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1777852800_1778457600_6821376586980274840",
+                              "instrument":  "US30",
+                              "window_start":  1777852800,
+                              "window_end":  1778457600,
+                              "raw_corpus_sha256":  "6d50842447bc6e4830b34d2cf2be26bea723ec398c90fae796263b17811fcda2",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "95c9a21d1fbe95b303450a1c0e20b3f34de36fa391401ad0710753bf081773ca"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1781481600_1782086400_9939459563788191184",
+                              "instrument":  "US30",
+                              "window_start":  1781481600,
+                              "window_end":  1782086400,
+                              "raw_corpus_sha256":  "133b22ab6218d58c4769e417ffbd34aeabcac3509cb2d41172dc08fdf7ac23d1",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "ba76afac26df7ff8ea12eb32a73b2006d8ed08e87f4ddbbe572e43ba5caf923f"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1783900800_1784505600_318110170989838139",
+                              "instrument":  "US30",
+                              "window_start":  1783900800,
+                              "window_end":  1784505600,
+                              "raw_corpus_sha256":  "7683f2bcf0be108b76d7ac150a6e9e86fc6a6b39b40fd7c3e0d5df3a1e343eef",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "7a077b4577ece38d2bb84103c7605c71fc7352e599b521f2f48f8ddb47bf461f"
+                          },
+                          {
+                              "run_key":  "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651",
+                              "instrument":  "US30",
+                              "window_start":  1785715200,
+                              "window_end":  1786060800,
+                              "raw_corpus_sha256":  "130f028c1a39880cacad87fa1bccb196639d9038dd98f0247ce1295ef510ec13",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "4615e885ae2ba6a9a6fc09ffed49507c3790f7b8c1970f3cb53435c227e44ee5"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1768176000_1768780800_17180753283749702142",
+                              "instrument":  "US500",
+                              "window_start":  1768176000,
+                              "window_end":  1768780800,
+                              "raw_corpus_sha256":  "5a9329b050fbc3336c170523a6373936083612f65bb6f8d8bd92a98eea5e2927",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "c46cb708730b629ce1e7c2cf61afdd18467f986256d3bdaf8654d41b6467a251"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1771200000_1771804800_16907777243792436315",
+                              "instrument":  "US500",
+                              "window_start":  1771200000,
+                              "window_end":  1771804800,
+                              "raw_corpus_sha256":  "f1e744660f88a5826adf15ef4bd8ae4a2e0ce182ddcbf0295059b49eef006ac0",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "00f882f0e0ac86068dc7db939bae5cb98b38a9ee59f40387f8cdfc78918c83f1"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1774224000_1774828800_1890775757493427196",
+                              "instrument":  "US500",
+                              "window_start":  1774224000,
+                              "window_end":  1774828800,
+                              "raw_corpus_sha256":  "55a15355ec1cdfafc0e921f8bd73c4312ccaa2ac719880f15aef8efc2363bc0c",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "1ea6539f48fd8d5d4eaf43fe2f53a2558bf129600455423b159a31fe26bb42ff"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1777852800_1778457600_15690359251172544486",
+                              "instrument":  "US500",
+                              "window_start":  1777852800,
+                              "window_end":  1778457600,
+                              "raw_corpus_sha256":  "e143e25a991419520a26fdb205d1d61b020b0ea4ab927d8e31c17f0c25d0448c",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "da89506780bd89b76c27cca8ab0d5d7971e119e6ac93b20cc7428205ba27057c"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1781481600_1782086400_15824288097372850924",
+                              "instrument":  "US500",
+                              "window_start":  1781481600,
+                              "window_end":  1782086400,
+                              "raw_corpus_sha256":  "4bc94134ebe4a492fd96cf192afaac140a8584213c2a254ecba069c5766de013",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "f80eb4b9e69edda6ba369d967bea2c5e1311488787e4ebdc85c768541e60e4d3"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1783900800_1784505600_3208920806467451907",
+                              "instrument":  "US500",
+                              "window_start":  1783900800,
+                              "window_end":  1784505600,
+                              "raw_corpus_sha256":  "b9a4f51ffbb417ce7b315e95e08c5982aa1a049cde223a2055fb919c613c38f2",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "2061aa780cf9845b2129a7c083dcb31391062454f7d330ae869be23251132258"
+                          },
+                          {
+                              "run_key":  "RG3_US500_PERIOD_M5_1785715200_1786060800_8620801695057607233",
+                              "instrument":  "US500",
+                              "window_start":  1785715200,
+                              "window_end":  1786060800,
+                              "raw_corpus_sha256":  "67ea025ddadea49228cba07726c87708bbdb8dad139dc168d0a9e09b80311766",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "cfde8288b61fa024d97f9fa4cb8bfc93f2e5abf21d2d7b2ea240d97850b9dbfd"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1768176000_1768780800_7128405155079592654",
+                              "instrument":  "USTEC",
+                              "window_start":  1768176000,
+                              "window_end":  1768780800,
+                              "raw_corpus_sha256":  "8a34fff3dbdc95f5261a73df0e630662fdb9c6ff02e014fa030926f77623e3e3",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "5dc461eed146202287941098ada6f2cc33bffdff9f861308d87873af7735a607"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1771200000_1771804800_8488883873716319363",
+                              "instrument":  "USTEC",
+                              "window_start":  1771200000,
+                              "window_end":  1771804800,
+                              "raw_corpus_sha256":  "4a04e83fdf3920cfd7be3a37c67afe1d1775aa018fb05139754d4f0d0bab8635",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "a244dfa0e2f8d0c4910b70c2bc3102f9e7b90837ad1f61b9d828372c988f8ce9"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1774224000_1774828800_8427243982755741149",
+                              "instrument":  "USTEC",
+                              "window_start":  1774224000,
+                              "window_end":  1774828800,
+                              "raw_corpus_sha256":  "5e77040cabaaeba9e27115cd0320caa315910c5f5ca0551de0b1302a7ed9d270",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "9b1dbccdcc804d085f07be1ea349ebeed4d7485d235af3fbf4978afcfde30020"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1777852800_1778457600_2749301626223637730",
+                              "instrument":  "USTEC",
+                              "window_start":  1777852800,
+                              "window_end":  1778457600,
+                              "raw_corpus_sha256":  "c22ee3884e6effd045a9b51db5982b200ac57a7ecc02d6199f7ef35b4340d8f9",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "ab86e6db8654630dc73c56db7475919ff81f32e8c3d48b038c694fa31183c122"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1781481600_1782086400_1420130309434895637",
+                              "instrument":  "USTEC",
+                              "window_start":  1781481600,
+                              "window_end":  1782086400,
+                              "raw_corpus_sha256":  "850685183d9c91f0421a0d85c6a16d0a04b8ca85f42e373a311d6ec45e63f71c",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "72dc712505168394e71ec2c2b55aec56685572f81e2c4b6a30eef8195b634a63"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1783900800_1784505600_8244317532604104187",
+                              "instrument":  "USTEC",
+                              "window_start":  1783900800,
+                              "window_end":  1784505600,
+                              "raw_corpus_sha256":  "e97aa9066db87e496f49ec07452b33ac176f52f38c4dd45196b7162bb657998c",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "966a1b860bd071245bef8dcc3a009843f4d62be076a0e8cbc7d244a5f776f42e"
+                          },
+                          {
+                              "run_key":  "RG3_USTEC_PERIOD_M5_1785715200_1786060800_7485449445728991300",
+                              "instrument":  "USTEC",
+                              "window_start":  1785715200,
+                              "window_end":  1786060800,
+                              "raw_corpus_sha256":  "ab020b3768296dcdd266c4c681dacf10f45ef9a7f74bf4df6b17182d9f2475d0",
+                              "derived_recipe_sha256":  "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+                              "run_seal_sha256":  "0bba02b34ab2ec0898fdd7ec62bf548630f88da7f7685ecc0c11793c7092e6ea"
+                          }
+                      ],
+    "quarantined_artifacts":  [
+                                  {
+                                      "path":  "C:\\Users\\shuga\\AppData\\Local\\Temp\\northstar-regression-10dc04428bc74210a5830a07d402010c\\research\\market-objects\\artifacts\\rg3-qualification\\quarantine\\20260813T043006453Z__US30_1785715200_1786060800.json",
+                                      "sha256":  "372b917abb325110e54cc3d499be185bda993fe2a8d0a3049ddf4d6a6da80b56"
+                                  },
+                                  {
+                                      "path":  "C:\\Users\\shuga\\AppData\\Local\\Temp\\northstar-regression-10dc04428bc74210a5830a07d402010c\\research\\market-objects\\artifacts\\rg3-qualification\\quarantine\\20260813T042641433Z__US30_1785715200_1786060800\\failure.json",
+                                      "sha256":  "2812fbbf7c83223ecc75ec25f8f809740ec2c5856a62fc2bcc96d90f726780d9"
+                                  }
+                              ],
+    "verified_sealed_files":  546,
+    "canonical_corpus_sha256":  "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+    "totals":  {
+                   "compression_objects":  553,
+                   "expansion_objects":  538,
+                   "compression_samples":  14972,
+                   "expansion_samples":  38458,
+                   "object_relations":  4408,
+                   "structural_samples":  55150
+               },
+    "objects_by_instrument":  {
+                                  "DE40":  160,
+                                  "FRA40":  165,
+                                  "JPN225":  182,
+                                  "US30":  183,
+                                  "US500":  199,
+                                  "USTEC":  202
+                              },
+    "contract_sha256":  {
+                            "rg3_identity.json":  "1e60c4ac76ed5164e7d9ee67621c6894f4f0117fb4a3c53c6b2dca619fa8f5e4",
+                            "raw_authority.json":  "fc1256deee802b218fddbab5f4b085e85cd33953997b41a957f039a6d82ac651",
+                            "schema_dictionary.json":  "82cef8c0ce1fe2aa4cda3a46cc3b8814669efd07f60974ed097e5b0ca745cbf3",
+                            "gate15_discovery_protocol.json":  "72e0a135785561cffd8b33a194381cdf3f37943c5355f3c38013ce70a4f6df02",
+                            "gate15_discovery_adjudication_v2.json":  "6dec951680245ca8da603c7a3370b9a23b213e6a2975c7542dfb594c7e27989a"
+                        },
+    "production_manifest_sha256":  "1a2f191f69bba1c5b6f60a50b2596512b60116385c50d5972d5e9842fce9c4e2",
+    "confirmation_manifest_sha256":  "68fc21baaa768ed4597cb9025078bf6c7e242509ebf0167132e2a153903a3e47",
+    "performance_proof_sha256":  "3d66d6e541baeb76a796f43c9e3b62c10702481710aa90d0c351962d01654d21",
+    "discovery_v1":  {
+                         "status":  "COLLECT_MORE",
+                         "source_run_count":  42,
+                         "recipe_sha256":  "17d57c5d71f579d47ae3e8d2452d8a2eda012179cc2f50e86e03995dc88a8c19",
+                         "report_sha256":  "29f425b2b6d52cc7652d5e753cd6ab93ae195874833f6fb55e244ba26f7d0349",
+                         "assignments_sha256":  "49a9a2d4b77134cad016a98fd54878703a0880978b339afd59bfb01900a2a3a9",
+                         "receipt_sha256":  "43a2e47c75242a08590f404019bbd90e0da0ea06dbdaa74f1c8dcf6f9d0bc682"
+                     },
+    "discovery_v2":  {
+                         "status":  "COLLECT_MORE",
+                         "source_run_count":  42,
+                         "recipe_sha256":  "425da976460d37b636bbe2754b8dd5e08142a3916485f42a07d318306ed54d25",
+                         "report_sha256":  "3aad47082ac5b0f3cb940e73571528dbff71e669918b5277993a32d67168dd11",
+                         "assignments_sha256":  "fc21523c8124dab79a6937925b7ad7776cc2f957fbe57c7bb2b9272429724e60",
+                         "receipt_sha256":  "39cb58872ee0817830b2ed043aff46fad0b847ba443fb82b07806ef1be149527"
+                     },
+    "derived_replay":  {
+                           "status":  "COLLECT_MORE",
+                           "source_run_count":  42,
+                           "recipe_sha256":  "425da976460d37b636bbe2754b8dd5e08142a3916485f42a07d318306ed54d25",
+                           "report_sha256":  "3aad47082ac5b0f3cb940e73571528dbff71e669918b5277993a32d67168dd11",
+                           "assignments_sha256":  "fc21523c8124dab79a6937925b7ad7776cc2f957fbe57c7bb2b9272429724e60",
+                           "receipt_sha256":  "39cb58872ee0817830b2ed043aff46fad0b847ba443fb82b07806ef1be149527"
+                       },
+    "family_systems":  [
+                           {
+                               "object_kind":  "COMPRESSION",
+                               "representation":  "summary_geometry_v1",
+                               "sha256":  "297001a37593a9f07f114956e146320e18f378912d6e483f8c6ea92499bc2c5e",
+                               "supported_objects":  538,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.897676915084478
+                           },
+                           {
+                               "object_kind":  "COMPRESSION",
+                               "representation":  "resampled_shape_v1",
+                               "sha256":  "97373352c79af3746b7718cd3cc03c3880ee3f1f124aba1f415e4970f807f17b",
+                               "supported_objects":  538,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.995774792595591
+                           },
+                           {
+                               "object_kind":  "COMPRESSION",
+                               "representation":  "hybrid_mirrored_v1",
+                               "sha256":  "5eb5a2741a3c0de08701438efe24f1326da1bc298f2f1bdee875a56d69315599",
+                               "supported_objects":  538,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.9740790154777201
+                           },
+                           {
+                               "object_kind":  "EXPANSION",
+                               "representation":  "summary_geometry_v1",
+                               "sha256":  "ab7a0b1ee23b4f15713a65550bc59230eb702d8e1e3842b025330ae51207cd92",
+                               "supported_objects":  498,
+                               "noise_objects":  12,
+                               "noise_fraction":  0.023529411764705882,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.910814405237795
+                           },
+                           {
+                               "object_kind":  "EXPANSION",
+                               "representation":  "resampled_shape_v1",
+                               "sha256":  "58b56f65841117821e44b18d673cfbb724cd5634db5b5747ed1942b1ec4531e1",
+                               "supported_objects":  510,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.8309302687062207
+                           },
+                           {
+                               "object_kind":  "EXPANSION",
+                               "representation":  "hybrid_mirrored_v1",
+                               "sha256":  "aec22711ee5d4716189e7ee5fdb6f66806372f7673db38195f12c52920b27f37",
+                               "supported_objects":  510,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  3,
+                               "mean_seed_ari":  0.9787750066075149
+                           }
+                       ]
+}

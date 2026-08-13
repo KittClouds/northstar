@@ -1,0 +1,10 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_DISCOVERY_RECEIPT_V1",
+  "status": "COLLECT_MORE",
+  "research_generation": 3,
+  "report_sha256": "29f425b2b6d52cc7652d5e753cd6ab93ae195874833f6fb55e244ba26f7d0349",
+  "assignments_sha256": "49a9a2d4b77134cad016a98fd54878703a0880978b339afd59bfb01900a2a3a9",
+  "source_run_count": 42,
+  "recipe_sha256": "17d57c5d71f579d47ae3e8d2452d8a2eda012179cc2f50e86e03995dc88a8c19",
+  "epistemic_status": "CANDIDATE_ONLY_NOT_MARKET_TRUTH"
+}

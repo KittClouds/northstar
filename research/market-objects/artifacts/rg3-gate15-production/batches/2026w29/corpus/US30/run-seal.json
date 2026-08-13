@@ -1,0 +1,21 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_IMMUTABLE_RUN_SEAL_V1",
+    "status":  "SEALED",
+    "run_key":  "RG3_US30_PERIOD_M5_1783900800_1784505600_318110170989838139",
+    "raw_corpus_sha256":  "7683f2bcf0be108b76d7ac150a6e9e86fc6a6b39b40fd7c3e0d5df3a1e343eef",
+    "files":  {
+                  "artifacts\\derived-recipe-receipt.json":  "0465b2d3d3dd00325fa504b36f53d180c0e71a23d64531d59934783347da0087",
+                  "artifacts\\packed-corpus-receipt.json":  "e63a272f22cd1ff0547f1658bdbd03b819206e274d5aa1b88f2b4b64aeecf7e4",
+                  "artifacts\\raw-corpus-receipt.json":  "bc04eb5e71fe418babb748f9b66d94ab592af08c85e5f8b9106a4fe7a10626f8",
+                  "artifacts\\RG3_US30_PERIOD_M5_1783900800_1784505600_318110170989838139.nsmor":  "f946b0622666e1691bfdde60ed557cebfde3ca375629791eade2a9e455d66f3b",
+                  "raw\\compression_events.tsv":  "96e4623c6ff797183e048cb168d424a27395f80457f2436f4a18ffb3e191989b",
+                  "raw\\compression_objects.tsv":  "bf247bcea3583552c2f5b0cde000a6e213cfdf89869afef276507cd4f9da66c2",
+                  "raw\\compression_samples.tsv":  "32fe6a75d0f4469337a2aba5e6dd33e7267a236ff8b66154937547411a3611cc",
+                  "raw\\expansion_events.tsv":  "179ab3ed8f6f4baac9fbd0434a73cd79399e47455fa6af15fa92f0e772577dc5",
+                  "raw\\expansion_objects.tsv":  "4c1583509237b1f4ca4529b2a0b7905b3d383280b1b1a7104ea1ffa6b4ef57d2",
+                  "raw\\expansion_samples.tsv":  "26de63a6b5c69c7eba616505360b9f8806c3ad9ec454959dbcb8dc9a1cde0dda",
+                  "raw\\measurement_runs.tsv":  "6542dbce81556e3137d80a9a1cd3eabf26ce1809bc835114671abbd5f5fb3c1e",
+                  "raw\\object_relations.tsv":  "3ade4966644eed06f6aab174f8f0e06016cda207908888aa8703ef085aff6618",
+                  "raw\\structural_samples.tsv":  "57927be2bdd332fd071528151033e5b34ff7bdab0dfdae31d3106c8cb4108b34"
+              }
+}

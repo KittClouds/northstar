@@ -1,0 +1,455 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_DISCOVERY_REPORT_V1",
+  "status": "COLLECT_MORE",
+  "epistemic_status": "CANDIDATE_ONLY_NOT_MARKET_TRUTH",
+  "research_generation": 3,
+  "recipe_id": "NORTHSTAR_RG3_GATE15_MULTI_VIEW_DISCOVERY_V1|C16|E32|K2:8|SEEDS8|ITER100",
+  "recipe_sha256": "17d57c5d71f579d47ae3e8d2452d8a2eda012179cc2f50e86e03995dc88a8c19",
+  "source_run_count": 42,
+  "source_run_hashes": [
+    "RG3_DE40_PERIOD_M5_1768176000_1768780800_8137587626228657912:6bdbb42255e9b0c34c9f88f23d69fe13383d86cd4887dfa257a349d3ea65e5be",
+    "RG3_DE40_PERIOD_M5_1771200000_1771804800_7817652877554072043:4f82a8e083268e3c27728584a2d9211789cc6bb6904bd528665c2475dc94ec05",
+    "RG3_DE40_PERIOD_M5_1774224000_1774828800_16769896615923389005:ea4d3991b627b5711832516d39e71cfb345ed09a42ccb2cd199932bc6a8ebaaf",
+    "RG3_DE40_PERIOD_M5_1777852800_1778457600_14397091333611658795:2b09be78841d7511a37b90b2d1956d25db75f5817596b193c9ec9a20b91269e2",
+    "RG3_DE40_PERIOD_M5_1781481600_1782086400_6195331328867226598:5842a2061fceac5f374bb2d63a5af87e0fa06486fd3f5ce44b5b6ece347f4751",
+    "RG3_DE40_PERIOD_M5_1783900800_1784505600_9564959796063117251:b7a9cdd291711edb6a5810d764f985e98822acb522effad75e9b18e3ec792eba",
+    "RG3_DE40_PERIOD_M5_1785715200_1786060800_2606365987753202252:758fc76c1cd60b3d1f12f5ee1806ff629cf325851d9d8505c086a907aaa191fb",
+    "RG3_FRA40_PERIOD_M5_1768176000_1768780800_7648442211186610174:534cee6081ccfdbfe71ddc7db25775ebc8ca6441c91868493a141babe2555175",
+    "RG3_FRA40_PERIOD_M5_1771200000_1771804800_1968818525264721670:947e5546a683b524b2c86d6d505d3c13b8193fe330d798c42df15f39a980d37b",
+    "RG3_FRA40_PERIOD_M5_1774224000_1774828800_14575658576911331190:a622f9b4e5b96dcbdd74282774cd3d8973e420caa48af4af5c32064c07438643",
+    "RG3_FRA40_PERIOD_M5_1777852800_1778457600_3950759615288727177:053164ad85ed26a1fbdf173998f4665800aad9a5b9f7a3344bc9d2f512ea83f9",
+    "RG3_FRA40_PERIOD_M5_1781481600_1782086400_317235149503321393:81afafd48f7d089b38e45b8407ade5285a65334efbccac7c3220f3ff16aabe5b",
+    "RG3_FRA40_PERIOD_M5_1783900800_1784505600_9090742951363683789:6ea89a15de42558e09864624ba7b0400ac23978439003ca32dc8007f2b1c7034",
+    "RG3_FRA40_PERIOD_M5_1785715200_1786060800_6098486160590205421:8a833913f2d446f7bbc6614b3acc5b14a94cb0a043f0d3eda64af64d308c80ad",
+    "RG3_JPN225_PERIOD_M5_1768176000_1768780800_17871390277607299118:2847b503380342b1e448983c9e419b7ca2d1db6aec9a8aad1d01f0914bb05557",
+    "RG3_JPN225_PERIOD_M5_1771200000_1771804800_16175888908372551973:4880cbe4752485a148a5f3e36e4c1258c87a03437bc53959c17642f932918664",
+    "RG3_JPN225_PERIOD_M5_1774224000_1774828800_828979282129269557:29a1826e7d3e64142a77b4540b0954c39ccea9f68d45fec4d719debb99394cc1",
+    "RG3_JPN225_PERIOD_M5_1777852800_1778457600_731365208587059786:163d37024d5923daca86e4214abbed0bc2608013f84597aa67e88d9e6228c49e",
+    "RG3_JPN225_PERIOD_M5_1781481600_1782086400_9437459071525760070:86f41fdd830640cb3c060d8a9225989117e170911f336bd448b6ddb947a2798f",
+    "RG3_JPN225_PERIOD_M5_1783900800_1784505600_16697415774406944896:8b5f6d8381245e667c95e4876dd60091f6930b41caabb3f57e8d583093351a63",
+    "RG3_JPN225_PERIOD_M5_1785715200_1786060800_16673594142441126755:4ac736d0571b0f9c221c753376bd13046489307c69af9dc2872e1c63c2a30117",
+    "RG3_US30_PERIOD_M5_1768176000_1768780800_14299449350608203917:984d6c669e4fa524b0893d8a42bcf181463db91b402852a05a93619d529b3d78",
+    "RG3_US30_PERIOD_M5_1771200000_1771804800_15393471454727288637:9a7247227354506cff932fc0f905490cdb0f3feaee989d1225bbbb3e04371bd0",
+    "RG3_US30_PERIOD_M5_1774224000_1774828800_14068181511802716677:02a52d7e63c75161720e1c639fa888d5e79ceccfd4bbd13dbd1fc5801eec247b",
+    "RG3_US30_PERIOD_M5_1777852800_1778457600_6821376586980274840:6d50842447bc6e4830b34d2cf2be26bea723ec398c90fae796263b17811fcda2",
+    "RG3_US30_PERIOD_M5_1781481600_1782086400_9939459563788191184:133b22ab6218d58c4769e417ffbd34aeabcac3509cb2d41172dc08fdf7ac23d1",
+    "RG3_US30_PERIOD_M5_1783900800_1784505600_318110170989838139:7683f2bcf0be108b76d7ac150a6e9e86fc6a6b39b40fd7c3e0d5df3a1e343eef",
+    "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651:130f028c1a39880cacad87fa1bccb196639d9038dd98f0247ce1295ef510ec13",
+    "RG3_US500_PERIOD_M5_1768176000_1768780800_17180753283749702142:5a9329b050fbc3336c170523a6373936083612f65bb6f8d8bd92a98eea5e2927",
+    "RG3_US500_PERIOD_M5_1771200000_1771804800_16907777243792436315:f1e744660f88a5826adf15ef4bd8ae4a2e0ce182ddcbf0295059b49eef006ac0",
+    "RG3_US500_PERIOD_M5_1774224000_1774828800_1890775757493427196:55a15355ec1cdfafc0e921f8bd73c4312ccaa2ac719880f15aef8efc2363bc0c",
+    "RG3_US500_PERIOD_M5_1777852800_1778457600_15690359251172544486:e143e25a991419520a26fdb205d1d61b020b0ea4ab927d8e31c17f0c25d0448c",
+    "RG3_US500_PERIOD_M5_1781481600_1782086400_15824288097372850924:4bc94134ebe4a492fd96cf192afaac140a8584213c2a254ecba069c5766de013",
+    "RG3_US500_PERIOD_M5_1783900800_1784505600_3208920806467451907:b9a4f51ffbb417ce7b315e95e08c5982aa1a049cde223a2055fb919c613c38f2",
+    "RG3_US500_PERIOD_M5_1785715200_1786060800_8620801695057607233:67ea025ddadea49228cba07726c87708bbdb8dad139dc168d0a9e09b80311766",
+    "RG3_USTEC_PERIOD_M5_1768176000_1768780800_7128405155079592654:8a34fff3dbdc95f5261a73df0e630662fdb9c6ff02e014fa030926f77623e3e3",
+    "RG3_USTEC_PERIOD_M5_1771200000_1771804800_8488883873716319363:4a04e83fdf3920cfd7be3a37c67afe1d1775aa018fb05139754d4f0d0bab8635",
+    "RG3_USTEC_PERIOD_M5_1774224000_1774828800_8427243982755741149:5e77040cabaaeba9e27115cd0320caa315910c5f5ca0551de0b1302a7ed9d270",
+    "RG3_USTEC_PERIOD_M5_1777852800_1778457600_2749301626223637730:c22ee3884e6effd045a9b51db5982b200ac57a7ecc02d6199f7ef35b4340d8f9",
+    "RG3_USTEC_PERIOD_M5_1781481600_1782086400_1420130309434895637:850685183d9c91f0421a0d85c6a16d0a04b8ca85f42e373a311d6ec45e63f71c",
+    "RG3_USTEC_PERIOD_M5_1783900800_1784505600_8244317532604104187:e97aa9066db87e496f49ec07452b33ac176f52f38c4dd45196b7162bb657998c",
+    "RG3_USTEC_PERIOD_M5_1785715200_1786060800_7485449445728991300:ab020b3768296dcdd266c4c681dacf10f45ef9a7f74bf4df6b17182d9f2475d0"
+  ],
+  "total_objects": 1091,
+  "objects_by_instrument": {
+    "US30": 183,
+    "US500": 199,
+    "JPN225": 182,
+    "DE40": 160,
+    "FRA40": 165,
+    "USTEC": 202
+  },
+  "minimum_instrument_objects": 160,
+  "missingness": {
+    "expansion_objects.destination_compression_id": 28,
+    "expansion_events.destination_compression_id": 539
+  },
+  "kinds": [
+    {
+      "object_kind": "COMPRESSION",
+      "total": 553,
+      "eligible": 538,
+      "censored": 15,
+      "terminal_reason_counts": {
+        "1": 300,
+        "2": 238,
+        "6": 15
+      },
+      "views": [
+        {
+          "representation": "summary_geometry_v1",
+          "dimensions": 6,
+          "selected_k": 5,
+          "selection_score": 0.2924886015153376,
+          "centroid_silhouette": 0.37886511226860653,
+          "mean_seed_ari": 0.8907836508922002,
+          "minimum_cluster_support": 26,
+          "families": [
+            {
+              "candidate_id": "C1",
+              "count": 183,
+              "fraction": 0.34014869888475835,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_JPN225_PERIOD_M5_1781481600_1782086400_9437459071525760070",
+              "medoid_object_id": 7
+            },
+            {
+              "candidate_id": "C2",
+              "count": 26,
+              "fraction": 0.048327137546468404,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": false,
+              "medoid_run_key": "RG3_JPN225_PERIOD_M5_1771200000_1771804800_16175888908372551973",
+              "medoid_object_id": 14
+            },
+            {
+              "candidate_id": "C3",
+              "count": 110,
+              "fraction": 0.20446096654275092,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_DE40_PERIOD_M5_1781481600_1782086400_6195331328867226598",
+              "medoid_object_id": 2
+            },
+            {
+              "candidate_id": "C4",
+              "count": 34,
+              "fraction": 0.06319702602230483,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_USTEC_PERIOD_M5_1785715200_1786060800_7485449445728991300",
+              "medoid_object_id": 12
+            },
+            {
+              "candidate_id": "C5",
+              "count": 185,
+              "fraction": 0.34386617100371747,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_JPN225_PERIOD_M5_1771200000_1771804800_16175888908372551973",
+              "medoid_object_id": 5
+            }
+          ]
+        },
+        {
+          "representation": "resampled_shape_v1",
+          "dimensions": 48,
+          "selected_k": 2,
+          "selection_score": 0.02961703231962123,
+          "centroid_silhouette": 0.888510969588637,
+          "mean_seed_ari": 1.0,
+          "minimum_cluster_support": 1,
+          "families": [
+            {
+              "candidate_id": "C1",
+              "count": 537,
+              "fraction": 0.9981412639405205,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_FRA40_PERIOD_M5_1785715200_1786060800_6098486160590205421",
+              "medoid_object_id": 1
+            },
+            {
+              "candidate_id": "C2",
+              "count": 1,
+              "fraction": 0.0018587360594795538,
+              "instrument_count": 1,
+              "instruments": [
+                "USTEC"
+              ],
+              "common_support": false,
+              "medoid_run_key": "RG3_USTEC_PERIOD_M5_1777852800_1778457600_2749301626223637730",
+              "medoid_object_id": 3
+            }
+          ]
+        },
+        {
+          "representation": "hybrid_mirrored_v1",
+          "dimensions": 54,
+          "selected_k": 2,
+          "selection_score": 0.02957013636744377,
+          "centroid_silhouette": 0.8871040910233131,
+          "mean_seed_ari": 1.0,
+          "minimum_cluster_support": 1,
+          "families": [
+            {
+              "candidate_id": "C1",
+              "count": 537,
+              "fraction": 0.9981412639405205,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_JPN225_PERIOD_M5_1781481600_1782086400_9437459071525760070",
+              "medoid_object_id": 7
+            },
+            {
+              "candidate_id": "C2",
+              "count": 1,
+              "fraction": 0.0018587360594795538,
+              "instrument_count": 1,
+              "instruments": [
+                "USTEC"
+              ],
+              "common_support": false,
+              "medoid_run_key": "RG3_USTEC_PERIOD_M5_1777852800_1778457600_2749301626223637730",
+              "medoid_object_id": 3
+            }
+          ]
+        }
+      ],
+      "cross_view_agreement": [
+        {
+          "left": "summary_geometry_v1",
+          "right": "resampled_shape_v1",
+          "adjusted_rand_index": 0.0022719345827432107
+        },
+        {
+          "left": "summary_geometry_v1",
+          "right": "hybrid_mirrored_v1",
+          "adjusted_rand_index": 0.0022719345827432107
+        },
+        {
+          "left": "resampled_shape_v1",
+          "right": "hybrid_mirrored_v1",
+          "adjusted_rand_index": 1.0
+        }
+      ],
+      "mean_cross_view_ari": 0.33484795638849546
+    },
+    {
+      "object_kind": "EXPANSION",
+      "total": 538,
+      "eligible": 510,
+      "censored": 28,
+      "terminal_reason_counts": {
+        "6": 27,
+        "5": 1,
+        "4": 510
+      },
+      "views": [
+        {
+          "representation": "summary_geometry_v1",
+          "dimensions": 7,
+          "selected_k": 2,
+          "selection_score": 0.1105354673288362,
+          "centroid_silhouette": 0.7742476489175768,
+          "mean_seed_ari": 0.8565900134152299,
+          "minimum_cluster_support": 5,
+          "families": [
+            {
+              "candidate_id": "C1",
+              "count": 505,
+              "fraction": 0.9901960784313726,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_FRA40_PERIOD_M5_1783900800_1784505600_9090742951363683789",
+              "medoid_object_id": 6
+            },
+            {
+              "candidate_id": "C2",
+              "count": 5,
+              "fraction": 0.00980392156862745,
+              "instrument_count": 4,
+              "instruments": [
+                "DE40",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": false,
+              "medoid_run_key": "RG3_DE40_PERIOD_M5_1774224000_1774828800_16769896615923389005",
+              "medoid_object_id": 2
+            }
+          ]
+        },
+        {
+          "representation": "resampled_shape_v1",
+          "dimensions": 64,
+          "selected_k": 2,
+          "selection_score": 0.3702922124608165,
+          "centroid_silhouette": 0.4395654999486664,
+          "mean_seed_ari": 0.8424050852581929,
+          "minimum_cluster_support": 70,
+          "families": [
+            {
+              "candidate_id": "C1",
+              "count": 440,
+              "fraction": 0.8627450980392157,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_US500_PERIOD_M5_1781481600_1782086400_15824288097372850924",
+              "medoid_object_id": 1
+            },
+            {
+              "candidate_id": "C2",
+              "count": 70,
+              "fraction": 0.13725490196078433,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_FRA40_PERIOD_M5_1781481600_1782086400_317235149503321393",
+              "medoid_object_id": 2
+            }
+          ]
+        },
+        {
+          "representation": "hybrid_mirrored_v1",
+          "dimensions": 71,
+          "selected_k": 2,
+          "selection_score": 0.48820831226230615,
+          "centroid_silhouette": 0.48820831226230615,
+          "mean_seed_ari": 1.0,
+          "minimum_cluster_support": 50,
+          "families": [
+            {
+              "candidate_id": "C1",
+              "count": 460,
+              "fraction": 0.9019607843137255,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_US30_PERIOD_M5_1785715200_1786060800_11126998680303349651",
+              "medoid_object_id": 10
+            },
+            {
+              "candidate_id": "C2",
+              "count": 50,
+              "fraction": 0.09803921568627451,
+              "instrument_count": 6,
+              "instruments": [
+                "DE40",
+                "FRA40",
+                "JPN225",
+                "US30",
+                "US500",
+                "USTEC"
+              ],
+              "common_support": true,
+              "medoid_run_key": "RG3_USTEC_PERIOD_M5_1777852800_1778457600_2749301626223637730",
+              "medoid_object_id": 6
+            }
+          ]
+        }
+      ],
+      "cross_view_agreement": [
+        {
+          "left": "summary_geometry_v1",
+          "right": "resampled_shape_v1",
+          "adjusted_rand_index": 0.09965710330819877
+        },
+        {
+          "left": "summary_geometry_v1",
+          "right": "hybrid_mirrored_v1",
+          "adjusted_rand_index": -0.016032100799927958
+        },
+        {
+          "left": "resampled_shape_v1",
+          "right": "hybrid_mirrored_v1",
+          "adjusted_rand_index": 0.23086116470370738
+        }
+      ],
+      "mean_cross_view_ari": 0.10482872240399273
+    }
+  ],
+  "exit_checks": {
+    "minimum_total_objects": true,
+    "minimum_objects_per_instrument": true,
+    "minimum_eligible_per_object_kind": true,
+    "common_family_support": false,
+    "within_view_stability": true,
+    "cross_view_agreement": false,
+    "raw_generation_consistent": true
+  },
+  "limitations": [
+    "Candidate IDs are representation-dependent statistical partitions, not discovered market truth.",
+    "Censored objects remain in coverage denominators but are not forced into terminal trajectory families.",
+    "Centroid silhouette is a compact selection diagnostic and is not a probabilistic confidence.",
+    "No trading, profitability, entry, exit, or directional-value label is present."
+  ]
+}

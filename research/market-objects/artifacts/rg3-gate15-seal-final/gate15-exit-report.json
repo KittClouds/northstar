@@ -1,0 +1,413 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_GATE15_EXIT_REPORT_V1",
+    "status":  "PASS",
+    "research_generation":  3,
+    "corpus":  {
+                   "runs":  42,
+                   "objects":  1091,
+                   "instruments":  {
+                                       "DE40":  160,
+                                       "FRA40":  165,
+                                       "JPN225":  182,
+                                       "US30":  183,
+                                       "US500":  199,
+                                       "USTEC":  202
+                                   },
+                   "minimum_per_instrument":  160,
+                   "compression_objects":  553,
+                   "expansion_objects":  538
+               },
+    "censoring":  {
+                      "compression_count":  15,
+                      "compression_rate":  0.027124773960216998,
+                      "expansion_count":  28,
+                      "expansion_rate":  0.05204460966542751,
+                      "terminal_reason_counts":  {
+                                                     "compression":  {
+                                                                         "1":  300,
+                                                                         "2":  238,
+                                                                         "6":  15
+                                                                     },
+                                                     "expansion":  {
+                                                                       "4":  510,
+                                                                       "5":  1,
+                                                                       "6":  27
+                                                                   }
+                                                 }
+                  },
+    "missingness":  {
+                        "counts":  {
+                                       "expansion_events.destination_compression_id":  539,
+                                       "expansion_objects.destination_compression_id":  28
+                                   },
+                        "interpretation":  "destination_compression_id is unavailable before a handoff and remains null for censored expansions; event rows retain availability-time nulls"
+                    },
+    "family_systems":  [
+                           {
+                               "object_kind":  "COMPRESSION",
+                               "representation":  "summary_geometry_v1",
+                               "sha256":  "297001a37593a9f07f114956e146320e18f378912d6e483f8c6ea92499bc2c5e",
+                               "supported_objects":  538,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.897676915084478
+                           },
+                           {
+                               "object_kind":  "COMPRESSION",
+                               "representation":  "resampled_shape_v1",
+                               "sha256":  "97373352c79af3746b7718cd3cc03c3880ee3f1f124aba1f415e4970f807f17b",
+                               "supported_objects":  538,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.995774792595591
+                           },
+                           {
+                               "object_kind":  "COMPRESSION",
+                               "representation":  "hybrid_mirrored_v1",
+                               "sha256":  "5eb5a2741a3c0de08701438efe24f1326da1bc298f2f1bdee875a56d69315599",
+                               "supported_objects":  538,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.9740790154777201
+                           },
+                           {
+                               "object_kind":  "EXPANSION",
+                               "representation":  "summary_geometry_v1",
+                               "sha256":  "ab7a0b1ee23b4f15713a65550bc59230eb702d8e1e3842b025330ae51207cd92",
+                               "supported_objects":  498,
+                               "noise_objects":  12,
+                               "noise_fraction":  0.023529411764705882,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.910814405237795
+                           },
+                           {
+                               "object_kind":  "EXPANSION",
+                               "representation":  "resampled_shape_v1",
+                               "sha256":  "58b56f65841117821e44b18d673cfbb724cd5634db5b5747ed1942b1ec4531e1",
+                               "supported_objects":  510,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  2,
+                               "mean_seed_ari":  0.8309302687062207
+                           },
+                           {
+                               "object_kind":  "EXPANSION",
+                               "representation":  "hybrid_mirrored_v1",
+                               "sha256":  "aec22711ee5d4716189e7ee5fdb6f66806372f7673db38195f12c52920b27f37",
+                               "supported_objects":  510,
+                               "noise_objects":  0,
+                               "noise_fraction":  0.0,
+                               "common_families":  3,
+                               "mean_seed_ari":  0.9787750066075149
+                           }
+                       ],
+    "maximum_family_instrument_share":  0.24,
+    "maximum_family_window_share":  0.23809523809523808,
+    "representation_sensitivity":  [
+                                       {
+                                           "object_kind":  "COMPRESSION",
+                                           "mean_raw_cross_view_ari":  0.009084265759723284,
+                                           "pairwise":  [
+                                                            {
+                                                                "left":  "summary_geometry_v1",
+                                                                "right":  "resampled_shape_v1",
+                                                                "raw_partition_ari":  0.012962031703619863,
+                                                                "assignment_ari_with_null":  0.012962031703619863,
+                                                                "supported_only_ari":  0.012962031703619863,
+                                                                "supported_pair_objects":  538,
+                                                                "shared_noise_objects":  0,
+                                                                "adjusted_rand_index":  0.012962031703619863,
+                                                                "correspondence":  [
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  193,
+                                                                                           "fraction_of_left":  0.4936061381074169
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  198,
+                                                                                           "fraction_of_left":  0.5063938618925832
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  106,
+                                                                                           "fraction_of_left":  0.7210884353741497
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  41,
+                                                                                           "fraction_of_left":  0.2789115646258503
+                                                                                       }
+                                                                                   ]
+                                                            },
+                                                            {
+                                                                "left":  "summary_geometry_v1",
+                                                                "right":  "hybrid_mirrored_v1",
+                                                                "raw_partition_ari":  0.006090849886263076,
+                                                                "assignment_ari_with_null":  0.006090849886263076,
+                                                                "supported_only_ari":  0.006090849886263076,
+                                                                "supported_pair_objects":  538,
+                                                                "shared_noise_objects":  0,
+                                                                "adjusted_rand_index":  0.006090849886263076,
+                                                                "correspondence":  [
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  332,
+                                                                                           "fraction_of_left":  0.8491048593350383
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  59,
+                                                                                           "fraction_of_left":  0.15089514066496162
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  123,
+                                                                                           "fraction_of_left":  0.8367346938775511
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  24,
+                                                                                           "fraction_of_left":  0.16326530612244897
+                                                                                       }
+                                                                                   ]
+                                                            },
+                                                            {
+                                                                "left":  "resampled_shape_v1",
+                                                                "right":  "hybrid_mirrored_v1",
+                                                                "raw_partition_ari":  0.008199915689286909,
+                                                                "assignment_ari_with_null":  0.008199915689286909,
+                                                                "supported_only_ari":  0.008199915689286909,
+                                                                "supported_pair_objects":  538,
+                                                                "shared_noise_objects":  0,
+                                                                "adjusted_rand_index":  0.008199915689286909,
+                                                                "correspondence":  [
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  259,
+                                                                                           "fraction_of_left":  0.8662207357859532
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  40,
+                                                                                           "fraction_of_left":  0.13377926421404682
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  196,
+                                                                                           "fraction_of_left":  0.8200836820083682
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  43,
+                                                                                           "fraction_of_left":  0.1799163179916318
+                                                                                       }
+                                                                                   ]
+                                                            }
+                                                        ]
+                                       },
+                                       {
+                                           "object_kind":  "EXPANSION",
+                                           "mean_raw_cross_view_ari":  0.2828735194101812,
+                                           "pairwise":  [
+                                                            {
+                                                                "left":  "summary_geometry_v1",
+                                                                "right":  "resampled_shape_v1",
+                                                                "raw_partition_ari":  0.12602924583524985,
+                                                                "assignment_ari_with_null":  0.12602924583524985,
+                                                                "supported_only_ari":  0.09003077469373266,
+                                                                "supported_pair_objects":  498,
+                                                                "shared_noise_objects":  0,
+                                                                "adjusted_rand_index":  0.12602924583524985,
+                                                                "correspondence":  [
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  300,
+                                                                                           "fraction_of_left":  0.9090909090909091
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  30,
+                                                                                           "fraction_of_left":  0.09090909090909091
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C3",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  126,
+                                                                                           "fraction_of_left":  0.75
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C3",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  42,
+                                                                                           "fraction_of_left":  0.25
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "NULL",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  3,
+                                                                                           "fraction_of_left":  0.25
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "NULL",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  9,
+                                                                                           "fraction_of_left":  0.75
+                                                                                       }
+                                                                                   ]
+                                                            },
+                                                            {
+                                                                "left":  "summary_geometry_v1",
+                                                                "right":  "hybrid_mirrored_v1",
+                                                                "raw_partition_ari":  0.3076438426323016,
+                                                                "assignment_ari_with_null":  0.3076438426323016,
+                                                                "supported_only_ari":  0.2977385221559786,
+                                                                "supported_pair_objects":  498,
+                                                                "shared_noise_objects":  0,
+                                                                "adjusted_rand_index":  0.3076438426323016,
+                                                                "correspondence":  [
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  23,
+                                                                                           "fraction_of_left":  0.0696969696969697
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  305,
+                                                                                           "fraction_of_left":  0.9242424242424242
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C3",
+                                                                                           "count":  2,
+                                                                                           "fraction_of_left":  0.006060606060606061
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C3",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  40,
+                                                                                           "fraction_of_left":  0.23809523809523808
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C3",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  81,
+                                                                                           "fraction_of_left":  0.48214285714285715
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C3",
+                                                                                           "right_candidate":  "C3",
+                                                                                           "count":  47,
+                                                                                           "fraction_of_left":  0.27976190476190477
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "NULL",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  7,
+                                                                                           "fraction_of_left":  0.5833333333333334
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "NULL",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  4,
+                                                                                           "fraction_of_left":  0.3333333333333333
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "NULL",
+                                                                                           "right_candidate":  "C3",
+                                                                                           "count":  1,
+                                                                                           "fraction_of_left":  0.08333333333333333
+                                                                                       }
+                                                                                   ]
+                                                            },
+                                                            {
+                                                                "left":  "resampled_shape_v1",
+                                                                "right":  "hybrid_mirrored_v1",
+                                                                "raw_partition_ari":  0.414947469762992,
+                                                                "assignment_ari_with_null":  0.414947469762992,
+                                                                "supported_only_ari":  0.414947469762992,
+                                                                "supported_pair_objects":  510,
+                                                                "shared_noise_objects":  0,
+                                                                "adjusted_rand_index":  0.414947469762992,
+                                                                "correspondence":  [
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  31,
+                                                                                           "fraction_of_left":  0.07226107226107226
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  370,
+                                                                                           "fraction_of_left":  0.8624708624708625
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C1",
+                                                                                           "right_candidate":  "C3",
+                                                                                           "count":  28,
+                                                                                           "fraction_of_left":  0.06526806526806526
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C1",
+                                                                                           "count":  39,
+                                                                                           "fraction_of_left":  0.48148148148148145
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C2",
+                                                                                           "count":  20,
+                                                                                           "fraction_of_left":  0.24691358024691357
+                                                                                       },
+                                                                                       {
+                                                                                           "left_candidate":  "C2",
+                                                                                           "right_candidate":  "C3",
+                                                                                           "count":  22,
+                                                                                           "fraction_of_left":  0.2716049382716049
+                                                                                       }
+                                                                                   ]
+                                                            }
+                                                        ]
+                                       }
+                                   ],
+    "epistemic_boundary":  "representation-specific exploratory candidate systems; NULL is not a family; no consensus taxonomy or market truth is claimed",
+    "confirmation":  "12 exact instrument-window runs frozen and unopened; no Gate 15 confirmation claim",
+    "exit_checks":  {
+                        "enough_objects":  true,
+                        "all_six_instruments":  true,
+                        "common_families_supported":  true,
+                        "within_view_reproducible":  true,
+                        "support_not_instrument_concentrated":  true,
+                        "support_not_window_concentrated":  true,
+                        "censoring_and_missingness_explicit":  true,
+                        "null_is_not_a_family":  true,
+                        "cross_view_disagreement_retained":  true,
+                        "v1_failure_preserved":  true,
+                        "v2_exploratory_only":  true,
+                        "derived_replay_byte_identical":  true,
+                        "confirmation_windows_frozen_unopened":  true,
+                        "raw_corpus_and_schema_sealed":  true
+                    },
+    "canonical_corpus_sha256":  "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8",
+    "corpus_manifest_sha256":  "9eac481caabc5202c68ddb860744df2d127e99511485ac591a2a58f52cbeb5d1"
+}

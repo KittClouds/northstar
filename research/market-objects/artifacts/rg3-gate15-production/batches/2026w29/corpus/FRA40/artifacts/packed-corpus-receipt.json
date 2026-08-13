@@ -1,0 +1,7 @@
+{
+  "contract": "NORTHSTAR_RG3_LOSSLESS_PACK_V1",
+  "raw_corpus_sha256": "6ea89a15de42558e09864624ba7b0400ac23978439003ca32dc8007f2b1c7034",
+  "packed_sha256": "2bae535f1a4e332bfc5ee1e54d271aa86cb90efb16ff99aa3ccb2db0930986d0",
+  "bytes": 963820,
+  "sections": 9
+}

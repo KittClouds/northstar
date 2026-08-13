@@ -1,0 +1,7 @@
+{
+  "contract": "NORTHSTAR_RG3_DERIVED_VIEW_RECEIPT_V1",
+  "raw_corpus_sha256": "c22ee3884e6effd045a9b51db5982b200ac57a7ecc02d6199f7ef35b4340d8f9",
+  "recipe_id": "NORTHSTAR_RG3_DERIVED_ORIGIN_ATR_NORMALIZATION_V1",
+  "recipe_sha256": "c489778f67222d2ea84b7465f911b78721881b76572b4b3f1eef9e8adddb40c6",
+  "row_count": 896
+}

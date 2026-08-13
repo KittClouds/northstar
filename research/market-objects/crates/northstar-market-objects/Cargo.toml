@@ -9,6 +9,10 @@ publish.workspace = true
 name = "northstar-market-object-seal"
 path = "src/main.rs"
 
+[[bin]]
+name = "northstar-market-object-discover"
+path = "src/discover_main.rs"
+
 [dependencies]
 hashbrown.workspace = true
 memchr.workspace = true
@@ -18,6 +22,7 @@ serde_json.workspace = true
 sha2.workspace = true
 thiserror.workspace = true
 zerocopy.workspace = true
+wide.workspace = true
 
 [dev-dependencies]
 tempfile = "3.20"

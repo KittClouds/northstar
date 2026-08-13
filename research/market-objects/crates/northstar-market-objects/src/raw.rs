@@ -140,13 +140,13 @@ impl Row<'_> {
             detail: format!("field {name} is not i64"),
         })
     }
-    fn usize(&self, name: &str) -> Result<usize, RawError> {
+    pub(crate) fn usize(&self, name: &str) -> Result<usize, RawError> {
         self.field(name)?.parse().map_err(|_| RawError::Invalid {
             dataset: self.dataset.name.into(),
             detail: format!("field {name} is not usize"),
         })
     }
-    fn f64(&self, name: &str) -> Result<f64, RawError> {
+    pub(crate) fn f64(&self, name: &str) -> Result<f64, RawError> {
         self.field(name)?.parse().map_err(|_| RawError::Invalid {
             dataset: self.dataset.name.into(),
             detail: format!("field {name} is not f64"),
@@ -605,6 +605,22 @@ impl RawCorpus {
     }
     pub(crate) fn rows(&self, name: &str) -> impl Iterator<Item = Row<'_>> {
         self.dataset(name).rows()
+    }
+
+    pub fn missing_counts(&self) -> Result<HashMap<String, usize>, RawError> {
+        let mut counts = HashMap::new();
+        for dataset in &self.datasets {
+            for row in dataset.rows() {
+                for column in dataset.header.keys() {
+                    if row.field(column)? == "\\N" {
+                        *counts
+                            .entry(format!("{}.{}", dataset.name, column))
+                            .or_insert(0) += 1;
+                    }
+                }
+            }
+        }
+        Ok(counts)
     }
 }
 

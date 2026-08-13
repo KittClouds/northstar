@@ -1,0 +1,27 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_PRODUCTION_CAMPAIGN_V1",
+  "status": "FROZEN",
+  "research_generation": 3,
+  "preset": "RG3_M5_RAW_OBJECTS_V1",
+  "window_policy": "half_open_utc_seconds",
+  "canonical_symbols": {
+    "US30": "US30",
+    "FRA40": "FRA40",
+    "DE40": "DE40",
+    "JPN225": "JPN225",
+    "US500": "US500",
+    "USTEC": "USTEC"
+  },
+  "windows": [
+    {"window_id":"2026w03","window_start":"2026-01-12T00:00:00Z","window_end":"2026-01-19T00:00:00Z","selection_reason":"early-year ordinary and directional conditions"},
+    {"window_id":"2026w08","window_start":"2026-02-16T00:00:00Z","window_end":"2026-02-23T00:00:00Z","selection_reason":"disjoint winter volatility sample"},
+    {"window_id":"2026w13","window_start":"2026-03-23T00:00:00Z","window_end":"2026-03-30T00:00:00Z","selection_reason":"quarter-end-adjacent structural sample"},
+    {"window_id":"2026w19","window_start":"2026-05-04T00:00:00Z","window_end":"2026-05-11T00:00:00Z","selection_reason":"spring ordinary and event-heavy sessions"},
+    {"window_id":"2026w25","window_start":"2026-06-15T00:00:00Z","window_end":"2026-06-22T00:00:00Z","selection_reason":"mid-year directional and balance sample"},
+    {"window_id":"2026w29","window_start":"2026-07-13T00:00:00Z","window_end":"2026-07-20T00:00:00Z","selection_reason":"recent disjoint pre-holdout sample"}
+  ],
+  "reserved": [
+    {"window_start":"2025-10-06T00:00:00Z","window_end":"2025-10-13T00:00:00Z","purpose":"untouched future representation verification"},
+    {"window_start":"2026-04-06T00:00:00Z","window_end":"2026-04-13T00:00:00Z","purpose":"untouched future representation verification"}
+  ]
+}

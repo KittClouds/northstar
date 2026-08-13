@@ -72,3 +72,47 @@ Rust unit tests         4 passed / 1 explicit performance lane
 Rust clippy             -D warnings PASS
 100k mmap validation    PASS (84,053 us observed on this workstation)
 ```
+
+## Gate 15: representation-specific trajectory families
+
+Gate 15 extends the sealed RG3 corpus to 42 runs and 1,091 compression and
+expansion objects across DE40, FRA40, JPN225, US30, US500, and USTEC. Raw
+authority is unchanged. Discovery operates only on replaceable views derived
+from the sealed close path, origin ATR, raw displacement and velocity, and
+market timestamps.
+
+Three deliberately different family systems are retained per object kind:
+
+```text
+summary geometry
+resampled trajectory shape
+mirrored hybrid geometry
+```
+
+Each system has its own deterministic SHA-256 identity. Candidate IDs such as
+`C1` and `C2` are local to one representation. `NULL` is an explicit unmatched
+assignment and is never a family. Reports expose noise rate, seed stability,
+instrument/window concentration, and pairwise family correspondence both with
+and without noise. Cross-view disagreement is preserved as information; Gate
+15 does not claim a consensus taxonomy.
+
+The prospective V1 discovery report remains sealed as `COLLECT_MORE`. V2 was
+created after inspecting that failure, so its supported families are
+exploratory rather than independently confirmed. Six family-system identities
+and twelve exact future confirmation runs are frozen in
+`campaigns/rg3-gate15-family-confirmation.json`; those windows remain unopened
+and unauthorized in Gate 15.
+
+Final evidence lives under `artifacts/rg3-gate15-seal-final-v4`:
+
+```text
+admitted runs                 42
+market objects             1,091
+minimum objects/instrument   160
+compression censoring       2.7%
+expansion censoring         5.2%
+largest family market share 24.0%
+largest family window share 23.8%
+derived byte replay          PASS
+aggregate corpus seal        PASS
+```

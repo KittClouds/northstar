@@ -1,0 +1,49 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_DISCOVERY_PROTOCOL_V1",
+  "status": "FROZEN",
+  "research_generation": 3,
+  "raw_schema_version": 1,
+  "authority": "sealed_raw_only",
+  "object_kinds": ["COMPRESSION", "EXPANSION"],
+  "eligibility": {
+    "primary_family_discovery": "completed_objects_only",
+    "censored_objects": "reported_and_retained_but_not_forced_into_terminal_families",
+    "minimum_samples_per_object": 4
+  },
+  "representations": [
+    "summary_geometry_v1",
+    "resampled_shape_v1",
+    "hybrid_mirrored_v1"
+  ],
+  "resampling": {
+    "compression_points": 16,
+    "expansion_points": 32,
+    "interpolation": "linear_over_normalized_object_age"
+  },
+  "candidate_search": {
+    "algorithm": "deterministic_kmeans",
+    "k_min": 2,
+    "k_max": 8,
+    "initializations": 8,
+    "maximum_iterations": 100,
+    "selection": "silhouette_times_stability_times_support_penalty"
+  },
+  "exit_thresholds": {
+    "minimum_total_objects": 600,
+    "minimum_objects_per_instrument": 70,
+    "minimum_eligible_per_object_kind": 240,
+    "minimum_common_family_support": 30,
+    "minimum_common_family_instruments": 4,
+    "minimum_within_view_stability_ari": 0.65,
+    "minimum_cross_view_ari": 0.35,
+    "minimum_common_families": 2
+  },
+  "epistemic_status": "candidate_only_not_market_truth",
+  "forbidden": [
+    "trading_labels",
+    "profit_or_loss_labels",
+    "cluster_family_names",
+    "threshold_changes_to_manufacture_support",
+    "raw_observation_mutation"
+  ]
+}

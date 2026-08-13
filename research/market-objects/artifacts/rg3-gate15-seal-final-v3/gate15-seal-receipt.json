@@ -1,0 +1,8 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_GATE15_SEAL_RECEIPT_V1",
+    "status":  "PASS",
+    "research_generation":  3,
+    "corpus_manifest_sha256":  "438b8f977a32708f41bc7a1ef08c7269b1a76d41140f5ea71351ffb8a33d87bc",
+    "exit_report_sha256":  "2eba12c57fc5001a5bf6cf7b1f90fabebf4462221163b9aa777a082704a42af4",
+    "canonical_corpus_sha256":  "68ed0ad0059390b683faaf2b7d607c0e1e763dcbf9b8368a8ae5a1e85d8684b8"
+}

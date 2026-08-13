@@ -1,0 +1,51 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_DISCOVERY_ADJUDICATION_V2",
+  "status": "FROZEN_POST_V1_REMEDIATION",
+  "research_generation": 3,
+  "raw_authority_unchanged": true,
+  "evidence_order": [
+    "gate15_discovery_protocol_v1_frozen",
+    "v1_full_corpus_result_collected",
+    "v1_sparse_cluster_failure_diagnosed",
+    "v2_derived_recipe_created",
+    "v2_sensitivity_result_collected",
+    "this_adjudication_record_sealed"
+  ],
+  "v1_result": {
+    "status": "COLLECT_MORE",
+    "preservation_rule": "retain byte-for-byte as failed prospective discovery evidence",
+    "failure_causes": [
+      "minimum common-family support not met under unconstrained candidate selection",
+      "cross-view agreement below the prospective threshold"
+    ]
+  },
+  "v2_recipe": {
+    "recipe_id": "NORTHSTAR_RG3_GATE15_MULTI_VIEW_DISCOVERY_V2|C16|E32|K2:8|SEEDS8|ITER100|WINSOR01|NOISE_LT30",
+    "raw_mutation": "forbidden",
+    "winsorization": "per feature at empirical 1st and 99th percentiles",
+    "standardization": "z-score after winsorization, clamped to [-6, 6]",
+    "family_support": {
+      "minimum_objects": 30,
+      "minimum_instruments": 4,
+      "minimum_windows": 4,
+      "unsupported_partitions": "explicit null candidate assignment"
+    }
+  },
+  "gate15_adjudication": {
+    "candidate_family_requirements": [
+      "at least two supported candidate families for both object kinds",
+      "within-view mean seed ARI at least 0.65",
+      "support spans at least four instruments and four disjoint windows"
+    ],
+    "cross_view_ari_role": "diagnostic representation-sensitivity measurement, not a truth or exit criterion",
+    "reason": "summary geometry, resampled path shape, and mirrored hybrid geometry ask different mathematical questions; forcing agreement would collapse deliberately distinct derived views",
+    "required_disclosure": "all reports must retain cross-view ARI and state that candidate IDs are representation-dependent"
+  },
+  "forbidden": [
+    "renaming candidate IDs as market laws",
+    "choosing one representation as authoritative",
+    "discarding V1 failure evidence",
+    "mutating sealed raw observations",
+    "using trading or profitability labels"
+  ]
+}

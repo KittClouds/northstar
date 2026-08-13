@@ -1,0 +1,35 @@
+{
+  "contract": "NORTHSTAR_RG3_GATE15_FAMILY_CONFIRMATION_MANIFEST_V1",
+  "status": "FROZEN_UNOPENED",
+  "research_generation": 3,
+  "purpose": "future out-of-sample recurrence test for exploratory Gate 15 family systems",
+  "authorization": "NOT_AUTHORIZED_IN_GATE15",
+  "family_systems": [
+    {"object_kind":"COMPRESSION","representation":"summary_geometry_v1","sha256":"297001a37593a9f07f114956e146320e18f378912d6e483f8c6ea92499bc2c5e"},
+    {"object_kind":"COMPRESSION","representation":"resampled_shape_v1","sha256":"97373352c79af3746b7718cd3cc03c3880ee3f1f124aba1f415e4970f807f17b"},
+    {"object_kind":"COMPRESSION","representation":"hybrid_mirrored_v1","sha256":"5eb5a2741a3c0de08701438efe24f1326da1bc298f2f1bdee875a56d69315599"},
+    {"object_kind":"EXPANSION","representation":"summary_geometry_v1","sha256":"ab7a0b1ee23b4f15713a65550bc59230eb702d8e1e3842b025330ae51207cd92"},
+    {"object_kind":"EXPANSION","representation":"resampled_shape_v1","sha256":"58b56f65841117821e44b18d673cfbb724cd5634db5b5747ed1942b1ec4531e1"},
+    {"object_kind":"EXPANSION","representation":"hybrid_mirrored_v1","sha256":"aec22711ee5d4716189e7ee5fdb6f66806372f7673db38195f12c52920b27f37"}
+  ],
+  "canonical_instruments": ["DE40", "FRA40", "JPN225", "US30", "US500", "USTEC"],
+  "windows": [
+    {"window_id":"confirm_2025w41","window_start":"2025-10-06T00:00:00Z","window_end":"2025-10-13T00:00:00Z"},
+    {"window_id":"confirm_2026w15","window_start":"2026-04-06T00:00:00Z","window_end":"2026-04-13T00:00:00Z"}
+  ],
+  "expected_runs": 12,
+  "confirmation_rules": {
+    "fit": "forbidden",
+    "threshold_changes": "forbidden",
+    "family_renaming": "forbidden",
+    "primary_question": "do the frozen representation-specific family systems recur on untouched windows",
+    "null_rule": "NULL is not a family and remains an explicit unmatched outcome",
+    "reporting": [
+      "assignment rate and NULL rate",
+      "family support by instrument and window",
+      "within-system recurrence",
+      "cross-view correspondence with and without NULL",
+      "population drift from exploratory corpus"
+    ]
+  }
+}

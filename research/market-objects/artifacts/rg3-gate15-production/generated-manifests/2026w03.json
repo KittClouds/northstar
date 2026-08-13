@@ -1,0 +1,47 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_SIX_MARKET_QUALIFICATION_V1",
+    "research_generation":  3,
+    "source_auction_generation":  2,
+    "preset":  "RG3_M5_RAW_OBJECTS_V1",
+    "window_policy":  "half_open_utc_seconds",
+    "gate15_window_id":  "2026w03",
+    "selection_reason":  "early-year ordinary and directional conditions",
+    "runs":  [
+                 {
+                     "canonical_instrument":  "US30",
+                     "broker_symbol":  "US30",
+                     "window_start":  "2026-01-12T00:00:00Z",
+                     "window_end":  "2026-01-19T00:00:00Z"
+                 },
+                 {
+                     "canonical_instrument":  "FRA40",
+                     "broker_symbol":  "FRA40",
+                     "window_start":  "2026-01-12T00:00:00Z",
+                     "window_end":  "2026-01-19T00:00:00Z"
+                 },
+                 {
+                     "canonical_instrument":  "DE40",
+                     "broker_symbol":  "DE40",
+                     "window_start":  "2026-01-12T00:00:00Z",
+                     "window_end":  "2026-01-19T00:00:00Z"
+                 },
+                 {
+                     "canonical_instrument":  "JPN225",
+                     "broker_symbol":  "JPN225",
+                     "window_start":  "2026-01-12T00:00:00Z",
+                     "window_end":  "2026-01-19T00:00:00Z"
+                 },
+                 {
+                     "canonical_instrument":  "US500",
+                     "broker_symbol":  "US500",
+                     "window_start":  "2026-01-12T00:00:00Z",
+                     "window_end":  "2026-01-19T00:00:00Z"
+                 },
+                 {
+                     "canonical_instrument":  "USTEC",
+                     "broker_symbol":  "USTEC",
+                     "window_start":  "2026-01-12T00:00:00Z",
+                     "window_end":  "2026-01-19T00:00:00Z"
+                 }
+             ]
+}

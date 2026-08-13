@@ -9,3 +9,5 @@ Cargo.lock text eol=lf
 *.mqh text eol=crlf
 *.f64 binary
 *.mmap binary
+*.nsmor binary
+/research/market-objects/artifacts/** binary

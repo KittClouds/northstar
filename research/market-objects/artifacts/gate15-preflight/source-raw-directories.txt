@@ -1,0 +1,6 @@
+research\market-objects\artifacts\rg3-qualification\corpus\DE40\raw
+research\market-objects\artifacts\rg3-qualification\corpus\FRA40\raw
+research\market-objects\artifacts\rg3-qualification\corpus\JPN225\raw
+research\market-objects\artifacts\rg3-qualification\corpus\US30\raw
+research\market-objects\artifacts\rg3-qualification\corpus\US500\raw
+research\market-objects\artifacts\rg3-qualification\corpus\USTEC\raw

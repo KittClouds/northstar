@@ -1,0 +1,88 @@
+﻿{
+    "contract":  "NORTHSTAR_RG3_GATE15_COLLECTION_REPORT_V1",
+    "status":  "PASS",
+    "research_generation":  3,
+    "campaign_manifest_sha256":  "1a2f191f69bba1c5b6f60a50b2596512b60116385c50d5972d5e9842fce9c4e2",
+    "batches":  [
+                    {
+                        "window_id":  "2026w03",
+                        "window_start":  "2026-01-12T00:00:00Z",
+                        "window_end":  "2026-01-19T00:00:00Z",
+                        "selection_reason":  "early-year ordinary and directional conditions",
+                        "status":  "PASS",
+                        "canonical_corpus_sha256":  "2100b27744135bccfd319ff9efb4e3898fb5dc6100667ca660f05cd4701b16d9",
+                        "compressions":  78,
+                        "expansions":  76,
+                        "compression_samples":  1984,
+                        "expansion_samples":  6037
+                    },
+                    {
+                        "window_id":  "2026w08",
+                        "window_start":  "2026-02-16T00:00:00Z",
+                        "window_end":  "2026-02-23T00:00:00Z",
+                        "selection_reason":  "disjoint winter volatility sample",
+                        "status":  "PASS",
+                        "canonical_corpus_sha256":  "b4763f54dd2badb419d762044572e06ff39da8252e82d0b0b8faae0059425208",
+                        "compressions":  82,
+                        "expansions":  80,
+                        "compression_samples":  2407,
+                        "expansion_samples":  5579
+                    },
+                    {
+                        "window_id":  "2026w13",
+                        "window_start":  "2026-03-23T00:00:00Z",
+                        "window_end":  "2026-03-30T00:00:00Z",
+                        "selection_reason":  "quarter-end-adjacent structural sample",
+                        "status":  "PASS",
+                        "canonical_corpus_sha256":  "37fbd7a1135c6d4945424a43a402698701e3b7b107e198320edfd37bddc9652a",
+                        "compressions":  80,
+                        "expansions":  79,
+                        "compression_samples":  1755,
+                        "expansion_samples":  5411
+                    },
+                    {
+                        "window_id":  "2026w19",
+                        "window_start":  "2026-05-04T00:00:00Z",
+                        "window_end":  "2026-05-11T00:00:00Z",
+                        "selection_reason":  "spring ordinary and event-heavy sessions",
+                        "status":  "PASS",
+                        "canonical_corpus_sha256":  "defca17f625af6dae82f5372d52e9218f5592701799f383770a167ce33fafd65",
+                        "compressions":  76,
+                        "expansions":  74,
+                        "compression_samples":  2364,
+                        "expansion_samples":  5350
+                    },
+                    {
+                        "window_id":  "2026w25",
+                        "window_start":  "2026-06-15T00:00:00Z",
+                        "window_end":  "2026-06-22T00:00:00Z",
+                        "selection_reason":  "mid-year directional and balance sample",
+                        "status":  "PASS",
+                        "canonical_corpus_sha256":  "f5a4ddbbb97d4c7e27206300214c700c99376b1024c448e5787d3ca69edb695a",
+                        "compressions":  98,
+                        "expansions":  92,
+                        "compression_samples":  2654,
+                        "expansion_samples":  5328
+                    },
+                    {
+                        "window_id":  "2026w29",
+                        "window_start":  "2026-07-13T00:00:00Z",
+                        "window_end":  "2026-07-20T00:00:00Z",
+                        "selection_reason":  "recent disjoint pre-holdout sample",
+                        "status":  "PASS",
+                        "canonical_corpus_sha256":  "3bd0264c482efbf659c809ba4593c6ea017afe3c7fc0915510132bcab0b4f90b",
+                        "compressions":  64,
+                        "expansions":  63,
+                        "compression_samples":  1639,
+                        "expansion_samples":  6399
+                    }
+                ],
+    "totals":  {
+                   "windows":  6,
+                   "runs":  36,
+                   "compressions":  478,
+                   "expansions":  464,
+                   "compression_samples":  12803,
+                   "expansion_samples":  34104
+               }
+}

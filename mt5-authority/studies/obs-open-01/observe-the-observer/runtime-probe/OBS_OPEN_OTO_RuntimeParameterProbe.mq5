@@ -21,6 +21,11 @@ input uint InpHourEndArea = 9;
 input uint InpMinEndArea = 40;
 
 const string OTO_SCHEMA = "OTO_EFFECTIVE_PARAMETER_VECTOR_V1";
+const string OTO_BUNDLE_SCHEMA = "OTO_RUNTIME_INSTANTIATION_BUNDLE_V1";
+const string V200_SOURCE_SHA256 =
+   "9519323848f232ff4255f8d00896d2a78b91d16b7e1dc07ed7bac8451d0fd5c2";
+const string V200_EX5_SHA256 =
+   "6f221fdd9f536ffa64e23842a4d9f77bd218bafda1c350b45458c1232a1a23ed";
 const string V210_SOURCE_SHA256 =
    "a133ef773531a1599d1cef1e5124fcacc24b037f84cca777205c67ee0a785c61";
 const string V210_EX5_SHA256 =
@@ -96,13 +101,25 @@ void OnStart()
    }
 
    WriteCells(file, "META", "schema", OTO_SCHEMA, "", "", "", "", "");
+   WriteCells(file, "META", "runtime_bundle_schema", OTO_BUNDLE_SCHEMA, "", "", "", "", "");
    WriteCells(file, "META", "inst01_root", INST01_ROOT, "", "", "", "", "");
+   WriteCells(file, "META", "v200_source_sha256", V200_SOURCE_SHA256, "", "", "", "", "");
+   WriteCells(file, "META", "v200_ex5_sha256", V200_EX5_SHA256, "", "", "", "", "");
    WriteCells(file, "META", "v210_source_sha256", V210_SOURCE_SHA256, "", "", "", "", "");
    WriteCells(file, "META", "v210_ex5_sha256", V210_EX5_SHA256, "", "", "", "", "");
    WriteCells(file, "META", "symbol", _Symbol, "timeframe", EnumToString(_Period), "", "", "");
+   WriteCells(file, "META", "period_seconds",
+              IntegerToString(PeriodSeconds(_Period)),
+              "digits", IntegerToString(_Digits), "", "", "");
+   WriteCells(file, "META", "terminal_company", TerminalInfoString(TERMINAL_COMPANY),
+              "terminal_name", TerminalInfoString(TERMINAL_NAME), "", "", "");
    WriteCells(file, "META", "terminal_build",
               IntegerToString((int)TerminalInfoInteger(TERMINAL_BUILD)),
               "program_build", IntegerToString(__MQLBUILD__), "", "", "");
+   WriteCells(file, "META", "terminal_connected",
+              (bool)TerminalInfoInteger(TERMINAL_CONNECTED) ? "true" : "false",
+              "mql_tester", (bool)MQLInfoInteger(MQL_TESTER) ? "true" : "false",
+              "mql_visual_mode", (bool)MQLInfoInteger(MQL_VISUAL_MODE) ? "true" : "false", "");
    WriteCells(file, "META", "capture_time", IntegerToString((long)TimeCurrent()), "", "", "", "", "");
 
    const int v200 = iCustom(_Symbol, _Period, InpV200Name,

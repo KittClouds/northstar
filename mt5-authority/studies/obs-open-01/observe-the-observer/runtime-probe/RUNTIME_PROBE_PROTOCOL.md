@@ -9,7 +9,9 @@ market data, or authorize a parameter sweep.
 
 The authoritative runtime receipt must preserve the ordered `MqlParam` index,
 type, integer/double/string storage values, handle role, symbol, timeframe,
-terminal build, program build, specimen hashes, and parent INST-01 root.
+period seconds, digits, terminal company/name/build, connection/tester mode,
+program build, specimen hashes, and parent INST-01 root. These are an
+environment bundle, not a claim that every field is semantically relevant.
 
 Execution closes only when two independent runs produce semantically identical
 ordered vectors under the same declared runtime. Physical capture timestamps are

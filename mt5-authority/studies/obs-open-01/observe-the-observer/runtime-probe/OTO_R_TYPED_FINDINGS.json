@@ -1,0 +1,16 @@
+{
+  "schema": "OTO_R_TYPED_FINDINGS_V1",
+  "gate": "OTO-R",
+  "execution_state": "SEALED_PRE_DYNAMIC",
+  "question_status": "NOT_EVALUABLE",
+  "path_a_exact_runtime_recovered": "NOT_EVALUABLE",
+  "path_b_transport_qualification": "REQUIRED_OR_HALT",
+  "parent_runtime_build": 6106,
+  "available_runtime_build": 6094,
+  "exact_runtime_found": false,
+  "effective_parameter_vectors": "NOT_READ",
+  "dynamic_dof_authority": "NONE",
+  "transport_authority": "NONE",
+  "market_or_outcome_access": 0,
+  "maximum_authority": "OBS_OPEN_OTO_RUNTIME_LINEAGE_RESOLUTION_V1"
+}

@@ -1,0 +1,335 @@
+{
+  "bindings": [
+    {
+      "index": 0,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "RangeHighBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 1,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "RangeLowBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 2,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "RangeMidBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 3,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "RangeWidthBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 4,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "LifecycleBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 5,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "RangeOpenBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 6,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "RangeClosedBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 7,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "AreaActiveBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 8,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "InteractionEligibleBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 9,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "LocationBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 10,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "GrammarEventBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 11,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "OutsideRunBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 12,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "FirstOutsideSideBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 13,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "AboveExcursionCountBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 14,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "BelowExcursionCountBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 15,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "FailedAboveCountBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 16,
+      "layer": "CAUSAL_RANGE_AND_GRAMMAR",
+      "name": "FailedBelowCountBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 17,
+      "layer": "LEGACY_COMPATIBILITY",
+      "name": "LegacyUpperPeriodBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 18,
+      "layer": "LEGACY_COMPATIBILITY",
+      "name": "LegacyLowerPeriodBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 19,
+      "layer": "LEGACY_COMPATIBILITY",
+      "name": "LegacyUpperAreaBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 20,
+      "layer": "LEGACY_COMPATIBILITY",
+      "name": "LegacyLowerAreaBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 21,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "DevelopingHighBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 22,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "DevelopingLowBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 23,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "FreezePendingBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 24,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "LegacyDisplayPhaseBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 25,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "GeometryKnownBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 26,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "SourceCoverageBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 27,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "ConfigRangeStartBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 28,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "ActualRangeStartBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 29,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "ConfigRangeEndBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 30,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "ActualRangeEndBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 31,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "FreezeCommitBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 32,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "ConfigAreaEndBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 33,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "ActualAreaEndBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 34,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "AreaCloseCommitBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 35,
+      "layer": "EXPLICIT_CAUSAL_TIMING_AND_STATE",
+      "name": "SessionIdBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 36,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperExtremeSentinelBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 37,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerExtremeSentinelBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 38,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperExtremeCommittedBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 39,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerExtremeCommittedBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 40,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperExtremeBirthBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 41,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerExtremeBirthBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 42,
+      "layer": "EXTREME_SENTINEL",
+      "name": "NewUpperExtremeBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 43,
+      "layer": "EXTREME_SENTINEL",
+      "name": "NewLowerExtremeBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 44,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperExtremeAgeBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 45,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerExtremeAgeBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 46,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperGivebackBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 47,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerGivebackBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 48,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperExtensionRangeBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 49,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerExtensionRangeBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 50,
+      "layer": "EXTREME_SENTINEL",
+      "name": "UpperCandidateIdBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 51,
+      "layer": "EXTREME_SENTINEL",
+      "name": "LowerCandidateIdBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 52,
+      "layer": "EXTREME_SENTINEL",
+      "name": "SentinelWindowActiveBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    },
+    {
+      "index": 53,
+      "layer": "EXTREME_SENTINEL",
+      "name": "SentinelCoverageBuffer",
+      "storage_type": "DOUBLE_BUFFER"
+    }
+  ],
+  "buffer_count": 54,
+  "publication_caveats": [
+    "DATETIME_PUBLISHED_AS_DOUBLE",
+    "CANDIDATE_ID_PUBLISHED_AS_DOUBLE",
+    "EMPTY_VALUE_AND_ZERO_HAVE_DISTINCT_MEANINGS"
+  ],
+  "schema": "BUFFER_PUBLICATION_CENSUS_V1"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "OTO_RUNTIME_LINEAGE_AUDIT_V1",
+  "parent_inst01_runtime": {
+    "version": "5.0.0.6106",
+    "metaeditor_sha256": "9bee761959abb8d7de49af54caaf83d1dd05156dd9b10bd855d31da3ae9ad1b9",
+    "terminal_sha256": "0ab0496b90977d4ef848f8d2591970c3a50721476b37fa60cfb6b1bda74b2983",
+    "metatester_sha256": "4e94a6cc182caaef8834b0f9be25106162d022b7e9dc867da2b7c8fb8dd08277"
+  },
+  "current_trading_com_runtime": {
+    "version": "5.0.0.6094",
+    "metaeditor_sha256": "06c85acc269f52c9eec63bca51e33c8b57f9940ba95d8a5ef03105d230b18440",
+    "terminal_sha256": "13dcf6f2455946fdf883af86cd5ce37a00403f0fefbb0bf0c82e58a614621269",
+    "metatester_sha256": "098028acefacc1bb1bc9c2b0f89dd4896496e7581706b3afe059081702ee295c"
+  },
+  "other_terminal_versions_found": [
+    "5.0.0.6104",
+    "5.0.0.6116"
+  ],
+  "exact_6106_runtime_found": false,
+  "identity": "NOT_EQUIVALENT_BY_EXACT_RUNTIME_IDENTITY",
+  "semantic_transport": "NOT_EVALUATED",
+  "decision": "DO_NOT_EXECUTE_PROBE_AGAINST_PARENT_AUTHORITY_YET",
+  "permitted_next_states": [
+    "RECOVER_EXACT_6106_RUNTIME",
+    "FREEZE_RUNTIME_TRANSPORT_QUALIFICATION",
+    "LEAVE_EFFECTIVE_PARAMETER_BINDING_NOT_EVALUABLE"
+  ],
+  "market_or_outcome_access": 0
+}

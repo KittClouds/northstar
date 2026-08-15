@@ -1,0 +1,227 @@
+{
+  "definition": "hard-coded semantic choice that could have been manufactured differently",
+  "market_interpretation": "FORBIDDEN",
+  "policies": [
+    {
+      "choice": "hours/minutes clamp into valid domains",
+      "dimension": "INPUT_NORMALIZATION",
+      "evidence": {
+        "line": 519,
+        "needle": "g_hour_begin = (int)(InpHourBegin > 23 ? 23 : InpHourBegin)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CLOCK_CLAMP_NOT_REJECT"
+    },
+    {
+      "choice": "area-end hour cannot be below range-end hour before minute-of-day wrap",
+      "dimension": "CLOCK_NORMALIZATION",
+      "evidence": {
+        "line": 525,
+        "needle": "InpHourEndArea < (uint)g_hour_end",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "AREA_HOUR_FLOOR"
+    },
+    {
+      "choice": "legacy period predicate has greater-than and less-than branches but no equality branch",
+      "dimension": "ENDPOINT_POLICY",
+      "evidence": {
+        "line": 356,
+        "needle": "g_period_end_min < g_period_begin_min",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "EQUAL_START_END_LEGACY_EMPTY"
+    },
+    {
+      "choice": "source range includes actual end bar",
+      "dimension": "ENDPOINT_POLICY",
+      "evidence": {
+        "line": 1173,
+        "needle": "bar_open <= s.actual_end_open",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "RANGE_END_BAR_INCLUSIVE"
+    },
+    {
+      "choice": "freeze commit is actual end open plus one period",
+      "dimension": "KNOWLEDGE_TIME",
+      "evidence": {
+        "line": 984,
+        "needle": "s.freeze_commit = s.actual_end_open + (datetime)g_period_seconds",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "FREEZE_AT_END_BAR_CLOSE"
+    },
+    {
+      "choice": "exact start alignment is configurable; no symmetric exact-end switch exists",
+      "dimension": "RESOLUTION_POLICY",
+      "evidence": {
+        "line": 1010,
+        "needle": "InpRequireExactStartAlignment && !s.start_aligned",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "ASYMMETRIC_ALIGNMENT"
+    },
+    {
+      "choice": "configured times resolve to containing chart bars",
+      "dimension": "SOURCE_GEOMETRY",
+      "evidence": {
+        "line": 839,
+        "needle": "bool ResolveContainingBar",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CONTAINING_BAR_RESOLUTION"
+    },
+    {
+      "choice": "cross-midnight bars may belong to previous civil-day session",
+      "dimension": "SESSION_OWNERSHIP",
+      "evidence": {
+        "line": 1029,
+        "needle": "const datetime prev_day = PreviousDayStart(today)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "PREVIOUS_DAY_OWNERSHIP"
+    },
+    {
+      "choice": "history table includes one predecessor civil day",
+      "dimension": "HISTORY_SCOPE",
+      "evidence": {
+        "line": 1044,
+        "needle": "BuildSessionTable",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "ONE_PREDECESSOR_DAY_CONTEXT"
+    },
+    {
+      "choice": "close equal to a frozen rail is in-zone",
+      "dimension": "CLASSIFICATION_STRICTNESS",
+      "evidence": {
+        "line": 1460,
+        "needle": "if(close_price > s.frozen_high)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "STRICT_LOCATION_RAILS"
+    },
+    {
+      "choice": "completed close drives location grammar",
+      "dimension": "OBSERVED_PRICE_FIELD",
+      "evidence": {
+        "line": 1742,
+        "needle": "ProcessGrammar(i, s, bar_open, close_price)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "GRAMMAR_OBSERVES_CLOSE"
+    },
+    {
+      "choice": "completed high/low drive running extremes",
+      "dimension": "OBSERVED_PRICE_FIELD",
+      "evidence": {
+        "line": 1215,
+        "needle": "const double bar_high,",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SENTINELS_OBSERVE_HIGH_LOW"
+    },
+    {
+      "choice": "upper renews only on greater high and lower only on lesser low; ties age incumbent",
+      "dimension": "RENEWAL_STRICTNESS",
+      "evidence": {
+        "line": 1358,
+        "needle": "if(bar_high > s.upper_extreme)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "STRICT_EXTREME_RENEWAL"
+    },
+    {
+      "choice": "first completed eligible bar births both candidate IDs at one",
+      "dimension": "IDENTITY_POLICY",
+      "evidence": {
+        "line": 1351,
+        "needle": "s.upper_extreme_candidate_id = 1",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "FIRST_CANDIDATE_ID_ONE"
+    },
+    {
+      "choice": "candidate birth timestamp is completed bar close",
+      "dimension": "KNOWLEDGE_TIME",
+      "evidence": {
+        "line": 1347,
+        "needle": "s.upper_extreme_birth = bar_close",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "BIRTH_KNOWN_AT_BAR_CLOSE"
+    },
+    {
+      "choice": "forming high/low may move visible sentinel without candidate identity mutation",
+      "dimension": "PROVISIONAL_COMMITTED",
+      "evidence": {
+        "line": 1396,
+        "needle": "without mutating the committed",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+    },
+    {
+      "choice": "first committed continuity gap permanently suppresses session sentinel authority",
+      "dimension": "GAP_POLICY",
+      "evidence": {
+        "line": 1327,
+        "needle": "s.sentinel_gap_seen = true",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SENTINEL_GAP_FAIL_CLOSED"
+    },
+    {
+      "choice": "grammar emits a resume event and starts a new observed segment after a gap",
+      "dimension": "GAP_POLICY",
+      "evidence": {
+        "line": 1523,
+        "needle": "event = ResumeEventForLocation(location)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "GRAMMAR_GAP_RESUME"
+    },
+    {
+      "choice": "legacy output intentionally recalculates every tick",
+      "dimension": "UPDATE_TIMING",
+      "evidence": {
+        "line": 1820,
+        "needle": "Exact legacy compatibility output. This intentionally updates on every",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "LEGACY_REPAINT_EVERY_TICK"
+    },
+    {
+      "choice": "causal history rebuilds on attach/reset/new candle; same-bar path is projection only",
+      "dimension": "UPDATE_TIMING",
+      "evidence": {
+        "line": 1830,
+        "needle": "const bool rebuild_machine =",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CAUSAL_REBUILD_ON_NEW_BAR"
+    },
+    {
+      "choice": "resolved area window eligibility uses bar close at or before area close commit",
+      "dimension": "ENDPOINT_POLICY",
+      "evidence": {
+        "line": 1269,
+        "needle": "return bar_close <= s.area_close_commit",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SENTINEL_AREA_END_COMPLETED_BAR"
+    },
+    {
+      "choice": "unresolved area fallback uses bar open at or before configured area end",
+      "dimension": "ENDPOINT_POLICY",
+      "evidence": {
+        "line": 1271,
+        "needle": "return bar_open <= s.configured_area_end",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "UNRESOLVED_AREA_END_BAR_OPEN"
+    }
+  ],
+  "schema": "LATENT_POLICY_CENSUS_V1"
+}

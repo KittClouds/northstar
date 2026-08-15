@@ -1,0 +1,29 @@
+{
+  "schema": "OTO_RUNTIME_PARAMETER_PROBE_COMPILE_RECEIPT_V1",
+  "status": "PASS",
+  "result": "0_ERRORS_0_WARNINGS_X64_REGULAR",
+  "source": {
+    "path": "runtime-probe/OBS_OPEN_OTO_RuntimeParameterProbe.mq5",
+    "sha256": "7dde84b302cd47832a0d3dcad3fed8e4df505333112e5f0dd0296168dd578f3a"
+  },
+  "compiled_ex5": {
+    "path": "runtime-probe/OBS_OPEN_OTO_RuntimeParameterProbe.ex5",
+    "bytes": 23952,
+    "sha256": "7c384084d34c6b074abb4857e7630136934dcaa6cd86cb4613cc877e0125947b"
+  },
+  "compile_log": {
+    "path": "runtime-probe/compile-runtime-parameter-probe.log",
+    "sha256": "6d54b820ae11ec5ef94c1a9a8f06c4a5df571a40460a68cf56073bab11de516e"
+  },
+  "compiler": {
+    "path": "C:/Program Files/Trading.com Markets MT5/metaeditor64.exe",
+    "file_version": "5.0.0.6094",
+    "sha256": "06c85acc269f52c9eec63bca51e33c8b57f9940ba95d8a5ef03105d230b18440"
+  },
+  "parent_inst01_compiler_version": "5.0.0.6106",
+  "compiler_identity_relation": "DIFFERENT_FROM_PARENT_INST01_COMPILE_RUNTIME",
+  "available_matching_inst01_6106_runtime": "NOT_FOUND_IN_PROGRAM_FILES_SCAN",
+  "runtime_execution": "BLOCKED_PENDING_RUNTIME_LINEAGE_DECISION",
+  "effective_parameter_vectors": "NOT_EVALUABLE_PENDING_RUNTIME_EXECUTION",
+  "parameter_sweep_authority": "NONE"
+}

@@ -1,0 +1,35 @@
+{
+  "mutation": "NONE",
+  "parent_authority": "CAUSAL_RANGE_EXTREME_INSTRUMENT_V1",
+  "parent_inst01_root": "5930c7d4f5b2de4549bfedacbd2c3b9df7da78f68c7d765b9c0669d08a17490f",
+  "schema": "OBSERVER_SPECIMEN_BINDING_V1",
+  "specimens": [
+    {
+      "bytes": 64606,
+      "lines": 1848,
+      "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5",
+      "role": "OBSERVER_SOURCE",
+      "sha256": "a133ef773531a1599d1cef1e5124fcacc24b037f84cca777205c67ee0a785c61"
+    },
+    {
+      "bytes": 58736,
+      "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.ex5",
+      "role": "RUNTIME_EX5",
+      "sha256": "a9e25979dc85a760b15499a13552216f19646e43274c93c4d032adc671f415dd"
+    },
+    {
+      "bytes": 8911,
+      "lines": 274,
+      "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5",
+      "role": "INST01_CAPTURE_INDICATOR_FOSSIL",
+      "sha256": "eecc387b450b6490ea493cf8b7784f1810ef41a2e7f612b335beb26ad876a944"
+    },
+    {
+      "bytes": 8103,
+      "lines": 252,
+      "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureEA.mq5",
+      "role": "INST01_CAPTURE_EA_FOSSIL",
+      "sha256": "d89de0b1f912fc04b4a64bfce1c46ce5b264eca249f2c7d08e94e603d9db2815"
+    }
+  ]
+}

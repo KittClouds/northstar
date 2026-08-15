@@ -1,0 +1,13 @@
+{
+  "D_A_rows_read": 0,
+  "D_B_rows_read": 0,
+  "D_C_rows_read": 0,
+  "D_D_rows_read": 0,
+  "allowed_reads": "SOURCE_CODE_EX5_BYTES_AND_AUTHORITY_METADATA_ONLY",
+  "economic_rows_read": 0,
+  "future_outcomes_read": 0,
+  "market_capture_rows_read": 0,
+  "representation_scores_read": 0,
+  "result": "PASS",
+  "schema": "OTO_OUTCOME_ACCESS_AUDIT_V1"
+}

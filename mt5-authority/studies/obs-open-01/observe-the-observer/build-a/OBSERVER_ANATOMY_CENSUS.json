@@ -1,0 +1,150 @@
+{
+  "observer": "OpeningRangeGrammar_v2_10_ExtremeSentinels",
+  "schema": "OBSERVER_ANATOMY_CENSUS_V1",
+  "state_stores": [
+    {
+      "cardinality": "ONE_PER_CONSTRUCTED_CIVIL_SESSION",
+      "evidence": {
+        "line": 231,
+        "needle": "struct ORSM_SESSION",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "ORSM_SESSION"
+    },
+    {
+      "cardinality": "ONE_PER_GRAMMAR_SESSION",
+      "evidence": {
+        "line": 279,
+        "needle": "struct ORSM_TRACK",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "ORSM_TRACK"
+    },
+    {
+      "cardinality": "FOUR_SERIES",
+      "id": "LEGACY_BUFFERS",
+      "indices": "17..20"
+    },
+    {
+      "cardinality": "THIRTY_SIX_SERIES",
+      "id": "CAUSAL_AND_GRAMMAR_BUFFERS",
+      "indices": "0..35"
+    },
+    {
+      "cardinality": "EIGHTEEN_SERIES",
+      "id": "SENTINEL_BUFFERS",
+      "indices": "36..53"
+    }
+  ],
+  "subsystems": [
+    {
+      "evidence": {
+        "line": 1822,
+        "needle": "CalculateLegacyBuffers(rates_total",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "LEGACY_COMPATIBILITY_RENDERER",
+      "role": "recovered repaint-compatible geometry publication",
+      "state": "BUFFER_BACKFILL_PER_TICK"
+    },
+    {
+      "evidence": {
+        "line": 819,
+        "needle": "void BuildConfiguredTimes",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CLOCK_AND_SESSION_RESOLUTION",
+      "role": "civil-day configuration and containing-bar resolution",
+      "state": "ORSM_SESSION_TIMING_FIELDS"
+    },
+    {
+      "evidence": {
+        "line": 1692,
+        "needle": "const bool geometry_known =",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CAUSAL_RANGE_LIFECYCLE",
+      "role": "developing geometry, freeze pending, committed frozen geometry",
+      "state": "ORSM_SESSION_RANGE_FIELDS"
+    },
+    {
+      "evidence": {
+        "line": 1498,
+        "needle": "void ProcessGrammar",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "COMPLETED_BAR_GRAMMAR",
+      "role": "post-freeze close-location transducer",
+      "state": "ORSM_TRACK"
+    },
+    {
+      "evidence": {
+        "line": 1303,
+        "needle": "void ProcessExtremeSentinels",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "RUNNING_EXTREME_SENTINELS",
+      "role": "causal committed candidates plus forming-bar provisional lines",
+      "state": "ORSM_SESSION_SENTINEL_FIELDS"
+    },
+    {
+      "evidence": {
+        "line": 1767,
+        "needle": "void RebuildMachineHistory",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "HISTORICAL_RECONSTRUCTOR",
+      "role": "oldest-to-newest completed-bar fold plus forming bar projection",
+      "state": "GLOBAL_SESSION_AND_TRACK_ARRAYS"
+    },
+    {
+      "evidence": {
+        "line": 1790,
+        "needle": "void RefreshCurrentMachineBar",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "INTRABAR_REFRESH",
+      "role": "reprojects bar zero without committed mutation",
+      "state": "CURRENT_FORMING_BAR_ONLY"
+    },
+    {
+      "evidence": {
+        "line": 602,
+        "needle": "SetIndexBuffer(53,",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "PUBLICATION_SURFACE",
+      "role": "54 double indicator buffers",
+      "state": "BUFFERS_0_TO_53"
+    }
+  ],
+  "update_paths": [
+    {
+      "evidence": {
+        "line": 1822,
+        "needle": "CalculateLegacyBuffers(rates_total",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "mutates": "legacy publication",
+      "path": "EVERY_TICK_LEGACY"
+    },
+    {
+      "evidence": {
+        "line": 1830,
+        "needle": "const bool rebuild_machine =",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "mutates": "full causal reconstructed state",
+      "path": "FIRST_ATTACH_HISTORY_RESET_OR_NEW_BAR"
+    },
+    {
+      "evidence": {
+        "line": 1838,
+        "needle": "RefreshCurrentMachineBar(time",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "mutates": "no committed candidate state; republishes provisional bar zero",
+      "path": "SAME_BAR_REFRESH"
+    }
+  ]
+}

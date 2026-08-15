@@ -1,0 +1,88 @@
+{
+  "coordinates": [
+    {
+      "evidence": {
+        "line": 846,
+        "needle": "iTime(_Symbol, _Period, 0)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SYMBOL",
+      "role": "source-series identity",
+      "source": "_Symbol"
+    },
+    {
+      "evidence": {
+        "line": 514,
+        "needle": "g_period_seconds = PeriodSeconds(_Period)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "TIMEFRAME",
+      "role": "source cadence and containing-bar geometry",
+      "source": "_Period"
+    },
+    {
+      "evidence": {
+        "line": 717,
+        "needle": "INDICATOR_DIGITS, _Digits",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "DIGITS",
+      "role": "published display precision",
+      "source": "_Digits"
+    },
+    {
+      "id": "HISTORY_ARRAYS",
+      "role": "causal source path",
+      "source": "OnCalculate time/high/low/close"
+    },
+    {
+      "id": "UNUSED_RUNTIME_ARRAYS",
+      "role": "PRESENT_BUT_NOT_READ_BY_OBSERVER",
+      "source": "OnCalculate open/tick_volume/volume/spread"
+    },
+    {
+      "id": "HISTORY_AVAILABILITY",
+      "role": "resolution and evaluability",
+      "source": "Bars/iBarShift/iTime/CopyTime/CopyHigh/CopyLow"
+    },
+    {
+      "id": "FORMING_VS_COMPLETED",
+      "role": "provisional versus committed knowledge",
+      "source": "bar shift and rebuild path"
+    },
+    {
+      "id": "PREV_CALCULATED",
+      "role": "rebuild trigger and legacy recalculation scope",
+      "source": "MQL runtime"
+    },
+    {
+      "id": "CIVIL_DAY_CONVERSION",
+      "role": "session anchoring",
+      "source": "TimeToStruct/StructToTime"
+    },
+    {
+      "id": "STOP_SIGNAL",
+      "role": "bounded historical traversal",
+      "source": "IsStopped"
+    },
+    {
+      "id": "PLATFORM_EMPTY_VALUE",
+      "role": "publication missingness sentinel",
+      "source": "EMPTY_VALUE"
+    },
+    {
+      "id": "PLATFORM_FLOATING_ARITHMETIC",
+      "role": "price and derived geometry semantics",
+      "source": "double/DBL_MAX/MathMax/MathMin"
+    }
+  ],
+  "generalization_authority": "NONE",
+  "qualified_historical_instance": {
+    "symbol": "US30",
+    "timeframes": [
+      "M1",
+      "M5"
+    ]
+  },
+  "schema": "AMBIENT_COORDINATE_CENSUS_V1"
+}

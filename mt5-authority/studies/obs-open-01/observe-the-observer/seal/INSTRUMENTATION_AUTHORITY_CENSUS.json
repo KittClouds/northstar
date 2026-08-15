@@ -1,0 +1,109 @@
+{
+  "critical_finding": {
+    "classification": "INSTRUMENTATION_SCOPE_BOUNDARY_NOT_INST01_REGRESSION",
+    "id": "CURRENT_TICK_SENTINEL_CHANGE_IS_NOT_ALL_LIVE_OBSERVER_STATE_CHANGE",
+    "reason": "bar-zero close can change giveback while live extreme buffers remain unchanged"
+  },
+  "descendant_requirement": "A_GENERAL_MICROSCOPE_MUST_HAVE_A_COMPLETE_LIVE_CHANGE_POLICY_OR_EXPLICIT_SAMPLING_CONTRACT",
+  "fossil_status": "PRESERVED_AS_QUALIFIED_INST01_INSTRUMENT",
+  "instrument": "OBS_OPEN_INST01_CaptureIndicator",
+  "mutation": "NONE",
+  "schema": "INSTRUMENTATION_AUTHORITY_CENSUS_V1",
+  "visibility": [
+    {
+      "authority": "INST01_QUALIFIED_SCOPE",
+      "evidence": {
+        "line": 86,
+        "needle": "for(int b = 0; b < 54; ++b)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "OBSERVED_AT_DUMP",
+      "surface": "HISTORICAL_36_V200_AND_54_V210_BUFFERS"
+    },
+    {
+      "authority": "EVENT_TRIGGERED_SNAPSHOTS",
+      "evidence": {
+        "line": 247,
+        "needle": "WriteSnapshot(\"COMPLETED_BAR\"",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "OBSERVED",
+      "surface": "NEW_BAR_COMPLETED_AND_CURRENT_OPEN"
+    },
+    {
+      "authority": "DIRECT_DOUBLE_CHANGE_TRIGGER",
+      "evidence": {
+        "line": 258,
+        "needle": "upper != g_last_live_upper",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "OBSERVED_WHEN_ENABLED",
+      "surface": "FORMING_BAR_SENTINEL_36_OR_37_CHANGE"
+    },
+    {
+      "authority": "PROVEN_TRIGGER_BLIND_SPOT",
+      "capture_evidence": {
+        "line": 256,
+        "needle": "ReadOne(g_v210, 36, 0, upper)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "observer_evidence": {
+        "line": 1292,
+        "needle": "UpperGivebackBuffer[i] = MathMax",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "status": "NOT_OBSERVED",
+      "surface": "FORMING_BAR_GIVEBACK_46_47_WITHOUT_36_37_CHANGE"
+    },
+    {
+      "authority": "TRIGGER_SCOPE_BOUNDARY",
+      "status": "NOT_GUARANTEED_OBSERVED",
+      "surface": "FORMING_BAR_ANY_OTHER_BUFFER_CHANGE_WITHOUT_36_37_CHANGE"
+    },
+    {
+      "authority": "RUNTIME_INTROSPECTION_REQUIRED",
+      "evidence": {
+        "line": 197,
+        "needle": "g_v210 = iCustom",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "NOT_OBSERVED",
+      "surface": "EFFECTIVE_ICUSTOM_PARAMETER_VECTOR"
+    },
+    {
+      "authority": "SEQUENTIAL_COPYBUFFER_READS",
+      "status": "NOT_GUARANTEED",
+      "surface": "ATOMIC_54_BUFFER_STATE_VECTOR"
+    },
+    {
+      "authority": "SEPARATE_IHIGH_ILOW_ICLOSE_AND_COPYBUFFER_CALLS",
+      "evidence": {
+        "line": 105,
+        "needle": "Cell(iHigh(_Symbol, _Period, shift))",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "NOT_GUARANTEED",
+      "surface": "ATOMIC_OHLC_AND_OBSERVER_SNAPSHOT"
+    },
+    {
+      "authority": "INVALID_HANDLE_COPY_FAILURE_EMPTY_AND_NONFINITE_NOT_DISTINGUISHED",
+      "evidence": {
+        "line": 61,
+        "needle": "value = EMPTY_VALUE;",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "COLLAPSED_TO_NA",
+      "surface": "READ_FAILURE_CAUSE"
+    },
+    {
+      "authority": "TIMECURRENT_CAPTURE_TIME",
+      "evidence": {
+        "line": 237,
+        "needle": "const datetime now = TimeCurrent()",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+      },
+      "status": "SECOND_RESOLUTION_TICK_TIME_ONLY",
+      "surface": "STATE_CHANGE_KNOWLEDGE_TIME"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "critical_boundary": "DECLARED_INPUTS_ARE_ONE_DOF_LAYER_NOT_THE_COMPLETE_OBSERVER_DOF_SURFACE",
+  "declared_input_count": 24,
+  "declared_inputs": [
+    "InpHourBegin",
+    "InpMinBegin",
+    "InpHourEnd",
+    "InpMinEnd",
+    "InpHourEndArea",
+    "InpMinEndArea",
+    "InpHistoryDays",
+    "InpRequireExactStartAlignment",
+    "InpRequireRangeContinuity",
+    "InpRequireChartContinuity",
+    "InpShowLegacyLines",
+    "InpPeriodColor",
+    "InpAreaColor",
+    "InpPeriodWidth",
+    "InpAreaWidth",
+    "InpPeriodStyle",
+    "InpAreaStyle",
+    "InpEnableExtremeSentinels",
+    "InpShowExtremeSentinels",
+    "InpUpperSentinelColor",
+    "InpLowerSentinelColor",
+    "InpExtremeSentinelStyle",
+    "InpExtremeSentinelWidth",
+    "InpUniqueId"
+  ],
+  "groups": [
+    {
+      "count": 6,
+      "effect_class": "CAUSAL_AND_LEGACY_SEMANTICS",
+      "fields": [
+        "InpHourBegin",
+        "InpMinBegin",
+        "InpHourEnd",
+        "InpMinEnd",
+        "InpHourEndArea",
+        "InpMinEndArea"
+      ],
+      "id": "CLOCK"
+    },
+    {
+      "count": 4,
+      "effect_class": "CAUSAL_EVALUABILITY_AND_HISTORY_SCOPE",
+      "fields": [
+        "InpHistoryDays",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity",
+        "InpRequireChartContinuity"
+      ],
+      "id": "COVERAGE"
+    },
+    {
+      "count": 7,
+      "effect_class": "PUBLICATION_RENDERING_ONLY",
+      "fields": [
+        "InpShowLegacyLines",
+        "InpPeriodColor",
+        "InpAreaColor",
+        "InpPeriodWidth",
+        "InpAreaWidth",
+        "InpPeriodStyle",
+        "InpAreaStyle"
+      ],
+      "id": "LEGACY_RENDERER"
+    },
+    {
+      "count": 6,
+      "effect_class": "MIXED_SEMANTIC_AND_RENDERING",
+      "fields": [
+        "InpEnableExtremeSentinels",
+        "InpShowExtremeSentinels",
+        "InpUpperSentinelColor",
+        "InpLowerSentinelColor",
+        "InpExtremeSentinelStyle",
+        "InpExtremeSentinelWidth"
+      ],
+      "id": "SENTINEL",
+      "semantic_field": "InpEnableExtremeSentinels"
+    },
+    {
+      "count": 1,
+      "effect_class": "DISPLAY_IDENTITY_ONLY",
+      "fields": [
+        "InpUniqueId"
+      ],
+      "id": "IDENTITY"
+    }
+  ],
+  "schema": "EXPLICIT_DOF_CENSUS_V1",
+  "validation_behavior": {
+    "clock_out_of_range": "CLAMPED_NOT_REJECTED",
+    "evidence": {
+      "line": 518,
+      "needle": "// Preserve Breakout's clamp semantics.",
+      "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+    },
+    "history_days": "REJECTED_OUTSIDE_1_TO_3650",
+    "line_widths": "REJECTED_OUTSIDE_1_TO_5",
+    "period": "REJECTED_IF_PERIOD_SECONDS_NONPOSITIVE"
+  }
+}

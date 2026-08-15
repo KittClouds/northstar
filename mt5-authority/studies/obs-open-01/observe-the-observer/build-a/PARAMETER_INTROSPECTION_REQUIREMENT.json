@@ -1,0 +1,29 @@
+{
+  "current_capture_has_indicator_parameters_call": false,
+  "evidence": {
+    "line": 197,
+    "needle": "g_v210 = iCustom",
+    "path": "mt5-authority/studies/obs-open-01/instrument-qualification/capture/OBS_OPEN_INST01_CaptureIndicator.mq5"
+  },
+  "failure_state": "EFFECTIVE_RUNTIME_PARAMETER_BINDING_NOT_EVALUABLE",
+  "minimum_receipt": [
+    "HANDLE_IDENTITY",
+    "INDICATOR_PATH",
+    "ORDERED_PARAMETER_INDEX",
+    "PARAMETER_TYPE",
+    "PARAMETER_NAME_IF_AVAILABLE",
+    "EFFECTIVE_VALUE",
+    "SYMBOL",
+    "TIMEFRAME",
+    "TERMINAL_BUILD"
+  ],
+  "reason": "iCustom is positional; source-call appearance is not runtime instantiation authority",
+  "required_before": [
+    "PARAMETER_SWEEP",
+    "DOF_INTERACTION_STUDY",
+    "GENERAL_MICROSCOPE_PROMOTION"
+  ],
+  "required_method": "METATRADER_RUNTIME_EFFECTIVE_PARAMETER_INTROSPECTION",
+  "schema": "PARAMETER_INTROSPECTION_REQUIREMENT_V1",
+  "status": "RUNTIME_QUALIFICATION_PENDING"
+}

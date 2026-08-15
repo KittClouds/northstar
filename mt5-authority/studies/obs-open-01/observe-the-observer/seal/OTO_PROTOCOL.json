@@ -1,0 +1,28 @@
+{
+  "authority_class": "OUTCOME_BLIND_OBSERVER_METROLOGY_ONLY",
+  "gate_id": "OBSERVE-THE-OBSERVER-00A",
+  "literature_policy": "DEFERRED_UNTIL_CODE_DERIVED_ONTOLOGY_IS_SEALED",
+  "market_data_access": "FORBIDDEN",
+  "mutation_policy": "V2_10_AND_INST01_FOSSILS_IMMUTABLE",
+  "non_claims": [
+    "MARKET_BEHAVIOR",
+    "PREDICTION",
+    "MECHANISM",
+    "ECONOMIC_VALUE",
+    "TRADING_VALUE",
+    "UNIVERSAL_MICROSCOPE_AUTHORITY",
+    "RUNTIME_PARAMETER_IDENTITY"
+  ],
+  "observer_model": [
+    "EXPLICIT_INPUTS",
+    "AMBIENT_PLATFORM_COORDINATES",
+    "HARD_CODED_SEMANTIC_CHOICES",
+    "STATE_ARCHITECTURE",
+    "PUBLICATION_SURFACE"
+  ],
+  "outcome_access": "FORBIDDEN",
+  "parameter_sweep": "FORBIDDEN_UNTIL_EFFECTIVE_RUNTIME_VECTOR_IS_INTROSPECTED",
+  "prime_rule": "EVERY_LINE_OF_CODE_IS_FAIR_GAME_NOTHING_OUTSIDE_THE_OBSERVER_INHERITS_MEANING",
+  "question": "What observer was manufactured, what can vary, and what can INST-01 actually see?",
+  "schema": "OBS_OPEN_OTO_STATIC_PROTOCOL_V1"
+}

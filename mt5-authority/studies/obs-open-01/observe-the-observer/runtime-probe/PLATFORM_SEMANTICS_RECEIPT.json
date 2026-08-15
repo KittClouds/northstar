@@ -1,0 +1,30 @@
+{
+  "schema": "OTO_PLATFORM_SEMANTICS_RECEIPT_V1",
+  "retrieved_date": "2026-08-15",
+  "scope": "PLATFORM_SEAMS_EXPOSED_BY_CODE_DERIVED_ONTOLOGY_ONLY",
+  "sources": [
+    {
+      "authority": "MQL5_REFERENCE",
+      "url": "https://www.mql5.com/en/docs/series/indicatorparameters",
+      "supports": "IndicatorParameters returns the instantiated parameter count plus MqlParam types and values for a handle"
+    },
+    {
+      "authority": "MQL5_PROGRAMMING_FOR_TRADERS",
+      "url": "https://www.mql5.com/en/book/applications/indicators_use/indicators_icustom",
+      "supports": "iCustom actual parameter types and order must correspond to the indicator formal parameters"
+    },
+    {
+      "authority": "MQL5_REFERENCE",
+      "url": "https://www.mql5.com/en/docs/event_handlers/oncalculate",
+      "supports": "prev_calculated is runtime supplied and resets to zero when deeper history or repaired gaps alter price data"
+    },
+    {
+      "authority": "MQL5_PROGRAMMING_FOR_TRADERS",
+      "url": "https://www.mql5.com/en/book/applications/indicators_use/indicators_copybuffer",
+      "supports": "CopyBuffer positions count from present to past while destination physical layout is past to present"
+    }
+  ],
+  "interpretive_limit": "DOCUMENTATION_VALIDATES_PLATFORM_CONTRACTS_IT_DOES_NOT_DEFINE_OBSERVER_ONTOLOGY",
+  "input_group_runtime_semantics": "NOT_INFERRED_FROM_NONAUTHORITATIVE_DISCUSSION_RUNTIME_VECTOR_WILL_DECIDE",
+  "literature_expansion": "DEFERRED"
+}

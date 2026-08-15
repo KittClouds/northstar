@@ -1,0 +1,66 @@
+{
+  "logical_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 1000,
+        "path": "OTO_PROTOCOL.json",
+        "sha256": "ff4b1e4942398e951e60deadd2c247ebfc4d207dec449a5fc201ff18a1873c66"
+      },
+      {
+        "bytes": 1427,
+        "path": "OBSERVER_SPECIMEN_BINDING.json",
+        "sha256": "766da59711d37118f405ae804feb678419be1441e4a71ba7814c6d482ecce1be"
+      },
+      {
+        "bytes": 5337,
+        "path": "OBSERVER_ANATOMY_CENSUS.json",
+        "sha256": "0818505f84e7f2fff955a457e91f7594fc410580fe65be3c91a1eca505c613ca"
+      },
+      {
+        "bytes": 2698,
+        "path": "EXPLICIT_DOF_CENSUS.json",
+        "sha256": "fc51b6a8fa82d935dd392920571b5ae14a9542cbfa2f97a7141a753161d1de99"
+      },
+      {
+        "bytes": 8383,
+        "path": "BUFFER_PUBLICATION_CENSUS.json",
+        "sha256": "5cd3079f07ab181998daf079ccc284744203ee7c5805c0ad70f95645be10f5a8"
+      },
+      {
+        "bytes": 9358,
+        "path": "LATENT_POLICY_CENSUS.json",
+        "sha256": "1d7b3b81f1099f91c48dce6a8ec6b225877ac551ad8ec7fe363d16482a89865e"
+      },
+      {
+        "bytes": 2530,
+        "path": "AMBIENT_COORDINATE_CENSUS.json",
+        "sha256": "e2fc99fc986091e3c748b3f8bec3c21ce4f08b76e882c098820d86f530ab3a5e"
+      },
+      {
+        "bytes": 4236,
+        "path": "INSTRUMENTATION_AUTHORITY_CENSUS.json",
+        "sha256": "628632bde3880bd9d98ae129d4b23ee0346e61e93dfee47b9d023cd94091e57a"
+      },
+      {
+        "bytes": 950,
+        "path": "PARAMETER_INTROSPECTION_REQUIREMENT.json",
+        "sha256": "f6115215f5ce19376db8131f79e96afe859b48fc705ee1156d125bd34f9c8a4f"
+      },
+      {
+        "bytes": 350,
+        "path": "OUTCOME_ACCESS_AUDIT.json",
+        "sha256": "ee806b69378b41d40c70c7c458dfbf97a19a9366c94d9ac8d8d1c998c400e5b8"
+      },
+      {
+        "bytes": 1297,
+        "path": "OTO_TYPED_FINDINGS.json",
+        "sha256": "5f81d447a3a852214571189c4c465ccfe107750fd9126b6d0f9ee5bdf3e79276"
+      }
+    ],
+    "authority": "OBS_OPEN_OBSERVE_THE_OBSERVER_STATIC_METROLOGY_V1",
+    "parent_inst01_root": "5930c7d4f5b2de4549bfedacbd2c3b9df7da78f68c7d765b9c0669d08a17490f",
+    "schema": "OTO_STATIC_ROOT_PAYLOAD_V1"
+  },
+  "schema": "OTO_STATIC_ROOT_RECEIPT_V1"
+}

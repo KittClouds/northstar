@@ -1,0 +1,60 @@
+{
+  "findings": [
+    {
+      "id": "SOURCE_SPECIMEN_BINDING",
+      "state": "PASS"
+    },
+    {
+      "id": "EX5_SPECIMEN_BINDING",
+      "state": "PASS"
+    },
+    {
+      "id": "DECLARED_PARAMETER_CENSUS",
+      "state": "PASS"
+    },
+    {
+      "id": "BUFFER_PUBLICATION_CENSUS",
+      "state": "PASS"
+    },
+    {
+      "id": "STATIC_ANATOMY_CENSUS",
+      "state": "PASS"
+    },
+    {
+      "id": "LATENT_POLICY_CENSUS",
+      "state": "PASS"
+    },
+    {
+      "id": "AMBIENT_COORDINATE_CENSUS",
+      "state": "PASS"
+    },
+    {
+      "id": "INST01_STATIC_VISIBILITY_AUDIT",
+      "state": "PASS_WITH_SCOPE_BOUNDARY"
+    },
+    {
+      "id": "EFFECTIVE_RUNTIME_PARAMETER_BINDING",
+      "state": "NOT_EVALUABLE_PENDING_RUNTIME_INTROSPECTION"
+    },
+    {
+      "id": "COMPLETE_LIVE_STATE_CAPTURE",
+      "state": "NOT_QUALIFIED"
+    },
+    {
+      "id": "OUTCOME_FIREWALL",
+      "state": "PASS"
+    }
+  ],
+  "maximum_authority": "OBS_OPEN_OBSERVE_THE_OBSERVER_STATIC_METROLOGY_V1",
+  "non_authority": [
+    "MARKET_BEHAVIOR",
+    "PREDICTION",
+    "MECHANISM",
+    "ECONOMIC",
+    "TRADING",
+    "PARAMETER_SWEEP",
+    "UNIVERSAL_MICROSCOPE"
+  ],
+  "result": "STATIC_OBSERVER_AND_INSTRUMENTATION_CENSUS_SEALED_WITH_RUNTIME_INTROSPECTION_PENDING",
+  "schema": "OTO_TYPED_FINDINGS_V1"
+}

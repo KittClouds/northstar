@@ -1,0 +1,7 @@
+.venv/
+target/
+python/**/__pycache__/
+*.py[cod]
+*.pyd
+*.pdb
+artifacts/double_rebuild/

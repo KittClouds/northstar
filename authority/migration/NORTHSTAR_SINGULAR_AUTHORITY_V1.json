@@ -1,0 +1,91 @@
+{
+  "schema": "NORTHSTAR_SINGULAR_AUTHORITY_MIGRATION_V1",
+  "authority_repository": "https://github.com/KittClouds/northstar.git",
+  "authority_branch": "codex/northstar-singular-authority-v1",
+  "base": {
+    "branch": "codex/phase12-auction-parity",
+    "commit": "8980236bea7a842ea2d9ea18ecd59ced668026ce"
+  },
+  "fossil": {
+    "path": "research/obs-open-01/sentinel-memory-metrology",
+    "scientific_root": "48102bd529abf01591842f85676b86eb66b0600dc8d702bd0dbb3d6b729b4c41",
+    "commit": "aa12e457667a496188852ae7b7ed8d37990b15b7",
+    "tag": "northstar-obs-open-04a-48102bd529ab",
+    "byte_verified_members": 41,
+    "tree_files": 56
+  },
+  "sources": [
+    {
+      "id": "NORTHSTAR_MT5_AUTHORITY_WORKTREE",
+      "repository": "https://github.com/KittClouds/northstar-mt5-authority.git",
+      "branch": "codex/obs-open-01-universe-qualification",
+      "commit": "5b60c85a5335d50109d2cba0e74f86e3ad6d8c94",
+      "destination": "mt5-authority",
+      "state": "COMMITTED_HEAD_PLUS_UNCOMMITTED_NON_IGNORED_OVERLAY",
+      "included_files": 1590,
+      "included_bytes": 17525477,
+      "credential_material_files": 0,
+      "large_dataset_files_excluded": 22,
+      "large_dataset_bytes_excluded": 70590441,
+      "unavailable_tracked_paths": 0
+    },
+    {
+      "id": "NORTHSTAR_STRATEGY_EXPERIMENT_RUNTIME",
+      "source_workspace": "clean-rust/northstar-rl",
+      "source_git_state": "UNTRACKED_WORKSPACE_SURFACE",
+      "destination": "northstar-rl",
+      "included_files": 250,
+      "included_bytes": 1737789,
+      "rl_surface_root": "681fa3afe8b41a4e44ed7e4016b73e9a316a39e2cff03dbcd72cd0cca1ed5876",
+      "joint_wind_tunnel_root": "529d28080d111835c520e8aced5941a2b7097a5cc58eabbbd19d3dfea1c9f27b",
+      "campaign_control_root": "cd3bbd89a0d7c56c717dc85c474b6c166754b9b43c2b2f71877332eb2470118e",
+      "learner_execution": "NOT_RUN"
+    },
+    {
+      "id": "PHOENIX_BACKUP_SOURCE_BINDING",
+      "repository": "https://github.com/KittClouds/phoenix-native.git",
+      "branch": "codex/phoenix-native-cleanroom-cut3-workspace-backup",
+      "commit": "cbf349be8ee0dd878549242966d61b75fefe853f",
+      "content_policy": "DO_NOT_VENDOR_UNRELATED_PHOENIX_OR_MODEL_ASSETS",
+      "auction_fragment_policy": "SUPERSEDED_BY_CANONICAL_RESEARCH_AUCTION_PARITY",
+      "untracked_surfaces_recovered": [
+        "northstar-rl",
+        "vega.md"
+      ]
+    },
+    {
+      "id": "GPUI_ANIMATED_GRADIENT_TEXT_DEPENDENCY",
+      "source_workspace": "clean-rust/phoenix-native/crates/gpui-animated-gradient-text",
+      "source_workspace_commit": "cbf349be8ee0dd878549242966d61b75fefe853f",
+      "source_path_last_change_commit": "8d4fcec9a6a2c8d579a90a8cc60b9b4e44af6856",
+      "destination": "crates/gpui-animated-gradient-text",
+      "integration_change": "WORKSPACE_INHERITED_PACKAGE_FIELDS_MADE_EXPLICIT",
+      "authority": "VENDORED_BUILD_DEPENDENCY"
+    }
+  ],
+  "exclusions": {
+    "large_dataset_threshold_bytes": 1048576,
+    "build_products": [
+      "target",
+      ".cargo-target-*",
+      ".venv",
+      "__pycache__",
+      ".pytest_cache",
+      "*.pyd",
+      "*.pdb",
+      "*.pyc"
+    ],
+    "credential_material": [
+      ".env*",
+      "*.pem",
+      "*.pfx",
+      "*.key",
+      "id_rsa*"
+    ]
+  },
+  "source_paths_materialized": "COMPLETE_EXCEPT_DECLARED_LARGE_DATASETS",
+  "authority_state": "SINGULAR_REPOSITORY_SURFACE",
+  "scientific_authority_change": "NONE",
+  "financial_authority_change": "NONE",
+  "trading_authority_change": "NONE"
+}

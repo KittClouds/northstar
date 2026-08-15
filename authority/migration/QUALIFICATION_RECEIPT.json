@@ -1,0 +1,57 @@
+{
+  "schema": "NORTHSTAR_SINGULAR_AUTHORITY_QUALIFICATION_RECEIPT_V1",
+  "branch": "codex/northstar-singular-authority-v1",
+  "fossil": {
+    "scientific_root": "48102bd529abf01591842f85676b86eb66b0600dc8d702bd0dbb3d6b729b4c41",
+    "manifest_members_verified": 41,
+    "byte_drift": 0,
+    "status": "PASS"
+  },
+  "mt5_import": {
+    "files_compared": 1590,
+    "source_to_worktree_byte_drift": 0,
+    "worktree_to_git_blob_drift": 0,
+    "large_datasets_excluded": 22,
+    "credential_material_files": 0,
+    "status": "PASS"
+  },
+  "rl_import": {
+    "unchanged_source_files_compared": 249,
+    "source_to_worktree_byte_drift": 0,
+    "authoritative_artifact_git_blobs_compared": 198,
+    "artifact_git_blob_drift": 0,
+    "rust_tests_passed": 21,
+    "strict_clippy": "PASS",
+    "cargo_fmt": "PASS",
+    "python_ast_files_parsed": 5,
+    "json_artifacts_parsed": 175,
+    "learner_execution": "NOT_RUN",
+    "status": "PASS"
+  },
+  "northstar_runtime": {
+    "rust_tests_passed": 161,
+    "manual_performance_tests_ignored": 4,
+    "strict_clippy": "PASS",
+    "cargo_fmt": "PASS",
+    "status": "PASS"
+  },
+  "vendored_gpui_dependency": {
+    "unit_tests_passed": 11,
+    "benchmark_smoke_cases_passed": 6,
+    "example_test_targets_passed": 1,
+    "status": "PASS"
+  },
+  "credential_scan": {
+    "staged_files_scanned": 1865,
+    "private_key_findings": 0,
+    "provider_token_findings": 0,
+    "literal_findings": 1,
+    "literal_finding_disposition": "SANITIZED_TEST_FIXTURE_NOT_A_REAL_PASSWORD",
+    "status": "PASS"
+  },
+  "build_output_authority": "D_DRIVE_ONLY",
+  "scientific_authority_change": "NONE",
+  "financial_authority_change": "NONE",
+  "trading_authority_change": "NONE",
+  "status": "QUALIFIED"
+}

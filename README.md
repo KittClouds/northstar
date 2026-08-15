@@ -1,5 +1,11 @@
 # Northstar Index Office
 
+A single repository now owns Northstar's operating runtime, MT5 authority
+surface, deterministic strategy-experiment runtime, and sealed research
+artifacts. See [`docs/NORTHSTAR_SINGULAR_AUTHORITY.md`](docs/NORTHSTAR_SINGULAR_AUTHORITY.md)
+for the authority map, source lineage, dataset exclusions, and the pre-learner
+firewall.
+
 A standalone GPUI operating surface for an indices-only, Northstar-governed home
 hedge fund. The production composition root owns durable Ledger and official
 macro journals, deterministic replay, immutable domain snapshots, native chart

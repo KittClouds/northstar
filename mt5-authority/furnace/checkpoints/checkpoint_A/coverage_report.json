@@ -1,0 +1,590 @@
+﻿{
+    "contract":  "MST_RG2_COVERAGE_CHECKPOINT_V1",
+    "checkpoint":  "A",
+    "generated_at_utc":  "2026-08-12T09:55:35.1505977Z",
+    "research_generation":  2,
+    "episode_target":  1000,
+    "admitted_runs":  14,
+    "episodes":  1032,
+    "events":  26105,
+    "attempts":  5221,
+    "transits":  411,
+    "replay_duplicates":  1,
+    "replay_sample_rate":  0.071429,
+    "gates":  {
+                  "target_reached":  true,
+                  "admission_policy_valid":  true,
+                  "determinism_sample_valid":  true,
+                  "all_six_instruments_represented":  true,
+                  "all_environment_strata_represented":  true,
+                  "maximum_instrument_share":  0.206395,
+                  "behavioral_resolution_share":  0.137597,
+                  "median_core_initial_share":  0.575581
+              },
+    "decision":  "HOLD_FOR_COVERAGE_REVIEW",
+    "failures":  [
+
+                 ],
+    "entropy":  {
+                    "instrument":  2.563467,
+                    "selection_class":  3.055796,
+                    "resolution":  1.679917,
+                    "initial_region":  1.603449
+                },
+    "by_instrument":  [
+                          {
+                              "value":  "JPN225",
+                              "count":  213,
+                              "share":  0.206395
+                          },
+                          {
+                              "value":  "US500",
+                              "count":  200,
+                              "share":  0.193798
+                          },
+                          {
+                              "value":  "DE40",
+                              "count":  177,
+                              "share":  0.171512
+                          },
+                          {
+                              "value":  "US30",
+                              "count":  172,
+                              "share":  0.166667
+                          },
+                          {
+                              "value":  "USTEC",
+                              "count":  135,
+                              "share":  0.130814
+                          },
+                          {
+                              "value":  "FRA40",
+                              "count":  135,
+                              "share":  0.130814
+                          }
+                      ],
+    "by_selection_class":  [
+                               {
+                                   "value":  "ORDINARY",
+                                   "count":  199,
+                                   "share":  0.192829
+                               },
+                               {
+                                   "value":  "QUIET",
+                                   "count":  160,
+                                   "share":  0.155039
+                               },
+                               {
+                                   "value":  "PROLONGED_BALANCE",
+                                   "count":  158,
+                                   "share":  0.153101
+                               },
+                               {
+                                   "value":  "EVENT_HEAVY",
+                                   "count":  130,
+                                   "share":  0.125969
+                               },
+                               {
+                                   "value":  "LOW_VOLATILITY",
+                                   "count":  95,
+                                   "share":  0.092054
+                               },
+                               {
+                                   "value":  "HIGH_VOLATILITY",
+                                   "count":  85,
+                                   "share":  0.082364
+                               },
+                               {
+                                   "value":  "DIRECTIONAL_EXPANSION_DOWN",
+                                   "count":  78,
+                                   "share":  0.075581
+                               },
+                               {
+                                   "value":  "SHARP_REVERSAL",
+                                   "count":  66,
+                                   "share":  0.063953
+                               },
+                               {
+                                   "value":  "DIRECTIONAL_EXPANSION_UP",
+                                   "count":  61,
+                                   "share":  0.059109
+                               }
+                           ],
+    "by_environment_stratum":  [
+                                   {
+                                       "value":  "SPARSE",
+                                       "count":  536,
+                                       "share":  0.51938
+                                   },
+                                   {
+                                       "value":  "COMMON",
+                                       "count":  357,
+                                       "share":  0.34593
+                                   },
+                                   {
+                                       "value":  "DIRECTIONAL",
+                                       "count":  139,
+                                       "share":  0.13469
+                                   }
+                               ],
+    "by_resolution":  [
+                          {
+                              "value":  "NODE_RETIRED",
+                              "count":  601,
+                              "share":  0.582364
+                          },
+                          {
+                              "value":  "TIMEOUT",
+                              "count":  287,
+                              "share":  0.278101
+                          },
+                          {
+                              "value":  "TRANSIT_TO_NEXT_NODE",
+                              "count":  65,
+                              "share":  0.062984
+                          },
+                          {
+                              "value":  "RECLAIM_AFTER_BREAK",
+                              "count":  31,
+                              "share":  0.030039
+                          },
+                          {
+                              "value":  "RETURN_TO_SOURCE_NODE",
+                              "count":  18,
+                              "share":  0.017442
+                          },
+                          {
+                              "value":  "REJECT_TO_ORIGIN",
+                              "count":  12,
+                              "share":  0.011628
+                          },
+                          {
+                              "value":  "ACCEPT_AND_HOLD_RETEST",
+                              "count":  8,
+                              "share":  0.007752
+                          },
+                          {
+                              "value":  "ACCEPT_AND_FAIL_RETEST",
+                              "count":  6,
+                              "share":  0.005814
+                          },
+                          {
+                              "value":  "NONE",
+                              "count":  2,
+                              "share":  0.001938
+                          },
+                          {
+                              "value":  "ACCEPT_THROUGH_NODE",
+                              "count":  2,
+                              "share":  0.001938
+                          }
+                      ],
+    "by_initial_region":  [
+                              {
+                                  "value":  "MEDIAN_CORE",
+                                  "count":  594,
+                                  "share":  0.575581
+                              },
+                              {
+                                  "value":  "BELOW",
+                                  "count":  259,
+                                  "share":  0.250969
+                              },
+                              {
+                                  "value":  "ABOVE",
+                                  "count":  126,
+                                  "share":  0.122093
+                              },
+                              {
+                                  "value":  "FAR_BELOW",
+                                  "count":  34,
+                                  "share":  0.032946
+                              },
+                              {
+                                  "value":  "FAR_ABOVE",
+                                  "count":  18,
+                                  "share":  0.017442
+                              },
+                              {
+                                  "value":  "EXTREME_BELOW",
+                                  "count":  1,
+                                  "share":  0.000969
+                              }
+                          ],
+    "by_terminal_region":  [
+                               {
+                                   "value":  "MEDIAN_CORE",
+                                   "count":  531,
+                                   "share":  0.514535
+                               },
+                               {
+                                   "value":  "BELOW",
+                                   "count":  273,
+                                   "share":  0.264535
+                               },
+                               {
+                                   "value":  "ABOVE",
+                                   "count":  160,
+                                   "share":  0.155039
+                               },
+                               {
+                                   "value":  "FAR_BELOW",
+                                   "count":  34,
+                                   "share":  0.032946
+                               },
+                               {
+                                   "value":  "FAR_ABOVE",
+                                   "count":  28,
+                                   "share":  0.027132
+                               },
+                               {
+                                   "value":  "EXTREME_BELOW",
+                                   "count":  6,
+                                   "share":  0.005814
+                               }
+                           ],
+    "by_completion_status":  [
+                                 {
+                                     "value":  "RESOLVED",
+                                     "count":  1010,
+                                     "share":  0.978682
+                                 },
+                                 {
+                                     "value":  "RIGHT_CENSORED",
+                                     "count":  22,
+                                     "share":  0.021318
+                                 }
+                             ],
+    "by_censor_reason":  {
+                             "value":  "TEST_END",
+                             "count":  22,
+                             "share":  1
+                         },
+    "attempt_resolution":  [
+                               {
+                                   "value":  "REJECT_TO_ORIGIN",
+                                   "count":  2337,
+                                   "share":  0.447615
+                               },
+                               {
+                                   "value":  "NODE_RETIRED",
+                                   "count":  625,
+                                   "share":  0.119709
+                               },
+                               {
+                                   "value":  "RECLAIM_AFTER_BREAK",
+                                   "count":  588,
+                                   "share":  0.112622
+                               },
+                               {
+                                   "value":  "ACCEPT_AND_HOLD_RETEST",
+                                   "count":  544,
+                                   "share":  0.104195
+                               },
+                               {
+                                   "value":  "ACCEPT_THROUGH_NODE",
+                                   "count":  433,
+                                   "share":  0.082934
+                               },
+                               {
+                                   "value":  "TIMEOUT",
+                                   "count":  376,
+                                   "share":  0.072017
+                               },
+                               {
+                                   "value":  "ACCEPT_AND_FAIL_RETEST",
+                                   "count":  303,
+                                   "share":  0.058035
+                               },
+                               {
+                                   "value":  "NONE",
+                                   "count":  15,
+                                   "share":  0.002873
+                               }
+                           ],
+    "instrument_resolution":  [
+                                  {
+                                      "instrument":  "DE40",
+                                      "episodes":  177,
+                                      "node_retired":  109,
+                                      "timeout":  45,
+                                      "behavioral":  23,
+                                      "behavioral_share":  0.129944
+                                  },
+                                  {
+                                      "instrument":  "FRA40",
+                                      "episodes":  135,
+                                      "node_retired":  97,
+                                      "timeout":  25,
+                                      "behavioral":  13,
+                                      "behavioral_share":  0.096296
+                                  },
+                                  {
+                                      "instrument":  "JPN225",
+                                      "episodes":  213,
+                                      "node_retired":  110,
+                                      "timeout":  62,
+                                      "behavioral":  41,
+                                      "behavioral_share":  0.192488
+                                  },
+                                  {
+                                      "instrument":  "US30",
+                                      "episodes":  172,
+                                      "node_retired":  87,
+                                      "timeout":  54,
+                                      "behavioral":  31,
+                                      "behavioral_share":  0.180233
+                                  },
+                                  {
+                                      "instrument":  "US500",
+                                      "episodes":  200,
+                                      "node_retired":  111,
+                                      "timeout":  60,
+                                      "behavioral":  28,
+                                      "behavioral_share":  0.14
+                                  },
+                                  {
+                                      "instrument":  "USTEC",
+                                      "episodes":  135,
+                                      "node_retired":  87,
+                                      "timeout":  41,
+                                      "behavioral":  6,
+                                      "behavioral_share":  0.044444
+                                  }
+                              ],
+    "class_resolution":  [
+                             {
+                                 "selection_class":  "DIRECTIONAL_EXPANSION_DOWN",
+                                 "episodes":  78,
+                                 "node_retired_share":  0.705128,
+                                 "timeout_share":  0.179487,
+                                 "behavioral_share":  0.115385
+                             },
+                             {
+                                 "selection_class":  "DIRECTIONAL_EXPANSION_UP",
+                                 "episodes":  61,
+                                 "node_retired_share":  0.770492,
+                                 "timeout_share":  0.180328,
+                                 "behavioral_share":  0.04918
+                             },
+                             {
+                                 "selection_class":  "EVENT_HEAVY",
+                                 "episodes":  130,
+                                 "node_retired_share":  0.615385,
+                                 "timeout_share":  0.269231,
+                                 "behavioral_share":  0.115385
+                             },
+                             {
+                                 "selection_class":  "HIGH_VOLATILITY",
+                                 "episodes":  85,
+                                 "node_retired_share":  0.564706,
+                                 "timeout_share":  0.258824,
+                                 "behavioral_share":  0.176471
+                             },
+                             {
+                                 "selection_class":  "LOW_VOLATILITY",
+                                 "episodes":  95,
+                                 "node_retired_share":  0.557895,
+                                 "timeout_share":  0.305263,
+                                 "behavioral_share":  0.136842
+                             },
+                             {
+                                 "selection_class":  "ORDINARY",
+                                 "episodes":  199,
+                                 "node_retired_share":  0.567839,
+                                 "timeout_share":  0.276382,
+                                 "behavioral_share":  0.155779
+                             },
+                             {
+                                 "selection_class":  "PROLONGED_BALANCE",
+                                 "episodes":  158,
+                                 "node_retired_share":  0.531646,
+                                 "timeout_share":  0.316456,
+                                 "behavioral_share":  0.14557
+                             },
+                             {
+                                 "selection_class":  "QUIET",
+                                 "episodes":  160,
+                                 "node_retired_share":  0.5375,
+                                 "timeout_share":  0.31875,
+                                 "behavioral_share":  0.1375
+                             },
+                             {
+                                 "selection_class":  "SHARP_REVERSAL",
+                                 "episodes":  66,
+                                 "node_retired_share":  0.530303,
+                                 "timeout_share":  0.30303,
+                                 "behavioral_share":  0.166667
+                             }
+                         ],
+    "runs":  [
+                 {
+                     "run_key":  "RG2_DE40_PERIOD_M5_1765756800_1766181300_3308521111094945957",
+                     "window_id":  "DE40_20251215_PROLONGED_BALANCE",
+                     "instrument":  "DE40",
+                     "selection_class":  "PROLONGED_BALANCE",
+                     "environment_stratum":  "COMMON",
+                     "events":  2596,
+                     "attempts":  508,
+                     "episodes":  77,
+                     "transits":  43,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_DE40_PERIOD_M5_1769990400_1770414900_2017222542755637715",
+                     "window_id":  "DE40_20260202_ORDINARY",
+                     "instrument":  "DE40",
+                     "selection_class":  "ORDINARY",
+                     "environment_stratum":  "COMMON",
+                     "events":  2221,
+                     "attempts":  448,
+                     "episodes":  100,
+                     "transits":  33,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_FRA40_PERIOD_M5_1772409600_1772841300_6520811157212810975",
+                     "window_id":  "FRA40_20260302_DIRECTIONAL_EXPANSION_DOWN",
+                     "instrument":  "FRA40",
+                     "selection_class":  "DIRECTIONAL_EXPANSION_DOWN",
+                     "environment_stratum":  "DIRECTIONAL",
+                     "events":  1777,
+                     "attempts":  355,
+                     "episodes":  78,
+                     "transits":  30,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_FRA40_PERIOD_M5_1777248000_1777589700_9554760657515700142",
+                     "window_id":  "FRA40_20260427_EVENT_HEAVY",
+                     "instrument":  "FRA40",
+                     "selection_class":  "EVENT_HEAVY",
+                     "environment_stratum":  "SPARSE",
+                     "events":  965,
+                     "attempts":  200,
+                     "episodes":  57,
+                     "transits":  8,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_JPN225_PERIOD_M5_1764547200_1764978900_13582613236484951",
+                     "window_id":  "JPN225_20251201_LOW_VOLATILITY",
+                     "instrument":  "JPN225",
+                     "selection_class":  "LOW_VOLATILITY",
+                     "environment_stratum":  "SPARSE",
+                     "events":  1573,
+                     "attempts":  309,
+                     "episodes":  61,
+                     "transits":  31,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_JPN225_PERIOD_M5_1766966400_1767398100_17845446579741474672",
+                     "window_id":  "JPN225_20251229_QUIET",
+                     "instrument":  "JPN225",
+                     "selection_class":  "QUIET",
+                     "environment_stratum":  "SPARSE",
+                     "events":  2100,
+                     "attempts":  412,
+                     "episodes":  86,
+                     "transits":  40,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_JPN225_PERIOD_M5_1773619200_1774047300_3195075028303676313",
+                     "window_id":  "JPN225_20260316_SHARP_REVERSAL",
+                     "instrument":  "JPN225",
+                     "selection_class":  "SHARP_REVERSAL",
+                     "environment_stratum":  "SPARSE",
+                     "events":  1554,
+                     "attempts":  313,
+                     "episodes":  66,
+                     "transits":  25,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_US30_PERIOD_M5_1765756800_1766184900_14597027152545731016",
+                     "window_id":  "US30_20251215_EVENT_HEAVY",
+                     "instrument":  "US30",
+                     "selection_class":  "EVENT_HEAVY",
+                     "environment_stratum":  "SPARSE",
+                     "events":  1770,
+                     "attempts":  357,
+                     "episodes":  73,
+                     "transits":  27,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_US30_PERIOD_M5_1777248000_1777676100_6859180431116322748",
+                     "window_id":  "US30_20260427_ORDINARY",
+                     "instrument":  "US30",
+                     "selection_class":  "ORDINARY",
+                     "environment_stratum":  "COMMON",
+                     "events":  3239,
+                     "attempts":  630,
+                     "episodes":  99,
+                     "transits":  68,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_US500_PERIOD_M5_1764547200_1764975300_7828061311987021760",
+                     "window_id":  "US500_20251201_PROLONGED_BALANCE",
+                     "instrument":  "US500",
+                     "selection_class":  "PROLONGED_BALANCE",
+                     "environment_stratum":  "COMMON",
+                     "events":  2644,
+                     "attempts":  527,
+                     "episodes":  81,
+                     "transits":  40,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_US500_PERIOD_M5_1766361600_1766789700_6275432351093221649",
+                     "window_id":  "US500_20251222_LOW_VOLATILITY",
+                     "instrument":  "US500",
+                     "selection_class":  "LOW_VOLATILITY",
+                     "environment_stratum":  "SPARSE",
+                     "events":  1060,
+                     "attempts":  224,
+                     "episodes":  34,
+                     "transits":  3,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_US500_PERIOD_M5_1773014400_1773442200_10013978319232738791",
+                     "window_id":  "US500_20260309_HIGH_VOLATILITY",
+                     "instrument":  "US500",
+                     "selection_class":  "HIGH_VOLATILITY",
+                     "environment_stratum":  "SPARSE",
+                     "events":  1807,
+                     "attempts":  363,
+                     "episodes":  85,
+                     "transits":  31,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_USTEC_PERIOD_M5_1776038400_1776466500_3632165528533734308",
+                     "window_id":  "USTEC_20260413_DIRECTIONAL_EXPANSION_UP",
+                     "instrument":  "USTEC",
+                     "selection_class":  "DIRECTIONAL_EXPANSION_UP",
+                     "environment_stratum":  "DIRECTIONAL",
+                     "events":  953,
+                     "attempts":  197,
+                     "episodes":  61,
+                     "transits":  9,
+                     "source_frame_valid":  true
+                 },
+                 {
+                     "run_key":  "RG2_USTEC_PERIOD_M5_1784505600_1784933700_16636102961176583068",
+                     "window_id":  "USTEC_20260720_QUIET",
+                     "instrument":  "USTEC",
+                     "selection_class":  "QUIET",
+                     "environment_stratum":  "SPARSE",
+                     "events":  1846,
+                     "attempts":  378,
+                     "episodes":  74,
+                     "transits":  23,
+                     "source_frame_valid":  true
+                 }
+             ]
+}

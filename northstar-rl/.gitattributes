@@ -1,0 +1,2 @@
+# Qualification artifacts are content-addressed authoritative bytes.
+artifacts/** -text

@@ -1,0 +1,1852 @@
+{
+  "edge_counts": {
+    "AUTOMATIC_DOWNSTREAM_EFFECT": 149,
+    "DOMAIN_COUPLING": 12,
+    "MUST_REPROVE_WITH": 35,
+    "NO_COVARIATION_PROVEN": 67
+  },
+  "edges": [
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourBegin",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourBegin",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourBegin",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourBegin",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourBegin",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourBegin",
+      "target": "InpHourEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourBegin",
+      "target": "InpHourEndArea"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourBegin",
+      "target": "InpMinBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourBegin",
+      "target": "InpMinEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourBegin",
+      "target": "InpMinEndArea"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinBegin",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinBegin",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinBegin",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinBegin",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinBegin",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinBegin",
+      "target": "InpHourBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinBegin",
+      "target": "InpHourEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinBegin",
+      "target": "InpHourEndArea"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinBegin",
+      "target": "InpMinEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinBegin",
+      "target": "InpMinEndArea"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEnd",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEnd",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEnd",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEnd",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEnd",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEnd",
+      "target": "InpHourBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEnd",
+      "target": "InpHourEndArea"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEnd",
+      "target": "InpMinBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEnd",
+      "target": "InpMinEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEnd",
+      "target": "InpMinEndArea"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEnd",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEnd",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEnd",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEnd",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEnd",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEnd",
+      "target": "InpHourBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEnd",
+      "target": "InpHourEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEnd",
+      "target": "InpHourEndArea"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEnd",
+      "target": "InpMinBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEnd",
+      "target": "InpMinEndArea"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEndArea",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEndArea",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEndArea",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEndArea",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHourEndArea",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEndArea",
+      "target": "InpHourBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEndArea",
+      "target": "InpHourEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEndArea",
+      "target": "InpMinBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEndArea",
+      "target": "InpMinEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpHourEndArea",
+      "target": "InpMinEndArea"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEndArea",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEndArea",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEndArea",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEndArea",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpMinEndArea",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEndArea",
+      "target": "InpHourBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEndArea",
+      "target": "InpHourEnd"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEndArea",
+      "target": "InpHourEndArea"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEndArea",
+      "target": "InpMinBegin"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpMinEndArea",
+      "target": "InpMinEnd"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHistoryDays",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHistoryDays",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpHistoryDays",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpHistoryDays",
+      "target": "InpRequireChartContinuity"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpHistoryDays",
+      "target": "InpRequireExactStartAlignment"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpHistoryDays",
+      "target": "InpRequireRangeContinuity"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireExactStartAlignment",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireExactStartAlignment",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireExactStartAlignment",
+      "target": "InpHistoryDays"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireExactStartAlignment",
+      "target": "InpRequireChartContinuity"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireExactStartAlignment",
+      "target": "InpRequireRangeContinuity"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireRangeContinuity",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireRangeContinuity",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireRangeContinuity",
+      "target": "InpHistoryDays"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireRangeContinuity",
+      "target": "InpRequireChartContinuity"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireRangeContinuity",
+      "target": "InpRequireExactStartAlignment"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireChartContinuity",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireChartContinuity",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireChartContinuity",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireChartContinuity",
+      "target": "GRAMMAR_GAP_RESUME"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpRequireChartContinuity",
+      "target": "SENTINEL_GAP_FAIL_CLOSED"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireChartContinuity",
+      "target": "InpHistoryDays"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireChartContinuity",
+      "target": "InpRequireExactStartAlignment"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "common-domain analysis is required",
+      "kind": "DOMAIN_COUPLING",
+      "source": "InpRequireChartContinuity",
+      "target": "InpRequireRangeContinuity"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpShowLegacyLines",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowLegacyLines",
+      "target": "InpAreaColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowLegacyLines",
+      "target": "InpAreaStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowLegacyLines",
+      "target": "InpAreaWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowLegacyLines",
+      "target": "InpPeriodColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowLegacyLines",
+      "target": "InpPeriodStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowLegacyLines",
+      "target": "InpPeriodWidth"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpPeriodColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodColor",
+      "target": "InpAreaColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodColor",
+      "target": "InpAreaStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodColor",
+      "target": "InpAreaWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodColor",
+      "target": "InpPeriodStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodColor",
+      "target": "InpPeriodWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodColor",
+      "target": "InpShowLegacyLines"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpAreaColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaColor",
+      "target": "InpAreaStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaColor",
+      "target": "InpAreaWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaColor",
+      "target": "InpPeriodColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaColor",
+      "target": "InpPeriodStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaColor",
+      "target": "InpPeriodWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaColor",
+      "target": "InpShowLegacyLines"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpPeriodWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodWidth",
+      "target": "InpAreaColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodWidth",
+      "target": "InpAreaStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodWidth",
+      "target": "InpAreaWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodWidth",
+      "target": "InpPeriodColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodWidth",
+      "target": "InpPeriodStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodWidth",
+      "target": "InpShowLegacyLines"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpAreaWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaWidth",
+      "target": "InpAreaColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaWidth",
+      "target": "InpAreaStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaWidth",
+      "target": "InpPeriodColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaWidth",
+      "target": "InpPeriodStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaWidth",
+      "target": "InpPeriodWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaWidth",
+      "target": "InpShowLegacyLines"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpPeriodStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodStyle",
+      "target": "InpAreaColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodStyle",
+      "target": "InpAreaStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodStyle",
+      "target": "InpAreaWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodStyle",
+      "target": "InpPeriodColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodStyle",
+      "target": "InpPeriodWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpPeriodStyle",
+      "target": "InpShowLegacyLines"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpAreaStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaStyle",
+      "target": "InpAreaColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaStyle",
+      "target": "InpAreaWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaStyle",
+      "target": "InpPeriodColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaStyle",
+      "target": "InpPeriodStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaStyle",
+      "target": "InpPeriodWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpAreaStyle",
+      "target": "InpShowLegacyLines"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_CANDIDATE_GENEALOGY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpEnableExtremeSentinels",
+      "target": "InpExtremeSentinelStyle"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpEnableExtremeSentinels",
+      "target": "InpExtremeSentinelWidth"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpEnableExtremeSentinels",
+      "target": "InpLowerSentinelColor"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpEnableExtremeSentinels",
+      "target": "InpShowExtremeSentinels"
+    },
+    {
+      "authority": "STATIC_REVIEW_RULE",
+      "claim": "preservation must be re-proven jointly under the declared restriction",
+      "kind": "MUST_REPROVE_WITH",
+      "source": "InpEnableExtremeSentinels",
+      "target": "InpUpperSentinelColor"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpShowExtremeSentinels",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowExtremeSentinels",
+      "target": "InpEnableExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowExtremeSentinels",
+      "target": "InpExtremeSentinelStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowExtremeSentinels",
+      "target": "InpExtremeSentinelWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowExtremeSentinels",
+      "target": "InpLowerSentinelColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpShowExtremeSentinels",
+      "target": "InpUpperSentinelColor"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpUpperSentinelColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpUpperSentinelColor",
+      "target": "InpEnableExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpUpperSentinelColor",
+      "target": "InpExtremeSentinelStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpUpperSentinelColor",
+      "target": "InpExtremeSentinelWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpUpperSentinelColor",
+      "target": "InpLowerSentinelColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpUpperSentinelColor",
+      "target": "InpShowExtremeSentinels"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpLowerSentinelColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpLowerSentinelColor",
+      "target": "InpEnableExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpLowerSentinelColor",
+      "target": "InpExtremeSentinelStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpLowerSentinelColor",
+      "target": "InpExtremeSentinelWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpLowerSentinelColor",
+      "target": "InpShowExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpLowerSentinelColor",
+      "target": "InpUpperSentinelColor"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpExtremeSentinelStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelStyle",
+      "target": "InpEnableExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelStyle",
+      "target": "InpExtremeSentinelWidth"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelStyle",
+      "target": "InpLowerSentinelColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelStyle",
+      "target": "InpShowExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelStyle",
+      "target": "InpUpperSentinelColor"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpExtremeSentinelWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelWidth",
+      "target": "InpEnableExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelWidth",
+      "target": "InpExtremeSentinelStyle"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelWidth",
+      "target": "InpLowerSentinelColor"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelWidth",
+      "target": "InpShowExtremeSentinels"
+    },
+    {
+      "authority": "NOT_PROVEN",
+      "claim": "candidate relationship only; no required covariation proven",
+      "kind": "NO_COVARIATION_PROVEN",
+      "source": "InpExtremeSentinelWidth",
+      "target": "InpUpperSentinelColor"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "InpUniqueId",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SYMBOL",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SYMBOL",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SYMBOL",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SYMBOL",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SYMBOL",
+      "target": "HISTORY_AVAILABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "DERIVED_PERIOD_SECONDS"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "FREEZE_AT_END_BAR_CLOSE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "TIMEFRAME",
+      "target": "HISTORY_AVAILABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "DIGITS",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "UNUSED_RUNTIME_ARRAYS",
+      "target": "ARCH_UNUSED_INPUT_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PREV_CALCULATED",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PREV_CALCULATED",
+      "target": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CIVIL_DAY_CONVERSION",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "STOP_SIGNAL",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PLATFORM_EMPTY_VALUE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PLATFORM_FLOATING_ARITHMETIC",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PLATFORM_FLOATING_ARITHMETIC",
+      "target": "ARCH_NUMERICAL_DOMAIN"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PLATFORM_FLOATING_ARITHMETIC",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CLOCK_CLAMP_NOT_REJECT",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CLOCK_CLAMP_NOT_REJECT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CLOCK_CLAMP_NOT_REJECT",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "AREA_HOUR_FLOOR",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "AREA_HOUR_FLOOR",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "AREA_HOUR_FLOOR",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "EQUAL_START_END_LEGACY_EMPTY",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "EQUAL_START_END_LEGACY_EMPTY",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "EQUAL_START_END_LEGACY_EMPTY",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "RANGE_END_BAR_INCLUSIVE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "RANGE_END_BAR_INCLUSIVE",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "RANGE_END_BAR_INCLUSIVE",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FREEZE_AT_END_BAR_CLOSE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FREEZE_AT_END_BAR_CLOSE",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FREEZE_AT_END_BAR_CLOSE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "ASYMMETRIC_ALIGNMENT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "ASYMMETRIC_ALIGNMENT",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CONTAINING_BAR_RESOLUTION",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CONTAINING_BAR_RESOLUTION",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PREVIOUS_DAY_OWNERSHIP",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PREVIOUS_DAY_OWNERSHIP",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "STRICT_LOCATION_RAILS",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "STRICT_LOCATION_RAILS",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "GRAMMAR_OBSERVES_CLOSE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "GRAMMAR_OBSERVES_CLOSE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINELS_OBSERVE_HIGH_LOW",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINELS_OBSERVE_HIGH_LOW",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "STRICT_EXTREME_RENEWAL",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "STRICT_EXTREME_RENEWAL",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FIRST_CANDIDATE_ID_ONE",
+      "target": "ARCH_CANDIDATE_GENEALOGY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FIRST_CANDIDATE_ID_ONE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "FIRST_CANDIDATE_ID_ONE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINEL_GAP_FAIL_CLOSED",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINEL_GAP_FAIL_CLOSED",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "GRAMMAR_GAP_RESUME",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "GRAMMAR_GAP_RESUME",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "LEGACY_REPAINT_EVERY_TICK",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "LEGACY_REPAINT_EVERY_TICK",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "LEGACY_REPAINT_EVERY_TICK",
+      "target": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "target": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "OTO_I_TOPOLOGY",
+      "claim": "value/rule change propagates to this node; rewrite requirement not implied",
+      "kind": "AUTOMATIC_DOWNSTREAM_EFFECT",
+      "source": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    }
+  ],
+  "schema": "OTO_C_COVARIATION_EDGE_REGISTRY_V1"
+}

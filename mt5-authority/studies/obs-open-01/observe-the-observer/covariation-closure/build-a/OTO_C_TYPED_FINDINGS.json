@@ -1,0 +1,33 @@
+{
+  "contradictory_preservation_requirements": false,
+  "dynamic_dof_authority": "NONE",
+  "execution_state": "SEALED",
+  "independent_dimension_count": "NOT_EVALUABLE",
+  "lawful_intervention_count": "NOT_EVALUABLE",
+  "market_or_outcome_rows_read": 0,
+  "maximum_authority": "OBS_OPEN_OTO_STATIC_COVARIATION_CLOSURE_V1",
+  "parent_intervention_findings": {
+    "dynamic_dof_authority": "NONE",
+    "execution_state": "SEALED",
+    "identified_joint_count": 58,
+    "independent_dimension_count": "NOT_EVALUABLE",
+    "lawful_isolated_intervention_count": "NOT_EVALUABLE",
+    "market_or_outcome_rows_read": 0,
+    "maximum_authority": "OBS_OPEN_OTO_STATIC_INTERVENTION_TOPOLOGY_V1",
+    "question_status": "CLOSED",
+    "result": "STATIC_INTERVENTION_TOPOLOGY_SEALED",
+    "runtime_confirmation_count": 46,
+    "schema": "OTO_I_TYPED_FINDINGS_V1"
+  },
+  "question_status": "CLOSED",
+  "result": "STATIC_COVARIATION_CLOSURE_SEALED",
+  "schema": "OTO_C_TYPED_FINDINGS_V1",
+  "seed_count": 58,
+  "status_counts": {
+    "CLOSED_UNDER_EXPLICIT_RESTRICTION": 19,
+    "NOT_SEPARABLY_INTERVENABLE": 1,
+    "OPEN_REVIEW_REQUIRED": 4,
+    "REQUIRES_RUNTIME_EVIDENCE": 33,
+    "UNKNOWN": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "conflict_status": "NO_CONTRADICTION_PROVEN",
+  "contradictory_preservation_requirements": [],
+  "schema": "OTO_C_PRESERVATION_CONFLICTS_V1",
+  "unresolved_seams": [
+    "common_domain_behavior",
+    "runtime-transport-not-evaluable",
+    "platform-floating-arithmetic"
+  ]
+}

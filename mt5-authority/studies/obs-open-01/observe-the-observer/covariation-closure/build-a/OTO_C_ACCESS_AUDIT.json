@@ -1,0 +1,14 @@
+{
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "dynamic_dof_authority": "NONE",
+  "indicator_buffers_read": 0,
+  "intervention_root": "2fc9a4c150040b0f5167c341503583f1caeb298241eb1ec04b9614cc3837065f",
+  "market_rows_read": 0,
+  "outcome_rows_read": 0,
+  "runtime_probe_executed": false,
+  "runtime_transport_root": "03fc7cc1733f771573637329d9236ba548c1d29b69846cee655b84b746ed9901",
+  "schema": "OTO_C_ACCESS_AUDIT_V1",
+  "static_receipts_read": true
+}

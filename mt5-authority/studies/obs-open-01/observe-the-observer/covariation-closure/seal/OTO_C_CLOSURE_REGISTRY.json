@@ -1,0 +1,756 @@
+{
+  "closures": [
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpHourBegin",
+      "minimality_claim": "NONE",
+      "seed": "InpHourBegin"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpMinBegin",
+      "minimality_claim": "NONE",
+      "seed": "InpMinBegin"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpHourEnd",
+      "minimality_claim": "NONE",
+      "seed": "InpHourEnd"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpMinEnd",
+      "minimality_claim": "NONE",
+      "seed": "InpMinEnd"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpHourEndArea",
+      "minimality_claim": "NONE",
+      "seed": "InpHourEndArea"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpMinEndArea",
+      "minimality_claim": "NONE",
+      "seed": "InpMinEndArea"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "domain coupling requires a separate common-domain contract",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpHistoryDays",
+      "minimality_claim": "NONE",
+      "seed": "InpHistoryDays"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "domain coupling requires a separate common-domain contract",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpRequireExactStartAlignment",
+      "minimality_claim": "NONE",
+      "seed": "InpRequireExactStartAlignment"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "domain coupling requires a separate common-domain contract",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpRequireRangeContinuity",
+      "minimality_claim": "NONE",
+      "seed": "InpRequireRangeContinuity"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "domain coupling requires a separate common-domain contract",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpRequireChartContinuity",
+      "minimality_claim": "NONE",
+      "seed": "InpRequireChartContinuity"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpShowLegacyLines"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpShowLegacyLines",
+      "minimality_claim": "NONE",
+      "seed": "InpShowLegacyLines"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpPeriodColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpPeriodColor",
+      "minimality_claim": "NONE",
+      "seed": "InpPeriodColor"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpAreaColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpAreaColor",
+      "minimality_claim": "NONE",
+      "seed": "InpAreaColor"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpPeriodWidth"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpPeriodWidth",
+      "minimality_claim": "NONE",
+      "seed": "InpPeriodWidth"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpAreaWidth"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpAreaWidth",
+      "minimality_claim": "NONE",
+      "seed": "InpAreaWidth"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpPeriodStyle"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpPeriodStyle",
+      "minimality_claim": "NONE",
+      "seed": "InpPeriodStyle"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpAreaStyle"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpAreaStyle",
+      "minimality_claim": "NONE",
+      "seed": "InpAreaStyle"
+    },
+    {
+      "closure_iterations": 1,
+      "closure_reason": "closure is a coupled package under an explicit preservation restriction",
+      "closure_set": [
+        "InpEnableExtremeSentinels",
+        "InpExtremeSentinelStyle",
+        "InpExtremeSentinelWidth",
+        "InpLowerSentinelColor",
+        "InpShowExtremeSentinels",
+        "InpUpperSentinelColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpEnableExtremeSentinels",
+      "minimality_claim": "NONE",
+      "seed": "InpEnableExtremeSentinels"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpShowExtremeSentinels"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpShowExtremeSentinels",
+      "minimality_claim": "NONE",
+      "seed": "InpShowExtremeSentinels"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpUpperSentinelColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpUpperSentinelColor",
+      "minimality_claim": "NONE",
+      "seed": "InpUpperSentinelColor"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpLowerSentinelColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpLowerSentinelColor",
+      "minimality_claim": "NONE",
+      "seed": "InpLowerSentinelColor"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpExtremeSentinelStyle"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpExtremeSentinelStyle",
+      "minimality_claim": "NONE",
+      "seed": "InpExtremeSentinelStyle"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "publication/rendering surface only; causal state held fixed",
+      "closure_set": [
+        "InpExtremeSentinelWidth"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpExtremeSentinelWidth",
+      "minimality_claim": "NONE",
+      "seed": "InpExtremeSentinelWidth"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "predecessor intervention classification remains unknown",
+      "closure_set": [
+        "InpUniqueId"
+      ],
+      "closure_status": "UNKNOWN",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_InpUniqueId",
+      "minimality_claim": "NONE",
+      "seed": "InpUniqueId"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "SYMBOL"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_SYMBOL",
+      "minimality_claim": "NONE",
+      "seed": "SYMBOL"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "TIMEFRAME"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_TIMEFRAME",
+      "minimality_claim": "NONE",
+      "seed": "TIMEFRAME"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "DIGITS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_DIGITS",
+      "minimality_claim": "NONE",
+      "seed": "DIGITS"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "HISTORY_ARRAYS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_HISTORY_ARRAYS",
+      "minimality_claim": "NONE",
+      "seed": "HISTORY_ARRAYS"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "UNUSED_RUNTIME_ARRAYS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_UNUSED_RUNTIME_ARRAYS",
+      "minimality_claim": "NONE",
+      "seed": "UNUSED_RUNTIME_ARRAYS"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "HISTORY_AVAILABILITY"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_HISTORY_AVAILABILITY",
+      "minimality_claim": "NONE",
+      "seed": "HISTORY_AVAILABILITY"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "FORMING_VS_COMPLETED"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_FORMING_VS_COMPLETED",
+      "minimality_claim": "NONE",
+      "seed": "FORMING_VS_COMPLETED"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "PREV_CALCULATED"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_PREV_CALCULATED",
+      "minimality_claim": "NONE",
+      "seed": "PREV_CALCULATED"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "CIVIL_DAY_CONVERSION"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_CIVIL_DAY_CONVERSION",
+      "minimality_claim": "NONE",
+      "seed": "CIVIL_DAY_CONVERSION"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "STOP_SIGNAL"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_STOP_SIGNAL",
+      "minimality_claim": "NONE",
+      "seed": "STOP_SIGNAL"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "PLATFORM_EMPTY_VALUE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_PLATFORM_EMPTY_VALUE",
+      "minimality_claim": "NONE",
+      "seed": "PLATFORM_EMPTY_VALUE"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "platform seam is not a source-level intervention",
+      "closure_set": [
+        "PLATFORM_FLOATING_ARITHMETIC"
+      ],
+      "closure_status": "NOT_SEPARABLY_INTERVENABLE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_PLATFORM_FLOATING_ARITHMETIC",
+      "minimality_claim": "NONE",
+      "seed": "PLATFORM_FLOATING_ARITHMETIC"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "CLOCK_CLAMP_NOT_REJECT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_CLOCK_CLAMP_NOT_REJECT",
+      "minimality_claim": "NONE",
+      "seed": "CLOCK_CLAMP_NOT_REJECT"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "AREA_HOUR_FLOOR"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_AREA_HOUR_FLOOR",
+      "minimality_claim": "NONE",
+      "seed": "AREA_HOUR_FLOOR"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "EQUAL_START_END_LEGACY_EMPTY"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_EQUAL_START_END_LEGACY_EMPTY",
+      "minimality_claim": "NONE",
+      "seed": "EQUAL_START_END_LEGACY_EMPTY"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "RANGE_END_BAR_INCLUSIVE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_RANGE_END_BAR_INCLUSIVE",
+      "minimality_claim": "NONE",
+      "seed": "RANGE_END_BAR_INCLUSIVE"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "FREEZE_AT_END_BAR_CLOSE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_FREEZE_AT_END_BAR_CLOSE",
+      "minimality_claim": "NONE",
+      "seed": "FREEZE_AT_END_BAR_CLOSE"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "ASYMMETRIC_ALIGNMENT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_ASYMMETRIC_ALIGNMENT",
+      "minimality_claim": "NONE",
+      "seed": "ASYMMETRIC_ALIGNMENT"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "CONTAINING_BAR_RESOLUTION"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_CONTAINING_BAR_RESOLUTION",
+      "minimality_claim": "NONE",
+      "seed": "CONTAINING_BAR_RESOLUTION"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "PREVIOUS_DAY_OWNERSHIP"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_PREVIOUS_DAY_OWNERSHIP",
+      "minimality_claim": "NONE",
+      "seed": "PREVIOUS_DAY_OWNERSHIP"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "ONE_PREDECESSOR_DAY_CONTEXT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_ONE_PREDECESSOR_DAY_CONTEXT",
+      "minimality_claim": "NONE",
+      "seed": "ONE_PREDECESSOR_DAY_CONTEXT"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "STRICT_LOCATION_RAILS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_STRICT_LOCATION_RAILS",
+      "minimality_claim": "NONE",
+      "seed": "STRICT_LOCATION_RAILS"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "GRAMMAR_OBSERVES_CLOSE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_GRAMMAR_OBSERVES_CLOSE",
+      "minimality_claim": "NONE",
+      "seed": "GRAMMAR_OBSERVES_CLOSE"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "SENTINELS_OBSERVE_HIGH_LOW"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_SENTINELS_OBSERVE_HIGH_LOW",
+      "minimality_claim": "NONE",
+      "seed": "SENTINELS_OBSERVE_HIGH_LOW"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "STRICT_EXTREME_RENEWAL"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_STRICT_EXTREME_RENEWAL",
+      "minimality_claim": "NONE",
+      "seed": "STRICT_EXTREME_RENEWAL"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "FIRST_CANDIDATE_ID_ONE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_FIRST_CANDIDATE_ID_ONE",
+      "minimality_claim": "NONE",
+      "seed": "FIRST_CANDIDATE_ID_ONE"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "BIRTH_KNOWN_AT_BAR_CLOSE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_BIRTH_KNOWN_AT_BAR_CLOSE",
+      "minimality_claim": "NONE",
+      "seed": "BIRTH_KNOWN_AT_BAR_CLOSE"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "minimality_claim": "NONE",
+      "seed": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "SENTINEL_GAP_FAIL_CLOSED"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_SENTINEL_GAP_FAIL_CLOSED",
+      "minimality_claim": "NONE",
+      "seed": "SENTINEL_GAP_FAIL_CLOSED"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "GRAMMAR_GAP_RESUME"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_GRAMMAR_GAP_RESUME",
+      "minimality_claim": "NONE",
+      "seed": "GRAMMAR_GAP_RESUME"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "LEGACY_REPAINT_EVERY_TICK"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_LEGACY_REPAINT_EVERY_TICK",
+      "minimality_claim": "NONE",
+      "seed": "LEGACY_REPAINT_EVERY_TICK"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "CAUSAL_REBUILD_ON_NEW_BAR"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_CAUSAL_REBUILD_ON_NEW_BAR",
+      "minimality_claim": "NONE",
+      "seed": "CAUSAL_REBUILD_ON_NEW_BAR"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "SENTINEL_AREA_END_COMPLETED_BAR"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_SENTINEL_AREA_END_COMPLETED_BAR",
+      "minimality_claim": "NONE",
+      "seed": "SENTINEL_AREA_END_COMPLETED_BAR"
+    },
+    {
+      "closure_iterations": 0,
+      "closure_reason": "source cone is identified but behavioral closure is not runtime-qualified",
+      "closure_set": [
+        "UNRESOLVED_AREA_END_BAR_OPEN"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "independent_dimension_claim": "NOT_EARNED",
+      "intervention_id": "OTO_I_UNRESOLVED_AREA_END_BAR_OPEN",
+      "minimality_claim": "NONE",
+      "seed": "UNRESOLVED_AREA_END_BAR_OPEN"
+    }
+  ],
+  "schema": "OTO_C_CLOSURE_REGISTRY_V1",
+  "seed_count": 58,
+  "status_counts": {
+    "CLOSED_UNDER_EXPLICIT_RESTRICTION": 19,
+    "NOT_SEPARABLY_INTERVENABLE": 1,
+    "OPEN_REVIEW_REQUIRED": 4,
+    "REQUIRES_RUNTIME_EVIDENCE": 33,
+    "UNKNOWN": 1
+  }
+}

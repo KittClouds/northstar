@@ -1,0 +1,25 @@
+{
+  "closure_rule": "S_0={j}; S_(n+1)=S_n union RequiredCovariates(S_n) until fixed point or typed failure",
+  "edge_kinds": [
+    "MUST_REWRITE_WITH",
+    "MUST_REPROVE_WITH",
+    "AUTOMATIC_DOWNSTREAM_EFFECT",
+    "DOMAIN_COUPLING",
+    "INITIALIZATION_COUPLING",
+    "PUBLICATION_COUPLING",
+    "AUTHORITY_COUPLING",
+    "OPTIONAL_COORDINATED_REWRITE",
+    "INVALIDATES_IF_UNCHANGED",
+    "NO_COVARIATION_PROVEN",
+    "UNKNOWN"
+  ],
+  "gate": "OTO-C_COVARIATION_CLOSURE_QUALIFICATION",
+  "prohibitions": [
+    "NO_MINIMALITY_CLAIM",
+    "NO_INDEPENDENT_DIMENSION_CLAIM",
+    "NO_RUNTIME_EXECUTION",
+    "NO_MARKET_OR_OUTCOME_READS"
+  ],
+  "question": "When one manufactured choice is altered, what else must change or be re-proven for the resulting observer to remain coherent?",
+  "schema": "OTO_C_PROTOCOL_V1"
+}

@@ -1,0 +1,50 @@
+{
+  "logical_root": "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 817,
+        "path": "OTO_C_PROTOCOL_V1.json",
+        "sha256": "8938ec904a5f745bd47f8ba68f3c0b4eeccce34e59f23ce5f085b778d1b517f7"
+      },
+      {
+        "bytes": 67622,
+        "path": "OTO_C_COVARIATION_EDGE_REGISTRY.json",
+        "sha256": "c7dccfacaa7a65d709bb8d740d043de96507c61982245ea87c3e491b3f447cd1"
+      },
+      {
+        "bytes": 26729,
+        "path": "OTO_C_CLOSURE_REGISTRY.json",
+        "sha256": "1afb540399aede45e970e72199a40b84f3c77c07dba807c81e506d916988c33c"
+      },
+      {
+        "bytes": 34657,
+        "path": "OTO_C_DOMAIN_DEFORMATION_ATLAS.json",
+        "sha256": "5137faa9cc74c2c7ed3e000196037cbf89c0b9c9cbbc76ff769d773b80c9110f"
+      },
+      {
+        "bytes": 280,
+        "path": "OTO_C_PRESERVATION_CONFLICTS.json",
+        "sha256": "cb5175b0f083a2050c85ad4757e9ff71814bfb38bf8cde61356689ac17c7cd5d"
+      },
+      {
+        "bytes": 465,
+        "path": "OTO_C_ACCESS_AUDIT.json",
+        "sha256": "75560f885c3b8578ad368b35babea7a1ff39f98f8179a2e943df2dc380d68069"
+      },
+      {
+        "bytes": 1187,
+        "path": "OTO_C_TYPED_FINDINGS.json",
+        "sha256": "96991110c07cbe20e81428a9f3a3826f4bf9e3a37ddfec63d286bda6e5862df1"
+      }
+    ],
+    "authority": "OBS_OPEN_OTO_STATIC_COVARIATION_CLOSURE_V1",
+    "parent_intervention_root": "2fc9a4c150040b0f5167c341503583f1caeb298241eb1ec04b9614cc3837065f",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "parent_topology_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+    "runtime_transport_root": "03fc7cc1733f771573637329d9236ba548c1d29b69846cee655b84b746ed9901",
+    "schema": "OTO_C_ROOT_PAYLOAD_V1",
+    "seed_count": 58
+  },
+  "schema": "OTO_C_ROOT_RECEIPT_V1"
+}

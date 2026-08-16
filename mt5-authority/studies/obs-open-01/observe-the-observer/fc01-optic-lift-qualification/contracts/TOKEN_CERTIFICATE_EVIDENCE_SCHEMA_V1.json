@@ -1,0 +1,1 @@
+{"schema":"TOKEN_CERTIFICATE_EVIDENCE_SCHEMA_V1","status":"SCHEMA_ONLY","fields":["pair_id","optic_id","token_id","certificate_hash","verifier_receipt_hash","authority_lineage"],"scientific_identity":"NOT_THE_CERTIFICATE_HASH"}

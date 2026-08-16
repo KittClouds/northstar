@@ -1,0 +1,36 @@
+{
+  "schema": "FC01B_A0_ACCESS_AUDIT_V1",
+  "gate": "FC01B_A0",
+  "result": "PASS",
+  "counters": {
+    "REAL_04A_HISTORY_READS": 0,
+    "POPULATION_READS": 0,
+    "TARGET_READS": 0,
+    "OUTCOME_READS": 0,
+    "PAIR_READS": 0,
+    "TOKENS_REALIZED": 0,
+    "CERTIFICATES_CONSTRUCTED": 0,
+    "FIBERS_CONSTRUCTED": 0,
+    "FIBER_MEMBERSHIP_INFERRED": 0,
+    "G8_VERIFIER_INVOCATIONS": 0,
+    "EXPLORER_INVOCATIONS": 0,
+    "D_B_READS": 0,
+    "D_C_READS": 0,
+    "D_D_READS": 0
+  },
+  "allowed_inspections": [
+    "sealed_g8_source",
+    "sealed_g8_contracts",
+    "sealed_g8_receipts",
+    "fc01a_contracts_and_roots",
+    "lineage_metadata"
+  ],
+  "forbidden_inspections": [
+    "protected_population_content",
+    "population_derived_metadata",
+    "real_history_pairs",
+    "real_continuations",
+    "real_certificates"
+  ],
+  "population_access": 0
+}

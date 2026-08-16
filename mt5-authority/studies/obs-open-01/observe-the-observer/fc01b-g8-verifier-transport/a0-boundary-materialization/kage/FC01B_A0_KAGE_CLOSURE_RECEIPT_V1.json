@@ -1,0 +1,64 @@
+{
+  "schema": "FC01B_A0_KAGE_CLOSURE_RECEIPT_V1",
+  "gate": "FC01B-A0",
+  "authority_owner": "KAGE",
+  "question_status": "CLOSED",
+  "result": "NOT_EVALUABLE",
+  "boundary_materialization": "PASS",
+  "requirement_ledger": "PASS",
+  "variant_domain_ledger": "PASS",
+  "transport_spec": "NOT_EVALUABLE",
+  "g8_invocation": "NOT_STARTED",
+  "g8_verdict": "NONE",
+  "lineage": {
+    "FC01A_COMPOSITE_ROOT": "68B4A55B4D87B76CA1A14A76538B56484C7F878CAB7187E5B89C20C1360A9E1C",
+    "G8_ROOT": "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece",
+    "G8_ROOT_RECEIPT_FILE_SHA256": "7B17D9AA4DD6A1C6BA8B2D1646CB13945B516A44184273C0AF2BB7FC4EFEF75D",
+    "G8_BOUNDARY_CONTRACT_SHA256": "EC799E11DECCCCC056FA6D54028123B1F999E18AF31DFBFD9343C3997CD04D04",
+    "G8_REQUIREMENT_LEDGER_SHA256": "725C9FFACE4D5DC56839FC0A4C9A354110A4A581143F8C64D737E710EF33F79E",
+    "FC01B_VARIANT_DOMAIN_LEDGER_SHA256": "18F43E748AB6F0B8F791EFD067FB3E9F9AC52939ABF409C565FB8250DB0C7F92"
+  },
+  "constituent_receipts": {
+    "SOL": "764F60A6430B75D0C3608FE88A2DC6F33A90E27E0C19D8CE21C58ED3C94E2C5C",
+    "KAMMI": "65EAE5D903FB8E916C7DCEE219561867EDDA19E84E5C2730E3F34528A877AA6C",
+    "ACCESS_AUDIT": "17C23AB8EC34C774DD62DBD55D7F2293C65B7E4ACF335B82B468FD49B7BEA63F"
+  },
+  "blocking_reasons": [
+    "G8_04A_SEMANTIC_ADAPTER_NOT_QUALIFIED",
+    "G8_REQUIRED_UPSTREAM_AUTHORITY_UNAVAILABLE",
+    "G8_FROZEN_COMPARISON_UNAVAILABLE",
+    "G8_FIBER_CERTIFICATE_UNAVAILABLE",
+    "G5_TOKEN_SEQUENCE_NOT_ACTIVE",
+    "CERTIFICATE_CONSTRUCTION_FORBIDDEN",
+    "FIBER_MEMBERSHIP_INFERENCE_FORBIDDEN"
+  ],
+  "mechanical_guards": {
+    "derivation_required_true": true,
+    "construction_required_true": true,
+    "certificate_construction": 0,
+    "fiber_construction": 0,
+    "fiber_membership_inference": 0,
+    "comparability_inference": 0,
+    "rejected_to_applied_coercion": 0,
+    "transport_disposition_as_g8_verdict": false,
+    "population_access": 0
+  },
+  "variant_status": {
+    "APPLIED": "NOT_EVALUABLE",
+    "REJECTED": "EXCLUDED_BY_CURRENT_G8_SCHEMA",
+    "G8_VERDICT_FOR_EITHER": "NONE"
+  },
+  "scope": {
+    "g8_authority": "SYNTHETIC_AND_FORMALLY_UNDERSTOOD_SYSTEMS_ONLY",
+    "real_04a_applicability": "NOT_ESTABLISHED",
+    "population_authority": "NONE"
+  },
+  "next_state": {
+    "FC01B_A0": "CLOSED_NOT_EVALUABLE",
+    "FC01B_A1": "FROZEN_PENDING_A0_REMEDIATION_OR_NEW_AUTHORITY",
+    "FC01C_PLUS": "FROZEN",
+    "POPULATION": "UNOPENED",
+    "PAIRS": "NONE",
+    "TOKENS": "NONE"
+  }
+}

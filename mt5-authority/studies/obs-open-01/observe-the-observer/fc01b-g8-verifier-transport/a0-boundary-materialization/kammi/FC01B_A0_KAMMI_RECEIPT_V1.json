@@ -1,0 +1,34 @@
+{
+  "schema": "FC01B_A0_KAMMI_RECEIPT_V1",
+  "role": "KAMMI",
+  "result": "A0_FIREWALL_PASSED_WITH_TRANSPORT_BLOCKED",
+  "attack_scope": "BORDER_CROSSING_ONLY",
+  "checks": {
+    "missing_fact_to_derivation": "DETECTED_AND_BLOCKED",
+    "missing_authority_to_inference": "DETECTED_AND_BLOCKED",
+    "incomplete_certificate_to_repair": "DETECTED_AND_BLOCKED",
+    "ordered_object_to_reordering": "DETECTED_AND_BLOCKED",
+    "historical_root_to_compatible_substitute": "DETECTED_AND_BLOCKED",
+    "rejected_to_applied_fabrication": "DETECTED_AND_BLOCKED",
+    "transport_exclusion_to_g8_rejection": "SEPARATED",
+    "population_derived_fixture": "NONE"
+  },
+  "observed_dispositions": {
+    "APPLIED": "NOT_EVALUABLE",
+    "REJECTED": "EXCLUDED_BY_CURRENT_G8_SCHEMA",
+    "g8_verdict_emitted": false
+  },
+  "forbidden_activity_counts": {
+    "certificate_construction": 0,
+    "fiber_inference": 0,
+    "comparability_inference": 0,
+    "token_realization": 0,
+    "explorer_invocation": 0,
+    "population_reads": 0
+  },
+  "nonclaims": [
+    "verifier_security_review",
+    "g8_semantic_verdict",
+    "real_04a_fiber_membership"
+  ]
+}

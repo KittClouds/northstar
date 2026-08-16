@@ -1,0 +1,44 @@
+{
+  "schema": "FC01B_A0_SOL_RECEIPT_V1",
+  "role": "SOL",
+  "result": "BOUNDARY_MATERIALIZED_TRANSPORT_BLOCKED",
+  "boundary_artifact": "G8_VERIFIER_BOUNDARY_V1",
+  "requirement_ledger_artifact": "G8_INPUT_REQUIREMENT_LEDGER_V1",
+  "variant_domain_artifact": "FC01B_VARIANT_DOMAIN_LEDGER_V1",
+  "findings": {
+    "exact_g8_callable_boundary": "RECOVERED",
+    "historical_g8_terms_preserved": true,
+    "g8_verifier_argument_shapes": "MATERIALIZED",
+    "g8_04a_semantic_adapter": "NOT_QUALIFIED",
+    "g6_fiber_artifact_for_04a": "NOT_AVAILABLE",
+    "g5_token_artifact": "NOT_AVAILABLE_AND_NOT_REQUESTED",
+    "derivation_or_construction_required": true,
+    "fc01b_a0_result": "NOT_EVALUABLE"
+  },
+  "allowed_operations_identified": [
+    "DIRECT_COPY",
+    "ALLOWLISTED_SELECTION",
+    "CONTRACT_BOUND_RENAME",
+    "CANONICAL_ENCODING",
+    "STRUCTURAL_PACKAGING",
+    "AUTHORIZED_PROVENANCE_ATTACHMENT"
+  ],
+  "forbidden_operations_preserved": [
+    "CERTIFICATE_CONSTRUCTION",
+    "CERTIFICATE_COMPLETION",
+    "FIBER_SEARCH",
+    "FIBER_MEMBERSHIP_INFERENCE",
+    "COMPARABILITY_INFERENCE",
+    "TOKEN_REALIZATION",
+    "EXPLORER_INVOCATION",
+    "POPULATION_ACCESS"
+  ],
+  "nonclaims": [
+    "g8_verifier_invocation",
+    "g8_verdict",
+    "fiber_membership",
+    "separator_existence",
+    "real_04a_applicability"
+  ],
+  "population_access": 0
+}

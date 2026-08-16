@@ -1,0 +1,92 @@
+{
+  "schema": "G8_VERIFIER_BOUNDARY_V1",
+  "status": "MATERIALIZED_FROM_SEALED_G8",
+  "g8_authority": "OBS_OPEN_G8_WITNESS_LABORATORY_WITH_RESTRICTIONS_V1",
+  "g8_root": "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece",
+  "g8_root_receipt_file_sha256": "7B17D9AA4DD6A1C6BA8B2D1646CB13945B516A44184273C0AF2BB7FC4EFEF75D",
+  "verifier_contract_id": "G8_EXACT_SEPARATOR_VERIFIER_V1",
+  "verifier_contract_hash": "1aebccd1f854d05721db707fa39d730391677dd482b3731df794d341afe589a2",
+  "authority_bundle_hash": "ae1274688dfe4b0761bd91b7b2c354e0cfc508d46d633d7e6ace7edb0f7a1dfd",
+  "sealed_source_roots": {
+    "model": "91B34DFF8EC0B69A3751ED21EA305DE2CE7924754170A6136B208DBDE4CA2ECF",
+    "authority": "C4A0D6885CEE8617555689DD785E8D571C571245031EA458AE88039BDC092236",
+    "verifier": "F5CCA6D7F252B1944F946CC0053953272A144893E138EFFB06DCA137232447DF",
+    "lib": "32C387F5D166070E7BA318328E0A15ADC224C7F9EFA6EAC1F48438D50A5C713F"
+  },
+  "constants": {
+    "theta_star_id": "THETA_STAR_RELATIVE_TOKEN_AFFINE_ROLE_FIBER_ARCHITECTURE_V1",
+    "lambda_policy_id": "RELATIVE_COMPLETED_BAR_COUPLING_V1",
+    "initial_correspondence_id": "SYNTHETIC_ORDER_PRESERVING_CORRESPONDENCE_V1",
+    "fiber_certificate_schema": "QUALIFIED_COMPARISON_FIBER_CERTIFICATE_V1",
+    "separator_certificate_schema": "FINITE_SEPARATOR_CERTIFICATE_V1",
+    "universal_proof_system_id": "FINITE_PRODUCT_INDUCTIVE_RELATION_V1"
+  },
+  "callable_boundary": [
+    {
+      "callable": "verify_separator",
+      "arguments": ["SeparatorCertificate"],
+      "authority_surface": "G7_VERDICT_FOR_VERIFIED_SEPARATOR",
+      "scope": "SYNTHETIC_REFERENCE_SYSTEM_SCOPE"
+    },
+    {
+      "callable": "verify_ancestry",
+      "arguments": ["SyntheticMachine", "start", "NeutralToken[]", "claimed_states[]"],
+      "authority_surface": "VERIFIED_REACHABLE",
+      "scope": "SYNTHETIC_REFERENCE_SYSTEM_SCOPE"
+    },
+    {
+      "callable": "verify_bounded_exhaustion",
+      "arguments": ["max_shell", "CoverageReceipt"],
+      "authority_surface": "EXACT_FINITE_DOMAIN_COVERAGE",
+      "scope": "DECLARED_FINITE_BOX_SCOPE"
+    },
+    {
+      "callable": "verify_no_witness_box",
+      "arguments": ["FrozenComparison", "max_shell", "CoverageReceipt"],
+      "authority_surface": "BOUNDED_SILENCE",
+      "scope": "DECLARED_FINITE_BOX_SCOPE"
+    },
+    {
+      "callable": "verify_finite_box_minimum",
+      "arguments": ["SeparatorCertificate", "max_shell", "CoverageReceipt"],
+      "authority_surface": "MINIMAL_WITHIN_DECLARED_FINITE_BOX",
+      "scope": "DECLARED_FINITE_BOX_SCOPE"
+    },
+    {
+      "callable": "verify_universal_proof",
+      "arguments": ["UniversalProof"],
+      "authority_surface": "EQUIVALENT_WITH_ACCEPTED_UNIVERSAL_PROOF",
+      "scope": "FINITE_PRODUCT_INDUCTIVE_RELATION_ONLY"
+    }
+  ],
+  "supporting_non_boundary_callables": [
+    {"callable": "derive_claims", "classification": "VERIFIER_INTERNAL_RECOMPUTATION"},
+    {"callable": "domain_id", "classification": "COVERAGE_SUPPORT_FUNCTION"},
+    {"callable": "coverage_accumulator", "classification": "COVERAGE_SUPPORT_FUNCTION"},
+    {"callable": "make_certificate", "classification": "CERTIFICATE_CONSTRUCTION_FORBIDDEN_TO_FC01B"},
+    {"callable": "synthetic_fiber_certificate", "classification": "UPSTREAM_AUTHORITY_CONSTRUCTION_FORBIDDEN_TO_FC01B"}
+  ],
+  "argument_shape": {
+    "separator_certificate": ["AuthorityBinding", "FrozenComparison", "NeutralToken[]", "DerivedClaims", "metadata"],
+    "frozen_comparison": ["SyntheticMachine", "SyntheticMachine", "starts", "gamma", "ThetaStar", "Lambda", "M", "contexts", "FiberCertificate"],
+    "fiber_certificate": ["schema_id", "source", "fiber_id", "left_machine_id", "right_machine_id", "construction_proof_hash"],
+    "authority_binding": ["G3_ROOT", "G4_ROOT", "G5_ROOT", "G6_ROOT", "G7_ROOT", "ThetaStar", "certificate_schema", "verifier_hash", "authority_bundle_hash"],
+    "neutral_token": ["open_delta_ticks", "high_delta_ticks", "low_delta_ticks", "close_delta_ticks", "coverage_class"],
+    "coverage_receipt": ["domain_id", "domain_cardinality", "visited_indices", "visited_accumulator_hash", "accepted_separator_indices"],
+    "universal_proof": ["proof_system_id", "left_machine", "right_machine", "relation"]
+  },
+  "verdict_surface": "G7_AUTHORIZED_VOCABULARY_ONLY",
+  "failure_surface": [
+    "AUTHORITY_LINEAGE_MISMATCH",
+    "FROZEN_COMPARISON_CONTRACT_MISMATCH",
+    "FIBER_QUALIFICATION_MISSING_OR_INVALID",
+    "IMPOSSIBLE_STARTING_CONFIGURATION",
+    "ILLEGAL_CONTINUATION_SOURCE_GRAMMAR",
+    "DERIVED_CLAIM_MISMATCH",
+    "NO_PROTECTED_MISMATCH",
+    "FINITE_BOX_MINIMUM_PREREQUISITE_FAILURE",
+    "UNIVERSAL_PROOF_SCHEMA_OR_MACHINE_INVALID"
+  ],
+  "fc01b_invocation_authority": "NONE",
+  "population_access": 0
+}

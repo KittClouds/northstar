@@ -1,0 +1,33 @@
+{
+  "schema": "FC01B_VARIANT_DOMAIN_LEDGER_V1",
+  "status": "MATERIALIZED_WITH_DOMAIN_LIMITS",
+  "g8_boundary_root": "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece",
+  "fc01a_composite_root": "68B4A55B4D87B76CA1A14A76538B56484C7F878CAB7187E5B89C20C1360A9E1C",
+  "variant_rules": {
+    "APPLIED": {
+      "source_surface": "FC01A_APPLIED_VIEW",
+      "g8_input_domain_status": "NOT_EVALUABLE",
+      "transport_disposition": "G8_REQUIRED_UPSTREAM_AUTHORITY_UNAVAILABLE",
+      "reason_codes": ["G8_04A_SEMANTIC_ADAPTER_NOT_QUALIFIED", "G8_FROZEN_COMPARISON_UNAVAILABLE", "G8_FIBER_CERTIFICATE_UNAVAILABLE"],
+      "g8_verdict_emitted": false
+    },
+    "REJECTED": {
+      "source_surface": "FC01A_REJECTED_VIEW",
+      "g8_input_domain_status": "EXCLUDED_BY_CURRENT_G8_SCHEMA",
+      "transport_disposition": "OUTSIDE_G8_INPUT_DOMAIN",
+      "reason_codes": ["NO_REJECTED_ARGUMENT_TYPE_IN_SEALED_G8_BOUNDARY", "REJECTED_TO_APPLIED_COERCION_FORBIDDEN"],
+      "g8_verdict_emitted": false
+    }
+  },
+  "separation_rules": {
+    "rejected_to_applied_coercion": 0,
+    "transport_disposition_is_g8_verdict": false,
+    "outside_domain_is_g8_rejection": false,
+    "not_evaluable_is_g8_rejection": false
+  },
+  "population_access": 0,
+  "pair_access": 0,
+  "token_realization": 0,
+  "fiber_inference": 0,
+  "certificate_construction": 0
+}

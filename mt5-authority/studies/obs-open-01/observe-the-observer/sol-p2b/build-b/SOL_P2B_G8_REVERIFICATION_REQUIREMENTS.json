@@ -1,0 +1,13 @@
+{
+  "failure_on_any_change": "NEW_LINEAGE_AND_HALT",
+  "population_access": 0,
+  "schema": "SOL_P2B_G8_REVERIFICATION_REQUIREMENTS_V1",
+  "unchanged": [
+    "OPTICS",
+    "QUESTION_GRAMMAR",
+    "ARMS",
+    "SYNTHESIS",
+    "STOPPING",
+    "BLINDNESS"
+  ]
+}

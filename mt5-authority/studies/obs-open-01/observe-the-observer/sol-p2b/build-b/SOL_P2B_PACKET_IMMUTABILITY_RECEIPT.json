@@ -1,0 +1,8 @@
+{
+  "bound_sha256": "0d24798eaa552913506fb548364f49c7b5dc418bd1977cfc1a1b05d2c63df6d0",
+  "packet_sha256": "0d24798eaa552913506fb548364f49c7b5dc418bd1977cfc1a1b05d2c63df6d0",
+  "question_count": 5,
+  "regeneration": "FORBIDDEN",
+  "schema": "SOL_P2B_PACKET_IMMUTABILITY_RECEIPT_V1",
+  "status": "PASS_BYTE_UNCHANGED"
+}

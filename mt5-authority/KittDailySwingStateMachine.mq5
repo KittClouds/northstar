@@ -60,6 +60,10 @@ input bool            InpEnableLogging = false;
 input bool            InpLogEveryUpdate = false;
 input string          InpRunKey = "KITT_DAILY_SWING";
 input string          InpInvocationId = "AUTO";
+input string          InpExperimentId = "KITT_DAILY_SWING_OBSERVER_V1";
+input string          InpRunInstanceId = "AUTO";
+input string          InpObserverBuildRoot = "KITT_DAILY_SWING_BUILD_V1";
+input string          InpConfigurationRoot = "KITT_DAILY_SWING_CONFIG_V1";
 input datetime        InpTesterFinalizeAt = 0;
 
 const string KDSW_PREFIX = "KittDailySwingState_";
@@ -68,6 +72,16 @@ CKittDailySwingStateMachine g_machine;
 CKittDailySwingLogger       g_logger;
 bool                        g_is_tester = false;
 int                         g_chart_period_sec = 60;
+
+string FinalizationContractHash()
+{
+   string material = "KITT_FINALIZATION_CONTRACT_V1|DECLARED_TEST_BOUNDARY|"
+                   + "inclusive_market_time|"
+                   + IntegerToString((long)InpTesterFinalizeAt)
+                   + "|completion=boundary_reached_and_artifacts_verified"
+                   + "|fallback=normal_deinitialization_stop_early";
+   return KDSW_HashName(KDSW_Fnv1aString(material));
+}
 
 double Clamp01(const double value)
 {
@@ -330,7 +344,10 @@ bool RefreshSurface()
       KDSW_READING reading;
       g_machine.GetReading(reading);
       if(reading.market_time >= InpTesterFinalizeAt)
-         g_logger.Close();
+         g_logger.Finalize(KDSW_TRIGGER_DECLARED_TEST_BOUNDARY,
+                           KDSW_OUTCOME_COMPLETED,
+                           true,
+                           "DECLARED_TEST_BOUNDARY");
    }
 
    return true;
@@ -357,7 +374,14 @@ int OnInit()
       return INIT_FAILED;
    }
 
-   if(!g_logger.Init(InpEnableLogging, InpRunKey, InpInvocationId))
+   if(!g_logger.Init(InpEnableLogging,
+                     InpRunKey,
+                     InpInvocationId,
+                     InpExperimentId,
+                     InpRunInstanceId,
+                     InpObserverBuildRoot,
+                     InpConfigurationRoot,
+                     FinalizationContractHash()))
    {
       Print("Kitt daily swing state: logger initialization failed. Error=",
             GetLastError());

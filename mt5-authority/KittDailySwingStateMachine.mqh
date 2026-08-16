@@ -99,6 +99,100 @@ ulong KDSW_LocalId(const datetime day_start, const KDSW_ZONE_SIDE side)
    return base * 4 + (ulong)((int)side + 1);
 }
 
+enum KDSW_RECEIPT_STATE
+{
+   KDSW_RECEIPT_OPEN       = 0,
+   KDSW_RECEIPT_FINALIZING = 1,
+   KDSW_RECEIPT_CLOSED     = 2
+};
+
+enum KDSW_RUN_OUTCOME
+{
+   KDSW_OUTCOME_COMPLETED            = 0,
+   KDSW_OUTCOME_STOPPED_EARLY        = 1,
+   KDSW_OUTCOME_INVALID_CONFIGURATION= 2,
+   KDSW_OUTCOME_INPUT_UNAVAILABLE    = 3,
+   KDSW_OUTCOME_WRITE_FAILURE        = 4,
+   KDSW_OUTCOME_OBSERVER_FAILURE     = 5,
+   KDSW_OUTCOME_TESTER_TERMINATED    = 6,
+   KDSW_OUTCOME_NOT_EVALUABLE        = 7
+};
+
+enum KDSW_FINALIZATION_TRIGGER
+{
+   KDSW_TRIGGER_DECLARED_TEST_BOUNDARY = 0,
+   KDSW_TRIGGER_NORMAL_DEINITIALIZATION= 1,
+   KDSW_TRIGGER_MANUAL_STOP            = 2,
+   KDSW_TRIGGER_TESTER_TERMINATION     = 3,
+   KDSW_TRIGGER_EXPLICIT_FINALIZE      = 4,
+   KDSW_TRIGGER_ERROR_PATH             = 5
+};
+
+string KDSW_ReceiptStateName(const KDSW_RECEIPT_STATE value)
+{
+   if(value == KDSW_RECEIPT_FINALIZING) return "FINALIZING";
+   if(value == KDSW_RECEIPT_CLOSED)     return "CLOSED";
+   return "OPEN";
+}
+
+string KDSW_RunOutcomeName(const KDSW_RUN_OUTCOME value)
+{
+   if(value == KDSW_OUTCOME_COMPLETED)             return "COMPLETED";
+   if(value == KDSW_OUTCOME_STOPPED_EARLY)         return "STOPPED_EARLY";
+   if(value == KDSW_OUTCOME_INVALID_CONFIGURATION) return "INVALID_CONFIGURATION";
+   if(value == KDSW_OUTCOME_INPUT_UNAVAILABLE)     return "INPUT_UNAVAILABLE";
+   if(value == KDSW_OUTCOME_WRITE_FAILURE)         return "WRITE_FAILURE";
+   if(value == KDSW_OUTCOME_OBSERVER_FAILURE)      return "OBSERVER_FAILURE";
+   if(value == KDSW_OUTCOME_TESTER_TERMINATED)     return "TESTER_TERMINATED";
+   return "NOT_EVALUABLE";
+}
+
+string KDSW_FinalizationTriggerName(const KDSW_FINALIZATION_TRIGGER value)
+{
+   if(value == KDSW_TRIGGER_DECLARED_TEST_BOUNDARY)  return "DECLARED_TEST_BOUNDARY";
+   if(value == KDSW_TRIGGER_NORMAL_DEINITIALIZATION) return "NORMAL_DEINITIALIZATION";
+   if(value == KDSW_TRIGGER_MANUAL_STOP)            return "MANUAL_STOP";
+   if(value == KDSW_TRIGGER_TESTER_TERMINATION)     return "TESTER_TERMINATION";
+   if(value == KDSW_TRIGGER_EXPLICIT_FINALIZE)      return "EXPLICIT_FINALIZE_CALL";
+   return "ERROR_PATH";
+}
+
+string KDSW_BoolName(const bool value)
+{
+   return value ? "TRUE" : "FALSE";
+}
+
+ulong KDSW_Fnv1aBytes(const uchar &data[], const int count)
+{
+   ulong hash = 1469598103934665603;
+   for(int i = 0; i < count; i++)
+   {
+      hash ^= (ulong)data[i];
+      hash *= 1099511628211;
+   }
+   return hash;
+}
+
+ulong KDSW_Fnv1aString(const string value)
+{
+   ulong hash = 1469598103934665603;
+   int length = StringLen(value);
+   for(int i = 0; i < length; i++)
+   {
+      ushort code = (ushort)StringGetCharacter(value, i);
+      hash ^= (ulong)(code & 0xFF);
+      hash *= 1099511628211;
+      hash ^= (ulong)((code >> 8) & 0xFF);
+      hash *= 1099511628211;
+   }
+   return hash;
+}
+
+string KDSW_HashName(const ulong value)
+{
+   return StringFormat("FNV1A64_%I64u", value);
+}
+
 //+------------------------------------------------------------------+
 //| Receipt logger                                                   |
 //+------------------------------------------------------------------+
@@ -106,13 +200,24 @@ class CKittDailySwingLogger
 {
 private:
    bool   m_enabled;
+   bool   m_finalizing;
+   bool   m_closed;
    int    m_frames;
    int    m_zones;
    int    m_events;
    int    m_receipt;
    string m_run_key;
    string m_invocation_id;
+   string m_experiment_id;
+   string m_run_instance_id;
+   string m_observer_build_root;
+   string m_configuration_root;
+   string m_finalization_contract_hash;
+   string m_root;
    ulong  m_sequence;
+   long   m_frame_rows;
+   long   m_zone_rows;
+   long   m_event_rows;
 
    string D(const double value)
    {
@@ -128,7 +233,12 @@ private:
       if(handle == INVALID_HANDLE)
          return false;
 
-      FileWriteString(handle, header + "\r\n");
+      int written = (int)FileWriteString(handle, header + "\r\n");
+      if(written <= 0)
+      {
+         CloseOne(handle);
+         return false;
+      }
       return true;
    }
 
@@ -142,66 +252,247 @@ private:
       handle = INVALID_HANDLE;
    }
 
+   void CloseDataHandles()
+   {
+      CloseOne(m_frames);
+      CloseOne(m_zones);
+      CloseOne(m_events);
+   }
+
+   bool AppendReceipt(const KDSW_RECEIPT_STATE state,
+                      const KDSW_RUN_OUTCOME outcome,
+                      const KDSW_FINALIZATION_TRIGGER trigger,
+                      const bool completion_predicate,
+                      const string manifest_hash,
+                      const bool manifest_verified,
+                      const long frames,
+                      const long zones,
+                      const long events,
+                      const string terminal_reason)
+   {
+      if(m_receipt == INVALID_HANDLE)
+         return false;
+
+      int written = (int)FileWrite(m_receipt,
+                              "KITT_RECEIPT_SCHEMA_V1",
+                              m_experiment_id,
+                              m_run_instance_id,
+                              KDSW_ReceiptStateName(state),
+                              KDSW_RunOutcomeName(outcome),
+                              KDSW_FinalizationTriggerName(trigger),
+                              KDSW_BoolName(completion_predicate),
+                              m_finalization_contract_hash,
+                              m_root + "manifest.tsv",
+                              manifest_hash,
+                              KDSW_BoolName(manifest_verified),
+                              frames,
+                              zones,
+                              events,
+                              terminal_reason);
+      return written > 0;
+   }
+
+   bool ReadArtifact(const string path,
+                     long &rows,
+                     long &bytes,
+                     string &hash)
+   {
+      rows = 0;
+      bytes = 0;
+      hash = "";
+      int handle = FileOpen(path,
+                            FILE_COMMON | FILE_READ | FILE_BIN |
+                            FILE_SHARE_READ | FILE_SHARE_WRITE);
+      if(handle == INVALID_HANDLE)
+         return false;
+
+      long size = (long)FileSize(handle);
+      if(size < 1 || size > 2147483000)
+      {
+         FileClose(handle);
+         return false;
+      }
+
+      uchar data[];
+      ArrayResize(data, (int)size);
+      int read = (int)FileReadArray(handle, data, 0, (int)size);
+      FileClose(handle);
+      if(read != (int)size)
+         return false;
+
+      for(int i = 0; i < read; i++)
+      {
+         if(data[i] == 10)
+            rows++;
+      }
+      if(rows < 1)
+         return false;
+
+      bytes = size;
+      hash = KDSW_HashName(KDSW_Fnv1aBytes(data, read));
+      rows--;
+      return true;
+   }
+
+   bool WriteManifest(const long frames,
+                      const long frame_bytes,
+                      const string frame_hash,
+                      const long zones,
+                      const long zone_bytes,
+                      const string zone_hash,
+                      const long events,
+                      const long event_bytes,
+                      const string event_hash,
+                      const KDSW_FINALIZATION_TRIGGER trigger,
+                      const bool completion_predicate,
+                      const KDSW_RUN_OUTCOME outcome)
+   {
+      string path = m_root + "manifest.tsv";
+      int handle = FileOpen(path,
+                            FILE_COMMON | FILE_WRITE | FILE_CSV | FILE_ANSI |
+                            FILE_SHARE_READ,
+                            '\t');
+      if(handle == INVALID_HANDLE)
+         return false;
+
+      int header_written = (int)FileWriteString(handle,
+         "manifest_schema_version\texperiment_id\trun_instance_id\trun_key\tobserver_build_root\tconfiguration_root\tfinalization_contract_hash\tframes_schema_version\tframes_row_count\tframes_byte_count\tframes_hash\tzones_schema_version\tzones_row_count\tzones_byte_count\tzones_hash\tevents_schema_version\tevents_row_count\tevents_byte_count\tevents_hash\treceipt_schema_version\tfinalization_trigger\tcompletion_predicate\trun_outcome\tbuffer_contract\r\n");
+      if(header_written <= 0)
+      {
+         CloseOne(handle);
+         return false;
+      }
+      int written = (int)FileWrite(handle,
+                              "KITT_MANIFEST_SCHEMA_V1",
+                              m_experiment_id,
+                              m_run_instance_id,
+                              m_run_key,
+                              m_observer_build_root,
+                              m_configuration_root,
+                              m_finalization_contract_hash,
+                              "KITT_FRAME_SCHEMA_V1", frames, frame_bytes, frame_hash,
+                              "KITT_ZONE_SCHEMA_V1", zones, zone_bytes, zone_hash,
+                              "KITT_EVENT_SCHEMA_V1", events, event_bytes, event_hash,
+                              "KITT_RECEIPT_SCHEMA_V1",
+                              KDSW_FinalizationTriggerName(trigger),
+                              KDSW_BoolName(completion_predicate),
+                              KDSW_RunOutcomeName(outcome),
+                              "NONE");
+      FileFlush(handle);
+      FileClose(handle);
+      return written > 0;
+   }
+
 public:
    CKittDailySwingLogger()
    {
       m_enabled = false;
+      m_finalizing = false;
+      m_closed = false;
       m_frames = INVALID_HANDLE;
       m_zones = INVALID_HANDLE;
       m_events = INVALID_HANDLE;
       m_receipt = INVALID_HANDLE;
       m_run_key = "";
       m_invocation_id = "";
+      m_experiment_id = "";
+      m_run_instance_id = "";
+      m_observer_build_root = "";
+      m_configuration_root = "";
+      m_finalization_contract_hash = "";
+      m_root = "";
       m_sequence = 0;
+      m_frame_rows = 0;
+      m_zone_rows = 0;
+      m_event_rows = 0;
    }
 
    bool Init(const bool enabled,
              const string run_key,
-             const string invocation_id)
+             const string invocation_id,
+             const string experiment_id,
+             const string run_instance_id,
+             const string observer_build_root,
+             const string configuration_root,
+             const string finalization_contract_hash)
    {
-      Close();
+      CloseDataHandles();
+      CloseOne(m_receipt);
       m_enabled = enabled;
+      m_finalizing = false;
+      m_closed = false;
       m_run_key = (StringLen(run_key) > 0) ? run_key : "KITT_DAILY_SWING";
       m_invocation_id = (StringLen(invocation_id) > 0) ? invocation_id : "AUTO";
+      m_experiment_id = (StringLen(experiment_id) > 0) ? experiment_id : "KITT_DAILY_SWING_EXPERIMENT_V1";
+      if(StringLen(run_instance_id) > 0 && run_instance_id != "AUTO")
+         m_run_instance_id = run_instance_id;
+      else
+         m_run_instance_id = StringFormat("AUTO_%I64d_%u", (long)TimeLocal(), GetTickCount());
+      m_observer_build_root = (StringLen(observer_build_root) > 0) ? observer_build_root : "KITT_DAILY_SWING_BUILD_V1";
+      m_configuration_root = (StringLen(configuration_root) > 0) ? configuration_root : "KITT_DAILY_SWING_CONFIG_V1";
+      m_finalization_contract_hash = (StringLen(finalization_contract_hash) > 0) ? finalization_contract_hash : "UNDECLARED";
+      m_root = "KittDailySwingState\\" + m_run_key + "\\";
       m_sequence = 0;
+      m_frame_rows = 0;
+      m_zone_rows = 0;
+      m_event_rows = 0;
 
       if(!m_enabled)
          return true;
 
-      string root = "KittDailySwingState\\" + m_run_key + "\\";
       FolderCreate("KittDailySwingState", FILE_COMMON);
       FolderCreate("KittDailySwingState\\" + m_run_key, FILE_COMMON);
 
-      if(!OpenOne(m_frames, root + "frames.tsv",
-         "contract\trun_key\tinvocation_id\tsequence\tmarket_time\tcurrent_day_start\tcurrent_bar_time\tupdate_count\tvalid_zone_count"))
+      // A run key is a physical namespace.  Never truncate an existing
+      // receipt or silently turn an orphan into a new run.
+      if(FileIsExist(m_root + "receipt.tsv", FILE_COMMON)
+         || FileIsExist(m_root + "manifest.tsv", FILE_COMMON)
+         || FileIsExist(m_root + "frames.tsv", FILE_COMMON)
+         || FileIsExist(m_root + "zones.tsv", FILE_COMMON)
+         || FileIsExist(m_root + "events.tsv", FILE_COMMON))
       {
-         Close();
+         m_enabled = false;
          return false;
       }
 
-      if(!OpenOne(m_zones, root + "zones.tsv",
-         "contract\trun_key\tsequence\tordinal\tlocal_id\tsymbol\ttimeframe\tday_age\tside\tstate\tday_start\tsource_time\tzone_low\tzone_high\textreme_price\ttouches\trejections\tfirst_touch_time\tlast_touch_time\tlast_touch_bar_time\tlast_rejection_bar_time\tbreak_time"))
+      if(!OpenOne(m_frames, m_root + "frames.tsv",
+         "schema_version\texperiment_id\trun_instance_id\trun_key\tinvocation_id\tsequence\tmarket_time\tcurrent_day_start\tcurrent_bar_time\tupdate_count\tvalid_zone_count"))
       {
-         Close();
+         CloseDataHandles();
          return false;
       }
 
-      if(!OpenOne(m_events, root + "events.tsv",
-         "contract\trun_key\tinvocation_id\tsequence\tordinal\tevent\tlocal_id\tmarket_time\tbar_time\tprevious_state\tstate\tprevious_touches\ttouches\tprevious_rejections\trejections\tsource_time"))
+      if(!OpenOne(m_zones, m_root + "zones.tsv",
+         "schema_version\texperiment_id\trun_instance_id\trun_key\tsequence\tordinal\tlocal_id\tsymbol\ttimeframe\tday_age\tside\tstate\tday_start\tsource_time\tzone_low\tzone_high\textreme_price\ttouches\trejections\tfirst_touch_time\tlast_touch_time\tlast_touch_bar_time\tlast_rejection_bar_time\tbreak_time"))
       {
-         Close();
+         CloseDataHandles();
          return false;
       }
 
-      if(!OpenOne(m_receipt, root + "receipt.tsv",
-         "contract\trun_key\tinvocation_id\tstatus\tterminal_reason"))
+      if(!OpenOne(m_events, m_root + "events.tsv",
+         "schema_version\texperiment_id\trun_instance_id\trun_key\tinvocation_id\tsequence\tordinal\tevent\tlocal_id\tmarket_time\tbar_time\tprevious_state\tstate\tprevious_touches\ttouches\tprevious_rejections\trejections\tsource_time"))
       {
-         Close();
+         CloseDataHandles();
          return false;
       }
 
-      FileWrite(m_receipt, "KITT_DAILY_SWING_RECEIPT_V1", m_run_key,
-                m_invocation_id, "OPEN", "LOGGER_INITIALIZED");
+      if(!OpenOne(m_receipt, m_root + "receipt.tsv",
+         "receipt_schema_version\texperiment_id\trun_instance_id\treceipt_state\trun_outcome\tfinalization_trigger\tcompletion_predicate\tfinalization_contract_hash\tmanifest_path\tmanifest_hash\tmanifest_verified\tframes_row_count\tzones_row_count\tevents_row_count\tterminal_reason"))
+      {
+         CloseDataHandles();
+         return false;
+      }
+
+      if(!AppendReceipt(KDSW_RECEIPT_OPEN,
+                        KDSW_OUTCOME_NOT_EVALUABLE,
+                        KDSW_TRIGGER_EXPLICIT_FINALIZE,
+                        false, "", false, 0, 0, 0,
+                        "LOGGER_INITIALIZED"))
+      {
+         CloseDataHandles();
+         CloseOne(m_receipt);
+         return false;
+      }
       return true;
    }
 
@@ -218,14 +509,16 @@ public:
 
    ulong WriteFrame(const KDSW_READING &reading)
    {
-      if(!m_enabled)
+      if(!m_enabled || m_finalizing || m_closed || m_frames == INVALID_HANDLE)
          return 0;
 
       ulong sequence = NextSequence();
-      FileWrite(m_frames, "KITT_DAILY_SWING_FRAME_V1", m_run_key,
-                m_invocation_id, sequence, (long)reading.market_time,
+      FileWrite(m_frames, "KITT_FRAME_SCHEMA_V1", m_experiment_id,
+                m_run_instance_id, m_run_key, m_invocation_id, sequence,
+                (long)reading.market_time,
                 (long)reading.current_day_start, (long)reading.current_bar_time,
                 reading.update_count, reading.valid_zone_count);
+      m_frame_rows++;
       return sequence;
    }
 
@@ -235,10 +528,11 @@ public:
                   const string symbol,
                   const ENUM_TIMEFRAMES timeframe)
    {
-      if(!m_enabled || !zone.valid)
+      if(!m_enabled || m_finalizing || m_closed || m_zones == INVALID_HANDLE || !zone.valid)
          return;
 
-      FileWrite(m_zones, "KITT_DAILY_SWING_ZONE_V1", m_run_key, sequence,
+      FileWrite(m_zones, "KITT_ZONE_SCHEMA_V1", m_experiment_id,
+                m_run_instance_id, m_run_key, sequence,
                 ordinal, KDSW_LocalId(zone.day_start, zone.side), symbol,
                 (int)timeframe, zone.day_age, KDSW_SideName(zone.side),
                 KDSW_StateName(zone.state), (long)zone.day_start,
@@ -247,6 +541,7 @@ public:
                 (long)zone.first_touch_time, (long)zone.last_touch_time,
                 (long)zone.last_touch_bar_time,
                 (long)zone.last_rejection_bar_time, (long)zone.break_time);
+      m_zone_rows++;
    }
 
    void WriteEvent(const ulong sequence,
@@ -257,10 +552,11 @@ public:
                    const datetime market_time,
                    const datetime bar_time)
    {
-      if(!m_enabled || !current.valid)
+      if(!m_enabled || m_finalizing || m_closed || m_events == INVALID_HANDLE || !current.valid)
          return;
 
-      FileWrite(m_events, "KITT_DAILY_SWING_EVENT_V1", m_run_key,
+      FileWrite(m_events, "KITT_EVENT_SCHEMA_V1", m_experiment_id,
+                m_run_instance_id, m_run_key,
                 m_invocation_id, sequence, ordinal, event_name,
                 KDSW_LocalId(current.day_start, current.side),
                 (long)market_time, (long)bar_time,
@@ -269,24 +565,104 @@ public:
                 previous.valid ? previous.touches : 0, current.touches,
                 previous.valid ? previous.rejections : 0, current.rejections,
                 (long)current.source_time);
+      m_event_rows++;
    }
 
-   void Close()
+   bool Finalize(const KDSW_FINALIZATION_TRIGGER trigger,
+                 const KDSW_RUN_OUTCOME outcome,
+                 const bool completion_predicate,
+                 const string terminal_reason)
    {
-      if(m_enabled && m_receipt != INVALID_HANDLE)
-         FileWrite(m_receipt, "KITT_DAILY_SWING_RECEIPT_V1", m_run_key,
-                   m_invocation_id, "CLOSED", "OWNER_DEINITIALIZED");
+      if(m_closed)
+         return true;
+      if(!m_enabled)
+         return false;
+      if(m_finalizing)
+         return false;
 
-      CloseOne(m_frames);
-      CloseOne(m_zones);
-      CloseOne(m_events);
+      m_finalizing = true;
+      if(!AppendReceipt(KDSW_RECEIPT_FINALIZING, outcome, trigger,
+                        completion_predicate, "", false,
+                        m_frame_rows, m_zone_rows, m_event_rows,
+                        "FINALIZATION_STARTED"))
+      {
+         m_finalizing = false;
+         return false;
+      }
+      FileFlush(m_receipt);
+      CloseDataHandles();
+
+      long frames = 0, frame_bytes = 0;
+      long zones = 0, zone_bytes = 0;
+      long events = 0, event_bytes = 0;
+      string frame_hash = "", zone_hash = "", event_hash = "";
+      bool verified = ReadArtifact(m_root + "frames.tsv", frames, frame_bytes, frame_hash)
+                  && ReadArtifact(m_root + "zones.tsv", zones, zone_bytes, zone_hash)
+                  && ReadArtifact(m_root + "events.tsv", events, event_bytes, event_hash)
+                  && frames == m_frame_rows
+                  && zones == m_zone_rows
+                  && events == m_event_rows;
+
+      if(!verified || !WriteManifest(frames, frame_bytes, frame_hash,
+                                     zones, zone_bytes, zone_hash,
+                                     events, event_bytes, event_hash,
+                                     trigger, completion_predicate, outcome))
+      {
+         AppendReceipt(KDSW_RECEIPT_FINALIZING, KDSW_OUTCOME_WRITE_FAILURE,
+                       KDSW_TRIGGER_ERROR_PATH, false, "", false,
+                       frames, zones, events, "MANIFEST_OR_ARTIFACT_VERIFICATION_FAILED");
+         FileFlush(m_receipt);
+         CloseOne(m_receipt);
+         m_enabled = false;
+         m_finalizing = false;
+         return false;
+      }
+
+      long manifest_rows = 0, manifest_bytes = 0;
+      string manifest_hash = "";
+      if(!ReadArtifact(m_root + "manifest.tsv", manifest_rows,
+                       manifest_bytes, manifest_hash) || manifest_rows != 1)
+      {
+         AppendReceipt(KDSW_RECEIPT_FINALIZING, KDSW_OUTCOME_WRITE_FAILURE,
+                       KDSW_TRIGGER_ERROR_PATH, false, "", false,
+                       frames, zones, events, "MANIFEST_SELF_VERIFICATION_FAILED");
+         FileFlush(m_receipt);
+         CloseOne(m_receipt);
+         m_enabled = false;
+         m_finalizing = false;
+         return false;
+      }
+
+      bool closed = AppendReceipt(KDSW_RECEIPT_CLOSED, outcome, trigger,
+                                  completion_predicate, manifest_hash, true,
+                                  frames, zones, events, terminal_reason);
+      if(closed)
+         FileFlush(m_receipt);
       CloseOne(m_receipt);
       m_enabled = false;
+      m_finalizing = false;
+      m_closed = closed;
+      return closed;
+   }
+
+   bool Close()
+   {
+      if(m_closed)
+         return true;
+      if(!m_enabled)
+      {
+         CloseDataHandles();
+         CloseOne(m_receipt);
+         return false;
+      }
+      return Finalize(KDSW_TRIGGER_NORMAL_DEINITIALIZATION,
+                      KDSW_OUTCOME_STOPPED_EARLY, false,
+                      "NORMAL_DEINITIALIZATION");
    }
 
    void Flush()
    {
-      if(!m_enabled)
+      if(!m_enabled || m_finalizing || m_closed)
          return;
 
       FileFlush(m_frames);

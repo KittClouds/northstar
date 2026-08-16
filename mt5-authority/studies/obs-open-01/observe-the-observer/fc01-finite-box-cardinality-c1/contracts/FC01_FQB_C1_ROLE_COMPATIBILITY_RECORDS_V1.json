@@ -1,0 +1,65 @@
+{
+  "schema": "FC01_FQB_C1_ROLE_COMPATIBILITY_RECORDS_V1",
+  "status": "SEALED_PROSPECTIVE_ROLE_COMPATIBILITY_CLASSIFICATION",
+  "parameter_class": "BOX_CARDINALITY",
+  "historical_role": "NOT_IDENTIFIED",
+  "records": [
+    {
+      "candidate_role": "PRIMITIVE_EXTENT",
+      "result": "ADMISSIBLE_DESCENDANT_ROLE_CLASS",
+      "semantic_effect": "BOUNDED_DOMAIN_EXTENT_ONLY",
+      "g5_effect": "NONE",
+      "g6_effect": "NONE",
+      "g7_effect": "NONE",
+      "g8_effect": "NONE_IF_EXPLICITLY_BOUND_IN_DESCENDANT_SPEC",
+      "coverage_effect": "DECLARED_DOMAIN_SCOPE_ONLY",
+      "selection": "NONE",
+      "value": "NONE",
+      "required_follow_on": "PROSPECTIVE_ROLE_SELECTION_AUTHORITY"
+    },
+    {
+      "candidate_role": "CONTRACT_AUTHORIZED_MECHANICAL_DERIVATION",
+      "result": "SEMANTIC_AUTHORITY_REQUIRED",
+      "semantic_effect": "DERIVATION_MEANING_NOT_CURRENTLY_BOUND",
+      "g5_effect": "NOT_ESTABLISHED",
+      "g6_effect": "NOT_ESTABLISHED",
+      "g7_effect": "NOT_ESTABLISHED",
+      "g8_effect": "NOT_ESTABLISHED",
+      "coverage_effect": "NOT_ESTABLISHED",
+      "selection": "NONE",
+      "value": "NONE",
+      "required_follow_on": "EXPLICIT_DERIVATION_ROLE_AUTHORITY"
+    },
+    {
+      "candidate_role": "DERIVED_RECEIPT_METADATA",
+      "result": "ADMISSIBLE_DESCENDANT_ROLE_CLASS",
+      "semantic_effect": "RECEIPT_METADATA_ONLY",
+      "g5_effect": "NONE",
+      "g6_effect": "NONE",
+      "g7_effect": "NONE",
+      "g8_effect": "NONE_IF_NOT_USED_AS_UNDECLARED_VERIFIER_INPUT",
+      "coverage_effect": "REPORTING_ONLY",
+      "selection": "NONE",
+      "value": "NONE",
+      "required_follow_on": "PROSPECTIVE_ROLE_SELECTION_AUTHORITY"
+    },
+    {
+      "candidate_role": "CONTRACT_FIXED_VALUE",
+      "result": "SEMANTIC_AUTHORITY_REQUIRED",
+      "semantic_effect": "FIXED_CARDINALITY_MEANING_NOT_CURRENTLY_BOUND",
+      "g5_effect": "NOT_ESTABLISHED",
+      "g6_effect": "NOT_ESTABLISHED",
+      "g7_effect": "NOT_ESTABLISHED",
+      "g8_effect": "NOT_ESTABLISHED",
+      "coverage_effect": "NOT_ESTABLISHED",
+      "selection": "NONE",
+      "value": "NONE",
+      "required_follow_on": "DESCENDANT_SPECIFICATION_AUTHORITY"
+    }
+  ],
+  "admissible_descendant_role_classes": ["PRIMITIVE_EXTENT", "DERIVED_RECEIPT_METADATA"],
+  "role_selected": "NONE",
+  "values_selected": 0,
+  "values_derived": 0,
+  "finite_box_instance": "NONE"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "FINITE_QUESTION_BOX_PRIMITIVE_EXTENT_SELECTION_AUTHORITY_V1",
+  "status": "NEW_RESTRICTED_DESCENDANT_AUTHORITY",
+  "authority_parent": "34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9",
+  "compatibility_parent": "170D4660A0EF6E7C02104754034C7202E432200CAE4D6B6896B0367E90FDDA8A",
+  "authorized_parameter_classes": ["TOKEN_LENGTH_BOUND", "MAX_TOKEN_WORD_LENGTH", "HORIZON_BOUND", "INTEGER_BOUND"],
+  "may_select_member_of_sealed_domain": true,
+  "may_select_preobservation_finite_extents": true,
+  "may_change_domain": false,
+  "may_change_parameter_semantics": false,
+  "may_declare_sufficiency": false,
+  "may_declare_optimality": false,
+  "may_declare_exhaustiveness": false,
+  "may_declare_minimality": false,
+  "may_read_population": false,
+  "may_read_results": false,
+  "values_selected": 0,
+  "design_vector": "NONE",
+  "scope": "PREOBSERVATION_EXPERIMENTAL_EXTENT_SELECTION_ONLY"
+}

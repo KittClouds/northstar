@@ -1,0 +1,12 @@
+{
+  "schema": "KAMMI_FQB_G1_RECEIPT_V1",
+  "status": "PASS_GRANT_BOUNDARY_CLOSED",
+  "checks": {
+    "exact_four_parameter_scope": true,
+    "domain_mutation_forbidden": true,
+    "semantic_mutation_forbidden": true,
+    "claims_forbidden": true,
+    "values_zero": true,
+    "population_closed": true
+  }
+}

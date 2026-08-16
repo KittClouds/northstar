@@ -1,0 +1,13 @@
+{
+  "schema": "FC01_FQB_C1_RECEIPT_V1",
+  "status": "MULTIPLE_ADMISSIBLE_DESCENDANT_ROLE_CLASSES",
+  "gate": "FC01-FQB-C1",
+  "historical_role": "NOT_IDENTIFIED",
+  "admissible_descendant_role_classes": ["PRIMITIVE_EXTENT", "DERIVED_RECEIPT_METADATA"],
+  "role_selected": "NONE",
+  "values_selected": 0,
+  "values_derived": 0,
+  "finite_box_instance": "NONE",
+  "next_branch": "PROSPECTIVE_ROLE_SELECTION_AUTHORITY_REQUIRED",
+  "nonclaims": ["HISTORICAL_ROLE", "CARDINALITY_VALUE", "DERIVATION_AUTHORITY", "ROLE_SELECTION_AUTHORITY"]
+}

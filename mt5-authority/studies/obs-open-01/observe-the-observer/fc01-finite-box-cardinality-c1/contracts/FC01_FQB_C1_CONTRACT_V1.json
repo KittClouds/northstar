@@ -1,0 +1,46 @@
+{
+  "schema": "FC01_FQB_C1_CONTRACT_V1",
+  "gate": "FC01-FQB-C1",
+  "status": "LIVE_PROSPECTIVE_CARDINALITY_ROLE_NONINTERFERENCE",
+  "question": "Which prospective role classes could a new descendant finite-box specification assign to BOX_CARDINALITY without changing already-earned G5, G6, G7, G8, coverage, canonical-token, or proof semantics?",
+  "parent_c0_root": "AD1F523769606973E53FB8399ECB31D64DCEAD427BC9311DCD8C3EFF6214693C",
+  "g0_sibling_root": "170D4660A0EF6E7C02104754034C7202E432200CAE4D6B6896B0367E90FDDA8A",
+  "finite_box_spec_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "g8_requirement_ledger_root": "725C9FFACE4D5DC56839FC0A4C9A354110A4A581143F8C64D737E710EF33F79E",
+  "candidate_role_classes": [
+    "PRIMITIVE_EXTENT",
+    "CONTRACT_AUTHORIZED_MECHANICAL_DERIVATION",
+    "DERIVED_RECEIPT_METADATA",
+    "CONTRACT_FIXED_VALUE"
+  ],
+  "historical_role_recovery": "FORBIDDEN",
+  "required_firewalls": [
+    "G5_TOKEN_MEANING",
+    "G5_CONTINUATION_GRAMMAR",
+    "G6_RELATION_AND_FIBER_SEMANTICS",
+    "G7_FORMAL_ANALYSIS_BOUNDARY",
+    "G8_BOUNDED_EXHAUSTION_SEMANTICS",
+    "G8_SEPARATOR_SEMANTICS",
+    "COVERAGE_SEMANTICS",
+    "CANONICAL_TOKEN_IDENTITY",
+    "PROOF_SEMANTICS"
+  ],
+  "values_selected": 0,
+  "values_derived": 0,
+  "role_selected": "NONE",
+  "finite_box_instance": "NONE",
+  "population_access": 0,
+  "forbidden_operations": [
+    "RECOVER_HISTORICAL_ROLE",
+    "SELECT_ROLE",
+    "SELECT_CARDINALITY",
+    "DERIVE_CARDINALITY",
+    "ISSUE_ROLE_SELECTION_AUTHORITY",
+    "REWRITE_G5_G6_G7_G8",
+    "BIND_FINITE_BOX",
+    "INVOKE_G8",
+    "READ_POPULATION",
+    "READ_RESULTS"
+  ],
+  "nonclaims": ["HISTORICAL_CARDINALITY_ROLE", "CARDINALITY_VALUE", "ROLE_SELECTION_AUTHORITY", "FINITE_BOX_INSTANCE"]
+}

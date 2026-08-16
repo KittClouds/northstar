@@ -1,0 +1,12 @@
+{
+  "schema": "KAMMI_FQB_C1_RECEIPT_V1",
+  "status": "PASS_ROLE_FIREWALLS_CLOSED",
+  "checks": {
+    "historical_recovery_forbidden": true,
+    "candidate_roles_tested_independently": true,
+    "multiple_roles_not_silently_selected": true,
+    "g5_g6_g7_g8_firewall": true,
+    "values_zero": true,
+    "population_closed": true
+  }
+}

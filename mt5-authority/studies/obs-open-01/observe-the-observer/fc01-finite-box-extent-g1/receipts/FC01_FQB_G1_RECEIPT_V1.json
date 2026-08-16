@@ -1,0 +1,12 @@
+{
+  "schema": "FC01_FQB_G1_RECEIPT_V1",
+  "status": "PRIMITIVE_EXTENT_SELECTION_AUTHORITY_CREATED",
+  "gate": "FC01-FQB-G1",
+  "grant": "FINITE_QUESTION_BOX_PRIMITIVE_EXTENT_SELECTION_AUTHORITY_V1",
+  "authorized_parameter_classes": ["TOKEN_LENGTH_BOUND", "MAX_TOKEN_WORD_LENGTH", "HORIZON_BOUND", "INTEGER_BOUND"],
+  "values_selected": 0,
+  "design_vector": "NONE",
+  "finite_box_instance": "NONE",
+  "population_access": 0,
+  "next_branch": "WAIT_FOR_C1_BEFORE_VALUE_VECTOR"
+}

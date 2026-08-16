@@ -1,0 +1,13 @@
+{
+  "schema": "KAGE_FQB_G1_RECEIPT_V1",
+  "status": "GRANT_CREATED_WITH_RESTRICTIONS",
+  "governance_parent": "NS-GOV-ROOT_V1",
+  "compatibility_parent": "FC01-FQB-G0",
+  "grant_consumable": true,
+  "values_selected": 0,
+  "design_vector": "NONE",
+  "finite_box_instance": "NONE",
+  "sibling_frontier": "FC01-FQB-C1",
+  "root_relation": "INCOMPARABLE_NOT_ESTABLISHED",
+  "population_reads": 0
+}

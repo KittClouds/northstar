@@ -1,0 +1,43 @@
+{
+  "schema": "FC01_FQB_G1_CONTRACT_V1",
+  "gate": "FC01-FQB-G1",
+  "status": "LIVE_PROSPECTIVE_SELECTION_AUTHORITY_CONSTITUTION",
+  "question": "May NS-GOV-ROOT_V1 issue restricted pre-observation experimental-extent selection authority for exactly the four G0-qualified primitive extents?",
+  "parent_g0_root": "170D4660A0EF6E7C02104754034C7202E432200CAE4D6B6896B0367E90FDDA8A",
+  "ns_gov_root": "34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9",
+  "scope": ["TOKEN_LENGTH_BOUND", "MAX_TOKEN_WORD_LENGTH", "HORIZON_BOUND", "INTEGER_BOUND"],
+  "grant_artifact": "FINITE_QUESTION_BOX_PRIMITIVE_EXTENT_SELECTION_AUTHORITY_V1",
+  "grant_powers": {
+    "may_select_member_of_sealed_domain": true,
+    "may_select_preobservation_finite_extent": true,
+    "may_change_domain": false,
+    "may_change_parameter_semantics": false,
+    "may_change_g5_semantics": false,
+    "may_change_g6_semantics": false,
+    "may_change_g8_semantics": false,
+    "may_change_proof_semantics": false,
+    "may_declare_sufficiency": false,
+    "may_declare_optimality": false,
+    "may_declare_exhaustiveness": false,
+    "may_declare_minimality": false,
+    "may_read_population": false,
+    "may_read_results": false
+  },
+  "values_selected": 0,
+  "design_vector": "NONE",
+  "finite_box_instance": "NONE",
+  "population_access": 0,
+  "forbidden_operations": [
+    "SELECT_VALUE_NOW",
+    "ASSEMBLE_DESIGN_VECTOR",
+    "CHANGE_SEALED_DOMAIN",
+    "REINTERPRET_PARAMETER",
+    "READ_POPULATION",
+    "READ_RESULTS",
+    "REALIZE_TOKENS",
+    "CONSTRUCT_PAIRS",
+    "CONSTRUCT_FIBERS",
+    "INVOKE_G8"
+  ],
+  "nonclaims": ["PARAMETER_VALUES", "FINITE_BOX_INSTANCE", "SCIENTIFIC_SUFFICIENCY", "OPTIMALITY", "EXHAUSTIVENESS"]
+}

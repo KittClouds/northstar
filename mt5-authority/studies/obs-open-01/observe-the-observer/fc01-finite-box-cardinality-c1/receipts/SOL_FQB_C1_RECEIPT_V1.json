@@ -1,0 +1,10 @@
+{
+  "schema": "SOL_FQB_C1_RECEIPT_V1",
+  "status": "PASS_PROSPECTIVE_ROLE_COMPATIBILITY",
+  "historical_role_preserved": "NOT_IDENTIFIED",
+  "admissible_descendant_role_classes": ["PRIMITIVE_EXTENT", "DERIVED_RECEIPT_METADATA"],
+  "role_selected": "NONE",
+  "values_selected": 0,
+  "values_derived": 0,
+  "population_reads": 0
+}

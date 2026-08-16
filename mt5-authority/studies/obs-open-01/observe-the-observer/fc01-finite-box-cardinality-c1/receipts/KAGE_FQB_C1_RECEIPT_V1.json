@@ -1,0 +1,13 @@
+{
+  "schema": "KAGE_FQB_C1_RECEIPT_V1",
+  "status": "COMPLETE_MULTIPLE_ADMISSIBLE_ROLES",
+  "historical_role": "NOT_IDENTIFIED",
+  "admissible_descendant_role_classes": ["PRIMITIVE_EXTENT", "DERIVED_RECEIPT_METADATA"],
+  "role_selected": "NONE",
+  "values_selected": 0,
+  "values_derived": 0,
+  "finite_box_instance": "NONE",
+  "sibling_frontier": "FC01-FQB-G1",
+  "root_relation": "INCOMPARABLE_NOT_ESTABLISHED",
+  "population_reads": 0
+}

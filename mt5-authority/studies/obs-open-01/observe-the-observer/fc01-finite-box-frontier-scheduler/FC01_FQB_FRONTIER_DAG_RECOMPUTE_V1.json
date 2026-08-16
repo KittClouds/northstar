@@ -1,0 +1,25 @@
+{
+  "schema": "FC01_FQB_FRONTIER_DAG_RECOMPUTE_V1",
+  "status": "SEALED_ROOTS_COMPUTED_SCHEDULER_SELECTION",
+  "parent_frontier": "FC01-FQB-G0_AND_FC01-FQB-C0",
+  "scheduler_constitution_root": "0AD2135C4297B34C10BF9D096D6C9EC14996F3B059ABA657CCDF2CF1BC2F4A7E",
+  "candidate_roots": ["FC01-FQB-G1", "FC01-FQB-C1"],
+  "eligible_unscheduled_roots": ["FC01-FQB-G1", "FC01-FQB-C1"],
+  "root_relation": "INCOMPARABLE_NOT_ESTABLISHED",
+  "selected_root": "FC01-FQB-C1",
+  "selection_basis": "LEXICOGRAPHIC_CANONICAL_GATE_ID_ONLY",
+  "scientific_meaning": "NONE",
+  "execution_authorized_by_this_receipt": false,
+  "values_selected": 0,
+  "values_derived": 0,
+  "finite_box_instance": "NONE",
+  "population_reads": 0,
+  "nonclaims": [
+    "C1_SCIENTIFIC_PRECEDENCE",
+    "G1_SCIENTIFIC_PRECEDENCE",
+    "CARDINALITY_ROLE_SELECTED",
+    "PARAMETER_VALUES",
+    "FINITE_BOX_INSTANCE",
+    "TOKEN_REALIZATION"
+  ]
+}

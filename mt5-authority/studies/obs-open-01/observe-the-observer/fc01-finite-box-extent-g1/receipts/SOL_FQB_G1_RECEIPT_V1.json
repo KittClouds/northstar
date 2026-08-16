@@ -1,0 +1,9 @@
+{
+  "schema": "SOL_FQB_G1_RECEIPT_V1",
+  "status": "PASS_NEW_RESTRICTED_GRANT",
+  "grant": "FINITE_QUESTION_BOX_PRIMITIVE_EXTENT_SELECTION_AUTHORITY_V1",
+  "scope_exact": true,
+  "historical_relabeling": false,
+  "values_selected": 0,
+  "population_reads": 0
+}

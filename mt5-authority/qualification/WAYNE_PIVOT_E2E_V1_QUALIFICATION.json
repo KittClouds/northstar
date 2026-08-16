@@ -1,0 +1,85 @@
+{
+  "schema": "WAYNE_PIVOT_E2E_QUALIFICATION_V1",
+  "artifact_id": "WAYNE_PIVOT_E2E_V1",
+  "status": "QUALIFIED_WITHIN_DECLARED_TEST_SCOPE",
+  "qualified_at": "2026-08-16",
+  "authority": {
+    "indicator": "mt5-authority/WaynePivotStateMachine.mq5",
+    "core": "mt5-authority/WaynePivotStateMachineCore.mqh",
+    "fibots_present": false,
+    "mandatory_midpoints": ["M2", "M3", "M4", "M5"],
+    "zones": {
+      "lower": { "kind": "M1_S2_ZONE", "lower": "S2", "upper": "M1" },
+      "upper": { "kind": "M4_R2_ZONE", "lower": "M4", "upper": "R2" }
+    },
+    "original_waynes_pivots_standard_sha256": "2E28B7C32B4193499B8D5FC7D3E1C735FEB952206C2E3C85AA18F281A8FB22B0",
+    "original_waynes_pivots_trading_com_sha256": "2E28B7C32B4193499B8D5FC7D3E1C735FEB952206C2E3C85AA18F281A8FB22B0",
+    "master_controller_sha256": "227768519E0145679AA25A332418FD32B7F05A45BC8C99BCB75283377B33EF5D",
+    "trading_com_used": false
+  },
+  "source_hashes": {
+    "indicator_sha256": "916996E5C7DCF24F072AB08053EBED663861581A40ECB84600A13899097F2B83",
+    "core_sha256": "5DDD512F4F0B297DE70966A917FE66553176FADDC3A09797EC91D6C92D876C14",
+    "indicator_ex5_sha256": "85BCB9F53A80DFC91BA919B0DB79629A3326375105BB5F81116CB326EBF56C9D"
+  },
+  "compile": {
+    "compiler": "C:\\Program Files\\MetaTrader 5\\MetaEditor64.exe",
+    "indicator": { "errors": 0, "warnings": 0, "milliseconds": 1064 },
+    "core_tests": { "errors": 0, "warnings": 0, "milliseconds": 585 },
+    "buffer_probe": { "errors": 0, "warnings": 0, "milliseconds": 503 }
+  },
+  "tester": {
+    "terminal": "standard MetaTrader 5 portable tester",
+    "build": 6116,
+    "history_authority": "MetaQuotes-Demo cached history",
+    "symbol": "EURUSD",
+    "chart_timeframe": "M5",
+    "source_timeframe": "PERIOD_D1",
+    "source_timeframe_enum": 16408,
+    "model": "OHLC_BAR_STATES",
+    "from": "2026-04-01",
+    "to": "2026-04-05",
+    "bars": 864,
+    "ticks": 3311,
+    "runs": [
+      { "frames": 864, "levels": 12960, "zones": 1728, "events": 183, "seconds": 2.128, "root": "10745703185817818515" },
+      { "frames": 864, "levels": 12960, "zones": 1728, "events": 183, "seconds": 2.123, "root": "10745703185817818515" }
+    ],
+    "double_rebuild_identical": true,
+    "receipt_state": "CLOSED",
+    "finalization_reason": "DECLARED_TEST_BOUNDARY"
+  },
+  "core_fixture": {
+    "formula_ok": true,
+    "zone_geometry_ok": true,
+    "mandatory_ok": true,
+    "point_touch_accept_break_reclaim": true,
+    "lower_zone_touch_accept_break_reclaim": true,
+    "upper_zone_touch_accept_break_reclaim": true,
+    "outcome": "PASS"
+  },
+  "buffer_probe": {
+    "buffers": 17,
+    "bars": 864,
+    "copy_failures": 0,
+    "invalid_values": 0,
+    "zero_active": 0,
+    "minimum_active": 17,
+    "maximum_active": 17,
+    "mandatory_levels": ["PP", "M2", "M3", "M4", "M5"],
+    "mandatory_ok": true,
+    "zone_ok": true,
+    "outcome": "PASS"
+  },
+  "gaps": [
+    "LIVE_RUNTIME_EQUIVALENCE",
+    "UNIVERSAL_MT5_DETERMINISM",
+    "PERSISTENT_CROSS_RUN_STATE",
+    "CRYPTOGRAPHIC_TAMPER_RESISTANCE"
+  ],
+  "nonclaims": [
+    "PREDICTIVE_EDGE",
+    "FINANCIAL_EDGE",
+    "EXECUTION_AUTHORITY"
+  ]
+}

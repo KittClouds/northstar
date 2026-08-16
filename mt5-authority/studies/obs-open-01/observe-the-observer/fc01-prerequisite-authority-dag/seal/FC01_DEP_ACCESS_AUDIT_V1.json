@@ -1,0 +1,29 @@
+{
+  "schema": "FC01_DEP_ACCESS_AUDIT_V1",
+  "gate": "FC01-DEP",
+  "result": "PASS",
+  "counters": {
+    "REAL_04A_HISTORY_READS": 0,
+    "POPULATION_READS": 0,
+    "PAIR_CONSTRUCTION": 0,
+    "PAIR_READS": 0,
+    "TOKEN_REALIZATION": 0,
+    "FIBER_CONSTRUCTION": 0,
+    "CERTIFICATE_CONSTRUCTION": 0,
+    "G8_VERIFIER_INVOCATIONS": 0,
+    "EXPLORER_INVOCATIONS": 0,
+    "ARM_EXECUTIONS": 0,
+    "TARGET_READS": 0,
+    "OUTCOME_READS": 0,
+    "D_B_READS": 0,
+    "D_C_READS": 0,
+    "D_D_READS": 0
+  },
+  "allowed_inspections": [
+    "sealed_g5_g6_g7_g8_contracts",
+    "sealed_fc01_contracts",
+    "sealed_fc01a_and_fc01b_roots",
+    "lineage_metadata"
+  ],
+  "population_access": 0
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "FC01_GATE_PRODUCER_CONSUMER_MAP_V1",
+  "status": "MATERIALIZED_WITH_UNASSIGNED_PRODUCERS",
+  "entries": [
+    {
+      "gate_or_layer": "FC01A",
+      "role": "PRODUCER_AND_QUALIFIER",
+      "artifacts": ["FC01A_DOORWAY"],
+      "status": "CLOSED_WITH_RESTRICTIONS",
+      "consumers": ["FC01-DEP", "FC01B"],
+      "nonclaims": ["G8_INPUT_AUTHORITY", "FIBER_AUTHORITY"]
+    },
+    {
+      "gate_or_layer": "FC01B-A0",
+      "role": "BOUNDARY_MATERIALIZER",
+      "artifacts": ["G8_BOUNDARY", "G8_CALLABLE_DEPENDENCY_LEDGER"],
+      "status": "CLOSED_NOT_EVALUABLE_FOR_TRANSPORT",
+      "consumers": ["FC01-DEP", "FC01B"],
+      "nonclaims": ["G8_INVOCATION", "G8_VERDICT"]
+    },
+    {
+      "gate_or_layer": "G8",
+      "role": "SEMANTIC_OWNER_AND_VERIFIER_CONSUMER",
+      "artifacts": ["G8_BOUNDARY", "G8_AUTHORITY_BINDING", "G8_SEPARATOR_CERTIFICATE_SCHEMA", "G8_COVERAGE_RECEIPT_SCHEMA"],
+      "status": "SEALED_SYNTHETIC_SCOPE",
+      "consumers": ["FC01B"],
+      "nonclaims": ["04A_INSTANCE_PRODUCTION"]
+    },
+    {
+      "gate_or_layer": "G5",
+      "role": "SEMANTIC_OWNER",
+      "artifacts": ["G5_GRAMMAR_AUTHORITY", "G5_TOKEN_REALIZATION_CONTRACT"],
+      "status": "SEALED_WITH_TOKEN_INSTANCE_NOT_QUALIFIED",
+      "consumers": ["FC01C_CANDIDATE", "G8_VERIFY_SEPARATOR", "G8_VERIFY_BOUNDED_EXHAUSTION"],
+      "nonclaims": ["FC01C_IS_AUTHORIZED_PRODUCER"]
+    },
+    {
+      "gate_or_layer": "G6",
+      "role": "SEMANTIC_OWNER_OF_COMPARISON_AND_FIBER_RULES",
+      "artifacts": ["G6_FIBER_AUTHORITY", "G8_FROZEN_COMPARISON_PRIMITIVES"],
+      "status": "SEALED_CONTRACT_WITH_04A_INSTANCE_UNAVAILABLE",
+      "consumers": ["G8_VERIFY_SEPARATOR"],
+      "nonclaims": ["SCHEMA_MATCH_IS_FIBER_MEMBERSHIP"]
+    },
+    {
+      "gate_or_layer": "FC01C",
+      "role": "CANDIDATE_INSTANCE_PRODUCER",
+      "artifacts": ["FINITE_QUESTION_BOX_AUTHORITY", "G5_TOKEN_REALIZATION_INSTANCE"],
+      "status": "NOT_IDENTIFIED_AS_AUTHORIZED_PRODUCER",
+      "consumers": ["G8_VERIFY_SEPARATOR", "G8_VERIFY_BOUNDED_EXHAUSTION"],
+      "nonclaims": ["ROADMAP_POSITION_IS_AUTHORITY", "G8_DEMAND_GRANTS_G5_AUTHORITY"]
+    },
+    {
+      "gate_or_layer": "FC01D",
+      "role": "UNRESOLVED_CANDIDATE_LAYER",
+      "artifacts": ["BLIND_PARAMETER_RULE_BINDING"],
+      "status": "NO_SEALED_PRODUCER_ARTIFACT_FOUND",
+      "consumers": ["FC01C_CANDIDATE", "FC01E_CANDIDATE"],
+      "nonclaims": ["FC01D_IS_REQUIRED_BY_ACTIVE_G8_CALLABLES"]
+    },
+    {
+      "gate_or_layer": "FC01E",
+      "role": "UNRESOLVED_CANDIDATE_LAYER",
+      "artifacts": ["ARM_LOCAL_RELATIONS_AND_VERIFIER_BRIDGES"],
+      "status": "NO_SEALED_PRODUCER_ARTIFACT_FOUND",
+      "consumers": ["OPTIC_ARMS"],
+      "nonclaims": ["FC01E_IS_REQUIRED_BEFORE_FC01B_A0"]
+    }
+  ],
+  "anti_gravity_rule": "CONSUMER_REQUIREMENT_DOES_NOT_CREATE_PRODUCER_AUTHORITY",
+  "population_access": 0
+}

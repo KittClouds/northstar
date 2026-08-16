@@ -1,0 +1,25 @@
+{
+  "schema": "FC01_DEP_KAMMI_RECEIPT_V1",
+  "role": "KAMMI",
+  "result": "SCHEDULER_LAUNDERING_CHECK_PASS_WITH_UNRESOLVED_PRODUCERS",
+  "checks": {
+    "consumer_to_producer_laundering": "BLOCKED",
+    "constructor_to_invocation_laundering": "BLOCKED",
+    "schema_to_artifact_laundering": "BLOCKED",
+    "roadmap_order_to_dependency_laundering": "BLOCKED",
+    "similarity_to_fiber_laundering": "BLOCKED",
+    "helper_to_claim_authority_laundering": "BLOCKED",
+    "hidden_cycle_by_renaming": "NOT_FOUND_IN_DECLARED_EDGES",
+    "downstream_semantic_sculpting": "FORBIDDEN_AND_NOT_OBSERVED"
+  },
+  "required_holds": [
+    "FC01B_A0_REMAINS_NOT_EVALUABLE",
+    "FC01C_NOT_WOKEN",
+    "FC01D_NOT_WOKEN",
+    "FC01E_NOT_WOKEN",
+    "NO_G8_INVOCATION",
+    "NO_FIBER_CONSTRUCTION",
+    "NO_CERTIFICATE_CONSTRUCTION"
+  ],
+  "population_access": 0
+}

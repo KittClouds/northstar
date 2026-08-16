@@ -1,0 +1,29 @@
+{
+  "schema": "FC01_DEP_SOL_RECEIPT_V1",
+  "role": "SOL",
+  "result": "PARTIAL_POSITIVE_AUTHORITY_GRAPH",
+  "callable_selection": "verify_separator_and_verify_bounded_exhaustion_only",
+  "findings": {
+    "g8_callable_boundary_indexed": true,
+    "g8_active_callable_set_recovered": true,
+    "g8_inactive_callable_surfaces_preserved": true,
+    "fc01a_is_g8_04a_adapter": false,
+    "g8_04a_adapter_owner": "NOT_IDENTIFIED",
+    "token_contract_owner": "G5",
+    "token_instance_producer": "NOT_IDENTIFIED",
+    "fiber_semantic_owner": "G6",
+    "fiber_instance_producer": "NOT_IDENTIFIED_FOR_04A",
+    "frozen_comparison_owner": "NOT_IDENTIFIED_AS_SINGLE_OWNER",
+    "coverage_receipt_producer": "NOT_IDENTIFIED",
+    "dag_cycle": "NOT_FOUND",
+    "eligible_root_producers": []
+  },
+  "nonclaims": [
+    "FC01C_IS_AUTHORIZED_PRODUCER",
+    "FC01D_IS_REQUIRED_NEXT",
+    "FC01E_IS_REQUIRED_NEXT",
+    "G8_CONSUMER_DEMAND_GRANTS_UPSTREAM_AUTHORITY",
+    "FC01A_EQUALS_G8_04A_ADAPTER"
+  ],
+  "population_access": 0
+}

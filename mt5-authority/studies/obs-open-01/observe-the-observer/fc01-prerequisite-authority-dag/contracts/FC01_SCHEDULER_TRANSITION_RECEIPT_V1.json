@@ -1,0 +1,40 @@
+{
+  "schema": "FC01_SCHEDULER_TRANSITION_RECEIPT_V1",
+  "authority": "KAGE",
+  "transition": "FC01_DEP_EXECUTION",
+  "state_before": {
+    "FC01A": "CLOSED_WITH_RESTRICTIONS",
+    "FC01B_A0": "CLOSED_NOT_EVALUABLE",
+    "FC01_DEP": "LIVE",
+    "FC01C_PLUS": "FROZEN"
+  },
+  "state_after": {
+    "FC01A": "CLOSED_WITH_RESTRICTIONS",
+    "FC01B_A0": "CLOSED_NOT_EVALUABLE",
+    "FC01_DEP": "CLOSED_NOT_EVALUABLE",
+    "FC01B_A1": "FROZEN",
+    "FC01C_PLUS": "FROZEN",
+    "P1_P5": "BENCHED",
+    "P6": "BLOCKED",
+    "POPULATION": "UNOPENED",
+    "PAIRS": "NONE",
+    "TOKENS": "NONE"
+  },
+  "result": "NOT_EVALUABLE",
+  "eligible_root_producers": [],
+  "satisfied_artifact_roots": ["FC01A_DOORWAY", "G8_BOUNDARY", "G5_GRAMMAR_AUTHORITY", "G5_TOKEN_REALIZATION_CONTRACT", "G8_AUTHORITY_BINDING"],
+  "unresolved_authority_nodes": ["G8_04A_SEMANTIC_ADAPTER", "FINITE_QUESTION_BOX_AUTHORITY", "G5_TOKEN_REALIZATION_INSTANCE", "G6_FIBER_AUTHORITY", "G8_FROZEN_COMPARISON", "G8_SEPARATOR_CERTIFICATE", "G8_COVERAGE_RECEIPT"],
+  "cycle_status": "NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "next_gate_woken": "NONE",
+  "forbidden_transitions": [
+    "WAKE_FC01C",
+    "WAKE_FC01D",
+    "WAKE_FC01E",
+    "INVOKE_G8",
+    "CONSTRUCT_FIBER",
+    "CONSTRUCT_CERTIFICATE",
+    "REALIZE_TOKEN",
+    "OPEN_POPULATION"
+  ],
+  "population_access": 0
+}

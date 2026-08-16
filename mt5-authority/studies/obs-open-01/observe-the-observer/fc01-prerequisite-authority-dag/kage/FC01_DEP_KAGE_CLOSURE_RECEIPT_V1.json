@@ -1,0 +1,34 @@
+{
+  "schema": "FC01_DEP_KAGE_CLOSURE_RECEIPT_V1",
+  "gate": "FC01-DEP",
+  "authority_owner": "KAGE",
+  "question_status": "CLOSED",
+  "result": "NOT_EVALUABLE",
+  "graph_materialization": "PASS_WITH_UNRESOLVED_AUTHORITY_NODES",
+  "callable_selection": "PASS_FOR_DECLARED_ACTIVE_SET",
+  "ownership_ledger": "PASS_WITH_UNASSIGNED_PRODUCERS",
+  "cycle_detection": "PASS_NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "eligible_root_producers": [],
+  "satisfied_artifact_roots": ["FC01A_DOORWAY", "G8_BOUNDARY", "G5_GRAMMAR_AUTHORITY", "G5_TOKEN_REALIZATION_CONTRACT", "G8_AUTHORITY_BINDING"],
+  "unresolved_authority_nodes": ["G8_04A_SEMANTIC_ADAPTER", "FINITE_QUESTION_BOX_AUTHORITY", "G5_TOKEN_REALIZATION_INSTANCE", "G6_FIBER_AUTHORITY", "G8_FROZEN_COMPARISON", "G8_SEPARATOR_CERTIFICATE", "G8_COVERAGE_RECEIPT"],
+  "blocking_reasons": [
+    "INSTANCE_PRODUCERS_NOT_IDENTIFIED_FOR_REQUIRED_ARTIFACTS",
+    "TRANSPORT_OWNERS_NOT_IDENTIFIED",
+    "G8_04A_SEMANTIC_ADAPTER_NOT_QUALIFIED",
+    "NO_04A_FIBER_AUTHORITY_ARTIFACT",
+    "FINITE_QUESTION_BOX_BOUNDS_NOT_BOUND"
+  ],
+  "scheduler_action": "WAKE_NONE",
+  "nonclaims": [
+    "FC01C_IS_NEXT",
+    "FC01D_IS_NEXT",
+    "FC01E_IS_NEXT",
+    "G8_VERIFIER_INVOCATION",
+    "FIBER_MEMBERSHIP",
+    "CERTIFICATE_AUTHORITY",
+    "POPULATION_AUTHORITY"
+  ],
+  "population_access": 0,
+  "construction_activity": 0,
+  "verifier_invocations": 0
+}

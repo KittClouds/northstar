@@ -1,0 +1,80 @@
+{
+  "schema": "G8_CALLABLE_DEPENDENCY_LEDGER_V1",
+  "status": "CALLABLE_INDEXED_FROM_SEALED_FC01_CONTRACTS",
+  "g8_root": "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece",
+  "fc01a0_root": "F4EE856539627DA3078AB97F1093272C41619985A8CF64661A1795BD3F5B4B33",
+  "selection_rule": "FROZEN_FC01_SCHEMAS_ONLY",
+  "selection_status": "QUALIFIED_FOR_DECLARED_CAMPAIGN_SCOPE",
+  "callables": [
+    {
+      "g8_callable_id": "verify_separator",
+      "intended_campaign_use": "SEPARATOR_INCIDENCE_TRUE_REQUIRES_EXACT_VERIFIER_ACCEPT",
+      "selection_evidence": ["SEPARATOR_INCIDENCE_SCHEMA_V1", "TOKEN_CERTIFICATE_EVIDENCE_SCHEMA_V1", "PAIR_OPTIC_COMPARISON_LEDGER_SCHEMA_V1"],
+      "required_arguments": ["SeparatorCertificate"],
+      "required_authority_artifacts": ["G8_AUTHORITY_BINDING", "G8_FROZEN_COMPARISON", "G5_TOKEN_REALIZATION_INSTANCE", "G6_FIBER_CERTIFICATE", "G8_SEPARATOR_CERTIFICATE"],
+      "upstream_producers": ["FC01B_OR_AUTHORIZED_DESCENDANT_PRODUCER", "G5_OWNER", "G6_OWNER", "G8_SCHEMA_OWNER"],
+      "dependencies": ["FC01A_DOORWAY", "G8_04A_SEMANTIC_ADAPTER", "G5_TOKEN_REALIZATION_INSTANCE", "G6_FIBER_AUTHORITY", "G8_FROZEN_COMPARISON", "G8_AUTHORITY_BINDING"],
+      "current_status": "BLOCKED_BY_UNSATISFIED_UPSTREAM_AUTHORITY",
+      "active": true
+    },
+    {
+      "g8_callable_id": "verify_bounded_exhaustion",
+      "intended_campaign_use": "FINITE_QUESTION_BOX_EXACT_COVERAGE",
+      "selection_evidence": ["FINITE_QUESTION_BOX_SPEC_V1", "BOUNDED_EXHAUSTION_VERIFIER_V1", "FINITE_DOMAIN_COVERAGE_RECEIPT_SCHEMA_V1"],
+      "required_arguments": ["max_shell", "CoverageReceipt"],
+      "required_authority_artifacts": ["G8_BOUND_FINITE_QUESTION_BOX", "G8_COVERAGE_RECEIPT"],
+      "upstream_producers": ["FC01C_OR_AUTHORIZED_DESCENDANT_PRODUCER", "G8_COVERAGE_OWNER"],
+      "dependencies": ["G5_TOKEN_REALIZATION_CONTRACT", "G5_TOKEN_REALIZATION_INSTANCE", "FINITE_QUESTION_BOX_AUTHORITY", "G8_COVERAGE_RECEIPT"],
+      "current_status": "BLOCKED_BY_UNSATISFIED_UPSTREAM_AUTHORITY",
+      "active": true
+    },
+    {
+      "g8_callable_id": "verify_ancestry",
+      "intended_campaign_use": "NOT_SELECTED_BY_FROZEN_FC01_CONTRACT",
+      "selection_evidence": ["G8_VERIFIER_BOUNDARY_V1_ONLY"],
+      "required_arguments": ["SyntheticMachine", "start", "NeutralToken[]", "claimed_states[]"],
+      "required_authority_artifacts": ["G8_SYNTHETIC_MACHINE", "G5_NEUTRAL_TOKEN_SEQUENCE", "G8_CLAIMED_STATE_TRACE"],
+      "upstream_producers": ["UNBOUND"],
+      "dependencies": [],
+      "current_status": "NOT_ACTIVE_IN_DECLARED_CAMPAIGN_SCOPE",
+      "active": false
+    },
+    {
+      "g8_callable_id": "verify_no_witness_box",
+      "intended_campaign_use": "NOT_SELECTED_BY_FROZEN_FC01_CONTRACT",
+      "selection_evidence": ["G8_VERIFIER_BOUNDARY_V1_ONLY"],
+      "required_arguments": ["FrozenComparison", "max_shell", "CoverageReceipt"],
+      "required_authority_artifacts": ["G8_FROZEN_COMPARISON", "G8_BOUND_FINITE_QUESTION_BOX", "G8_COVERAGE_RECEIPT"],
+      "upstream_producers": ["UNBOUND"],
+      "dependencies": [],
+      "current_status": "NOT_ACTIVE_IN_DECLARED_CAMPAIGN_SCOPE",
+      "active": false
+    },
+    {
+      "g8_callable_id": "verify_finite_box_minimum",
+      "intended_campaign_use": "NOT_SELECTED_BY_FROZEN_FC01_CONTRACT",
+      "selection_evidence": ["G8_VERIFIER_BOUNDARY_V1_ONLY"],
+      "required_arguments": ["SeparatorCertificate", "max_shell", "CoverageReceipt"],
+      "required_authority_artifacts": ["G8_SEPARATOR_CERTIFICATE", "G8_BOUND_FINITE_QUESTION_BOX", "G8_COVERAGE_RECEIPT"],
+      "upstream_producers": ["UNBOUND"],
+      "dependencies": [],
+      "current_status": "NOT_ACTIVE_IN_DECLARED_CAMPAIGN_SCOPE",
+      "active": false
+    },
+    {
+      "g8_callable_id": "verify_universal_proof",
+      "intended_campaign_use": "NOT_SELECTED_BY_FROZEN_FC01_CONTRACT",
+      "selection_evidence": ["G8_VERIFIER_BOUNDARY_V1_ONLY", "G8_UNIVERSAL_PROOF_SYSTEM_V1_SCOPE_NOT_04A"],
+      "required_arguments": ["UniversalProof"],
+      "required_authority_artifacts": ["G8_FINITE_UNIVERSAL_PROOF"],
+      "upstream_producers": ["UNBOUND"],
+      "dependencies": [],
+      "current_status": "NOT_ACTIVE_IN_DECLARED_CAMPAIGN_SCOPE",
+      "active": false
+    }
+  ],
+  "active_callable_set": ["verify_separator", "verify_bounded_exhaustion"],
+  "inactive_callable_set": ["verify_ancestry", "verify_no_witness_box", "verify_finite_box_minimum", "verify_universal_proof"],
+  "construction_functions_are_not_consumers": true,
+  "population_access": 0
+}

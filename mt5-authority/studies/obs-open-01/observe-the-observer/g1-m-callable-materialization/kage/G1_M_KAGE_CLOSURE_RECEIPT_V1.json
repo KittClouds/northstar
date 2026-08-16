@@ -1,0 +1,34 @@
+{
+  "schema": "G1_M_KAGE_CLOSURE_RECEIPT_V1",
+  "gate": "G1-M",
+  "role": "CHAIN_OF_CUSTODY_AND_CONJUNCTION",
+  "inputs": {
+    "sol_receipt_sha256": "3FBCE7209EB6553AC867B55C3F6138C80379F6A7767DAFA8DA073810452DCFC3",
+    "kammi_receipt_sha256": "7B94BD688BD8BA0F5F7969F0EA6FDBFA96303C37EEE050D3C60F4FEFD79EC3FA",
+    "access_audit_sha256": "93608446BF9E3DCB4E18A4C42E0CAB27E7A900D994D2E0DD7AEBEBDEFF96B67F",
+    "a0_receipt_sha256": "4B6694AC527745C49E4A795F060D8F45F3ADD1FFDD178FDB7072ECDAF5D52A45",
+    "a1_attempt_1_receipt_sha256": "F99BFD9115424D34D13835F711D62D1406AAD5B1BD7F65DE1E79C7F50A938838",
+    "a1_attempt_1_projector_sha256": "53D4F850C8D3943A0EA4F56CB3FF533434A6BB6C50CEF82720DA6A84AE976E54"
+  },
+  "conjuncts": {
+    "SEALED_G1_AUTHORITY_OBJECT_IDENTIFIED": true,
+    "MATERIALIZED_CANDIDATES_RECOVERED": true,
+    "EVERY_REQUIRED_IDENTITY_DIMENSION_SATISFIED": false,
+    "SOL_POSITIVE_BINDING_PASSED": false,
+    "KAMMI_FOUND_NO_IDENTITY_COUNTEREXAMPLE": false,
+    "ACCESS_AUDIT_PASSED": true,
+    "SUBSTITUTIONS_USED": false,
+    "PROTECTED_POPULATION_CAPABILITIES_EXERCISED": false
+  },
+  "missing_conjuncts": [
+    "cryptographic authority-to-release-executable binding",
+    "cryptographic authority-to-release-library binding",
+    "historical build/toolchain identity where needed to identify the compiled artifact",
+    "historical G1_SEMANTIC_OUTPUT_V1 schema or exact transport into the frozen A1 ABI"
+  ],
+  "result": "G1_SEALED_CALLABLE_MATERIALIZATION_NOT_EVALUABLE",
+  "A1_ATTEMPT_2_ELIGIBLE": false,
+  "FC01A": "HOLD",
+  "FC01B_PLUS": "FROZEN",
+  "population_access": 0
+}

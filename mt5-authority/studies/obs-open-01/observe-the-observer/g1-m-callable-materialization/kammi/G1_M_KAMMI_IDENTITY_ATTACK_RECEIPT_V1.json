@@ -1,0 +1,36 @@
+{
+  "schema": "G1_M_KAMMI_IDENTITY_ATTACK_RECEIPT_V1",
+  "gate": "G1-M",
+  "role": "ADVERSARIAL_IDENTITY_AUDIT",
+  "attack_result": "IDENTITY_BINDING_NOT_ESTABLISHED",
+  "witnesses": [
+    {
+      "attack": "SOURCE_MATCH_WITH_UNBOUND_BUILD_IDENTITY",
+      "result": "WITNESS_CONFIRMED",
+      "evidence": "the G1 root binds source and sealed receipts but contains no executable, rlib, PDB, compiler, or toolchain member"
+    },
+    {
+      "attack": "TEMPORAL_AND_PATH_PROXIMITY_PRESENTED_AS_IDENTITY",
+      "result": "WITNESS_CONFIRMED",
+      "evidence": "candidate target artifacts were created immediately before the receipts and dep-info points to the correct source tree, but no sealed authority member cryptographically binds those artifact hashes"
+    },
+    {
+      "attack": "HISTORICAL_OUTPUT_SURFACE_PRESENTED_AS_FC01A_ABI",
+      "result": "WITNESS_CONFIRMED",
+      "evidence": "historical G1 returns StepResult and exposes Pi_04A for parity; G1_SEMANTIC_OUTPUT_V1 is absent from the historical source, contracts, and seal"
+    },
+    {
+      "attack": "FRESH_REBUILD_PRESENTED_AS_ORIGINAL_CALLABLE",
+      "result": "REJECTED_BY_CONSTITUTION",
+      "evidence": "a new build could test reconstruction or transport, but cannot retroactively bind a binary identity omitted from the G1 authority object"
+    },
+    {
+      "attack": "WRAPPER_PRESENTED_AS_HISTORICAL_CALLABLE_BOUNDARY",
+      "result": "REJECTED_BY_CONSTITUTION",
+      "evidence": "bridging Rust StepResult into the frozen Python-facing A1 object would be new descendant implementation work, not G1-M identity archaeology"
+    }
+  ],
+  "substitutions_detected": 0,
+  "population_access": 0,
+  "adversarial_disposition": "STOP_IDENTITY_TRANSITION"
+}

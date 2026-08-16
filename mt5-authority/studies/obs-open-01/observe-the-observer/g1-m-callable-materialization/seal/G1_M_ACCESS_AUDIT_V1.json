@@ -1,0 +1,26 @@
+{
+  "schema": "G1_M_ACCESS_AUDIT_V1",
+  "gate": "G1-M",
+  "status": "PASS",
+  "REAL_04A_HISTORY_READS": 0,
+  "POPULATION_VALUE_READS": 0,
+  "POPULATION_HISTORY_READS": 0,
+  "POPULATION_DERIVED_CONTENT_READS": 0,
+  "POPULATION_DERIVED_METADATA_READS": 0,
+  "PAIR_READS": 0,
+  "PAIR_COHORTS_INSTANTIATED": 0,
+  "QUESTION_TOKENS_REALIZED": 0,
+  "ARM_EXECUTIONS": 0,
+  "TARGET_READS": 0,
+  "OUTCOME_READS": 0,
+  "D_B_READS": 0,
+  "D_C_READS": 0,
+  "D_D_READS": 0,
+  "permitted_reads": [
+    "sealed authority receipts",
+    "sealed source and contracts",
+    "opaque hashes and manifests",
+    "candidate binary metadata and hashes",
+    "Cargo fingerprint and compiler metadata"
+  ]
+}

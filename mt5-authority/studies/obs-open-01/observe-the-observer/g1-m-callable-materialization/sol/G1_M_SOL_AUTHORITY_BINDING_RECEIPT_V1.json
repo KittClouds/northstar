@@ -1,0 +1,76 @@
+{
+  "schema": "G1_M_SOL_AUTHORITY_BINDING_RECEIPT_V1",
+  "gate": "G1-M",
+  "role": "POSITIVE_ARCHAEOLOGICAL_IDENTITY",
+  "authority_object_recovery": {
+    "status": "G1_AUTHORITY_OBJECT_IDENTIFIED",
+    "g1_authority": "OBS_OPEN_G1_SENTINEL_SEMANTIC_KERNEL_V1",
+    "g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+    "g1_root_receipt_sha256": "488BB19A517D9E4E7D9CD2FD96291E9BEF087088A441A977C335813460412F2D",
+    "source_closure_sha256": "a7346e722d35085f5ff97f76cda4c4de97c519facc937509ad3dce4a11ad0473",
+    "kernel_source_sha256": "8951dd29dc547d8ef9def2f356970c7398579da85f94521fff9de85f1740c2f0",
+    "sealed_source_file_count": 10,
+    "callable_boundary": [
+      "init(&KernelContext)->Result<KernelState,KernelError>",
+      "step(&KernelState,&CompletedObservation,&KernelContext)->Result<StepResult,KernelError>"
+    ],
+    "historical_output_surface": "StepResult{KernelState,KernelEmissions}; optional Pi_04A projection used for parity",
+    "historical_g1_semantic_output_v1_schema": "NOT_PRESENT"
+  },
+  "authority_dimensions": {
+    "SOURCE_ROOT": "BOUND_IN_G1_AUTHORITY",
+    "BUILD_IDENTITY": "NOT_BOUND_IN_HISTORICAL_G1_AUTHORITY",
+    "TOOLCHAIN_IDENTITY": "NOT_BOUND_IN_HISTORICAL_G1_AUTHORITY",
+    "CALLABLE_BOUNDARY": "BOUND_AT_SOURCE_INTERFACE",
+    "INITIALIZATION_MODE": "BOUND_BY_INITIALIZATION_SEMANTICS_AND_SOURCE",
+    "CONTEXT_BINDING": "BOUND_BY_KERNEL_CONTEXT_SCHEMA_AND_SOURCE",
+    "INPUT_ORDERING": "BOUND_BY_KERNEL_INPUT_CONTRACT_AND_SOURCE",
+    "SESSION_BOUNDARY_HANDLING": "BOUND_BY_SOURCE_VALIDATION_RULES",
+    "OUTPUT_CAPTURE_MODE": "BOUND_FOR_HISTORICAL_G1_PARITY_AUDIT_ONLY",
+    "OUTPUT_SCHEMA_HASH": "NO_SEPARATE_HISTORICAL_SCHEMA_HASH",
+    "EXECUTION_ENVIRONMENT_CONTRACT": "NOT_BOUND_IN_HISTORICAL_G1_AUTHORITY"
+  },
+  "candidate_materialization": {
+    "source_tree": {
+      "locator": "sealed G1 source plus live repository source",
+      "source_closure_match": "PASS",
+      "all_10_source_members_match": true
+    },
+    "release_executable": {
+      "locator": "D:/codex-target-obs-open-g1/release/obs-open-04a-g1.exe",
+      "bytes": 609280,
+      "sha256": "CEC0CA267B1F42B9B9173C8A40A43F0AC28ACB70D569500209FBA2C3D0145FA1",
+      "modified_utc": "2026-08-15T15:42:09.6161685Z",
+      "authority_binding": "NOT_ESTABLISHED"
+    },
+    "release_library": {
+      "locator": "D:/codex-target-obs-open-g1/release/libobs_open_04a_g1.rlib",
+      "bytes": 1642184,
+      "sha256": "564CA86530748F26FD300CB89CEF092266528D45341DB4AFCEAB00325F74205D",
+      "modified_utc": "2026-08-15T15:42:01.2398611Z",
+      "authority_binding": "NOT_ESTABLISHED"
+    },
+    "candidate_toolchain_metadata": {
+      "rustc": "1.96.0 (ac68faa20 2026-05-25)",
+      "host": "x86_64-pc-windows-msvc",
+      "llvm": "22.1.2",
+      "metadata_sha256": "53A0F721939479162C17300C869646D8CAAE2D27BD0C943C7C92F9F89F232163",
+      "authority_binding": "NOT_ESTABLISHED"
+    },
+    "temporal_corroboration": "candidate artifacts precede build-a/build-b G1 receipts by seconds",
+    "temporal_corroboration_is_identity": false
+  },
+  "identity_binding": {
+    "source_identity": "PASS",
+    "callable_source_interface": "PASS",
+    "materialized_binary_identity": "NOT_EVALUABLE",
+    "authority_to_artifact_binding": "NOT_ESTABLISHED",
+    "result": "IDENTITY_BINDING_NOT_ESTABLISHED"
+  },
+  "population_access": 0,
+  "nonclaims": [
+    "candidate_binary_is_not_declared_the_historical_authority",
+    "fresh_build_equivalence_not_claimed",
+    "A1_attempt_2_eligibility_not_earned"
+  ]
+}

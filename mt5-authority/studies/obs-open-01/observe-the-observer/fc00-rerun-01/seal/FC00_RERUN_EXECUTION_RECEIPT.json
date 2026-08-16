@@ -46,7 +46,7 @@
   },
   "sol_identity_bundle": {
     "path": "mt5-authority/studies/obs-open-01/observe-the-observer/sol-fc02/seal/FC00_SOL_ARM_IDENTITY_BUNDLE.json",
-    "sha256": "19868227D90E659B2ACBE07E6DB00D04BEED300570EE6F393A3167923BD7D8D7",
+    "sha256": "5912E384A5EBEA237718415A451E643EBBD3A553C9CAC3E48709AC76435F81FD",
     "schema": "SOL_FC00_ARM_IDENTITY_BUNDLE_V1",
     "arm_count": 5,
     "contracts_root": "08f1ef4926ab4ef3a4c26a6d370ebedd899f4b4683e6e4137e72a06e94084095",
@@ -61,7 +61,7 @@
   },
   "measurement_registry": {
     "path": "mt5-authority/studies/obs-open-01/observe-the-observer/sol-fc02/contracts/SOL_ARM_MEASUREMENT_REGISTRY_V1.json",
-    "sha256": "E31828B0D65350E3B3111B795A6BC037F2901A50461F9E281CEDDC2057546AC3",
+    "sha256": "F99B52CF3B24550859F8BB0CAED99A1530E7F37347B65D25A89C53FC8D3518F0",
     "selection_rule": "G4_AUTHORITY_AND_FIELD_TYPE_ONLY",
     "value_conditioned_selection": false,
     "eligible_field_count": 16,
@@ -69,7 +69,7 @@
   },
   "synthetic_qualification": {
     "path": "mt5-authority/studies/obs-open-01/observe-the-observer/sol-fc02/seal/SOL_FC02_SYNTHETIC_QUALIFICATION_RECEIPT.json",
-    "sha256": "366AA3FC3E366AF88BC1AB027FB5AF32C30609C4B9A1EA4CB2EF192DC57F010C",
+    "sha256": "E038468CCBF2F7A695E604E465C4F07741CC654130F06E9309C1E178D6A068E3",
     "status": "PASS",
     "population_access": 0,
     "checks": {

@@ -1,0 +1,6 @@
+{
+  "arm_result_visibility": "0_BEFORE_SYNTHESIS_UNLOCK",
+  "schema": "G8_3_CROSS_ARM_BLINDNESS_POLICY_V1",
+  "separate_outputs": "REQUIRED_WHERE_PRACTICAL",
+  "shared_libraries": "ALLOWED_BUT_RECORDED"
+}

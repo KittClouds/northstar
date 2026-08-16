@@ -1,0 +1,15 @@
+{
+  "fields": [
+    "intervention_id",
+    "separability_status",
+    "required_coupled_changes",
+    "input_domain_effect",
+    "earliest_authority_impact",
+    "downstream_requalification_cone",
+    "runtime_evidence_requirement",
+    "known_invalidating_side_effects",
+    "unresolved_dependencies"
+  ],
+  "rule": "identified_control_not_equal_independent_dimension",
+  "schema": "G8_1_INTERVENTION_CAPSULE_SCHEMA_V1"
+}

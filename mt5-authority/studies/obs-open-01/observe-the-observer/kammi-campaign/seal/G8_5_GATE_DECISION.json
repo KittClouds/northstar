@@ -1,0 +1,8 @@
+{
+  "authority_gain": "NONE",
+  "gate": "G8_5",
+  "question_status": "CLOSED",
+  "result": "BLIND_TRIANGULATION_CAMPAIGN_SEALED_WITH_RESTRICTIONS",
+  "schema": "G8_5_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

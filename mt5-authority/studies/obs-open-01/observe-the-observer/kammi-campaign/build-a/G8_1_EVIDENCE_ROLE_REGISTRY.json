@@ -1,0 +1,18 @@
+{
+  "authority_gain_from_literature": "NONE",
+  "forbidden_inputs": [
+    "SCIENTIFIC_POPULATION",
+    "PAIR_DISCOVERIES",
+    "OUTCOMES",
+    "CROSS_BRANCH_POST_FREEZE_REASONING"
+  ],
+  "roles": [
+    "CONSTITUTIONAL_AUTHORITY",
+    "STATIC_PLANNING_AUTHORITY",
+    "LITERATURE_ADJACENCY",
+    "TRANSFER_CANDIDATE",
+    "PRIVATE_ANALOGY",
+    "FORBIDDEN_INPUT"
+  ],
+  "schema": "G8_1_EVIDENCE_ROLE_REGISTRY_V1"
+}

@@ -1,0 +1,19 @@
+{
+  "arm_count": 5,
+  "required_fields": [
+    "ROOT_SET",
+    "ARM_ROOT",
+    "QUESTION_ROOT",
+    "PROTOCOL_ROOT",
+    "CONTROL_ROOT",
+    "STOPPING_RULE_ROOT",
+    "SOFTWARE_BUILD_HASH",
+    "CONFIG_HASH",
+    "INPUT_ADAPTER_HASH",
+    "OUTPUT_SCHEMA_HASH",
+    "VERIFIER_HASH",
+    "AUTHORIZED_DATA_VIEW",
+    "FORBIDDEN_DATA_VIEW"
+  ],
+  "schema": "G8_5_ARM_LAUNCH_PACKAGES_V1"
+}

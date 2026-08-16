@@ -1,0 +1,10 @@
+{
+  "final_state": "BLIND_TRIANGULATION_CAMPAIGN_SEALED_WITH_RESTRICTIONS",
+  "g8_1_root": "IN_BUNDLE",
+  "g8_2_root": "IN_BUNDLE",
+  "g8_3_root": "IN_BUNDLE",
+  "g8_4_root": "IN_BUNDLE",
+  "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+  "population_contact": "FORBIDDEN_PENDING_G8_ROOT_BINDING",
+  "schema": "G8_5_BLIND_CAMPAIGN_MANIFEST_V1"
+}

@@ -1,0 +1,30 @@
+{
+  "channels": [
+    {
+      "channel": "TARGET_OBJECT_BINDING",
+      "status": "UNBOUND"
+    },
+    {
+      "channel": "TARGET_REGION_BINDING",
+      "status": "UNBOUND"
+    },
+    {
+      "channel": "POPULATION_CONTENT",
+      "status": "FORBIDDEN_INPUT"
+    },
+    {
+      "channel": "PAIR_DISCOVERY",
+      "status": "FORBIDDEN_INPUT"
+    },
+    {
+      "channel": "CROSS_BRANCH_RESULTS",
+      "status": "FORBIDDEN_INPUT"
+    },
+    {
+      "channel": "PRESENTATION_TO_CAUSAL_FEEDBACK",
+      "status": "FORBIDDEN"
+    }
+  ],
+  "contamination_result": "TRIANGULATOR_SELF_CONTAMINATION_DETECTED",
+  "schema": "G8_1_CONTAMINATION_CHANNEL_REGISTRY_V1"
+}

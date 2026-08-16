@@ -1,0 +1,11 @@
+{
+  "real_population_reads_during_freeze": 0,
+  "required_preflight": [
+    "SYNTHETIC_SCHEMA_FIXTURES",
+    "KNOWN_CONTRACTS",
+    "SEALED_HASHES",
+    "MALFORMED_INPUTS",
+    "BOUNDARY_CASES"
+  ],
+  "schema": "G8_5_POPULATION_ADMISSION_POLICY_V1"
+}

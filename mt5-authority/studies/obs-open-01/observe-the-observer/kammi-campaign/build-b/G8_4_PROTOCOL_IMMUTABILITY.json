@@ -1,0 +1,6 @@
+{
+  "result_conditioned_retuning": "FORBIDDEN",
+  "schema": "G8_4_PROTOCOL_IMMUTABILITY_V1",
+  "stopping_mutation": "FORBIDDEN",
+  "unknown_is_completed_disposition": true
+}

@@ -1,0 +1,16 @@
+{
+  "04a_content_reads": 0,
+  "arm_executions": 0,
+  "campaign_execution": "NOT_STARTED",
+  "cross_arm_result_reads": 0,
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "moxie_access": "FORBIDDEN",
+  "outcome_reads": 0,
+  "runtime_probes": 0,
+  "schema": "KAMMI_CAMPAIGN_ACCESS_AUDIT_V1",
+  "scientific_population_reads": 0,
+  "sol_branch_result_reads": 0,
+  "trading_com_editor_invoked": false
+}

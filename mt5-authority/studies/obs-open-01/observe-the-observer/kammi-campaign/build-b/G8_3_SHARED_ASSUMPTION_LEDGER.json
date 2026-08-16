@@ -1,0 +1,253 @@
+{
+  "pairs": [
+    {
+      "arm_a": "A_CONTINUATION",
+      "arm_b": "B_INTERVENTION",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "A_CONTINUATION",
+      "arm_b": "C_STATIC",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "A_CONTINUATION",
+      "arm_b": "D_FORMAL",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "A_CONTINUATION",
+      "arm_b": "E_CONTROLS",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "B_INTERVENTION",
+      "arm_b": "C_STATIC",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "B_INTERVENTION",
+      "arm_b": "D_FORMAL",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "B_INTERVENTION",
+      "arm_b": "E_CONTROLS",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "C_STATIC",
+      "arm_b": "D_FORMAL",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "C_STATIC",
+      "arm_b": "E_CONTROLS",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    },
+    {
+      "arm_a": "D_FORMAL",
+      "arm_b": "E_CONTROLS",
+      "known_common_mode_failures": [
+        "ANCESTRAL_SEMANTICS",
+        "BLINDNESS_LEAK",
+        "DISPLAY_TO_CAUSAL_CONTAMINATION"
+      ],
+      "parallax_distinctness": "NOT_QUANTIFIED",
+      "shared_code": "UNKNOWN",
+      "shared_formalism": "UNKNOWN",
+      "shared_input_adapter": "UNKNOWN",
+      "shared_population": "FORBIDDEN_BEFORE_LAUNCH",
+      "shared_question_primitives": "UNKNOWN",
+      "shared_representation": "UNKNOWN",
+      "shared_semantic_ancestry": [
+        "G0_G8_ANCESTRY",
+        "OTO_A1_SURFACE_SEPARATION",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS",
+        "STOPPING_RULES"
+      ],
+      "shared_verifier": "UNKNOWN"
+    }
+  ],
+  "pairwise_count": 10,
+  "schema": "G8_3_SHARED_ASSUMPTION_LEDGER_V1",
+  "shared_assumptions": [
+    "G0_G8_ANCESTRY",
+    "OTO_A1_SURFACE_SEPARATION",
+    "NULL_ONTOLOGY",
+    "RESULT_BLINDNESS",
+    "STOPPING_RULES"
+  ]
+}

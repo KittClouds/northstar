@@ -1,0 +1,14 @@
+{
+  "entry_fields": [
+    "constraint_id",
+    "status",
+    "provenance",
+    "shared_assumption_debt",
+    "shared_implementation_debt",
+    "shared_data_debt",
+    "shared_verifier_debt",
+    "shared_formalism_debt"
+  ],
+  "latent_object": "FORBIDDEN",
+  "schema": "G8_4_JOINT_CONSTRAINT_LEDGER_SCHEMA_V1"
+}

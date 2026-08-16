@@ -1,0 +1,8 @@
+{
+  "authority_gain": "NONE",
+  "gate": "G8_4",
+  "question_status": "CLOSED",
+  "result": "TRIANGULATION_CONTRACT_SEALED",
+  "schema": "G8_4_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

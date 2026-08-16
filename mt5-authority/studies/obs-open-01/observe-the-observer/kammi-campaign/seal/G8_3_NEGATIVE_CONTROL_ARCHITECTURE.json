@@ -1,0 +1,47 @@
+{
+  "controls": [
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "PURE_PRESENTATION_CONTROLS",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    },
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "KNOWN_SEMANTICS_PRESERVING_TRANSFORMS",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    },
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "IDENTITY_TRANSFORMS",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    },
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "MALFORMED_INTERVENTIONS",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    },
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "KNOWN_COUPLED_CONTROLS",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    },
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "SYNTHETIC_FALSE_STRUCTURE_TRAPS",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    },
+    {
+      "causal_surface_authority": "NONE",
+      "control_id": "INTENTIONALLY_UNQUALIFIED_AXES",
+      "execution": "NOT_STARTED",
+      "required_response": "DETECT_SELF_CONTAMINATION_IF_CAUSAL_RESULT_CHANGES"
+    }
+  ],
+  "schema": "G8_1_NEGATIVE_CONTROL_REGISTRY_V1"
+}

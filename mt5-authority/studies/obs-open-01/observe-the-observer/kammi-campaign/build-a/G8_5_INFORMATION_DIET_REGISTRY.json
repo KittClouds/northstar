@@ -1,0 +1,13 @@
+{
+  "during_freeze": [
+    "CONSTITUTIONAL_ANCESTRY",
+    "OWN_PROTOCOL_ONLY"
+  ],
+  "forbidden": [
+    "SCIENTIFIC_POPULATION",
+    "OTHER_ARM_RESULTS",
+    "OUTCOMES",
+    "PAIR_DISCOVERIES"
+  ],
+  "schema": "G8_5_INFORMATION_DIET_REGISTRY_V1"
+}

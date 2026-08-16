@@ -1,0 +1,8 @@
+{
+  "ancestry": "G0_G8_IMMUTABLE",
+  "authority_gain": "NONE",
+  "schema": "G8_1_NULL_ONTOLOGY_CONSTITUTION_V1",
+  "target_object_binding": "UNBOUND",
+  "target_region_binding": "UNBOUND",
+  "vocabulary_firewall": "ACTIVE"
+}

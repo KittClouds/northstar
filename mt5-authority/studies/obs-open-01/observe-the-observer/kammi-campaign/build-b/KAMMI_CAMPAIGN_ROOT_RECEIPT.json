@@ -1,0 +1,307 @@
+{
+  "logical_root": "d1e78ba54e4e87cc5cbbab275b57aaf5d67f308b4b390d13ba93ecf98b876025",
+  "payload": {
+    "arm_count": 5,
+    "artifacts": [
+      {
+        "bytes": 225,
+        "path": "G8_1_NULL_ONTOLOGY_CONSTITUTION.json",
+        "sha256": "d79c690a993e9d28f50d5550d25a64525f9f2b15cde1d6d915a41ae161340c6e"
+      },
+      {
+        "bytes": 418,
+        "path": "G8_1_FROZEN_AUTHORITY_LEDGER.json",
+        "sha256": "7dc3fb4e0ccecd0862d9d6f4d2c6c4574c897f01db518d2a2b9badf6b2b6c64f"
+      },
+      {
+        "bytes": 414,
+        "path": "G8_1_EVIDENCE_ROLE_REGISTRY.json",
+        "sha256": "f73ca454858befdee21662e70665af422f561158dc66af3daa85d2b22f8823e5"
+      },
+      {
+        "bytes": 189,
+        "path": "G8_1_UNBOUND_TARGET_CONTRACT.json",
+        "sha256": "1f450a6825f5bf4a02296972d90ee1b72d33f8b677f280fcc977aa6076c0cc96"
+      },
+      {
+        "bytes": 517,
+        "path": "G8_1_VOCABULARY_FIREWALL.json",
+        "sha256": "cfd502d1b5e94b54bfc313245852613c78e29dd889d54e5b45708c9ef3d31bcb"
+      },
+      {
+        "bytes": 423,
+        "path": "G8_1_INTERVENTION_CAPSULE_SCHEMA.json",
+        "sha256": "d45f887af21ff870e0d0af629bdfb2a7d022168a1e083e66bfd1a63af79ae763"
+      },
+      {
+        "bytes": 1611,
+        "path": "G8_1_NEGATIVE_CONTROL_REGISTRY.json",
+        "sha256": "b44519cc93d75c54a63373139e93afbf770ddf5cf591f6814043bda11eb5ea05"
+      },
+      {
+        "bytes": 658,
+        "path": "G8_1_CONTAMINATION_CHANNEL_REGISTRY.json",
+        "sha256": "df21fd4f5dadc50ef2ae71311ea24c680a4666ac54d40b6a51facc5fe0b4f166"
+      },
+      {
+        "bytes": 191,
+        "path": "G8_1_POPULATION_BLINDNESS_AUDIT.json",
+        "sha256": "932add0f4b4076ffab196f0b9d6520ed1c6d8bdf5d527c1d3feb4992f7d718ba"
+      },
+      {
+        "bytes": 215,
+        "path": "G8_1_GATE_DECISION.json",
+        "sha256": "5b35bb645b086933408c156a1cc19575a3d066715f9e983148c316d6afd59839"
+      },
+      {
+        "bytes": 664,
+        "path": "G8_2_QUESTION_PROPOSAL_SCHEMA.json",
+        "sha256": "ff18ffcff526984a8bc2d8bab3f312c351d7d7bf14a5763902ebb9e6ac5022c6"
+      },
+      {
+        "bytes": 623,
+        "path": "G8_2_NEUTRAL_QUESTION_OPERATION_GRAMMAR.json",
+        "sha256": "9b08a99914d694ad1279aa0fd85eefe597aa4e07354933a8d32ce4e425501876"
+      },
+      {
+        "bytes": 383,
+        "path": "G8_2_EPISTEMIC_DELTA_CONTRACT.json",
+        "sha256": "337464c799bcb87596236b9cac5056cb8374a5a80cb83d81959b0d9320275b17"
+      },
+      {
+        "bytes": 211,
+        "path": "G8_2_QUESTION_QUALIFICATION_REGISTRY.json",
+        "sha256": "a068aa510f7ba4324d68525745ba2401e5eef68911433d210d8520e45ece7ea4"
+      },
+      {
+        "bytes": 260,
+        "path": "G8_2_QUESTION_REJECTION_LEDGER.json",
+        "sha256": "07d8632a9d3b9bfb8e95c9be1c32973de27d598a314c50528939b8ad0cc49d0c"
+      },
+      {
+        "bytes": 217,
+        "path": "G8_2_ANTI_FUNNEL_TEST_SUITE.json",
+        "sha256": "3f73839856c511a3c21fba2034507553fc580289d9c4cf2d6974b8d504894b62"
+      },
+      {
+        "bytes": 221,
+        "path": "G8_2_SYNTHETIC_OUTCOME_CORPUS.json",
+        "sha256": "ac2a8f30571e9629246e62f07ef358a9c2993c85fd4f53b83ca575589e3bac52"
+      },
+      {
+        "bytes": 143,
+        "path": "G8_2_NEGATIVE_CONTROL_CHALLENGE.json",
+        "sha256": "59f3ccbddc31c56fdc7d3f8299b6a4db0b9b2d93bafcdcdfdd2a82bb466e892a"
+      },
+      {
+        "bytes": 242,
+        "path": "G8_2_FORMAL_TOOL_ORDERING_CONTRACT.json",
+        "sha256": "50497033e6308b7288e3a24a8eb47bc08b15698251a85ccdeab00e2595006c84"
+      },
+      {
+        "bytes": 228,
+        "path": "G8_2_GATE_DECISION.json",
+        "sha256": "e6155fbb52894ed4cb91a0a94673fd3d1df74f49dc4857f4f65850a3f9e6e444"
+      },
+      {
+        "bytes": 271,
+        "path": "G8_3_PARALLAX_ARCHITECTURE.json",
+        "sha256": "c0b82557d83de3679057613119c6b8f0d45dc54461be37d8767507c177b33622"
+      },
+      {
+        "bytes": 530,
+        "path": "G8_3_ARM_SCHEMA.json",
+        "sha256": "84b965998a68fe1f58ecf67c4b53132630586e87a24ef75b37c41d2405aa2800"
+      },
+      {
+        "bytes": 1616,
+        "path": "G8_3_ARM_REGISTRY.json",
+        "sha256": "bcb5c77ed46141003af4d2dd73f3b5231cde290ce24f88dc22710e3f8ff52f5b"
+      },
+      {
+        "bytes": 197,
+        "path": "G8_3_PARALLAX_DISTINCTNESS_CONTRACT.json",
+        "sha256": "eac15ce10eb7ddea31d7de173e739d4763e87c24d12789948746751fce061dcf"
+      },
+      {
+        "bytes": 7660,
+        "path": "G8_3_SHARED_ASSUMPTION_LEDGER.json",
+        "sha256": "e86c690ae5151258c810757a49d6b1952a65d61826b51fd9df715e6403534d27"
+      },
+      {
+        "bytes": 234,
+        "path": "G8_3_COMMON_MODE_FAILURE_REGISTRY.json",
+        "sha256": "f915b14119f0a565bf84f13e8d7099b61bba442653620dbfb06954129eae8b58"
+      },
+      {
+        "bytes": 423,
+        "path": "G8_3_INTERVENTION_CAPSULE_REGISTRY.json",
+        "sha256": "d45f887af21ff870e0d0af629bdfb2a7d022168a1e083e66bfd1a63af79ae763"
+      },
+      {
+        "bytes": 216,
+        "path": "G8_3_OBSERVER_LINEAGE_REQUALIFICATION_POLICY.json",
+        "sha256": "85b4aaca671e022d00385ada48c4526b285ba6ce1ca6333ce207bfaa5871f53c"
+      },
+      {
+        "bytes": 1611,
+        "path": "G8_3_NEGATIVE_CONTROL_ARCHITECTURE.json",
+        "sha256": "b44519cc93d75c54a63373139e93afbf770ddf5cf591f6814043bda11eb5ea05"
+      },
+      {
+        "bytes": 205,
+        "path": "G8_3_CROSS_ARM_BLINDNESS_POLICY.json",
+        "sha256": "f7ae2b5dab73179f3da0f76abca2d276b3d24c158c4530f4e4f4fc0ccb328d25"
+      },
+      {
+        "bytes": 231,
+        "path": "G8_3_GATE_DECISION.json",
+        "sha256": "6d57120ab9685fd15689677a9d288268ded0967bd0209cc7bf693d25fad35ca1"
+      },
+      {
+        "bytes": 240,
+        "path": "G8_4_TRIANGULATION_CONTRACT.json",
+        "sha256": "40bb9d5bbeeec0a20e8f374e889453fec917475eb0319f878d316abdefb1f274"
+      },
+      {
+        "bytes": 288,
+        "path": "G8_4_CROSS_ARM_TRANSLATION_SCHEMA.json",
+        "sha256": "7d8d84d66c0e13b4fcc22f77bbb1be7c073a0f66467e194f630f1e9a3d0db73d"
+      },
+      {
+        "bytes": 293,
+        "path": "G8_4_SYNTHESIS_RESULT_VOCABULARY.json",
+        "sha256": "abc36e21c94b5505311f95bddff92e5ba6f699a17e18178a5016e484cd877b7e"
+      },
+      {
+        "bytes": 311,
+        "path": "G8_4_JOINT_CONSTRAINT_LEDGER_SCHEMA.json",
+        "sha256": "16ac7d118dc8e45ba1e6c8ead2a65cd3a3af6b0b628b80e7110732eb64477135"
+      },
+      {
+        "bytes": 252,
+        "path": "G8_4_COMMON_MODE_ACCOUNTING.json",
+        "sha256": "caf9843a34575721932f3247fa3f6184c97986a80e8a6b6c98e4642e110a310c"
+      },
+      {
+        "bytes": 132,
+        "path": "G8_4_NO_MAJORITY_AUTHORITY_CONTRACT.json",
+        "sha256": "59e889b8e606f892f034653f0290290e89c9956b3cabe880c22c3d0c9a89006d"
+      },
+      {
+        "bytes": 256,
+        "path": "G8_4_NO_LATENT_OBJECT_CONSTRUCTION.json",
+        "sha256": "df79e6cdaa5d9ac56199a6322bc677bfc7b579abb287f7451e9b2c757850acbe"
+      },
+      {
+        "bytes": 174,
+        "path": "G8_4_PROTOCOL_IMMUTABILITY.json",
+        "sha256": "a944b911d449a9075feb072536b791c53acc6862ab05307dbe1dff7b08ac3911"
+      },
+      {
+        "bytes": 299,
+        "path": "G8_4_CAMPAIGN_STOPPING_POLICY.json",
+        "sha256": "baa9f531ed8ccb1a355372f1a8280b0c89c85ed8812d8173d96a28a17eaa85ca"
+      },
+      {
+        "bytes": 293,
+        "path": "G8_4_COMPLETE_REPORTING_POLICY.json",
+        "sha256": "eb106a4a6f338cc2cc5869d0eaf027fb8c09ee7bf9ea8e262ed435bfb7c5ff60"
+      },
+      {
+        "bytes": 211,
+        "path": "G8_4_GATE_DECISION.json",
+        "sha256": "0fdeb1e9d5bec0ca0b30b3f22c3046a62e9f38802e964727e47d3b8ea8b429ad"
+      },
+      {
+        "bytes": 350,
+        "path": "G8_5_BLIND_CAMPAIGN_MANIFEST.json",
+        "sha256": "7a730916ab221d7728a7018ad2aa26933c1aaa75df69d8a54aa34e3d2adc5a20"
+      },
+      {
+        "bytes": 385,
+        "path": "G8_5_ARM_LAUNCH_PACKAGES.json",
+        "sha256": "3cee13b5ba42b2c2675e4919fa406f8dcd3823b2ec16935adff2cd7616ec2260"
+      },
+      {
+        "bytes": 248,
+        "path": "G8_5_INFORMATION_DIET_REGISTRY.json",
+        "sha256": "5d11a9f508ab35bb794d501aad8350e81f2d17201653b823df1ca0c47a48c0f8"
+      },
+      {
+        "bytes": 171,
+        "path": "G8_5_DATA_VIEW_CONTRACTS.json",
+        "sha256": "8c553e1275aeb7f5494f058dd1335f589e4e141fc35cb756a7d308839a81a3e5"
+      },
+      {
+        "bytes": 265,
+        "path": "G8_5_FIRST_POPULATION_TOUCH_PROTOCOL.json",
+        "sha256": "ac5436cd81d5775026fc9a0a62d92b2f50620df0c6d598ffbd6c86c1aa2d38a2"
+      },
+      {
+        "bytes": 251,
+        "path": "G8_5_POPULATION_ADMISSION_POLICY.json",
+        "sha256": "0eee6c47eed677b83d88ccc807a5edc4989b30d6e00213b1e7047d554e939d6e"
+      },
+      {
+        "bytes": 183,
+        "path": "G8_5_OUTPUT_ISOLATION_POLICY.json",
+        "sha256": "cb8c06506b877896bb35f832fbfd807685e3d9897a50b4fb007f660ef03e2e6e"
+      },
+      {
+        "bytes": 125,
+        "path": "G8_5_RANDOMNESS_AND_SEED_REGISTRY.json",
+        "sha256": "91fb538331556abdd0c3d88672cce4efd465706aab165a20b68b54a7ca4132e0"
+      },
+      {
+        "bytes": 326,
+        "path": "G8_5_STOPPING_RULE_MANIFEST.json",
+        "sha256": "de5a8c4e8fecc15761af5d41e28760505481657f347f9aa0031e3677fd59d929"
+      },
+      {
+        "bytes": 1611,
+        "path": "G8_5_CONTROL_MANIFEST.json",
+        "sha256": "b44519cc93d75c54a63373139e93afbf770ddf5cf591f6814043bda11eb5ea05"
+      },
+      {
+        "bytes": 146,
+        "path": "G8_5_REVEAL_PROTOCOL.json",
+        "sha256": "2695539701147bcae28cbffbbf2d5aa21d0baa491a48e2ada178c123883d59b8"
+      },
+      {
+        "bytes": 137,
+        "path": "G8_5_BRANCH_BLINDNESS_AUDIT.json",
+        "sha256": "89536e248d0ed38021af94cbd9da81a69391a48ff06d9662f923e6566aa7975f"
+      },
+      {
+        "bytes": 147,
+        "path": "G8_5_OUTCOME_FIREWALL_AUDIT.json",
+        "sha256": "7ecd5b2c8d973ac9436150b0cb9389d354e7ce1381fd2818ae58dc09fefd51f1"
+      },
+      {
+        "bytes": 235,
+        "path": "G8_5_GATE_DECISION.json",
+        "sha256": "ba9ad770b918704cf4b7e64b986935fd0ba60c0b28074672aa18af1bd3b8510c"
+      },
+      {
+        "bytes": 405,
+        "path": "KAMMI_CAMPAIGN_ACCESS_AUDIT.json",
+        "sha256": "64845f5e4b29023c3754b8979a34786833cae92225fd6f7d8ec11352bc9bd8ad"
+      },
+      {
+        "bytes": 3951,
+        "path": "KAMMI_CAMPAIGN_EXECUTION_REPORT.md",
+        "sha256": "59abe78e0cf1f2ec36efd5c6c96edc3f5496ea25eddfb7e23300414c1361f466"
+      }
+    ],
+    "authority": "OBS_OPEN_KAMMI_BLIND_TRIANGULATION_CAMPAIGN_V1",
+    "final_state": "BLIND_TRIANGULATION_CAMPAIGN_SEALED_WITH_RESTRICTIONS",
+    "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+    "gate_count": 5,
+    "parent_oto_a1_root": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+    "parent_oto_l_root": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "schema": "KAMMI_CAMPAIGN_ROOT_PAYLOAD_V1"
+  },
+  "schema": "KAMMI_CAMPAIGN_ROOT_RECEIPT_V1"
+}

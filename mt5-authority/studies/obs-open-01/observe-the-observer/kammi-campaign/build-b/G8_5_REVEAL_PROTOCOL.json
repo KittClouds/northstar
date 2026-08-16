@@ -1,0 +1,5 @@
+{
+  "arm_results_reveal": "ONLY_AFTER_ARM_COMPLETION_AND_SYNTHESIS_UNLOCK",
+  "pre_unlock_visibility": 0,
+  "schema": "G8_5_REVEAL_PROTOCOL_V1"
+}

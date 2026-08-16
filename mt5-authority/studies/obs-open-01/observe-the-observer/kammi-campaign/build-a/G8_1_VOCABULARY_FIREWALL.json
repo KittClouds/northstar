@@ -1,0 +1,28 @@
+{
+  "allowed_contexts": [
+    "PRIVATE_ANALOGY",
+    "FORMAL_TOOL_CANDIDATE",
+    "LITERATURE_RECORD"
+  ],
+  "forbidden_contexts": [
+    "CAMPAIGN_TARGET",
+    "QUESTION_JUSTIFICATION",
+    "EXPECTED_STRUCTURE",
+    "ARM_SUCCESS_CRITERION"
+  ],
+  "restricted_terms": [
+    "compression",
+    "quotient",
+    "manifold",
+    "automaton",
+    "causal_state",
+    "geometry",
+    "memory",
+    "invariant",
+    "regime",
+    "phase",
+    "dimension",
+    "latent_object"
+  ],
+  "schema": "G8_1_VOCABULARY_FIREWALL_V1"
+}

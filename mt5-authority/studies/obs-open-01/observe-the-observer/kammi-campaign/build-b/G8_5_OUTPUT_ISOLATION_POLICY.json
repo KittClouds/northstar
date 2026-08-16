@@ -1,0 +1,6 @@
+{
+  "cross_arm_visibility": "0",
+  "schema": "G8_5_OUTPUT_ISOLATION_POLICY_V1",
+  "separate_outputs": "REQUIRED_WHERE_PRACTICAL",
+  "shared_code": "ALLOWED_WITH_COMMON_MODE_RECORD"
+}

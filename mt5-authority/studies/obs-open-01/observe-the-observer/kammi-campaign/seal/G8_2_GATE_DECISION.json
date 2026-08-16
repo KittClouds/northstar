@@ -1,0 +1,8 @@
+{
+  "authority_gain": "NONE",
+  "gate": "G8_2",
+  "question_status": "CLOSED",
+  "result": "QUESTION_GENERATOR_QUALIFIED_WITH_RESTRICTIONS",
+  "schema": "G8_2_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

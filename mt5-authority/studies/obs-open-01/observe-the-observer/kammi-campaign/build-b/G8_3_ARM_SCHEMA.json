@@ -1,0 +1,24 @@
+{
+  "required_fields": [
+    "arm_id",
+    "question_set",
+    "primitive_operations",
+    "observer_lineage",
+    "input_authority",
+    "population_view",
+    "fixed_quantities",
+    "varied_quantities",
+    "observed_surface",
+    "formal_tools",
+    "verifier_path",
+    "implementation_dependencies",
+    "shared_ancestry",
+    "known_common_mode_failures",
+    "negative_controls",
+    "stopping_rule",
+    "result_vocabulary",
+    "cross_arm_result_access",
+    "independence_claim"
+  ],
+  "schema": "G8_3_ARM_SCHEMA_V1"
+}

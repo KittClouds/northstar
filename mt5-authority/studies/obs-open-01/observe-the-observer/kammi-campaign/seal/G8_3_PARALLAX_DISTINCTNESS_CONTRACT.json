@@ -1,0 +1,6 @@
+{
+  "distinctness": "VISIBLE_NON_IDENTITY_OF_ASSUMPTIONS_AND_FAILURE_MODES",
+  "independence_measure": "NOT_DEFINED",
+  "no_fake_axes": true,
+  "schema": "G8_3_PARALLAX_DISTINCTNESS_CONTRACT_V1"
+}

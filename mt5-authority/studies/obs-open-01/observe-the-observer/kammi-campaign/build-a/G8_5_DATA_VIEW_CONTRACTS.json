@@ -1,0 +1,6 @@
+{
+  "first_touch_view": "ADMISSION_ONLY",
+  "later_view": "SEPARATELY_AUTHORIZED",
+  "planning_view": "NO_POPULATION_CONTENT",
+  "schema": "G8_5_DATA_VIEW_CONTRACTS_V1"
+}

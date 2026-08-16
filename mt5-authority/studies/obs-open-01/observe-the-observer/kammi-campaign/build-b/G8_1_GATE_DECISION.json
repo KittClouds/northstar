@@ -1,0 +1,8 @@
+{
+  "authority_gain": "NONE",
+  "gate": "G8_1",
+  "question_status": "CLOSED",
+  "result": "NULL_ONTOLOGY_CONSTITUTION_SEALED",
+  "schema": "G8_1_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

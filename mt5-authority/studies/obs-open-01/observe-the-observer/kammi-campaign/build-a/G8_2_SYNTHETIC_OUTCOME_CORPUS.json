@@ -1,0 +1,12 @@
+{
+  "population_access": "NONE",
+  "purpose": "machinery_semantics_only",
+  "required_classes": [
+    "YES",
+    "NO",
+    "MIXED",
+    "UNKNOWN",
+    "NOT_EVALUABLE"
+  ],
+  "schema": "G8_2_SYNTHETIC_OUTCOME_CORPUS_V1"
+}

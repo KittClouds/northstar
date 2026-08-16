@@ -1,0 +1,11 @@
+{
+  "execution": "NOT_STARTED",
+  "schema": "G8_2_ANTI_FUNNEL_TEST_SUITE_V1",
+  "tests": [
+    "OUTCOME_REVERSAL",
+    "NULL_SURVIVAL",
+    "TOOL_REMOVAL",
+    "STORY_DELETION",
+    "NEGATIVE_CONTROL_CHALLENGE"
+  ]
+}

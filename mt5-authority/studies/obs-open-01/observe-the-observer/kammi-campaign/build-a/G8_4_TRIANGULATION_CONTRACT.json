@@ -1,0 +1,8 @@
+{
+  "cross_arm_translation": "MUST_BE_EARNED",
+  "joint_constraint_ledger": "ALLOWED",
+  "latent_object": "FORBIDDEN",
+  "majority_rule": "FORBIDDEN",
+  "native_result_languages": "PRESERVED",
+  "schema": "G8_4_TRIANGULATION_CONTRACT_V1"
+}

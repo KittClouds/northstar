@@ -1,0 +1,11 @@
+{
+  "authority": "NONE",
+  "failures": [
+    "SHARED_SEMANTIC_KERNEL",
+    "SHARED_ADAPTER",
+    "SHARED_VERIFIER",
+    "DISPLAY_TO_CAUSAL_CONTAMINATION",
+    "BLINDNESS_LEAK"
+  ],
+  "schema": "G8_3_COMMON_MODE_FAILURE_REGISTRY_V1"
+}

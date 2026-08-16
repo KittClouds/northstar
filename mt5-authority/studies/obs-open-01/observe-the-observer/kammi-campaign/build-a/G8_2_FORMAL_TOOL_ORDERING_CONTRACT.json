@@ -1,0 +1,11 @@
+{
+  "order": [
+    "QUESTION",
+    "QUESTION_FREEZE",
+    "PROOF_OBLIGATIONS",
+    "MATHEMATICAL_OR_COMPUTATIONAL_TOOL",
+    "QUALIFIED_EXPERIMENT"
+  ],
+  "reverse_order_forbidden": true,
+  "schema": "G8_2_FORMAL_TOOL_ORDERING_CONTRACT_V1"
+}

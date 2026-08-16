@@ -1,0 +1,11 @@
+{
+  "debt_fields": [
+    "SHARED_ASSUMPTION_DEBT",
+    "SHARED_IMPLEMENTATION_DEBT",
+    "SHARED_DATA_DEBT",
+    "SHARED_VERIFIER_DEBT",
+    "SHARED_FORMALISM_DEBT"
+  ],
+  "numeric_discount": "FORBIDDEN",
+  "schema": "G8_4_COMMON_MODE_ACCOUNTING_V1"
+}

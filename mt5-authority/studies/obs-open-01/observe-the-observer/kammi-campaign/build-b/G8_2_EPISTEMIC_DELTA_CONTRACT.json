@@ -1,0 +1,18 @@
+{
+  "required_per_result": [
+    "WHAT_BECOMES_KNOWN",
+    "WHAT_BECOMES_RULED_OUT",
+    "WHAT_REMAINS_UNKNOWN",
+    "WHAT_AUTHORITY_BOUNDARY_IS_EXPOSED",
+    "WHAT_NEW_FOLLOWUP_BECOMES_LEGAL",
+    "WHAT_INFERENCE_REMAINS_FORBIDDEN"
+  ],
+  "result_classes": [
+    "YES",
+    "NO",
+    "MIXED",
+    "UNKNOWN",
+    "NOT_EVALUABLE"
+  ],
+  "schema": "G8_2_EPISTEMIC_DELTA_CONTRACT_V1"
+}

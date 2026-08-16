@@ -1,0 +1,13 @@
+{
+  "default_without_authority": "NOT_COMPARABLE",
+  "fields": [
+    "left_statement_type",
+    "right_statement_type",
+    "proposed_mapping",
+    "preservation_scope",
+    "authority",
+    "assumptions",
+    "proof_or_evidence"
+  ],
+  "schema": "G8_4_CROSS_ARM_TRANSLATION_SCHEMA_V1"
+}

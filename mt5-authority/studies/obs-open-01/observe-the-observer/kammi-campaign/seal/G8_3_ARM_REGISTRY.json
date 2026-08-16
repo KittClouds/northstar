@@ -1,0 +1,52 @@
+{
+  "arms": [
+    {
+      "arm_id": "A_CONTINUATION",
+      "evidence_path": "CONTINUATION_INTERROGATION",
+      "failure_mode": "CONTINUATION_SEARCH_OR_REACHABILITY_INCOMPLETENESS",
+      "input": "QUALIFIED_OBSERVER_FIXED",
+      "outputs": [
+        "VERIFIED_FINITE_SEPARATOR",
+        "EQUIVALENT_WITH_ACCEPTED_UNIVERSAL_PROOF",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "arm_id": "B_INTERVENTION",
+      "evidence_path": "OBSERVER_INTERVENTION",
+      "failure_mode": "INTERVENTION_LINEAGE_UNRESOLVED",
+      "input": "PREQUALIFIED_INTERVENTION_CAPSULES",
+      "lineage_rule": "NEW_OBSERVER_LINEAGE_REQUALIFICATION_REQUIRED"
+    },
+    {
+      "arm_id": "C_STATIC",
+      "evidence_path": "STATIC_SEMANTIC_ANALYSIS",
+      "failure_mode": "STATIC_ANALYSIS_INCOMPLETENESS",
+      "input": "SOURCE_AND_AUTHORITY_ARTIFACTS_ONLY",
+      "population_access": "FORBIDDEN"
+    },
+    {
+      "arm_id": "D_FORMAL",
+      "evidence_path": "FORMAL_ANALYSIS",
+      "failure_mode": "THEOREM_APPLICABILITY_OR_EXPRESSIVITY",
+      "input": "FROZEN_QUESTIONS_ONLY",
+      "outputs": [
+        "FORMAL_BRIDGE_EARNED",
+        "FORMAL_BRIDGE_EARNED_UNDER_RESTRICTION",
+        "FORMAL_BRIDGE_BLOCKED",
+        "FORMAL_BRIDGE_REJECTED",
+        "UNKNOWN"
+      ]
+    },
+    {
+      "arm_id": "E_CONTROLS",
+      "evidence_path": "CONTROL_ARM",
+      "failure_mode": "TRIANGULATOR_SELF_CONTAMINATION",
+      "glory_condition": "NONE",
+      "input": "NEGATIVE_AND_MALFORMED_CONTROLS"
+    }
+  ],
+  "cross_arm_result_access": "FORBIDDEN",
+  "population_access": "FORBIDDEN_DURING_FREEZE",
+  "schema": "G8_3_ARM_REGISTRY_V1"
+}

@@ -1,0 +1,12 @@
+{
+  "arm_ids": [
+    "A_CONTINUATION",
+    "B_INTERVENTION",
+    "C_STATIC",
+    "D_FORMAL",
+    "E_CONTROLS"
+  ],
+  "independence_claim": "NOT_EARNED",
+  "objective": "VISIBLE_NON_IDENTITY_OF_ASSUMPTIONS_AND_FAILURE_MODES",
+  "schema": "G8_3_PARALLAX_ARCHITECTURE_V1"
+}

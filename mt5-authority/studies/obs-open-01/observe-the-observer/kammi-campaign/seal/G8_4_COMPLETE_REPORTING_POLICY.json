@@ -1,0 +1,14 @@
+{
+  "required_results": [
+    "POSITIVE_FINDINGS",
+    "NULL_FINDINGS",
+    "MIXED_FINDINGS",
+    "UNKNOWN",
+    "NOT_EVALUABLE",
+    "FAILED_CONTROLS",
+    "INCOMPARABILITY",
+    "PROTOCOL_FAILURE"
+  ],
+  "schema": "G8_4_COMPLETE_REPORTING_POLICY_V1",
+  "silence_as_selection": "FORBIDDEN"
+}

@@ -1,0 +1,26 @@
+{
+  "required_fields": [
+    "question_id",
+    "question_text",
+    "primitive_operation",
+    "fixed_quantities",
+    "varied_quantities",
+    "required_authority",
+    "required_adapters",
+    "observed_output_surface",
+    "explicit_non_measurements",
+    "ontology_assumptions",
+    "region_assumptions",
+    "outcome_space",
+    "authorized_update",
+    "residual_unknown",
+    "forbidden_inference",
+    "dependence_on_other_questions",
+    "shared_assumptions",
+    "common_mode_failures",
+    "result_conditioned_retuning"
+  ],
+  "result_conditioned_retuning": "FORBIDDEN",
+  "schema": "G8_2_QUESTION_PROPOSAL_SCHEMA_V1",
+  "selection": "NOT_PERFORMED"
+}

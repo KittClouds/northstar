@@ -1,0 +1,6 @@
+{
+  "old_verifier_inheritance": "FORBIDDEN",
+  "presentation_only_control": "MAY_REMAIN_NEGATIVE_CONTROL",
+  "schema": "G8_3_OBSERVER_LINEAGE_REQUALIFICATION_POLICY_V1",
+  "semantic_change": "NEW_OBSERVER_LINEAGE"
+}

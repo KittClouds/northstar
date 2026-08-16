@@ -3,6 +3,7 @@ mod authority_surface;
 mod census;
 mod covariation;
 mod intervention;
+mod kammi_campaign;
 mod literature;
 mod runtime_transport;
 mod seal;
@@ -152,9 +153,24 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 &PathBuf::from(&args[4])
             )?
         ),
+        Some("kammi-build") if args.len() == 4 => println!(
+            "{}",
+            kammi_campaign::build(&PathBuf::from(&args[2]), &PathBuf::from(&args[3]))?
+        ),
+        Some("kammi-verify") if args.len() == 3 => {
+            println!("{}", kammi_campaign::verify(&PathBuf::from(&args[2]))?)
+        }
+        Some("kammi-finalize") if args.len() == 5 => println!(
+            "{}",
+            kammi_campaign::finalize(
+                &PathBuf::from(&args[2]),
+                &PathBuf::from(&args[3]),
+                &PathBuf::from(&args[4])
+            )?
+        ),
         _ => {
             return Err(
-                "usage: obs-open-observe-the-observer <build REPO OUT|verify SEAL|finalize A B SEAL|topology-build REPO OUT|topology-verify SEAL|topology-finalize A B SEAL|rt-build REPO OUT|rt-verify SEAL|rt-finalize A B SEAL|intervention-build REPO OUT|intervention-verify SEAL|intervention-finalize A B SEAL|covariation-build REPO OUT|covariation-verify SEAL|covariation-finalize A B SEAL|authority-impact-build REPO OUT|authority-impact-verify SEAL|authority-impact-finalize A B SEAL|authority-surface-build REPO OUT|authority-surface-verify SEAL|authority-surface-finalize A B SEAL|literature-build REPO OUT|literature-verify SEAL|literature-finalize A B SEAL|sol-build REPO OUT|sol-verify SEAL|sol-finalize A B SEAL>"
+                "usage: obs-open-observe-the-observer <build REPO OUT|verify SEAL|finalize A B SEAL|topology-build REPO OUT|topology-verify SEAL|topology-finalize A B SEAL|rt-build REPO OUT|rt-verify SEAL|rt-finalize A B SEAL|intervention-build REPO OUT|intervention-verify SEAL|intervention-finalize A B SEAL|covariation-build REPO OUT|covariation-verify SEAL|covariation-finalize A B SEAL|authority-impact-build REPO OUT|authority-impact-verify SEAL|authority-impact-finalize A B SEAL|authority-surface-build REPO OUT|authority-surface-verify SEAL|authority-surface-finalize A B SEAL|literature-build REPO OUT|literature-verify SEAL|literature-finalize A B SEAL|sol-build REPO OUT|sol-verify SEAL|sol-finalize A B SEAL|kammi-build REPO OUT|kammi-verify SEAL|kammi-finalize A B SEAL>"
                     .into(),
             );
         }

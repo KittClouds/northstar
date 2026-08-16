@@ -1,0 +1,11 @@
+{
+  "adapter_change": "NEW_ROOT_AND_LINEAGE",
+  "failure": "HALT",
+  "first_operation": "ADMISSION_ONLY",
+  "outputs": [
+    "POPULATION_ADMITTED",
+    "POPULATION_REJECTED",
+    "POPULATION_QUARANTINED"
+  ],
+  "schema": "G8_5_FIRST_POPULATION_TOUCH_PROTOCOL_V1"
+}

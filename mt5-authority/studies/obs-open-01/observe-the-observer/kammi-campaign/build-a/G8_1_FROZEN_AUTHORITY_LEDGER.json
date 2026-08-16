@@ -1,0 +1,10 @@
+{
+  "constitutional_roots": {
+    "g8": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+    "oto_a1": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+    "oto_l": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+    "static": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d"
+  },
+  "post_freeze_mutation": "NEW_LINEAGE",
+  "schema": "G8_1_FROZEN_AUTHORITY_LEDGER_V1"
+}

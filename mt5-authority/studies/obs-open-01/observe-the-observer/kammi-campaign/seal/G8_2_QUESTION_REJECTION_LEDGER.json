@@ -1,0 +1,12 @@
+{
+  "entries": [],
+  "rejection_reasons": [
+    "OUTCOME_ASYMMETRY",
+    "NULL_NO_UPDATE",
+    "TOOL_DEPENDENT_VALUE",
+    "STORY_DEPENDENT",
+    "NEGATIVE_CONTROL_SENSITIVITY",
+    "SEMANTICS_UNRESOLVED"
+  ],
+  "schema": "G8_2_QUESTION_REJECTION_LEDGER_V1"
+}

@@ -1,0 +1,96 @@
+{
+  "current_observer_function_preserved": "YES_NO_SOURCE_OR_RUNTIME_MUTATION",
+  "dynamic_dof_authority": "NONE",
+  "schema": "OTO_RT_SURFACE_DECISIONS_V1",
+  "surfaces": [
+    {
+      "6116_test_artifact": "NOT_AVAILABLE",
+      "authority": "NONE",
+      "comparison_status": "NOT_EVALUABLE",
+      "market_or_outcome_rows_read": 0,
+      "operations": [
+        "_Symbol",
+        "_Period",
+        "PeriodSeconds",
+        "_Digits",
+        "TimeCurrent",
+        "TimeToStruct",
+        "StructToTime",
+        "civil_day_construction"
+      ],
+      "reason": "No paired 6106/6116 clock fixture or runtime metadata comparison was executed.",
+      "reference_class": "SEALED_G0_G8_SEMANTIC_ARTIFACT",
+      "reference_strength": "SOURCE_AND_STATIC_LINEAGE_ONLY",
+      "surface_id": "RT-1"
+    },
+    {
+      "6116_test_artifact": "NOT_AVAILABLE",
+      "authority": "NONE",
+      "comparison_status": "NOT_EVALUABLE",
+      "market_or_outcome_rows_read": 0,
+      "operations": [
+        "Bars",
+        "CopyTime",
+        "CopyHigh",
+        "CopyLow",
+        "iTime",
+        "iHigh",
+        "iLow"
+      ],
+      "reason": "6106 capture metadata exists, but no 6116 series-addressing replay artifact is available.",
+      "reference_class": "SEALED_6106_CAPTURE",
+      "reference_strength": "FIXTURE_METADATA_ONLY",
+      "surface_id": "RT-2"
+    },
+    {
+      "6116_test_artifact": "NOT_AVAILABLE",
+      "authority": "NONE",
+      "comparison_status": "NOT_EVALUABLE",
+      "market_or_outcome_rows_read": 0,
+      "operations": [
+        "iCustom",
+        "BarsCalculated",
+        "CopyBuffer",
+        "IndicatorParameters",
+        "MqlParam"
+      ],
+      "reason": "Effective 6116 parameter introspection and paired 6106 reference output are both unopened.",
+      "reference_class": "NOT_AVAILABLE",
+      "reference_strength": "NONE",
+      "surface_id": "RT-3"
+    },
+    {
+      "6116_test_artifact": "NOT_AVAILABLE",
+      "authority": "NONE",
+      "comparison_status": "NOT_EVALUABLE",
+      "market_or_outcome_rows_read": 0,
+      "operations": [
+        "OnCalculate",
+        "legacy_buffers_0_35",
+        "sentinel_buffers_36_53",
+        "fixture_replay"
+      ],
+      "reason": "Sealed 6106 fixture receipts cannot be treated as a paired 6116 execution.",
+      "reference_class": "SEALED_6106_CAPTURE",
+      "reference_strength": "FIXTURE_METADATA_ONLY",
+      "surface_id": "RT-4"
+    },
+    {
+      "6116_test_artifact": "NOT_AVAILABLE",
+      "authority": "NONE",
+      "comparison_status": "NOT_EVALUABLE",
+      "market_or_outcome_rows_read": 0,
+      "operations": [
+        "bar_zero",
+        "forming_high_low_close",
+        "provisional_sentinels",
+        "commit_transition"
+      ],
+      "reason": "No 6116 live/provisional controlled fixture was executed; INST-01 trigger limitations remain.",
+      "reference_class": "SEALED_6106_CAPTURE",
+      "reference_strength": "FIXTURE_METADATA_ONLY",
+      "surface_id": "RT-5"
+    }
+  ],
+  "top_level": "TRANSPORT_NOT_QUALIFIED"
+}

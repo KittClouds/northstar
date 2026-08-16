@@ -1,0 +1,13 @@
+{
+  "completed_bar_dynamic_dof_authority": "NONE",
+  "disposition": "HALT_DYNAMIC_BRANCH_PENDING_PAIRED_6116_ARTIFACTS",
+  "effective_parameter_binding": "NOT_EVALUABLE",
+  "execution_state": "SEALED",
+  "general_mt5_runtime_equivalence": "NOT_CLAIMED",
+  "live_forming_bar_dof_authority": "NONE",
+  "maximum_authority": "OBS_OPEN_OTO_6106_TO_6116_RUNTIME_TRANSPORT_V1_PREOPEN_AUDIT_ONLY",
+  "question_status": "NOT_EVALUABLE",
+  "schema": "OTO_RT_TYPED_FINDINGS_V1",
+  "surface_result": "TRANSPORT_NOT_QUALIFIED",
+  "trading_com_editor": "QUARANTINED"
+}

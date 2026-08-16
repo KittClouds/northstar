@@ -1,0 +1,37 @@
+{
+  "6116_fixture_execution": "NOT_PERFORMED",
+  "comparison_authority": "NOT_EVALUABLE_WITHOUT_PAIRED_6116_ARTIFACT",
+  "fixture_audit_schema": "OBS_OPEN_INST01_CONTROLLED_FIXTURE_AUDIT_V1",
+  "fixtures": [
+    {
+      "capture_metadata_only": true,
+      "capture_rows_read": 0,
+      "id": "FIXTURE_FULL_M1",
+      "purpose": "completed-bar and sentinel invariant reference",
+      "reference_class": "SEALED_6106_CAPTURE"
+    },
+    {
+      "capture_metadata_only": true,
+      "capture_rows_read": 0,
+      "id": "FIXTURE_GAP_M1",
+      "purpose": "coverage and fail-closed reference",
+      "reference_class": "SEALED_6106_CAPTURE"
+    },
+    {
+      "capture_metadata_only": true,
+      "capture_rows_read": 0,
+      "id": "FIXTURE_FULL_M5",
+      "purpose": "completed-bar timeframe reference",
+      "reference_class": "SEALED_6106_CAPTURE"
+    },
+    {
+      "capture_metadata_only": true,
+      "capture_rows_read": 0,
+      "id": "FIXTURE_GAP_M5",
+      "purpose": "M5 coverage reference",
+      "reference_class": "SEALED_6106_CAPTURE"
+    }
+  ],
+  "schema": "OTO_RT_CONTROLLED_FIXTURE_MANIFEST_V1",
+  "source_authority": "SEALED_G0_G8_SEMANTIC_ARTIFACT"
+}

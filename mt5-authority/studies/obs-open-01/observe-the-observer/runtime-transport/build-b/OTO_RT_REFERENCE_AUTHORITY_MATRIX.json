@@ -1,0 +1,34 @@
+{
+  "audit_schema": "OBS_OPEN_INST01_CONTROLLED_FIXTURE_AUDIT_V1",
+  "authority_cap": "No source-derived expectation or sealed 6106 capture alone proves 6106-to-6116 transport. A paired 6116 result is required.",
+  "dof_topology_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+  "lineage_summary": {
+    "alternate_6094_disposition": "ACTIVE_FAIL_CLOSED",
+    "exact_6106_runtime_found": false,
+    "parent_build": 6106,
+    "parent_runtime_origin": "C:/Program Files/MetaTrader 5",
+    "same_origin_candidate_build": 6116,
+    "trading_com_editor_authority": "NONE_QUARANTINED"
+  },
+  "metadata_only_inputs": {
+    "authority_manifest_sha256": "af7eab97b1c347581ff5a9a9c81cdf9a5e4d95b74ee4c3663d48ca18e434d073",
+    "capture_bytes_read": 0,
+    "capture_rows_read": 0,
+    "controlled_fixture_audit_sha256": "4c2e2226aeb308cfc9f44dca6048d82fc360f78ee1a2ee602b45d104b9d05d22",
+    "lineage_sha256": "0c5d2aeaafcb78136cd7bf07867f6d5650b473938fc35ec00999be082a841410",
+    "quarantine_sha256": "23996fa50ca9eb42d1be76e2060e0969f6f34842fb949a844aa25d10f013739a",
+    "sealed_6106_capture_metadata_consumed": true,
+    "sealed_capture_metadata_count": 10
+  },
+  "parent_inst01_root": "5930c7d4f5b2de4549bfedacbd2c3b9df7da78f68c7d765b9c0669d08a17490f",
+  "reference_classes": {
+    "NOT_AVAILABLE": "no admissible paired evidence",
+    "SEALED_6106_CAPTURE": "sealed controlled fixture metadata identifies 6106-origin capture authority; capture bytes are not read by this build",
+    "SEALED_6106_RUNTIME_OUTPUT": "not present for the transport comparison",
+    "SEALED_G0_G8_SEMANTIC_ARTIFACT": "static semantic lineage only; cannot substitute for a paired runtime observation",
+    "SOURCE_DERIVED_EXPECTATION": "source expectations are non-empirical and cannot upgrade transport status",
+    "SYNTHETIC_CONSTRUCTIVE_ORACLE": "permitted for comparator qualification only"
+  },
+  "schema": "OTO_RT_REFERENCE_AUTHORITY_MATRIX_V1",
+  "static_oto_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d"
+}

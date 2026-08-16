@@ -1,0 +1,84 @@
+{
+  "candidate_build": 6116,
+  "composition_rule": "Transport authority is compositional only where each consumed seam is qualified.",
+  "execution_boundary": "No market or outcome data; no parameter sweep; no observer source mutation.",
+  "gate": "OBS_OPEN_OTO_6106_TO_6116_RUNTIME_TRANSPORT_V1",
+  "origin": "MetaTrader-origin",
+  "parent_build": 6106,
+  "prohibited_claims": [
+    "META_TRADER_6106_EQUIVALENT_TO_6116",
+    "GENERAL_MT5_RUNTIME_EQUIVALENCE"
+  ],
+  "quarantined_build": 6094,
+  "question": "For the exact platform operations consumed by the admitted observer, does same-origin build 6116 preserve the sealed 6106 semantics needed for observer metrology?",
+  "reference_rule": "Downstream authority is capped by the weaker reference/test side.",
+  "schema": "OTO_RT_TRANSPORT_SCOPE_V1",
+  "surfaces": [
+    {
+      "id": "RT-1",
+      "name": "ENVIRONMENT_AND_CLOCK_SEMANTICS",
+      "operations": [
+        "_Symbol",
+        "_Period",
+        "PeriodSeconds",
+        "_Digits",
+        "TimeCurrent",
+        "TimeToStruct",
+        "StructToTime",
+        "civil_day_construction",
+        "DayStart",
+        "PreviousDayStart",
+        "AtMinuteOfDay"
+      ],
+      "semantic_scope": "observer-consumed clock and session ownership semantics"
+    },
+    {
+      "id": "RT-2",
+      "name": "SERIES_ADDRESSING_SEMANTICS",
+      "operations": [
+        "Bars",
+        "CopyTime",
+        "CopyHigh",
+        "CopyLow",
+        "iTime",
+        "iHigh",
+        "iLow"
+      ],
+      "semantic_scope": "resolved containing bar, boundaries, gaps and overnight transitions"
+    },
+    {
+      "id": "RT-3",
+      "name": "CUSTOM_INDICATOR_INSTANTIATION",
+      "operations": [
+        "iCustom",
+        "BarsCalculated",
+        "CopyBuffer",
+        "IndicatorParameters",
+        "MqlParam"
+      ],
+      "semantic_scope": "handle creation, buffer transfer and effective parameter introspection"
+    },
+    {
+      "id": "RT-4",
+      "name": "COMPLETED_KERNEL_REPLAY",
+      "operations": [
+        "OnCalculate",
+        "legacy_buffers_0_35",
+        "sentinel_buffers_36_53",
+        "fixture_replay"
+      ],
+      "semantic_scope": "completed-bar observer semantics on controlled fixtures"
+    },
+    {
+      "id": "RT-5",
+      "name": "FORMING_BAR_PROVISIONAL_SEMANTICS",
+      "operations": [
+        "bar_zero",
+        "forming_high_low_close",
+        "provisional_sentinels",
+        "commit_transition"
+      ],
+      "semantic_scope": "live/provisional versus committed causal knowledge"
+    }
+  ]
+}

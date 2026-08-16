@@ -1,0 +1,17 @@
+{
+  "d_b_target_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "existing_terminal_function_modified": false,
+  "indicator_output_buffers_read_during_this_build": 0,
+  "market_or_outcome_bytes_read": 0,
+  "market_or_outcome_rows_read": 0,
+  "observer_source_mutated": false,
+  "parameter_sweep_executed": false,
+  "runtime_probe_executed": false,
+  "schema": "OTO_RT_ACCESS_AUDIT_V1",
+  "source_and_receipt_metadata_read": true,
+  "trading_com_editor_invoked": false,
+  "trading_com_editor_path": "C:/Program Files/Trading.com Markets MT5/metaeditor64.exe",
+  "trading_com_editor_status": "QUARANTINED_DO_NOT_INVOKE"
+}

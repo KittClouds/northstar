@@ -1,0 +1,46 @@
+{
+  "logical_root": "b88f7f438fa0005da617fabc99a552f99f87ee33becb57ad0cc83d882cd7e977",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 2540,
+        "path": "OTO_RT_TRANSPORT_SCOPE_V1.json",
+        "sha256": "1bfdd8a7a930d58db6ae972a5cdc8f4019e9aa34c72494459d77eb91167d3fad"
+      },
+      {
+        "bytes": 2043,
+        "path": "OTO_RT_REFERENCE_AUTHORITY_MATRIX.json",
+        "sha256": "1ec64880309bcf1fac9d3c9ff1ec6a3f60a0065f3011358636a7bcecf3a64d5f"
+      },
+      {
+        "bytes": 1170,
+        "path": "OTO_RT_CONTROLLED_FIXTURE_MANIFEST.json",
+        "sha256": "9b0df30d3f73cc368c4507c1d0c1f27241ae3889f933321ace2a34d5469acd6f"
+      },
+      {
+        "bytes": 3037,
+        "path": "OTO_RT_SURFACE_DECISIONS.json",
+        "sha256": "4601c6de62cd8963cbaef1b1ded0a0ae23f8ff4357b66ec4b07b9d56ead24bd1"
+      },
+      {
+        "bytes": 620,
+        "path": "OTO_RT_ACCESS_AUDIT.json",
+        "sha256": "2ee0c9e691813d8ba0e07210f1babe551c1d4a9fa091c3cc0ed0db9f9857197b"
+      },
+      {
+        "bytes": 555,
+        "path": "OTO_RT_TYPED_FINDINGS.json",
+        "sha256": "7d2cf5e0b9ce80824e43ddb0ab8896e5237b5ccaf0c0f2c64247b7b48dd35756"
+      }
+    ],
+    "authority": "OBS_OPEN_OTO_6106_TO_6116_RUNTIME_TRANSPORT_V1",
+    "candidate": "MetaTrader-origin build 6116",
+    "parent_dof_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+    "parent_inst01_root": "5930c7d4f5b2de4549bfedacbd2c3b9df7da78f68c7d765b9c0669d08a17490f",
+    "parent_source_recovery_root": "32e1207717afc29533e8a8fb0a7e0f329f9e092f58f3fb3c58d5661c5b7dd0fa",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "reference_build": 6106,
+    "schema": "OTO_RT_ROOT_PAYLOAD_V1"
+  },
+  "schema": "OTO_RT_ROOT_RECEIPT_V1"
+}

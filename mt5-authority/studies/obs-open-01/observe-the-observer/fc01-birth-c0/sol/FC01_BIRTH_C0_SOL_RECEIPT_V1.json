@@ -1,0 +1,24 @@
+{
+  "schema": "FC01_BIRTH_C0_SOL_RECEIPT_V1",
+  "role": "AUTHORITY_OF_AUTHORITY_ARCHAEOLOGY",
+  "status": "SEALED",
+  "result": "GRANT_CREATION_AUTHORITY_NOT_ESTABLISHED",
+  "searched_universe": "SEALED_FC01_G0_G8_LINEAGE_AND_REFERENCED_CAMPAIGN_CONTRACTS",
+  "creation_authority_root": "NOT_FOUND",
+  "authority_class": "NOT_ESTABLISHED",
+  "may_create_new_descendant_producer_authority": "NOT_ESTABLISHED",
+  "authorized_grant_classes": [],
+  "current_directive": "NOT_A_SEALED_META_AUTHORITY_ROOT",
+  "historical_status_preserved": true,
+  "grant_consumability": "BLOCKED",
+  "positive_findings": [
+    "BIRTH_ROOT_EXISTS_AS_NEW_LINEAGE_EVENT",
+    "BIRTH_GRANTS_ARE_EXPLICITLY_RESTRICTED",
+    "BIRTH_GRANTS_DO_NOT_CLAIM_HISTORICAL_AUTHORITY"
+  ],
+  "nonclaims": [
+    "BIRTH_REVOKED",
+    "AUTHORITY_ORPHAN_PROVEN",
+    "NO_META_AUTHORITY_OUTSIDE_SEARCH_UNIVERSE"
+  ]
+}

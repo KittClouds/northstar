@@ -1,0 +1,45 @@
+{
+  "schema": "FC01_BIRTH_C0_KAMMI_RECEIPT_V1",
+  "role": "AUTHORITY_OF_AUTHORITY_ADVERSARIAL_AUDIT",
+  "status": "SEALED",
+  "result": "AUDIT_CONFIRMS_CONSUMABILITY_BLOCK",
+  "attacks": [
+    {
+      "attack": "FC01_BIRTH_SELF_AUTHORIZES_ITS_OWN_GRANTS",
+      "result": "REJECTED_SELF_AUTHORITY"
+    },
+    {
+      "attack": "CURRENT_USER_DIRECTIVE_IS_A_SEALED_META_AUTHORITY_ROOT",
+      "result": "REJECTED_NOT_SEALED_ROOT"
+    },
+    {
+      "attack": "FC01_OWN_SEMANTIC_OWNER_GRANTS_CREATION_AUTHORITY",
+      "result": "REJECTED_ROLE_COLLAPSE"
+    },
+    {
+      "attack": "G8_CONSUMER_DEMAND_GRANTS_BIRTH_JURISDICTION",
+      "result": "REJECTED_CONSUMER_TO_GOVERNANCE_LAUNDERING"
+    },
+    {
+      "attack": "GRANT_EXISTS_THEREFORE_GRANT_IS_CONSUMABLE",
+      "result": "REJECTED_C0_PREREQUISITE_MISSING"
+    },
+    {
+      "attack": "ADAPTER_IS_FIRST_BY_DEPENDENCY_INTUITION",
+      "result": "REJECTED_ROOTS_INCOMPARABLE"
+    },
+    {
+      "attack": "FINITE_BOX_IS_FIRST_BY_ROADMAP_NAME",
+      "result": "REJECTED_ROOTS_INCOMPARABLE"
+    }
+  ],
+  "creation_authority_result": "NOT_ESTABLISHED",
+  "grant_consumability": "BLOCKED",
+  "scheduled_root": "NONE",
+  "population_access": 0,
+  "nonclaims": [
+    "BIRTH_REVOKED",
+    "AUTHORITY_ORPHAN_PROVEN",
+    "NO_META_AUTHORITY_OUTSIDE_SEARCH_UNIVERSE"
+  ]
+}

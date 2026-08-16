@@ -1,0 +1,32 @@
+{
+  "schema": "FC01_BIRTH_C0_KAGE_CLOSURE_RECEIPT_V1",
+  "role": "AUTHORITY_OF_AUTHORITY_AND_SCHEDULER_CLOSURE",
+  "status": "SEALED",
+  "result": "GRANT_CREATION_AUTHORITY_NOT_ESTABLISHED",
+  "checks": {
+    "birth_fossil_unchanged": "PASS",
+    "historical_producer_status_preserved": "PASS",
+    "existing_creation_authority_root_bound": "FAIL",
+    "authorized_grant_classes_bound": "FAIL",
+    "semantic_authority_creation_forbidden": "PASS",
+    "instance_creation_separate": "PASS",
+    "qualification_separate": "PASS",
+    "transport_separate": "PASS",
+    "grant_consumability_blocked": "PASS",
+    "eligible_roots_recorded": "PASS",
+    "root_order": "INCOMPARABLE",
+    "precommitted_scheduler_law": "NOT_FOUND",
+    "scheduled_root": "NONE",
+    "construction_activity": 0,
+    "g8_verifier_invocations": 0,
+    "population_access": 0
+  },
+  "scheduler_action": "HOLD",
+  "next_gate_woken": "NONE",
+  "nonclaims": [
+    "BIRTH_REVOKED",
+    "AUTHORITY_ORPHAN_PROVEN",
+    "ADAPTER_DOMINATES_FINITE_BOX",
+    "FINITE_BOX_DOMINATES_ADAPTER"
+  ]
+}

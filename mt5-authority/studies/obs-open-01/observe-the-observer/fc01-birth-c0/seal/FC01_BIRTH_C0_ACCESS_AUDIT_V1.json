@@ -1,0 +1,30 @@
+{
+  "schema": "FC01_BIRTH_C0_ACCESS_AUDIT_V1",
+  "status": "SEALED",
+  "gate": "FC01-BIRTH-C0",
+  "sealed_authority_metadata_reads": 1,
+  "real_04a_history_reads": 0,
+  "real_04a_trace_reads": 0,
+  "population_reads": 0,
+  "population_derived_content_reads": 0,
+  "population_derived_metadata_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "pair_reads": 0,
+  "grant_consumption": 0,
+  "adapter_implementation": 0,
+  "question_box_bound_selection": 0,
+  "token_realization": 0,
+  "fiber_construction": 0,
+  "comparison_construction": 0,
+  "certificate_construction": 0,
+  "g8_verifier_invocations": 0,
+  "explorer_invocations": 0,
+  "scheduler_execution": 0,
+  "access_posture": "AUTHORITY_OF_AUTHORITY_AUDIT_ONLY",
+  "nonclaims": [
+    "AUTHORITY_METADATA_READ_IS_POPULATION_READ",
+    "BIRTH_REVOKED",
+    "NO_META_AUTHORITY_OUTSIDE_DECLARED_SEARCH_UNIVERSE"
+  ]
+}

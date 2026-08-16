@@ -1,0 +1,32 @@
+{
+  "schema": "FC01_BIRTH_C0_GRANT_CONSUMABILITY_AND_SCHEDULER_AUDIT_V1",
+  "status": "SEALED",
+  "creation_authority_result": "GRANT_CREATION_AUTHORITY_NOT_ESTABLISHED",
+  "grant_consumability": {
+    "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V1": "NON_CONSUMABLE_PENDING_C0",
+    "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V1": "NON_CONSUMABLE_PENDING_C0"
+  },
+  "historical_status_preserved": {
+    "G8_04A_SEMANTIC_ADAPTER": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_AUTHORITY": "PRODUCER_AUTHORITY_NOT_IDENTIFIED"
+  },
+  "eligible_roots_inherited_from_birth": [
+    "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+    "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+  ],
+  "root_order_relation": "INCOMPARABLE",
+  "adapter_precedes_question_box": false,
+  "question_box_precedes_adapter": false,
+  "precommitted_scheduler_law_found": false,
+  "scheduled_root": "NONE",
+  "scheduler_status": "NOT_ACTIVATED_C0_FAILED",
+  "construction_activity": 0,
+  "population_access": 0,
+  "nonclaims": [
+    "FC01C_IS_NEXT",
+    "FC01D_IS_NEXT",
+    "ADAPTER_DOMINATES_FINITE_BOX",
+    "FINITE_BOX_DOMINATES_ADAPTER",
+    "GRANTS_REVOKED"
+  ]
+}

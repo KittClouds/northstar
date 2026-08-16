@@ -1,0 +1,22 @@
+{
+  "schema": "KAGE_FINITE_BOX_INSTANCE_BINDING_RECEIPT_V1",
+  "role": "KAGE",
+  "status": "NOT_EVALUABLE",
+  "conjunction": {
+    "exact_rule_root_bound": true,
+    "exact_authority_roots_bound": true,
+    "exact_input_vector_bound": true,
+    "single_rule_application": true,
+    "schema_validation": "FAIL",
+    "finite_box_instance": "NONE",
+    "actual_bounds_zero": true,
+    "downstream_activity_zero": true,
+    "population_access_zero": true
+  },
+  "next_action": "DAG_RECOMPUTE_AND_HOLD",
+  "nonclaims": [
+    "FINITE_BOX_INSTANCE",
+    "TOKEN_AUTHORITY",
+    "G8_AUTHORITY"
+  ]
+}

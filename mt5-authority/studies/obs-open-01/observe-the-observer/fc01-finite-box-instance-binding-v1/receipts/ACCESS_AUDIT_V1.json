@@ -1,0 +1,23 @@
+{
+  "schema": "FC01_FINITE_BOX_INSTANCE_BINDING_ACCESS_AUDIT_V1",
+  "status": "PASS_ZERO_PROTECTED_ACCESS",
+  "execution_count": 1,
+  "retries": 0,
+  "fallbacks": 0,
+  "manual_overrides": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance_created": 0,
+  "tokens_realized": 0,
+  "pairs": 0,
+  "fibers": 0,
+  "comparisons": 0,
+  "certificates": 0,
+  "coverage_receipts": 0,
+  "g8_verifier_invocations": 0,
+  "explorer_invocations": 0,
+  "population_reads": 0,
+  "real_04a_history_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "fixture_provenance": "SEALED_CONTRACTS_AND_DECLARED_TYPE_DOMAINS_ONLY"
+}

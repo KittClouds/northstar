@@ -1,0 +1,56 @@
+{
+  "schema": "FC01_FINITE_BOX_INSTANCE_BINDING_CONTRACT_V1",
+  "gate": "FC01_FINITE_BOX_INSTANCE_BINDING_V1",
+  "status": "LIVE_ONE_SHOT_BINDING",
+  "qualified_rule_root": "823A7198C62563C1C7A76E58BBECF18DE662E06F72A1D2FBA76F00E9DD8C52F0",
+  "rule_qualification_authority_root": "9F463DBF90F1481D7282CD51151C747F62CE8643BFA60C1C920DF0ACE33EA1BF",
+  "v2_binding_authority_root": "2B04972F9345A37F249E28584F52F678DF109DE7D0DBEED30724434EE076072F",
+  "input_vector": "FINITE_BOX_INSTANCE_BINDING_INPUT_VECTOR_V1",
+  "input_vector_root": "41AF4DC7B5B43DEE426B5DCEE8B28CCDDB397BC953C20D9F10BB849E29118170",
+  "execution_count": 1,
+  "retries": 0,
+  "fallbacks": 0,
+  "manual_overrides": 0,
+  "required_parameter_registry": "FINITE_BOX_PARAMETER_REGISTRY_V1",
+  "verdict_namespaces": [
+    "RULE_APPLICATION",
+    "FINITE_BOX_SCHEMA_VALIDATION",
+    "FINITE_BOX_AUTHORITY_BINDING"
+  ],
+  "schema_requirements": {
+    "all_registered_parameters_bound": true,
+    "finite_integer_bounds_positive": true,
+    "enum_domains_declared": true,
+    "canonical_order_preserved": true,
+    "box_cardinality_finite": true,
+    "proof_box_is_finite": true
+  },
+  "allowed_operations": [
+    "BIND_EXACT_ROOTS",
+    "READ_FROZEN_AUTHORIZED_INPUT_VECTOR",
+    "INVOKE_QUALIFIED_RULE_ONCE",
+    "VALIDATE_RULE_OUTPUT_AGAINST_SEALED_SCHEMA",
+    "CANONICAL_SERIALIZE_EXACT_OUTPUT"
+  ],
+  "forbidden_operations": [
+    "RETRY",
+    "ALTERNATE_CONFIGURATION",
+    "FALLBACK",
+    "CLAMPING",
+    "ROUNDING",
+    "DEFAULT_SUBSTITUTION",
+    "MANUAL_OVERRIDE",
+    "TOKEN_REALIZATION",
+    "PAIR_CONSTRUCTION",
+    "FIBER_CONSTRUCTION",
+    "COMPARISON_CONSTRUCTION",
+    "CERTIFICATE_CONSTRUCTION",
+    "G8_VERIFIER_INVOCATION",
+    "POPULATION_ACCESS"
+  ],
+  "post_bind_mutation": "FORBIDDEN",
+  "scientific_sufficiency": "NOT_CLAIMED",
+  "global_exhaustiveness": "NOT_CLAIMED",
+  "global_minimality": "NOT_CLAIMED",
+  "outside_box_witness_absence": "NOT_CLAIMED"
+}

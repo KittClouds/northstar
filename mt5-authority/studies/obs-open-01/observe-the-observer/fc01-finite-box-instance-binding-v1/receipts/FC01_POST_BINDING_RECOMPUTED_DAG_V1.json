@@ -1,0 +1,24 @@
+{
+  "schema": "FC01_POST_BINDING_RECOMPUTED_DAG_V1",
+  "status": "DAG_RECOMPUTED_AFTER_BINDING_NOT_EVALUABLE",
+  "parent_dag_root": "077A3554F87F488AD2ACB57BD332DFAF5CDFEF227643A44189CBA6AF6689E1C1",
+  "binding_execution_result_root": "CEE881B349251615813D9A8F222C3FCB9F85C824DBF94D91768C7B61D02A3E76",
+  "binding_gate_status": "NOT_EVALUABLE",
+  "finite_box_instance_root": null,
+  "actual_bounds_bound": 0,
+  "eligible_unscheduled_roots": [],
+  "scheduler_action": "HOLD_NO_NEW_AUTHORITY_ARTIFACT",
+  "token_realization": 0,
+  "pairs": 0,
+  "fibers": 0,
+  "comparisons": 0,
+  "certificates": 0,
+  "coverage_receipts": 0,
+  "g8_verifier_invocations": 0,
+  "population_access": 0,
+  "nonclaims": [
+    "FINITE_BOX_INSTANCE_EXISTS",
+    "G5_TOKEN_REALIZATION_IS_ELIGIBLE",
+    "G8_AUTHORITY"
+  ]
+}

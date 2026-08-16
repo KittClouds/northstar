@@ -1,0 +1,40 @@
+{
+  "schema": "FINITE_BOX_INSTANCE_BINDING_RECEIPT_V1",
+  "status": "NOT_EVALUABLE",
+  "gate": "FC01_FINITE_BOX_INSTANCE_BINDING_V1",
+  "contract_root": "178EF9C9EAAAAE7B170BDAEF7CA1222D57F3C566986A4AA85CF251CB0EDF7807",
+  "qualified_rule_root": "823A7198C62563C1C7A76E58BBECF18DE662E06F72A1D2FBA76F00E9DD8C52F0",
+  "rule_qualification_authority_root": "9F463DBF90F1481D7282CD51151C747F62CE8643BFA60C1C920DF0ACE33EA1BF",
+  "v2_binding_authority_root": "2B04972F9345A37F249E28584F52F678DF109DE7D0DBEED30724434EE076072F",
+  "input_vector_root": "41AF4DC7B5B43DEE426B5DCEE8B28CCDDB397BC953C20D9F10BB849E29118170",
+  "implementation_root": "5BCB6AABA2B08239FFD7B63FB5CB01A544CE9094EAA18E3184C9DEEFE072A68F",
+  "qualification_runner_root": "CFD7A2E337CBAFC90FE20E07A86BFE05BBC41CF07C413ACE4DE5D72D3A90563D",
+  "execution_result_root": "CEE881B349251615813D9A8F222C3FCB9F85C824DBF94D91768C7B61D02A3E76",
+  "verdicts": {
+    "RULE_APPLICATION": "PASS",
+    "FINITE_BOX_SCHEMA_VALIDATION": "FAIL",
+    "FINITE_BOX_AUTHORITY_BINDING": "NOT_EVALUABLE"
+  },
+  "unbound_parameter_count": 10,
+  "finite_box_instance": "NONE",
+  "execution_count": 1,
+  "retries": 0,
+  "fallbacks": 0,
+  "manual_overrides": 0,
+  "actual_bounds_bound": 0,
+  "tokens_realized": 0,
+  "pairs": 0,
+  "fibers": 0,
+  "comparisons": 0,
+  "certificates": 0,
+  "coverage_receipts": 0,
+  "g8_verifier_invocations": 0,
+  "population_reads": 0,
+  "nonclaims": [
+    "RULE_REPAIR",
+    "BOUND_DEFAULTS",
+    "FINITE_BOX_INSTANCE",
+    "TOKEN_AUTHORITY",
+    "G8_AUTHORITY"
+  ]
+}

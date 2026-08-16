@@ -1,0 +1,24 @@
+{
+  "schema": "KAMMI_FINITE_BOX_INSTANCE_BINDING_RECEIPT_V1",
+  "role": "KAMMI",
+  "status": "PASS_ATTACK_CONFIRMED",
+  "witnesses_found": 0,
+  "checks": {
+    "single_execution": "PASS",
+    "no_retry": "PASS",
+    "no_fallback": "PASS",
+    "no_default_substitution": "PASS",
+    "no_clamping_or_rounding": "PASS",
+    "schema_failure_exposed": "PASS",
+    "no_instance_fabricated": "PASS",
+    "downstream_leakage": "0"
+  },
+  "unbound_parameter_count": 10,
+  "actual_bounds_bound": 0,
+  "population_reads": 0,
+  "nonclaims": [
+    "RULE_IS_BAD",
+    "ALTERNATE_BOUNDS",
+    "FINITE_BOX_INSTANCE"
+  ]
+}

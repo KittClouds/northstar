@@ -1,0 +1,21 @@
+{
+  "schema": "SOL_FINITE_BOX_INSTANCE_BINDING_RECEIPT_V1",
+  "role": "SOL",
+  "status": "NOT_EVALUABLE",
+  "rule_application": "PASS",
+  "schema_validation": "FAIL",
+  "authority_binding": "NOT_EVALUABLE",
+  "cause": "ALL_TEN_REGISTERED_PARAMETER_CLASSES_REMAIN_UNBOUND",
+  "execution_count": 1,
+  "retries": 0,
+  "fallbacks": 0,
+  "manual_overrides": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "population_reads": 0,
+  "nonclaims": [
+    "BOUND_VALUES",
+    "FINITE_BOX_INSTANCE",
+    "RULE_DEFECT"
+  ]
+}

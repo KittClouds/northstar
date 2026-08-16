@@ -1,0 +1,16 @@
+{
+  "channels": [
+    "FILES",
+    "SIZES",
+    "TIMESTAMPS",
+    "DURATION",
+    "CPU",
+    "MEMORY",
+    "CACHE",
+    "LOGS",
+    "EXIT_STATUS"
+  ],
+  "pre_unlock_visibility": 0,
+  "schema": "KAMMI_P2_CROSS_ARM_INFORMATION_FLOW_AUDIT_V1",
+  "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT"
+}

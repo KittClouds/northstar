@@ -1,0 +1,9 @@
+{
+  "audit_completeness": "NOT_EARNED",
+  "authority_gain": "NONE",
+  "instance_audit_required": true,
+  "population_authority": "NONE",
+  "result": "PARALLAX_FAILURE_AUDIT_SEALED_WITH_RESTRICTIONS",
+  "schema": "KAMMI_P2_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

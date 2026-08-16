@@ -1,0 +1,17 @@
+{
+  "04a_reads": 0,
+  "arm_executions": 0,
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "g9_execution": 0,
+  "kammi_protocol_artifacts_read": 1,
+  "moxie_access": "FORBIDDEN",
+  "outcome_reads": 0,
+  "population_contact": 0,
+  "real_history_reads": 0,
+  "real_pair_reads": 0,
+  "schema": "KAMMI_P2_ACCESS_AUDIT_V1",
+  "sol_branch_reads": 0,
+  "trading_com_editor_invoked": false
+}

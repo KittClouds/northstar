@@ -1,0 +1,6 @@
+{
+  "authority_preserving_transformations_create_new_authority": false,
+  "no_descendant_authority_gain": true,
+  "schema": "KAMMI_P2_AUTHORITY_PROPAGATION_AUDIT_V1",
+  "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+}

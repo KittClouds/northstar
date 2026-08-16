@@ -1,0 +1,78 @@
+{
+  "frozen_before_fixture_execution": true,
+  "schema": "KAMMI_P2_METAMORPHIC_EXPECTATIONS_V1",
+  "tests": [
+    {
+      "allowed_change": "arm_order_may_change_only",
+      "expected_invariance": "synthesis_and_authority",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "ARM_ID_PERMUTATION"
+    },
+    {
+      "allowed_change": "result_class_may_not_change",
+      "expected_invariance": "question_family_identity",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "QUESTION_ID_PERMUTATION"
+    },
+    {
+      "allowed_change": "semantics_preserved",
+      "expected_invariance": "result_semantics",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "RESULT_LABEL_RENAMING"
+    },
+    {
+      "allowed_change": "corresponding_swap_only",
+      "expected_invariance": "epistemic_delta_mapping",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "YES_NO_SYMBOL_RENAMING"
+    },
+    {
+      "allowed_change": "no_authority_change",
+      "expected_invariance": "declared_order_insensitive_view",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "ORDER_PERMUTATION"
+    },
+    {
+      "allowed_change": "no_causal_change",
+      "expected_invariance": "causal_surface",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "PRESENTATION_ONLY_MUTATION"
+    },
+    {
+      "allowed_change": "no_independence_gain",
+      "expected_invariance": "evidence_count",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "DUPLICATE_ARM_INSERTION"
+    },
+    {
+      "allowed_change": "no_multiplicity_gain",
+      "expected_invariance": "evidence_count",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "DUPLICATE_QUESTION_INSERTION"
+    },
+    {
+      "allowed_change": "no_claim_change",
+      "expected_invariance": "protected_surface",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "SEMANTICS_PRESERVING_REPRESENTATION_CHANGE"
+    },
+    {
+      "allowed_change": "common_mode_must_remain_visible",
+      "expected_invariance": "dependency_ledger",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "SYNTHETIC_COMMON_MODE_INJECTION"
+    },
+    {
+      "allowed_change": "selection_channel_must_be_visible",
+      "expected_invariance": "selection_ledger",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "SYNTHETIC_ADMISSION_FILTER_INJECTION"
+    },
+    {
+      "allowed_change": "no_automatic_composition",
+      "expected_invariance": "cross_arm_composition",
+      "forbidden_change": "scientific_authority_or_target_binding",
+      "metamorphism_id": "TRANSLATION_CHAIN_INSERTION"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "cross_arm_reallocation": "FORBIDDEN",
+  "resume_policy": "MUST_BE_FROZEN",
+  "schema": "KAMMI_P2_RESOURCE_ALLOCATION_AUDIT_V1",
+  "status": "INSTANCE_DEPENDENT"
+}

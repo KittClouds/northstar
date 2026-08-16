@@ -1,0 +1,6 @@
+{
+  "arm_visibility": "MINIMUM_REQUIRED_ONLY",
+  "rejection_reason_steering": "FORBIDDEN",
+  "schema": "KAMMI_P2_ADMISSION_METADATA_VISIBILITY_POLICY_V1",
+  "status": "INSTANCE_DEPENDENT"
+}

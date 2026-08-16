@@ -1,0 +1,8 @@
+{
+  "audit_completeness": "NOT_EARNED",
+  "instance_audit_required_before_first_touch": true,
+  "mission": "ARCHITECTURE_ONLY_ADVERSARIAL_AUDIT",
+  "neutrality_claim": "FORBIDDEN",
+  "repair_policy": "NEW_CAMPAIGN_LINEAGE",
+  "schema": "KAMMI_P2_ADVERSARIAL_AUDIT_CONSTITUTION_V1"
+}

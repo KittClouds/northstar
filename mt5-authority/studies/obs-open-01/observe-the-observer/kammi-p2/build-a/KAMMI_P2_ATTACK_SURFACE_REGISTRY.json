@@ -1,0 +1,120 @@
+{
+  "audit_completeness": "NOT_EARNED",
+  "audit_scope": "DECLARED_ATTACK_SURFACE_REGISTRY",
+  "frozen_before_fixture_execution": true,
+  "schema": "KAMMI_P2_ATTACK_SURFACE_REGISTRY_V1",
+  "surfaces": [
+    {
+      "consequence": "ONTOLOGY_LEAK",
+      "expected_audit_status": "NO_EXPLOIT_FOUND_UNDER_DECLARED_ATTACK",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "A_ONTOLOGY_LEAKAGE"
+    },
+    {
+      "consequence": "REGION_LEAK",
+      "expected_audit_status": "INSTANCE_DEPENDENT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "B_REGION_LEAKAGE"
+    },
+    {
+      "consequence": "PARALLAX_DEGRADATION",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "C_FAKE_PARALLAX"
+    },
+    {
+      "consequence": "COMMON_MODE_AMPLIFICATION",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "D_SHARED_BUG_CONVERGENCE"
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "E_QUESTION_MULTIPLICITY"
+    },
+    {
+      "consequence": "CONTROL_FAILURE",
+      "expected_audit_status": "NO_EXPLOIT_FOUND_UNDER_DECLARED_ATTACK",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "F_NEGATIVE_CONTROL_INSUFFICIENCY"
+    },
+    {
+      "consequence": "SYNTHESIS_INFLATION",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "G_TRANSLATION_LAUNDERING"
+    },
+    {
+      "consequence": "ONTOLOGY_LEAK",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "H_LATENT_OBJECT_ACCUMULATION"
+    },
+    {
+      "consequence": "SYNTHESIS_INFLATION",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "I_NARRATIVE_MAJORITY"
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "expected_audit_status": "INSTANCE_DEPENDENT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "J_ADMISSION_SELECTION"
+    },
+    {
+      "consequence": "AUTHORITY_CORRUPTION",
+      "expected_audit_status": "INSTANCE_DEPENDENT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "K_RESULT_OPPORTUNITY_ASYMMETRY"
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "L_PROTOCOL_ADAPTATION"
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "expected_audit_status": "INSTANCE_DEPENDENT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "M_RESOURCE_STEERING"
+    },
+    {
+      "consequence": "BLINDNESS_CHANNEL",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "N_INFORMATION_FLOW_SIDE_CHANNEL"
+    },
+    {
+      "consequence": "COMMON_MODE_AMPLIFICATION",
+      "expected_audit_status": "INSTANCE_DEPENDENT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "O_SHARED_TCB_PARALLAX"
+    },
+    {
+      "consequence": "ONTOLOGY_LEAK",
+      "expected_audit_status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "instance_audit_required": true,
+      "repair_applied": false,
+      "surface_id": "P_TOOL_ATTRACTION_AND_REDTOLOGY"
+    }
+  ]
+}

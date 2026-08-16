@@ -1,0 +1,263 @@
+{
+  "control_results": [
+    {
+      "control_id": "PRESENTATION_ONLY_CONTROL",
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "control_id": "DUPLICATE_ARM_CONTROL",
+      "status": "PASS_NO_INDEPENDENCE_GAIN"
+    },
+    {
+      "control_id": "KNOWN_COMMON_MODE_BUG_CONTROL",
+      "status": "PASS_COMMON_MODE_VISIBLE"
+    },
+    {
+      "control_id": "SYNTHETIC_FALSE_STRUCTURE_CONTROL",
+      "status": "PASS_TRIANGULATOR_ATTRIBUTION"
+    },
+    {
+      "control_id": "TRANSLATION_CYCLE_CONTROL",
+      "status": "PASS_NO_LATENT_SUBJECT_BINDING"
+    }
+  ],
+  "fixtures_are_not_population_evidence": true,
+  "metamorphic_results": [
+    {
+      "expected_invariance": "synthesis_and_authority",
+      "metamorphism_id": "ARM_ID_PERMUTATION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "question_family_identity",
+      "metamorphism_id": "QUESTION_ID_PERMUTATION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "result_semantics",
+      "metamorphism_id": "RESULT_LABEL_RENAMING",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "epistemic_delta_mapping",
+      "metamorphism_id": "YES_NO_SYMBOL_RENAMING",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "declared_order_insensitive_view",
+      "metamorphism_id": "ORDER_PERMUTATION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "causal_surface",
+      "metamorphism_id": "PRESENTATION_ONLY_MUTATION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "evidence_count",
+      "metamorphism_id": "DUPLICATE_ARM_INSERTION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "evidence_count",
+      "metamorphism_id": "DUPLICATE_QUESTION_INSERTION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "protected_surface",
+      "metamorphism_id": "SEMANTICS_PRESERVING_REPRESENTATION_CHANGE",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "dependency_ledger",
+      "metamorphism_id": "SYNTHETIC_COMMON_MODE_INJECTION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "selection_ledger",
+      "metamorphism_id": "SYNTHETIC_ADMISSION_FILTER_INJECTION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    },
+    {
+      "expected_invariance": "cross_arm_composition",
+      "metamorphism_id": "TRANSLATION_CHAIN_INSERTION",
+      "population_access": 0,
+      "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+    }
+  ],
+  "schema": "KAMMI_P2_SYNTHETIC_FIXTURE_RESULTS_V1",
+  "surface_results": [
+    {
+      "consequence": "ONTOLOGY_LEAK",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "NO_EXPLOIT_FOUND_UNDER_DECLARED_ATTACK",
+      "surface_id": "A_ONTOLOGY_LEAKAGE",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "REGION_LEAK",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": true,
+      "status": "INSTANCE_DEPENDENT",
+      "surface_id": "B_REGION_LEAKAGE",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "PARALLAX_DEGRADATION",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "C_FAKE_PARALLAX",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "COMMON_MODE_AMPLIFICATION",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "D_SHARED_BUG_CONVERGENCE",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "E_QUESTION_MULTIPLICITY",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "CONTROL_FAILURE",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "NO_EXPLOIT_FOUND_UNDER_DECLARED_ATTACK",
+      "surface_id": "F_NEGATIVE_CONTROL_INSUFFICIENCY",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "SYNTHESIS_INFLATION",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "G_TRANSLATION_LAUNDERING",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "ONTOLOGY_LEAK",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "H_LATENT_OBJECT_ACCUMULATION",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "SYNTHESIS_INFLATION",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "I_NARRATIVE_MAJORITY",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": true,
+      "status": "INSTANCE_DEPENDENT",
+      "surface_id": "J_ADMISSION_SELECTION",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "AUTHORITY_CORRUPTION",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": true,
+      "status": "INSTANCE_DEPENDENT",
+      "surface_id": "K_RESULT_OPPORTUNITY_ASYMMETRY",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "L_PROTOCOL_ADAPTATION",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "SELECTION_CHANNEL",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": true,
+      "status": "INSTANCE_DEPENDENT",
+      "surface_id": "M_RESOURCE_STEERING",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "BLINDNESS_CHANNEL",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "N_INFORMATION_FLOW_SIDE_CHANNEL",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "COMMON_MODE_AMPLIFICATION",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": true,
+      "status": "INSTANCE_DEPENDENT",
+      "surface_id": "O_SHARED_TCB_PARALLAX",
+      "synthetic_only": true
+    },
+    {
+      "consequence": "ONTOLOGY_LEAK",
+      "exploit_changes_campaign": false,
+      "fixture_kind": "CONSTRUCTED_FAILURE_MECHANISM",
+      "repair_applied": false,
+      "repair_required": false,
+      "status": "CHANNEL_BLOCKED_BY_SEALED_CONTRACT",
+      "surface_id": "P_TOOL_ATTRACTION_AND_REDTOLOGY",
+      "synthetic_only": true
+    }
+  ],
+  "unknown_failure_modes": "NOT_EXCLUDED"
+}

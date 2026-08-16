@@ -1,0 +1,9 @@
+{
+  "attack_surface_registry_sha256": "8e9d9e3834e311d31063b96ae761d23acdb84b7ad880546d20b105befcbbaf68",
+  "fixture_execution_started_after_freeze": true,
+  "frozen_before_fixture_execution": true,
+  "metamorphic_expectations_sha256": "a77751c4f38225628228791d32b378c28c1e0e82e1b09b7d2302a3ff64c01451",
+  "population_access": 0,
+  "repair_applied": false,
+  "schema": "KAMMI_P2_FREEZE_RECEIPT_V1"
+}

@@ -1,0 +1,6 @@
+{
+  "constraint_provenance": "REQUIRED",
+  "existential_binding": "NOT_EARNED",
+  "implicit_common_subject": "FORBIDDEN",
+  "schema": "KAMMI_P2_LATENT_SUBJECT_BINDING_AUDIT_V1"
+}

@@ -1,0 +1,181 @@
+{
+  "logical_root": "cd9ea746f3d1712b032ccf582cc1e54c1d8ebfa751e79f7ffe7f93d2a1c42405",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 283,
+        "path": "KAMMI_P2_ADVERSARIAL_AUDIT_CONSTITUTION.json",
+        "sha256": "dc98ab0219c9589bf1214ae15bc63bb231b22684955117ca93e9b438d2fe4f05"
+      },
+      {
+        "bytes": 3988,
+        "path": "KAMMI_P2_ATTACK_SURFACE_REGISTRY.json",
+        "sha256": "37e3bf2e720add87b0b0ece95786f6fe7ea057585a31ef090420262645ed50cd"
+      },
+      {
+        "bytes": 2971,
+        "path": "KAMMI_P2_METAMORPHIC_EXPECTATIONS.json",
+        "sha256": "0ffa5cc6257835eb1dcc237be32df3c2bff26d74f0702917cac36501505f0c50"
+      },
+      {
+        "bytes": 557,
+        "path": "KAMMI_P2_ATTACK_STATUS_VOCABULARY.json",
+        "sha256": "627214b00c846b116addd0366e6bfbcd55358f7a7d649fbde8a7cb469b76f77c"
+      },
+      {
+        "bytes": 180,
+        "path": "KAMMI_P2_ONTOLOGY_LEAK_AUDIT.json",
+        "sha256": "a7ad51b0b650cd7f2d97d50eeef1bd902fe14e2e6ae91177e5e3729520612b3c"
+      },
+      {
+        "bytes": 178,
+        "path": "KAMMI_P2_REGION_LEAK_AUDIT.json",
+        "sha256": "9cbc2d1eae54ec07729fdde9a90b3800fff67035da6fcdc45c8ddda18493f3c3"
+      },
+      {
+        "bytes": 180,
+        "path": "KAMMI_P2_FAKE_PARALLAX_AUDIT.json",
+        "sha256": "46d15fba92a5973faa92c13cfa11de97195b66f3ef758660b89723c1c619f40c"
+      },
+      {
+        "bytes": 166,
+        "path": "KAMMI_P2_SHARED_TCB_TOPOLOGY.json",
+        "sha256": "6dd2f20de3581b03add7cab756a27fba94c5a55bf6f88476cde7ba5355794ae3"
+      },
+      {
+        "bytes": 137,
+        "path": "KAMMI_P2_COMMON_MODE_INJECTION_CORPUS.json",
+        "sha256": "d6181fe569e20b05fea23c8c953e4355de50f16e4941193799f29792b155f7f3"
+      },
+      {
+        "bytes": 179,
+        "path": "KAMMI_P2_QUESTION_MULTIPLICITY_AUDIT.json",
+        "sha256": "637866fa4ebfdffa2ea1a64e172179ebe3e15a32f0fa1c6d271ee7f02aa9d251"
+      },
+      {
+        "bytes": 372,
+        "path": "KAMMI_P2_CONTROL_COVERAGE_REGISTRY.json",
+        "sha256": "f4c74554ec221a962fd00b9cea017112f1f4684fc80d4369fb91f7adbf160e6d"
+      },
+      {
+        "bytes": 175,
+        "path": "KAMMI_P2_TRANSLATION_COMPOSITION_FIREWALL.json",
+        "sha256": "bcb2652ec2920063659bf0c5762c456eb3cd50a444a81d50cbb2dcf252cd617f"
+      },
+      {
+        "bytes": 179,
+        "path": "KAMMI_P2_LATENT_SUBJECT_BINDING_AUDIT.json",
+        "sha256": "c91d9e8a1a99509888719c1d26334a51ec54424d13bb6eda7b05afbeb55b4c6b"
+      },
+      {
+        "bytes": 189,
+        "path": "KAMMI_P2_ADMISSION_SELECTION_AUDIT.json",
+        "sha256": "56cc95cb46130e80c2b6677001bce1d10222401a25191d78f27285a80edf54f5"
+      },
+      {
+        "bytes": 190,
+        "path": "KAMMI_P2_ADMISSION_METADATA_VISIBILITY_POLICY.json",
+        "sha256": "33a4b3f0be054bfa96211d3631bb97e4a96cc315ee68a91296d3965edb339eca"
+      },
+      {
+        "bytes": 250,
+        "path": "KAMMI_P2_RESULT_OPPORTUNITY_LEDGER.json",
+        "sha256": "8a9f2ef4b742be444eb72783a341377c62aee181b6920cf42ea97ed57b008423"
+      },
+      {
+        "bytes": 168,
+        "path": "KAMMI_P2_RESOURCE_ALLOCATION_AUDIT.json",
+        "sha256": "c41c7b37011b17f4569bbc64de29dffc5c57406fbaef063484c4954b7fcf3a1e"
+      },
+      {
+        "bytes": 292,
+        "path": "KAMMI_P2_CROSS_ARM_INFORMATION_FLOW_AUDIT.json",
+        "sha256": "4d4ef6788f7cf196d99e5b9021cb70ded1867bbf36d5d2f063ba03a46ab83784"
+      },
+      {
+        "bytes": 151,
+        "path": "KAMMI_P2_FORMAL_TOOL_ATTRACTION_AUDIT.json",
+        "sha256": "16e5b7518598d855ea43030cb9c8591f5ef94852fbbaad6c24ab94388b6d562e"
+      },
+      {
+        "bytes": 2971,
+        "path": "KAMMI_P2_METAMORPHIC_TEST_CORPUS.json",
+        "sha256": "0ffa5cc6257835eb1dcc237be32df3c2bff26d74f0702917cac36501505f0c50"
+      },
+      {
+        "bytes": 146,
+        "path": "KAMMI_P2_OUTCOME_POLARITY_TEST.json",
+        "sha256": "c8190dae763f12f2e48e148c2ce6e69f45159e8233c2cfd9acd22ef7b0f3452c"
+      },
+      {
+        "bytes": 184,
+        "path": "KAMMI_P2_NULL_DENSITY_TEST.json",
+        "sha256": "59da423e36cc0dce56d7e1e73f48a25155bd821fc7f10a254b9ab440489e5e9f"
+      },
+      {
+        "bytes": 135,
+        "path": "KAMMI_P2_TRANSLATION_CYCLE_TEST.json",
+        "sha256": "0e26a46cd37c2c7e4bc686dcc9c2f4aa8df668cac8a6a2535f032c1cd70a799f"
+      },
+      {
+        "bytes": 136,
+        "path": "KAMMI_P2_CONTROL_ASSUMPTION_REGISTRY.json",
+        "sha256": "166fbf5ac4a805154784031bb10ddb2ec67c84675df88cce8ad7e79f3c8dbfe2"
+      },
+      {
+        "bytes": 219,
+        "path": "KAMMI_P2_AUTHORITY_PROPAGATION_AUDIT.json",
+        "sha256": "c7c9c1b54df8106a41c2552080bd9be0cbb128876d9a7fa25975eb6f9e7c303b"
+      },
+      {
+        "bytes": 241,
+        "path": "KAMMI_P2_INSTANCE_AUDIT_CONTRACT.json",
+        "sha256": "67ed3baaf8e0d93567f51fbe06530f1f163572331886d8bfb6c0ba7b782a9505"
+      },
+      {
+        "bytes": 167,
+        "path": "KAMMI_P2_REMEDIATION_NONAPPLICATION_RECEIPT.json",
+        "sha256": "ff5d79ea66d1f4048217453245fdde256568e4f1914fbb970d0c80650b797d77"
+      },
+      {
+        "bytes": 8679,
+        "path": "KAMMI_P2_SYNTHETIC_FIXTURE_RESULTS.json",
+        "sha256": "5905bc7ee0efa7b5be493ca65621c9b07ef17a56cf59945fa3ae79116dc86acc"
+      },
+      {
+        "bytes": 392,
+        "path": "KAMMI_P2_ACCESS_AUDIT.json",
+        "sha256": "606aa8fc8ebfbc136c6626b0d00a8d12243f1463111748a68c082bc2b93ce0fc"
+      },
+      {
+        "bytes": 291,
+        "path": "KAMMI_P2_GATE_DECISION.json",
+        "sha256": "1db1cdfa77e51fccab49da8e1c768627e187d1e23253dae5e92d7ad337192950"
+      },
+      {
+        "bytes": 400,
+        "path": "KAMMI_P2_FREEZE_RECEIPT.json",
+        "sha256": "6c6302eae69033097a8ede5e14a77ea919edff46ae0d04afb849d7236f0e8fc8"
+      },
+      {
+        "bytes": 2833,
+        "path": "KAMMI_P2_EXECUTION_REPORT.md",
+        "sha256": "c2c993560f7ca54eb99b8bf52bffaf007e052b175a65f3071739a1ece1b23fd3"
+      }
+    ],
+    "attack_surface_registry_frozen": true,
+    "audit_completeness": "NOT_EARNED",
+    "authority": "OBS_OPEN_KAMMI_P2_PARALLAX_FAILURE_STEERING_AUDIT_V1",
+    "final_state": "PARALLAX_FAILURE_AUDIT_SEALED_WITH_RESTRICTIONS",
+    "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+    "instance_audit_required_before_first_touch": true,
+    "metamorphic_expectations_frozen": true,
+    "parent_kammi_root": "d1e78ba54e4e87cc5cbbab275b57aaf5d67f308b4b390d13ba93ecf98b876025",
+    "parent_oto_a1_root": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+    "parent_oto_l_root": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "population_contact": "FORBIDDEN",
+    "schema": "KAMMI_P2_ROOT_PAYLOAD_V1"
+  },
+  "schema": "KAMMI_P2_ROOT_RECEIPT_V1"
+}

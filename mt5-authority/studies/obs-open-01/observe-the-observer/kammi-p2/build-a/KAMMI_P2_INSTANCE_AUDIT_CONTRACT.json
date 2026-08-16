@@ -1,0 +1,10 @@
+{
+  "outputs": [
+    "INSTANCE_CONFORMS",
+    "INSTANCE_VIOLATION_FOUND",
+    "INSTANCE_NOT_EVALUABLE"
+  ],
+  "population_access_during_p2": 0,
+  "required_before": "POPULATION_ADMISSION",
+  "schema": "KAMMI_P2_INSTANCE_AUDIT_CONTRACT_V1"
+}

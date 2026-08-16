@@ -1,0 +1,5 @@
+{
+  "control_generalization": "FORBIDDEN",
+  "schema": "KAMMI_P2_CONTROL_ASSUMPTION_REGISTRY_V1",
+  "shared_dependencies": "REQUIRED"
+}

@@ -1,0 +1,6 @@
+{
+  "duplicate_question_gain": "FORBIDDEN",
+  "instance_status": "REQUIRED",
+  "schema": "KAMMI_P2_QUESTION_MULTIPLICITY_AUDIT_V1",
+  "statement_count_not_evidence_count": true
+}

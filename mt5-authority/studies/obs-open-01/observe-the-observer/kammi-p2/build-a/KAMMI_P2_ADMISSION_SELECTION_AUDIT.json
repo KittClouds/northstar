@@ -1,0 +1,6 @@
+{
+  "admission_metadata": "SEPARATE_POLICY_REQUIRED",
+  "schema": "KAMMI_P2_ADMISSION_SELECTION_AUDIT_V1",
+  "scientific_feature_filtering": "FORBIDDEN",
+  "status": "INSTANCE_DEPENDENT"
+}

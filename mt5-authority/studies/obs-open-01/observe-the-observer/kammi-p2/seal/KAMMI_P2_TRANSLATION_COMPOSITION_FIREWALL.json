@@ -1,0 +1,6 @@
+{
+  "automatic_composition": "FORBIDDEN",
+  "cycle_to_latent_object": "FORBIDDEN",
+  "default": "NOT_COMPARABLE",
+  "schema": "KAMMI_P2_TRANSLATION_COMPOSITION_FIREWALL_V1"
+}

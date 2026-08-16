@@ -1,0 +1,6 @@
+{
+  "findings_recorded": true,
+  "repair_requires": "NEW_CAMPAIGN_LINEAGE",
+  "repairs_applied": false,
+  "schema": "KAMMI_P2_REMEDIATION_NONAPPLICATION_RECEIPT_V1"
+}

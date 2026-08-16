@@ -1,0 +1,6 @@
+{
+  "null_heavy_arm_omission": "FORBIDDEN",
+  "positive_heavy_weighting": "FORBIDDEN",
+  "schema": "KAMMI_P2_NULL_DENSITY_TEST_V1",
+  "status": "PASS_SYNTHETIC_SEMANTIC_EXPECTATION"
+}

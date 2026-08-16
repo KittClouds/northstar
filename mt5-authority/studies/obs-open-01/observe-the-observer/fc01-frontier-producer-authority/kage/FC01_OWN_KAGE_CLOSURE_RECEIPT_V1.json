@@ -1,0 +1,33 @@
+{
+  "schema": "FC01_OWN_KAGE_CLOSURE_RECEIPT_V1",
+  "role": "CHAIN_OF_CUSTODY_AND_SCHEDULER_CLOSURE",
+  "status": "SEALED",
+  "result": "NOT_EVALUABLE",
+  "gate": "FC01-OWN",
+  "frontier_results": {
+    "G8_04A_SEMANTIC_ADAPTER": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_AUTHORITY": "PRODUCER_AUTHORITY_NOT_IDENTIFIED"
+  },
+  "checks": {
+    "frontier_derived_from_sealed_dag": "PASS",
+    "semantic_owner_recorded": "PASS",
+    "instance_producer_explicitly_identified": "FAIL",
+    "qualification_authority_explicitly_identified": "FAIL",
+    "transport_owner_explicitly_identified": "FAIL",
+    "scope_compatibility": "NOT_EVALUABLE",
+    "construction_invoked": 0,
+    "protected_capability_fired": 0,
+    "cycle_status": "PASS_INHERITED_NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+    "eligible_root_set_computed": "PASS",
+    "eligible_root_set": []
+  },
+  "scheduler_action": "HOLD",
+  "next_gate_woken": "NONE",
+  "authority_orphan_proven": false,
+  "nonclaims": [
+    "FC01C_IS_NEXT",
+    "FC01D_OWNS_BOUND_SELECTION",
+    "FC01E_IS_PRODUCER",
+    "NO_NEW_AUTHORITY_QUESTION_CAN_BE_OPENED"
+  ]
+}

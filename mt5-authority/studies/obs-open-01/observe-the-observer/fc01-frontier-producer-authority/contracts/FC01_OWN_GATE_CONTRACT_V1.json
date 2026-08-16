@@ -1,0 +1,76 @@
+{
+  "schema": "FC01_OWN_GATE_CONTRACT_V1",
+  "gate": "FC01-OWN",
+  "status": "EXECUTION_CONSTITUTION",
+  "question": "For each minimal unresolved frontier artifact, does sealed lineage identify who may instantiate it, who may qualify that instance, and who may transport it?",
+  "frontier_scope": [
+    "G8_04A_SEMANTIC_ADAPTER",
+    "FINITE_QUESTION_BOX_AUTHORITY"
+  ],
+  "scope_rule": "ONLY_MINIMAL_UNRESOLVED_FRONTIER_ARTIFACTS_FROM_FC01_DEP",
+  "search_universe": "SEALED_FC01_G5_G6_G7_G8_LINEAGE_AND_CONTRACTS_ONLY",
+  "roles_are_distinct": [
+    "SEMANTIC_OWNER",
+    "INSTANCE_PRODUCER",
+    "INSTANCE_QUALIFICATION_AUTHORITY",
+    "TRANSPORT_OWNER"
+  ],
+  "per_node_result_vocabulary": [
+    "PRODUCER_AUTHORITY_IDENTIFIED",
+    "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+    "AUTHORITY_ORPHAN",
+    "NOT_EVALUABLE"
+  ],
+  "orphan_rule": "AUTHORITY_ORPHAN_REQUIRES_PROOF_THAT_NO_LAWFUL_PRODUCER_GRANT_EXISTS_WITHIN_THE_DECLARED_SEARCH_UNIVERSE",
+  "no_assumed_values": true,
+  "anti_gravity_invariant": "DOWNSTREAM_CONSUMER_SCULPTING_UPSTREAM_SEMANTICS_FORBIDDEN",
+  "construction_authority_rule": "CONTRACT_OR_CONSTRUCTOR_EXISTENCE_DOES_NOT_GRANT_INVOCATION_AUTHORITY",
+  "bound_selection_rule": "FINITE_QUESTION_BOX_SEMANTICS_DO_NOT_GRANT_BOUND_SELECTION_AUTHORITY",
+  "adapter_identity_rule": "FC01A_COMPOSITE_CLOSURE_IS_NOT_G8_04A_SEMANTIC_ADAPTER_WITHOUT_EXPLICIT_ROOT_RELATION",
+  "allowed_operations": [
+    "READ_SEALED_ROOTS",
+    "READ_SEALED_CONTRACT_METADATA",
+    "COMPARE_DECLARED_AUTHORITY_FIELDS",
+    "RECORD_PER_NODE_OWNERSHIP_RESULT",
+    "RECOMPUTE_SEALED_DAG"
+  ],
+  "forbidden_operations": [
+    "ADAPTER_IMPLEMENTATION",
+    "QUESTION_BOX_BOUND_SELECTION",
+    "TOKEN_REALIZATION",
+    "PAIR_CONSTRUCTION",
+    "FIBER_CONSTRUCTION",
+    "FROZEN_COMPARISON_CONSTRUCTION",
+    "CERTIFICATE_CONSTRUCTION",
+    "COVERAGE_RECEIPT_CONSTRUCTION",
+    "G8_VERIFIER_INVOCATION",
+    "EXPLORER_INVOCATION",
+    "REAL_04A_HISTORY_READ",
+    "POPULATION_READ",
+    "TARGET_READ",
+    "OUTCOME_READ"
+  ],
+  "eligible_is_not_execute": true,
+  "expected_global_results": [
+    "FRONTIER_OWNERSHIP_RESOLVED",
+    "FRONTIER_OWNERSHIP_PARTIAL",
+    "FRONTIER_OWNERSHIP_BLOCKED",
+    "NOT_EVALUABLE"
+  ],
+  "zero_activity_requirements": {
+    "adapter_implementation": 0,
+    "question_box_bound_selection": 0,
+    "token_realization": 0,
+    "pair_construction": 0,
+    "fiber_construction": 0,
+    "frozen_comparison_construction": 0,
+    "certificate_construction": 0,
+    "coverage_receipt_construction": 0,
+    "g8_verifier_invocations": 0,
+    "explorer_invocations": 0,
+    "real_04a_history_reads": 0,
+    "population_reads": 0,
+    "target_reads": 0,
+    "outcome_reads": 0
+  }
+}

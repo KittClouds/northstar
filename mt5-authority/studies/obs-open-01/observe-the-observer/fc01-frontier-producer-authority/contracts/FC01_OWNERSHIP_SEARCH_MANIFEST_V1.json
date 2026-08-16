@@ -1,0 +1,73 @@
+{
+  "schema": "FC01_OWNERSHIP_SEARCH_MANIFEST_V1",
+  "status": "SEALED_SEARCH_SCOPE",
+  "search_question": "Which sealed authority object explicitly grants instance production, instance qualification, or transport ownership for either FC01-OWN frontier artifact?",
+  "search_method": "DETERMINISTIC_FIELD_AND_LINEAGE_SCAN",
+  "searched_artifacts": [
+    {
+      "artifact": "FC01_DEP_ROOT_RECEIPT_V1",
+      "relative_path": "fc01-prerequisite-authority-dag/seal/FC01_DEP_ROOT_RECEIPT_V1.json",
+      "sha256": "A621375A054DC62A186A6D0C2C8E589B48544F66227FA55178E81CD60D3A8910"
+    },
+    {
+      "artifact": "FC01_AUTHORITY_OBJECT_OWNERSHIP_LEDGER_V1",
+      "relative_path": "fc01-prerequisite-authority-dag/contracts/FC01_AUTHORITY_OBJECT_OWNERSHIP_LEDGER_V1.json",
+      "sha256": "14ED43982A5BFD397E1660C3F5604134EC7090F4548FA654B8241D050553E2BF"
+    },
+    {
+      "artifact": "FC01_PREREQUISITE_AUTHORITY_DAG_V1",
+      "relative_path": "fc01-prerequisite-authority-dag/contracts/FC01_PREREQUISITE_AUTHORITY_DAG_V1.json",
+      "sha256": "71A5ACFB3213D66C2A5298137D9CE0F6F4EBF24AC83129F686A928C71F162C15"
+    },
+    {
+      "artifact": "G8_04A_SEMANTIC_ADAPTER_CONTRACT_V1",
+      "relative_path": "fc01-optic-lift-qualification/contracts/G8_04A_SEMANTIC_ADAPTER_CONTRACT_V1.json",
+      "sha256": "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA"
+    },
+    {
+      "artifact": "FINITE_QUESTION_BOX_SPEC_V1",
+      "relative_path": "fc01-optic-lift-qualification/contracts/FINITE_QUESTION_BOX_SPEC_V1.json",
+      "sha256": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684"
+    },
+    {
+      "artifact": "TOKEN_REALIZATION_CONTRACT_V1",
+      "relative_path": "fc01-optic-lift-qualification/contracts/TOKEN_REALIZATION_CONTRACT_V1.json",
+      "sha256": "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50"
+    },
+    {
+      "artifact": "FC01_LAYER_ROLE_CONTRACT_V1",
+      "relative_path": "fc01-optic-lift-qualification/contracts/FC01_LAYER_ROLE_CONTRACT_V1.json",
+      "sha256": "ED487AED9E70862743530CF89D19CF4B8C22E06C9611A8082BB94773873A6EB4"
+    },
+    {
+      "artifact": "FC01_OPTIC_LIFT_PREREQUISITE_RECEIPT_V2",
+      "relative_path": "fc01-optic-lift-qualification/seal/FC01_OPTIC_LIFT_PREREQUISITE_RECEIPT_V2.json",
+      "sha256": "AF4C76EF64CDFDEF4FC6937E6EEF1C86925EF67C1C2DD95BC0F784B5B80D5E5D"
+    }
+  ],
+  "searched_parent_roots": [
+    "G1_SEMANTIC_AUTHORITY",
+    "G3_REACHABILITY_AUTHORITY",
+    "G4_PROTECTED_SURFACE",
+    "G5_ROOT",
+    "G6_ROOT",
+    "G7_ROOT",
+    "G8_ROOT"
+  ],
+  "producer_grants_found": [],
+  "qualification_grants_found": [],
+  "transport_grants_found": [],
+  "bound_selection_grants_found": [],
+  "search_did_not_open": [
+    "REAL_04A_CONTENT",
+    "POPULATION_DERIVED_CONTENT",
+    "TARGET_CONTENT",
+    "OUTCOME_CONTENT"
+  ],
+  "nonclaims": [
+    "NO_PRODUCER_EXISTS_OUTSIDE_DECLARED_SEARCH_UNIVERSE",
+    "NO_NEW_AUTHORITY_MAY_EVER_BE_CREATED",
+    "FC01C_OWNS_FINITE_QUESTION_BOX",
+    "FC01A_IS_G8_04A_ADAPTER"
+  ]
+}

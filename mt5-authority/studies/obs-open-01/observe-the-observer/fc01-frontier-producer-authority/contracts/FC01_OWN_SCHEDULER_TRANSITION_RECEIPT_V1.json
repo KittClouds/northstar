@@ -1,0 +1,40 @@
+{
+  "schema": "FC01_OWN_SCHEDULER_TRANSITION_RECEIPT_V1",
+  "status": "SEALED",
+  "from_gate": "FC01-DEP",
+  "to_gate": "FC01-OWN",
+  "from_result": "NOT_EVALUABLE",
+  "to_result": "FRONTIER_OWNERSHIP_PARTIAL",
+  "frontier_scope": [
+    "G8_04A_SEMANTIC_ADAPTER",
+    "FINITE_QUESTION_BOX_AUTHORITY"
+  ],
+  "ownership_resolution": {
+    "G8_04A_SEMANTIC_ADAPTER": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_AUTHORITY": "PRODUCER_AUTHORITY_NOT_IDENTIFIED"
+  },
+  "recomputed_eligible_root_producers": [],
+  "scheduler_action": "HOLD",
+  "next_gate_woken": "NONE",
+  "eligible_is_not_execute": true,
+  "forbidden_transitions": [
+    "WAKE_FC01C",
+    "WAKE_FC01D",
+    "WAKE_FC01E",
+    "CONSTRUCT_ADAPTER",
+    "SELECT_QUESTION_BOX_BOUNDS",
+    "REALIZE_TOKENS",
+    "CONSTRUCT_FIBER",
+    "CONSTRUCT_CERTIFICATE",
+    "INVOKE_G8",
+    "OPEN_POPULATION"
+  ],
+  "hold_reason": "NO_FRONTIER_INSTANCE_PRODUCER_OR_QUALIFICATION_AUTHORITY_WAS_IDENTIFIED_IN_DECLARED_SEALED_UNIVERSE",
+  "new_authority_question_required": false,
+  "nonclaims": [
+    "FC01C_IS_NEXT",
+    "FC01D_OWNS_BOUND_SELECTION",
+    "AUTHORITY_ORPHAN_PROVEN",
+    "NO_AUTHORITY_CAN_EVER_BE_CREATED"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "FC01_OWN_RECOMPUTED_DAG_V1",
+  "status": "DAG_RECOMPUTED_AFTER_OWNERSHIP_RESOLUTION",
+  "parent_dag_root": "71A5ACFB3213D66C2A5298137D9CE0F6F4EBF24AC83129F686A928C71F162C15",
+  "ownership_record_root": "88DCF65A3CC6242D2B2A7ADC8F3FAB0B9B4A0FBF5610DEC5E44F1D22FBB161E1",
+  "frontier_nodes": [
+    {
+      "id": "G8_04A_SEMANTIC_ADAPTER",
+      "producer_result": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "qualification_authority": "NOT_IDENTIFIED",
+      "transport_owner": "NOT_IDENTIFIED",
+      "scope_compatible": false,
+      "eligible": false
+    },
+    {
+      "id": "FINITE_QUESTION_BOX_AUTHORITY",
+      "producer_result": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "qualification_authority": "NOT_BOUND",
+      "transport_owner": "NOT_IDENTIFIED",
+      "scope_compatible": false,
+      "eligible": false
+    }
+  ],
+  "inherited_cycle_status": "NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "inherited_cycle_witness": [],
+  "computed_satisfied_artifact_roots": [
+    "FC01A_DOORWAY",
+    "G8_BOUNDARY",
+    "G5_GRAMMAR_AUTHORITY",
+    "G5_TOKEN_REALIZATION_CONTRACT",
+    "G8_AUTHORITY_BINDING"
+  ],
+  "computed_eligible_root_producers": [],
+  "computed_unresolved_authority_nodes": [
+    "G8_04A_SEMANTIC_ADAPTER",
+    "FINITE_QUESTION_BOX_AUTHORITY",
+    "G5_TOKEN_REALIZATION_INSTANCE",
+    "G6_FIBER_AUTHORITY",
+    "G8_FROZEN_COMPARISON",
+    "G8_SEPARATOR_CERTIFICATE",
+    "G8_COVERAGE_RECEIPT"
+  ],
+  "blocking_reasons": [
+    "FRONTIER_INSTANCE_PRODUCERS_NOT_IDENTIFIED",
+    "FRONTIER_QUALIFICATION_AUTHORITIES_NOT_IDENTIFIED",
+    "FRONTIER_TRANSPORT_OWNERS_NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_BOUND_SELECTION_AUTHORITY_NOT_BOUND"
+  ],
+  "new_authority_questions": [],
+  "scheduler_consequence": "HOLD_NO_ELIGIBLE_ROOTS",
+  "construction_activity": 0,
+  "verifier_invocations": 0,
+  "population_access": 0
+}

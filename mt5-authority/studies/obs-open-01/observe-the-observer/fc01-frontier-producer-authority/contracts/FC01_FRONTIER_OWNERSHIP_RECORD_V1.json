@@ -1,0 +1,95 @@
+{
+  "schema": "FC01_FRONTIER_OWNERSHIP_RECORD_V1",
+  "status": "PER_NODE_RESULTS_MATERIALIZED",
+  "gate": "FC01-OWN",
+  "role_law": [
+    "SEMANTIC_OWNER",
+    "INSTANCE_PRODUCER",
+    "INSTANCE_QUALIFICATION_AUTHORITY",
+    "TRANSPORT_OWNER"
+  ],
+  "records": [
+    {
+      "authority_artifact_id": "G8_04A_SEMANTIC_ADAPTER",
+      "historical_name": "G8_04A_SEMANTIC_ADAPTER_CONTRACT_V1",
+      "semantic_authority_root": "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA",
+      "semantic_owner": "COMPOSITE_G1_G3_G4_G5_G6_G7_G8_CONTRACT_SURFACE",
+      "instance_producer": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "instance_producer_authority_root": "NONE",
+      "instance_qualification_authority": "NOT_IDENTIFIED",
+      "transport_owner": "NOT_IDENTIFIED",
+      "construction_contract": "G8_04A_SEMANTIC_ADAPTER_CONTRACT_V1",
+      "construction_operation": "NOT_SPECIFIED_BY_SEALED_LINEAGE",
+      "construction_invocation_authorized": false,
+      "input_dependencies": [
+        "G1_SEMANTIC_AUTHORITY",
+        "G3_REACHABILITY_AUTHORITY",
+        "G4_PROTECTED_SURFACE",
+        "G5_GRAMMAR_AUTHORITY",
+        "G6_CONTRACT_AUTHORITY",
+        "G7_BOUNDARY_AUTHORITY",
+        "G8_BOUNDARY"
+      ],
+      "authority_scope": "QUALIFIED_04A_HISTORY_AND_CONTEXT_REQUIRED_BY_CONTRACT",
+      "current_campaign_relation": "FRONTIER_MINIMAL_UNRESOLVED",
+      "relation_to_fc01a": "PARTIAL_SURFACE_OVERLAP_NOT_IDENTITY",
+      "per_node_result": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "evidence_roots": [
+        "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA",
+        "A621375A054DC62A186A6D0C2C8E589B48544F66227FA55178E81CD60D3A8910"
+      ],
+      "nonclaims": [
+        "FC01A_COMPOSITE_CLOSURE_IS_THIS_ADAPTER",
+        "A_PRODUCER_DOES_NOT_EXIST_OUTSIDE_SEARCH_UNIVERSE",
+        "FC01C_OR_ANY_OTHER_GATE_IS_PRODUCER"
+      ]
+    },
+    {
+      "authority_artifact_id": "FINITE_QUESTION_BOX_AUTHORITY",
+      "historical_name": "FINITE_QUESTION_BOX_SPEC_V1",
+      "semantic_authority_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "semantic_owner": "G5_PLUS_FC01_QUESTION_CONTRACT",
+      "box_semantic_owner": "G5_PLUS_FC01_QUESTION_CONTRACT",
+      "bound_selection_authority": "NOT_IDENTIFIED",
+      "bound_selection_rule_root": "NONE",
+      "instance_producer": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "instance_producer_authority_root": "NONE",
+      "instance_qualification_authority": "NOT_BOUND",
+      "transport_owner": "NOT_IDENTIFIED",
+      "construction_contract": "FINITE_QUESTION_BOX_SPEC_V1",
+      "construction_operation": "BOUNDS_INSTANTIATION_OPERATION_NOT_SPECIFIED",
+      "construction_invocation_authorized": false,
+      "input_dependencies": [
+        "G5_GRAMMAR_AUTHORITY",
+        "G5_TOKEN_REALIZATION_CONTRACT"
+      ],
+      "allowed_selection_inputs": "NOT_BOUND",
+      "forbidden_selection_inputs": [
+        "POPULATION_VALUES",
+        "RESULT_CONDITIONING",
+        "EXPLORER_SUCCESS",
+        "VERIFIER_OUTCOMES",
+        "CROSS_ARM_RESULTS"
+      ],
+      "authority_scope": "FINITE_EXPLICIT_BOUNDS_AND_EXACT_COVERAGE_REQUIRED",
+      "current_campaign_relation": "FRONTIER_MINIMAL_UNRESOLVED",
+      "per_node_result": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "evidence_roots": [
+        "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+        "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50",
+        "A621375A054DC62A186A6D0C2C8E589B48544F66227FA55178E81CD60D3A8910"
+      ],
+      "nonclaims": [
+        "FINITE_QUESTION_BOX_SPEC_GRANTS_BOUND_SELECTION_AUTHORITY",
+        "FC01D_OWNS_BOUND_SELECTION",
+        "A_PRODUCER_DOES_NOT_EXIST_OUTSIDE_SEARCH_UNIVERSE"
+      ]
+    }
+  ],
+  "global_result": "FRONTIER_OWNERSHIP_PARTIAL",
+  "global_nonclaims": [
+    "NO_CONSTRUCTION_AUTHORITY_GRANTED",
+    "NO_SCHEDULER_WAKE_GRANTED",
+    "NO_SCIENTIFIC_INSTANCE_CREATED"
+  ]
+}

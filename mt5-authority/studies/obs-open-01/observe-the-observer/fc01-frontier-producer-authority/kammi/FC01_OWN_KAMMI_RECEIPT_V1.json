@@ -1,0 +1,51 @@
+{
+  "schema": "FC01_OWN_KAMMI_RECEIPT_V1",
+  "role": "ADVERSARIAL_OWNERSHIP_AND_SCHEDULER_AUDIT",
+  "status": "SEALED",
+  "result": "AUDIT_PASS_WITH_FRONTIER_UNRESOLVED",
+  "attacks": [
+    {
+      "attack": "SEMANTIC_OWNER_TO_INSTANCE_PRODUCER",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "CONTRACT_TO_CONSTRUCTION_AUTHORITY",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "CONSTRUCTOR_TO_INVOCATION_AUTHORITY",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "ALL_PREDECESSORS_SATISFIED_TO_PRODUCER_AUTHORITY",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "ROADMAP_ORDER_TO_OWNER_IDENTITY",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "GATE_NAME_RESEMBLANCE_TO_OWNERSHIP",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "CONSUMER_DEMAND_TO_UPSTREAM_PRODUCTION_GRANT",
+      "result": "NO_PROMOTION_FOUND"
+    },
+    {
+      "attack": "FC01A_DOORWAY_TO_G8_04A_IDENTITY",
+      "result": "REJECTED_PARTIAL_OVERLAP_ONLY"
+    },
+    {
+      "attack": "FC01D_NAME_TO_BOUND_SELECTION_AUTHORITY",
+      "result": "REJECTED_NO_ROOT_EVIDENCE"
+    }
+  ],
+  "cycle_status": "INHERITED_NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "eligible_root_producers": [],
+  "nonclaims": [
+    "NO_PRODUCER_EXISTS_OUTSIDE_DECLARED_SEARCH_UNIVERSE",
+    "AUTHORITY_ORPHAN_PROVEN",
+    "ANY_GATE_IS_AUTHORIZED_TO_CONSTRUCT"
+  ]
+}

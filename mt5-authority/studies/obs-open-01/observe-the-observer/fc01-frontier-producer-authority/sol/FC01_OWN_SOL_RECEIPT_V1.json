@@ -1,0 +1,40 @@
+{
+  "schema": "FC01_OWN_SOL_RECEIPT_V1",
+  "role": "POSITIVE_OWNERSHIP_ARCHAEOLOGY",
+  "status": "SEALED",
+  "result": "PRODUCER_AUTHORITY_NOT_IDENTIFIED_FOR_FRONTIER",
+  "search_manifest": "AFB9ACC2064A3D6539154913A96805D2C01ED568AE2B61BC39B3765440CF3C4B",
+  "frontier_results": {
+    "G8_04A_SEMANTIC_ADAPTER": {
+      "semantic_owner": "COMPOSITE_G1_G3_G4_G5_G6_G7_G8_CONTRACT_SURFACE",
+      "instance_producer": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "instance_qualification_authority": "NOT_IDENTIFIED",
+      "transport_owner": "NOT_IDENTIFIED",
+      "construction_invocation_authorized": false
+    },
+    "FINITE_QUESTION_BOX_AUTHORITY": {
+      "semantic_owner": "G5_PLUS_FC01_QUESTION_CONTRACT",
+      "bound_selection_authority": "NOT_IDENTIFIED",
+      "instance_producer": "PRODUCER_AUTHORITY_NOT_IDENTIFIED",
+      "instance_qualification_authority": "NOT_BOUND",
+      "transport_owner": "NOT_IDENTIFIED",
+      "construction_invocation_authorized": false
+    }
+  },
+  "positive_findings": [
+    "SEMANTIC_CONTRACTS_EXIST",
+    "FC01A_AND_G8_04A_RELATION_IS_PARTIAL_SURFACE_OVERLAP_NOT_IDENTITY",
+    "FINITE_BOX_SEMANTICS_EXIST_BUT_BOUND_SELECTION_AUTHORITY_IS_NOT_BOUND"
+  ],
+  "negative_findings": [
+    "NO_EXPLICIT_INSTANCE_PRODUCER_GRANT_IN_SEARCH_UNIVERSE",
+    "NO_EXPLICIT_INSTANCE_QUALIFICATION_GRANT_IN_SEARCH_UNIVERSE",
+    "NO_EXPLICIT_TRANSPORT_OWNER_GRANT_IN_SEARCH_UNIVERSE"
+  ],
+  "nonclaims": [
+    "AUTHORITY_ORPHAN_PROVEN",
+    "FC01C_IS_OWNER",
+    "FC01D_IS_BOUND_SELECTOR",
+    "NEW_AUTHORITY_MAY_NOT_BE_CREATED"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "FINITE_QUESTION_BOX_RULE_LINEAGE_V1",
+  "status": "SEALED_NEW_QUALIFICATION_DESCENDANT",
+  "lineage_id": "FC01-FINITE-BOX-RULE-V1",
+  "governance_root": "NS-GOV-ROOT_V1",
+  "governance_root_receipt_root": "7CABBC7B58CDF928CD0EEE90C268CDB178D1B7A03D235D8F2153222CCA20D920",
+  "preflight_root": "66A42310FE336C70CB835A275119CDDE022B114CF2B0C55F267CF145E5F292D3",
+  "qualification_authority_grant": "FINITE_QUESTION_BOX_BINDING_RULE_QUALIFICATION_AUTHORITY_V1",
+  "qualification_authority_grant_root": "9F463DBF90F1481D7282CD51151C747F62CE8643BFA60C1C920DF0ACE33EA1BF",
+  "historical_producer_authority": "NOT_IDENTIFIED",
+  "v2_authority_inheritance": "NONE",
+  "scientific_semantics_created": false,
+  "actual_bounds_bound": 0,
+  "population_access": 0,
+  "instance_created": false,
+  "nonclaims": [
+    "V2_REWRITTEN",
+    "HISTORICAL_RULE_AUTHORITY_RECOVERED",
+    "FINITE_BOX_INSTANCE_CREATED",
+    "TOKEN_AUTHORITY"
+  ]
+}

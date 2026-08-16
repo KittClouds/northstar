@@ -1,0 +1,17 @@
+{
+  "schema": "SOL_FINITE_BOX_RULE_RECEIPT_V1",
+  "role": "SOL",
+  "status": "PASS_WITH_RESTRICTIONS",
+  "finding": "A deterministic rule descriptor is qualified without binding actual parameters.",
+  "authorized_input_scope": "SEALED_CONTRACTS_AND_DECLARED_TYPE_DOMAINS_ONLY",
+  "parameter_registry_complete": true,
+  "actual_bounds_bound": 0,
+  "rule_instance_root": "823A7198C62563C1C7A76E58BBECF18DE662E06F72A1D2FBA76F00E9DD8C52F0",
+  "nonclaims": [
+    "BOUND_BOX",
+    "FINITE_PROOF",
+    "SCIENTIFIC_SUFFICIENCY",
+    "G8_EVIDENCE"
+  ],
+  "population_reads": 0
+}

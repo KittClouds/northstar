@@ -1,0 +1,41 @@
+{
+  "schema": "FINITE_QUESTION_BOX_BINDING_RULE_V1",
+  "status": "QUALIFIED_WITH_RESTRICTIONS",
+  "rule_id": "FINITE_QUESTION_BOX_BINDING_RULE_V1",
+  "qualification_authority": "FINITE_QUESTION_BOX_BINDING_RULE_QUALIFICATION_AUTHORITY_V1",
+  "qualification_authority_root": "9F463DBF90F1481D7282CD51151C747F62CE8643BFA60C1C920DF0ACE33EA1BF",
+  "semantic_contract_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "allowed_input_contract": "FINITE_BOX_ALLOWED_RULE_INPUTS_V1",
+  "parameter_registry": "FINITE_BOX_PARAMETER_REGISTRY_V1",
+  "parameter_ids": [
+    "TOKEN_LENGTH_BOUND",
+    "MAX_TOKEN_WORD_LENGTH",
+    "HORIZON_BOUND",
+    "INTEGER_BOUND",
+    "ENUM_DOMAINS",
+    "RANK_SHELL_CONTRACT",
+    "CANONICAL_TOKEN_ORDER",
+    "INTEGER_DOMAIN",
+    "BOX_CARDINALITY",
+    "PROOF_BOX_IS_FINITE"
+  ],
+  "authorized_input_ids": [
+    "FINITE_QUESTION_BOX_SPEC_ROOT",
+    "TOKEN_REALIZATION_CONTRACT_ROOT",
+    "G5_AUTHORITY_ROOT",
+    "CANONICALIZATION_CONTRACT_ID",
+    "RULE_PARAMETER_REGISTRY_ID"
+  ],
+  "binding_mode": "PRECOMMITTED_CONTENT_INDEPENDENT_RULE",
+  "dependency_scope": "SEALED_CONTRACTS_AND_DECLARED_TYPE_DOMAINS_ONLY",
+  "output_status": "RULE_QUALIFIED_CANDIDATE_ACTUAL_VALUES_UNBOUND",
+  "fail_closed": true,
+  "actual_bounds_bound": 0,
+  "box_instance_created": 0,
+  "token_realization": 0,
+  "population_reads": 0,
+  "scientific_sufficiency": "NOT_CLAIMED",
+  "global_exhaustiveness": "NOT_CLAIMED",
+  "global_minimality": "NOT_CLAIMED",
+  "no_witness_outside_box": "NOT_CLAIMED"
+}

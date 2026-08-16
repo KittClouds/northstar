@@ -1,0 +1,70 @@
+{
+  "schema": "FINITE_BOX_ALLOWED_RULE_INPUTS_V1",
+  "status": "SEALED_INPUT_CONTRACT",
+  "scope": "RULE_QUALIFICATION_ONLY",
+  "authorized_rule_inputs": [
+    {
+      "input_id": "FINITE_QUESTION_BOX_SPEC_ROOT",
+      "source_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "source_class": "SEALED_CONTRACT",
+      "permitted_use": "READ_DECLARED_PARAMETER_CLASSES_AND_FAILURE_REQUIREMENTS"
+    },
+    {
+      "input_id": "TOKEN_REALIZATION_CONTRACT_ROOT",
+      "source_root": "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50",
+      "source_class": "SEALED_CONTRACT",
+      "permitted_use": "READ_TOKEN_SCHEMA_AND_DOMAIN_NAMES_ONLY"
+    },
+    {
+      "input_id": "G5_AUTHORITY_ROOT",
+      "source_root": "808f4089ada22e7736460a90efd71b1dec0726dece460ca4dc1df8cbccac554c",
+      "source_class": "SEALED_GATE_ROOT",
+      "permitted_use": "READ_DECLARED_G5_DOMAIN_AUTHORITY_ONLY"
+    },
+    {
+      "input_id": "CANONICALIZATION_CONTRACT_ID",
+      "source_root": "FC01_CANONICAL_SERIALIZATION_V1",
+      "source_class": "SEALED_PROTOCOL_ID",
+      "permitted_use": "DETERMINISTIC_RULE_SERIALIZATION"
+    },
+    {
+      "input_id": "RULE_PARAMETER_REGISTRY_ID",
+      "source_root": "FINITE_BOX_PARAMETER_REGISTRY_V1",
+      "source_class": "THIS_GATE_STATIC_REGISTRY",
+      "permitted_use": "ENUMERATE_REQUIRED_PARAMETER_CLASSES"
+    }
+  ],
+  "forbidden_rule_inputs": [
+    "POPULATION_VALUES",
+    "POPULATION_DISTRIBUTIONS",
+    "REAL_04A_HISTORY",
+    "REALIZED_TOKENS",
+    "PAIR_IDS",
+    "FIBER_STATUS",
+    "FROZEN_COMPARISON",
+    "SEPARATOR_INCIDENCE",
+    "COVERAGE_SUCCESS",
+    "EXPLORER_RESULTS",
+    "G8_VERDICTS",
+    "TARGET_INFORMATION",
+    "OUTCOME_INFORMATION",
+    "SCIENTIFIC_ATTRACTIVENESS",
+    "POSTHOC_TUNING",
+    "RUNTIME_PERFORMANCE",
+    "ACTUAL_BINDING_CONFIGURATION"
+  ],
+  "input_authority_roots": [
+    "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+    "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50",
+    "808f4089ada22e7736460a90efd71b1dec0726dece460ca4dc1df8cbccac554c"
+  ],
+  "input_scope": "SEALED_CONTRACTS_AND_DECLARED_TYPE_DOMAINS_ONLY",
+  "actual_values_consumed": false,
+  "actual_bounds_bound": 0,
+  "nonclaims": [
+    "BOUND_VALUES",
+    "BOX_INSTANCE",
+    "SCIENTIFIC_SUFFICIENCY",
+    "GLOBAL_MINIMALITY"
+  ]
+}

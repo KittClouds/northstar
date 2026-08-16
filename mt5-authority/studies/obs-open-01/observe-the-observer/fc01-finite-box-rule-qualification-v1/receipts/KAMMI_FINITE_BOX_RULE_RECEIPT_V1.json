@@ -1,0 +1,22 @@
+{
+  "schema": "KAMMI_FINITE_BOX_RULE_RECEIPT_V1",
+  "role": "KAMMI",
+  "status": "PASS_WITH_RESTRICTIONS",
+  "witnesses_found": 0,
+  "attacks": [
+    "rule authority inferred from instance authority",
+    "population-dependent bounds",
+    "result-dependent bounds",
+    "unregistered parameter",
+    "actual binding during rule qualification",
+    "finite-proof laundering",
+    "token or G8 leakage"
+  ],
+  "actual_bounds_bound": 0,
+  "population_reads": 0,
+  "nonclaims": [
+    "RULE_IS_SCIENTIFICALLY_SUFFICIENT",
+    "BOX_IS_FINITE",
+    "NO_WITNESS_OUTSIDE_BOX"
+  ]
+}

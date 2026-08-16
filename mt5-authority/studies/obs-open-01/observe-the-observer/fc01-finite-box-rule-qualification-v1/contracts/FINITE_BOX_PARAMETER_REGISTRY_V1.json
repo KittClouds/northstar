@@ -1,0 +1,124 @@
+{
+  "schema": "FINITE_BOX_PARAMETER_REGISTRY_V1",
+  "status": "SEALED_REQUIRED_PARAMETER_CLASSES",
+  "source_contract_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "parameters": [
+    {
+      "parameter_id": "TOKEN_LENGTH_BOUND",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "REQUIRE_EXPLICIT_PRECOMMITTED_FINITE_INTEGER_BOUND",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT", "TOKEN_REALIZATION_CONTRACT_ROOT"],
+      "output_domain": "UNBOUND_UNTIL_INSTANCE_BINDING",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "MISSING_OR_NONFINITE_DECLARED_BOUND"
+    },
+    {
+      "parameter_id": "MAX_TOKEN_WORD_LENGTH",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "REQUIRE_EXPLICIT_PRECOMMITTED_FINITE_INTEGER_BOUND",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT", "TOKEN_REALIZATION_CONTRACT_ROOT"],
+      "output_domain": "UNBOUND_UNTIL_INSTANCE_BINDING",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "MISSING_OR_NONFINITE_DECLARED_BOUND"
+    },
+    {
+      "parameter_id": "HORIZON_BOUND",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "REQUIRE_EXPLICIT_PRECOMMITTED_FINITE_INTEGER_BOUND",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT", "TOKEN_REALIZATION_CONTRACT_ROOT", "G5_AUTHORITY_ROOT"],
+      "output_domain": "UNBOUND_UNTIL_INSTANCE_BINDING",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "MISSING_OR_NONFINITE_DECLARED_BOUND"
+    },
+    {
+      "parameter_id": "INTEGER_BOUND",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "REQUIRE_EXPLICIT_PRECOMMITTED_FINITE_INTEGER_BOUND",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT", "TOKEN_REALIZATION_CONTRACT_ROOT", "G5_AUTHORITY_ROOT"],
+      "output_domain": "UNBOUND_UNTIL_INSTANCE_BINDING",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "MISSING_OR_NONFINITE_DECLARED_BOUND"
+    },
+    {
+      "parameter_id": "ENUM_DOMAINS",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "INHERIT_DECLARED_G5_ENUM_DOMAIN_NAMES_ONLY",
+      "authorized_input_dependencies": ["TOKEN_REALIZATION_CONTRACT_ROOT", "G5_AUTHORITY_ROOT"],
+      "output_domain": "INHERITED_G5_ENUMS_ONLY",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "G5_ENUM_DOMAIN_UNAVAILABLE"
+    },
+    {
+      "parameter_id": "RANK_SHELL_CONTRACT",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "PRESERVE_DECLARED_FINITE_SHELL_ORDER_AND_EXHAUSTION_REQUIREMENT",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT"],
+      "output_domain": "DECLARED_SHELL_ORDER_ONLY",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "SHELL_ORDER_OR_EXHAUSTION_CONTRACT_MISSING"
+    },
+    {
+      "parameter_id": "CANONICAL_TOKEN_ORDER",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "PRESERVE_DECLARED_TOKEN_RANK_THEN_PAYLOAD_ORDER",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT"],
+      "output_domain": "DECLARED_CANONICAL_ORDER_ONLY",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "CANONICAL_ORDER_UNDECLARED"
+    },
+    {
+      "parameter_id": "INTEGER_DOMAIN",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "PRESERVE_DECLARED_G5_INTEGER_TICK_DOMAIN",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT", "G5_AUTHORITY_ROOT"],
+      "output_domain": "DECLARED_G5_INTEGER_TICKS_ONLY",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "G5_INTEGER_DOMAIN_UNAVAILABLE"
+    },
+    {
+      "parameter_id": "BOX_CARDINALITY",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "REQUIRE_EXPLICIT_PRECOMMITTED_FINITE_CARDINALITY_RULE",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT", "TOKEN_REALIZATION_CONTRACT_ROOT"],
+      "output_domain": "UNBOUND_UNTIL_INSTANCE_BINDING",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "CARDINALITY_NOT_FINITE_OR_NOT_DERIVABLE_FROM_DECLARED_CONTRACT"
+    },
+    {
+      "parameter_id": "PROOF_BOX_IS_FINITE",
+      "required_by_root": "FINITE_QUESTION_BOX_SPEC_V1",
+      "binding_rule": "TRUE_ONLY_AFTER_ALL_REQUIRED_FINITE_PARAMETERS_BIND",
+      "authorized_input_dependencies": ["FINITE_QUESTION_BOX_SPEC_ROOT"],
+      "output_domain": "UNPROVEN_UNTIL_INSTANCE_BINDING",
+      "deterministic": true,
+      "content_independent": true,
+      "result_independent": true,
+      "fail_closed_condition": "ANY_REQUIRED_PARAMETER_UNBOUND"
+    }
+  ],
+  "actual_bound_values": 0,
+  "box_instance_created": 0,
+  "nonclaims": [
+    "NO_BOUND_VALUE_SELECTED",
+    "NO_CARDINALITY_COMPUTED",
+    "NO_FINITE_PROOF_EARNED"
+  ]
+}

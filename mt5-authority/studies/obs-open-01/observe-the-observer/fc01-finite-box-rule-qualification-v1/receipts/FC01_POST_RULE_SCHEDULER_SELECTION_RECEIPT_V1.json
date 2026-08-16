@@ -1,0 +1,22 @@
+{
+  "schema": "FC01_POST_RULE_SCHEDULER_SELECTION_RECEIPT_V1",
+  "status": "SEALED_NEXT_ROOT_SELECTED_NOT_EXECUTED",
+  "scheduler_constitution_root": "BA3E46DF34AE2EA73C0DA2102F736AB82DE407452CED6F9535DDE1604445F0D8",
+  "completed_root": "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1",
+  "eligible_unscheduled_roots": [
+    "FC01_FINITE_BOX_INSTANCE_BINDING_V1"
+  ],
+  "selected_root": "FC01_FINITE_BOX_INSTANCE_BINDING_V1",
+  "selection_basis": "LEXICOGRAPHIC_CANONICAL_GATE_ID_ONLY",
+  "scientific_meaning": "NONE",
+  "finite_box_instance_binding": "NOT_STARTED",
+  "actual_bounds_bound": 0,
+  "one_at_a_time": true,
+  "population_access": 0,
+  "nonclaims": [
+    "ACTUAL_BOUNDS_BOUND",
+    "FINITE_BOX_INSTANCE_CREATED",
+    "TOKENS_REALIZED",
+    "G8_INVOCATION"
+  ]
+}

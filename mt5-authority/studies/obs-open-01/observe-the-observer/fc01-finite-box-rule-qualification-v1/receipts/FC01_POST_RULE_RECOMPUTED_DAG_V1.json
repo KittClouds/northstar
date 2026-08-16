@@ -1,0 +1,25 @@
+{
+  "schema": "FC01_POST_RULE_RECOMPUTED_DAG_V1",
+  "status": "DAG_RECOMPUTED_AFTER_RULE_QUALIFICATION",
+  "parent_dag_root": "DC37158ACFC2698EFBFE0738D3C5207A0C3B1D75FD2F4FD00C1966874558D391",
+  "adapter_instance_root": "AE9CC80FA81AD8B6DCA2C58D465714063865A91B968C54DC9CD2E92D01CD647E",
+  "binding_rule_root": "823A7198C62563C1C7A76E58BBECF18DE662E06F72A1D2FBA76F00E9DD8C52F0",
+  "rule_gate_status": "COMPLETED_QUALIFIED_WITH_RESTRICTIONS",
+  "eligible_unscheduled_roots": [
+    "FC01_FINITE_BOX_INSTANCE_BINDING_V1"
+  ],
+  "scheduler_rule": "CANONICAL_LEXICOGRAPHIC_ORDER_V1",
+  "scheduled_root": "FC01_FINITE_BOX_INSTANCE_BINDING_V1",
+  "selection_basis": "LEXICOGRAPHIC_CANONICAL_GATE_ID_ONLY",
+  "scientific_precedence_claim": "NONE",
+  "actual_bounds_bound": 0,
+  "finite_box_instance_created": 0,
+  "tokens_realized": 0,
+  "pairs": 0,
+  "fibers": 0,
+  "comparisons": 0,
+  "certificates": 0,
+  "coverage_receipts": 0,
+  "g8_verifier_invocations": 0,
+  "population_access": 0
+}

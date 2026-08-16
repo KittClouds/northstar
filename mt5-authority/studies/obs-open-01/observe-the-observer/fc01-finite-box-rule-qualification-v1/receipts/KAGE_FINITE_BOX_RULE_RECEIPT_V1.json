@@ -1,0 +1,20 @@
+{
+  "schema": "KAGE_FINITE_BOX_RULE_RECEIPT_V1",
+  "role": "KAGE",
+  "status": "PASS_WITH_RESTRICTIONS",
+  "conjunction": {
+    "rule_qualification_authority_bound": true,
+    "authorized_input_contract_bound": true,
+    "parameter_registry_complete": true,
+    "deterministic_rule_replay": true,
+    "actual_bounds_zero": true,
+    "downstream_activity_zero": true,
+    "population_access_zero": true
+  },
+  "next_action": "RECOMPUTE_DAG_AND_APPLY_SCHEDULER",
+  "nonclaims": [
+    "FINITE_BOX_INSTANCE",
+    "TOKEN_AUTHORITY",
+    "G8_AUTHORITY"
+  ]
+}

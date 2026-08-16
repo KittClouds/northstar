@@ -1,0 +1,108 @@
+{
+  "schema": "FC01_BIRTH_GRANT_LEDGER_V1",
+  "status": "TWO_INDEPENDENT_GRANTS_MATERIALIZED",
+  "historical_authority_preserved": true,
+  "grants": [
+    {
+      "grant_id": "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V1",
+      "grant_status": "NEW_PRODUCER_AUTHORITY_CREATED_WITH_RESTRICTIONS",
+      "historical_producer_authority": "NOT_IDENTIFIED",
+      "new_lineage_role": "FC01_ADAPTER_PRODUCER_ROLE_V1",
+      "semantic_contract": "G8_04A_SEMANTIC_ADAPTER_CONTRACT_V1",
+      "semantic_contract_root": "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA",
+      "semantic_owner": "COMPOSITE_G1_G3_G4_G5_G6_G7_G8_CONTRACT_SURFACE",
+      "instance_producer": "FC01_ADAPTER_PRODUCER_ROLE_V1",
+      "instance_qualification_authority": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+      "transport_owner": "FC01_ADAPTER_TRANSPORT_GATE_V1",
+      "parent_semantic_roots": [
+        "68B4A55B4D87B76CA1A14A76538B56484C7F878CAB7187E5B89C20C1360A9E1C",
+        "808f4089ada22e7736460a90efd71b1dec0726dece460ca4dc1df8cbccac554c",
+        "cf282d195f90e1ee970b7c5d57329c901848d7894f4ed8c5945755d3935633dd",
+        "069a5294c37a6fbede436af2f57700964ce1e752643aeaa26b06de6581183bd5",
+        "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece",
+        "6D2C3F0F9C2E1AC4FE87C0DE425934B96A402CE66D3922976F1396EE09A116DD"
+      ],
+      "construction_invocation_authorized": "YES_FOR_FUTURE_INSTANCE_QUALIFICATION_GATE_ONLY",
+      "allowed_future_question": "CAN_A_LAWFUL_INSTANCE_SATISFY_THE_SEALED_ADAPTER_CONTRACT_FROM_AUTHORIZED_SEMANTIC_INPUTS?",
+      "output_authority_ceiling": "G8_04A_SEMANTIC_ADAPTER_INSTANCE_ONLY",
+      "forbidden_semantic_changes": [
+        "NEW_G1_SEMANTICS",
+        "NEW_G5_TOKEN_SEMANTICS",
+        "NEW_G6_FIBER_SEMANTICS",
+        "NEW_G7_PROOF_AUTHORITY",
+        "G8_VERDICT_LOGIC"
+      ],
+      "forbidden_operations": [
+        "POPULATION_ACCESS",
+        "PAIR_CONSTRUCTION",
+        "TOKEN_REALIZATION",
+        "FIBER_CONSTRUCTION",
+        "FROZEN_COMPARISON_CONSTRUCTION",
+        "CERTIFICATE_CONSTRUCTION",
+        "G8_VERIFIER_INVOCATION"
+      ],
+      "scope": "DECLARED_SYNTHETIC_SCOPE_ONLY",
+      "instance_created": false,
+      "instance_qualified": false
+    },
+    {
+      "grant_id": "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V1",
+      "grant_status": "NEW_PRODUCER_AUTHORITY_CREATED_WITH_RESTRICTIONS",
+      "historical_producer_authority": "NOT_IDENTIFIED",
+      "new_lineage_role": "FC01_FINITE_BOX_BINDER_ROLE_V1",
+      "semantic_contract": "FINITE_QUESTION_BOX_SPEC_V1",
+      "semantic_contract_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "semantic_owner": "G5_PLUS_FC01_QUESTION_CONTRACT",
+      "bound_selection_authority": "FC01_FINITE_BOX_BINDER_ROLE_V1",
+      "instance_producer": "FC01_FINITE_BOX_BINDER_ROLE_V1",
+      "instance_qualification_authority": "FC01_FINITE_BOX_INSTANCE_QUALIFICATION_GATE_V1",
+      "transport_owner": "FC01_FINITE_BOX_TRANSPORT_GATE_V1",
+      "parent_semantic_roots": [
+        "808f4089ada22e7736460a90efd71b1dec0726dece460ca4dc1df8cbccac554c",
+        "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50",
+        "6D2C3F0F9C2E1AC4FE87C0DE425934B96A402CE66D3922976F1396EE09A116DD"
+      ],
+      "construction_invocation_authorized": "YES_FOR_FUTURE_BINDING_RULE_QUALIFICATION_GATE_ONLY",
+      "allowed_future_question": "CAN_A_PRECOMMITTED_CONTENT_INDEPENDENT_RULE_LAWFULLY_BIND_THE_FINITE_BOX_PARAMETERS?",
+      "output_authority_ceiling": "FINITE_QUESTION_BOX_INSTANCE_ONLY",
+      "rule_inputs_allowed": [
+        "SEALED_FINITE_QUESTION_BOX_SPEC",
+        "SEALED_G5_TOKEN_SCHEMA",
+        "PRECOMMITTED_STATIC_PARAMETER_DOMAINS",
+        "DETERMINISTIC_CANONICAL_RANKING_CONTRACT"
+      ],
+      "rule_inputs_forbidden": [
+        "POPULATION_VALUES",
+        "POPULATION_DISTRIBUTIONS",
+        "EXPLORER_SUCCESS_OR_FAILURE",
+        "G8_VERIFIER_RESULTS",
+        "CROSS_ARM_RESULTS",
+        "POSTHOC_BOUND_TUNING"
+      ],
+      "forbidden_operations": [
+        "BOUND_SELECTION_NOW",
+        "TOKEN_REALIZATION",
+        "PAIR_CONSTRUCTION",
+        "FIBER_CONSTRUCTION",
+        "FROZEN_COMPARISON_CONSTRUCTION",
+        "CERTIFICATE_CONSTRUCTION",
+        "COVERAGE_RECEIPT_CONSTRUCTION",
+        "G8_VERIFIER_INVOCATION",
+        "POPULATION_ACCESS"
+      ],
+      "scope": "DECLARED_SYNTHETIC_SCOPE_ONLY",
+      "bounds_bound": false,
+      "instance_created": false,
+      "instance_qualified": false
+    }
+  ],
+  "global_result": "NEW_PRODUCER_AUTHORITIES_CREATED_WITH_RESTRICTIONS",
+  "historical_producer_authority": {
+    "G8_04A_SEMANTIC_ADAPTER": "NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_AUTHORITY": "NOT_IDENTIFIED"
+  },
+  "new_authority_is_not_historical": true,
+  "new_authority_is_not_instance": true,
+  "new_authority_is_not_qualification": true,
+  "new_authority_is_not_execution": true
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "FC01_BIRTH_SCHEDULER_TRANSITION_RECEIPT_V1",
+  "status": "SEALED",
+  "from_gate": "FC01-OWN",
+  "to_gate": "FC01-BIRTH",
+  "from_result": "FRONTIER_OWNERSHIP_PARTIAL",
+  "to_result": "NEW_PRODUCER_AUTHORITIES_CREATED_WITH_RESTRICTIONS",
+  "historical_producer_authority_preserved": true,
+  "grants_created": [
+    "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V1",
+    "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V1"
+  ],
+  "recomputed_eligible_root_producer_questions": [
+    "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+    "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+  ],
+  "eligible_is_not_execute": true,
+  "scheduler_action": "EXPOSE_ELIGIBLE_PRODUCER_QUESTIONS_HOLD_EXECUTION",
+  "next_gate_woken": "NONE",
+  "forbidden_transitions": [
+    "IMPLEMENT_ADAPTER",
+    "SELECT_QUESTION_BOX_BOUNDS",
+    "REALIZE_TOKENS",
+    "CONSTRUCT_FIBER",
+    "CONSTRUCT_FROZEN_COMPARISON",
+    "CONSTRUCT_CERTIFICATE",
+    "CONSTRUCT_COVERAGE_RECEIPT",
+    "INVOKE_G8",
+    "OPEN_POPULATION"
+  ],
+  "nonclaims": [
+    "HISTORICAL_PRODUCER_AUTHORITY_RECOVERED",
+    "ADAPTER_INSTANCE_EXISTS",
+    "QUESTION_BOX_BOUNDS_ARE_BOUND",
+    "FC01C_IS_NEXT",
+    "FC01D_IS_NEXT"
+  ]
+}

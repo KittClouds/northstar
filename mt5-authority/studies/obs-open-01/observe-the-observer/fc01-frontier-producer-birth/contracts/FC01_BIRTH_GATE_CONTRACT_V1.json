@@ -1,0 +1,66 @@
+{
+  "schema": "FC01_BIRTH_GATE_CONTRACT_V1",
+  "gate": "FC01-BIRTH",
+  "status": "NEW_GOVERNANCE_LINEAGE_CONSTITUTION",
+  "question": "Can this project create new, explicitly restricted producer, qualification, and transport authorities for the two unresolved frontier artifacts, rooted in their sealed semantic contracts, without claiming historical producer authority or allowing downstream G8 requirements to redefine upstream semantics?",
+  "historical_authority_rule": "HISTORICAL_PRODUCER_AUTHORITY_NOT_IDENTIFIED_REMAINS_IMMUTABLE",
+  "new_authority_rule": "NEW_AUTHORITY_IS_A_NEW_LINEAGE_AND_MUST_NOT_BE_RELABELED_HISTORICAL",
+  "targets": [
+    "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V1",
+    "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V1"
+  ],
+  "parent_semantic_roots": [
+    "FC01A_COMPOSITE_ROOT",
+    "G1_ROOT",
+    "G3_ROOT",
+    "G4_ROOT",
+    "G5_ROOT",
+    "G6_ROOT",
+    "G7_ROOT",
+    "G8_ROOT",
+    "FC01_OWN_ROOT"
+  ],
+  "governance_authority_source": "EXPLICIT_PROJECT_GOVERNANCE_DECISION_TO_CREATE_NEW_RESTRICTED_LINEAGE",
+  "authority_roles": [
+    "PRODUCER_AUTHORITY",
+    "INSTANCE_QUALIFICATION_AUTHORITY",
+    "TRANSPORT_AUTHORITY"
+  ],
+  "authority_is_not_instance": true,
+  "authority_is_not_qualification": true,
+  "authority_is_not_execution": true,
+  "anti_gravity_invariant": "DOWNSTREAM_G8_REQUIREMENTS_MAY_NOT_REDEFINE_UPSTREAM_SEMANTICS",
+  "allowed_operations": [
+    "CREATE_RESTRICTED_ROLE_GRANT",
+    "BIND_GRANT_TO_SEALED_SEMANTIC_CONTRACT",
+    "DEFINE_OUTPUT_AUTHORITY_CEILING",
+    "DEFINE_FORBIDDEN_OPERATIONS",
+    "EXPOSE_FUTURE_PRODUCER_QUALIFICATION_QUESTION",
+    "RECOMPUTE_SEALED_DAG"
+  ],
+  "forbidden_operations": [
+    "ADAPTER_IMPLEMENTATION",
+    "QUESTION_BOX_BOUND_SELECTION",
+    "TOKEN_REALIZATION",
+    "PAIR_CONSTRUCTION",
+    "FIBER_CONSTRUCTION",
+    "FROZEN_COMPARISON_CONSTRUCTION",
+    "CERTIFICATE_CONSTRUCTION",
+    "COVERAGE_RECEIPT_CONSTRUCTION",
+    "G8_VERIFIER_INVOCATION",
+    "EXPLORER_INVOCATION",
+    "REAL_04A_HISTORY_READ",
+    "POPULATION_READ",
+    "TARGET_READ",
+    "OUTCOME_READ"
+  ],
+  "per_grant_result_vocabulary": [
+    "NEW_PRODUCER_AUTHORITY_CREATED_WITH_RESTRICTIONS",
+    "NEW_PRODUCER_AUTHORITY_NOT_CREATED",
+    "NOT_EVALUABLE"
+  ],
+  "scope_ceiling": "DECLARED_SYNTHETIC_AND_FORMALLY_UNDERSTOOD_SYSTEMS_ONLY",
+  "population_access": "FORBIDDEN",
+  "scientific_construction": "FORBIDDEN",
+  "eligible_is_not_execute": true
+}

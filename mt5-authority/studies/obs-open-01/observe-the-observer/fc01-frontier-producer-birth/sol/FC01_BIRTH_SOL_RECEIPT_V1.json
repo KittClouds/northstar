@@ -1,0 +1,42 @@
+{
+  "schema": "FC01_BIRTH_SOL_RECEIPT_V1",
+  "role": "NEW_AUTHORITY_LINEAGE_CONSTRUCTION",
+  "status": "SEALED",
+  "result": "NEW_PRODUCER_AUTHORITIES_CREATED_WITH_RESTRICTIONS",
+  "historical_producer_authority": {
+    "G8_04A_SEMANTIC_ADAPTER": "NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_AUTHORITY": "NOT_IDENTIFIED"
+  },
+  "new_grants": [
+    {
+      "grant_id": "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V1",
+      "new_role": "FC01_ADAPTER_PRODUCER_ROLE_V1",
+      "qualification_role": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+      "transport_role": "FC01_ADAPTER_TRANSPORT_GATE_V1",
+      "instance_created": false
+    },
+    {
+      "grant_id": "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V1",
+      "new_role": "FC01_FINITE_BOX_BINDER_ROLE_V1",
+      "qualification_role": "FC01_FINITE_BOX_INSTANCE_QUALIFICATION_GATE_V1",
+      "transport_role": "FC01_FINITE_BOX_TRANSPORT_GATE_V1",
+      "bounds_bound": false,
+      "instance_created": false
+    }
+  ],
+  "lineage_rule": "NEW_AUTHORITY_IS_NOT_HISTORICAL_AUTHORITY",
+  "semantic_parent_rule": "GRANTS_REFERENCE_SEALED_CONTRACTS_WITHOUT_REIMPLEMENTING_THEM",
+  "positive_findings": [
+    "TWO_GRANTS_CREATED_INDEPENDENTLY",
+    "OUTPUT_AUTHORITY_CEILINGS_BOUND",
+    "FORBIDDEN_OPERATIONS_BOUND",
+    "POPULATION_BLINDNESS_BOUND",
+    "FUTURE_PRODUCER_QUESTIONS_EXPOSED"
+  ],
+  "nonclaims": [
+    "HISTORICAL_PRODUCER_AUTHORITY_RECOVERED",
+    "ANY_INSTANCE_QUALIFIED",
+    "ANY_SCIENTIFIC_OBJECT_CREATED",
+    "FC01C_OR_FC01D_SCHEDULED"
+  ]
+}

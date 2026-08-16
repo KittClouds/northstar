@@ -1,0 +1,32 @@
+{
+  "schema": "FC01_BIRTH_ACCESS_AUDIT_V1",
+  "status": "SEALED",
+  "gate": "FC01-BIRTH",
+  "authority_metadata_reads": 1,
+  "real_04a_history_reads": 0,
+  "real_04a_trace_reads": 0,
+  "population_reads": 0,
+  "population_derived_content_reads": 0,
+  "population_derived_metadata_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "pair_reads": 0,
+  "adapter_implementation": 0,
+  "question_box_bound_selection": 0,
+  "token_realization": 0,
+  "pair_construction": 0,
+  "fiber_construction": 0,
+  "frozen_comparison_construction": 0,
+  "certificate_construction": 0,
+  "coverage_receipt_construction": 0,
+  "g8_verifier_invocations": 0,
+  "explorer_invocations": 0,
+  "arm_executions": 0,
+  "access_posture": "NEW_GOVERNANCE_GRANT_ONLY",
+  "historical_population_access": "CLOSED",
+  "nonclaims": [
+    "AUTHORITY_METADATA_READ_IS_POPULATION_READ",
+    "GRANT_CREATION_IS_INSTANCE_CREATION",
+    "GRANT_CREATION_IS_SCIENTIFIC_EXECUTION"
+  ]
+}

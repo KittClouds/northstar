@@ -1,0 +1,58 @@
+{
+  "schema": "FC01_BIRTH_RECOMPUTED_DAG_V1",
+  "status": "DAG_RECOMPUTED_AFTER_NEW_GRANT_CREATION",
+  "parent_dag_root": "71A5ACFB3213D66C2A5298137D9CE0F6F4EBF24AC83129F686A928C71F162C15",
+  "parent_ownership_root": "6D2C3F0F9C2E1AC4FE87C0DE425934B96A402CE66D3922976F1396EE09A116DD",
+  "grant_ledger_root": "7399ED3BD18C7CD13A9B6BB0DD8893231B7AC85E9E211D25A3969897AEEB0E53",
+  "frontier_nodes": [
+    {
+      "id": "G8_04A_SEMANTIC_ADAPTER",
+      "historical_producer_authority": "NOT_IDENTIFIED",
+      "new_producer_authority": "FC01_ADAPTER_PRODUCER_ROLE_V1",
+      "instance_status": "NOT_CREATED",
+      "qualification_status": "NOT_STARTED",
+      "transport_status": "NOT_STARTED",
+      "producer_authorized": true,
+      "eligible_for_future_instance_qualification": true
+    },
+    {
+      "id": "FINITE_QUESTION_BOX_AUTHORITY",
+      "historical_producer_authority": "NOT_IDENTIFIED",
+      "new_producer_authority": "FC01_FINITE_BOX_BINDER_ROLE_V1",
+      "instance_status": "NOT_CREATED",
+      "qualification_status": "NOT_STARTED",
+      "transport_status": "NOT_STARTED",
+      "producer_authorized": true,
+      "eligible_for_future_binding_rule_qualification": true
+    }
+  ],
+  "inherited_cycle_status": "NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "inherited_cycle_witness": [],
+  "computed_eligible_root_producer_questions": [
+    "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+    "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+  ],
+  "computed_unresolved_authority_nodes": [
+    "G5_TOKEN_REALIZATION_INSTANCE",
+    "G6_FIBER_AUTHORITY",
+    "G8_FROZEN_COMPARISON",
+    "G8_SEPARATOR_CERTIFICATE",
+    "G8_COVERAGE_RECEIPT"
+  ],
+  "downstream_roots_not_exposed": [
+    "G5_TOKEN_REALIZATION_INSTANCE",
+    "G6_FIBER_AUTHORITY",
+    "G8_FROZEN_COMPARISON",
+    "G8_SEPARATOR_CERTIFICATE",
+    "G8_COVERAGE_RECEIPT"
+  ],
+  "scheduler_consequence": "ELIGIBLE_PRODUCER_QUESTIONS_EXPOSED_HOLD_EXECUTION",
+  "new_authority_question_status": "PRODUCER_SPECIFIC_CONSTITUTIONS_REQUIRED",
+  "adapter_instance_created": 0,
+  "question_box_bounds_bound": 0,
+  "token_realization": 0,
+  "fiber_construction": 0,
+  "certificate_construction": 0,
+  "verifier_invocations": 0,
+  "population_access": 0
+}

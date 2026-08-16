@@ -1,0 +1,49 @@
+{
+  "schema": "FC01_BIRTH_KAMMI_RECEIPT_V1",
+  "role": "NEW_AUTHORITY_LINEAGE_ADVERSARIAL_AUDIT",
+  "status": "SEALED",
+  "result": "AUDIT_PASS_WITH_RESTRICTIONS",
+  "attacks": [
+    {
+      "attack": "NEW_GRANT_RELABELED_HISTORICAL",
+      "result": "REJECTED_HISTORICAL_STATUS_PRESERVED"
+    },
+    {
+      "attack": "CONSUMER_DEMAND_GRANTS_PRODUCER_AUTHORITY",
+      "result": "REJECTED_EXPLICIT_GOVERNANCE_GRANT_ONLY"
+    },
+    {
+      "attack": "GRANT_IMPLIES_INSTANCE",
+      "result": "REJECTED_INSTANCE_REMAINS_UNCREATED"
+    },
+    {
+      "attack": "GRANT_IMPLIES_QUALIFICATION",
+      "result": "REJECTED_QUALIFICATION_REMAINS_DEFERRED"
+    },
+    {
+      "attack": "G8_REQUIREMENTS_SCULPT_UPSTREAM_SEMANTICS",
+      "result": "REJECTED_ANTI_GRAVITY_BOUND"
+    },
+    {
+      "attack": "BOUND_SELECTION_FROM_POPULATION_OR_RESULTS",
+      "result": "REJECTED_FORBIDDEN"
+    },
+    {
+      "attack": "GRANT_IMPLIES_G8_VERDICT_AUTHORITY",
+      "result": "REJECTED_OUTPUT_CEILING_BOUND"
+    },
+    {
+      "attack": "ELIGIBLE_ROOTS_AUTOMATICALLY_EXECUTE",
+      "result": "REJECTED_ELIGIBLE_IS_NOT_EXECUTE"
+    }
+  ],
+  "historical_recovery": "NOT_PERFORMED",
+  "new_lineage_creation": "VERIFIED",
+  "construction_activity": 0,
+  "population_access": 0,
+  "nonclaims": [
+    "HISTORICAL_PRODUCER_FOUND",
+    "INSTANCE_VALIDITY",
+    "SCIENTIFIC_VERDICT"
+  ]
+}

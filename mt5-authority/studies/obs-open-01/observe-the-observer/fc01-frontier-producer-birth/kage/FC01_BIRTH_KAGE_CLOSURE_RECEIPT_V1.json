@@ -1,0 +1,34 @@
+{
+  "schema": "FC01_BIRTH_KAGE_CLOSURE_RECEIPT_V1",
+  "role": "NEW_AUTHORITY_CHAIN_OF_CUSTODY_AND_SCHEDULER_CLOSURE",
+  "status": "SEALED",
+  "result": "NEW_PRODUCER_AUTHORITIES_CREATED_WITH_RESTRICTIONS",
+  "checks": {
+    "historical_fc01_own_fossil_immutable": "PASS",
+    "historical_producer_status_preserved": "PASS",
+    "new_governance_lineage_bound": "PASS",
+    "adapter_grant_independently_recorded": "PASS",
+    "finite_box_grant_independently_recorded": "PASS",
+    "semantic_parent_roots_bound": "PASS",
+    "output_authority_ceilings_bound": "PASS",
+    "forbidden_operations_bound": "PASS",
+    "instances_created": 0,
+    "instances_qualified": 0,
+    "construction_invoked": 0,
+    "eligible_root_questions_computed": "PASS",
+    "eligible_root_questions": [
+      "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+      "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+    ],
+    "next_gate_woken": "NONE",
+    "population_access": 0
+  },
+  "scheduler_action": "EXPOSE_ELIGIBLE_PRODUCER_QUESTIONS_HOLD_EXECUTION",
+  "nonclaims": [
+    "HISTORICAL_PRODUCER_AUTHORITY_RECOVERED",
+    "ADAPTER_INSTANCE_QUALIFIED",
+    "QUESTION_BOX_BOUNDS_BOUND",
+    "FC01C_OR_FC01D_SCHEDULED",
+    "G8_VERIFIER_AUTHORITY"
+  ]
+}

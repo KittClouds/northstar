@@ -1,0 +1,15 @@
+{
+  "04a_reads": 0,
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "kammi_results_read": 0,
+  "market_rows": 0,
+  "outcomes": 0,
+  "population_contact": 0,
+  "result_conditioned_retuning": 0,
+  "runtime_probes": 0,
+  "schema": "SOL_PART2_ACCESS_AUDIT_V1",
+  "sol_results_read": 0,
+  "trading_com_editor_invoked": false
+}

@@ -1,0 +1,11 @@
+{
+  "current_status": "FORBIDDEN",
+  "first_touch": "NOT_AUTHORIZED",
+  "preconditions": [
+    "G8_ROOT_MATERIALIZED",
+    "G8_ROOT_BOUND",
+    "QUESTION_PACKETS_REVERIFIED",
+    "ACCESS_AUTHORIZATION_SEALED"
+  ],
+  "schema": "SOL_PART2_POPULATION_ACCESS_POLICY_V1"
+}

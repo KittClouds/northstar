@@ -1,0 +1,13 @@
+{
+  "classes": [
+    "YES",
+    "NO",
+    "MIXED",
+    "UNKNOWN",
+    "NOT_EVALUABLE"
+  ],
+  "fixture_count": 5,
+  "observer_or_population_access": 0,
+  "purpose": "question-machinery-qualification",
+  "schema": "SOL_PART2_SYNTHETIC_OUTCOME_CORPUS_V1"
+}

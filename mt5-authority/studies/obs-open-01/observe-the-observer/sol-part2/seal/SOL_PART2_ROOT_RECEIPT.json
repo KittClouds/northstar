@@ -1,0 +1,70 @@
+{
+  "logical_root": "d1b38643e473ff5a2026bd9f244d2727d9cba08d608007d6ebc24d0c16004052",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 672,
+        "path": "SOL_PART2_G8_LINEAGE_AUDIT.json",
+        "sha256": "6e1709d8265ba119337663525b106513d4c3618f249124dd6e90d5e46261ea0d"
+      },
+      {
+        "bytes": 377,
+        "path": "SOL_PART2_REVERIFICATION_POLICY.json",
+        "sha256": "ddf4a9244980842c78ceeb144acd86206e442cc9910558698d26330241da3699"
+      },
+      {
+        "bytes": 341,
+        "path": "SOL_PART2_QUESTION_FACTORY_CONTRACT.json",
+        "sha256": "f4c07e3ae49989d76587bb292aee75a34b013ed10350089d7712f62896aa92df"
+      },
+      {
+        "bytes": 27625,
+        "path": "SOL_PART2_QUESTION_PACKETS.json",
+        "sha256": "0d24798eaa552913506fb548364f49c7b5dc418bd1977cfc1a1b05d2c63df6d0"
+      },
+      {
+        "bytes": 374,
+        "path": "SOL_PART2_EPISTEMIC_DELTA_CONTRACT.json",
+        "sha256": "a01661a695d18d33bb9ac1a06b520474fd3e3e9fa0342dc0108aa03cade04cce"
+      },
+      {
+        "bytes": 255,
+        "path": "SOL_PART2_ANTI_FUNNEL_RESULTS.json",
+        "sha256": "56a9eb54cc7972ef776dc0abe7aa64cd90aba9729e3bd203deb6cdcf22e98932"
+      },
+      {
+        "bytes": 254,
+        "path": "SOL_PART2_SYNTHETIC_OUTCOME_CORPUS.json",
+        "sha256": "062a515cfbc9b26dfae791e04c94752ac8b5c4ca599ec968fe75a2129a9c2219"
+      },
+      {
+        "bytes": 268,
+        "path": "SOL_PART2_POPULATION_ACCESS_POLICY.json",
+        "sha256": "6e690ae7bb4ea2b8717eaba02ace26b85b94936e8b0bd6a6a99503fd7a6f5dc4"
+      },
+      {
+        "bytes": 330,
+        "path": "SOL_PART2_ACCESS_AUDIT.json",
+        "sha256": "7cfe74bd1a00e53d6a81ffa58f9fc7a48b0f4f40ca1c8dfaa6541688cc1ba967"
+      },
+      {
+        "bytes": 316,
+        "path": "SOL_PART2_GATE_DECISION.json",
+        "sha256": "d5fb74698158b755566c408cf7f78e8b700b55f09075e175c462785b8f4456e0"
+      },
+      {
+        "bytes": 2070,
+        "path": "SOL_PART2_EXECUTION_REPORT.md",
+        "sha256": "cf470de13bd3f3afa37b63ac9fa11207ac9c22d782b0fc3f9f7a95624aebdfcb"
+      }
+    ],
+    "authority": "OBS_OPEN_SOL_PART2_QUESTION_FACTORY_V1",
+    "final_state": "QUESTION_FACTORY_QUALIFIED_PENDING_G8_BINDING",
+    "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+    "parent_sol_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
+    "population_contact": "FORBIDDEN",
+    "question_count": 5,
+    "schema": "SOL_PART2_ROOT_PAYLOAD_V1"
+  },
+  "schema": "SOL_PART2_ROOT_RECEIPT_V1"
+}

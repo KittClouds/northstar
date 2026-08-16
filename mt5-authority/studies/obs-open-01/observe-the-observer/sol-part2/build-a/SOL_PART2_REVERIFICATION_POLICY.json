@@ -1,0 +1,14 @@
+{
+  "population_access_during_reverification": 0,
+  "required_after_materialization": [
+    "exact G8 root binding",
+    "unchanged optics",
+    "unchanged question grammar",
+    "unchanged arms",
+    "unchanged synthesis",
+    "unchanged stopping",
+    "unchanged blindness"
+  ],
+  "schema": "SOL_PART2_REVERIFICATION_POLICY_V1",
+  "semantic_change": "NEW_LINEAGE_AND_HALT"
+}

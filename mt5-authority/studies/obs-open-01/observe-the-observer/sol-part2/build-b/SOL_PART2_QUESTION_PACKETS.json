@@ -1,0 +1,657 @@
+{
+  "p6_status": "BLOCKED_PENDING_SEPARATE_SOURCE",
+  "questions": [
+    {
+      "arm_id": "SOL-P1",
+      "common_mode_failures": [
+        "DISPLAY_CONTAMINATION",
+        "CLOCK_OR_RESOLUTION_ALIASING",
+        "ADAPTER_ERROR"
+      ],
+      "dependence_on_other_questions": "NONE_REQUIRED",
+      "epistemic_delta_contract": {
+        "MIXED": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the MIXED result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NO": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NO result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NOT_EVALUABLE": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NOT_EVALUABLE result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "UNKNOWN": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the UNKNOWN result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "YES": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the YES result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        }
+      },
+      "explicit_non_measurements": [
+        "target identity",
+        "target region",
+        "mechanism",
+        "economic meaning",
+        "universal generalization"
+      ],
+      "fixed_quantities": [
+        "inherited observer lineage",
+        "authorized input material",
+        "protected measurement surface",
+        "predeclared control set"
+      ],
+      "observed_output_surface": [
+        "protected relations",
+        "ordering",
+        "timing receipts"
+      ],
+      "ontology_assumptions": "NONE",
+      "outcome_space": [
+        "YES",
+        "NO",
+        "MIXED",
+        "UNKNOWN",
+        "NOT_EVALUABLE"
+      ],
+      "primitive_operation": "CHANGE_COORDINATE_PROJECTION",
+      "qualification_status": "SURVIVES_SYNTHETIC_ANTI_FUNNEL",
+      "question_id": "SOL-P1-Q1",
+      "question_text": "Under a frozen set of authorized coordinate projections, which protected relations are preserved, changed, ambiguous, or unevaluable?",
+      "region_assumptions": "NONE",
+      "required_adapters": [
+        "QUESTION_PACKET_ADAPTER_V1"
+      ],
+      "required_authority": [
+        "SOL_CAMPAIGN_ROOT",
+        "G8_ROOT",
+        "OPTIC_REGISTRY",
+        "NEGATIVE_CONTROL_CONTRACT"
+      ],
+      "result_conditioned_retuning": "FORBIDDEN",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS"
+      ],
+      "varied_quantities": [
+        "coordinate projection"
+      ]
+    },
+    {
+      "arm_id": "SOL-P2",
+      "common_mode_failures": [
+        "DISPLAY_CONTAMINATION",
+        "CLOCK_OR_RESOLUTION_ALIASING",
+        "ADAPTER_ERROR"
+      ],
+      "dependence_on_other_questions": "NONE_REQUIRED",
+      "epistemic_delta_contract": {
+        "MIXED": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the MIXED result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NO": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NO result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NOT_EVALUABLE": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NOT_EVALUABLE result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "UNKNOWN": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the UNKNOWN result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "YES": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the YES result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        }
+      },
+      "explicit_non_measurements": [
+        "target identity",
+        "target region",
+        "mechanism",
+        "economic meaning",
+        "universal generalization"
+      ],
+      "fixed_quantities": [
+        "inherited observer lineage",
+        "authorized input material",
+        "protected measurement surface",
+        "predeclared control set"
+      ],
+      "observed_output_surface": [
+        "protected distinctions",
+        "loss receipt",
+        "ordering"
+      ],
+      "ontology_assumptions": "NONE",
+      "outcome_space": [
+        "YES",
+        "NO",
+        "MIXED",
+        "UNKNOWN",
+        "NOT_EVALUABLE"
+      ],
+      "primitive_operation": "REMOVE_INFORMATION_WITH_EXPLICIT_LOSS_RECEIPT",
+      "qualification_status": "SURVIVES_SYNTHETIC_ANTI_FUNNEL",
+      "question_id": "SOL-P2-Q1",
+      "question_text": "Under frozen resolution operators, which protected distinctions remain equal, differ, become ambiguous, or become unevaluable?",
+      "region_assumptions": "NONE",
+      "required_adapters": [
+        "QUESTION_PACKET_ADAPTER_V1"
+      ],
+      "required_authority": [
+        "SOL_CAMPAIGN_ROOT",
+        "G8_ROOT",
+        "OPTIC_REGISTRY",
+        "NEGATIVE_CONTROL_CONTRACT"
+      ],
+      "result_conditioned_retuning": "FORBIDDEN",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS"
+      ],
+      "varied_quantities": [
+        "resolution operator"
+      ]
+    },
+    {
+      "arm_id": "SOL-P3",
+      "common_mode_failures": [
+        "DISPLAY_CONTAMINATION",
+        "CLOCK_OR_RESOLUTION_ALIASING",
+        "ADAPTER_ERROR"
+      ],
+      "dependence_on_other_questions": "NONE_REQUIRED",
+      "epistemic_delta_contract": {
+        "MIXED": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the MIXED result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NO": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NO result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NOT_EVALUABLE": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NOT_EVALUABLE result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "UNKNOWN": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the UNKNOWN result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "YES": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the YES result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        }
+      },
+      "explicit_non_measurements": [
+        "target identity",
+        "target region",
+        "mechanism",
+        "economic meaning",
+        "universal generalization"
+      ],
+      "fixed_quantities": [
+        "inherited observer lineage",
+        "authorized input material",
+        "protected measurement surface",
+        "predeclared control set"
+      ],
+      "observed_output_surface": [
+        "known outputs",
+        "possible sets",
+        "undetermined outputs"
+      ],
+      "ontology_assumptions": "NONE",
+      "outcome_space": [
+        "YES",
+        "NO",
+        "MIXED",
+        "UNKNOWN",
+        "NOT_EVALUABLE"
+      ],
+      "primitive_operation": "REMOVE_INFORMATION_WITH_EXPLICIT_LOSS_RECEIPT",
+      "qualification_status": "SURVIVES_SYNTHETIC_ANTI_FUNNEL",
+      "question_id": "SOL-P3-Q1",
+      "question_text": "Under predeclared masks and possible-value sets, which outputs remain determined, possible, or undetermined?",
+      "region_assumptions": "NONE",
+      "required_adapters": [
+        "QUESTION_PACKET_ADAPTER_V1"
+      ],
+      "required_authority": [
+        "SOL_CAMPAIGN_ROOT",
+        "G8_ROOT",
+        "OPTIC_REGISTRY",
+        "NEGATIVE_CONTROL_CONTRACT"
+      ],
+      "result_conditioned_retuning": "FORBIDDEN",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS"
+      ],
+      "varied_quantities": [
+        "visibility mask",
+        "possible-value set"
+      ]
+    },
+    {
+      "arm_id": "SOL-P4",
+      "common_mode_failures": [
+        "DISPLAY_CONTAMINATION",
+        "CLOCK_OR_RESOLUTION_ALIASING",
+        "ADAPTER_ERROR"
+      ],
+      "dependence_on_other_questions": "NONE_REQUIRED",
+      "epistemic_delta_contract": {
+        "MIXED": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the MIXED result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NO": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NO result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NOT_EVALUABLE": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NOT_EVALUABLE result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "UNKNOWN": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the UNKNOWN result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "YES": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the YES result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        }
+      },
+      "explicit_non_measurements": [
+        "target identity",
+        "target region",
+        "mechanism",
+        "economic meaning",
+        "universal generalization"
+      ],
+      "fixed_quantities": [
+        "inherited observer lineage",
+        "authorized input material",
+        "protected measurement surface",
+        "predeclared control set"
+      ],
+      "observed_output_surface": [
+        "time component",
+        "value component",
+        "comparison receipt"
+      ],
+      "ontology_assumptions": "NONE",
+      "outcome_space": [
+        "YES",
+        "NO",
+        "MIXED",
+        "UNKNOWN",
+        "NOT_EVALUABLE"
+      ],
+      "primitive_operation": "PERTURB_TIMING_WHERE_LEGAL",
+      "qualification_status": "SURVIVES_SYNTHETIC_ANTI_FUNNEL",
+      "question_id": "SOL-P4-Q1",
+      "question_text": "Under frozen monotone timing displacements with protected values held separate, which measured differences are attributable to timing, value, both, or cannot be compared?",
+      "region_assumptions": "NONE",
+      "required_adapters": [
+        "QUESTION_PACKET_ADAPTER_V1"
+      ],
+      "required_authority": [
+        "SOL_CAMPAIGN_ROOT",
+        "G8_ROOT",
+        "OPTIC_REGISTRY",
+        "NEGATIVE_CONTROL_CONTRACT"
+      ],
+      "result_conditioned_retuning": "FORBIDDEN",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS"
+      ],
+      "varied_quantities": [
+        "monotone timing displacement"
+      ]
+    },
+    {
+      "arm_id": "SOL-P5",
+      "common_mode_failures": [
+        "DISPLAY_CONTAMINATION",
+        "CLOCK_OR_RESOLUTION_ALIASING",
+        "ADAPTER_ERROR"
+      ],
+      "dependence_on_other_questions": "NONE_REQUIRED",
+      "epistemic_delta_contract": {
+        "MIXED": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the MIXED result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NO": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NO result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "NOT_EVALUABLE": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the NOT_EVALUABLE result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "UNKNOWN": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the UNKNOWN result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        },
+        "YES": {
+          "authority_boundary": "the exact input, optic, correspondence, and protected surface used by this packet",
+          "forbidden_inference": [
+            "TARGET_OBJECT",
+            "TARGET_REGION",
+            "MECHANISM",
+            "UNIVERSALITY",
+            "ECONOMIC_VALUE"
+          ],
+          "legal_followup": "a separately frozen question whose inputs and authority are named",
+          "what_becomes_known": "whether the predeclared comparison has the YES result class",
+          "what_becomes_ruled_out": "only claims inconsistent with the qualified result and its controls",
+          "what_remains_unknown": "any unmeasured construction, mechanism, generalization, or interpretation"
+        }
+      },
+      "explicit_non_measurements": [
+        "target identity",
+        "target region",
+        "mechanism",
+        "economic meaning",
+        "universal generalization"
+      ],
+      "fixed_quantities": [
+        "inherited observer lineage",
+        "authorized input material",
+        "protected measurement surface",
+        "predeclared control set"
+      ],
+      "observed_output_surface": [
+        "transform measurements",
+        "control receipts",
+        "precision receipt"
+      ],
+      "ontology_assumptions": "NONE",
+      "outcome_space": [
+        "YES",
+        "NO",
+        "MIXED",
+        "UNKNOWN",
+        "NOT_EVALUABLE"
+      ],
+      "primitive_operation": "APPLY_FIXED_OPTICAL_TRANSFORM",
+      "qualification_status": "SURVIVES_SYNTHETIC_ANTI_FUNNEL",
+      "question_id": "SOL-P5-Q1",
+      "question_text": "For a frozen nonlearned transform bank, which declared measurements are reproducible, changed, or unevaluable under the control battery?",
+      "region_assumptions": "NONE",
+      "required_adapters": [
+        "QUESTION_PACKET_ADAPTER_V1"
+      ],
+      "required_authority": [
+        "SOL_CAMPAIGN_ROOT",
+        "G8_ROOT",
+        "OPTIC_REGISTRY",
+        "NEGATIVE_CONTROL_CONTRACT"
+      ],
+      "result_conditioned_retuning": "FORBIDDEN",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "NULL_ONTOLOGY",
+        "RESULT_BLINDNESS"
+      ],
+      "varied_quantities": [
+        "fixed transform bank"
+      ]
+    }
+  ],
+  "schema": "SOL_PART2_QUESTION_PACKETS_V1"
+}

@@ -1,0 +1,12 @@
+{
+  "real_population_access": 0,
+  "schema": "SOL_PART2_ANTI_FUNNEL_RESULTS_V1",
+  "status": "PASS_SYNTHETIC_ONLY",
+  "tests": [
+    "OUTCOME_REVERSAL",
+    "NULL_SURVIVAL",
+    "TOOL_REMOVAL",
+    "STORY_DELETION",
+    "NEGATIVE_CONTROL_CHALLENGE"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "nonempty_update_required": true,
+  "required_fields": [
+    "what_becomes_known",
+    "what_becomes_ruled_out",
+    "what_remains_unknown",
+    "authority_boundary",
+    "legal_followup",
+    "forbidden_inference"
+  ],
+  "result_classes": [
+    "YES",
+    "NO",
+    "MIXED",
+    "UNKNOWN",
+    "NOT_EVALUABLE"
+  ],
+  "schema": "SOL_PART2_EPISTEMIC_DELTA_CONTRACT_V1"
+}

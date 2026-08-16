@@ -1,0 +1,13 @@
+{
+  "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+  "materialized": false,
+  "oto_a1_root": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+  "oto_l_root": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+  "parent_sol_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
+  "reverification": "NOT_EVALUABLE_PENDING_EXACT_G8_ROOT",
+  "schema": "SOL_PART2_G8_LINEAGE_AUDIT_V1",
+  "search_scope": "CURRENT_SINGULAR_AUTHORITY_CHECKOUT",
+  "static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+  "status": "G8_PARENT_LINEAGE_UNAVAILABLE",
+  "synthetic_replacement_created": false
+}

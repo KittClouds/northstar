@@ -1,0 +1,9 @@
+{
+  "authority_gain": "NONE",
+  "g8_lineage": "NOT_EVALUABLE",
+  "population_authority": "NONE",
+  "question_factory": "QUALIFIED_SYNTHETIC_ONLY",
+  "result": "QUESTION_FACTORY_QUALIFIED_PENDING_G8_BINDING",
+  "schema": "SOL_PART2_GATE_DECISION_V1",
+  "status": "QUESTION_FACTORY_FROZEN_WITH_DECLARED_RESTRICTION"
+}

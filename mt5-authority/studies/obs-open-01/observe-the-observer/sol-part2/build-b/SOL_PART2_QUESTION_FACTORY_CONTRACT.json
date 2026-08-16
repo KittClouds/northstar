@@ -1,0 +1,9 @@
+{
+  "formal_tool_selection": "AFTER_QUESTION_FREEZE",
+  "question_selection": "NEUTRAL_PACKET_GENERATION_ONLY",
+  "result_conditioned_retuning": "FORBIDDEN",
+  "schema": "SOL_PART2_QUESTION_FACTORY_CONTRACT_V1",
+  "target_object": "UNBOUND",
+  "target_region": "UNBOUND",
+  "value_rule": "NONEMPTY_EPISTEMIC_UPDATE_FOR_ALL_RESULT_CLASSES"
+}

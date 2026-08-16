@@ -1,0 +1,12 @@
+{
+  "schema": "SOL_FQB_S0_RECEIPT_V1",
+  "role": "SOL",
+  "status": "COMPLETE_WITH_UNRESOLVED_SOURCE_AUTHORITY",
+  "finding": "Five extent classes lack a lawful concrete-value source; no governance selectability was inferred.",
+  "source_authority_not_identified": ["TOKEN_LENGTH_BOUND", "MAX_TOKEN_WORD_LENGTH", "HORIZON_BOUND", "INTEGER_BOUND", "BOX_CARDINALITY"],
+  "value_source_identified": ["ENUM_DOMAINS", "RANK_SHELL_CONTRACT", "CANONICAL_TOKEN_ORDER", "INTEGER_DOMAIN", "PROOF_BOX_IS_FINITE"],
+  "values_materialized": 0,
+  "actual_bounds_bound": 0,
+  "nonclaims": ["GOVERNANCE_GRANT", "PARAMETER_VALUES", "FINITE_BOX_INSTANCE"],
+  "population_reads": 0
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "FC01_FINITE_BOX_PARAMETER_SOURCE_S0_CONTRACT_V1",
+  "gate": "FC01-FQB-S0",
+  "status": "LIVE_READ_ONLY_PROVENANCE_CLASSIFICATION",
+  "question": "Classify lawful provenance of every finite-box parameter without producing values.",
+  "semantic_owner": "FINITE_QUESTION_BOX_SPEC_V1",
+  "finite_box_spec_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "failed_binding_v1_root": "ECCC8961D76BEB0CBA09B965F7814ACBD6DA5BFA910E250FA9FE3E5B03E0F22F",
+  "source_taxonomy": [
+    "SEALED_CONTRACT_EXACT_VALUE",
+    "SEALED_CONTRACT_DOMAIN",
+    "CONTRACT_AUTHORIZED_MECHANICAL_DERIVATION",
+    "GOVERNANCE_SELECTABLE_EXPERIMENTAL_EXTENT",
+    "NOT_AVAILABLE",
+    "NOT_EVALUABLE"
+  ],
+  "per_parameter_outcomes": [
+    "VALUE_SOURCE_IDENTIFIED",
+    "GOVERNANCE_SELECTION_REQUIRED",
+    "SOURCE_AUTHORITY_NOT_IDENTIFIED",
+    "NOT_EVALUABLE"
+  ],
+  "values_selected": 0,
+  "values_derived": 0,
+  "values_inherited": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "population_access": 0,
+  "forbidden_operations": [
+    "SELECT_VALUES",
+    "DERIVE_VALUES",
+    "ASSEMBLE_BINDING_VECTOR",
+    "ISSUE_GOVERNANCE_VALUE_GRANT",
+    "READ_POPULATION",
+    "READ_RESULTS",
+    "READ_TOKENS",
+    "READ_G8"
+  ],
+  "governance_selectability_requires_positive_contract_authority": true,
+  "nonclaims": [
+    "A_DOMAIN_IS_A_CONCRETE_VALUE",
+    "NO_SOURCE_FOUND_MEANS_GOVERNANCE_MAY_SELECT",
+    "PARAMETER_VALUES",
+    "FINITE_BOX_INSTANCE",
+    "SCIENTIFIC_SUFFICIENCY"
+  ]
+}

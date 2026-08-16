@@ -1,0 +1,15 @@
+{
+  "schema": "KAMMI_FQB_S0_RECEIPT_V1",
+  "role": "KAMMI",
+  "status": "PASS_ATTACK_CONFIRMED",
+  "witnesses_found": 0,
+  "checks": {
+    "domain_promoted_to_value": 0,
+    "missing_source_promoted_to_governance": 0,
+    "mechanical_derivation_executed": 0,
+    "values_materialized": 0,
+    "governance_grant_issued": 0,
+    "population_leakage": 0
+  },
+  "nonclaims": ["VALUE_AUTHORITY", "GOVERNANCE_SELECTABILITY", "FINITE_BOX_INSTANCE"]
+}

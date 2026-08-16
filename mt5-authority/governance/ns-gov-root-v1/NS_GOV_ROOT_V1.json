@@ -1,0 +1,32 @@
+{
+  "schema": "NS_GOV_ROOT_V1",
+  "root_class": "FOUNDATIONAL_GOVERNANCE_AUTHORITY",
+  "authority_source": "RECOGNIZED_CONSTITUTING_PROJECT_PRINCIPAL",
+  "derivation": "CONSTITUTIVE_NOT_DERIVED",
+  "parent_northstar_authority_root_required": false,
+  "principal_binding": "RECOGNIZED_CONSTITUTING_PROJECT_PRINCIPAL",
+  "may_create": [
+    "DESCENDANT_GOVERNANCE_CONSTITUTIONS",
+    "RESTRICTED_PRODUCER_AUTHORITY_GRANTS",
+    "QUALIFICATION_AUTHORITY_GRANTS",
+    "TRANSPORT_AUTHORITY_GRANTS",
+    "SCHEDULER_CONSTITUTIONS",
+    "CAPABILITY_GRANTS",
+    "CAPABILITY_REVOCATIONS"
+  ],
+  "may_create_scientific_semantics": false,
+  "may_declare_fiber_membership": false,
+  "may_declare_equivalence": false,
+  "may_declare_certificate_validity": false,
+  "may_issue_g8_verdicts": false,
+  "may_select_population": false,
+  "may_open_protected_data": false,
+  "may_promote_not_evaluable_to_pass": false,
+  "may_rewrite_sealed_history": false,
+  "may_retroactively_authorize_actions": false,
+  "governing_sentence": "THIS ROOT MAY CREATE JURISDICTION TO ASK AND QUALIFY QUESTIONS; IT MAY NOT ANSWER SCIENTIFIC QUESTIONS BY DECREE",
+  "scope": "GOVERNANCE_ONLY",
+  "cross_lineage_replay": "FORBIDDEN",
+  "population_access": 0,
+  "scientific_execution": 0
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "FC01_SCHEDULER_CONSTITUTION_V1",
+  "status": "SEALED",
+  "governance_parent": "NS-GOV-ROOT_V1",
+  "question": "Which one eligible unscheduled producer question is selected when eligible roots are incomparable?",
+  "rule_id": "CANONICAL_LEXICOGRAPHIC_ORDER_V1",
+  "inputs_allowed": [
+    "CANONICAL_GATE_IDS",
+    "ELIGIBILITY_STATUS",
+    "PRIOR_EXECUTION_STATUS"
+  ],
+  "inputs_forbidden": [
+    "EXPECTED_SCIENTIFIC_VALUE",
+    "EXPECTED_PASS_PROBABILITY",
+    "EXPECTED_DOWNSTREAM_UNLOCK_COUNT",
+    "IMPLEMENTATION_CONVENIENCE",
+    "POPULATION_PROPERTIES",
+    "TARGET_INFORMATION",
+    "OUTCOME_INFORMATION",
+    "G8_RESULTS",
+    "EXPLORER_RESULTS"
+  ],
+  "ordering": "LEXICOGRAPHIC_CODE_POINT_ORDER_OF_CANONICAL_GATE_ID",
+  "selection": "SMALLEST_ELIGIBLE_UNSCHEDULED_CANONICAL_GATE_ID",
+  "one_at_a_time": true,
+  "automatic_concurrency": false,
+  "scientific_meaning": "NONE",
+  "tie_breaker": "CANONICAL_GATE_ID_ONLY",
+  "recompute_after_each_terminal_result": true,
+  "may_create_scientific_semantics": false,
+  "may_select_population": false,
+  "may_open_protected_data": false,
+  "population_access": 0
+}

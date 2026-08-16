@@ -1,0 +1,51 @@
+{
+  "schema": "FC01_ADAPTER_INSTANCE_QUALIFICATION_RECEIPT_V1",
+  "status": "QUALIFIED_WITH_RESTRICTIONS",
+  "gate": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+  "grant": "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V2",
+  "grant_root": "2B04972F9345A37F249E28584F52F678DF109DE7D0DBEED30724434EE076072F",
+  "contract_root": "DC35EDA41DC9E9503FF329CDF9F5936291C8FCB2718838EF8C8586CF272747DB",
+  "historical_adapter_contract_root": "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA",
+  "fixture_root": "ABAB8BA89D7A30436B25A771E6DAE7FABD00B33F7E440A3CE0891522CA636AB2",
+  "implementation_root": "0B21CCF1D4F286663313376E509A1DDC13E778401C788ABC88739D8F780424BA",
+  "qualification_runner_root": "C4211DDBF633322C8F053A4EABB2F20E21D0E4BFD736421BDD9CB61224C46C2D",
+  "a1_projector_root": "53D4F850C8D3943A0EA4F56CB3FF533434A6BB6C50CEF82720DA6A84AE976E54",
+  "instance_root": "AE9CC80FA81AD8B6DCA2C58D465714063865A91B968C54DC9CD2E92D01CD647E",
+  "checks": {
+    "grant_root_bound": "PASS",
+    "synthetic_nonpopulation_fixture": "PASS",
+    "exact_a1_projector_invoked": "PASS",
+    "direct_authorized_field_mapping": "PASS",
+    "representation_preserving_packaging": "PASS",
+    "sequence_order_preserved": "PASS",
+    "variant_preserved": "PASS",
+    "g6_input_not_fiber_authority": "PASS",
+    "g8_not_invoked": "PASS",
+    "no_new_semantic_rules": "PASS",
+    "no_downstream_construction": "PASS"
+  },
+  "authority_ceiling": "G8_04A_ADAPTER_INSTANCE_ONLY",
+  "real_04a_applicability": "NOT_ESTABLISHED",
+  "historical_adapter_identity": "NOT_CLAIMED",
+  "population_access": 0,
+  "downstream_activity": {
+    "finite_box_bound_selection": 0,
+    "token_realization": 0,
+    "pair_construction": 0,
+    "fiber_construction": 0,
+    "comparison_construction": 0,
+    "certificate_construction": 0,
+    "coverage_receipt_construction": 0,
+    "g8_verifier_invocations": 0,
+    "explorer_invocations": 0
+  },
+  "nonclaims": [
+    "FC01A_IS_THE_HISTORICAL_G8_04A_ADAPTER",
+    "REAL_04A_HISTORY_APPLICABILITY",
+    "G6_FIBER_MEMBERSHIP",
+    "G8_VERIFIER_INPUT_ACCEPTANCE",
+    "G8_VERDICT",
+    "FINITE_BOX_AUTHORITY",
+    "POPULATION_AUTHORITY"
+  ]
+}

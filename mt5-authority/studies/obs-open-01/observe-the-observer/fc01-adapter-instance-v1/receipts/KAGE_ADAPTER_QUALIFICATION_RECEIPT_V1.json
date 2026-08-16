@@ -1,0 +1,22 @@
+{
+  "schema": "KAGE_ADAPTER_QUALIFICATION_RECEIPT_V1",
+  "role": "KAGE",
+  "status": "PASS_WITH_RESTRICTIONS",
+  "conjunction": {
+    "v2_grant_consumable": true,
+    "adapter_contract_bound": true,
+    "a1_projector_reused": true,
+    "synthetic_scope_only": true,
+    "downstream_activity_zero": true,
+    "population_access_zero": true
+  },
+  "instance_root": "AE9CC80FA81AD8B6DCA2C58D465714063865A91B968C54DC9CD2E92D01CD647E",
+  "scheduled_gate_completed": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+  "next_action": "RECOMPUTE_DAG_AND_APPLY_SCHEDULER",
+  "nonclaims": [
+    "finite-box qualification",
+    "G6 fiber qualification",
+    "G8 invocation",
+    "population authority"
+  ]
+}

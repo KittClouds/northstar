@@ -1,0 +1,21 @@
+{
+  "schema": "FC01_POST_ADAPTER_RECOMPUTED_DAG_V1",
+  "status": "DAG_RECOMPUTED_AFTER_ADAPTER_QUALIFICATION",
+  "parent_dag_root": "BAA18202B7F3AB1805D58237AA7335C2A2EC22DBE36C0BE8B4C4E300FEEC68CC",
+  "adapter_instance_root": "AE9CC80FA81AD8B6DCA2C58D465714063865A91B968C54DC9CD2E92D01CD647E",
+  "adapter_gate_status": "COMPLETED_QUALIFIED_WITH_RESTRICTIONS",
+  "finite_box_gate_status": "ELIGIBLE_UNSCHEDULED",
+  "eligible_unscheduled_roots": [
+    "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+  ],
+  "root_relation_after_completion": "NO_REMAINING_INCOMPARABLE_PAIR",
+  "cycle_status": "NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "scheduler_rule": "CANONICAL_LEXICOGRAPHIC_ORDER_V1",
+  "scheduled_root": "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1",
+  "scientific_precedence_claim": "NONE",
+  "finite_box_instance_created": 0,
+  "bounds_bound": 0,
+  "token_realization": 0,
+  "g8_verifier_invocations": 0,
+  "population_access": 0
+}

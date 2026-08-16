@@ -1,0 +1,22 @@
+{
+  "schema": "SOL_ADAPTER_QUALIFICATION_RECEIPT_V1",
+  "role": "SOL",
+  "status": "PASS_WITH_RESTRICTIONS",
+  "question": "Can one adapter instance be constructed under the V2 producer grant using only already-earned semantic authority?",
+  "instance_root": "AE9CC80FA81AD8B6DCA2C58D465714063865A91B968C54DC9CD2E92D01CD647E",
+  "evidence": [
+    "exact V2 grant root bound",
+    "exact A1 projector root bound",
+    "direct allowlisted field mapping",
+    "ordered emissions preserved",
+    "synthetic nonpopulation replay passed"
+  ],
+  "authority_scope": "DECLARED_SYNTHETIC_AND_FORMALLY_UNDERSTOOD_SYSTEMS_ONLY",
+  "nonclaims": [
+    "historical adapter identity",
+    "real 04A applicability",
+    "G6 fiber authority",
+    "G8 verifier authority"
+  ],
+  "population_reads": 0
+}

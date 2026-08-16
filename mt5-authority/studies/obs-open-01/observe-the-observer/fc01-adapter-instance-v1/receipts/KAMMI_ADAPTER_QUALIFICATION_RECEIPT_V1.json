@@ -1,0 +1,29 @@
+{
+  "schema": "KAMMI_ADAPTER_QUALIFICATION_RECEIPT_V1",
+  "role": "KAMMI",
+  "status": "PASS_WITH_RESTRICTIONS",
+  "attack_surface": [
+    "wrong grant substitution",
+    "projector mutation",
+    "semantic derivation through packaging",
+    "sequence reordering",
+    "G6 fiber-authority laundering",
+    "G8 invocation laundering",
+    "population provenance leakage"
+  ],
+  "witnesses_found": 0,
+  "checks": {
+    "v1_authority_inheritance": "NONE",
+    "historical_relabeling": "0",
+    "a1_projector_mutation": "0",
+    "new_semantic_rules": "0",
+    "downstream_construction": "0",
+    "population_access": "0"
+  },
+  "instance_root": "AE9CC80FA81AD8B6DCA2C58D465714063865A91B968C54DC9CD2E92D01CD647E",
+  "nonclaims": [
+    "construction is valid for real 04A",
+    "adapter input is a qualified fiber",
+    "transport reaches G8"
+  ]
+}

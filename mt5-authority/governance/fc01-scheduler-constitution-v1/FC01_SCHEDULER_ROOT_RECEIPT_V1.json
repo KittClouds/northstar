@@ -1,0 +1,16 @@
+{
+  "schema": "FC01_SCHEDULER_ROOT_RECEIPT_V1",
+  "status": "SEALED",
+  "constitution_id": "FC01_SCHEDULER_CONSTITUTION_V1",
+  "constitution_sha256": "0AD2135C4297B34C10BF9D096D6C9EC14996F3B059ABA657CCDF2CF1BC2F4A7E",
+  "governance_parent": "NS-GOV-ROOT_V1",
+  "rule_id": "CANONICAL_LEXICOGRAPHIC_ORDER_V1",
+  "scientific_authority": "NONE",
+  "population_access": 0,
+  "execution": 0,
+  "nonclaims": [
+    "ADAPTER_SCIENTIFICALLY_PRECEDES_FINITE_BOX",
+    "SCHEDULER_VALUE_JUDGMENT",
+    "POPULATION_AUTHORITY"
+  ]
+}

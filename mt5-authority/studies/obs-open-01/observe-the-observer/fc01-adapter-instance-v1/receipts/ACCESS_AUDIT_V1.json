@@ -1,0 +1,15 @@
+{
+  "schema": "FC01_ADAPTER_ACCESS_AUDIT_V1",
+  "status": "PASS_ZERO_PROTECTED_ACCESS",
+  "real_04a_history_reads": 0,
+  "population_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "pair_reads": 0,
+  "token_realization": 0,
+  "fiber_construction": 0,
+  "certificate_construction": 0,
+  "g8_verifier_invocations": 0,
+  "explorer_invocations": 0,
+  "fixture_provenance": "SYNTHETIC_NONPOPULATION"
+}

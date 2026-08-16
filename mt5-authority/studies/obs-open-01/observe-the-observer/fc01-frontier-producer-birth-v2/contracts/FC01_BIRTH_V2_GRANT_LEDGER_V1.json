@@ -1,0 +1,84 @@
+{
+  "schema": "FC01_BIRTH_V2_GRANT_LEDGER_V1",
+  "status": "NEW_GRANTS_ISSUED_UNDER_NS_GOV_ROOT",
+  "governance_parent": "NS-GOV-ROOT_V1",
+  "governance_parent_root": "7CABBC7B58CDF928CD0EEE90C268CDB178D1B7A03D235D8F2153222CCA20D920",
+  "authority_inheritance_from_v1": "NONE",
+  "v1_content_precedent_only": true,
+  "grants": [
+    {
+      "grant_id": "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V2",
+      "historical_producer_authority": "NOT_IDENTIFIED",
+      "new_lineage_role": "FC01_ADAPTER_PRODUCER_ROLE_V2",
+      "semantic_contract": "G8_04A_SEMANTIC_ADAPTER_CONTRACT_V1",
+      "semantic_contract_root": "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA",
+      "instance_producer": "FC01_ADAPTER_PRODUCER_ROLE_V2",
+      "instance_qualification_authority": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+      "transport_owner": "FC01_ADAPTER_TRANSPORT_GATE_V1",
+      "scope": "DECLARED_SYNTHETIC_AND_FORMALLY_UNDERSTOOD_SYSTEMS_ONLY",
+      "allowed_operation": "ATTEMPT_REPRESENTATION_PRESERVING_ADAPTER_INSTANCE_QUALIFICATION",
+      "output_authority_ceiling": "G8_04A_SEMANTIC_ADAPTER_INSTANCE_ONLY",
+      "forbidden_semantic_changes": [
+        "NEW_G1_SEMANTICS",
+        "NEW_G5_TOKEN_SEMANTICS",
+        "NEW_G6_FIBER_SEMANTICS",
+        "NEW_G7_PROOF_AUTHORITY",
+        "G8_VERDICT_LOGIC"
+      ],
+      "forbidden_operations": [
+        "FINITE_BOX_BOUND_SELECTION",
+        "TOKEN_REALIZATION",
+        "PAIR_CONSTRUCTION",
+        "FIBER_CONSTRUCTION",
+        "FROZEN_COMPARISON_CONSTRUCTION",
+        "CERTIFICATE_CONSTRUCTION",
+        "COVERAGE_RECEIPT_CONSTRUCTION",
+        "G8_VERIFIER_INVOCATION",
+        "POPULATION_ACCESS"
+      ],
+      "consumable": true,
+      "instance_created": false,
+      "instance_qualified": false
+    },
+    {
+      "grant_id": "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V2",
+      "historical_producer_authority": "NOT_IDENTIFIED",
+      "new_lineage_role": "FC01_FINITE_BOX_BINDER_ROLE_V2",
+      "semantic_contract": "FINITE_QUESTION_BOX_SPEC_V1",
+      "semantic_contract_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "instance_producer": "FC01_FINITE_BOX_BINDER_ROLE_V2",
+      "instance_qualification_authority": "FC01_FINITE_BOX_INSTANCE_QUALIFICATION_GATE_V1",
+      "transport_owner": "FC01_FINITE_BOX_TRANSPORT_GATE_V1",
+      "bound_selection_authority": "FC01_FINITE_BOX_BINDER_ROLE_V2",
+      "scope": "DECLARED_SYNTHETIC_AND_FORMALLY_UNDERSTOOD_SYSTEMS_ONLY",
+      "allowed_operation": "ATTEMPT_PRECOMMITTED_CONTENT_INDEPENDENT_BOUND_RULE_QUALIFICATION",
+      "output_authority_ceiling": "FINITE_QUESTION_BOX_INSTANCE_ONLY",
+      "rule_inputs_forbidden": [
+        "POPULATION_VALUES",
+        "POPULATION_DISTRIBUTIONS",
+        "EXPLORER_RESULTS",
+        "G8_VERDICTS",
+        "CROSS_ARM_RESULTS",
+        "POSTHOC_TUNING"
+      ],
+      "forbidden_operations": [
+        "TOKEN_REALIZATION",
+        "PAIR_CONSTRUCTION",
+        "FIBER_CONSTRUCTION",
+        "FROZEN_COMPARISON_CONSTRUCTION",
+        "CERTIFICATE_CONSTRUCTION",
+        "COVERAGE_RECEIPT_CONSTRUCTION",
+        "G8_VERIFIER_INVOCATION",
+        "POPULATION_ACCESS"
+      ],
+      "consumable": true,
+      "bounds_bound": false,
+      "instance_created": false,
+      "instance_qualified": false
+    }
+  ],
+  "historical_status_preserved": true,
+  "grant_creation_authority": "NS-GOV-ROOT_V1",
+  "scientific_semantics_created": false,
+  "population_access": 0
+}

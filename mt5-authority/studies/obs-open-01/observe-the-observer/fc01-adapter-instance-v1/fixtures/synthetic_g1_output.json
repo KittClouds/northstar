@@ -1,0 +1,31 @@
+{
+  "context_identity": {
+    "fixture": "SYNTHETIC_NONPOPULATION",
+    "tag": "ADAPTER_V1"
+  },
+  "g1_authority_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "input_identity": {
+    "canonical_id": "SYNTHETIC_INPUT_ADAPTER_V1"
+  },
+  "knowledge_time_projection": {
+    "knowledge_ordinal": 1
+  },
+  "ordered_emissions": [
+    {
+      "event": "SYNTHETIC_EVENT",
+      "ordinal": 1
+    }
+  ],
+  "rejection_status": {
+    "status": "ACCEPTED"
+  },
+  "semantic_lineage_root": "SYNTHETIC_G1_LINEAGE_ADAPTER_V1",
+  "state_projection": {
+    "state": "VALID_SYNTHETIC_STATE",
+    "tag": "ADAPTER_V1"
+  },
+  "transition_status": {
+    "ordinal": 1,
+    "status": "APPLIED"
+  }
+}

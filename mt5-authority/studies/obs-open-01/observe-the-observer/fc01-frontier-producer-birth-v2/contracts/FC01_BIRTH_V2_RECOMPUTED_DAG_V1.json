@@ -1,0 +1,31 @@
+{
+  "schema": "FC01_BIRTH_V2_RECOMPUTED_DAG_V1",
+  "status": "DAG_RECOMPUTED_UNDER_NEW_GOVERNANCE_AND_V2_GRANTS",
+  "parent_dag_root": "71A5ACFB3213D66C2A5298137D9CE0F6F4EBF24AC83129F686A928C71F162C15",
+  "birth_v2_grant_root": "2B04972F9345A37F249E28584F52F678DF109DE7D0DBEED30724434EE076072F",
+  "scheduler_constitution_root": "BA3E46DF34AE2EA73C0DA2102F736AB82DE407452CED6F9535DDE1604445F0D8",
+  "eligible_roots": [
+    "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+    "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+  ],
+  "root_relation": "INCOMPARABLE",
+  "historical_producer_authority": {
+    "G8_04A_SEMANTIC_ADAPTER": "NOT_IDENTIFIED",
+    "FINITE_QUESTION_BOX_AUTHORITY": "NOT_IDENTIFIED"
+  },
+  "consumable_grants": [
+    "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V2",
+    "FINITE_QUESTION_BOX_BINDING_AUTHORITY_V2"
+  ],
+  "cycle_status": "NO_CYCLE_FOUND_IN_DECLARED_EDGES",
+  "scheduler_rule": "CANONICAL_LEXICOGRAPHIC_ORDER_V1",
+  "scheduled_root": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+  "scientific_precedence_claim": "NONE",
+  "next_gate_status": "LIVE_FOR_ONE_PRODUCER_QUALIFICATION_ONLY",
+  "finite_box_gate_status": "ELIGIBLE_UNSCHEDULED",
+  "adapter_instance_created": 0,
+  "question_box_bounds_bound": 0,
+  "token_realization": 0,
+  "g8_verifier_invocations": 0,
+  "population_access": 0
+}

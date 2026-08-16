@@ -1,0 +1,24 @@
+{
+  "schema": "FC01_BIRTH_V2_SCHEDULER_SELECTION_RECEIPT_V1",
+  "status": "SEALED",
+  "scheduler_constitution": "FC01_SCHEDULER_CONSTITUTION_V1",
+  "scheduler_rule": "CANONICAL_LEXICOGRAPHIC_ORDER_V1",
+  "eligible_unscheduled_roots": [
+    "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+    "FC01_FINITE_BOX_BINDING_RULE_QUALIFICATION_GATE_V1"
+  ],
+  "root_relation": "INCOMPARABLE",
+  "selected_root": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+  "selection_basis": "LEXICOGRAPHIC_CANONICAL_GATE_ID_ONLY",
+  "scientific_meaning": "NONE",
+  "finite_box_status": "ELIGIBLE_UNSCHEDULED",
+  "next_gate_woken": "FC01_ADAPTER_INSTANCE_QUALIFICATION_GATE_V1",
+  "one_at_a_time": true,
+  "construction_activity": 0,
+  "population_access": 0,
+  "nonclaims": [
+    "ADAPTER_SCIENTIFICALLY_PRECEDES_FINITE_BOX",
+    "FINITE_BOX_IS_UNIMPORTANT",
+    "SCHEDULED_ROOT_IS_VERIFIED_INSTANCE"
+  ]
+}

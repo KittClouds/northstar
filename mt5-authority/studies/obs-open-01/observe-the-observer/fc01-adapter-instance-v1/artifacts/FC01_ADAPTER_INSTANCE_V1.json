@@ -1,0 +1,93 @@
+{
+  "schema": "G8_04A_ADAPTER_INSTANCE_V1",
+  "status": "QUALIFIED_WITH_RESTRICTIONS",
+  "authority_scope": "DECLARED_SYNTHETIC_AND_FORMALLY_UNDERSTOOD_SYSTEMS_ONLY",
+  "producer_authority": "G8_04A_ADAPTER_PRODUCER_AUTHORITY_V2",
+  "producer_authority_root": "2B04972F9345A37F249E28584F52F678DF109DE7D0DBEED30724434EE076072F",
+  "historical_adapter_identity": "NOT_CLAIMED",
+  "historical_adapter_contract_root": "17EF100D674467C59CF9A9490B758B3823AC9ECD08FC15DF57A1E7C28D51AEA",
+  "source_fixture": "SYNTHETIC_NONPOPULATION",
+  "a1_projector_root": "53D4F850C8D3943A0EA4F56CB3FF533434A6BB6C50CEF82720DA6A84AE976E54",
+  "a1_core_root": "4A6C66E7D3C5AA815C93BA71C973F3AFD000802F75D0A00A8790202EF48518F1",
+  "input_identity": "SYNTHETIC_INPUT_ADAPTER_V1",
+  "g1_authority_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "qualified_history_view": {
+    "source": "A1_CORE_DIRECT_SELECTION",
+    "payload": {
+      "context_identity": {"fixture": "SYNTHETIC_NONPOPULATION", "tag": "ADAPTER_V1"},
+      "g1_authority_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+      "input_identity": {"canonical_id": "SYNTHETIC_INPUT_ADAPTER_V1"},
+      "knowledge_time_projection": {"knowledge_ordinal": 1},
+      "ordered_emissions": [{"event": "SYNTHETIC_EVENT", "ordinal": 1}],
+      "rejection_status": {"status": "ACCEPTED"},
+      "semantic_lineage_root": "SYNTHETIC_G1_LINEAGE_ADAPTER_V1",
+      "state_projection": {"state": "VALID_SYNTHETIC_STATE", "tag": "ADAPTER_V1"},
+      "transition_status": {"ordinal": 1, "status": "APPLIED"}
+    }
+  },
+  "g4_observable_projection": {
+    "source": "A1_CORE_DIRECT_SELECTION",
+    "payload": {
+      "knowledge_time_projection": {"knowledge_ordinal": 1},
+      "ordered_emissions": [{"event": "SYNTHETIC_EVENT", "ordinal": 1}],
+      "state_projection": {"state": "VALID_SYNTHETIC_STATE", "tag": "ADAPTER_V1"}
+    }
+  },
+  "g5_presentability_receipt": {
+    "source": "G5_PRESENTABILITY_VIEW",
+    "payload": {
+      "context_identity": {"fixture": "SYNTHETIC_NONPOPULATION", "tag": "ADAPTER_V1"},
+      "input_identity": {"canonical_id": "SYNTHETIC_INPUT_ADAPTER_V1"},
+      "knowledge_time_projection": {"knowledge_ordinal": 1},
+      "rejection_status": {"status": "ACCEPTED"},
+      "transition_status": {"ordinal": 1, "status": "APPLIED"}
+    }
+  },
+  "g6_fiber_certificate_input": {
+    "source": "G6_CORRESPONDENCE_PRIMITIVE_VIEW",
+    "authority_status": "INPUT_ONLY_NOT_FIBER_AUTHORITY",
+    "payload": {
+      "context_identity": {"fixture": "SYNTHETIC_NONPOPULATION", "tag": "ADAPTER_V1"},
+      "ordered_emissions": [{"event": "SYNTHETIC_EVENT", "ordinal": 1}],
+      "semantic_lineage_root": "SYNTHETIC_G1_LINEAGE_ADAPTER_V1",
+      "state_projection": {"state": "VALID_SYNTHETIC_STATE", "tag": "ADAPTER_V1"}
+    }
+  },
+  "g8_verifier_input": {
+    "source": "A1_VIEW_REGISTRY",
+    "authority_status": "TRANSPORT_CANDIDATE_ONLY_NO_G8_INVOCATION",
+    "payload": {
+      "g1_authority_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+      "ordered_emissions": [{"event": "SYNTHETIC_EVENT", "ordinal": 1}],
+      "rejection_status": {"status": "ACCEPTED"},
+      "semantic_lineage_root": "SYNTHETIC_G1_LINEAGE_ADAPTER_V1",
+      "state_projection": {"state": "VALID_SYNTHETIC_STATE", "tag": "ADAPTER_V1"},
+      "transition_status": {"ordinal": 1, "status": "APPLIED"}
+    }
+  },
+  "projection_roots": {
+    "G5_PRESENTABILITY_VIEW": "04773A8E0F40C234882F158CA5E2D83ADC3DE8DE85D14C31197ABE9DF51F39D4",
+    "G6_CORRESPONDENCE_PRIMITIVE_VIEW": "37EB346E188BF865B1AF232E86A71A97910D81D7DD32F56802BB8EB2925242D6",
+    "G7_CERTIFICATE_LINEAGE_VIEW": "6D2EFED40B95B6DC5844AE3172437A7FB3B9AC5E67D434CB9CCE9723BFDD62D3",
+    "G8_VERIFIER_INPUT_VIEW": "FABAFF097BD6B6B49C9758993961B0534DA0A7C36CD6D8FEBC8D30A5C385C093"
+  },
+  "forbidden_authority_created": [
+    "G1_SEMANTICS",
+    "G5_TOKEN_SEMANTICS",
+    "G6_FIBER_SEMANTICS",
+    "G7_PROOF_AUTHORITY",
+    "G8_VERDICT_AUTHORITY",
+    "POPULATION_AUTHORITY"
+  ],
+  "downstream_activity": {
+    "finite_box_bound_selection": 0,
+    "token_realization": 0,
+    "pair_construction": 0,
+    "fiber_construction": 0,
+    "comparison_construction": 0,
+    "certificate_construction": 0,
+    "coverage_receipt_construction": 0,
+    "g8_verifier_invocations": 0,
+    "population_reads": 0
+  }
+}

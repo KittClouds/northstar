@@ -1,0 +1,23 @@
+{
+  "schema": "NS_GOV_ROOT_RECEIPT_V1",
+  "status": "SEALED",
+  "root_id": "NS-GOV-ROOT_V1",
+  "root_class": "FOUNDATIONAL_GOVERNANCE_AUTHORITY",
+  "derivation": "CONSTITUTIVE_NOT_DERIVED",
+  "parent_required": false,
+  "contract_sha256": "34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9",
+  "authority_ceiling": "GOVERNANCE_ONLY",
+  "scientific_authority": "NONE",
+  "population_authority": "NONE",
+  "may_create_grant_classes": [
+    "RESTRICTED_PRODUCER_AUTHORITY",
+    "QUALIFICATION_AUTHORITY",
+    "TRANSPORT_AUTHORITY"
+  ],
+  "may_create_scheduler_constitutions": true,
+  "may_create_scientific_semantics": false,
+  "may_issue_g8_verdicts": false,
+  "historical_relabeling": false,
+  "retroactive_authorization": false,
+  "population_access": 0
+}

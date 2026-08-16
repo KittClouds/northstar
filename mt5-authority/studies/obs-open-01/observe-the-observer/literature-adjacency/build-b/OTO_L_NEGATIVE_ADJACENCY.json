@@ -1,0 +1,290 @@
+{
+  "count": 5,
+  "interpretation": "negative adjacency is a valid atlas result and carries no authority loss",
+  "records": [
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "the word observer/monitor is used in different semantic senses"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "finite-state monitor / transduction",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Andreas Bauer",
+          "Martin Leucker",
+          "Christian Schallhart"
+        ],
+        "doi": "10.1145/2000799.2000800",
+        "title": "Runtime Verification for LTL and TLTL",
+        "url": "https://doi.org/10.1145/2000799.2000800",
+        "venue": "ACM TOSEM",
+        "year": 2011
+      },
+      "mechanism_id": "ORDERED_EMISSIONS",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "an explicit output alphabet and transducer construction for 04A"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "event emission and trace semantics",
+      "record_id": "OTO_L_M05",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "TERMINOLOGY",
+      "relevance_note": "Negative adjacency is intentional: similar monitor language does not establish a transducer model.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "HOMONYM_ONLY",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "04A's provisional/committed split is source-qualified but not yet mapped to timed automata"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "timed transition systems",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Rajeev Alur",
+          "David L. Dill"
+        ],
+        "doi": "10.1016/0304-3975(94)90010-8",
+        "title": "A Theory of Timed Automata",
+        "url": "https://doi.org/10.1016/0304-3975(94)90010-8",
+        "venue": "Theoretical Computer Science",
+        "year": 1994
+      },
+      "mechanism_id": "PROVISIONAL_COMMITTED_KNOWLEDGE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a formal context carrying knowledge time and provisional state",
+        "a timed transition relation extracted from G1"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "event time versus state-commit timing",
+      "record_id": "OTO_L_M06",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "May guide a later formalization; no current membership claim.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "absence of an abstract state does not prove unreachability without completeness"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "abstract interpretation",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Patrick Cousot",
+          "Radhia Cousot"
+        ],
+        "doi": "10.1145/512950.512973",
+        "title": "Abstract interpretation: A unified lattice model for static analysis of programs by construction or approximation of fixpoints",
+        "url": "https://doi.org/10.1145/512950.512973",
+        "venue": "POPL 1977",
+        "year": 1977
+      },
+      "mechanism_id": "REACHABILITY_BOUNDS",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a G3 sound upper envelope and constructive lower witnesses",
+        "a transfer theorem connecting bounds to the observer's admissible traces"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "under- and over-approximation with known direction",
+      "record_id": "OTO_L_Q05",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "PROOF_METHOD",
+      "relevance_note": "Negative adjacency preserves the G3 sandwich discipline.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "HOMONYM_ONLY",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "a display attribute can be observable to a human but absent from the COB surface"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "program slicing",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Mark Weiser"
+        ],
+        "doi": null,
+        "title": "Program Slicing",
+        "url": "https://dblp.org/rec/conf/icse/Weiser81",
+        "venue": "ICSE 1981",
+        "year": 1981
+      },
+      "mechanism_id": "DISPLAY_VS_COB_SURFACE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a slice criterion that names G4 protected observables rather than pixels",
+        "an instrument-capture model"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "separating data dependence from display-only configuration",
+      "record_id": "OTO_L_Q06",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "This is the explicit negative-adjacency record for the A1 four-way surface separation.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "HOMONYM_ONLY",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "the original OTO-A seal is immutable and cannot be retroactively relabeled"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "proof reuse / refinement",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "George C. Necula"
+        ],
+        "doi": "10.1145/263699.263712",
+        "title": "Proof-Carrying Code",
+        "url": "https://doi.org/10.1145/263699.263712",
+        "venue": "POPL 1997",
+        "year": 1997
+      },
+      "mechanism_id": "AUTHORITY_REUSE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a requalification theorem for the exact OTO gate lineage",
+        "a proof that the changed surface is outside the verifier's observations"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "when an earlier certificate remains valid after a change",
+      "record_id": "OTO_L_Q07",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "PROOF_METHOD",
+      "relevance_note": "Supports the campaign doctrine: corrective authority is appended, not history-rewriting.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    }
+  ],
+  "schema": "OTO_L_NEGATIVE_ADJACENCY_V1"
+}

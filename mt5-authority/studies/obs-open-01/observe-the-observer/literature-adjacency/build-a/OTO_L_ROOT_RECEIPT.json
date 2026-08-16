@@ -1,0 +1,52 @@
+{
+  "logical_root": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+  "payload": {
+    "artifact_count": 7,
+    "artifacts": [
+      {
+        "bytes": 794,
+        "path": "OTO_L_PROTOCOL_V1.json",
+        "sha256": "424c61fb5cc9873bca72fb10c102cd095a9aa657443cc5e39a0b7b97f8f80cce"
+      },
+      {
+        "bytes": 28599,
+        "path": "OTO_L_RECORD_REGISTRY.json",
+        "sha256": "2865cc85278f7ed200bdb0eb11bb8aeca2dc83ead44532671c7f25df91195205"
+      },
+      {
+        "bytes": 191,
+        "path": "OTO_L_MECHANISM_INDEX.json",
+        "sha256": "ad213016879d3c7c7180236544a3b064c271085a460ab371716673324a555426"
+      },
+      {
+        "bytes": 233,
+        "path": "OTO_L_QUALIFICATION_INDEX.json",
+        "sha256": "92db6ed061905d6e53c63c1d9353e19d17cf31bc6d9c1f44016f1f60f3b285b9"
+      },
+      {
+        "bytes": 10136,
+        "path": "OTO_L_NEGATIVE_ADJACENCY.json",
+        "sha256": "5365167371af882dfe9deb5f7236a9140188360a10433091411430c20b936bc5"
+      },
+      {
+        "bytes": 461,
+        "path": "OTO_L_ACCESS_AUDIT.json",
+        "sha256": "7d7d5d7d0912bf0e380bf37c97b9bc5cbbb7324e307cf4295ed0747d937bea6e"
+      },
+      {
+        "bytes": 528,
+        "path": "OTO_L_TYPED_FINDINGS.json",
+        "sha256": "dac60bc12fb95edb7a34e086088f9c525de8aeab41bf4401fdedc76bebb2c972"
+      }
+    ],
+    "authority": "OBS_OPEN_OTO_STATIC_LITERATURE_FORMALISM_ADJACENCY_V1",
+    "literature_record_count": 14,
+    "parent_closure_root": "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71",
+    "parent_oto_a1_root": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+    "parent_oto_a_root": "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "parent_topology_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+    "schema": "OTO_L_ROOT_PAYLOAD_V1"
+  },
+  "schema": "OTO_L_ROOT_RECEIPT_V1"
+}

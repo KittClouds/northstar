@@ -1,0 +1,24 @@
+{
+  "authority_gain": "NONE",
+  "disposition": "NONE",
+  "execution_state": "SEALED",
+  "formalism_membership_default": "NOT_PROVEN",
+  "gate": "OTO-L_LITERATURE_FORMALISM_ADJACENCY_ATLAS",
+  "negative_adjacency_required": true,
+  "prohibitions": [
+    "NO_OBSERVER_REDESIGN",
+    "NO_FORMALISM_MEMBERSHIP_BY_RESEMBLANCE",
+    "NO_THEOREM_TRANSFER",
+    "NO_MARKET_OR_OUTCOME_READS"
+  ],
+  "question": "Which established methods and formal neighborhoods are adjacent to the already-qualified observer mechanisms and qualification problems?",
+  "question_status": "CLOSED",
+  "result": "LITERATURE_ADJACENCY_ATLAS_SEALED",
+  "schema": "OTO_L_PROTOCOL_V1",
+  "term_alignment_required": true,
+  "theorem_transfer_default": "NOT_ATTEMPTED",
+  "tracks": [
+    "MECHANISM",
+    "QUALIFICATION"
+  ]
+}

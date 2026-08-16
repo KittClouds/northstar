@@ -1,0 +1,12 @@
+{
+  "record_ids": [
+    "OTO_L_M01",
+    "OTO_L_M02",
+    "OTO_L_M03",
+    "OTO_L_M04",
+    "OTO_L_M05",
+    "OTO_L_M06"
+  ],
+  "schema": "OTO_L_MECHANISM_INDEX_V1",
+  "track": "MECHANISM"
+}

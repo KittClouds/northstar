@@ -1,0 +1,16 @@
+{
+  "a1_access_audit_read": true,
+  "a1_access_audit_sha256": "661cda5c11fb0686415931a550009f0d865268f9cc4fd444b0d15c471be6918a",
+  "authority_gain": "NONE",
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "indicator_buffers_read": 0,
+  "market_rows_read": 0,
+  "outcome_rows_read": 0,
+  "runtime_probe_executed": false,
+  "schema": "OTO_L_ACCESS_AUDIT_V1",
+  "source_bytes_read": 0,
+  "static_roots_read": true,
+  "trading_com_editor_invoked": false
+}

@@ -1,0 +1,21 @@
+{
+  "authority_gain": "NONE",
+  "execution_state": "SEALED",
+  "maximum_authority": "OBS_OPEN_OTO_STATIC_LITERATURE_FORMALISM_ADJACENCY_V1",
+  "membership_counts": {
+    "NOT_PROVEN": 5,
+    "PARTIAL_INTERFACE_MATCH": 9
+  },
+  "negative_adjacency_count": 5,
+  "question_status": "CLOSED",
+  "record_count": 14,
+  "result": "LITERATURE_ADJACENCY_ATLAS_SEALED",
+  "schema": "OTO_L_TYPED_FINDINGS_V1",
+  "theorem_transfer_counts": {
+    "NOT_ATTEMPTED": 14
+  },
+  "track_counts": {
+    "MECHANISM": 6,
+    "QUALIFICATION": 8
+  }
+}

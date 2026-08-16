@@ -1,0 +1,14 @@
+{
+  "record_ids": [
+    "OTO_L_Q01",
+    "OTO_L_Q02",
+    "OTO_L_Q03",
+    "OTO_L_Q04",
+    "OTO_L_Q05",
+    "OTO_L_Q06",
+    "OTO_L_Q07",
+    "OTO_L_Q08"
+  ],
+  "schema": "OTO_L_QUALIFICATION_INDEX_V1",
+  "track": "QUALIFICATION"
+}

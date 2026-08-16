@@ -1,0 +1,803 @@
+{
+  "record_count": 14,
+  "records": [
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "04A has a qualified causal kernel and typed emissions, not an asserted LTL monitor"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "runtime verification / temporal monitors",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Andreas Bauer",
+          "Martin Leucker",
+          "Christian Schallhart"
+        ],
+        "doi": "10.1145/2000799.2000800",
+        "title": "Runtime Verification for LTL and TLTL",
+        "url": "https://doi.org/10.1145/2000799.2000800",
+        "venue": "ACM TOSEM",
+        "year": 2011
+      },
+      "mechanism_id": "CAUSAL_EVENT_MONITORING",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a formal mapping from the sentinel event grammar to LTL/TLTL",
+        "a declared verdict semantics for source gaps and provisional bars"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "finite-trace monitoring",
+      "record_id": "OTO_L_M01",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "Useful vocabulary for monitoring ordered traces; no membership or theorem transfer is claimed.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "the paper's timed-word model does not establish 04A's coverage or platform semantics"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "timed automata",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Rajeev Alur",
+          "David L. Dill"
+        ],
+        "doi": "10.1016/0304-3975(94)90010-8",
+        "title": "A Theory of Timed Automata",
+        "url": "https://doi.org/10.1016/0304-3975(94)90010-8",
+        "venue": "Theoretical Computer Science",
+        "year": 1994
+      },
+      "mechanism_id": "SESSION_TIME_AND_COMMIT",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a proved encoding of integer-tick bars, session resets, and knowledge time",
+        "a reachable timed-language correspondence"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "timed words and transition constraints",
+      "record_id": "OTO_L_M02",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "Relevant for timing vocabulary and possible future reachability work; integer ticks are not automatically timed-automaton membership.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "surveyed systems have heterogeneous data/rule models; 04A's grammar is not thereby a CEP engine"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "information-flow processing / complex event processing",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Gianpaolo Cugola",
+          "Alessandro Margara"
+        ],
+        "doi": "10.1145/2187671.2187677",
+        "title": "Processing Flows of Information: From Data Stream to Complex Event Processing",
+        "url": "https://doi.org/10.1145/2187671.2187677",
+        "venue": "ACM Computing Surveys",
+        "year": 2012
+      },
+      "mechanism_id": "STREAMS_GAPS_AND_EVENT_GRAMMAR",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a common stream contract for 04A source gaps and session ownership",
+        "proof that the observer's gap policies satisfy a surveyed model"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "ordered streams, event patterns, and processing semantics",
+      "record_id": "OTO_L_M03",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "TERMINOLOGY",
+      "relevance_note": "Strong vocabulary adjacency for streams and event ordering; source gaps remain observer-specific.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "04A's sentinels are a deterministic causal observer; no iid or distributional model is authorized"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "record-value theory",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Valery B. Nevzorov"
+        ],
+        "doi": null,
+        "title": "Records: Mathematical Theory",
+        "url": "https://bookstore.ams.org/MMONO/194",
+        "venue": "American Mathematical Society, Translations of Mathematical Monographs 194",
+        "year": 2001
+      },
+      "mechanism_id": "RUNNING_EXTREMA_AND_RENEWAL",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a stochastic law for the actual source path",
+        "a proof that strict-renewal genealogy has the assumptions of a record process"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "record times, record values, and extrema",
+      "record_id": "OTO_L_M04",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ALGORITHM",
+      "relevance_note": "The record-process neighborhood names a mathematical shape but does not certify the observer as a record process.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "the word observer/monitor is used in different semantic senses"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "finite-state monitor / transduction",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Andreas Bauer",
+          "Martin Leucker",
+          "Christian Schallhart"
+        ],
+        "doi": "10.1145/2000799.2000800",
+        "title": "Runtime Verification for LTL and TLTL",
+        "url": "https://doi.org/10.1145/2000799.2000800",
+        "venue": "ACM TOSEM",
+        "year": 2011
+      },
+      "mechanism_id": "ORDERED_EMISSIONS",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "an explicit output alphabet and transducer construction for 04A"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "event emission and trace semantics",
+      "record_id": "OTO_L_M05",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "TERMINOLOGY",
+      "relevance_note": "Negative adjacency is intentional: similar monitor language does not establish a transducer model.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "HOMONYM_ONLY",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "04A's provisional/committed split is source-qualified but not yet mapped to timed automata"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "timed transition systems",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Rajeev Alur",
+          "David L. Dill"
+        ],
+        "doi": "10.1016/0304-3975(94)90010-8",
+        "title": "A Theory of Timed Automata",
+        "url": "https://doi.org/10.1016/0304-3975(94)90010-8",
+        "venue": "Theoretical Computer Science",
+        "year": 1994
+      },
+      "mechanism_id": "PROVISIONAL_COMMITTED_KNOWLEDGE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a formal context carrying knowledge time and provisional state",
+        "a timed transition relation extracted from G1"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "event time versus state-commit timing",
+      "record_id": "OTO_L_M06",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "May guide a later formalization; no current membership claim.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "MECHANISM"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "source-level dependence is not itself a G4 equivalence proof"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "program slicing / dependence analysis",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Mark Weiser"
+        ],
+        "doi": null,
+        "title": "Program Slicing",
+        "url": "https://dblp.org/rec/conf/icse/Weiser81",
+        "venue": "ICSE 1981",
+        "year": 1981
+      },
+      "mechanism_id": "DEPENDENCY_AND_IMPACT",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a sound slice criterion for the semantic observer rather than implementation text alone",
+        "a proved mapping from OTO dependency edges to protected observables"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "change-impact and dependency closure",
+      "record_id": "OTO_L_Q01",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "Relevant to OTO-I/C/A dependency maps; explicitly not a certificate of removability.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "an overapproximation is not an exact 04A reachability characterization"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "abstract interpretation",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Patrick Cousot",
+          "Radhia Cousot"
+        ],
+        "doi": "10.1145/512950.512973",
+        "title": "Abstract interpretation: A unified lattice model for static analysis of programs by construction or approximation of fixpoints",
+        "url": "https://doi.org/10.1145/512950.512973",
+        "venue": "POPL 1977",
+        "year": 1977
+      },
+      "mechanism_id": "SOUND_OVERAPPROXIMATION",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "an abstract domain for the G3 context-indexed reachable machine",
+        "soundness and completeness conditions for any proposed abstract domain"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "sound abstraction and fixpoint approximation",
+      "record_id": "OTO_L_Q02",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "PROOF_METHOD",
+      "relevance_note": "Provides a candidate proof language for sound bounds; no G3 theorem is imported.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "a solver's counterexample is not automatically a reachable observer history"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "CEGAR",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Edmund M. Clarke",
+          "Orna Grumberg",
+          "Somesh Jha",
+          "Yuan Lu",
+          "Helmut Veith"
+        ],
+        "doi": "10.1007/10722167_15",
+        "title": "Counterexample-Guided Abstraction Refinement",
+        "url": "https://doi.org/10.1007/10722167_15",
+        "venue": "CAV 2000",
+        "year": 2000
+      },
+      "mechanism_id": "WITNESS_AND_REFINEMENT",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a qualified abstraction and a G7-authorized property",
+        "an exact validation path for 04A witness candidates"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "spurious counterexamples and abstraction refinement",
+      "record_id": "OTO_L_Q03",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "COUNTEREXAMPLE_METHOD",
+      "relevance_note": "Directly adjacent to future G3/G8 work; no current verifier authority.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "a certificate format alone does not prove the semantic theorem required by G8"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "proof-carrying code / proof checking",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "George C. Necula"
+        ],
+        "doi": "10.1145/263699.263712",
+        "title": "Proof-Carrying Code",
+        "url": "https://doi.org/10.1145/263699.263712",
+        "venue": "POPL 1997",
+        "year": 1997
+      },
+      "mechanism_id": "CERTIFICATE_LINEAGE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a named proof calculus for the exact G7 properties",
+        "an independently justified verifier TCB"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "certificate evidence versus verifier soundness",
+      "record_id": "OTO_L_Q04",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "VERIFICATION_METHOD",
+      "relevance_note": "Terminology and architecture adjacency only; reinforces the certificate/verifier separation.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "absence of an abstract state does not prove unreachability without completeness"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "abstract interpretation",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Patrick Cousot",
+          "Radhia Cousot"
+        ],
+        "doi": "10.1145/512950.512973",
+        "title": "Abstract interpretation: A unified lattice model for static analysis of programs by construction or approximation of fixpoints",
+        "url": "https://doi.org/10.1145/512950.512973",
+        "venue": "POPL 1977",
+        "year": 1977
+      },
+      "mechanism_id": "REACHABILITY_BOUNDS",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a G3 sound upper envelope and constructive lower witnesses",
+        "a transfer theorem connecting bounds to the observer's admissible traces"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "under- and over-approximation with known direction",
+      "record_id": "OTO_L_Q05",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "PROOF_METHOD",
+      "relevance_note": "Negative adjacency preserves the G3 sandwich discipline.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "HOMONYM_ONLY",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "a display attribute can be observable to a human but absent from the COB surface"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "program slicing",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "Mark Weiser"
+        ],
+        "doi": null,
+        "title": "Program Slicing",
+        "url": "https://dblp.org/rec/conf/icse/Weiser81",
+        "venue": "ICSE 1981",
+        "year": 1981
+      },
+      "mechanism_id": "DISPLAY_VS_COB_SURFACE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a slice criterion that names G4 protected observables rather than pixels",
+        "an instrument-capture model"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "separating data dependence from display-only configuration",
+      "record_id": "OTO_L_Q06",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "ANALYSIS_METHOD",
+      "relevance_note": "This is the explicit negative-adjacency record for the A1 four-way surface separation.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "HOMONYM_ONLY",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "the original OTO-A seal is immutable and cannot be retroactively relabeled"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "proof reuse / refinement",
+      "formalism_membership": "NOT_PROVEN",
+      "literature_object": {
+        "authors": [
+          "George C. Necula"
+        ],
+        "doi": "10.1145/263699.263712",
+        "title": "Proof-Carrying Code",
+        "url": "https://doi.org/10.1145/263699.263712",
+        "venue": "POPL 1997",
+        "year": 1997
+      },
+      "mechanism_id": "AUTHORITY_REUSE",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a requalification theorem for the exact OTO gate lineage",
+        "a proof that the changed surface is outside the verifier's observations"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "when an earlier certificate remains valid after a change",
+      "record_id": "OTO_L_Q07",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "PROOF_METHOD",
+      "relevance_note": "Supports the campaign doctrine: corrective authority is appended, not history-rewriting.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    },
+    {
+      "authority_gain": "NONE",
+      "conflicting_hypotheses": [
+        "G7 already permits NOT_DECIDABLE; resemblance does not change that boundary"
+      ],
+      "economic_authority": "NONE",
+      "formalism": "timed automata",
+      "formalism_membership": "PARTIAL_INTERFACE_MATCH",
+      "literature_object": {
+        "authors": [
+          "Rajeev Alur",
+          "David L. Dill"
+        ],
+        "doi": "10.1016/0304-3975(94)90010-8",
+        "title": "A Theory of Timed Automata",
+        "url": "https://doi.org/10.1016/0304-3975(94)90010-8",
+        "venue": "Theoretical Computer Science",
+        "year": 1994
+      },
+      "mechanism_id": "FORMAL_DECISION_BOUNDARY",
+      "membership_scope": "ADJACENCY_ONLY",
+      "missing_hypotheses": [
+        "a formal encoding of the observer's actual arithmetic and input language",
+        "a proof that the desired property lies in the paper's decision fragment"
+      ],
+      "observer_source_basis": [
+        "OTO_STATIC_ROOT",
+        "OTO_A1_SURFACE_ALIGNMENT"
+      ],
+      "oto_static_roots": [
+        "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+        "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+        "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+        "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+        "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71"
+      ],
+      "problem_class": "decidability and complexity boundaries",
+      "record_id": "OTO_L_Q08",
+      "related_gates": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "OTO-A1"
+      ],
+      "relevance_kind": "TERMINOLOGY",
+      "relevance_note": "Useful for naming a future formalism boundary, not for claiming decidability now.",
+      "schema": "OTO_L_RECORD_V1",
+      "term_alignment": "PARTIAL_MATCH",
+      "theorem_transfer": "NOT_ATTEMPTED",
+      "track": "QUALIFICATION"
+    }
+  ],
+  "schema": "OTO_L_RECORD_REGISTRY_V1"
+}

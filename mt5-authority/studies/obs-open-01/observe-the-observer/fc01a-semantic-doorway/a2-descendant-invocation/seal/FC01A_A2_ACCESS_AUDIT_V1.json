@@ -1,0 +1,17 @@
+{
+  "schema": "FC01A_A2_ACCESS_AUDIT_V1",
+  "real_04a_history_reads": 0,
+  "population_reads": 0,
+  "population_value_reads": 0,
+  "population_metadata_reads": 0,
+  "pair_reads": 0,
+  "question_tokens_realized": 0,
+  "arm_executions": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "fixture_provenance": "SYNTHETIC_NONPOPULATION_ONLY",
+  "status": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "FC01A_A2_KAMMI_TRANSPORT_ATTACK_RECEIPT_V1",
+  "agent": "KAMMI",
+  "result": "FAIL_CLOSED_CORRECTLY",
+  "attack_results": {
+    "wrong_executable_substitution": "BLOCKED_BY_HASH_BINDING",
+    "g1r_lineage_substitution": "BLOCKED_BY_ROOT_BINDING",
+    "projector_mutation": "BLOCKED_BY_PROJECTOR_HASH",
+    "applied_stepresult_field_transport": "PASS",
+    "rejection_reinterpretation": "BLOCKED",
+    "missing_stepresult_primitive_substitution": "BLOCKED",
+    "population_scope_expansion": "BLOCKED",
+    "second_build_silent_mixing": "BLOCKED_BY_BUILD_A_ONLY_BINDING"
+  },
+  "decisive_witness": {
+    "case_ids": ["sequence_gap_fails_closed", "unqualified_input_authority_rejected"],
+    "g1_rejection_statuses": ["OBSERVATION_SEQUENCE_GAP", "INPUT_AUTHORITY_NOT_QUALIFIED_FOR_G1"],
+    "transport_disposition": "G1_REQUIRED_PRIMITIVE_UNAVAILABLE",
+    "missing_primitives": ["state_projection", "ordered_emissions", "knowledge_time_projection"]
+  },
+  "replay_a_vs_replay_b": "BYTE_IDENTICAL",
+  "population_access": 0
+}

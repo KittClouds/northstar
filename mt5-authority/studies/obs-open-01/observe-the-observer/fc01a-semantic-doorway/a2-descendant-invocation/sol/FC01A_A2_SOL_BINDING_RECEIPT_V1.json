@@ -1,0 +1,19 @@
+{
+  "schema": "FC01A_A2_SOL_BINDING_RECEIPT_V1",
+  "agent": "SOL",
+  "result": "NOT_EVALUABLE",
+  "exact_g1r_instance_binding": "PASS",
+  "selected_executable_sha256": "E1FD57AE1FEC58684D98A61AAC9F972821900291B2A44E9C211BECFDC8912AEA",
+  "g1r_root": "21E310BA2B7E95ABFF2AA7B0F8165A4D44F2AF37FC7AB50BEF35DE76BF3FE2FB",
+  "parent_g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "qualified_lifecycle_invocation": "PASS",
+  "stepresult_capture": "PASS",
+  "applied_stepresult_transport": "PASS",
+  "rejected_stepresult_transport": "NOT_EVALUABLE",
+  "unchanged_a1_projector": "PASS",
+  "scope_expansion": "NONE",
+  "missing_primitive_cases": ["sequence_gap_fails_closed", "unqualified_input_authority_rejected"],
+  "missing_primitives": ["state_projection", "ordered_emissions", "knowledge_time_projection"],
+  "population_access": 0,
+  "nonclaims": ["historical_g1_identity", "fc01a_closure", "real_history_applicability", "fc01b_authority"]
+}

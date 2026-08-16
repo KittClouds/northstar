@@ -1,0 +1,23 @@
+{
+  "schema": "A2_G1R_EXECUTABLE_INSTANCE_V1",
+  "instance_status": "QUALIFIED_G1R_MATERIALIZATION",
+  "g1r_authority_root": "21E310BA2B7E95ABFF2AA7B0F8165A4D44F2AF37FC7AB50BEF35DE76BF3FE2FB",
+  "parent_semantic_authority": "OBS_OPEN_G1_SENTINEL_SEMANTIC_KERNEL_V1",
+  "parent_semantic_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "historical_binary_authority": "NONE",
+  "executable_materialization_path": "D:\\codex-target-obs-open-g1-r\\release\\obs-open-04a-g1-executable-descendant.exe",
+  "executable_sha256": "E1FD57AE1FEC58684D98A61AAC9F972821900291B2A44E9C211BECFDC8912AEA",
+  "wrapper_source_sha256": "0020028922FA7E6F724C3E52F4C84C9575C978FDB9CDB8C1ED802F7BC8A6F61B",
+  "sealed_g1_source_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "rustc_identity": "rustc 1.96.0 (ac68faa20 2026-05-25)",
+  "target_identity": "x86_64-pc-windows-msvc",
+  "linker_identity": "MSVC_TARGET_LINKER_DECLARED_BY_RUST_TOOLCHAIN",
+  "build_configuration_root": "E4B1AB3A9AC8AC0732E3E53FE97CF972180F6E2B30D345DEA6086FD80396B61A",
+  "qualification_envelope_root": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675",
+  "semantic_envelope_root": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675",
+  "callable_boundary": ["obs_open_04a_g1::kernel::init", "obs_open_04a_g1::kernel::step"],
+  "lifecycle_contract_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "selected_build": "BUILD_A_ONLY",
+  "alternate_build_role": "INDEPENDENT_QUALIFICATION_EVIDENCE_ONLY",
+  "population_access": 0
+}

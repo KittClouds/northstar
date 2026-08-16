@@ -1,0 +1,16 @@
+{
+  "schema": "FC01A_A2_KAGE_CLOSURE_RECEIPT_V1",
+  "agent": "KAGE",
+  "result": "NOT_EVALUABLE",
+  "exact_g1r_instance_bound": "PASS",
+  "stepresult_transport_applied_path": "PASS",
+  "stepresult_transport_rejected_path": "NOT_EVALUABLE",
+  "a1_projector_reused": "PASS",
+  "replay": "PASS",
+  "scope_expansion": "NONE",
+  "historical_binary_identity": "NOT_CLAIMED",
+  "fc01a_status": "HOLD",
+  "fc01b_status": "FROZEN",
+  "closure_reason": "FROZEN_ABI_REQUIRES_PRIMITIVES_ABSENT_FROM_REJECTED_G1_RETURN",
+  "population_access": 0
+}

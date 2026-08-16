@@ -1,0 +1,28 @@
+{
+  "schema": "A2_STEPRESULT_TRANSPORT_CONTRACT_V1",
+  "source": ["STEPRESULT_FIELD", "AUTHORIZED_G1_CONTEXT", "AUTHORIZED_PROVENANCE"],
+  "forbidden_source": ["DERIVED_BY_OBVIOUS_FORMULA", "POPULATION_VALUE", "OUTCOME", "G5", "G6", "G7", "G8"],
+  "custom_semantic_rules": 0,
+  "custom_lifecycle_rules": 0,
+  "custom_genealogy_rules": 0,
+  "custom_rejection_reinterpretation": 0,
+  "custom_temporal_reinterpretation": 0,
+  "reachability_inference": 0,
+  "fiber_inference": 0,
+  "token_realization": 0,
+  "field_map": {
+    "g1_authority_root": "AUTHORIZED_PROVENANCE.parent_semantic_root",
+    "context_identity": "AUTHORIZED_G1_CONTEXT.exact_context_object",
+    "input_identity": "AUTHORIZED_PROVENANCE.exact_observation_identity",
+    "transition_status": "G1_RETURN_VARIANT_TAG",
+    "state_projection": "STEPRESULT.state",
+    "ordered_emissions": "STEPRESULT.emissions.ordered",
+    "knowledge_time_projection": "STEPRESULT.state.knowledge_time_ns",
+    "rejection_status": "G1_RETURN_VARIANT_TAG_PASSTHROUGH",
+    "semantic_lineage_root": "AUTHORIZED_PROVENANCE.g1r_authority_root"
+  },
+  "rejected_return_rule": "FAIL_CLOSED_IF_REQUIRED_STEPRESULT_PRIMITIVES_ABSENT",
+  "canonicalization": "FROZEN_FC01A_CANONICAL_SERIALIZATION_V1",
+  "projection": "UNCHANGED_A1_ATTEMPT_1_PROJECTOR_ONLY",
+  "population_access": 0
+}

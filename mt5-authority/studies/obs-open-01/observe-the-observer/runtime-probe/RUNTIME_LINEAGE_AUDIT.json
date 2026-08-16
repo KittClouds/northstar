@@ -6,23 +6,34 @@
     "terminal_sha256": "0ab0496b90977d4ef848f8d2591970c3a50721476b37fa60cfb6b1bda74b2983",
     "metatester_sha256": "4e94a6cc182caaef8834b0f9be25106162d022b7e9dc867da2b7c8fb8dd08277"
   },
-  "current_trading_com_runtime": {
-    "version": "5.0.0.6094",
-    "metaeditor_sha256": "06c85acc269f52c9eec63bca51e33c8b57f9940ba95d8a5ef03105d230b18440",
-    "terminal_sha256": "13dcf6f2455946fdf883af86cd5ce37a00403f0fefbb0bf0c82e58a614621269",
-    "metatester_sha256": "098028acefacc1bb1bc9c2b0f89dd4896496e7581706b3afe059081702ee295c"
+  "parent_runtime_origin": "C:/Program Files/MetaTrader 5",
+  "same_origin_current_runtime": {
+    "version": "5.0.0.6116",
+    "metaeditor_sha256": "f6e48c5f1ab83729bbf9580e90f4acf466e05bb8a725a63d0c205dcce2bb3778",
+    "terminal_sha256": "81545a9335555bb47dfe9b7b946b100a22b5d71f089838665a116e22d85c68f2",
+    "metatester_sha256": "c0ab620240bfd106e85c4c83aab714c1008e85613ac734e525cd874db0a8db84",
+    "parent_terminal_data_id_present": true
   },
-  "other_terminal_versions_found": [
-    "5.0.0.6104",
-    "5.0.0.6116"
+  "alternate_runtime_installations": [
+    {
+      "origin": "C:/Program Files/Trading.com Markets MT5",
+      "version": "5.0.0.6094",
+      "relation": "DIFFERENT_ORIGIN"
+    },
+    {
+      "origin": "C:/Program Files/DNA Funded MT5 Terminal",
+      "version": "5.0.0.6104",
+      "relation": "DIFFERENT_ORIGIN"
+    }
   ],
   "exact_6106_runtime_found": false,
   "identity": "NOT_EQUIVALENT_BY_EXACT_RUNTIME_IDENTITY",
-  "semantic_transport": "NOT_EVALUATED",
+  "candidate_transport": "6106_TO_6116_SAME_ORIGIN",
+  "semantic_transport": "NOT_EVALUATED_NOT_INHERITED",
   "decision": "DO_NOT_EXECUTE_PROBE_AGAINST_PARENT_AUTHORITY_YET",
   "permitted_next_states": [
     "RECOVER_EXACT_6106_RUNTIME",
-    "FREEZE_RUNTIME_TRANSPORT_QUALIFICATION",
+    "FREEZE_6106_TO_6116_RUNTIME_TRANSPORT_QUALIFICATION",
     "LEAVE_EFFECTIVE_PARAMETER_BINDING_NOT_EVALUABLE"
   ],
   "market_or_outcome_access": 0

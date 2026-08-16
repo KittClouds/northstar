@@ -1,0 +1,2101 @@
+{
+  "dynamic_dof_authority": "NONE",
+  "edges": [
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourBegin",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourBegin",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourBegin",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourBegin",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourBegin",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinBegin",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinBegin",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinBegin",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinBegin",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinBegin",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEnd",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEnd",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEnd",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEnd",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEnd",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEnd",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEnd",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEnd",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEnd",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEnd",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEndArea",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEndArea",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEndArea",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEndArea",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHourEndArea",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEndArea",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEndArea",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEndArea",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEndArea",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpMinEndArea",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHistoryDays",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHistoryDays",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpHistoryDays",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireExactStartAlignment",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireExactStartAlignment",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireExactStartAlignment",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireRangeContinuity",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireRangeContinuity",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireRangeContinuity",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireChartContinuity",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireChartContinuity",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpRequireChartContinuity",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpShowLegacyLines",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpShowLegacyLines",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpPeriodColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpPeriodColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpAreaColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpAreaColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpPeriodWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpPeriodWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpAreaWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpAreaWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpPeriodStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpPeriodStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpAreaStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpAreaStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpShowExtremeSentinels",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpShowExtremeSentinels",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpUpperSentinelColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpUpperSentinelColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpLowerSentinelColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpLowerSentinelColor",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpExtremeSentinelStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpExtremeSentinelStyle",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpExtremeSentinelWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "RENDER_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpExtremeSentinelWidth",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpUniqueId",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "IDENTITY_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "InpUniqueId",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SYMBOL",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SYMBOL",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SYMBOL",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SYMBOL",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "TIMEFRAME",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "TIMEFRAME",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "TIMEFRAME",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "TIMEFRAME",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION_ONLY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "DIGITS",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_ARRAYS",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "NO_READ_IDENTIFIED",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "UNUSED_RUNTIME_ARRAYS",
+      "target": "ARCH_UNUSED_INPUT_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "HISTORY_AVAILABILITY",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "KNOWLEDGE_TIME",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PREV_CALCULATED",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "UPDATE_PATH_SELECTION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PREV_CALCULATED",
+      "target": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CIVIL_DAY_CONVERSION",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "SESSION_OWNERSHIP",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CIVIL_DAY_CONVERSION",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "STOP_SIGNAL",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "EXECUTION_COMPLETENESS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "STOP_SIGNAL",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PLATFORM_EMPTY_VALUE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "MISSINGNESS_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PLATFORM_EMPTY_VALUE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PLATFORM_FLOATING_ARITHMETIC",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PLATFORM_FLOATING_ARITHMETIC",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "NUMERICAL_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PLATFORM_FLOATING_ARITHMETIC",
+      "target": "ARCH_NUMERICAL_DOMAIN"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CLOCK_CLAMP_NOT_REJECT",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CLOCK_CLAMP_NOT_REJECT",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CLOCK_CLAMP_NOT_REJECT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "AREA_HOUR_FLOOR",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "AREA_HOUR_FLOOR",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "AREA_HOUR_FLOOR",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "EQUAL_START_END_LEGACY_EMPTY",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "EQUAL_START_END_LEGACY_EMPTY",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "EQUAL_START_END_LEGACY_EMPTY",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "RANGE_END_BAR_INCLUSIVE",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "RANGE_END_BAR_INCLUSIVE",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "RANGE_END_BAR_INCLUSIVE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FREEZE_AT_END_BAR_CLOSE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FREEZE_AT_END_BAR_CLOSE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "KNOWLEDGE_TIME",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FREEZE_AT_END_BAR_CLOSE",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "ASYMMETRIC_ALIGNMENT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "ASYMMETRIC_ALIGNMENT",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "ASYMMETRIC_ALIGNMENT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CONTAINING_BAR_RESOLUTION",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CONTAINING_BAR_RESOLUTION",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CONTAINING_BAR_RESOLUTION",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PREVIOUS_DAY_OWNERSHIP",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PREVIOUS_DAY_OWNERSHIP",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PREVIOUS_DAY_OWNERSHIP",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "INITIALIZATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "target": "ARCH_INITIALIZATION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "STRICT_LOCATION_RAILS",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "STRICT_LOCATION_RAILS",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "GRAMMAR_OBSERVES_CLOSE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "GRAMMAR_OBSERVES_CLOSE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINELS_OBSERVE_HIGH_LOW",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINELS_OBSERVE_HIGH_LOW",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "STRICT_EXTREME_RENEWAL",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "STRICT_EXTREME_RENEWAL",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FIRST_CANDIDATE_ID_ONE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "IDENTITY",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FIRST_CANDIDATE_ID_ONE",
+      "target": "ARCH_CANDIDATE_GENEALOGY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "FIRST_CANDIDATE_ID_ONE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "KNOWLEDGE_TIME",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "KNOWLEDGE_TIME",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "target": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINEL_GAP_FAIL_CLOSED",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINEL_GAP_FAIL_CLOSED",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINEL_GAP_FAIL_CLOSED",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "GRAMMAR_GAP_RESUME",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "GRAMMAR_GAP_RESUME",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "AVAILABLE_DOMAIN",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "GRAMMAR_GAP_RESUME",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "UPDATE_PATH_SELECTION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "LEGACY_REPAINT_EVERY_TICK",
+      "target": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "LEGACY_REPAINT_EVERY_TICK",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "LEGACY_REPAINT_EVERY_TICK",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "UPDATE_PATH_SELECTION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "target": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "PUBLICATION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "target": "ARCH_PUBLICATION_SURFACE"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_TIME_SEMANTICS",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "target": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_ADMISSION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "target": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "authority": "SOURCE_DERIVED",
+      "effect": "CHANGES_STATE_TRANSITION",
+      "kind": "STRUCTURALLY_AFFECTS",
+      "source": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "target": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "kind": "DERIVES",
+      "source": "TIMEFRAME",
+      "target": "DERIVED_PERIOD_SECONDS"
+    },
+    {
+      "kind": "PARAMETERIZES",
+      "source": "SYMBOL",
+      "target": "HISTORY_AVAILABILITY"
+    },
+    {
+      "kind": "PARAMETERIZES",
+      "source": "TIMEFRAME",
+      "target": "HISTORY_AVAILABILITY"
+    },
+    {
+      "kind": "COUPLES_TO",
+      "source": "FORMING_VS_COMPLETED",
+      "target": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+    },
+    {
+      "kind": "ACTIVATES_POLICY",
+      "source": "InpRequireChartContinuity",
+      "target": "SENTINEL_GAP_FAIL_CLOSED"
+    },
+    {
+      "kind": "ACTIVATES_POLICY",
+      "source": "InpRequireChartContinuity",
+      "target": "GRAMMAR_GAP_RESUME"
+    },
+    {
+      "kind": "PARAMETERIZES_VIA_PERIOD_SECONDS",
+      "source": "TIMEFRAME",
+      "target": "FREEZE_AT_END_BAR_CLOSE"
+    },
+    {
+      "kind": "GATES",
+      "source": "InpEnableExtremeSentinels",
+      "target": "ARCH_CANDIDATE_GENEALOGY"
+    }
+  ],
+  "governing_warning": "CENSUS_COUNT_IS_NOT_DIMENSIONALITY",
+  "graph_authority": "STRUCTURAL_SOURCE_DERIVED_ONLY",
+  "independence_authority": "NOT_EARNED",
+  "joint_count": 58,
+  "nodes": [
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "INITIALIZATION",
+        "AVAILABLE_DOMAIN",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "group": "CLOCK",
+      "id": "InpHourBegin",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "INITIALIZATION",
+        "AVAILABLE_DOMAIN",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "group": "CLOCK",
+      "id": "InpMinBegin",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "INITIALIZATION",
+        "AVAILABLE_DOMAIN",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "group": "CLOCK",
+      "id": "InpHourEnd",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "INITIALIZATION",
+        "AVAILABLE_DOMAIN",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "group": "CLOCK",
+      "id": "InpMinEnd",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "INITIALIZATION",
+        "AVAILABLE_DOMAIN",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "group": "CLOCK",
+      "id": "InpHourEndArea",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "INITIALIZATION",
+        "AVAILABLE_DOMAIN",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "group": "CLOCK",
+      "id": "InpMinEndArea",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "PUBLICATION"
+      ],
+      "group": "COVERAGE",
+      "id": "InpHistoryDays",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_ADMISSION",
+        "AVAILABLE_DOMAIN",
+        "PUBLICATION"
+      ],
+      "group": "COVERAGE",
+      "id": "InpRequireExactStartAlignment",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_ADMISSION",
+        "AVAILABLE_DOMAIN",
+        "PUBLICATION"
+      ],
+      "group": "COVERAGE",
+      "id": "InpRequireRangeContinuity",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "CHANGES_ADMISSION",
+        "PUBLICATION"
+      ],
+      "group": "COVERAGE",
+      "id": "InpRequireChartContinuity",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpShowLegacyLines",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpPeriodColor",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpAreaColor",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpPeriodWidth",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpAreaWidth",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpPeriodStyle",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "LEGACY_RENDERER",
+      "id": "InpAreaStyle",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "AVAILABLE_DOMAIN",
+        "PUBLICATION"
+      ],
+      "group": "SENTINEL",
+      "id": "InpEnableExtremeSentinels",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "SENTINEL",
+      "id": "InpShowExtremeSentinels",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "SENTINEL",
+      "id": "InpUpperSentinelColor",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "SENTINEL",
+      "id": "InpLowerSentinelColor",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "SENTINEL",
+      "id": "InpExtremeSentinelStyle",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "RENDER_ONLY"
+      ],
+      "group": "SENTINEL",
+      "id": "InpExtremeSentinelWidth",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "EXPLICIT_INPUT",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY",
+        "IDENTITY_ONLY"
+      ],
+      "group": "IDENTITY",
+      "id": "InpUniqueId",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "DECLARED_INPUT"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "id": "SYMBOL",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "id": "TIMEFRAME",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION_ONLY"
+      ],
+      "id": "DIGITS",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "id": "HISTORY_ARRAYS",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "NO_READ_IDENTIFIED"
+      ],
+      "id": "UNUSED_RUNTIME_ARRAYS",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "id": "HISTORY_AVAILABILITY",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "KNOWLEDGE_TIME",
+        "PUBLICATION"
+      ],
+      "id": "FORMING_VS_COMPLETED",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "INITIALIZATION",
+        "UPDATE_PATH_SELECTION"
+      ],
+      "id": "PREV_CALCULATED",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "SESSION_OWNERSHIP"
+      ],
+      "id": "CIVIL_DAY_CONVERSION",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "EXECUTION_COMPLETENESS"
+      ],
+      "id": "STOP_SIGNAL",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "PUBLICATION",
+        "MISSINGNESS_SEMANTICS"
+      ],
+      "id": "PLATFORM_EMPTY_VALUE",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "AMBIENT_COORDINATE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION",
+        "NUMERICAL_SEMANTICS"
+      ],
+      "id": "PLATFORM_FLOATING_ARITHMETIC",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "RUNTIME_OR_PLATFORM_SUPPLIED"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "INPUT_NORMALIZATION",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "INITIALIZATION",
+        "CHANGES_TIME_SEMANTICS",
+        "AVAILABLE_DOMAIN"
+      ],
+      "evidence": {
+        "line": 519,
+        "needle": "g_hour_begin = (int)(InpHourBegin > 23 ? 23 : InpHourBegin)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CLOCK_CLAMP_NOT_REJECT",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "CLOCK_NORMALIZATION",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "INITIALIZATION",
+        "CHANGES_TIME_SEMANTICS",
+        "AVAILABLE_DOMAIN"
+      ],
+      "evidence": {
+        "line": 525,
+        "needle": "InpHourEndArea < (uint)g_hour_end",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "AREA_HOUR_FLOOR",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "ENDPOINT_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "CHANGES_ADMISSION",
+        "CHANGES_STATE_TRANSITION"
+      ],
+      "evidence": {
+        "line": 356,
+        "needle": "g_period_end_min < g_period_begin_min",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "EQUAL_START_END_LEGACY_EMPTY",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "ENDPOINT_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "CHANGES_ADMISSION",
+        "CHANGES_STATE_TRANSITION"
+      ],
+      "evidence": {
+        "line": 1173,
+        "needle": "bar_open <= s.actual_end_open",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "RANGE_END_BAR_INCLUSIVE",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "KNOWLEDGE_TIME",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION",
+        "KNOWLEDGE_TIME"
+      ],
+      "evidence": {
+        "line": 984,
+        "needle": "s.freeze_commit = s.actual_end_open + (datetime)g_period_seconds",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "FREEZE_AT_END_BAR_CLOSE",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "RESOLUTION_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_ADMISSION"
+      ],
+      "evidence": {
+        "line": 1010,
+        "needle": "InpRequireExactStartAlignment && !s.start_aligned",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "ASYMMETRIC_ALIGNMENT",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "SOURCE_GEOMETRY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_ADMISSION"
+      ],
+      "evidence": {
+        "line": 839,
+        "needle": "bool ResolveContainingBar",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CONTAINING_BAR_RESOLUTION",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "SESSION_OWNERSHIP",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_ADMISSION"
+      ],
+      "evidence": {
+        "line": 1029,
+        "needle": "const datetime prev_day = PreviousDayStart(today)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "PREVIOUS_DAY_OWNERSHIP",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "HISTORY_SCOPE",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "AVAILABLE_DOMAIN",
+        "INITIALIZATION",
+        "CHANGES_ADMISSION"
+      ],
+      "evidence": {
+        "line": 1044,
+        "needle": "BuildSessionTable",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "CLASSIFICATION_STRICTNESS",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1460,
+        "needle": "if(close_price > s.frozen_high)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "STRICT_LOCATION_RAILS",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "OBSERVED_PRICE_FIELD",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1742,
+        "needle": "ProcessGrammar(i, s, bar_open, close_price)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "GRAMMAR_OBSERVES_CLOSE",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "OBSERVED_PRICE_FIELD",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1215,
+        "needle": "const double bar_high,",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SENTINELS_OBSERVE_HIGH_LOW",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "RENEWAL_STRICTNESS",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1358,
+        "needle": "if(bar_high > s.upper_extreme)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "STRICT_EXTREME_RENEWAL",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "IDENTITY_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "IDENTITY",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1351,
+        "needle": "s.upper_extreme_candidate_id = 1",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "FIRST_CANDIDATE_ID_ONE",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "KNOWLEDGE_TIME",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION",
+        "KNOWLEDGE_TIME"
+      ],
+      "evidence": {
+        "line": 1347,
+        "needle": "s.upper_extreme_birth = bar_close",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "PROVISIONAL_COMMITTED",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_STATE_TRANSITION",
+        "KNOWLEDGE_TIME",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1396,
+        "needle": "without mutating the committed",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "GAP_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_ADMISSION",
+        "CHANGES_STATE_TRANSITION",
+        "AVAILABLE_DOMAIN"
+      ],
+      "evidence": {
+        "line": 1327,
+        "needle": "s.sentinel_gap_seen = true",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SENTINEL_GAP_FAIL_CLOSED",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "GAP_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_ADMISSION",
+        "CHANGES_STATE_TRANSITION",
+        "AVAILABLE_DOMAIN"
+      ],
+      "evidence": {
+        "line": 1523,
+        "needle": "event = ResumeEventForLocation(location)",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "GRAMMAR_GAP_RESUME",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "UPDATE_TIMING",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "UPDATE_PATH_SELECTION",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1820,
+        "needle": "Exact legacy compatibility output. This intentionally updates on every",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "LEGACY_REPAINT_EVERY_TICK",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "UPDATE_TIMING",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "UPDATE_PATH_SELECTION",
+        "CHANGES_STATE_TRANSITION",
+        "PUBLICATION"
+      ],
+      "evidence": {
+        "line": 1830,
+        "needle": "const bool rebuild_machine =",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "ENDPOINT_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "CHANGES_ADMISSION",
+        "CHANGES_STATE_TRANSITION"
+      ],
+      "evidence": {
+        "line": 1269,
+        "needle": "return bar_close <= s.area_close_commit",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "LATENT_POLICY",
+      "dimension": "ENDPOINT_POLICY",
+      "dynamic_authority": "NONE",
+      "effects": [
+        "CHANGES_TIME_SEMANTICS",
+        "CHANGES_ADMISSION",
+        "CHANGES_STATE_TRANSITION"
+      ],
+      "evidence": {
+        "line": 1271,
+        "needle": "return bar_open <= s.configured_area_end",
+        "path": "mt5-authority/studies/obs-open-01/instrument-qualification/authority/OpeningRangeGrammar_v2_10_ExtremeSentinels.mq5"
+      },
+      "id": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "independence_authority": "NOT_EARNED",
+      "primitive_status": "HARD_CODED_CHOICE"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_INITIALIZATION"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_CLOCK_SESSION_RESOLUTION"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_COVERAGE_EVALUABILITY"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_CAUSAL_STATE_TRANSITION"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_PROVISIONAL_COMMITTED_SPLIT"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_CANDIDATE_GENEALOGY"
+    },
+    {
+      "class": "STATE_ARCHITECTURE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_UPDATE_DISPATCH"
+    },
+    {
+      "class": "SEMANTIC_DOMAIN",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_NUMERICAL_DOMAIN"
+    },
+    {
+      "class": "DEPENDENCY_BOUNDARY",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_UNUSED_INPUT_SURFACE"
+    },
+    {
+      "class": "PUBLICATION_SURFACE",
+      "counted_in_58_joint_census": false,
+      "id": "ARCH_PUBLICATION_SURFACE"
+    }
+  ],
+  "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+  "schema": "OTO_DOF_DEPENDENCY_GRAPH_V1"
+}

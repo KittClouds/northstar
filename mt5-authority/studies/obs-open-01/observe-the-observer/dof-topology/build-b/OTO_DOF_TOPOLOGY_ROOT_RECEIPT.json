@@ -1,0 +1,21 @@
+{
+  "logical_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 62409,
+        "path": "OTO_DOF_DEPENDENCY_GRAPH.json",
+        "sha256": "04aa1bd1688fbb1a8559ed334875b49740d9139494cbdb41ca09f96b836dbcd8"
+      },
+      {
+        "bytes": 535,
+        "path": "OTO_DOF_TOPOLOGY_FINDINGS.json",
+        "sha256": "a13c8a621a7aa513ad30cc45e558a5144d7237d64aae924e2679be556ddb2b55"
+      }
+    ],
+    "authority": "OBS_OPEN_OTO_STATIC_DOF_TOPOLOGY_V1",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "schema": "OTO_DOF_TOPOLOGY_ROOT_PAYLOAD_V1"
+  },
+  "schema": "OTO_DOF_TOPOLOGY_ROOT_RECEIPT_V1"
+}

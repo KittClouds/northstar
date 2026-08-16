@@ -1,0 +1,15 @@
+{
+  "ambient_coordinate_nodes": 12,
+  "dynamic_experiments": 0,
+  "explicit_input_nodes": 24,
+  "identified_joint_count": 58,
+  "independent_dimension_count": "NOT_EVALUABLE",
+  "latent_policy_nodes": 22,
+  "market_rows_read": 0,
+  "maximum_authority": "OBS_OPEN_OTO_STATIC_DOF_TOPOLOGY_V1",
+  "outcome_rows_read": 0,
+  "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+  "render_only_nodes": 12,
+  "result": "STATIC_DOF_DEPENDENCY_TOPOLOGY_SEALED",
+  "schema": "OTO_DOF_TOPOLOGY_FINDINGS_V1"
+}

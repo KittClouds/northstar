@@ -1,0 +1,34 @@
+{
+  "schema": "OTO_RUNTIME_RECOVERY_SEARCH_RECEIPT_V1",
+  "mode": "READ_ONLY_BOUNDED_FILENAME_AND_VERSION_SEARCH",
+  "target_version": "5.0.0.6106",
+  "target_hashes": {
+    "metaeditor64.exe": "9bee761959abb8d7de49af54caaf83d1dd05156dd9b10bd855d31da3ae9ad1b9",
+    "terminal64.exe": "0ab0496b90977d4ef848f8d2591970c3a50721476b37fa60cfb6b1bda74b2983",
+    "metatester64.exe": "4e94a6cc182caaef8834b0f9be25106162d022b7e9dc867da2b7c8fb8dd08277"
+  },
+  "roots_searched": [
+    "C:/Program Files",
+    "C:/ProgramData",
+    "C:/Users/shuga/AppData/Local/MetaQuotes",
+    "C:/Users/shuga/AppData/Roaming/MetaQuotes",
+    "C:/Users/shuga/AppData/Local/Temp",
+    "C:/Users/shuga/.cache",
+    "C:/Users/shuga/Desktop",
+    "C:/Users/shuga/Documents",
+    "C:/Users/shuga/Downloads",
+    "C:/Users/shuga/OneDrive",
+    "C:/Users/Public",
+    "C:/Windows/Temp",
+    "git object path inventory"
+  ],
+  "exact_bundle_found": false,
+  "same_origin_current_version": "5.0.0.6116",
+  "alternate_versions_found": [
+    "5.0.0.6094",
+    "5.0.0.6104"
+  ],
+  "mutation": "NONE",
+  "result": "EXACT_6106_RUNTIME_NOT_RECOVERED_BY_BOUNDED_SEARCH",
+  "authority_limit": "ABSENCE_OUTSIDE_SEARCHED_ROOTS_NOT_PROVEN"
+}

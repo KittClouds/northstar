@@ -6,11 +6,13 @@
   "path_a_exact_runtime_recovered": "NOT_EVALUABLE",
   "path_b_transport_qualification": "REQUIRED_OR_HALT",
   "parent_runtime_build": 6106,
-  "available_runtime_build": 6094,
+  "same_origin_available_runtime_build": 6116,
+  "alternate_runtime_build_6094": "DIFFERENT_ORIGIN_NOT_DEFAULT_TRANSPORT",
   "exact_runtime_found": false,
   "effective_parameter_vectors": "NOT_READ",
   "dynamic_dof_authority": "NONE",
-  "transport_authority": "NONE",
+  "candidate_transport": "6106_TO_6116_SAME_ORIGIN",
+  "transport_authority": "NONE_NOT_YET_QUALIFIED",
   "market_or_outcome_access": 0,
   "maximum_authority": "OBS_OPEN_OTO_RUNTIME_LINEAGE_RESOLUTION_V1"
 }

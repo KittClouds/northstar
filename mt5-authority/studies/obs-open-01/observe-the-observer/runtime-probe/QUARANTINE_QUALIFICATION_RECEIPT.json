@@ -1,0 +1,19 @@
+{
+  "schema": "OTO_QUARANTINE_QUALIFICATION_RECEIPT_V1",
+  "result": "PASS",
+  "allowed_editor_path": "C:/Program Files/MetaTrader 5/metaeditor64.exe",
+  "allowed_editor_version": "5.0.0.6116",
+  "allowed_editor_sha256": "f6e48c5f1ab83729bbf9580e90f4acf466e05bb8a725a63d0c205dcce2bb3778",
+  "forbidden_editor_path": "C:/Program Files/Trading.com Markets MT5/metaeditor64.exe",
+  "forbidden_editor_version": "5.0.0.6094",
+  "forbidden_editor_sha256": "06c85acc269f52c9eec63bca51e33c8b57f9940ba95d8a5ef03105d230b18440",
+  "guard_execution": "PASS",
+  "compile_result": "0_ERRORS_0_WARNINGS_X64_REGULAR",
+  "compiled_source_sha256": "4a82aa156ee2d38cccad0bf0a486358f3a3375b9396650726579b5cac27dda5d",
+  "compiled_ex5_sha256": "953c1f9d841d0fef197bd13d67ace80103dec9e667e7f236e49f5b88c4a7c906",
+  "runtime_execution": 0,
+  "market_or_outcome_access": 0,
+  "installed_files_modified": 0,
+  "processes_terminated": 0,
+  "authority": "OTO_COMPILER_ORIGIN_QUARANTINE_V1"
+}

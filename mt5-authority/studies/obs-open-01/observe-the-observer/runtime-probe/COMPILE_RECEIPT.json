@@ -8,21 +8,25 @@
   },
   "compiled_ex5": {
     "path": "runtime-probe/OBS_OPEN_OTO_RuntimeParameterProbe.ex5",
-    "bytes": 24716,
-    "sha256": "b7a3bff296c56fc5f3b6f56c7962d5eb34132ca8c18d4e35ae0347cf3167f76f"
+    "bytes": 24726,
+    "sha256": "953c1f9d841d0fef197bd13d67ace80103dec9e667e7f236e49f5b88c4a7c906"
   },
   "compile_log": {
     "path": "runtime-probe/compile-runtime-parameter-probe.log",
-    "sha256": "44b6988b3bf27342932a3bfaab986741580d80568e21e7f8b87ec3a5f7e45453"
+    "sha256": "819ad997d66de9e18183d37eb4a23602e6c0f92a6b0012da1e7bdf9548d9649a"
   },
   "compiler": {
-    "path": "C:/Program Files/Trading.com Markets MT5/metaeditor64.exe",
-    "file_version": "5.0.0.6094",
-    "sha256": "06c85acc269f52c9eec63bca51e33c8b57f9940ba95d8a5ef03105d230b18440"
+    "path": "C:/Program Files/MetaTrader 5/metaeditor64.exe",
+    "file_version": "5.0.0.6116",
+    "sha256": "f6e48c5f1ab83729bbf9580e90f4acf466e05bb8a725a63d0c205dcce2bb3778"
   },
   "parent_inst01_compiler_version": "5.0.0.6106",
   "compiler_identity_relation": "DIFFERENT_FROM_PARENT_INST01_COMPILE_RUNTIME",
-  "available_matching_inst01_6106_runtime": "NOT_FOUND_IN_PROGRAM_FILES_SCAN",
+  "physical_ex5_recompile_identity": "NOT_STABLE_ACROSS_SAME_SOURCE_AND_COMPILER_INVOCATIONS",
+  "previous_same_compiler_ex5_sha256": "025e387b32489579cf1a9d86eefb4c3e11faa2f23da46ccaf17c2405c033f6d3",
+  "physical_identity_rule": "CURRENT_COMPILED_EX5_SEALED_EXACTLY_SOURCE_REMAINS_PRIMARY_PROBE_AUTHORITY",
+  "same_origin_current_runtime": "5.0.0.6116",
+  "available_matching_inst01_6106_runtime": "NOT_FOUND_IN_BOUNDED_RECOVERY_SEARCH",
   "runtime_execution": "BLOCKED_PENDING_RUNTIME_LINEAGE_DECISION",
   "effective_parameter_vectors": "NOT_EVALUABLE_PENDING_RUNTIME_EXECUTION",
   "parameter_sweep_authority": "NONE"

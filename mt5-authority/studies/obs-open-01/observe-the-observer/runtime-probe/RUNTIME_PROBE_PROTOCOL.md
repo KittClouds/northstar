@@ -17,12 +17,15 @@ Execution closes only when two independent runs produce semantically identical
 ordered vectors under the same declared runtime. Physical capture timestamps are
 metadata and are excluded from deterministic vector identity.
 
-The available Trading.com MetaEditor, terminal, and tester are build 6094. The
-parent INST-01 authority records build 6106, and no build-6106 terminal was found
-in the bounded Program Files scan. Compilation under 6094 qualifies the probe
-source only; it does not establish execution parity with the admitted INST-01
-runtime. Execution must wait for either the exact admitted runtime or a separately
-authorized runtime-transport qualification.
+The parent INST-01 authority records build 6106 from `C:/Program Files/MetaTrader
+5`. That same installation origin is now build 6116. A bounded recovery search
+found no exact 6106 executable bundle. Build 6094 belongs to a different
+Trading.com installation and is not the default transport candidate.
+
+Compilation under same-origin build 6116 qualifies the probe source only; it
+does not establish execution parity with the admitted INST-01 runtime. Execution
+must wait for either the exact admitted runtime or a separately authorized
+6106-to-6116 runtime-transport qualification.
 
 Until then:
 

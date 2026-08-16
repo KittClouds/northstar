@@ -1,0 +1,22 @@
+{
+  "schema": "OTO_RUNTIME_TOOL_QUARANTINE_V1",
+  "status": "ACTIVE_FAIL_CLOSED",
+  "scope": "OTO_COMPILATION_AND_RUNTIME_QUALIFICATION_ONLY",
+  "forbidden": {
+    "origin": "C:/Program Files/Trading.com Markets MT5",
+    "metaeditor_version": "5.0.0.6094",
+    "metaeditor_sha256": "06c85acc269f52c9eec63bca51e33c8b57f9940ba95d8a5ef03105d230b18440",
+    "disposition": "QUARANTINED_DO_NOT_INVOKE_FOR_OTO"
+  },
+  "allowed_current_compile_tool": {
+    "origin": "C:/Program Files/MetaTrader 5",
+    "metaeditor_version": "5.0.0.6116",
+    "metaeditor_sha256": "f6e48c5f1ab83729bbf9580e90f4acf466e05bb8a725a63d0c205dcce2bb3778",
+    "authority": "PROBE_SOURCE_COMPILATION_ONLY"
+  },
+  "guard": "runtime-probe/compile_oto_probe.ps1",
+  "os_installation_mutation": "NONE",
+  "running_processes_terminated": 0,
+  "existing_terminal_function_modified": false,
+  "dynamic_observer_authority": "NONE"
+}

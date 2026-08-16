@@ -60,6 +60,7 @@ input bool            InpEnableLogging = false;
 input bool            InpLogEveryUpdate = false;
 input string          InpRunKey = "KITT_DAILY_SWING";
 input string          InpInvocationId = "AUTO";
+input datetime        InpTesterFinalizeAt = 0;
 
 const string KDSW_PREFIX = "KittDailySwingState_";
 
@@ -319,6 +320,19 @@ bool RefreshSurface()
    if(g_machine.Dirty())
       RenderAll();
    g_machine.Log(g_logger, InpLogEveryUpdate);
+
+   // Direct indicator runs in Strategy Tester do not consistently provide a
+   // durable OnDeinit receipt before the tester process exits.  An explicit
+   // end timestamp gives campaigns the same deterministic sealing seam used
+   // by the master controller.
+   if(g_is_tester && InpTesterFinalizeAt > 0 && g_logger.Enabled())
+   {
+      KDSW_READING reading;
+      g_machine.GetReading(reading);
+      if(reading.market_time >= InpTesterFinalizeAt)
+         g_logger.Close();
+   }
+
    return true;
 }
 

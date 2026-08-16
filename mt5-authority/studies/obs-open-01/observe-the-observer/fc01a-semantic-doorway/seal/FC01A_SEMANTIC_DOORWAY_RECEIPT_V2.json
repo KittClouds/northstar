@@ -1,0 +1,99 @@
+{
+  "schema": "FC01A_SEMANTIC_DOORWAY_RECEIPT_V2",
+  "gate": "FC-01A",
+  "execution_state": "SEALED",
+  "question_status": "CLOSED",
+  "result": "FC01A_NOT_EVALUABLE",
+  "disposition": "HOLD",
+  "authority": "FC01A_CANONICAL_REAL_HISTORY_SEMANTIC_DOORWAY_V1",
+  "fc01a_layer_role": "ELIGIBILITY_AND_AUTHORITY_QUALIFICATION_ONLY",
+  "parent_fc00_receipt_sha256": "E588D80D58479ACED3A93DFFAEA4E32B313EFDEC976C725EC47C2E32FAEEF707",
+  "lineage": {
+    "g0_root": "e317cabef33114edf47c50f4628a210ae8f1bd0b59feb436dc37e7df9cfe38bf",
+    "g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+    "g1_kernel_contract_sha256": "9E09BB3B8C09A8A076FFC8C5FF027CC6AAC415DC91368C500272A96B5D4542ED"
+  },
+  "sovereignty": {
+    "canonical_history_source": "G0_CANONICAL_HISTORY",
+    "semantic_input": "G1_SEMANTIC_OUTPUT_V1",
+    "semantic_constructor": "G1_EXACT_SEMANTIC_KERNEL",
+    "g1_semantic_construction_source": "SEALED_G1_IMPLEMENTATION_ONLY",
+    "fc01a_may_translate": true,
+    "fc01a_may_reinterpret": false,
+    "fc01a_may_reimplement_g1_meaning": false,
+    "fc01a_custom_semantic_transitions": 0,
+    "fc01a_custom_lifecycle_rules": 0,
+    "fc01a_custom_genealogy_rules": 0,
+    "fc01a_custom_rejection_rules": 0,
+    "fc01a_custom_temporal_interpretation": 0,
+    "fail_closed_if_g1_surface_missing": "NOT_EVALUABLE"
+  },
+  "contract_hashes": {
+    "FC01A_SEMANTIC_DOORWAY_SPEC_V1": "4860798B338D763AA29ECCAEBCCCC5E0C6FDE4F7C6D208315FAD197DE9A63AE5",
+    "FC01A_A0_G1_SOURCE_FIREWALL_V1": "B90FEF86A3E6B8EF11490B2293FF6FE85E579821E01F135BAC2DB6C75943A338",
+    "SEMANTIC_DOORWAY_OUTPUT_V1": "91DFB7737625E887C7D466B034BE4970A2F9924AEEB027D2318B01AD258B2437",
+    "CONSUMER_PROJECTION_REGISTRY_V1": "5EE817ADA0B3124EE4FC87C22E525201A0458A35765081A9B91AA4788946BB76",
+    "PROVENANCE_TYPED_FIXTURE_REGISTRY_V1": "FE4B4BA2892EAFAE486C853330F3843E8534850B889FB0BCE1F4AE7119993A69",
+    "PROOF_OBLIGATION_REGISTRY_V1": "FE7E38A1C5E692A00618E05D5265DB49BBCE567E52829D38FDFEBA8A3B729584",
+    "FC01A_LAYER_ROLE_CONTRACT_V1": "BC97C4530A8CAFFB32283CAFA90E98FA5CCF477CB1D747583D91F869EDC4D44A",
+    "FC01A_SCHEMA_QUALIFICATION_RECEIPT_V2": "57D06E7E5BF2882863B17239A32C7AF4D18FA18FB46B9CAAD36BC5A44073DC51"
+  },
+  "consumer_projections": {
+    "source": "SEMANTIC_DOORWAY_OUTPUT_V1",
+    "views": [
+      "G5_PRESENTABILITY_VIEW",
+      "G6_CORRESPONDENCE_PRIMITIVE_VIEW",
+      "G7_CERTIFICATE_LINEAGE_VIEW",
+      "G8_VERIFIER_INPUT_VIEW"
+    ],
+    "field_allowlists_are_named": true,
+    "view_roots_materialized": false,
+    "cross_view_implicit_inheritance": false
+  },
+  "proof_scope": {
+    "universal_claim_scope": "DECLARED_G1_FUNCTION_DOMAIN_ONLY",
+    "determinism": "NOT_PROVEN",
+    "field_noninterference": "NOT_PROVEN",
+    "byte_replay": "NOT_PROVEN",
+    "all_canonical_inputs_byte_identical": "NOT_CLAIMED",
+    "fixture_rule": "FIXTURES_DO_NOT_CREATE_UNIVERSAL_PROOF"
+  },
+  "fixture_provenance": {
+    "allowed_classes": ["SYNTHETIC_NONPOPULATION", "CONTRACT_ONLY"],
+    "population_derived_content_reads": 0,
+    "population_derived_metadata_reads": 0,
+    "sealed_equals_nonpopulation": false,
+    "hashes_may_establish_ancestry_without_content_open": true
+  },
+  "population_access": {
+    "population_admission": 0,
+    "scientific_content_reads": 0,
+    "population_derived_content_reads": 0,
+    "population_derived_metadata_reads": 0,
+    "pair_cohort_instantiated": false,
+    "question_tokens_realized": 0,
+    "G8_real_history_certificates": 0,
+    "arm_executions": 0,
+    "D_B_reads": 0,
+    "D_C_reads": 0,
+    "D_D_reads": 0
+  },
+  "blocking_reasons": [
+    "doorway_implementation_not_qualified",
+    "A0_G1_source_firewall_not_implementation_verified",
+    "determinism_not_proven",
+    "field_noninterference_not_proven",
+    "byte_replay_not_qualified",
+    "consumer_view_roots_not_materialized"
+  ],
+  "nonclaims": [
+    "no_G0_to_FC01A_semantic_reimplementation",
+    "no_G1_semantic_reconstruction_authority",
+    "no_real_history_doorway_authority",
+    "no_pair_cohort_root",
+    "no_question_token_realization",
+    "no_G8_real_history_certificate_authority",
+    "no_FC02_authority"
+  ],
+  "maximum_authority": "FC01A_SCHEMA_AND_LINEAGE_CONTRACT_ONLY"
+}

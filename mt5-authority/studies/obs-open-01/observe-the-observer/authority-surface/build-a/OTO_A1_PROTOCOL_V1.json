@@ -1,0 +1,15 @@
+{
+  "disposition": "NONE",
+  "dynamic_dof_authority": "NONE",
+  "execution_state": "SEALED",
+  "firewall": "DISPLAY_RENDERING != G4_PROTECTED_OBSERVATION",
+  "g4_mutated": false,
+  "gate": "OTO-A1_AUTHORITY_SURFACE_ALIGNMENT",
+  "numeric_authority_distance": "NOT_CLAIMED",
+  "oto_i_and_oto_c_mutated": false,
+  "question": "Does an OTO architectural publication node denote the G4-protected observation surface, display rendering, or instrument capture visibility?",
+  "question_status": "CLOSED",
+  "result": "AUTHORITY_SURFACE_ALIGNMENT_SEALED",
+  "schema": "OTO_A1_PROTOCOL_V1",
+  "scope": "ALIGNMENT_ONLY"
+}

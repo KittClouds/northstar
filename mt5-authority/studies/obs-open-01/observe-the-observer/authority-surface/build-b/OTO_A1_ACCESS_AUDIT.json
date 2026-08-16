@@ -1,0 +1,20 @@
+{
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "dynamic_dof_authority": "NONE",
+  "explicit_census_read": true,
+  "explicit_census_sha256": "fc51b6a8fa82d935dd392920571b5ae14a9542cbfa2f97a7141a753161d1de99",
+  "g4_mutated": false,
+  "indicator_buffers_read": 0,
+  "market_rows_read": 0,
+  "oto_a_root_read": true,
+  "oto_c_reopened": false,
+  "oto_i_metadata_read": true,
+  "oto_i_reopened": false,
+  "outcome_rows_read": 0,
+  "runtime_probe_executed": false,
+  "schema": "OTO_A1_ACCESS_AUDIT_V1",
+  "source_artifact_bytes_read": 0,
+  "trading_com_editor_invoked": false
+}

@@ -1,0 +1,2912 @@
+{
+  "corrected_earliest_invalidated_gate_counts": {
+    "G0": 15,
+    "G1": 29,
+    "NONE": 12,
+    "UNKNOWN": 2
+  },
+  "record_count": 58,
+  "records": [
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_AREA_HOUR_FLOOR",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "AREA_HOUR_FLOOR"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_ASYMMETRIC_ALIGNMENT",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "ASYMMETRIC_ALIGNMENT"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_BIRTH_KNOWN_AT_BAR_CLOSE",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "BIRTH_KNOWN_AT_BAR_CLOSE"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_CAUSAL_REBUILD_ON_NEW_BAR",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "CAUSAL_REBUILD_ON_NEW_BAR"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_CIVIL_DAY_CONVERSION",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "CIVIL_DAY_CONVERSION"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_CLOCK_CLAMP_NOT_REJECT",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "CLOCK_CLAMP_NOT_REJECT"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_CONTAINING_BAR_RESOLUTION",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "CONTAINING_BAR_RESOLUTION"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_DIGITS",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "DIGITS"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_EQUAL_START_END_LEGACY_EMPTY",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "EQUAL_START_END_LEGACY_EMPTY"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_FIRST_CANDIDATE_ID_ONE",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "FIRST_CANDIDATE_ID_ONE"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_FORMING_VS_COMPLETED",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "FORMING_VS_COMPLETED"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_FREEZE_AT_END_BAR_CLOSE",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "FREEZE_AT_END_BAR_CLOSE"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_GRAMMAR_GAP_RESUME",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "GRAMMAR_GAP_RESUME"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_GRAMMAR_OBSERVES_CLOSE",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "GRAMMAR_OBSERVES_CLOSE"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_HISTORY_ARRAYS",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "HISTORY_ARRAYS"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_HISTORY_AVAILABILITY",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "HISTORY_AVAILABILITY"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpAreaColor",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpAreaColor"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpAreaStyle",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpAreaStyle"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpAreaWidth",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpAreaWidth"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpEnableExtremeSentinels",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpEnableExtremeSentinels"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpExtremeSentinelStyle",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpExtremeSentinelStyle"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpExtremeSentinelWidth",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpExtremeSentinelWidth"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_InpHistoryDays",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpHistoryDays"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpHourBegin",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpHourBegin"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpHourEnd",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpHourEnd"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpHourEndArea",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpHourEndArea"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpLowerSentinelColor",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpLowerSentinelColor"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpMinBegin",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpMinBegin"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpMinEnd",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpMinEnd"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_InpMinEndArea",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpMinEndArea"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpPeriodColor",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpPeriodColor"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpPeriodStyle",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpPeriodStyle"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpPeriodWidth",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpPeriodWidth"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_InpRequireChartContinuity",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpRequireChartContinuity"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_InpRequireExactStartAlignment",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpRequireExactStartAlignment"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_InpRequireRangeContinuity",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "InpRequireRangeContinuity"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpShowExtremeSentinels",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpShowExtremeSentinels"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpShowLegacyLines",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpShowLegacyLines"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "UNKNOWN",
+        "G1_KERNEL_EXTRACTION": "UNKNOWN",
+        "G2_ROLE_CENSUS": "UNKNOWN",
+        "G3_REACHABILITY": "UNKNOWN",
+        "G4_OBSERVER_SURFACE": "UNKNOWN",
+        "G5_CONTINUATION_GRAMMAR": "UNKNOWN",
+        "G6_EQUIVALENCE_CONTRACT": "UNKNOWN",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "UNKNOWN",
+        "G8_LABORATORY": "UNKNOWN"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "UNKNOWN",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_InpUniqueId",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "UNKNOWN",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "PREDECESSOR_IMPACT_REMAINS_UNKNOWN"
+      ],
+      "target_joint": "InpUniqueId"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "PRESERVED",
+        "G5_CONTINUATION_GRAMMAR": "PRESERVED",
+        "G6_EQUIVALENCE_CONTRACT": "PRESERVED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "PRESERVED",
+        "G8_LABORATORY": "PRESERVED"
+      },
+      "corrected_descendant_requalification_cone": [],
+      "corrected_earliest_invalidated_gate": "NONE",
+      "corrected_roots_invalidated": [],
+      "corrected_roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "intervention_id": "OTO_I_InpUpperSentinelColor",
+      "oto_display_specimen": "CHANGED",
+      "prior_oto_a_earliest_invalidated_gate": "G4",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "STATIC_PLOT_ONLY_PROOF_NO_G4_PROTECTED_OBSERVABLE_CHANGE"
+      ],
+      "target_joint": "InpUpperSentinelColor"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_LEGACY_REPAINT_EVERY_TICK",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "LEGACY_REPAINT_EVERY_TICK"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_ONE_PREDECESSOR_DAY_CONTEXT",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "ONE_PREDECESSOR_DAY_CONTEXT"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_PLATFORM_EMPTY_VALUE",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "PLATFORM_EMPTY_VALUE"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "UNKNOWN",
+        "G1_KERNEL_EXTRACTION": "UNKNOWN",
+        "G2_ROLE_CENSUS": "UNKNOWN",
+        "G3_REACHABILITY": "UNKNOWN",
+        "G4_OBSERVER_SURFACE": "UNKNOWN",
+        "G5_CONTINUATION_GRAMMAR": "UNKNOWN",
+        "G6_EQUIVALENCE_CONTRACT": "UNKNOWN",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "UNKNOWN",
+        "G8_LABORATORY": "UNKNOWN"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "UNKNOWN",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_PLATFORM_FLOATING_ARITHMETIC",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "UNKNOWN",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "PREDECESSOR_IMPACT_REMAINS_UNKNOWN"
+      ],
+      "target_joint": "PLATFORM_FLOATING_ARITHMETIC"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_PREVIOUS_DAY_OWNERSHIP",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "PREVIOUS_DAY_OWNERSHIP"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_PREV_CALCULATED",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "PREV_CALCULATED"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_RANGE_END_BAR_INCLUSIVE",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "RANGE_END_BAR_INCLUSIVE"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_SENTINELS_OBSERVE_HIGH_LOW",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "SENTINELS_OBSERVE_HIGH_LOW"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_SENTINEL_AREA_END_COMPLETED_BAR",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "SENTINEL_AREA_END_COMPLETED_BAR"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_SENTINEL_GAP_FAIL_CLOSED",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "SENTINEL_GAP_FAIL_CLOSED"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_STOP_SIGNAL",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "STOP_SIGNAL"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_STRICT_EXTREME_RENEWAL",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "STRICT_EXTREME_RENEWAL"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_STRICT_LOCATION_RAILS",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "STRICT_LOCATION_RAILS"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_SYMBOL",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "SYMBOL"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_TIMEFRAME",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "TIMEFRAME"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G1",
+      "corrected_roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [
+        "G0_ROOT"
+      ],
+      "corrected_unchanged_ancestry": [
+        "G0"
+      ],
+      "intervention_id": "OTO_I_UNRESOLVED_AREA_END_BAR_OPEN",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G1",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "UNRESOLVED_AREA_END_BAR_OPEN"
+    },
+    {
+      "corrected_authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "corrected_descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "corrected_earliest_invalidated_gate": "G0",
+      "corrected_roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "corrected_roots_preserved": [],
+      "corrected_unchanged_ancestry": [],
+      "intervention_id": "OTO_I_UNUSED_RUNTIME_ARRAYS",
+      "oto_display_specimen": "NOT_APPLICABLE",
+      "prior_oto_a_earliest_invalidated_gate": "G0",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_A_AUTHORITY_IMPACT_REGISTRY",
+        "OTO_I_INTERVENTION_REGISTRY",
+        "EXPLICIT_DOF_CENSUS",
+        "INHERITED_OTO_A_IMPACT_FOR_NON_DISPLAY_INTERVENTION"
+      ],
+      "target_joint": "UNUSED_RUNTIME_ARRAYS"
+    }
+  ],
+  "schema": "OTO_A1_CORRECTED_AUTHORITY_IMPACT_V1"
+}

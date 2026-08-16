@@ -1,0 +1,16 @@
+{
+  "corrected_earliest_invalidated_gate_counts": {
+    "G0": 15,
+    "G1": 29,
+    "NONE": 12,
+    "UNKNOWN": 2
+  },
+  "display_only_cases_reclassified": 12,
+  "dynamic_dof_authority": "NONE",
+  "execution_state": "SEALED",
+  "independent_dimension_count": "NOT_EVALUABLE",
+  "maximum_authority": "OBS_OPEN_OTO_STATIC_AUTHORITY_SURFACE_ALIGNMENT_V1",
+  "question_status": "CLOSED",
+  "result": "AUTHORITY_SURFACE_ALIGNMENT_SEALED",
+  "schema": "OTO_A1_TYPED_FINDINGS_V1"
+}

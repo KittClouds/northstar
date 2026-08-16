@@ -1,4 +1,5 @@
 mod authority_impact;
+mod authority_surface;
 mod census;
 mod covariation;
 mod intervention;
@@ -104,9 +105,24 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 &PathBuf::from(&args[4])
             )?
         ),
+        Some("authority-surface-build") if args.len() == 4 => println!(
+            "{}",
+            authority_surface::build(&PathBuf::from(&args[2]), &PathBuf::from(&args[3]))?
+        ),
+        Some("authority-surface-verify") if args.len() == 3 => {
+            println!("{}", authority_surface::verify(&PathBuf::from(&args[2]))?)
+        }
+        Some("authority-surface-finalize") if args.len() == 5 => println!(
+            "{}",
+            authority_surface::finalize(
+                &PathBuf::from(&args[2]),
+                &PathBuf::from(&args[3]),
+                &PathBuf::from(&args[4])
+            )?
+        ),
         _ => {
             return Err(
-                "usage: obs-open-observe-the-observer <build REPO OUT|verify SEAL|finalize A B SEAL|topology-build REPO OUT|topology-verify SEAL|topology-finalize A B SEAL|rt-build REPO OUT|rt-verify SEAL|rt-finalize A B SEAL|intervention-build REPO OUT|intervention-verify SEAL|intervention-finalize A B SEAL|covariation-build REPO OUT|covariation-verify SEAL|covariation-finalize A B SEAL|authority-impact-build REPO OUT|authority-impact-verify SEAL|authority-impact-finalize A B SEAL>"
+                "usage: obs-open-observe-the-observer <build REPO OUT|verify SEAL|finalize A B SEAL|topology-build REPO OUT|topology-verify SEAL|topology-finalize A B SEAL|rt-build REPO OUT|rt-verify SEAL|rt-finalize A B SEAL|intervention-build REPO OUT|intervention-verify SEAL|intervention-finalize A B SEAL|covariation-build REPO OUT|covariation-verify SEAL|covariation-finalize A B SEAL|authority-impact-build REPO OUT|authority-impact-verify SEAL|authority-impact-finalize A B SEAL|authority-surface-build REPO OUT|authority-surface-verify SEAL|authority-surface-finalize A B SEAL>"
                     .into(),
             );
         }

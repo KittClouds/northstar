@@ -1,0 +1,34 @@
+{
+  "schema": "FC01B_STATE_TRANSITION_RECEIPT_V1",
+  "transition": "FC01A_COMPOSITE_CLOSURE_TO_FC01B",
+  "authority": "KAGE",
+  "parent_closure_result": "SEMANTIC_DOORWAY_SPEC_AND_IMPLEMENTATION_QUALIFIED_WITH_RESTRICTIONS",
+  "parent_closure_receipt_sha256": "68B4A55B4D87B76CA1A14A76538B56484C7F878CAB7187E5B89C20C1360A9E1C",
+  "state_before": {
+    "FC01A": "HOLD",
+    "FC01B": "FROZEN",
+    "FC01C_PLUS": "FROZEN",
+    "POPULATION": "UNOPENED"
+  },
+  "state_after": {
+    "FC01A": "CLOSED_WITH_RESTRICTIONS",
+    "FC01B": "LIVE",
+    "FC01C_PLUS": "FROZEN",
+    "P1_P5": "BENCHED",
+    "P6": "BLOCKED",
+    "POPULATION": "UNOPENED",
+    "PAIRS": "NONE",
+    "TOKENS": "NONE"
+  },
+  "only_woken_gate": "FC01B",
+  "forbidden_actions_in_transition": [
+    "population_access",
+    "pair_instantiation",
+    "token_realization",
+    "arm_execution",
+    "g8_verifier_execution",
+    "fc01c_plus_activation"
+  ],
+  "scope_expansion": "NONE",
+  "population_access": 0
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "FC01A_COMPOSITE_PROOF_LEDGER_V1",
+  "authority_question": "Does the complete descendant lineage earn restricted FC-01A closure?",
+  "claims": [
+    {
+      "claim_id": "A0_SEMANTIC_SOVEREIGNTY",
+      "result": "PASS",
+      "artifact": "FC01A_A0_G1_SOURCE_FIREWALL_V1",
+      "artifact_sha256": "B90FEF86A3E6B8EF11490B2293FF6FE85E579821E01F135BAC2DB6C75943A338",
+      "nonclaims": ["population_authority", "downstream_gate_authority"]
+    },
+    {
+      "claim_id": "A1_PROJECTION_ONLY_QUALIFICATION",
+      "result": "PASS",
+      "artifact": "FC01A_A1_IMPLEMENTATION_RECEIPT_V1",
+      "artifact_sha256": "F99BFD9115424D34D13835F711D62D1406AAD5B1BD7F65DE1E79C7F50A938838",
+      "nonclaims": ["historical_g1_callable", "end_to_end_g1_invocation"]
+    },
+    {
+      "claim_id": "G1_M_HISTORICAL_BINARY_NONCLAIM",
+      "result": "PRESERVED",
+      "artifact": "G1_M_ROOT_RECEIPT_V1",
+      "artifact_sha256": "F7F018400C80617F739A2B11367F4FBA0356C23FF9D6103D53E2962B5B9A814E",
+      "nonclaims": ["historical_binary_identity"]
+    },
+    {
+      "claim_id": "G1_R_DESCENDANT_AUTHORITY",
+      "result": "PASS_WITH_RESTRICTIONS",
+      "artifact": "G1_R_ROOT_RECEIPT_V1",
+      "artifact_sha256": "21E310BA2B7E95ABFF2AA7B0F8165A4D44F2AF37FC7AB50BEF35DE76BF3FE2FB",
+      "nonclaims": ["historical_binary_identity", "population_authority"]
+    },
+    {
+      "claim_id": "A2_EXACT_INSTANCE_AND_APPLIED_ROUTE",
+      "result": "PASS",
+      "artifact": "FC01A_A2_ROOT_RECEIPT_V1",
+      "artifact_sha256": "36F60CEB6AE1B2A75F32F9ECAC162BB6CCBDCAE275321060921CB92A78720979",
+      "selected_executable_sha256": "E1FD57AE1FEC58684D98A61AAC9F972821900291B2A44E9C211BECFDC8912AEA",
+      "applied_transport": "PASS",
+      "historical_rejected_transport": "NOT_EVALUABLE",
+      "nonclaims": ["fc01a_closure", "real_history_applicability"]
+    },
+    {
+      "claim_id": "A2R_REJECTED_VARIANT_ROUTE",
+      "result": "PASS_WITH_RESTRICTIONS",
+      "artifact": "FC01A_A2R_ROOT_RECEIPT_V1",
+      "artifact_sha256": "1B2FE2C45B9E98965FF9CB328ADB28CC16BD24245F01176F7EB3C2B11C209DC0",
+      "rejected_records": 2,
+      "applied_records": 5,
+      "rejected_projector": "NONE",
+      "nonclaims": ["a2_retroactive_pass", "population_authority"]
+    },
+    {
+      "claim_id": "VARIANT_SEPARATION",
+      "result": "PASS",
+      "artifact": "FC01A_RETURN_VARIANT_ENVELOPE_V1",
+      "parent_artifacts": ["FC01A_REJECTION_VARIANT_ABI_V1", "FC01A_VARIANT_PROJECTION_CONTRACT_V1"],
+      "rules": ["REJECTED_TO_A1_PROJECTOR_FORBIDDEN", "CROSS_VARIANT_FIELD_LEAKAGE_ZERO"]
+    },
+    {
+      "claim_id": "REPLAY",
+      "result": "PASS",
+      "artifact": "REPAIR_REPLAY_A_AND_B",
+      "artifact_sha256": "3F3DB5CDDD3C94D8509D9F7E6276271328AC3C05CCC908AF108070384FBC977C",
+      "replay_scope": "DECLARED_SYNTHETIC_SCOPE"
+    },
+    {
+      "claim_id": "ACCESS_FIREWALL",
+      "result": "PASS",
+      "artifact": "FC01A_A2R_ACCESS_AUDIT_V1",
+      "artifact_sha256": "229DDE712AAEE2C69B025A1088D6A0E8BCCA2AE150FF2DF6B6C893614227F7E0",
+      "counters": {
+        "REAL_04A_HISTORY_READS": 0,
+        "POPULATION_READS": 0,
+        "TARGET_READS": 0,
+        "OUTCOME_READS": 0,
+        "PAIR_READS": 0,
+        "TOKENS_REALIZED": 0,
+        "ARM_EXECUTIONS": 0,
+        "D_B_READS": 0,
+        "D_C_READS": 0,
+        "D_D_READS": 0
+      }
+    }
+  ],
+  "mechanical_guards": {
+    "a1_projector_mutated": false,
+    "rejected_to_applied_coercion": 0,
+    "fabricated_state": 0,
+    "fabricated_emissions": 0,
+    "inferred_rejection_time": 0,
+    "rejection_reinterpretation": 0,
+    "cross_variant_field_leakage": 0,
+    "scope_expansion": "NONE"
+  },
+  "verdict_authority": "KAGE_ONLY",
+  "population_access": 0
+}

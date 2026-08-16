@@ -1,0 +1,33 @@
+{
+  "schema": "FC01A_COMPOSITE_ACCESS_AUDIT_V1",
+  "gate": "FC01A_COMPOSITE_CLOSURE",
+  "result": "PASS",
+  "counters": {
+    "REAL_04A_HISTORY_READS": 0,
+    "POPULATION_READS": 0,
+    "POPULATION_VALUE_READS": 0,
+    "TARGET_READS": 0,
+    "OUTCOME_READS": 0,
+    "PAIR_READS": 0,
+    "TOKENS_REALIZED": 0,
+    "ARM_EXECUTIONS": 0,
+    "D_B_READS": 0,
+    "D_C_READS": 0,
+    "D_D_READS": 0
+  },
+  "allowed_inspections": [
+    "sealed_receipt_hashes",
+    "sealed_contract_hashes",
+    "lineage_roots",
+    "synthetic_qualification_receipts"
+  ],
+  "forbidden_inspections": [
+    "protected_population_content",
+    "population_derived_metadata_not_preclassified_safe",
+    "target_values",
+    "outcome_values",
+    "real_history_pairs"
+  ],
+  "population_access": 0,
+  "scope_expansion": "NONE"
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "FC01A_COMPOSITE_CLOSURE_V1",
+  "gate": "FC01A_COMPOSITE_CLOSURE",
+  "authority_owner": "KAGE",
+  "result": "SEMANTIC_DOORWAY_SPEC_AND_IMPLEMENTATION_QUALIFIED_WITH_RESTRICTIONS",
+  "kage_receipt_sha256": "1BDB30BB048ABD088AC9956BB4B845C5132760411887A1275A687DEE27707B8F",
+  "sol_receipt_sha256": "9125D782D26E82A4C5F54B3B62DA3CEEDE5F63577E97B0C6E02456D82D14630D",
+  "kammi_receipt_sha256": "9270F797B22DCE458E6AC9AF23553F55175A8C3C3C934A60CE3DD829F1A165C4",
+  "proof_ledger_sha256": "96590FEDD1EBF42C1075F6D205706FD35E259FE12EFFF75138E55A9C2DA87ECB",
+  "access_audit_sha256": "B17F0CA032D8245B59315476ECC1C78F3CC73D599EE0E4DD78DF01EA8E9A7166",
+  "return_variant_envelope_sha256": "31602DA0CF669E1D1340CDC9A14BAB9C0B997B55A00B24C6D5236CF2DC740733",
+  "lineage_roots": {
+    "G0_ROOT": "e317cabef33114edf47c50f4628a210ae8f1bd0b59feb436dc37e7df9cfe38bf",
+    "G1_ROOT": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+    "FC01A_A0_ROOT": "B90FEF86A3E6B8EF11490B2293FF6FE85E579821E01F135BAC2DB6C75943A338",
+    "A1_ATTEMPT_1_ROOT": "F99BFD9115424D34D13835F711D62D1406AAD5B1BD7F65DE1E79C7F50A938838",
+    "G1_M_ROOT": "F7F018400C80617F739A2B11367F4FBA0356C23FF9D6103D53E2962B5B9A814E",
+    "G1_R_ROOT": "21E310BA2B7E95ABFF2AA7B0F8165A4D44F2AF37FC7AB50BEF35DE76BF3FE2FB",
+    "A2_ROOT": "36F60CEB6AE1B2A75F32F9ECAC162BB6CCBDCAE275321060921CB92A78720979",
+    "A2R_ROOT": "1B2FE2C45B9E98965FF9CB328ADB28CC16BD24245F01176F7EB3C2B11C209DC0"
+  },
+  "bound_executable_sha256": "E1FD57AE1FEC58684D98A61AAC9F972821900291B2A44E9C211BECFDC8912AEA",
+  "variant_authority": {
+    "applied_payload": "G1_FC01A_ABI_V1",
+    "applied_projector": "A1_ATTEMPT_1_QUALIFIED_PROJECTOR",
+    "rejected_payload": "FC01A_G1_REJECTION_VIEW_V1",
+    "rejected_projector": "NONE",
+    "rejected_to_applied_projector": "FORBIDDEN"
+  },
+  "scope": {
+    "qualification_scope": "DECLARED_SYNTHETIC_SCOPE",
+    "real_04a_applicability": "NOT_ESTABLISHED",
+    "historical_binary_identity": "NOT_CLAIMED",
+    "population_authority": "NONE",
+    "g8_transport_authority": "NONE",
+    "g5_token_authority": "NONE",
+    "g6_arm_relation_authority": "NONE"
+  },
+  "access_counters_all_zero": true,
+  "next_live_gate": "FC01B",
+  "all_other_downstream_gates_frozen": true,
+  "nonclaims": [
+    "A2_NOT_RECLASSIFIED",
+    "historical_binary_identity",
+    "real_04a_histories_accepted",
+    "population_admitted",
+    "g8_verifier_connected",
+    "g5_tokens_lawful",
+    "g6_equivalence_or_relation",
+    "optics_executable"
+  ]
+}

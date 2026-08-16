@@ -1,0 +1,31 @@
+{
+  "schema": "FC01A_COMPOSITE_KAMMI_CONJUNCT_RECEIPT_V1",
+  "role": "KAMMI",
+  "question": "Does the complete descendant lineage preserve variant separation without fabrication, coercion, leakage, or scope inflation?",
+  "result": "PASS_WITH_RESTRICTIONS",
+  "constituent_receipts": {
+    "a2_attack": "A2_KAMMI_TRANSPORT_ATTACK_RECEIPT_V1",
+    "a2r_attack": "A2R_KAMMI_REPAIR_ATTACK_RECEIPT_V1",
+    "a2r_root": "1B2FE2C45B9E98965FF9CB328ADB28CC16BD24245F01176F7EB3C2B11C209DC0",
+    "variant_contract": "FC01A_VARIANT_PROJECTION_CONTRACT_V1"
+  },
+  "adversarial_checks": {
+    "rejected_to_applied_projector": "FORBIDDEN_AND_NOT_OBSERVED",
+    "cross_variant_field_leakage": 0,
+    "fabricated_state": 0,
+    "fabricated_emissions": 0,
+    "inferred_rejection_time": 0,
+    "rejection_reinterpretation": 0,
+    "a1_projector_mutation": false,
+    "wrong_executable_substitution": "NOT_OBSERVED",
+    "scope_expansion": "NONE"
+  },
+  "nonclaims": [
+    "historical_binary_identity",
+    "A2_retroactive_pass",
+    "real_04a_applicability",
+    "population_authority"
+  ],
+  "population_access": 0,
+  "architecture_changes": 0
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "FC01A_RETURN_VARIANT_ENVELOPE_V1",
+  "status": "COMPOSITE_DESCENDANT_CONTRACT",
+  "historical_applied_abi": "G1_FC01A_ABI_V1",
+  "variants": {
+    "APPLIED": {
+      "payload_contract": "G1_FC01A_ABI_V1",
+      "projector": "A1_ATTEMPT_1_QUALIFIED_PROJECTOR",
+      "route": "DELEGATE_UNCHANGED_A1_PROJECTOR"
+    },
+    "REJECTED": {
+      "payload_contract": "FC01A_G1_REJECTION_VIEW_V1",
+      "projector": "NONE",
+      "route": "EXPLICIT_REJECTION_VIEW_ONLY",
+      "forbidden_fields": [
+        "state_projection",
+        "ordered_emissions",
+        "knowledge_time_projection",
+        "derived_reason",
+        "threshold_distance",
+        "raw_input_payload"
+      ]
+    }
+  },
+  "cross_variant_rules": {
+    "rejected_to_applied_projector": "FORBIDDEN",
+    "cross_variant_field_leakage": "FORBIDDEN",
+    "semantic_reconstruction": "FORBIDDEN",
+    "synthetic_null_substitution": "FORBIDDEN",
+    "rejection_reinterpretation": "FORBIDDEN"
+  },
+  "authority_scope": {
+    "scope": "DECLARED_SYNTHETIC_SCOPE",
+    "real_04a_applicability": "NOT_ESTABLISHED",
+    "historical_binary_identity": "NOT_CLAIMED",
+    "population_authority": "NONE",
+    "g8_transport_authority": "NONE",
+    "g5_token_authority": "NONE",
+    "g6_arm_relation_authority": "NONE"
+  },
+  "parent_repair_contract": "FC01A_REJECTION_VARIANT_ABI_V1",
+  "parent_variant_projection_contract": "FC01A_VARIANT_PROJECTION_CONTRACT_V1"
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "FC01A_COMPOSITE_SOL_CONJUNCT_RECEIPT_V1",
+  "role": "SOL",
+  "question": "Are the sealed descendant constituent facts sufficient for the restricted FC-01A composite closure?",
+  "result": "PASS_WITH_RESTRICTIONS",
+  "constituent_receipts": {
+    "a1": "F99BFD9115424D34D13835F711D62D1406AAD5B1BD7F65DE1E79C7F50A938838",
+    "g1_m": "F7F018400C80617F739A2B11367F4FBA0356C23FF9D6103D53E2962B5B9A814E",
+    "g1_r": "21E310BA2B7E95ABFF2AA7B0F8165A4D44F2AF37FC7AB50BEF35DE76BF3FE2FB",
+    "a2": "36F60CEB6AE1B2A75F32F9ECAC162BB6CCBDCAE275321060921CB92A78720979",
+    "a2r": "1B2FE2C45B9E98965FF9CB328ADB28CC16BD24245F01176F7EB3C2B11C209DC0"
+  },
+  "findings": {
+    "historical_binary_identity": "NOT_CLAIMED",
+    "a1_projection_path": "QUALIFIED",
+    "a2_exact_instance_binding": "PASS",
+    "a2_applied_route": "PASS",
+    "a2_rejected_route": "HISTORICAL_NOT_EVALUABLE",
+    "a2r_rejected_variant_route": "PASS_WITH_RESTRICTIONS",
+    "a1_projector_mutation": false,
+    "scope_expansion": "NONE"
+  },
+  "nonclaims": [
+    "A2_NOT_RECLASSIFIED",
+    "real_04a_applicability",
+    "population_authority",
+    "g8_transport_authority",
+    "g5_token_authority",
+    "g6_arm_relation_authority"
+  ],
+  "population_access": 0,
+  "architecture_changes": 0
+}

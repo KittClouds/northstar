@@ -1,0 +1,1 @@
+{"checks":{"P1_integer_coordinate_comparison":true,"P2_hidden_activity":true,"P3_mask_determinacy":true,"P4_integer_deformation":true,"P5_integer_roundtrip":true,"P5_multiscale":true},"population_access":0,"schema":"SOL_FC02_SYNTHETIC_QUALIFICATION_RECEIPT_V1","status":"PASS"}

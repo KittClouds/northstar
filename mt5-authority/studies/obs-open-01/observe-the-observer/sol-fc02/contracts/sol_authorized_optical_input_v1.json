@@ -1,0 +1,7 @@
+{
+  "schema":"SOL_AUTHORIZED_OPTICAL_INPUT_V1",
+  "allowed_type_classes":["TEMPORAL_COORDINATE","CAUSAL_ORDINAL","SCALAR_INTEGER","ENUM","BOOLEAN","ORDERED_EMISSION","GENEALOGICAL_REFERENCE","OPAQUE_LOCATOR"],
+  "source_authority":"G4_PROTECTED_OBSERVATION_AND_G6_FIBER_CONTRACT",
+  "selection":"TYPE_AND_AUTHORITY_ONLY",
+  "forbidden":["outcomes","targets","future-derived-fields","economic-labels","trading-labels","cross-arm-products","P6-material","external-higher-resolution","GrammarStateAndEvent"]
+}

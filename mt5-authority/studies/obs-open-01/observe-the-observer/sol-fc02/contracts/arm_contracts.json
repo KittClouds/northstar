@@ -1,0 +1,12 @@
+{
+  "schema": "SOL_FC02_ARM_CONTRACTS_V1",
+  "language": "PYTHON_STDLIB_ONLY",
+  "scientific_float_arithmetic": "NONE",
+  "arms": [
+    {"arm_id":"SOL-P1","question_id":"TEMPORAL_ORDER_COORDINATE_DEPENDENCE_V1","optic_id":"CLOCK_PARALLAX_V1","reference_view_id":"P1_CAUSAL_PAIR_INDEX_REFERENCE_V1","outcome_classifier_id":"P1_COORDINATE_DEPENDENCE_CLASSIFIER_V1","implementation_id":"SOL_FC02_P1_PYTHON_IMPL_V1","module":"p1_clock_parallax"},
+    {"arm_id":"SOL-P2","question_id":"FIXED_DECIMATION_HIDDEN_PROTECTED_ACTIVITY_V1","optic_id":"CAUSAL_RESOLUTION_LADDER_V1","reference_view_id":"P2_NATIVE_PROTECTED_TRACE_REFERENCE_V1","outcome_classifier_id":"P2_HIDDEN_ACTIVITY_CLASSIFIER_V1","implementation_id":"SOL_FC02_P2_PYTHON_IMPL_V1","module":"p2_granularity"},
+    {"arm_id":"SOL-P3","question_id":"DETERMINACY_UNDER_CONTENT_INDEPENDENT_WITHDRAWAL_V1","optic_id":"PARTIAL_INFORMATION_MASK_FAMILY_V1","reference_view_id":"P3_FULL_VISIBILITY_REFERENCE_V1","outcome_classifier_id":"P3_DETERMINACY_LOSS_CLASSIFIER_V1","implementation_id":"SOL_FC02_P3_PYTHON_IMPL_V1","module":"p3_partial_information"},
+    {"arm_id":"SOL-P4","question_id":"GAP_RELATION_SENSITIVITY_TO_MONOTONE_TIME_DEFORMATION_V1","optic_id":"INTEGER_MONOTONE_TIME_DEFORMATION_V1","reference_view_id":"P4_IDENTITY_TEMPORAL_GAP_REFERENCE_V1","outcome_classifier_id":"P4_DEFORMATION_SENSITIVITY_CLASSIFIER_V1","implementation_id":"SOL_FC02_P4_PYTHON_IMPL_V1","module":"p4_temporal_deformation"},
+    {"arm_id":"SOL-P5","question_id":"MULTISCALE_SUPPORT_OF_INTEGER_VARIATION_V1","optic_id":"INTEGER_HAAR_LIFTING_V1","reference_view_id":"P5_NATIVE_INTEGER_SCALAR_TRACE_REFERENCE_V1","outcome_classifier_id":"P5_MULTISCALE_SUPPORT_CLASSIFIER_V1","implementation_id":"SOL_FC02_P5_PYTHON_IMPL_V1","module":"p5_integer_multiscale"}
+  ]
+}

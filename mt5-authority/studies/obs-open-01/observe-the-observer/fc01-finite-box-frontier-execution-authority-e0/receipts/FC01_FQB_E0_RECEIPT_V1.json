@@ -1,0 +1,16 @@
+{
+  "schema": "FC01_FQB_E0_RECEIPT_V1",
+  "status": "HISTORICAL_EXECUTION_AUTHORITY_NOT_ESTABLISHED",
+  "gate": "FC01-FQB-E0",
+  "per_gate": {
+    "FC01-FQB-G1": {"scheduler_selected": false, "scheduler_execution_authorization": false, "independent_execution_authority_root": "NONE", "historical_execution_status": "NOT_AUTHORIZED", "consumability": "BLOCKED"},
+    "FC01-FQB-C1": {"scheduler_selected": true, "scheduler_execution_authorization": false, "independent_execution_authority_root": "NONE", "historical_execution_status": "NOT_AUTHORIZED", "consumability": "BLOCKED"}
+  },
+  "reruns": 0,
+  "retroactive_authorizations": 0,
+  "c2_status": "NOT_LIVE",
+  "values_selected": 0,
+  "finite_box_instance": "NONE",
+  "population_reads": 0,
+  "next_branch": "PROSPECTIVE_SCHEDULER_EXECUTION_CONSTITUTION_IF_AUTHORIZED"
+}

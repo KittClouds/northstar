@@ -1,0 +1,14 @@
+{
+  "schema": "KAMMI_FQB_E0_RECEIPT_V1",
+  "status": "PASS_EXECUTION_AUTHORITY_GAPS_CONFIRMED",
+  "checks": {
+    "scheduler_exclusive": true,
+    "c1_selected_without_execution_authorization": true,
+    "g1_unselected": true,
+    "independent_authority_absent": true,
+    "exact_gate_binding_absent": true,
+    "fossils_preserved": true,
+    "no_rerun": true,
+    "population_closed": true
+  }
+}

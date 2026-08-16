@@ -1,0 +1,10 @@
+{
+  "schema": "SOL_FQB_E0_RECEIPT_V1",
+  "status": "HISTORICAL_AUTHORITY_NOT_ESTABLISHED",
+  "g1_status": "NOT_AUTHORIZED",
+  "c1_status": "NOT_AUTHORIZED",
+  "independent_execution_authority_roots": [],
+  "reruns": 0,
+  "population_reads": 0,
+  "nonclaims": ["RESULT_INVALIDITY", "RETROACTIVE_REPAIR", "C2_AUTHORITY"]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "FC01_FQB_E0_GATE_AUDIT_RECORDS_V1",
+  "status": "SEALED_PER_GATE_HISTORICAL_AUTHORITY_CLASSIFICATION",
+  "records": [
+    {
+      "gate_id": "FC01-FQB-G1",
+      "result_artifact_root": "63100B418D35B4AADB733F6481CC62FAFEE3541686EEC5D05214566E559D46B7",
+      "executed_gate_spec_root": "B734A15DCE5449C6F86A17F24C99BD9824D475B91EAFD5989D29DDD1E7CFDA0D",
+      "executed_runner_root": "186F77853BA84EF838DEAA02482CCEC10085DE68B2A288060521537EE325AE46",
+      "executed_input_roots": ["170D4660A0EF6E7C02104754034C7202E432200CAE4D6B6896B0367E90FDDA8A", "34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9"],
+      "executed_authority_roots": ["34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9"],
+      "execution_order_evidence_root": "D80AEDA2BD037A38607E0DB3F52D0720E3B5E9FE14CEA2D7B31C726F22A3C5EC",
+      "scheduler_selection_root": "9118652BDA5FB5C383A1C13057E3C40591DF42746C9F4DBCD71DFC67A2613221",
+      "scheduler_selected": false,
+      "scheduler_execution_authorization": false,
+      "independent_execution_authority_root": "NONE",
+      "independent_authority_scope_covers_gate": false,
+      "independent_authority_scope_covers_inputs": false,
+      "independent_authority_compatible_with_scheduler": false,
+      "authority_root_sealed_before_execution": false,
+      "authority_bound_to_exact_gate_id": false,
+      "authority_bound_to_exact_input_roots": false,
+      "authority_unused_at_execution": "NOT_EVALUABLE",
+      "historical_execution_status": "NOT_AUTHORIZED",
+      "consumability": "BLOCKED"
+    },
+    {
+      "gate_id": "FC01-FQB-C1",
+      "result_artifact_root": "4205536552B022F4DC1C282FE4CBA726AC7D91CC2B21D8F1C79C60D6DB067741",
+      "executed_gate_spec_root": "4ABCC1CD16C31CF78E077ECE65B030F93E6C12CDC929BE36639F86E22C1D6623",
+      "executed_runner_root": "F4A0CB48FBE77043BD3150C8811E3B0944BE29AEFD58C110BBC1155F1704C398",
+      "executed_input_roots": ["AD1F523769606973E53FB8399ECB31D64DCEAD427BC9311DCD8C3EFF6214693C", "170D4660A0EF6E7C02104754034C7202E432200CAE4D6B6896B0367E90FDDA8A", "725C9FFACE4D5DC56839FC0A4C9A354110A4A581143F8C64D737E710EF33F79E"],
+      "executed_authority_roots": ["34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9"],
+      "execution_order_evidence_root": "D80AEDA2BD037A38607E0DB3F52D0720E3B5E9FE14CEA2D7B31C726F22A3C5EC",
+      "scheduler_selection_root": "9118652BDA5FB5C383A1C13057E3C40591DF42746C9F4DBCD71DFC67A2613221",
+      "scheduler_selected": true,
+      "scheduler_execution_authorization": false,
+      "independent_execution_authority_root": "NONE",
+      "independent_authority_scope_covers_gate": false,
+      "independent_authority_scope_covers_inputs": false,
+      "independent_authority_compatible_with_scheduler": false,
+      "authority_root_sealed_before_execution": false,
+      "authority_bound_to_exact_gate_id": false,
+      "authority_bound_to_exact_input_roots": false,
+      "authority_unused_at_execution": "NOT_EVALUABLE",
+      "historical_execution_status": "NOT_AUTHORIZED",
+      "consumability": "BLOCKED"
+    }
+  ],
+  "asymmetric_outcomes_permitted": true,
+  "reruns": 0,
+  "retroactive_authorizations": 0
+}

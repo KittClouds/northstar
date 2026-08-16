@@ -1,0 +1,11 @@
+{
+  "schema": "KAGE_FQB_E0_RECEIPT_V1",
+  "status": "CONSUMABILITY_BLOCKED",
+  "g1_result": "IMMUTABLE_NOT_AUTHORIZED",
+  "c1_result": "IMMUTABLE_NOT_AUTHORIZED",
+  "c2_status": "NOT_LIVE",
+  "prospective_execution_constitution": "NOT_CREATED_BY_E0",
+  "values_selected": 0,
+  "finite_box_instance": "NONE",
+  "population_reads": 0
+}

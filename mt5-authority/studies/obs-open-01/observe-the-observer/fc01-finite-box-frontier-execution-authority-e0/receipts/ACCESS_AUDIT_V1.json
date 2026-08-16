@@ -1,0 +1,13 @@
+{
+  "schema": "FC01_FQB_E0_ACCESS_AUDIT_V1",
+  "population_reads": 0,
+  "real_04a_history_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "g1_reruns": 0,
+  "c1_reruns": 0,
+  "c2_opened": 0,
+  "token_realization": 0,
+  "finite_box_instance_created": 0,
+  "g8_verifier_invocations": 0
+}

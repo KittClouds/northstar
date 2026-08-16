@@ -1,0 +1,56 @@
+{
+  "ontology_authority": "NONE",
+  "question_selection": "NOT_PERFORMED_IN_G8_2",
+  "result_vocabulary": [
+    "YES",
+    "NO",
+    "MIXED",
+    "UNKNOWN",
+    "NOT_EVALUABLE"
+  ],
+  "schema": "QUESTION_QUALIFICATION_CONTRACT_V1",
+  "tests": [
+    {
+      "id": "ONTOLOGY_STRIPPING",
+      "rule": "remove interpretive nouns; reject if mathematical precision disappears"
+    },
+    {
+      "id": "OPTIC_OUTPUT_SEPARATION",
+      "required": [
+        "OPTICS_USED",
+        "OPTIC_DEPENDENCY",
+        "MEASURED_QUANTITY",
+        "DESCRIPTIVE_OUTPUTS",
+        "AUTHORIZED_INFERENCES",
+        "FORBIDDEN_INFERENCES"
+      ]
+    },
+    {
+      "id": "BLINDSPOT_VALUE",
+      "rule": "UNKNOWN and NOT_EVALUABLE must identify the stopping reason"
+    },
+    {
+      "forbidden_assumptions": [
+        "FINER_IS_BETTER",
+        "COARSER_IS_WORSE",
+        "STABLE_ACROSS_SCALE_IS_IMPORTANT",
+        "UNSTABLE_ACROSS_SCALE_IS_IMPORTANT"
+      ],
+      "id": "RESOLUTION_NEUTRALITY"
+    },
+    {
+      "id": "INTERPRETATION_SYMMETRY",
+      "rule": "protocol is result-independent except predeclared termination"
+    }
+  ],
+  "value_test": {
+    "condition": "V(Q|r)>0",
+    "required_for_each_result": [
+      "YES",
+      "NO",
+      "MIXED",
+      "UNKNOWN",
+      "NOT_EVALUABLE"
+    ]
+  }
+}

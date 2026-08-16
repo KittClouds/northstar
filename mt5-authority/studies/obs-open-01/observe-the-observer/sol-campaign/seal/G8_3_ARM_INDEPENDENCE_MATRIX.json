@@ -1,0 +1,195 @@
+{
+  "arms": [
+    "SOL-P1",
+    "SOL-P2",
+    "SOL-P3",
+    "SOL-P4",
+    "SOL-P5",
+    "SOL-P6"
+  ],
+  "independence_claim": "NOT_EARNED",
+  "pair_count": 15,
+  "pairs": [
+    {
+      "arm_a": "SOL-P1",
+      "arm_b": "SOL-P2",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P1",
+      "arm_b": "SOL-P3",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P1",
+      "arm_b": "SOL-P4",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P1",
+      "arm_b": "SOL-P5",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P1",
+      "arm_b": "SOL-P6",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P2",
+      "arm_b": "SOL-P3",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P2",
+      "arm_b": "SOL-P4",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P2",
+      "arm_b": "SOL-P5",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P2",
+      "arm_b": "SOL-P6",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P3",
+      "arm_b": "SOL-P4",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P3",
+      "arm_b": "SOL-P5",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P3",
+      "arm_b": "SOL-P6",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P4",
+      "arm_b": "SOL-P5",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P4",
+      "arm_b": "SOL-P6",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    },
+    {
+      "arm_a": "SOL-P5",
+      "arm_b": "SOL-P6",
+      "common_mode_risk": "PARTIALLY_SHARED",
+      "independence_status": "UNKNOWN",
+      "primitive_overlap": "NONE_IDENTIFIED",
+      "shared_assumptions": [
+        "G0_G8_ANCESTRY",
+        "A1_SURFACE_SEPARATION",
+        "STOPPING_AND_BLINDNESS_CONTRACT"
+      ]
+    }
+  ],
+  "schema": "ARM_INDEPENDENCE_MATRIX_V1"
+}

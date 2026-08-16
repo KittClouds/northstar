@@ -1,0 +1,18 @@
+{
+  "04a_content_read": 0,
+  "arm_executions": 0,
+  "campaign_execution": "NOT_STARTED",
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "literature_metadata_read": true,
+  "literature_root_sha256": "ee87cf3086c220f207b67cc52ba204a9e6492a73c56c272a3a4ebbe36a6d1cd9",
+  "market_rows_read": 0,
+  "moxie_access": "FORBIDDEN",
+  "outcome_rows_read": 0,
+  "result_conditioned_retuning": 0,
+  "runtime_probe_executed": false,
+  "schema": "SOL_CAMPAIGN_ACCESS_AUDIT_V1",
+  "static_ancestry_read": true,
+  "trading_com_editor_invoked": false
+}

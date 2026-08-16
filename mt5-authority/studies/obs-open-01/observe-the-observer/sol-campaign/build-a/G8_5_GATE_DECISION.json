@@ -1,0 +1,11 @@
+{
+  "04A_access": "CLOSED",
+  "authority_gain": "NONE",
+  "campaign_execution": "NOT_STARTED",
+  "gate": "G8.5",
+  "moxie_access": "FORBIDDEN",
+  "question_status": "CLOSED",
+  "result": "BLIND_CAMPAIGN_LAUNCH_SEALED",
+  "schema": "G8_5_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

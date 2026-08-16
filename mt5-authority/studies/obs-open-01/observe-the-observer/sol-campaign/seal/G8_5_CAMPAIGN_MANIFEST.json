@@ -1,0 +1,17 @@
+{
+  "04a_access": "CLOSED",
+  "arm_protocol_hashes": "FROZEN_IN_ARCHITECTURE_ARTIFACT",
+  "blindness_contract_hash": "FROZEN_IN_BUNDLE",
+  "campaign_execution": "NOT_STARTED",
+  "g8_1_root": "IN_BUNDLE",
+  "g8_2_root": "IN_BUNDLE",
+  "g8_3_root": "IN_BUNDLE",
+  "g8_4_root": "IN_BUNDLE",
+  "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+  "negative_control_hash": "FROZEN_IN_BUNDLE",
+  "optic_registry_hash": "FROZEN_IN_BUNDLE",
+  "question_set_hash": "NOT_SELECTED",
+  "schema": "SOL_CAMPAIGN_MANIFEST_V1",
+  "stopping_rules_hash": "FROZEN_IN_BUNDLE",
+  "synthesis_contract_hash": "FROZEN_IN_BUNDLE"
+}

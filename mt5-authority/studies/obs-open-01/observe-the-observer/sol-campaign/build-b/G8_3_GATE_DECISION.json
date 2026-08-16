@@ -1,0 +1,10 @@
+{
+  "arm_count": 6,
+  "arm_execution": "NOT_STARTED",
+  "authority_gain": "NONE",
+  "gate": "G8.3",
+  "question_status": "CLOSED",
+  "result": "PARALLAX_ARCHITECTURE_SEALED",
+  "schema": "G8_3_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

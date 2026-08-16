@@ -1,0 +1,76 @@
+{
+  "arms": [
+    {
+      "arm_id": "SOL-P1",
+      "authority": "NONE",
+      "coordinates": [
+        "t_event",
+        "t_knowledge",
+        "t_commit",
+        "j_experiment",
+        "t_causal",
+        "a_candidate"
+      ],
+      "name": "CLOCK_PARALLAX",
+      "primitive": "coordinate representation",
+      "status": "PROTOCOL_FREEZE_ONLY"
+    },
+    {
+      "arm_id": "SOL-P2",
+      "authority": "NONE",
+      "name": "GRANULARITY_PARALLAX",
+      "primitive": "predeclared lossy resolution operators",
+      "status": "PROTOCOL_FREEZE_ONLY"
+    },
+    {
+      "arm_id": "SOL-P3",
+      "authority": "NONE",
+      "name": "PARTIAL_INFORMATION_PARALLAX",
+      "primitive": "controlled ignorance",
+      "states": [
+        "KNOWN",
+        "POSSIBLE_SET",
+        "UNDETERMINED"
+      ],
+      "status": "PROTOCOL_FREEZE_ONLY"
+    },
+    {
+      "arm_id": "SOL-P4",
+      "authority": "NONE",
+      "decomposition": [
+        "D_t",
+        "D_v",
+        "rho"
+      ],
+      "name": "TEMPORAL_DEFORMATION_PARALLAX",
+      "primitive": "monotone temporal perturbation",
+      "status": "PROTOCOL_FREEZE_ONLY"
+    },
+    {
+      "arm_id": "SOL-P5",
+      "authority": "NONE",
+      "constraints": [
+        "NO_LEARNED_FILTERS",
+        "NO_ADAPTIVE_BANDWIDTH",
+        "NO_RESULT_CONDITIONED_SCALE_SELECTION"
+      ],
+      "name": "FIXED_MULTISCALE_OPTICS",
+      "primitive": "nonlearned transform coefficients",
+      "status": "PROTOCOL_FREEZE_ONLY"
+    },
+    {
+      "arm_id": "SOL-P6",
+      "authority": "NONE",
+      "name": "EXTERNAL_MICROFILM",
+      "primitive": "separately sourced higher-resolution chronology",
+      "status": "BLOCKED_PENDING_SEPARATE_SOURCE"
+    }
+  ],
+  "execution": "NOT_STARTED",
+  "primitive_independence": "NOT_EARNED",
+  "schema": "SOL_PARALLAX_ARCHITECTURE_V1",
+  "shared_ancestry": [
+    "G0_G8",
+    "OTO_A1"
+  ]
+}

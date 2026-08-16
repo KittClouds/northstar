@@ -1,0 +1,9 @@
+{
+  "authority_gain": "NONE",
+  "gate": "G8.2",
+  "question_selection": "NOT_PERFORMED",
+  "question_status": "CLOSED",
+  "result": "QUESTION_FACTORY_SEALED",
+  "schema": "G8_2_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

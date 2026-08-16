@@ -1,0 +1,47 @@
+{
+  "controls": [
+    {
+      "control_id": "IDENTITY_TRANSFORM_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    },
+    {
+      "control_id": "REVERSIBLE_ROUNDTRIP_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    },
+    {
+      "control_id": "KNOWN_LOSS_COLLISION_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    },
+    {
+      "control_id": "ORDER_PRESERVATION_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    },
+    {
+      "control_id": "TIME_AUTHORITY_BARRIER_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    },
+    {
+      "control_id": "SYNTHETIC_NULL_TRACE_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    },
+    {
+      "control_id": "SYNTHETIC_KNOWN_DIFFERENCE_CONTROL",
+      "execution": "NOT_STARTED",
+      "purpose": "detect structure introduced by the optical apparatus",
+      "result_authority": "NONE"
+    }
+  ],
+  "schema": "NEGATIVE_CONTROL_CONTRACT_V1"
+}

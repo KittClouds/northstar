@@ -1,0 +1,10 @@
+{
+  "authority_gain": "NONE",
+  "external_microfilm": "BLOCKED_PENDING_SEPARATELY_QUALIFIED_SOURCE",
+  "gate": "G8.1",
+  "optics": "OPTIC_REGISTRY_SEALED",
+  "question_status": "CLOSED",
+  "result": "OPTIC_CONSTITUTION_SEALED",
+  "schema": "G8_1_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

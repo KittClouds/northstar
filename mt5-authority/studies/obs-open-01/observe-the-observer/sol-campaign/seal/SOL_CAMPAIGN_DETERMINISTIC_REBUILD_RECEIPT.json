@@ -1,0 +1,9 @@
+{
+  "artifact_set_hash": "893274759ca9b4a29c46fb319e35b1e8dfe22d93eb1e114ee4cf909406c0ed93",
+  "build_a_artifact_count": 16,
+  "build_b_artifact_count": 16,
+  "byte_identical": true,
+  "logical_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
+  "mismatch_count": 0,
+  "schema": "SOL_CAMPAIGN_DETERMINISTIC_REBUILD_RECEIPT_V1"
+}

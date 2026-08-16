@@ -1,0 +1,10 @@
+{
+  "authority_gain": "NONE",
+  "gate": "G8.4",
+  "latent_object": "FORBIDDEN",
+  "majority_vote": "FORBIDDEN",
+  "question_status": "CLOSED",
+  "result": "NON_ONTOLOGICAL_SYNTHESIS_SEALED",
+  "schema": "G8_4_GATE_DECISION_V1",
+  "status": "SEALED_WITH_DECLARED_RESTRICTIONS"
+}

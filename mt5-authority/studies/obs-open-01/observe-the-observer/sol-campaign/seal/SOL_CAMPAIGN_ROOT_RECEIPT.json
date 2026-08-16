@@ -1,0 +1,91 @@
+{
+  "logical_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
+  "payload": {
+    "arm_count": 6,
+    "artifacts": [
+      {
+        "bytes": 315,
+        "path": "G8_1_GATE_DECISION.json",
+        "sha256": "ee153cdc3c937bc55a55b1def65347e4d863c68f9448832b8e1d5447cfd8d439"
+      },
+      {
+        "bytes": 4778,
+        "path": "G8_1_OPTICAL_TOOL_REGISTRY.json",
+        "sha256": "0343bfcbe4758a0acc6d3201c6f8a2782b695fb3ee147da9a81a3aded4c93bf9"
+      },
+      {
+        "bytes": 246,
+        "path": "G8_2_GATE_DECISION.json",
+        "sha256": "578019f31995ca24cfd0f7c8957988af9dbebad0a9d4c25204c5cbce5bd63594"
+      },
+      {
+        "bytes": 1295,
+        "path": "G8_2_QUESTION_QUALIFICATION_CONTRACT.json",
+        "sha256": "752e6c46fdc6cbbe3ed81b2287860c517c850bfbbee64542adbdfb5dbb2a4095"
+      },
+      {
+        "bytes": 262,
+        "path": "G8_3_GATE_DECISION.json",
+        "sha256": "fa88089c08b114d060f286da9e88f2c92e4a4b3b09138d7a668dcd50b193263c"
+      },
+      {
+        "bytes": 1873,
+        "path": "G8_3_SOL_PARALLAX_ARCHITECTURE.json",
+        "sha256": "b9d5ea27d0ec5ff8704f07de7577103b5d119cad7a5986d9642ed1cacb9f3986"
+      },
+      {
+        "bytes": 5230,
+        "path": "G8_3_ARM_INDEPENDENCE_MATRIX.json",
+        "sha256": "9e8720a75a97b7c5eb7cfa02a536be9ea90cb3bd8752bb6b1b7d844f7f7f5136"
+      },
+      {
+        "bytes": 1506,
+        "path": "G8_3_NEGATIVE_CONTROL_CONTRACT.json",
+        "sha256": "246f17c1590f408eea0f0cb8282cf37e02e16e6ab1f3b09aec8d14ad71a86053"
+      },
+      {
+        "bytes": 278,
+        "path": "G8_4_GATE_DECISION.json",
+        "sha256": "76efa81c4e2a224cfcf201fa27f794c2e008106f82e46b150af8bdef748b7397"
+      },
+      {
+        "bytes": 626,
+        "path": "G8_4_SYNTHESIS_CONTRACT.json",
+        "sha256": "231bd8c7fc97006978442fc5a76dacc5267e06f475353e30637ee93fa326a720"
+      },
+      {
+        "bytes": 306,
+        "path": "G8_5_GATE_DECISION.json",
+        "sha256": "8c336423b2a9145b39fcab3eb03dbe0f7683d5caabff5609b3f3af23bbb7fdfe"
+      },
+      {
+        "bytes": 607,
+        "path": "G8_5_CAMPAIGN_MANIFEST.json",
+        "sha256": "c033958f43889f68821443b3988347065ab457827d4d583cd0e8adfb89a81564"
+      },
+      {
+        "bytes": 336,
+        "path": "G8_5_STOPPING_RULES.json",
+        "sha256": "d2c83e671f98993d687a0912b85e63b780e6a2a3f44048cafe31e1fe87eb6337"
+      },
+      {
+        "bytes": 544,
+        "path": "SOL_CAMPAIGN_ACCESS_AUDIT.json",
+        "sha256": "3e397f8199716e36b229e1e67164f3d983c86065feb04ea40f59de486c42920a"
+      },
+      {
+        "bytes": 3718,
+        "path": "SOL_CAMPAIGN_EXECUTION_REPORT.md",
+        "sha256": "94074c8802d7be901d8cd7ce60c3c512b0a8f4bba3ceaa6b55aed580e4d6dc98"
+      }
+    ],
+    "authority": "OBS_OPEN_SOL_BLIND_CAMPAIGN_LAUNCH_PROTOCOL_V1",
+    "g8_root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+    "gate_count": 5,
+    "parent_oto_a1_root": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+    "parent_oto_l_root": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "schema": "SOL_CAMPAIGN_ROOT_PAYLOAD_V1"
+  },
+  "schema": "SOL_CAMPAIGN_ROOT_RECEIPT_V1"
+}

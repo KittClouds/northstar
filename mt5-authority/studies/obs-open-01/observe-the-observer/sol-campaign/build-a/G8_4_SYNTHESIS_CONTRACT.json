@@ -1,0 +1,26 @@
+{
+  "agreement_independence_status": [
+    "STRONGLY_INDEPENDENT",
+    "PARTIALLY_SHARED",
+    "COMMON_MODE_DOMINATED",
+    "UNKNOWN"
+  ],
+  "authority_gain": "NONE",
+  "latent_object": "FORBIDDEN",
+  "legal_operations": [
+    "AGREEMENT",
+    "DISAGREEMENT",
+    "CONDITIONAL_COMPATIBILITY",
+    "ORTHOGONAL_FINDINGS",
+    "SHARED_BLIND_SPOT",
+    "COMMON_MODE_DEPENDENCY",
+    "UNRESOLVED_TENSION",
+    "NOT_COMPARABLE",
+    "NOT_EVALUABLE"
+  ],
+  "master_geometry": "FORBIDDEN",
+  "no_forced_common_coordinate": true,
+  "no_majority_vote": true,
+  "region": "FORBIDDEN",
+  "schema": "TRIANGULATION_SYNTHESIS_CONTRACT_V1"
+}

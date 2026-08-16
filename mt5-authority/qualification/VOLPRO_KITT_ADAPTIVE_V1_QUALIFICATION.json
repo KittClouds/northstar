@@ -1,0 +1,82 @@
+{
+  "schema": "VOLPRO_KITT_ADAPTIVE_QUALIFICATION_V1",
+  "artifact_id": "VOLPRO_KITT_ADAPTIVE_V1",
+  "status": "QUALIFIED_WITHIN_DECLARED_TEST_SCOPE",
+  "qualified_at": "2026-08-16",
+  "authority": {
+    "indicator": "mt5-authority/VolProKittAdaptive.mq5",
+    "core": "mt5-authority/VolProKittAdaptiveCore.mqh",
+    "only_exposed_input": "InpCalcTF",
+    "original_sha256": "7C011368F3D0CD7DD7EE0A2706F37B4065976B591672816773C1BBCF399104AF",
+    "original_bytes": 26116,
+    "original_standard_mt5_unchanged": true,
+    "original_trading_com_unchanged": true,
+    "trading_com_used": false
+  },
+  "source_hashes": {
+    "indicator_sha256": "13A406F0D9AA39E338B34B5EE003526C167DCC6833109575FC563D2A39BA63C2",
+    "core_sha256": "8318E1C777B9E3B2E5B4993E04BCA7CD0D396BC4857CA0643854085B5520AAF0",
+    "indicator_ex5_sha256": "4D348FF3244685BAAA983C11EFCCFA0B5AAAD4C2C100B30C490CE180238DA5C1"
+  },
+  "compile": {
+    "compiler": "C:\\Program Files\\MetaTrader 5\\MetaEditor64.exe",
+    "indicator": { "errors": 0, "warnings": 0, "milliseconds": 1474 },
+    "core_tests": { "errors": 0, "warnings": 0, "milliseconds": 643 },
+    "buffer_probe": { "errors": 0, "warnings": 0, "milliseconds": 432 }
+  },
+  "tester": {
+    "terminal": "standard MetaTrader 5 portable test copy",
+    "build": 6116,
+    "history_authority": "MetaQuotes-Demo cached history",
+    "symbol": "EURUSD",
+    "timeframe": "M5",
+    "model": "OHLC_BAR_STATES",
+    "from": "2026-04-01",
+    "to": "2026-04-05",
+    "ticks": 3311,
+    "bars": 864,
+    "outcome": "PASSED",
+    "second_run_seconds": 0.369,
+    "semantic_rows": 72,
+    "profile_commits": 45,
+    "frame_receipts": 27,
+    "final_profile": {
+      "lookback": 64,
+      "clusters": 2,
+      "velocity_bars": 12,
+      "generation": 45
+    },
+    "semantic_trace_sha256": "3C9B01978816C44958CD37E0DC4F167EF7A96E25839AD3BEC2AFB0EB5CB5DFC5",
+    "double_replay_identical": true
+  },
+  "core_tests": {
+    "tri_modal_selected_clusters": 3,
+    "tri_modal_score": 0.891149,
+    "stable_identity_preserved": true,
+    "new_object_id": 0,
+    "three_observation_hysteresis": true,
+    "outcome": "PASSED"
+  },
+  "buffer_probe": {
+    "buffers": 10,
+    "bars": 864,
+    "copy_failures": 0,
+    "invalid_values": 0,
+    "zero_active_after_warmup": 0,
+    "minimum_active": 2,
+    "maximum_active": 2,
+    "outcome": "PASSED"
+  },
+  "gaps": [
+    "PERSISTENT_SYMBOL_MEMORY",
+    "CROSS_RUN_LEARNING",
+    "SEALED_TSV_RECEIPT_WRITER",
+    "MULTI_INSTRUMENT_VALIDATION"
+  ],
+  "nonclaims": [
+    "LIVE_RUNTIME_EQUIVALENCE",
+    "PREDICTIVE_EDGE",
+    "FINANCIAL_EDGE",
+    "UNIVERSAL_DETERMINISM"
+  ]
+}

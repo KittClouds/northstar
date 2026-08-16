@@ -1,0 +1,23 @@
+{
+  "binding_mode": "EXTERNAL_ENVELOPE_ONLY",
+  "g8_lineage": {
+    "receipt_exists": false,
+    "receipt_path": "mt5-authority/studies/obs-open-01/observe-the-observer/g8/seal/G8_ROOT_RECEIPT.json",
+    "root": "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT",
+    "status": "NOT_MATERIALIZED"
+  },
+  "inherited_packet": {
+    "bound_sha256": "0d24798eaa552913506fb548364f49c7b5dc418bd1977cfc1a1b05d2c63df6d0",
+    "path": "mt5-authority/studies/obs-open-01/observe-the-observer/sol-part2/seal/SOL_PART2_QUESTION_PACKETS.json",
+    "sha256": "0d24798eaa552913506fb548364f49c7b5dc418bd1977cfc1a1b05d2c63df6d0",
+    "status": "PASS_BYTE_UNCHANGED"
+  },
+  "lineage_insertion_into_parent_artifacts": "FORBIDDEN",
+  "packet_mutation": "FORBIDDEN",
+  "parent_artifacts": "READ_ONLY_INPUTS",
+  "parent_sol_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
+  "population_contact": "FORBIDDEN",
+  "question_regeneration": "FORBIDDEN",
+  "schema": "SOL_P2B_REBIND_ENVELOPE_V1",
+  "sol_part2_root": "d1b38643e473ff5a2026bd9f244d2727d9cba08d608007d6ebc24d0c16004052"
+}

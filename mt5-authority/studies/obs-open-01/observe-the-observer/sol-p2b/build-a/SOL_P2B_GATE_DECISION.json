@@ -3,6 +3,7 @@
   "g8_binding": "NOT_EVALUABLE",
   "packet_immutability": "PASS_BYTE_UNCHANGED",
   "population_authority": "NONE",
+  "rebind_mode": "EXTERNAL_ENVELOPE_ONLY",
   "result": "QUESTION_FACTORY_QUALIFIED_PENDING_G8_BINDING",
   "schema": "SOL_P2B_GATE_DECISION_V1",
   "status": "G8_LINEAGE_REBIND_BLOCKED"

@@ -9,10 +9,12 @@
   "packet_regeneration": "FORBIDDEN",
   "packet_sha256": "0d24798eaa552913506fb548364f49c7b5dc418bd1977cfc1a1b05d2c63df6d0",
   "packet_status": "PASS_BYTE_UNCHANGED",
+  "parent_part2_mutation": 0,
   "parent_sol_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
   "part2_root": "d1b38643e473ff5a2026bd9f244d2727d9cba08d608007d6ebc24d0c16004052",
   "part2_root_recomputed": "d1b38643e473ff5a2026bd9f244d2727d9cba08d608007d6ebc24d0c16004052",
   "part2_root_status": "PASS",
   "population_access": 0,
+  "rebind_mode": "EXTERNAL_ENVELOPE_ONLY",
   "schema": "SOL_P2B_LINEAGE_MATERIALIZATION_AUDIT_V1"
 }

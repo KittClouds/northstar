@@ -12,6 +12,10 @@ const G8_ROOT: &str = "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT";
 const STATUS: &str = "G8_LINEAGE_REBIND_BLOCKED";
 const FINAL_STATE: &str = "QUESTION_FACTORY_QUALIFIED_PENDING_G8_BINDING";
 const PART2_REL: &str = "mt5-authority/studies/obs-open-01/observe-the-observer/sol-part2/seal";
+const PACKET_REL: &str = "mt5-authority/studies/obs-open-01/observe-the-observer/sol-part2/seal/SOL_PART2_QUESTION_PACKETS.json";
+const G8_REL: &str =
+    "mt5-authority/studies/obs-open-01/observe-the-observer/g8/seal/G8_ROOT_RECEIPT.json";
+const REBIND_ENVELOPE: &str = "SOL_P2B_REBIND_ENVELOPE.json";
 
 fn write_json(path: &Path, value: &Value) -> Result<(), Box<dyn std::error::Error>> {
     let mut bytes = serde_json::to_vec_pretty(value)?;
@@ -50,6 +54,8 @@ fn report(audit: &Value, packet_status: &str) -> String {
 - G8 lineage: {G8_ROOT}
 - Final state: {FINAL_STATE}
 - Packet regeneration: FORBIDDEN
+- Rebinding mode: EXTERNAL_ENVELOPE_ONLY
+- Parent Sol Part 2 mutation: FORBIDDEN
 - Population access: FORBIDDEN
 - Arm execution: FORBIDDEN
 - Target object and region: UNBOUND
@@ -64,7 +70,7 @@ The frozen SOL_PART2_QUESTION_PACKETS artifact was read as protocol material onl
 
 ## Rebinding law
 
-When an exact G8 receipt becomes available, this gate may only bind that receipt and reverify the existing packets and inherited optics, arms, synthesis, stopping, and blindness artifacts. Any packet byte change, question regeneration, P6 source substitution, or population-conditioned ranking creates a new lineage and halts.
+When an exact G8 receipt becomes available, this gate may only bind that receipt in the external `{REBIND_ENVELOPE}` artifact and reverify the existing packets and inherited optics, arms, synthesis, stopping, and blindness artifacts. The sealed Sol Part 2 artifacts are read-only inputs. Any packet byte change, question regeneration, lineage insertion into a parent packet, P6 source substitution, or population-conditioned ranking creates a new lineage and halts.
 
 ## Access audit
 
@@ -121,13 +127,11 @@ pub fn build(repo: &Path, out: &Path) -> Result<String, Box<dyn std::error::Erro
     } else {
         "FAIL_PACKET_OR_PARENT_ROOT_MISMATCH"
     };
-    let g8_rel =
-        "mt5-authority/studies/obs-open-01/observe-the-observer/g8/seal/G8_ROOT_RECEIPT.json";
-    let g8_path = repo.join(g8_rel);
+    let g8_path = repo.join(G8_REL);
     let g8_exists = g8_path.exists();
     let audit = json!({
         "schema":"SOL_P2B_LINEAGE_MATERIALIZATION_AUDIT_V1",
-        "declared_g8_path":g8_rel,
+        "declared_g8_path":G8_REL,
         "g8_receipt_exists":g8_exists,
         "g8_root":G8_ROOT,
         "g8_authenticity":"NOT_EVALUABLE",
@@ -141,17 +145,43 @@ pub fn build(repo: &Path, out: &Path) -> Result<String, Box<dyn std::error::Erro
         "packet_bound_sha256":packet_bound_hash,
         "packet_status":packet_status,
         "packet_regeneration":"FORBIDDEN",
+        "rebind_mode":"EXTERNAL_ENVELOPE_ONLY",
+        "parent_part2_mutation":0,
         "population_access":0
+    });
+    let envelope = json!({
+        "schema":"SOL_P2B_REBIND_ENVELOPE_V1",
+        "binding_mode":"EXTERNAL_ENVELOPE_ONLY",
+        "parent_sol_root":SOL_ROOT,
+        "sol_part2_root":PART2_ROOT,
+        "g8_lineage":{
+            "receipt_path":G8_REL,
+            "root":G8_ROOT,
+            "receipt_exists":g8_exists,
+            "status":if g8_exists {"MATERIALIZED_REQUIRES_REVERIFICATION"} else {"NOT_MATERIALIZED"}
+        },
+        "inherited_packet":{
+            "path":PACKET_REL,
+            "sha256":packet_hash,
+            "bound_sha256":packet_bound_hash,
+            "status":packet_status
+        },
+        "parent_artifacts":"READ_ONLY_INPUTS",
+        "packet_mutation":"FORBIDDEN",
+        "lineage_insertion_into_parent_artifacts":"FORBIDDEN",
+        "question_regeneration":"FORBIDDEN",
+        "population_contact":"FORBIDDEN"
     });
     let values: Vec<(&str, Value)> = vec![
         ("SOL_P2B_LINEAGE_MATERIALIZATION_AUDIT.json", audit.clone()),
+        (REBIND_ENVELOPE, envelope),
         (
             "SOL_P2B_PACKET_IMMUTABILITY_RECEIPT.json",
             json!({"schema":"SOL_P2B_PACKET_IMMUTABILITY_RECEIPT_V1","packet_sha256":packet_hash,"bound_sha256":packet_bound_hash,"status":packet_status,"question_count":5,"regeneration":"FORBIDDEN"}),
         ),
         (
             "SOL_P2B_ANCESTRY_REBIND_CONTRACT.json",
-            json!({"schema":"SOL_P2B_ANCESTRY_REBIND_CONTRACT_V1","inputs":["EXACT_MATERIALIZED_G8_ROOT_RECEIPT","SOL_PART2_ROOT","FROZEN_PACKET_HASHES"],"operations":["VERIFY_G8_AUTHENTICITY","VERIFY_G8_MEMBERSHIP","VERIFY_ANCESTRY","BIND_EXACT_G8_ROOT","VERIFY_PACKET_BYTES","VERIFY_INHERITED_SURFACES"],"forbidden":["QUESTION_REGENERATION","PACKET_EDITING","POPULATION_ACCESS","ARM_EXECUTION","P6_SOURCE_SUBSTITUTION"],"current_status":STATUS}),
+            json!({"schema":"SOL_P2B_ANCESTRY_REBIND_CONTRACT_V1","inputs":["EXACT_MATERIALIZED_G8_ROOT_RECEIPT","SOL_PART2_ROOT","FROZEN_PACKET_HASHES"],"operations":["VERIFY_G8_AUTHENTICITY","VERIFY_G8_MEMBERSHIP","VERIFY_ANCESTRY","CREATE_EXTERNAL_REBIND_ENVELOPE","BIND_EXACT_G8_ROOT_IN_ENVELOPE","VERIFY_PACKET_BYTES","VERIFY_INHERITED_SURFACES"],"forbidden":["QUESTION_REGENERATION","PACKET_EDITING","LINEAGE_INSERTION_INTO_PARENT_ARTIFACTS","PARENT_SOL_PART2_MUTATION","POPULATION_ACCESS","ARM_EXECUTION","P6_SOURCE_SUBSTITUTION"],"current_status":STATUS}),
         ),
         (
             "SOL_P2B_G8_REVERIFICATION_REQUIREMENTS.json",
@@ -163,7 +193,7 @@ pub fn build(repo: &Path, out: &Path) -> Result<String, Box<dyn std::error::Erro
         ),
         (
             "SOL_P2B_GATE_DECISION.json",
-            json!({"schema":"SOL_P2B_GATE_DECISION_V1","status":STATUS,"result":FINAL_STATE,"packet_immutability":packet_status,"g8_binding":"NOT_EVALUABLE","population_authority":"NONE","authority_gain":"NONE"}),
+            json!({"schema":"SOL_P2B_GATE_DECISION_V1","status":STATUS,"result":FINAL_STATE,"packet_immutability":packet_status,"rebind_mode":"EXTERNAL_ENVELOPE_ONLY","g8_binding":"NOT_EVALUABLE","population_authority":"NONE","authority_gain":"NONE"}),
         ),
     ];
     for (name, value) in &values {
@@ -178,7 +208,7 @@ pub fn build(repo: &Path, out: &Path) -> Result<String, Box<dyn std::error::Erro
         .map(|(name, _)| artifact_entry(out, name))
         .collect::<Result<Vec<_>, _>>()?;
     entries.push(artifact_entry(out, "SOL_P2B_EXECUTION_REPORT.md")?);
-    let payload = json!({"schema":"SOL_P2B_ROOT_PAYLOAD_V1","authority":"OBS_OPEN_SOL_P2B_G8_LINEAGE_REBINDING_V1","parent_sol_root":SOL_ROOT,"part2_root":PART2_ROOT,"g8_root":G8_ROOT,"packet_status":packet_status,"artifacts":entries,"population_contact":"FORBIDDEN","final_state":FINAL_STATE});
+    let payload = json!({"schema":"SOL_P2B_ROOT_PAYLOAD_V1","authority":"OBS_OPEN_SOL_P2B_G8_LINEAGE_REBINDING_V1","parent_sol_root":SOL_ROOT,"part2_root":PART2_ROOT,"g8_root":G8_ROOT,"packet_status":packet_status,"rebind_mode":"EXTERNAL_ENVELOPE_ONLY","parent_part2_mutation":"FORBIDDEN","artifacts":entries,"population_contact":"FORBIDDEN","final_state":FINAL_STATE});
     let root = sha256_bytes(&serde_json::to_vec(&payload)?);
     write_json(
         &out.join("SOL_P2B_ROOT_RECEIPT.json"),
@@ -256,6 +286,20 @@ pub fn verify(seal: &Path) -> Result<String, Box<dyn std::error::Error>> {
             return Err(format!("artifact hash mismatch: {name}").into());
         }
     }
+    let envelope: Value = serde_json::from_slice(&fs::read(seal.join(REBIND_ENVELOPE))?)?;
+    if envelope["schema"] != "SOL_P2B_REBIND_ENVELOPE_V1"
+        || envelope["binding_mode"] != "EXTERNAL_ENVELOPE_ONLY"
+        || envelope["parent_artifacts"] != "READ_ONLY_INPUTS"
+        || envelope["packet_mutation"] != "FORBIDDEN"
+        || envelope["lineage_insertion_into_parent_artifacts"] != "FORBIDDEN"
+    {
+        return Err("invalid external rebind envelope".into());
+    }
+    if envelope["sol_part2_root"] != payload["part2_root"]
+        || envelope["parent_sol_root"] != payload["parent_sol_root"]
+    {
+        return Err("external rebind envelope lineage mismatch".into());
+    }
     Ok(expected.to_owned())
 }
 
@@ -267,5 +311,6 @@ mod tests {
         assert_eq!(SOL_ROOT.len(), 64);
         assert_eq!(PART2_ROOT.len(), 64);
         assert_eq!(G8_ROOT, "NOT_MATERIALIZED_IN_CURRENT_CHECKOUT");
+        assert_eq!(REBIND_ENVELOPE, "SOL_P2B_REBIND_ENVELOPE.json");
     }
 }

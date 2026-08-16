@@ -1,0 +1,34 @@
+{
+  "schema": "NS_OSA_V1_BOOTSTRAP_AUTHORITY",
+  "status": "SEALED_CONSTITUTIVE_GOVERNANCE_OPERATION",
+  "campaign_id": "NS-OSA-V1",
+  "authority_root": "NS-GOV-ROOT_V1",
+  "authority_root_contract_sha256": "34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9",
+  "operating_surface_bootstrap_mode": "CONSTITUTIVE_GOVERNANCE_OPERATION",
+  "scheduler_controlled_gate_execution": false,
+  "may_create": [
+    "OPERATING_SURFACE_CONSTITUTIONS",
+    "AUTHORITY_KERNEL_MACHINERY",
+    "EXECUTION_CAPABILITY_MACHINERY",
+    "ENFORCEMENT_MACHINERY",
+    "AUDIT_INFRASTRUCTURE",
+    "REGRESSION_INFRASTRUCTURE"
+  ],
+  "may_create_scientific_result": false,
+  "may_execute_fc01_science": false,
+  "may_read_protected_scientific_content": false,
+  "may_retroactively_authorize": false,
+  "may_reinterpret_scientific_semantics": false,
+  "may_rewrite_sealed_history": false,
+  "may_select_experimental_values": false,
+  "closure_condition": "BOOTSTRAP_MODE_PERMANENTLY_CLOSES_WHEN_NORTHSTAR_OPERATING_SURFACE_V1_SEALS",
+  "revision_rule": "ANY_LATER_OPERATING_SURFACE_MODIFICATION_IS_A_NAMED_DESCENDANT_REVISION",
+  "nonclaims": [
+    "FC01_EXECUTION_AUTHORITY",
+    "G1_C1_RECOVERY_AUTHORITY",
+    "FINITE_BOX_VALUE_AUTHORITY",
+    "TOKEN_REALIZATION_AUTHORITY",
+    "G8_INVOCATION_AUTHORITY",
+    "POPULATION_AUTHORITY"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "NS_OSA_V1_PROGRAM_FREEZE",
+  "status": "ACTIVE_UNTIL_NORTHSTAR_OPERATING_SURFACE_V1_SEAL",
+  "fc01_frontier_advancement": "PAUSED",
+  "c2": "FROZEN",
+  "g1_c1_recovery": "FROZEN",
+  "finite_box_values_selected": 0,
+  "finite_box_instance": "NONE",
+  "tokens_realized": 0,
+  "g8_verifier_invocations": 0,
+  "explorer_invocations": 0,
+  "pair_construction": 0,
+  "fiber_construction": 0,
+  "certificate_construction": 0,
+  "population_reads": 0,
+  "real_04a_history_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "protected_scientific_content_reads": 0,
+  "unfreeze_authority": "NORTHSTAR_OPERATING_SURFACE_V1_SEAL_ONLY"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "FC01A_REJECTION_VARIANT_ABI_V1",
+  "status": "NEW_REPAIR_LINEAGE",
+  "parent_a2_result": "NOT_EVALUABLE",
+  "return_variants": {
+    "APPLIED": {
+      "payload": "FROZEN_G1_FC01A_ABI_V1",
+      "projector": "UNCHANGED_A1_ATTEMPT_1_PROJECTOR"
+    },
+    "REJECTED": {
+      "payload_fields": ["g1_authority_root", "semantic_lineage_root", "context_identity", "input_identity", "transition_status", "rejection_status"],
+      "forbidden_fields": ["state_projection", "ordered_emissions", "knowledge_time_projection"],
+      "projector": "G1_REJECTION_VIEW_ONLY"
+    }
+  },
+  "rejected_payload_source": ["G1_RETURN_VARIANT_TAG", "G1_REJECTION_STATUS", "AUTHORIZED_G1_CONTEXT", "AUTHORIZED_INPUT_PROVENANCE", "AUTHORIZED_LINEAGE_PROVENANCE"],
+  "nullability": "NO_SYNTHETIC_NULLS_OR_EMPTY_SEMANTIC_SUBSTITUTES",
+  "state_invention": false,
+  "emission_invention": false,
+  "time_invention": false,
+  "rejection_reinterpretation": false,
+  "population_access": 0
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "FC01A_A2R_KAGE_REPAIR_CLOSURE_RECEIPT_V1",
+  "agent": "KAGE",
+  "result": "REPAIR_QUALIFIED_WITH_RESTRICTIONS",
+  "parent_a2_result": "NOT_EVALUABLE",
+  "variant_abi": "FC01A_REJECTION_VARIANT_ABI_V1",
+  "applied_route": "PASS_UNCHANGED_A1_PROJECTOR",
+  "rejected_route": "PASS_EXPLICIT_REJECTION_VIEW",
+  "replay": "PASS",
+  "scope_expansion": "NONE",
+  "fc01a_closure": "NOT_ISSUED",
+  "fc01b_status": "FROZEN",
+  "population_access": 0,
+  "restrictions": ["synthetic_only", "new_repair_lineage", "no_a1_mutation", "no_population_access"]
+}

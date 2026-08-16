@@ -1,0 +1,18 @@
+{
+  "schema": "FC01A_A2R_SOL_REPAIR_RECEIPT_V1",
+  "agent": "SOL",
+  "result": "REPAIR_QUALIFIED_WITH_RESTRICTIONS",
+  "parent_a2_result": "NOT_EVALUABLE",
+  "repair_lineage": "FC01A_A2R_REJECTION_VARIANT_ABI_V1",
+  "applied_route": "UNCHANGED_A1_PROJECTOR",
+  "rejected_route": "MECHANICAL_REJECTION_VIEW_ONLY",
+  "applied_records": 5,
+  "rejected_records": 2,
+  "state_invention": 0,
+  "emission_invention": 0,
+  "time_invention": 0,
+  "rejection_reinterpretation": 0,
+  "scope_expansion": "NONE",
+  "population_access": 0,
+  "nonclaims": ["automatic_fc01a_closure", "real_history_applicability", "fc01b_authority"]
+}

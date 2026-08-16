@@ -1,0 +1,19 @@
+{
+  "schema": "FC01A_A2R_KAMMI_REPAIR_ATTACK_RECEIPT_V1",
+  "agent": "KAMMI",
+  "result": "PASS_WITH_NO_VARIANT_COERCION",
+  "attacks": {
+    "rejected_to_applied_coercion": "BLOCKED",
+    "synthetic_empty_state_substitution": "BLOCKED",
+    "empty_emission_substitution": "BLOCKED",
+    "inferred_rejection_time": "BLOCKED",
+    "rejection_code_rewrite": "BLOCKED",
+    "a1_projector_mutation": "BLOCKED",
+    "cross_variant_field_leakage": "BLOCKED",
+    "population_scope_expansion": "BLOCKED"
+  },
+  "replay_a_vs_replay_b": "BYTE_IDENTICAL",
+  "applied_records": 5,
+  "rejected_records": 2,
+  "population_access": 0
+}

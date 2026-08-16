@@ -1,0 +1,18 @@
+{
+  "schema": "FC01A_A2R_RESULT_RECEIPT_V1",
+  "gate": "FC01A_A2R",
+  "question_status": "CLOSED",
+  "result": "REPAIR_QUALIFIED_WITH_RESTRICTIONS",
+  "parent_a2_result": "NOT_EVALUABLE",
+  "applied_route": "PASS_UNCHANGED_A1_PROJECTOR",
+  "rejected_route": "PASS_EXPLICIT_REJECTION_VIEW",
+  "applied_records": 5,
+  "rejected_records": 2,
+  "replay": "PASS",
+  "scope_expansion": "NONE",
+  "a1_projector_mutation": false,
+  "fc01a_closure": "NOT_ISSUED",
+  "fc01b_status": "FROZEN",
+  "population_access": 0,
+  "nonclaims": ["historical_binary_identity", "automatic_fc01a_closure", "fc01b_authority", "real_history_applicability", "population_authority"]
+}

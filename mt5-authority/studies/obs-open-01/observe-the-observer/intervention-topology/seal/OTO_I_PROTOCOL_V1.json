@@ -1,0 +1,29 @@
+{
+  "authority": "STATIC_SOURCE_DEPENDENCY_ONLY",
+  "dynamic_dof_authority": "NONE",
+  "gate": "OTO-I_STATIC_INTERVENTION_TOPOLOGY",
+  "parent_topology_findings": {
+    "ambient_coordinate_nodes": 12,
+    "dynamic_experiments": 0,
+    "explicit_input_nodes": 24,
+    "identified_joint_count": 58,
+    "independent_dimension_count": "NOT_EVALUABLE",
+    "latent_policy_nodes": 22,
+    "market_rows_read": 0,
+    "maximum_authority": "OBS_OPEN_OTO_STATIC_DOF_TOPOLOGY_V1",
+    "outcome_rows_read": 0,
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "render_only_nodes": 12,
+    "result": "STATIC_DOF_DEPENDENCY_TOPOLOGY_SEALED",
+    "schema": "OTO_DOF_TOPOLOGY_FINDINGS_V1"
+  },
+  "question": "What source-level interventions can be described over the 58 identified joints without claiming independent dimensions or runtime behavior?",
+  "rules": [
+    "CLASSIFY_INTERVENTION_NOT_IMPORTANCE",
+    "DO_NOT_CLAIM_INDEPENDENT_DIMENSIONS",
+    "DO_NOT_EXECUTE_RUNTIME",
+    "DO_NOT_READ_MARKET_OR_OUTCOME_ROWS",
+    "PRESERVE_COUPLING_AND_INVALIDATING_SIDE_EFFECTS"
+  ],
+  "schema": "OTO_I_PROTOCOL_V1"
+}

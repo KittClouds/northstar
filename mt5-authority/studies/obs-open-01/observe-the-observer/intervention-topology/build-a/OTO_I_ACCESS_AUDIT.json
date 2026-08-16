@@ -1,0 +1,15 @@
+{
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "dynamic_dof_authority": "NONE",
+  "indicator_buffers_read": 0,
+  "market_rows_read": 0,
+  "outcome_rows_read": 0,
+  "runtime_probe_executed": false,
+  "runtime_transport_root": "03fc7cc1733f771573637329d9236ba548c1d29b69846cee655b84b746ed9901",
+  "schema": "OTO_I_ACCESS_AUDIT_V1",
+  "source_artifact_bytes_read": 0,
+  "source_census_metadata_read": true,
+  "static_receipts_read": true
+}

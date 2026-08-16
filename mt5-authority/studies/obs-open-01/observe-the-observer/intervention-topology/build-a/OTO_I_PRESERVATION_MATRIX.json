@@ -1,0 +1,736 @@
+{
+  "architecture_nodes": [
+    "ARCH_CLOCK_SESSION_RESOLUTION",
+    "ARCH_INITIALIZATION",
+    "ARCH_COVERAGE_EVALUABILITY",
+    "ARCH_CAUSAL_STATE_TRANSITION",
+    "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+    "ARCH_CANDIDATE_GENEALOGY",
+    "ARCH_UPDATE_DISPATCH",
+    "ARCH_NUMERICAL_DOMAIN",
+    "ARCH_PUBLICATION_SURFACE"
+  ],
+  "matrix_authority": "SOURCE_DEPENDENCY_TOPOLOGY_ONLY",
+  "preservation_surface": "CAUSAL_OBSERVER_BEHAVIOR",
+  "records": [
+    {
+      "intervention_id": "OTO_I_InpHourBegin",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpHourBegin"
+    },
+    {
+      "intervention_id": "OTO_I_InpMinBegin",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpMinBegin"
+    },
+    {
+      "intervention_id": "OTO_I_InpHourEnd",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpHourEnd"
+    },
+    {
+      "intervention_id": "OTO_I_InpMinEnd",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpMinEnd"
+    },
+    {
+      "intervention_id": "OTO_I_InpHourEndArea",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpHourEndArea"
+    },
+    {
+      "intervention_id": "OTO_I_InpMinEndArea",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpMinEndArea"
+    },
+    {
+      "intervention_id": "OTO_I_InpHistoryDays",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpHistoryDays"
+    },
+    {
+      "intervention_id": "OTO_I_InpRequireExactStartAlignment",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpRequireExactStartAlignment"
+    },
+    {
+      "intervention_id": "OTO_I_InpRequireRangeContinuity",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpRequireRangeContinuity"
+    },
+    {
+      "intervention_id": "OTO_I_InpRequireChartContinuity",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpRequireChartContinuity"
+    },
+    {
+      "intervention_id": "OTO_I_InpShowLegacyLines",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpShowLegacyLines"
+    },
+    {
+      "intervention_id": "OTO_I_InpPeriodColor",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpPeriodColor"
+    },
+    {
+      "intervention_id": "OTO_I_InpAreaColor",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpAreaColor"
+    },
+    {
+      "intervention_id": "OTO_I_InpPeriodWidth",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpPeriodWidth"
+    },
+    {
+      "intervention_id": "OTO_I_InpAreaWidth",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpAreaWidth"
+    },
+    {
+      "intervention_id": "OTO_I_InpPeriodStyle",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpPeriodStyle"
+    },
+    {
+      "intervention_id": "OTO_I_InpAreaStyle",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpAreaStyle"
+    },
+    {
+      "intervention_id": "OTO_I_InpEnableExtremeSentinels",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpEnableExtremeSentinels"
+    },
+    {
+      "intervention_id": "OTO_I_InpShowExtremeSentinels",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpShowExtremeSentinels"
+    },
+    {
+      "intervention_id": "OTO_I_InpUpperSentinelColor",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpUpperSentinelColor"
+    },
+    {
+      "intervention_id": "OTO_I_InpLowerSentinelColor",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpLowerSentinelColor"
+    },
+    {
+      "intervention_id": "OTO_I_InpExtremeSentinelStyle",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpExtremeSentinelStyle"
+    },
+    {
+      "intervention_id": "OTO_I_InpExtremeSentinelWidth",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpExtremeSentinelWidth"
+    },
+    {
+      "intervention_id": "OTO_I_InpUniqueId",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "InpUniqueId"
+    },
+    {
+      "intervention_id": "OTO_I_SYMBOL",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "SYMBOL"
+    },
+    {
+      "intervention_id": "OTO_I_TIMEFRAME",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "TIMEFRAME"
+    },
+    {
+      "intervention_id": "OTO_I_DIGITS",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "DIGITS"
+    },
+    {
+      "intervention_id": "OTO_I_HISTORY_ARRAYS",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "HISTORY_ARRAYS"
+    },
+    {
+      "intervention_id": "OTO_I_UNUSED_RUNTIME_ARRAYS",
+      "invalidating_side_effects": [
+        "NO_SEMANTIC_CONE_IDENTIFIED"
+      ],
+      "preservation_requirements": [],
+      "target_joint": "UNUSED_RUNTIME_ARRAYS"
+    },
+    {
+      "intervention_id": "OTO_I_HISTORY_AVAILABILITY",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "HISTORY_AVAILABILITY"
+    },
+    {
+      "intervention_id": "OTO_I_FORMING_VS_COMPLETED",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "FORMING_VS_COMPLETED"
+    },
+    {
+      "intervention_id": "OTO_I_PREV_CALCULATED",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_INITIALIZATION",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "target_joint": "PREV_CALCULATED"
+    },
+    {
+      "intervention_id": "OTO_I_CIVIL_DAY_CONVERSION",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CLOCK_SESSION_RESOLUTION"
+      ],
+      "target_joint": "CIVIL_DAY_CONVERSION"
+    },
+    {
+      "intervention_id": "OTO_I_STOP_SIGNAL",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "STOP_SIGNAL"
+    },
+    {
+      "intervention_id": "OTO_I_PLATFORM_EMPTY_VALUE",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "PLATFORM_EMPTY_VALUE"
+    },
+    {
+      "intervention_id": "OTO_I_PLATFORM_FLOATING_ARITHMETIC",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_NUMERICAL_DOMAIN",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "PLATFORM_FLOATING_ARITHMETIC"
+    },
+    {
+      "intervention_id": "OTO_I_CLOCK_CLAMP_NOT_REJECT",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "target_joint": "CLOCK_CLAMP_NOT_REJECT"
+    },
+    {
+      "intervention_id": "OTO_I_AREA_HOUR_FLOOR",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "target_joint": "AREA_HOUR_FLOOR"
+    },
+    {
+      "intervention_id": "OTO_I_EQUAL_START_END_LEGACY_EMPTY",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "EQUAL_START_END_LEGACY_EMPTY"
+    },
+    {
+      "intervention_id": "OTO_I_RANGE_END_BAR_INCLUSIVE",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "RANGE_END_BAR_INCLUSIVE"
+    },
+    {
+      "intervention_id": "OTO_I_FREEZE_AT_END_BAR_CLOSE",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "FREEZE_AT_END_BAR_CLOSE"
+    },
+    {
+      "intervention_id": "OTO_I_ASYMMETRIC_ALIGNMENT",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "target_joint": "ASYMMETRIC_ALIGNMENT"
+    },
+    {
+      "intervention_id": "OTO_I_CONTAINING_BAR_RESOLUTION",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "target_joint": "CONTAINING_BAR_RESOLUTION"
+    },
+    {
+      "intervention_id": "OTO_I_PREVIOUS_DAY_OWNERSHIP",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "target_joint": "PREVIOUS_DAY_OWNERSHIP"
+    },
+    {
+      "intervention_id": "OTO_I_ONE_PREDECESSOR_DAY_CONTEXT",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "target_joint": "ONE_PREDECESSOR_DAY_CONTEXT"
+    },
+    {
+      "intervention_id": "OTO_I_STRICT_LOCATION_RAILS",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "STRICT_LOCATION_RAILS"
+    },
+    {
+      "intervention_id": "OTO_I_GRAMMAR_OBSERVES_CLOSE",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "GRAMMAR_OBSERVES_CLOSE"
+    },
+    {
+      "intervention_id": "OTO_I_SENTINELS_OBSERVE_HIGH_LOW",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "SENTINELS_OBSERVE_HIGH_LOW"
+    },
+    {
+      "intervention_id": "OTO_I_STRICT_EXTREME_RENEWAL",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "STRICT_EXTREME_RENEWAL"
+    },
+    {
+      "intervention_id": "OTO_I_FIRST_CANDIDATE_ID_ONE",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CANDIDATE_GENEALOGY",
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "FIRST_CANDIDATE_ID_ONE"
+    },
+    {
+      "intervention_id": "OTO_I_BIRTH_KNOWN_AT_BAR_CLOSE",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "BIRTH_KNOWN_AT_BAR_CLOSE"
+    },
+    {
+      "intervention_id": "OTO_I_PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "target_joint": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+    },
+    {
+      "intervention_id": "OTO_I_SENTINEL_GAP_FAIL_CLOSED",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "SENTINEL_GAP_FAIL_CLOSED"
+    },
+    {
+      "intervention_id": "OTO_I_GRAMMAR_GAP_RESUME",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "GRAMMAR_GAP_RESUME"
+    },
+    {
+      "intervention_id": "OTO_I_LEGACY_REPAINT_EVERY_TICK",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "target_joint": "LEGACY_REPAINT_EVERY_TICK"
+    },
+    {
+      "intervention_id": "OTO_I_CAUSAL_REBUILD_ON_NEW_BAR",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "target_joint": "CAUSAL_REBUILD_ON_NEW_BAR"
+    },
+    {
+      "intervention_id": "OTO_I_SENTINEL_AREA_END_COMPLETED_BAR",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "SENTINEL_AREA_END_COMPLETED_BAR"
+    },
+    {
+      "intervention_id": "OTO_I_UNRESOLVED_AREA_END_BAR_OPEN",
+      "invalidating_side_effects": [
+        "MAY_CHANGE_PROTECTED_SURFACE",
+        "PRESERVATION_NOT_PROVEN"
+      ],
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "target_joint": "UNRESOLVED_AREA_END_BAR_OPEN"
+    }
+  ],
+  "schema": "OTO_I_PRESERVATION_MATRIX_V1"
+}

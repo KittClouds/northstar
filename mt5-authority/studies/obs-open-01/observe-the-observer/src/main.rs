@@ -1,4 +1,5 @@
 mod census;
+mod intervention;
 mod runtime_transport;
 mod seal;
 mod source;
@@ -56,9 +57,24 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 &PathBuf::from(&args[4])
             )?
         ),
+        Some("intervention-build") if args.len() == 4 => println!(
+            "{}",
+            intervention::build(&PathBuf::from(&args[2]), &PathBuf::from(&args[3]))?
+        ),
+        Some("intervention-verify") if args.len() == 3 => {
+            println!("{}", intervention::verify(&PathBuf::from(&args[2]))?)
+        }
+        Some("intervention-finalize") if args.len() == 5 => println!(
+            "{}",
+            intervention::finalize(
+                &PathBuf::from(&args[2]),
+                &PathBuf::from(&args[3]),
+                &PathBuf::from(&args[4])
+            )?
+        ),
         _ => {
             return Err(
-                "usage: obs-open-observe-the-observer <build REPO OUT|verify SEAL|finalize A B SEAL|topology-build REPO OUT|topology-verify SEAL|topology-finalize A B SEAL|rt-build REPO OUT|rt-verify SEAL|rt-finalize A B SEAL>"
+                "usage: obs-open-observe-the-observer <build REPO OUT|verify SEAL|finalize A B SEAL|topology-build REPO OUT|topology-verify SEAL|topology-finalize A B SEAL|rt-build REPO OUT|rt-verify SEAL|rt-finalize A B SEAL|intervention-build REPO OUT|intervention-verify SEAL|intervention-finalize A B SEAL>"
                     .into(),
             );
         }

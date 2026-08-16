@@ -1,0 +1,26 @@
+[package]
+name = "northstar-operating-surface"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[dependencies]
+blake3 = "1.8"
+bytemuck = { version = "1.21", features = ["derive"] }
+hashbrown = "0.15"
+memchr = "2.7"
+memmap2 = "0.9"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+smallvec = { version = "1.15", features = ["serde"] }
+thiserror = "2.0"
+
+[dev-dependencies]
+tempfile = "3.20"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"

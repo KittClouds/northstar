@@ -1,0 +1,27 @@
+{
+  "authoritative_transition_path": "NORTHSTAR_AUTHORITY_KERNEL_V1_ONLY",
+  "schema": "O2_OPERATION_REGISTRY_V1",
+  "unknown_verb_object_pair": "DENY",
+  "verbs": [
+    "CREATE",
+    "ISSUE_GRANT",
+    "QUALIFY",
+    "SELECT",
+    "AUTHORIZE_EXECUTION",
+    "EXECUTE",
+    "SEAL_RESULT",
+    "ESTABLISH_CONSUMABILITY",
+    "MATERIALIZE",
+    "DERIVE",
+    "BIND",
+    "TRANSPORT",
+    "PROJECT",
+    "ASSEMBLE",
+    "VERIFY",
+    "CONSUME",
+    "FORK",
+    "REBASE",
+    "BLOCK",
+    "REVOKE"
+  ]
+}

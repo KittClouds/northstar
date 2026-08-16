@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "artifact": "FC01-FQB-G1_V1",
+      "authority_source": "FC01_FQB_E0_ROOT_RECEIPT_V1",
+      "status": "FOSSILIZED_NOT_AUTHORIZED"
+    },
+    {
+      "artifact": "FC01-FQB-C1_V1",
+      "authority_source": "FC01_FQB_E0_ROOT_RECEIPT_V1",
+      "status": "FOSSILIZED_NOT_AUTHORIZED"
+    },
+    {
+      "artifact": "NS-OSA-V1_O0",
+      "authority_source": "NS-GOV-ROOT_V1",
+      "status": "CONSTITUTIVE_GOVERNANCE_AUTHORIZED"
+    },
+    {
+      "artifact": "NS-OSA-V1_O1",
+      "authority_source": "NS_OSA_V1_O0_ROOT_RECEIPT",
+      "status": "PROSPECTIVE_OPERATING_REPAIR"
+    }
+  ],
+  "schema": "O2_CHRONOLOGY_LEDGER_V1",
+  "topological_validity": "SEPARATE_FROM_TEMPORAL_VALIDITY"
+}

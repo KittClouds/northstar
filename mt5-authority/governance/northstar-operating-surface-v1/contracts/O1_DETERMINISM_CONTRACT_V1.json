@@ -1,0 +1,20 @@
+{
+  "schema": "NORTHSTAR_DETERMINISM_CONTRACT_V1",
+  "status": "SEALED",
+  "authoritative_inputs_must_be_explicit": true,
+  "forbidden_ambient_inputs": [
+    "SYSTEM_CLOCK", "TIMEZONE", "LOCALE", "FILESYSTEM_ORDER", "WORKING_DIRECTORY",
+    "RANDOMNESS", "UNBOUND_ENVIRONMENT_VARIABLE", "MUTABLE_GLOBAL",
+    "UNBOUND_PLATFORM_CONFIGURATION", "UNBOUND_SCHEMA_INTERPRETATION"
+  ],
+  "canonical_json": {
+    "map_key_order": "LEXICOGRAPHIC_UTF8",
+    "sequence_order": "PRESERVE_SOURCE_ORDER",
+    "floating_point_authority_values": "FORBIDDEN",
+    "default_insertion": "FORBIDDEN",
+    "null_substitution": "FORBIDDEN",
+    "rounding_or_clipping": "FORBIDDEN"
+  },
+  "binary_identity": "SEPARATE_FROM_SOURCE_AND_SEMANTIC_IDENTITY",
+  "semantic_replay": "REQUIRED"
+}

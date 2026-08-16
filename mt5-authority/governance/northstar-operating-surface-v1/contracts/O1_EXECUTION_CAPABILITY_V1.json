@@ -1,0 +1,23 @@
+{
+  "schema": "NORTHSTAR_EXECUTION_CAPABILITY_V1",
+  "status": "QUALIFIED_PROSPECTIVE_OPERATING_CONTRACT",
+  "binding_fields": [
+    "SCHEDULER_RECEIPT_ROOT",
+    "EXACT_GATE_ID",
+    "EXACT_GATE_SPEC_ROOT",
+    "EXACT_PARENT_ROOTS",
+    "EXACT_INPUT_ROOTS",
+    "EXACT_AUTHORITY_ROOTS",
+    "EXECUTION_CAPABILITY_ID"
+  ],
+  "single_use": true,
+  "consumption": "ATOMIC_COMPARE_AND_SEAL",
+  "race_loser": "EXECUTION_CAPABILITY_ALREADY_CONSUMED",
+  "may_execute_nonselected_gate": false,
+  "may_rebind_inputs": false,
+  "may_rebind_gate": false,
+  "may_rebind_authorities": false,
+  "may_retroactively_authorize": false,
+  "capability_transfer": false,
+  "capability_replay": false
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "NS_OSA_V1_O3_RECEIPT",
+  "status": "MATERIAL_OPERATING_SURFACE_AUDIT_COMPLETE",
+  "material_findings": 8,
+  "nonmaterial_observations_promoted": 0,
+  "historical_results_mutated": 0,
+  "retroactive_authorizations": 0,
+  "all_findings_dispositioned": true,
+  "scientific_results_created": 0
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "NORTHSTAR_AUTHORITY_KERNEL_V1",
+  "status": "QUALIFIED_PROSPECTIVE_OPERATING_CONTRACT",
+  "reference_monitor_count": 1,
+  "request_fields": [
+    "OPERATION_CLASS", "ACTOR_AUTHORITY_ROOT", "TARGET_ARTIFACT_CLASS", "TARGET_ID",
+    "EXACT_PARENT_ROOTS", "EXACT_INPUT_ROOTS", "EXACT_AUTHORITY_ROOTS",
+    "SCHEDULER_RECEIPT_ROOT", "EXECUTION_CAPABILITY_ID", "DATA_CAPABILITIES",
+    "EXPECTED_OUTPUT_CLASS", "EXPECTED_AUTHORITY_CEILING"
+  ],
+  "unknown_operation_object_pair": "DENY",
+  "approximate_permission_matching": false,
+  "authoritative_insertion_without_operation_receipt": "DENY",
+  "unauthorized_bytes_may_exist": true,
+  "unauthorized_bytes_may_enter_authoritative_graph": false,
+  "ambient_authoritative_inputs": "FORBIDDEN",
+  "failure_mutation": "FORBIDDEN",
+  "audit_authority_ceiling": "GOVERNANCE_ONLY"
+}

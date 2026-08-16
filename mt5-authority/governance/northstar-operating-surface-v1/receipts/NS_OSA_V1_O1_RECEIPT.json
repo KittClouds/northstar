@@ -1,0 +1,15 @@
+{
+  "schema": "NS_OSA_V1_O1_RECEIPT",
+  "status": "EXECUTION_LIFECYCLE_REPAIR_QUALIFIED",
+  "typed_lifecycle": "PASS",
+  "exact_single_use_execution_capability": "PASS",
+  "atomic_capability_consumption": "PASS",
+  "single_reference_monitor": "PASS",
+  "deny_by_default_operation_policy": "PASS",
+  "derived_consumability": "PASS",
+  "chronology_enforcement": "PASS",
+  "canonicalization": "PASS",
+  "data_capability_enforcement": "PASS",
+  "historical_g1_c1_retroactively_authorized": false,
+  "scientific_authority": "NONE"
+}

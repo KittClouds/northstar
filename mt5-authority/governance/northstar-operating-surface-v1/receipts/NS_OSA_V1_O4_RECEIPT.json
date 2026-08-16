@@ -1,0 +1,10 @@
+{
+  "schema": "NS_OSA_V1_O4_RECEIPT",
+  "status": "MATERIAL_FIX_AND_REGRESSION_WAVE_COMPLETE",
+  "findings_with_positive_regression": 8,
+  "findings_with_negative_regression": 8,
+  "rust_regression_tests": 16,
+  "rust_regression_failures": 0,
+  "permanent_invariants": "SEALED_IN_O4_REGRESSION_MANIFEST_V1",
+  "scientific_artifacts_mutated": 0
+}

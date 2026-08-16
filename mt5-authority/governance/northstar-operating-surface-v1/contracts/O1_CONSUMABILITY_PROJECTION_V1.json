@@ -1,0 +1,13 @@
+{
+  "schema": "NORTHSTAR_CONSUMABILITY_PROJECTION_V1",
+  "status": "QUALIFIED_PROSPECTIVE_OPERATING_CONTRACT",
+  "mutable_consumability_bit": false,
+  "derived_from": [
+    "RESULT_SEALED", "CREATION_AUTHORIZED", "EXECUTION_AUTHORIZED", "INPUTS_VALID",
+    "PARENTS_CONSUMABLE", "SCOPE_VALID", "NOT_BLOCKED", "CHRONOLOGY_VALID"
+  ],
+  "blocked_ancestor_rule": "BLOCKED_ANCESTOR_IMPLIES_DESCENDANT_NOT_CONSUMABLE_UNLESS_LAWFUL_FORK_OR_REBASE_REMOVES_DEPENDENCY",
+  "cycle_disposition": "NOT_CONSUMABLE",
+  "eligibility_input": "DERIVED_CONSUMABILITY_ONLY",
+  "artifact_existence_is_sufficient": false
+}

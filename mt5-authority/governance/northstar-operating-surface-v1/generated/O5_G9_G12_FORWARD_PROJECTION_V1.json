@@ -1,0 +1,69 @@
+{
+  "schema": "O5_G9_G12_FORWARD_PROJECTION_V1",
+  "status": "GENERIC_OPERATING_LIFECYCLE_REACHABLE_SCIENCE_NOT_EXECUTED",
+  "common_lifecycle": [
+    "QUESTION_MATERIALIZED",
+    "INPUTS_AUTHORITY_BOUND",
+    "ELIGIBILITY_COMPUTED",
+    "SCHEDULER_SELECTED",
+    "EXECUTION_CAPABILITY_ISSUED",
+    "CAPABILITY_ATOMICALLY_CONSUMED",
+    "EXECUTION_OCCURRED",
+    "RESULT_SEALED",
+    "TYPED_RESULT_CLASSIFIED",
+    "CONSUMABILITY_DERIVED",
+    "DAG_RECOMPUTED",
+    "FAILURE_PATH_EXERCISED",
+    "RECOVERY_PATH_EXERCISED"
+  ],
+  "projections": [
+    {
+      "gate": "G9",
+      "scientific_payload": "UNKNOWN_NOT_EXECUTED",
+      "operating_objects": [
+        "04A_FIBER_CAPABILITY", "FIBER_INSTANCE", "PAIR_SELECTION", "FROZEN_COMPARISON",
+        "EXPLORER_REQUEST", "CANDIDATE_WITNESS", "CERTIFICATE", "EXACT_VERIFIER_REQUEST",
+        "TYPED_WITNESS_OR_BOUNDED_NO_WITNESS_OR_UNIVERSAL_PROOF_RESULT"
+      ],
+      "missing_generic_operating_primitive": false
+    },
+    {
+      "gate": "G10",
+      "scientific_payload": "UNKNOWN_NOT_EXECUTED",
+      "operating_objects": [
+        "SEMANTIC_DISTINCTION_NECESSITY", "WITNESS_NECESSITY", "JOINT_NECESSITY",
+        "DISTINCTION_SET", "REPRESENTATION_DEPENDENCE", "NON_SINGLETON_ABLATION",
+        "G9_EVIDENCE_INHERITANCE"
+      ],
+      "missing_generic_operating_primitive": false
+    },
+    {
+      "gate": "G11",
+      "scientific_payload": "UNKNOWN_NOT_EXECUTED",
+      "operating_objects": [
+        "QUOTIENT_CONSTRUCTION", "PRESERVATION_RELATIVE_REFINEMENT",
+        "INCOMPARABLE_VALID_QUOTIENT", "AUTHORITY_SCOPED_REDUCTION", "MULTIPLE_FRONTIERS"
+      ],
+      "missing_generic_operating_primitive": false
+    },
+    {
+      "gate": "G12",
+      "scientific_payload": "UNKNOWN_NOT_EXECUTED",
+      "operating_objects": [
+        "FORMALLY_UNIVERSAL_UNDER_DECLARED_CLASS",
+        "EXACT_OVER_FINITE_ADMITTED_DOMAIN",
+        "QUALIFIED_OVER_REPLAY_CORPUS_AND_GENERATOR",
+        "ADVERSARIAL_PARITY_QUALIFIED",
+        "NOT_UNIVERSALLY_DECIDABLE"
+      ],
+      "missing_generic_operating_primitive": false
+    }
+  ],
+  "explorer_invocations": 0,
+  "g8_verifier_invocations": 0,
+  "population_reads": 0,
+  "real_04a_history_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0,
+  "scientific_results_created": 0
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "O4_REGRESSION_MANIFEST_V1",
+  "status": "ALL_MATERIAL_FINDINGS_COMPILED_TO_EXECUTABLE_OR_SEAL_REGRESSIONS",
+  "regressions": [
+    {
+      "finding_id": "OSA-FINDING-0001",
+      "invariant": "NO_SCHEDULER_CONTROLLED_EXECUTION_WITHOUT_EXACT_SINGLE_USE_CAPABILITY",
+      "positive": "capability_is_exact_single_use",
+      "negative": "historical_selection_cannot_authorize_recovery_descendant"
+    },
+    {
+      "finding_id": "OSA-FINDING-0002",
+      "invariant": "NO_AUTHORITATIVE_INSERTION_OUTSIDE_REFERENCE_MONITOR_RECEIPT",
+      "positive": "reference_monitor_allows_only_explicit_data_capability",
+      "negative": "unauthorized_bytes_cannot_enter_registry"
+    },
+    {
+      "finding_id": "OSA-FINDING-0003",
+      "invariant": "CONSUMABILITY_IS_DERIVED_FROM_IMMUTABLE_RECEIPTS_AND_ANCESTRY",
+      "positive": "lifecycle_requires_every_ignition_transition",
+      "negative": "blocked_ancestor_collapses_descendant_consumability"
+    },
+    {
+      "finding_id": "OSA-FINDING-0004",
+      "invariant": "DATA_ACCESS_REQUIRES_EXPLICIT_ALLOWED_CAPABILITY",
+      "positive": "reference_monitor_allows_only_explicit_data_capability",
+      "negative": "reference_monitor_denies_unknown_pair_and_protected_data"
+    },
+    {
+      "finding_id": "OSA-FINDING-0005",
+      "invariant": "ONE_CANONICALIZER_PRESERVES_SEQUENCE_AND_REJECTS_FLOAT_AUTHORITY",
+      "positive": "canonical_json_sorts_maps_but_preserves_sequences",
+      "negative": "canonical_json_sorts_maps_but_preserves_sequences_FLOAT_FORBIDDEN"
+    },
+    {
+      "finding_id": "OSA-FINDING-0006",
+      "invariant": "TOPOLOGY_AND_CHRONOLOGY_BOTH_REQUIRED",
+      "positive": "lifecycle_requires_every_ignition_transition",
+      "negative": "scheduler_controlled_chronology_requires_selection_before_authorization"
+    },
+    {
+      "finding_id": "OSA-FINDING-0007",
+      "invariant": "CHANGED_INPUT_OR_AUTHORITY_INVALIDATES_EXECUTION_CAPABILITY",
+      "positive": "capability_is_exact_single_use",
+      "negative": "changed_authority_root_cannot_consume_capability"
+    },
+    {
+      "finding_id": "OSA-FINDING-0008",
+      "invariant": "POST_SEAL_REOPEN_REQUIRES_UNREPRESENTABLE_MATERIAL_FAILURE_REPRODUCER",
+      "positive": "O7_ANTI_STARVATION_LAW_PRESENT",
+      "negative": "O7_CONCEPTUAL_REFINEMENT_ALONE_CANNOT_REOPEN"
+    }
+  ],
+  "historical_results_retroactively_authorized": 0,
+  "scientific_artifacts_mutated": 0
+}

@@ -1,0 +1,49 @@
+{
+  "artifact_count": 3802,
+  "inventory_mode": "GIT_INDEX_METADATA_ONLY",
+  "page_size": 500,
+  "pages": [
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0001.jsonl",
+      "record_count": 500,
+      "sha256": "74DABE54DA9F6993020A6971959A16A932396DD0896E07ED2EDC40AB9D067D6E"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0002.jsonl",
+      "record_count": 500,
+      "sha256": "732D9E982FF1C664253314E8741D035BF93377BC25114348319CDFBC4293FB32"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0003.jsonl",
+      "record_count": 500,
+      "sha256": "35B628C6C1833248E4BAF3141320EE535D0D621FE0F9EC592DEA98D56ED3A70D"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0004.jsonl",
+      "record_count": 500,
+      "sha256": "7EBFC688AC31E594634B06F53F9E6D8BDF1465FFD07D63D9901A3901FEC60605"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0005.jsonl",
+      "record_count": 500,
+      "sha256": "8C9F8721970C53F534A22FC501C4AF3A601C158C1A97336F459EEE963A5CF99C"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0006.jsonl",
+      "record_count": 500,
+      "sha256": "F94E6AD158D487EE12E5F38DAE3C05D8F23A5360AB42F189635D8CB17D8476E6"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0007.jsonl",
+      "record_count": 500,
+      "sha256": "2A8D3148F0D1055508B233B325190AA0A26466056ED472C5EC3B7B8B029F5E6C"
+    },
+    {
+      "page": "O2_ARTIFACT_REGISTRY_PAGE_0008.jsonl",
+      "record_count": 302,
+      "sha256": "3B9F333D4CF9654F91AC9AC36EB226BB8EEE427BB586FBE9FA5B54EAC0C09916"
+    }
+  ],
+  "protected_scientific_content_opened": 0,
+  "schema": "O2_ARTIFACT_REGISTRY_MANIFEST_V1"
+}

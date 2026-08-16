@@ -1,0 +1,12 @@
+{
+  "schema": "NS_OSA_V1_O5_RECEIPT",
+  "status": "G9_G12_FORWARD_OPERATIONAL_PROJECTION_PASS",
+  "projected_gates": ["G9", "G10", "G11", "G12"],
+  "missing_generic_operating_primitives": 0,
+  "scientific_payload": "UNKNOWN_NOT_EXECUTED",
+  "scientific_results_created": 0,
+  "population_reads": 0,
+  "real_04a_history_reads": 0,
+  "target_reads": 0,
+  "outcome_reads": 0
+}

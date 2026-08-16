@@ -1,0 +1,16 @@
+{
+  "schema": "NORTHSTAR_OPERATING_SURFACE_ANTI_STARVATION_POLICY_V1",
+  "status": "SEALED",
+  "effective_after": "NORTHSTAR_OPERATING_SURFACE_V1",
+  "reopen_requires": [
+    "MATERIAL_FAILURE_CLASS",
+    "COUNTEREXAMPLE_OR_REPRODUCER",
+    "AFFECTED_OPERATION_CLASS",
+    "WHY_OPERATING_SURFACE_V1_CANNOT_REPRESENT_IT",
+    "IMPACT_CONE"
+  ],
+  "conceptual_refinement_alone_may_reopen": false,
+  "naming_or_style_alone_may_reopen": false,
+  "new_pre_g9_revision_without_material_reproducer": "DENY",
+  "governing_law": "THE_AUDIT_FINISHES_THE_OPERATING_SURFACE; THE_OPERATING_SURFACE_SUPPORTS_G9_G12; THE_OPERATING_SURFACE_IS_NOT_THE_RESEARCH_PROGRAM"
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "NORTHSTAR_AUDIT_FINDING_SCHEMA_V1",
+  "status": "SEALED",
+  "required_fields": [
+    "FINDING_ID", "FAILURE_CLASS", "EVIDENCE", "AFFECTED_ARTIFACTS",
+    "AFFECTED_AUTHORITY_CONE", "SCIENTIFIC_IMPACT", "AUTHORITY_IMPACT",
+    "HISTORICAL_DISPOSITION", "REQUIRED_FIX", "FIX_AUTHORITY",
+    "REGRESSION_INVARIANT", "POSITIVE_FIXTURE", "NEGATIVE_FIXTURE", "VALIDATION", "CLOSED"
+  ],
+  "materiality_required": true,
+  "nonmaterial_observation_may_open_governance_lineage": false,
+  "finding_id_prefix": "OSA-FINDING-"
+}

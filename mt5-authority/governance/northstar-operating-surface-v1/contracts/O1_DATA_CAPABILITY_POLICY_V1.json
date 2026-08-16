@@ -1,0 +1,16 @@
+{
+  "schema": "NORTHSTAR_DATA_CAPABILITY_POLICY_V1",
+  "status": "SEALED",
+  "capabilities": [
+    "SEALED_GOVERNANCE", "SEALED_AUTHORITY_METADATA", "OPERATING_CODE",
+    "POPULATION", "REAL_04A", "TARGET", "OUTCOME", "EXPLORER_RESULT", "G8_RESULT",
+    "RUNTIME_TELEMETRY"
+  ],
+  "default": "DENY",
+  "adapter_enforcement_required": true,
+  "counter_only_enforcement_sufficient": false,
+  "minimal_capability_required": true,
+  "osa_v1_allowed": ["SEALED_GOVERNANCE", "SEALED_AUTHORITY_METADATA", "OPERATING_CODE"],
+  "osa_v1_forbidden": ["POPULATION", "REAL_04A", "TARGET", "OUTCOME", "EXPLORER_RESULT", "G8_RESULT"],
+  "runtime_telemetry": "MUST_BE_EXPLICITLY_BOUND_IF_AUTHORITATIVE"
+}

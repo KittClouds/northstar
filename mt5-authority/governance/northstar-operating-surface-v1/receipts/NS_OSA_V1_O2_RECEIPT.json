@@ -1,0 +1,10 @@
+{
+  "schema": "NS_OSA_V1_O2_RECEIPT",
+  "status": "RETROSPECTIVE_INVENTORY_AND_CHRONOLOGY_COMPLETE",
+  "artifact_inventory_mode": "GIT_INDEX_METADATA_ONLY",
+  "artifact_count": 3802,
+  "operation_registry": "CLOSED_DENY_BY_DEFAULT",
+  "chronology_ledger": "SEALED",
+  "topology_and_temporal_validity_separate": true,
+  "protected_scientific_content_opened": 0
+}

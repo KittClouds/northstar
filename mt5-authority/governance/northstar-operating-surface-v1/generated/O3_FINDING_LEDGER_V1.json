@@ -1,0 +1,89 @@
+{
+  "finding_count": 8,
+  "findings": [
+    {
+      "affected_artifacts": [
+        "FC01-FQB-G1_V1",
+        "FC01-FQB-C1_V1"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1",
+      "failure_class": "SCHEDULER_SELECTION_WITHOUT_EXECUTION_AUTHORITY",
+      "finding_id": "OSA-FINDING-0001",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "HISTORICAL_RUNNERS"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1",
+      "failure_class": "NO_SINGLE_AUTHORITATIVE_INSERTION_MONITOR",
+      "finding_id": "OSA-FINDING-0002",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "HISTORICAL_RECEIPTS"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1",
+      "failure_class": "HAND_MAINTAINED_CONSUMABILITY",
+      "finding_id": "OSA-FINDING-0003",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "HISTORICAL_ACCESS_AUDITS"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1",
+      "failure_class": "COUNTERS_WITHOUT_DATA_CAPABILITY_ENFORCEMENT",
+      "finding_id": "OSA-FINDING-0004",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "HISTORICAL_QUALIFIERS"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1_O4",
+      "failure_class": "RUNNER_VALIDATOR_CANONICALIZATION_SPLIT",
+      "finding_id": "OSA-FINDING-0005",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "HISTORICAL_RECEIPTS"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1",
+      "failure_class": "AUTHORITY_ARTIFACT_CHRONOLOGY_NOT_UNIFORMLY_TYPED",
+      "finding_id": "OSA-FINDING-0006",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "HISTORICAL_RUNNERS"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O1_O4",
+      "failure_class": "AMBIENT_EXECUTION_INPUTS_NOT_UNIFORMLY_BOUND",
+      "finding_id": "OSA-FINDING-0007",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    },
+    {
+      "affected_artifacts": [
+        "NS_OSA_V1"
+      ],
+      "disposition": "FIXED_PROSPECTIVELY_O7",
+      "failure_class": "SCIENCE_STARVATION_FROM_UNBOUNDED_SURFACE_REFINEMENT",
+      "finding_id": "OSA-FINDING-0008",
+      "retroactive_authorization": false,
+      "scientific_history_mutated": false
+    }
+  ],
+  "nonmaterial_observations_promoted": 0,
+  "protected_scientific_content_opened": 0,
+  "schema": "O3_FINDING_LEDGER_V1"
+}

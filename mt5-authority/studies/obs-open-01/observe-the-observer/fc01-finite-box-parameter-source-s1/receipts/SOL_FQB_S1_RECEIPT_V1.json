@@ -1,0 +1,12 @@
+{
+  "schema": "SOL_FQB_S1_RECEIPT_V1",
+  "role": "SOL",
+  "status": "COMPLETE_SOURCE_AUTHORITY_NOT_IDENTIFIED",
+  "primitive_extents": ["TOKEN_LENGTH_BOUND", "MAX_TOKEN_WORD_LENGTH", "HORIZON_BOUND", "INTEGER_BOUND"],
+  "unknown_role": ["BOX_CARDINALITY"],
+  "governance_selectable": [],
+  "values_materialized": 0,
+  "actual_bounds_bound": 0,
+  "population_reads": 0,
+  "nonclaims": ["DERIVATION", "GOVERNANCE_GRANT", "PARAMETER_VALUES"]
+}

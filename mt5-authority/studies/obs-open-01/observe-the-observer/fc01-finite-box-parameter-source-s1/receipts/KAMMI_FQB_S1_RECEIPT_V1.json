@@ -1,0 +1,15 @@
+{
+  "schema": "KAMMI_FQB_S1_RECEIPT_V1",
+  "role": "KAMMI",
+  "status": "PASS_ATTACK_CONFIRMED",
+  "witnesses_found": 0,
+  "checks": {
+    "cardinality_derivation_invented": 0,
+    "max_word_length_relation_invented": 0,
+    "missing_source_promoted_to_governance": 0,
+    "value_materialization": 0,
+    "binding_vector_assembly": 0,
+    "population_leakage": 0
+  },
+  "nonclaims": ["GOVERNANCE_SELECTABILITY", "DERIVATION_AUTHORITY", "PARAMETER_VALUES"]
+}

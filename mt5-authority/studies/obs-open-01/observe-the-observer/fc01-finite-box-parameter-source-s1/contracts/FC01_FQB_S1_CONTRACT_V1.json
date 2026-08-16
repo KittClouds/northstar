@@ -1,0 +1,48 @@
+{
+  "schema": "FC01_FQB_S1_CONTRACT_V1",
+  "gate": "FC01-FQB-S1",
+  "status": "LIVE_READ_ONLY_EXTENT_SOURCE_RESOLUTION",
+  "question": "For each unresolved extent class, what lawful event could cause a concrete value to exist?",
+  "parent_s0_root": "5E4404D942539145E487DEDB6D37BC48A78E3C221336EF1DECB26A55427E1CE7",
+  "finite_box_spec_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "token_contract_root": "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50",
+  "scope": [
+    "TOKEN_LENGTH_BOUND",
+    "MAX_TOKEN_WORD_LENGTH",
+    "HORIZON_BOUND",
+    "INTEGER_BOUND",
+    "BOX_CARDINALITY"
+  ],
+  "concrete_value_roles": [
+    "CONTRACT_FIXED",
+    "PRIMITIVE_EXTENT",
+    "DERIVED_VALUE",
+    "UNKNOWN"
+  ],
+  "source_authority_statuses": ["IDENTIFIED", "NOT_IDENTIFIED", "NOT_EVALUABLE"],
+  "governance_selectability_statuses": ["EXPLICITLY_AUTHORIZED", "EXPLICITLY_FORBIDDEN", "NOT_ESTABLISHED"],
+  "values_selected": 0,
+  "values_derived": 0,
+  "values_inherited": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "governance_grants_issued": 0,
+  "population_access": 0,
+  "forbidden_operations": [
+    "SELECT_VALUES",
+    "DERIVE_VALUES",
+    "ASSEMBLE_AUTHORIZED_INPUT_VECTOR",
+    "ISSUE_VALUE_SELECTION_GRANT",
+    "EXECUTE_BINDING_V2",
+    "READ_POPULATION",
+    "READ_RESULTS",
+    "READ_TOKENS",
+    "READ_G8"
+  ],
+  "nonclaims": [
+    "SOURCE_AUTHORITY_NOT_IDENTIFIED_IMPLIES_GOVERNANCE_SELECTABLE",
+    "PARAMETER_VALUES",
+    "DERIVATION_EXECUTED",
+    "FINITE_BOX_INSTANCE"
+  ]
+}

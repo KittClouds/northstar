@@ -1,0 +1,16 @@
+{
+  "schema": "KAGE_FQB_S1_RECEIPT_V1",
+  "role": "KAGE",
+  "status": "COMPLETE_SOURCE_AUTHORITY_NOT_IDENTIFIED",
+  "conjunction": {
+    "five_parameters_in_scope": true,
+    "all_roles_classified": true,
+    "all_authority_statuses_classified": true,
+    "governance_selectability_earned": false,
+    "values_zero": true,
+    "no_instance": true,
+    "population_access_zero": true
+  },
+  "next_action": "HOLD_FOR_SOURCE_AUTHORITY_RESOLUTION",
+  "nonclaims": ["VALUE_SELECTION", "GOVERNANCE_GRANT", "FINITE_BOX_INSTANCE"]
+}

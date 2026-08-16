@@ -1,0 +1,24 @@
+{
+  "schema": "FC01_FQB_S1_RECEIPT_V1",
+  "status": "COMPLETE_SOURCE_AUTHORITY_NOT_IDENTIFIED",
+  "gate": "FC01-FQB-S1",
+  "contract_root": "7370617AC0708AD6F057D850EFA50B931202611D39828BFAFC1D666AE88EA8F5",
+  "records_root": "EDDDF71BF1E7BAF470D502E871A44A0BA216F55C370034B592DD9C2FF7FC9B0E",
+  "qualification_runner_root": "E6BA5A5DBF29D8B88BB0E7FBDA7236EA59D50B1E01A596B01C8894B9AE5D99BD",
+  "per_parameter": {
+    "TOKEN_LENGTH_BOUND": {"concrete_value_role": "PRIMITIVE_EXTENT", "source_authority_status": "NOT_IDENTIFIED", "governance_selectability": "NOT_ESTABLISHED"},
+    "MAX_TOKEN_WORD_LENGTH": {"concrete_value_role": "PRIMITIVE_EXTENT", "source_authority_status": "NOT_IDENTIFIED", "governance_selectability": "NOT_ESTABLISHED"},
+    "HORIZON_BOUND": {"concrete_value_role": "PRIMITIVE_EXTENT", "source_authority_status": "NOT_IDENTIFIED", "governance_selectability": "NOT_ESTABLISHED"},
+    "INTEGER_BOUND": {"concrete_value_role": "PRIMITIVE_EXTENT", "source_authority_status": "NOT_IDENTIFIED", "governance_selectability": "NOT_ESTABLISHED"},
+    "BOX_CARDINALITY": {"concrete_value_role": "UNKNOWN", "source_authority_status": "NOT_IDENTIFIED", "governance_selectability": "NOT_ESTABLISHED"}
+  },
+  "values_selected": 0,
+  "values_derived": 0,
+  "values_inherited": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "governance_grants_issued": 0,
+  "population_reads": 0,
+  "next_branch": "HOLD_FOR_SOURCE_AUTHORITY_RESOLUTION",
+  "nonclaims": ["PARAMETER_VALUES", "DERIVATION_AUTHORITY", "GOVERNANCE_VALUE_GRANT", "AUTHORIZED_INPUT_VECTOR", "FINITE_BOX_INSTANCE"]
+}

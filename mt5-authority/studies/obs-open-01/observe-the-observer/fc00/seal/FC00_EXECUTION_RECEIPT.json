@@ -1,0 +1,70 @@
+{
+  "schema": "FC00_EXECUTION_RECEIPT_V1",
+  "gate": "FC-00",
+  "execution_state": "SEALED",
+  "question_status": "NOT_EVALUABLE",
+  "result": "FC00_NOT_EVALUABLE",
+  "disposition": "STOP",
+  "authority": "OBS_OPEN_NORTHSTAR_FINAL_CAMPAIGN_FC00_V1",
+  "target_object_status": "UNBOUND_BY_CONSTITUTION",
+  "target_region_status": "UNBOUND_BY_CONSTITUTION",
+  "population_access": {
+    "admission": 0,
+    "scientific_content_reads": 0,
+    "target_reads": 0,
+    "outcome_reads": 0,
+    "arm_execution": 0
+  },
+  "g8_materialization": {
+    "status": "PASS",
+    "path": "mt5-authority/studies/obs-open-01/sentinel-behavioral-qualification-compound/g8-witness-laboratory-qualification/seal/G8_ROOT_RECEIPT.json",
+    "file_sha256": "7B17D9AA4DD6A1C6BA8B2D1646CB13945B516A44184273C0AF2BB7FC4EFEF75D",
+    "logical_root": "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece",
+    "authority": "OBS_OPEN_G8_WITNESS_LABORATORY_WITH_RESTRICTIONS_V1"
+  },
+  "g8_ancestry": {
+    "status": "PASS",
+    "g0_root": "e317cabef33114edf47c50f4628a210ae8f1bd0b59feb436dc37e7df9cfe38bf",
+    "g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+    "g2_root": "bdb26248c750099e2a2aa64f09e75fc66a2c98893892e90e12c47ae9908c0fe6",
+    "g3_root": "c936eac1c37cbc70aa9d42bffdea096cdc1afb9269ad73c26f2ddf535eb54bef",
+    "g4_root": "37ed98b4ebe447ef3c2152e550c99652d0157aea2c77b8a886379d1ba9e08e15",
+    "g5_root": "808f4089ada22e7736460a90efd71b1dec0726dece460ca4dc1df8cbccac554c",
+    "g6_root": "cf282d195f90e1ee970b7c5d57329c901848d7894f4ed8c5945755d3935633dd",
+    "g7_root": "069a5294c37a6fbede436af2f57700964ce1e752643aeaa26b06de6581183bd5",
+    "g8_root": "556cba86bf75a76d67c411db5a62229cb35ec84c92bd0bfbb6fd086971496ece"
+  },
+  "oto_lineage": {
+    "static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "a1_root": "6f5209a690d0a860bf9916741d5298275a7b18d1c7fe984ab2d5aefb962a0157",
+    "literature_root": "24003a167236071b27ddab86769023528e76185fe60825608dbf605cfe13a472",
+    "runtime_transport": "NOT_QUALIFIED_DYNAMIC_AUTHORITY_NONE"
+  },
+  "campaign_lineage": {
+    "sol_root": "f25ba4971834384a76b96eb090306773dfba304be8250ce1519d175deeeec35d",
+    "sol_part2_root": "d1b38643e473ff5a2026bd9f244d2727d9cba08d608007d6ebc24d0c16004052",
+    "sol_p2b_root": "cb4066a452c7004f17547b05ccb83ed2211617ffadc1b36a995075ab3ec62394",
+    "kammi_root": "d1e78ba54e4e87cc5cbbab275b57aaf5d67f308b4b390d13ba93ecf98b876025",
+    "kammi_p2_root": "cd9ea746f3d1712b032ccf582cc1e54c1d8ebfa751e79f7ffe7f93d2a1c42405"
+  },
+  "frozen_identity_checks": {
+    "five_questions": "PASS_FROM_SOL_PART2_PACKETS",
+    "five_optics": "PASS_FROM_SOL_P1_TO_P5_ARCHITECTURE",
+    "five_reference_views": "NOT_EVALUABLE_NO_CONCRETE_PER_ARM_IDENTITIES",
+    "five_outcome_classifiers": "NOT_EVALUABLE_NO_CONCRETE_CLASSIFIER_IDENTITIES",
+    "stopping_rules": "PASS_SHARED_RULES_PRESENT",
+    "resource_policies": "NOT_EVALUABLE_NO_CONCRETE_PER_ARM_IDENTITIES",
+    "retry_rules": "NOT_EVALUABLE_NO_FROZEN_EXECUTION_RETRY_CONTRACT",
+    "blindness_rules": "PASS_WITH_SCOPE_CAMPAIGN_CONTRACTS_PRESENT",
+    "implementation_identities": "NOT_EVALUABLE_NO_FROZEN_PER_ARM_BUILD_IDENTITIES",
+    "tranche_atomicity": "REQUIRED_NOT_YET_ISSUED"
+  },
+  "blocking_deficiency": "FC00 cannot issue five arm execution identities until reference-view, outcome-classifier, resource-policy, retry-policy, and implementation identities are concretely frozen and bound.",
+  "mutation_policy": {
+    "prior_root_mutation": "FORBIDDEN",
+    "g8_substitution": "FORBIDDEN",
+    "population_access": "FORBIDDEN",
+    "partial_tranche_execution": "FORBIDDEN"
+  },
+  "maximum_authority": "FC00_PREPOPULATION_CONSTITUTIONAL_PREFLIGHT_ONLY"
+}

@@ -1,7 +1,7 @@
 {
-  "current_observer_function_preserved": "YES_NO_SOURCE_OR_RUNTIME_MUTATION",
   "dynamic_dof_authority": "NONE",
   "schema": "OTO_RT_SURFACE_DECISIONS_V1",
+  "source_and_runtime_unmodified": true,
   "surfaces": [
     {
       "6116_test_artifact": "NOT_AVAILABLE",

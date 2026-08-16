@@ -1,5 +1,5 @@
 {
-  "logical_root": "b88f7f438fa0005da617fabc99a552f99f87ee33becb57ad0cc83d882cd7e977",
+  "logical_root": "03fc7cc1733f771573637329d9236ba548c1d29b69846cee655b84b746ed9901",
   "payload": {
     "artifacts": [
       {
@@ -18,9 +18,9 @@
         "sha256": "9b0df30d3f73cc368c4507c1d0c1f27241ae3889f933321ace2a34d5469acd6f"
       },
       {
-        "bytes": 3037,
+        "bytes": 3000,
         "path": "OTO_RT_SURFACE_DECISIONS.json",
-        "sha256": "4601c6de62cd8963cbaef1b1ded0a0ae23f8ff4357b66ec4b07b9d56ead24bd1"
+        "sha256": "6d507f90b81a579c958283c3fe76e0f306b73a2859191e0ad2a65693933ad3dd"
       },
       {
         "bytes": 620,
@@ -36,8 +36,8 @@
     "authority": "OBS_OPEN_OTO_6106_TO_6116_RUNTIME_TRANSPORT_V1",
     "candidate": "MetaTrader-origin build 6116",
     "parent_dof_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+    "parent_inst01_authority_root": "32e1207717afc29533e8a8fb0a7e0f329f9e092f58f3fb3c58d5661c5b7dd0fa",
     "parent_inst01_root": "5930c7d4f5b2de4549bfedacbd2c3b9df7da78f68c7d765b9c0669d08a17490f",
-    "parent_source_recovery_root": "32e1207717afc29533e8a8fb0a7e0f329f9e092f58f3fb3c58d5661c5b7dd0fa",
     "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
     "reference_build": 6106,
     "schema": "OTO_RT_ROOT_PAYLOAD_V1"

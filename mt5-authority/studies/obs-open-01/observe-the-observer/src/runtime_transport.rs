@@ -191,7 +191,7 @@ pub fn build(repo: &Path, out: &Path) -> Result<String, Box<dyn std::error::Erro
                 ],
                 "top_level":"TRANSPORT_NOT_QUALIFIED",
                 "dynamic_dof_authority":"NONE",
-                "current_observer_function_preserved":"YES_NO_SOURCE_OR_RUNTIME_MUTATION"
+            "source_and_runtime_unmodified":true
             }),
         ),
         ("OTO_RT_ACCESS_AUDIT.json", access_audit()),
@@ -225,7 +225,7 @@ pub fn build(repo: &Path, out: &Path) -> Result<String, Box<dyn std::error::Erro
         "parent_static_root":STATIC_ROOT,
         "parent_dof_root":DOF_ROOT,
         "parent_inst01_root":INST01_ROOT,
-        "parent_source_recovery_root":PARENT_ROOT,
+        "parent_inst01_authority_root":PARENT_ROOT,
         "candidate":"MetaTrader-origin build 6116",
         "reference_build":PARENT_BUILD,
         "artifacts":entries

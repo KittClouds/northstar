@@ -1,0 +1,15 @@
+{
+  "schema": "FC01A_PROOF_OBLIGATION_LEDGER_V1",
+  "evidence_paths":["END_TO_END_G1_PATH","PROJECTION_ONLY_PATH"],
+  "claims":[
+    {"claim":"G1 callable boundary","method":"DETERMINISTIC_REPLAY","evidence_path":"END_TO_END_G1_PATH","authority_scope":"SEALED_G1_CALLABLE","result":"NOT_EVALUABLE","nonclaims":["no_G1_invocation_authority_without_callable"]},
+    {"claim":"projection mapping","method":"TYPE_STATIC_PROOF + ADVERSARIAL_FIXTURE","evidence_path":"PROJECTION_ONLY_PATH","authority_scope":"synthetic_contract_valid_G1_outputs","result":"PASS","nonclaims":["no_G1_construction_claim"]},
+    {"claim":"source-field closure","method":"TYPE_STATIC_PROOF + ADVERSARIAL_FIXTURE","evidence_path":"PROJECTION_ONLY_PATH","authority_scope":"declared_ABI","result":"PASS","nonclaims":["no_universal_claim_outside_declared_ABI"]},
+    {"claim":"projection order independence","method":"DETERMINISTIC_REPLAY","evidence_path":"PROJECTION_ONLY_PATH","authority_scope":"qualification_corpus","result":"PASS","nonclaims":["G1_causal_history_was_not_reordered"]},
+    {"claim":"G1 rejection pass-through","method":"ADVERSARIAL_FIXTURE","evidence_path":"PROJECTION_ONLY_PATH","authority_scope":"contract_valid_G1_rejection_status","result":"PASS","nonclaims":["no_rejection_semantic_interpretation"]},
+    {"claim":"canonical byte replay","method":"DETERMINISTIC_REPLAY","evidence_path":"PROJECTION_ONLY_PATH","authority_scope":"qualification_corpus","result":"PASS","nonclaims":["no_universal_byte_identity_over_all_G1_inputs"]},
+    {"claim":"population blindness","method":"TYPE_STATIC_PROOF + DETERMINISTIC_REPLAY","evidence_path":"PROJECTION_ONLY_PATH","authority_scope":"qualification_execution","result":"PASS","nonclaims":["no_population_semantic_claim"]}
+  ],
+  "downstream_sufficiency_tests": 0,
+  "population_access": 0
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "FC01A_A1_IMPLEMENTATION_RECEIPT_V1",
+  "gate": "FC01A_A1",
+  "execution_state": "SEALED",
+  "question_status": "CLOSED",
+  "result": "NOT_EVALUABLE",
+  "disposition": "HOLD",
+  "authority": "FC01A_PROJECTION_IMPLEMENTATION_QUALIFICATION_V1",
+  "parent_a0_receipt_sha256": "4B6694AC527745C49E4A795F060D8F45F3ADD1FFDD178FDB7072ECDAF5D52A45",
+  "g1_lineage": {
+    "g0_root": "e317cabef33114edf47c50f4628a210ae8f1bd0b59feb436dc37e7df9cfe38bf",
+    "g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+    "g1_kernel_contract_sha256": "9E09BB3B8C09A8A076FFC8C5FF027CC6AAC415DC91368C500272A96B5D4542ED",
+    "g1_implementation_root": "NOT_MATERIALIZED"
+  },
+  "evidence_paths": {
+    "END_TO_END_G1_PATH": "NOT_EVALUABLE",
+    "PROJECTION_ONLY_PATH": "PASS"
+  },
+  "a0_source_firewall": {
+    "g1_semantic_construction_source": "SEALED_G1_IMPLEMENTATION_ONLY",
+    "fc01a_custom_semantic_transitions": 0,
+    "fc01a_custom_lifecycle_rules": 0,
+    "fc01a_custom_genealogy_rules": 0,
+    "fc01a_custom_rejection_rules": 0,
+    "fc01a_custom_temporal_interpretation": 0
+  },
+  "contract_hashes": {
+    "G1_FC01A_INVOCATION_CONTRACT_V1": "B7433A075D9C06D44CF6C9E29DED4D6BD7E5F8E4B2C11CBFD9CE18B762E98E82",
+    "G1_FC01A_ABI_V1": "5DC2843451FCA6B1E22D10811B37F7826FF11E5AAEF6C15DA53ECB1A8CF64161",
+    "FC01A_PROJECTION_REGISTRY_V1": "C34926871232F3D1D5B21BB4350227013D6A00963A1BC32A6F2CB90CAF44B509",
+    "FC01A_CANONICAL_SERIALIZATION_V1": "D341D2A0ACBF51DE14A483FA6D4491BD6145009C613E799C873481067FA644F8",
+    "FC01A_REJECTION_CONTRACT_V1": "72EE57D1EB545B8772E737652ACAC3064C9A349075CD834441E9DFA286DE4BEF",
+    "FC01A_PROOF_OBLIGATION_LEDGER_V1": "3555539C5F7F3C26DA906DBD268127FC8F95DF23FB00EFDF70558F2C8AB42A42",
+    "FC01A_A1_PROJECTION_FIXTURE_RESULT_V1": "4B96571CC762EE9D229534C3540543B85F1DC1DADB08EDB876D004633ACC8834"
+  },
+  "implementation_hashes": {
+    "fc01a_projector.py": "53D4F850C8D3943A0EA4F56CB3FF533434A6BB6C50CEF82720DA6A84AE976E54",
+    "qualification.py": "F99CB4D5A249377B5A21D5ABED283A3FEF35D7E487F98929E6FADE06A50FF2E4"
+  },
+  "closure_vector": {
+    "exact_g1_invocation_binding": "NOT_EVALUABLE",
+    "g1_fc01a_abi": "PASS",
+    "custom_semantic_rule_count": 0,
+    "declarative_projection_binding": "PASS",
+    "source_field_closure": "PASS",
+    "projection_to_projection_reads": 0,
+    "consumer_view_noninterference": "PASS",
+    "pointwise_projection_state_independence": "PASS",
+    "g1_rejection_pass_through": "PASS",
+    "fc01a_rejection_bandwidth": "PASS",
+    "canonical_serialization": "PASS",
+    "proof_ledger_complete": "PASS",
+    "independent_replay": "PASS",
+    "population_derived_fixture_reads": 0,
+    "population_derived_metadata_reads": 0,
+    "population_reads": 0,
+    "downstream_sufficiency_tests": 0
+  },
+  "blocking_reasons": [
+    "exact_sealed_g1_callable_not_materialized",
+    "end_to_end_g1_invocation_not_replayed",
+    "g1_output_capture_identity_not_qualified"
+  ],
+  "nonclaims": [
+    "no_G1_invocation_authority",
+    "no_G1_initialization_authority",
+    "no_G1_context_binding_authority",
+    "no_real_history_doorway_authority",
+    "no_G8_certificate_authority",
+    "no_FC01B_authority"
+  ],
+  "maximum_authority": "FC01A_PROJECTION_LAYER_QUALIFIED_WITHOUT_G1_INVOCATION_AUTHORITY"
+}

@@ -1,0 +1,1 @@
+{"authorized_field_closure":"PASS","end_to_end_g1_path":"NOT_EVALUABLE","g1_rejection_passthrough":"PASS","irrelevant_field_noninterference":"PASS","missing_primitive_fail_closed":"PASS","pointwise_order_independence":"PASS","population_derived_content_reads":0,"population_derived_metadata_reads":0,"population_reads":0,"projection_only_path":"PASS"}

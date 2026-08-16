@@ -1,0 +1,17 @@
+{
+  "schema": "G1_FC01A_INVOCATION_CONTRACT_V1",
+  "g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "g1_kernel_contract_sha256": "9E09BB3B8C09A8A076FFC8C5FF027CC6AAC415DC91368C500272A96B5D4542ED",
+  "g1_callable_boundary": "SEALED_G1_IMPLEMENTATION_ONLY",
+  "initialization_mode": "DECLARED_BY_G1_ONLY",
+  "context_binding": "PASS_THROUGH_TO_G1",
+  "input_ordering": "PRESERVE_CANONICAL_G0_ORDER",
+  "session_boundary_handling": "G1_AUTHORITY_ONLY",
+  "output_capture": "G1_SEMANTIC_OUTPUT_V1",
+  "g1_causal_execution_reordering": "FORBIDDEN",
+  "g1_semantic_output_object_reordering_for_projection_test": "PERMITTED",
+  "end_to_end_path": ["G0_CANONICAL_HISTORY", "SEALED_G1_INVOCATION", "G1_SEMANTIC_OUTPUT_V1", "FC01A_PROJECTION"],
+  "projection_only_path": ["CONTRACT_VALID_SYNTHETIC_G1_OUTPUT", "FC01A_PROJECTION"],
+  "missing_callable_disposition": "G1_REQUIRED_PRIMITIVE_UNAVAILABLE",
+  "population_access": 0
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "FC01A_CANONICAL_SERIALIZATION_V1",
+  "encoding": "UTF8",
+  "format": "JSON",
+  "sort_keys": true,
+  "separators": [",", ":"],
+  "ensure_ascii": false,
+  "allow_nan": false,
+  "sequence_rule": "PRESERVE_SCIENTIFIC_ORDER",
+  "unordered_map_rule": "SORT_BY_FROZEN_KEY_ENCODING",
+  "set_serialization": "FORBIDDEN_UNLESS_EXPLICITLY_ORDERED",
+  "hash": "SHA256_CANONICAL_BYTES_UPPER_HEX",
+  "semantic_source_sameness_implies_projection_sameness": true,
+  "projection_sameness_implies_byte_sameness": true,
+  "byte_sameness_implies_semantic_sameness": false,
+  "population_access": 0
+}

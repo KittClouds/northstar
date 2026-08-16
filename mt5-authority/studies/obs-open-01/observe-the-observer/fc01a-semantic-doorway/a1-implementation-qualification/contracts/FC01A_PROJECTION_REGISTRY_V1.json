@@ -1,0 +1,14 @@
+{
+  "schema": "FC01A_PROJECTION_REGISTRY_V1",
+  "source": "G1_SEMANTIC_OUTPUT_V1",
+  "projection_to_projection_reads": 0,
+  "common_semantic_core_immutable": true,
+  "views": [
+    {"view_id":"G5_PRESENTABILITY_VIEW","allowlist":["context_identity","input_identity","transition_status","knowledge_time_projection","rejection_status"],"forbidden":["G6_FIELDS","G7_FIELDS","G8_INTERNAL_FIELDS"],"depends_only_on":["G1_FC01A_ABI_V1","AUTHORIZED_CONTEXT","PROJECTION_CONFIGURATION"]},
+    {"view_id":"G6_CORRESPONDENCE_PRIMITIVE_VIEW","allowlist":["context_identity","state_projection","ordered_emissions","semantic_lineage_root"],"forbidden":["G5_FIELDS","G7_FIELDS","G8_INTERNAL_FIELDS"],"depends_only_on":["G1_FC01A_ABI_V1","AUTHORIZED_CONTEXT","PROJECTION_CONFIGURATION"]},
+    {"view_id":"G7_CERTIFICATE_LINEAGE_VIEW","allowlist":["g1_authority_root","semantic_lineage_root","context_identity","input_identity"],"forbidden":["G5_FIELDS","G6_FIELDS","G8_INTERNAL_FIELDS"],"depends_only_on":["G1_FC01A_ABI_V1","AUTHORIZED_CONTEXT","PROJECTION_CONFIGURATION"]},
+    {"view_id":"G8_VERIFIER_INPUT_VIEW","allowlist":["g1_authority_root","semantic_lineage_root","transition_status","state_projection","ordered_emissions","rejection_status"],"forbidden":["G5_FIELDS","G6_FIELDS"],"depends_only_on":["G1_FC01A_ABI_V1","AUTHORIZED_CONTEXT","PROJECTION_CONFIGURATION"]}
+  ],
+  "view_roots": "ONE_ROOT_PER_VIEW",
+  "population_access": 0
+}

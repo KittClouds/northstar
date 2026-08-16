@@ -1,0 +1,19 @@
+{
+  "schema": "G1_FC01A_ABI_V1",
+  "authority_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "ordering_rule": "declared_sequence_order_is_preserved",
+  "primitives": [
+    {"primitive_id":"g1_authority_root","g1_source_field":"g1_authority_root","type":"STRING","cardinality":"ONE","ordering":"SCALAR","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G7_CERTIFICATE_LINEAGE_VIEW","G8_VERIFIER_INPUT_VIEW"],"semantic_order_significance":"NONE","canonical_encoding_rule":"UTF8_STRING"},
+    {"primitive_id":"context_identity","g1_source_field":"context_identity","type":"JSON_VALUE","cardinality":"ONE","ordering":"DECLARED_BY_G1","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G5_PRESENTABILITY_VIEW","G6_CORRESPONDENCE_PRIMITIVE_VIEW","G7_CERTIFICATE_LINEAGE_VIEW"],"semantic_order_significance":"DECLARED_BY_G1","canonical_encoding_rule":"CANONICAL_JSON_KEYS_ONLY"},
+    {"primitive_id":"input_identity","g1_source_field":"input_identity","type":"JSON_VALUE","cardinality":"ONE","ordering":"DECLARED_BY_G1","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G5_PRESENTABILITY_VIEW","G7_CERTIFICATE_LINEAGE_VIEW"],"semantic_order_significance":"DECLARED_BY_G1","canonical_encoding_rule":"CANONICAL_JSON_KEYS_ONLY"},
+    {"primitive_id":"transition_status","g1_source_field":"transition_status","type":"JSON_VALUE","cardinality":"ONE","ordering":"DECLARED_BY_G1","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G5_PRESENTABILITY_VIEW","G8_VERIFIER_INPUT_VIEW"],"semantic_order_significance":"DECLARED_BY_G1","canonical_encoding_rule":"CANONICAL_JSON_KEYS_ONLY"},
+    {"primitive_id":"state_projection","g1_source_field":"state_projection","type":"JSON_VALUE","cardinality":"ONE","ordering":"DECLARED_BY_G1","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G6_CORRESPONDENCE_PRIMITIVE_VIEW","G8_VERIFIER_INPUT_VIEW"],"semantic_order_significance":"DECLARED_BY_G1","canonical_encoding_rule":"CANONICAL_JSON_KEYS_ONLY"},
+    {"primitive_id":"ordered_emissions","g1_source_field":"ordered_emissions","type":"JSON_SEQUENCE","cardinality":"ZERO_OR_MORE","ordering":"SEQUENCE","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G6_CORRESPONDENCE_PRIMITIVE_VIEW","G8_VERIFIER_INPUT_VIEW"],"semantic_order_significance":"PROTECTED","canonical_encoding_rule":"PRESERVE_SOURCE_ORDER"},
+    {"primitive_id":"knowledge_time_projection","g1_source_field":"knowledge_time_projection","type":"JSON_VALUE","cardinality":"ONE","ordering":"DECLARED_BY_G1","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G5_PRESENTABILITY_VIEW"],"semantic_order_significance":"DECLARED_BY_G1","canonical_encoding_rule":"CANONICAL_JSON_KEYS_ONLY"},
+    {"primitive_id":"rejection_status","g1_source_field":"rejection_status","type":"JSON_VALUE","cardinality":"ONE","ordering":"DECLARED_BY_G1","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G5_PRESENTABILITY_VIEW","G8_VERIFIER_INPUT_VIEW"],"semantic_order_significance":"PASS_THROUGH_ONLY","canonical_encoding_rule":"CANONICAL_JSON_KEYS_ONLY"},
+    {"primitive_id":"semantic_lineage_root","g1_source_field":"semantic_lineage_root","type":"STRING","cardinality":"ONE","ordering":"SCALAR","nullability":"FORBIDDEN","authority_root":"G1_ROOT","consumer_view_set":["G6_CORRESPONDENCE_PRIMITIVE_VIEW","G7_CERTIFICATE_LINEAGE_VIEW","G8_VERIFIER_INPUT_VIEW"],"semantic_order_significance":"NONE","canonical_encoding_rule":"UTF8_STRING"}
+  ],
+  "unknown_fields": "IGNORED_FOR_PROJECTION_AND_MUST_NOT_AFFECT_OUTPUT",
+  "missing_required_field": "G1_REQUIRED_PRIMITIVE_UNAVAILABLE",
+  "population_access": 0
+}

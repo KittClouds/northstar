@@ -1,0 +1,23 @@
+{
+  "schema": "G1_R_RESULT_RECEIPT_V1",
+  "gate": "G1-R",
+  "question_status": "CLOSED",
+  "result": "G1_EXECUTABLE_DESCENDANT_QUALIFIED_WITH_RESTRICTIONS",
+  "maximum_authority": "G1_EXECUTABLE_DESCENDANT_V1",
+  "parent_g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "descendant_id": "G1_EXECUTABLE_DESCENDANT_V1",
+  "source_ancestry": "EXACT_SEALED_G1_SOURCE_CLOSURE",
+  "callable_boundary": "SEALED_G1_INIT_AND_STEP",
+  "semantic_qualification": "SYNTHETIC_REPLAY_3_CASES_3_EXPECTED_MATCHES",
+  "build_a_vs_build_b_semantic_root": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675",
+  "binary_reproducibility": "NOT_CLAIMED",
+  "historical_binary_identity": "NOT_CLAIMED",
+  "historical_candidates": "NONAUTHORITATIVE_CORROBORATION_ONLY",
+  "fc01a_a1_attempt_2": "NEW_ATTEMPT_REQUIRED",
+  "fc01a_transport": "NOT_EXECUTED",
+  "population_access": 0,
+  "target_access": 0,
+  "outcome_access": 0,
+  "pair_access": 0,
+  "nonclaims": ["historical_g1_binary_recovery", "historical_identity", "fc01a_pass", "population_authority", "scope_generalization"]
+}

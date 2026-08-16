@@ -1,0 +1,17 @@
+{
+  "schema": "G1_R_BUILD_ENVELOPE_V1",
+  "descendant_id": "G1_EXECUTABLE_DESCENDANT_V1",
+  "parent_g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "source_semantic_module": "SEALED_G1_CRATE_AS_PATH_DEPENDENCY",
+  "custom_semantic_transitions": 0,
+  "custom_lifecycle_rules": 0,
+  "custom_genealogy_rules": 0,
+  "custom_rejection_rules": 0,
+  "custom_temporal_interpretation": 0,
+  "wrapper_role": "INPUT_DECODING_INVOCATION_ORCHESTRATION_OUTPUT_CAPTURE_CANONICAL_SERIALIZATION_ONLY",
+  "historical_binary_identity": "NOT_CLAIMED",
+  "population_access": 0,
+  "target_access": 0,
+  "outcome_access": 0,
+  "pair_access": 0
+}

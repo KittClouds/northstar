@@ -1,0 +1,45 @@
+{
+  "schema": "G1_R_ROOT_RECEIPT_V1",
+  "gate": "G1-R",
+  "root_status": "SEALED",
+  "result": "G1_EXECUTABLE_DESCENDANT_QUALIFIED_WITH_RESTRICTIONS",
+  "maximum_authority": "G1_EXECUTABLE_DESCENDANT_V1",
+  "parent_g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "historical_binary_identity": "NOT_CLAIMED",
+  "population_access": 0,
+  "member_sha256": {
+    "protocol": "74F44837E7573C723FA1872F8974F70B3675EBC5D2A5C9D70F8EF2CE508FB46B",
+    "build_envelope": "E4237CB58F9BDB05EC689DACA029C978476FE17A3F00BAA854DE1644354CA6C6",
+    "cargo_toml": "638FA08BD5D30A4C1F8F11F30B55AE7254890B8504201A0C0CA1C95101184713",
+    "cargo_lock": "93F09A52C4A69945BA4E188E338F4C7D55B841792C92C33CA2B23225D36E0D87",
+    "wrapper_source": "0020028922FA7E6F724C3E52F4C84C9575C978FDB9CDB8C1ED802F7BC8A6F61B",
+    "synthetic_corpus": "8D39E880D94C90A0B3BD95403E689C7A02209BAC10F692B50700DF9FC049E9B4",
+    "sol_receipt": "84E7C72766FED5665750CE59C3A141BC9B25C1D8483ABBDE2531DB44574570B3",
+    "kammi_receipt": "18C33D82636F6803DDEA8CCC8247993E3F6F9F5131D861D4838A0C97979399CF",
+    "kage_receipt": "9E04CE761FC0875EB167CD9B97A39EB4157A3B00589B2910B1C92606C9E73B77",
+    "access_audit": "C4C944CC441927C5415500FB10DE0161D8B46D0F7DCB4BC7172788135406A680",
+    "result_receipt": "F3707D85FF42D09EDCC3A0A78E64098F6ACEFB40333DBCB54A8BC1CA57A1734D",
+    "partner_report": "3967DE0FFB7F64B8A2C31A3644C83C1DE08EBDABA3195BCFA464144C2DAEC467",
+    "build_a_semantic_envelope": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675",
+    "build_b_semantic_envelope": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675",
+    "build_identity": "E4B1AB3A9AC8AC0732E3E53FE97CF972180F6E2B30D345DEA6086FD80396B61A"
+  },
+  "closure": {
+    "exact_source_ancestry": "PASS",
+    "new_build_identity": "PASS",
+    "synthetic_qualification": "PASS",
+    "independent_semantic_replay": "PASS",
+    "adversarial_identity_audit": "PASS_WITHIN_DECLARED_SCOPE",
+    "fc01a_transport": "NOT_EXECUTED"
+  },
+  "restrictions": [
+    "synthetic_inputs_only",
+    "sealed_g1_source_dependency",
+    "declared_rust_1_96_0_x86_64_pc_windows_msvc_scope",
+    "semantic_replay_qualified_binary_reproducibility_not_claimed",
+    "no_historical_binary_identity",
+    "no_fc01a_transport",
+    "no_population_access",
+    "no_scope_generalization"
+  ]
+}

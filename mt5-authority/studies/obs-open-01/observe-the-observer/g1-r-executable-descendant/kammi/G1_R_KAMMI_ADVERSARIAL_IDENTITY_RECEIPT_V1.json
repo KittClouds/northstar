@@ -1,0 +1,25 @@
+{
+  "schema": "G1_R_KAMMI_ADVERSARIAL_IDENTITY_RECEIPT_V1",
+  "agent": "KAMMI",
+  "result": "NO_FAILING_WITNESS_FOUND_WITHIN_DECLARED_SCOPE",
+  "scope": "STATIC_WRAPPER_AUDIT_AND_SYNTHETIC_QUALIFICATION_CORPUS",
+  "attacks": {
+    "source_substitution": "PASS",
+    "hidden_semantic_helper": "PASS",
+    "lifecycle_reimplementation": "PASS",
+    "genealogy_reimplementation": "PASS",
+    "rejection_enrichment": "PASS",
+    "ordering_mutation": "PASS",
+    "environment_dependency": "PASS",
+    "prior_invocation_state": "PASS",
+    "population_dependency": "PASS",
+    "historical_binary_identity_claim": "BLOCKED_AS_UNAUTHORIZED"
+  },
+  "synthetic_cases": 3,
+  "synthetic_expected_matches": 3,
+  "semantic_replay_build_a_vs_build_b": "PASS",
+  "binary_reproducibility": "NOT_CLAIMED",
+  "historical_candidate_callable_comparison": "NOT_EVALUABLE_WITHOUT_QUALIFIED_CALLABLE_INTERFACE",
+  "authority_limit": "NO_UNIVERSAL_COMPILER_OR_ENVIRONMENT_CORRECTNESS_CLAIM",
+  "population_access": 0
+}

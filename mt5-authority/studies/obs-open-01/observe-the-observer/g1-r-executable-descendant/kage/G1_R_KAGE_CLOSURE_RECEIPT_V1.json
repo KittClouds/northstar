@@ -1,0 +1,17 @@
+{
+  "schema": "G1_R_KAGE_CLOSURE_RECEIPT_V1",
+  "agent": "KAGE",
+  "result": "G1_EXECUTABLE_DESCENDANT_QUALIFIED_WITH_RESTRICTIONS",
+  "sol_receipt": "G1_R_SOL_DESCENDANT_BINDING_RECEIPT_V1",
+  "kammi_receipt": "G1_R_KAMMI_ADVERSARIAL_IDENTITY_RECEIPT_V1",
+  "exact_source_ancestry": "PASS",
+  "new_build_identity": "PASS",
+  "callable_semantics": "PASS_WITHIN_INIT_STEP_BOUNDARY",
+  "synthetic_qualification": "PASS",
+  "independent_semantic_replay": "PASS",
+  "adversarial_identity_audit": "PASS_WITHIN_DECLARED_SCOPE",
+  "historical_binary_identity": "NOT_CLAIMED",
+  "fc01a_eligibility": "NOT_GRANTED",
+  "g1_r_authority": "G1_EXECUTABLE_DESCENDANT_V1",
+  "restrictions": ["synthetic_inputs_only", "sealed_g1_source_dependency", "declared_toolchain_scope", "no_fc01a_transport", "no_population_access", "no_historical_binary_identity"]
+}

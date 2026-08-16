@@ -1,0 +1,36 @@
+{
+  "schema": "G1_R_BUILD_IDENTITY_V1",
+  "descendant_id": "G1_EXECUTABLE_DESCENDANT_V1",
+  "parent_g1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+  "source_closure": {
+    "sealed_g1_manifest_sha256": "65CBE177FD5DC510AB9DC19E203A912A107AB8AC740B55A64926A1164EDCEAFD",
+    "sealed_g1_cargo_lock_sha256": "115B4D20F7EC96C47C98E39A0BBB0C3702B2E8462CB0FB8A7EA61226A569C640",
+    "descendant_cargo_lock_sha256": "93F09A52C4A69945BA4E188E338F4C7D55B841792C92C33CA2B23225D36E0D87"
+  },
+  "toolchain": {
+    "rustc": "1.96.0 (ac68faa20 2026-05-25)",
+    "cargo": "1.96.0 (30a34c682 2026-05-25)",
+    "host": "x86_64-pc-windows-msvc",
+    "llvm": "22.1.2",
+    "profile": "release",
+    "opt_level": 3,
+    "lto": "fat",
+    "codegen_units": 1,
+    "panic": "abort",
+    "target_dirs": ["D:\\codex-target-obs-open-g1-r", "D:\\codex-target-obs-open-g1-r-b"]
+  },
+  "build_a": {
+    "executable_sha256": "E1FD57AE1FEC58684D98A61AAC9F972821900291B2A44E9C211BECFDC8912AEA",
+    "sealed_g1_rlib_sha256": "33758468D9F6E30D56B5F4667F877D8298A9092D18F0BC6A1E0F27FE93BECEE3",
+    "pdb_sha256": "FD91DF397BC1C3AEED9CB718817A81B6F3B68B2983557133F534CBBF2D000240",
+    "semantic_envelope_sha256": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675"
+  },
+  "build_b": {
+    "executable_sha256": "B67C34491194F516CDA74513119E4D98C058DE4F38175B6300D5AADC65E74801",
+    "sealed_g1_rlib_sha256": "A015C87D7A5AC504AB963AE0BECCB29BA9C6305CCEF3C05181F157E1C2E9518F",
+    "pdb_sha256": "EC7C55ED60BEBAFA8073292BBB1EB96E13501E5C67C7EE147C8ACB0D0308C730",
+    "semantic_envelope_sha256": "D64BE09A306A66DD7490B4D2E965769598BCFBF09A9378863516A6D5D58CA675"
+  },
+  "binary_reproducibility": "NOT_CLAIMED",
+  "semantic_replay_reproducibility": "PASS"
+}

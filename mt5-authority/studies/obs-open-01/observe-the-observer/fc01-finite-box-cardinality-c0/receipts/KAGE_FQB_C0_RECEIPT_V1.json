@@ -1,0 +1,11 @@
+{
+  "schema": "KAGE_FQB_C0_RECEIPT_V1",
+  "status": "COMPLETE_ROLE_AUTHORITY_NOT_IDENTIFIED",
+  "role_status": "ROLE_AUTHORITY_NOT_IDENTIFIED",
+  "values_selected": 0,
+  "values_derived": 0,
+  "finite_box_instance": "NONE",
+  "sibling_frontier": "FC01-FQB-G0",
+  "root_relation": "INCOMPARABLE_NOT_ESTABLISHED",
+  "population_reads": 0
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "FC01_FQB_G0_CONTRACT_V1",
+  "gate": "FC01-FQB-G0",
+  "status": "LIVE_READ_ONLY_SELECTION_JURISDICTION_COMPATIBILITY",
+  "question": "May a future restricted governance authority select finite pre-observation extent for the four sealed primitive extents without changing their semantic meaning?",
+  "parent_s1_root": "95DCF9A298157A5728E657F083BE2B400492FCD8D92B9B700C3D997EAA820400",
+  "ns_gov_root": "34D908B63AD45DF276A4E3A783E0BE50C1A753BB0FCFA52809339A6596BB40F9",
+  "scheduler_root": "0AD2135C4297B34C10BF9D096D6C9EC14996F3B059ABA657CCDF2CF1BC2F4A7E",
+  "finite_box_spec_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "scope": [
+    "TOKEN_LENGTH_BOUND",
+    "MAX_TOKEN_WORD_LENGTH",
+    "HORIZON_BOUND",
+    "INTEGER_BOUND"
+  ],
+  "allowed_question": "Does choosing a finite pre-observation extent within the sealed domain change semantics?",
+  "compatibility_requirements": [
+    "SELECTION_ONLY_CHANGES_RANGE_EXTENT",
+    "TOKEN_SEMANTICS_UNCHANGED",
+    "GRAMMAR_SEMANTICS_UNCHANGED",
+    "G6_RELATION_AND_FIBER_SEMANTICS_UNCHANGED",
+    "G8_VERIFIER_SEMANTICS_UNCHANGED",
+    "PROOF_SEMANTICS_UNCHANGED"
+  ],
+  "future_authority_boundary": "COMPATIBILITY_ONLY; NO_SELECTION_GRANT_ISSUED",
+  "values_selected": 0,
+  "values_derived": 0,
+  "values_inherited": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "governance_grants_issued": 0,
+  "population_access": 0,
+  "forbidden_operations": [
+    "SELECT_VALUES",
+    "ISSUE_SELECTION_GRANT",
+    "ASSEMBLE_INPUT_VECTOR",
+    "BIND_FINITE_BOX",
+    "REALIZE_TOKENS",
+    "CONSTRUCT_PAIRS",
+    "CONSTRUCT_FIBERS",
+    "CONSTRUCT_COMPARISONS",
+    "INVOKE_G8",
+    "READ_POPULATION",
+    "READ_RESULTS"
+  ],
+  "nonclaims": [
+    "PRIMITIVE_EXTENT_IMPLIES_GOVERNANCE_SELECTABILITY",
+    "SELECTION_AUTHORITY_GRANT",
+    "PARAMETER_VALUES",
+    "FINITE_BOX_INSTANCE",
+    "SCIENTIFIC_SUFFICIENCY"
+  ]
+}

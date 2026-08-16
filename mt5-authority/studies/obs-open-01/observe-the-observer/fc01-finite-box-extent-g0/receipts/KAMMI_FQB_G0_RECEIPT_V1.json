@@ -1,0 +1,12 @@
+{
+  "schema": "KAMMI_FQB_G0_RECEIPT_V1",
+  "status": "PASS_ATTACKS_CLOSED",
+  "checks": {
+    "primitive_extent_not_promoted_to_selectability": true,
+    "semantic_noninterference_required": true,
+    "values_zero": true,
+    "population_closed": true,
+    "selection_grant_zero": true
+  },
+  "nonclaims": ["CONCRETE_VALUES", "GOVERNANCE_GRANT", "SCIENTIFIC_SUFFICIENCY"]
+}

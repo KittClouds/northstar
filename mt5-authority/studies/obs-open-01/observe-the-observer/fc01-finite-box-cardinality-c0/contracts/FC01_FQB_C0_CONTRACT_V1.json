@@ -1,0 +1,49 @@
+{
+  "schema": "FC01_FQB_C0_CONTRACT_V1",
+  "gate": "FC01-FQB-C0",
+  "status": "LIVE_READ_ONLY_CARDINALITY_ROLE_RESOLUTION",
+  "question": "What authoritative role does BOX_CARDINALITY have in the sealed finite-box architecture?",
+  "parent_s1_root": "95DCF9A298157A5728E657F083BE2B400492FCD8D92B9B700C3D997EAA820400",
+  "finite_box_spec_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+  "token_contract_root": "F34AB9EE49F7CE3F544C16D4871B7304A6C8DCBC9C6C1122219BB531043F9A50",
+  "scope": ["BOX_CARDINALITY"],
+  "allowed_roles": [
+    "CONTRACT_FIXED_VALUE",
+    "PRIMITIVE_EXTENT",
+    "CONTRACT_AUTHORIZED_MECHANICAL_DERIVATION",
+    "DERIVED_RECEIPT_METADATA",
+    "ROLE_AUTHORITY_NOT_IDENTIFIED",
+    "NOT_EVALUABLE"
+  ],
+  "closed_question": "Does the sealed contract assign cardinality a fixed, primitive, authorized-derived, or receipt-metadata role?",
+  "forbidden_inferences": [
+    "CARDINALITY_EQUALS_PRODUCT_OF_OTHER_BOUNDS",
+    "CARDINALITY_IS_A_COUNT_BECAUSE_THE_NAME_SUGGESTS_COUNT",
+    "FINITE_BOX_SPEC_PENDING_FIELD_IMPLIES_DERIVATION",
+    "MATHEMATICAL_COMPUTABILITY_IMPLIES_AUTHORIZED_DERIVATION"
+  ],
+  "values_selected": 0,
+  "values_derived": 0,
+  "values_inherited": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "governance_grants_issued": 0,
+  "population_access": 0,
+  "forbidden_operations": [
+    "SELECT_CARDINALITY",
+    "DERIVE_CARDINALITY",
+    "CHANGE_CARDINALITY_ROLE",
+    "ASSEMBLE_INPUT_VECTOR",
+    "BIND_FINITE_BOX",
+    "REALIZE_TOKENS",
+    "INVOKE_G8",
+    "READ_POPULATION",
+    "READ_RESULTS"
+  ],
+  "nonclaims": [
+    "CARDINALITY_VALUE",
+    "CARDINALITY_DERIVATION_AUTHORITY",
+    "GOVERNANCE_SELECTABILITY",
+    "FINITE_BOX_INSTANCE"
+  ]
+}

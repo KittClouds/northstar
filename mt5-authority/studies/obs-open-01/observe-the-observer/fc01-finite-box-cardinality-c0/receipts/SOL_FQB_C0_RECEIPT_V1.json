@@ -1,0 +1,10 @@
+{
+  "schema": "SOL_FQB_C0_RECEIPT_V1",
+  "status": "ROLE_NOT_IDENTIFIED",
+  "parameter_class": "BOX_CARDINALITY",
+  "finding": "SEALED_CONTRACTS_DO_NOT_ASSIGN_A_FIXED_PRIMITIVE_DERIVED_OR_RECEIPT_METADATA_ROLE",
+  "values_selected": 0,
+  "values_derived": 0,
+  "population_reads": 0,
+  "nonclaims": ["CARDINALITY_VALUE", "AUTHORIZED_DERIVATION", "GOVERNANCE_SELECTABILITY"]
+}

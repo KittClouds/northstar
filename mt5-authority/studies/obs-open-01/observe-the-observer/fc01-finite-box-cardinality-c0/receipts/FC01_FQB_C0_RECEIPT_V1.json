@@ -1,0 +1,19 @@
+{
+  "schema": "FC01_FQB_C0_RECEIPT_V1",
+  "status": "COMPLETE_ROLE_AUTHORITY_NOT_IDENTIFIED",
+  "gate": "FC01-FQB-C0",
+  "parameter_class": "BOX_CARDINALITY",
+  "concrete_value_role": "ROLE_AUTHORITY_NOT_IDENTIFIED",
+  "value_producer_authority": "NOT_IDENTIFIED",
+  "value_selection_authority": "NOT_IDENTIFIED",
+  "value_derivation_authority": "NOT_IDENTIFIED",
+  "authorized_operation": "NONE_ESTABLISHED_BY_SEALED_CONTRACTS",
+  "governance_selectability": "NOT_ESTABLISHED",
+  "values_selected": 0,
+  "values_derived": 0,
+  "values_inherited": 0,
+  "actual_bounds_bound": 0,
+  "finite_box_instance": "NONE",
+  "next_branch": "HOLD_CARDINALITY_ROLE_AUTHORITY",
+  "nonclaims": ["CARDINALITY_VALUE", "DERIVATION_FROM_OTHER_BOUNDS", "PRIMITIVE_EXTENT_ROLE", "GOVERNANCE_GRANT"]
+}

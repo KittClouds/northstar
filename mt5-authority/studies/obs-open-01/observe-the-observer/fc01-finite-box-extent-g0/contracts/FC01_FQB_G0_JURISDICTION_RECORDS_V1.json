@@ -1,0 +1,65 @@
+{
+  "schema": "FC01_FQB_G0_JURISDICTION_RECORDS_V1",
+  "status": "SEALED_COMPATIBILITY_CLASSIFICATION_ONLY",
+  "records": [
+    {
+      "parameter_class": "TOKEN_LENGTH_BOUND",
+      "concrete_value_role": "PRIMITIVE_EXTENT",
+      "domain_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "semantic_owner": "FINITE_QUESTION_BOX_SPEC_V1",
+      "compatibility_result": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+      "selection_changes": ["BOUNDED_RANGE_EXTENT_ONLY"],
+      "semantic_noninterference": ["TOKEN_SEMANTICS", "GRAMMAR_SEMANTICS", "G6_RELATION_AND_FIBER_SEMANTICS", "G8_VERIFIER_SEMANTICS", "PROOF_SEMANTICS"],
+      "selection_authority_grant": "NOT_ISSUED",
+      "future_grant_required": true,
+      "values_selected": 0,
+      "evidence_roots": ["95DCF9A298157A5728E657F083BE2B400492FCD8D92B9B700C3D997EAA820400", "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684"],
+      "nonclaims": ["CONCRETE_VALUE", "SELECTION_AUTHORITY", "SCIENTIFIC_SUFFICIENCY"]
+    },
+    {
+      "parameter_class": "MAX_TOKEN_WORD_LENGTH",
+      "concrete_value_role": "PRIMITIVE_EXTENT",
+      "domain_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "semantic_owner": "FINITE_QUESTION_BOX_SPEC_V1",
+      "compatibility_result": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+      "selection_changes": ["BOUNDED_RANGE_EXTENT_ONLY"],
+      "semantic_noninterference": ["TOKEN_SEMANTICS", "GRAMMAR_SEMANTICS", "G6_RELATION_AND_FIBER_SEMANTICS", "G8_VERIFIER_SEMANTICS", "PROOF_SEMANTICS"],
+      "selection_authority_grant": "NOT_ISSUED",
+      "future_grant_required": true,
+      "values_selected": 0,
+      "evidence_roots": ["95DCF9A298157A5728E657F083BE2B400492FCD8D92B9B700C3D997EAA820400", "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684"],
+      "nonclaims": ["CONCRETE_VALUE", "DERIVATION_FROM_TOKEN_LENGTH", "SELECTION_AUTHORITY"]
+    },
+    {
+      "parameter_class": "HORIZON_BOUND",
+      "concrete_value_role": "PRIMITIVE_EXTENT",
+      "domain_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "semantic_owner": "FINITE_QUESTION_BOX_SPEC_V1",
+      "compatibility_result": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+      "selection_changes": ["BOUNDED_RANGE_EXTENT_ONLY"],
+      "semantic_noninterference": ["TOKEN_SEMANTICS", "GRAMMAR_SEMANTICS", "G6_RELATION_AND_FIBER_SEMANTICS", "G8_VERIFIER_SEMANTICS", "PROOF_SEMANTICS"],
+      "selection_authority_grant": "NOT_ISSUED",
+      "future_grant_required": true,
+      "values_selected": 0,
+      "evidence_roots": ["95DCF9A298157A5728E657F083BE2B400492FCD8D92B9B700C3D997EAA820400", "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684"],
+      "nonclaims": ["CONCRETE_VALUE", "SELECTION_AUTHORITY", "G5_HORIZON_REINTERPRETATION"]
+    },
+    {
+      "parameter_class": "INTEGER_BOUND",
+      "concrete_value_role": "PRIMITIVE_EXTENT",
+      "domain_root": "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684",
+      "semantic_owner": "FINITE_QUESTION_BOX_SPEC_V1",
+      "compatibility_result": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+      "selection_changes": ["BOUNDED_RANGE_EXTENT_ONLY"],
+      "semantic_noninterference": ["TOKEN_SEMANTICS", "GRAMMAR_SEMANTICS", "G6_RELATION_AND_FIBER_SEMANTICS", "G8_VERIFIER_SEMANTICS", "PROOF_SEMANTICS"],
+      "selection_authority_grant": "NOT_ISSUED",
+      "future_grant_required": true,
+      "values_selected": 0,
+      "evidence_roots": ["95DCF9A298157A5728E657F083BE2B400492FCD8D92B9B700C3D997EAA820400", "BA1936B88B257B35B2CDFE8A90054731BAFF85A3E7A7175F7F806A0016955684"],
+      "nonclaims": ["CONCRETE_VALUE", "SELECTION_AUTHORITY", "G5_INTEGER_DOMAIN_REINTERPRETATION"]
+    }
+  ],
+  "values_selected": 0,
+  "governance_grants_issued": 0,
+  "finite_box_instance": "NONE"
+}

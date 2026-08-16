@@ -1,0 +1,16 @@
+{
+  "schema": "KAGE_FQB_G0_RECEIPT_V1",
+  "status": "COMPLETE_COMPATIBILITY_ONLY",
+  "per_parameter_status": {
+    "TOKEN_LENGTH_BOUND": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+    "MAX_TOKEN_WORD_LENGTH": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+    "HORIZON_BOUND": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE",
+    "INTEGER_BOUND": "GOVERNANCE_EXTENT_SELECTION_COMPATIBLE"
+  },
+  "selection_grant_issued": 0,
+  "values_selected": 0,
+  "finite_box_instance": "NONE",
+  "sibling_frontier": "FC01-FQB-C0",
+  "root_relation": "INCOMPARABLE_NOT_ESTABLISHED",
+  "population_reads": 0
+}

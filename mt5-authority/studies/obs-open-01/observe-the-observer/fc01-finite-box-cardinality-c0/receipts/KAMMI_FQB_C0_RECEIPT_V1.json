@@ -1,0 +1,12 @@
+{
+  "schema": "KAMMI_FQB_C0_RECEIPT_V1",
+  "status": "PASS_ATTACKS_CLOSED",
+  "checks": {
+    "no_name_based_role_inference": true,
+    "no_product_of_bounds_derivation": true,
+    "no_math_implies_authority": true,
+    "no_values": true,
+    "population_closed": true
+  },
+  "nonclaims": ["CARDINALITY_VALUE", "DERIVATION_AUTHORITY", "GOVERNANCE_GRANT"]
+}

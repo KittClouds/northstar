@@ -1,0 +1,22 @@
+{
+  "schema": "FC01_FQB_EXECUTION_ORDER_AUDIT_CONTRACT_V1",
+  "gate": "FC01-FQB-ORDER-AUDIT",
+  "status": "LIVE_READ_ONLY_CHRONOLOGY_AUDIT",
+  "question": "Were G1 and C1 executed only after a scheduler transition authorized one of them, or were their results produced before scheduler authorization?",
+  "candidate_roots": ["FC01-FQB-G1", "FC01-FQB-C1"],
+  "scheduler_receipt_root": "9118652BDA5FB5C383A1C13057E3C40591DF42746C9F4DBCD71DFC67A2613221",
+  "scheduler_execution_authorized_field": false,
+  "required_temporal_chain": [
+    "MATERIALIZE_G1_AND_C1",
+    "DAG_RECOMPUTE",
+    "SCHEDULER_SELECTS_ONE",
+    "ONLY_SELECTED_ROOT_EXECUTES",
+    "DAG_RECOMPUTE"
+  ],
+  "audit_outcomes": ["ORDER_AUTHORIZED", "UNSCHEDULED_EXECUTION_DETECTED", "NOT_EVALUABLE"],
+  "repair_policy": "PRESERVE_RESULTS; DO_NOT_RERUN; BLOCK_CONSUMABILITY_PENDING_AUDIT",
+  "values_selected": 0,
+  "finite_box_instance": "NONE",
+  "population_access": 0,
+  "forbidden_operations": ["RERUN_G1", "RERUN_C1", "CONSUME_G1_GRANT", "OPEN_C2", "SELECT_VALUES", "READ_POPULATION"]
+}

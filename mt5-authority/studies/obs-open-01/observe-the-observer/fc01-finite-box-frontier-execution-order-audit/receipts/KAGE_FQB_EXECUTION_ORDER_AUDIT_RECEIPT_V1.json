@@ -1,0 +1,11 @@
+{
+  "schema": "KAGE_FQB_EXECUTION_ORDER_AUDIT_RECEIPT_V1",
+  "status": "CONSUMABILITY_BLOCKED",
+  "g1_result": "IMMUTABLE",
+  "c1_result": "IMMUTABLE",
+  "g1_consumability": "BLOCKED_PENDING_EXECUTION_AUTHORITY_AUDIT",
+  "c1_consumability": "BLOCKED_PENDING_EXECUTION_AUTHORITY_AUDIT",
+  "c2_status": "NOT_LIVE",
+  "values_selected": 0,
+  "population_reads": 0
+}

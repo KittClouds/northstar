@@ -1,0 +1,8 @@
+{
+  "schema": "SOL_FQB_EXECUTION_ORDER_AUDIT_RECEIPT_V1",
+  "status": "UNSCHEDULED_EXECUTION_DETECTED",
+  "finding": "G1_AND_C1_RESULTS_EXIST_BEFORE_RECORDED_SCHEDULER_AUTHORIZATION",
+  "preserve_fossils": true,
+  "reruns": 0,
+  "population_reads": 0
+}

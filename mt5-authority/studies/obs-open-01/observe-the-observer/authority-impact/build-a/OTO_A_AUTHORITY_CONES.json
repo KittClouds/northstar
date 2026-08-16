@@ -1,0 +1,24 @@
+{
+  "earliest_invalidated_gate_counts": {
+    "G0": 15,
+    "G1": 29,
+    "G4": 12,
+    "UNKNOWN": 2
+  },
+  "gate_requalification_counts": {
+    "G0": 15,
+    "G1": 44,
+    "G2": 44,
+    "G3": 44,
+    "G4": 56,
+    "G5": 56,
+    "G6": 56,
+    "G7": 56,
+    "G8": 56
+  },
+  "independent_dimension_count": "NOT_EVALUABLE",
+  "intervention_count": 58,
+  "numeric_authority_distance": "NOT_CLAIMED",
+  "runtime_evidence_required_count": 46,
+  "schema": "OTO_A_AUTHORITY_CONES_V1"
+}

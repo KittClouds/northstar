@@ -1,0 +1,16 @@
+{
+  "closure_metadata_read": true,
+  "d_b_reads": 0,
+  "d_c_reads": 0,
+  "d_d_reads": 0,
+  "dynamic_dof_authority": "NONE",
+  "indicator_buffers_read": 0,
+  "intervention_metadata_read": true,
+  "market_rows_read": 0,
+  "outcome_rows_read": 0,
+  "runtime_probe_executed": false,
+  "schema": "OTO_A_ACCESS_AUDIT_V1",
+  "source_artifact_bytes_read": 0,
+  "static_receipts_read": true,
+  "trading_com_editor_invoked": false
+}

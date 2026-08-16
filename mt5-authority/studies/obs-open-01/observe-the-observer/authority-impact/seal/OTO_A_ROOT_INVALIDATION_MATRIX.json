@@ -1,0 +1,954 @@
+{
+  "rows": [
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_AREA_HOUR_FLOOR",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_ASYMMETRIC_ALIGNMENT",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_BIRTH_KNOWN_AT_BAR_CLOSE",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_CAUSAL_REBUILD_ON_NEW_BAR",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_CIVIL_DAY_CONVERSION",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_CLOCK_CLAMP_NOT_REJECT",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_CONTAINING_BAR_RESOLUTION",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_DIGITS",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_EQUAL_START_END_LEGACY_EMPTY",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_FIRST_CANDIDATE_ID_ONE",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_FORMING_VS_COMPLETED",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_FREEZE_AT_END_BAR_CLOSE",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_GRAMMAR_GAP_RESUME",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_GRAMMAR_OBSERVES_CLOSE",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_HISTORY_ARRAYS",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_HISTORY_AVAILABILITY",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpAreaColor",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpAreaStyle",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpAreaWidth",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpEnableExtremeSentinels",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpExtremeSentinelStyle",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpExtremeSentinelWidth",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpHistoryDays",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpHourBegin",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpHourEnd",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpHourEndArea",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpLowerSentinelColor",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpMinBegin",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpMinEnd",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpMinEndArea",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpPeriodColor",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpPeriodStyle",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpPeriodWidth",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpRequireChartContinuity",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpRequireExactStartAlignment",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpRequireRangeContinuity",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpShowExtremeSentinels",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpShowLegacyLines",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "UNKNOWN",
+      "intervention_id": "OTO_I_InpUniqueId",
+      "roots_invalidated": [],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpUpperSentinelColor",
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_LEGACY_REPAINT_EVERY_TICK",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_ONE_PREDECESSOR_DAY_CONTEXT",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_PLATFORM_EMPTY_VALUE",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "UNKNOWN",
+      "intervention_id": "OTO_I_PLATFORM_FLOATING_ARITHMETIC",
+      "roots_invalidated": [],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_PREVIOUS_DAY_OWNERSHIP",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_PREV_CALCULATED",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_RANGE_END_BAR_INCLUSIVE",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_SENTINELS_OBSERVE_HIGH_LOW",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_SENTINEL_AREA_END_COMPLETED_BAR",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_SENTINEL_GAP_FAIL_CLOSED",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_STOP_SIGNAL",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_STRICT_EXTREME_RENEWAL",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_STRICT_LOCATION_RAILS",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_SYMBOL",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_TIMEFRAME",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    },
+    {
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_UNRESOLVED_AREA_END_BAR_OPEN",
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ]
+    },
+    {
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_UNUSED_RUNTIME_ARRAYS",
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": []
+    }
+  ],
+  "schema": "OTO_A_ROOT_INVALIDATION_MATRIX_V1"
+}

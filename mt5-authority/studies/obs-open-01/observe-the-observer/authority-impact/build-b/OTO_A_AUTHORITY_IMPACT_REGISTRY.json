@@ -1,0 +1,4172 @@
+{
+  "records": [
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "AREA_HOUR_FLOOR"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_AREA_HOUR_FLOOR",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "AREA_HOUR_FLOOR",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "ASYMMETRIC_ALIGNMENT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_ASYMMETRIC_ALIGNMENT",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "ASYMMETRIC_ALIGNMENT",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "BIRTH_KNOWN_AT_BAR_CLOSE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_BIRTH_KNOWN_AT_BAR_CLOSE",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "BIRTH_KNOWN_AT_BAR_CLOSE",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "CAUSAL_REBUILD_ON_NEW_BAR"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_CAUSAL_REBUILD_ON_NEW_BAR",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "CAUSAL_REBUILD_ON_NEW_BAR",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "CIVIL_DAY_CONVERSION"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CLOCK_SESSION_RESOLUTION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_CIVIL_DAY_CONVERSION",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CLOCK_SESSION_RESOLUTION"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "CIVIL_DAY_CONVERSION",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "CLOCK_CLAMP_NOT_REJECT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_CLOCK_CLAMP_NOT_REJECT",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "CLOCK_CLAMP_NOT_REJECT",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "CONTAINING_BAR_RESOLUTION"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_CONTAINING_BAR_RESOLUTION",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "CONTAINING_BAR_RESOLUTION",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "DIGITS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_DIGITS",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "DIGITS",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "EQUAL_START_END_LEGACY_EMPTY"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_EQUAL_START_END_LEGACY_EMPTY",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "EQUAL_START_END_LEGACY_EMPTY",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "FIRST_CANDIDATE_ID_ONE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CANDIDATE_GENEALOGY",
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_FIRST_CANDIDATE_ID_ONE",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CANDIDATE_GENEALOGY",
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "FIRST_CANDIDATE_ID_ONE",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "FORMING_VS_COMPLETED"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE",
+        "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_FORMING_VS_COMPLETED",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "FORMING_VS_COMPLETED",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "FREEZE_AT_END_BAR_CLOSE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_FREEZE_AT_END_BAR_CLOSE",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "FREEZE_AT_END_BAR_CLOSE",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "GRAMMAR_GAP_RESUME"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_GRAMMAR_GAP_RESUME",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "GRAMMAR_GAP_RESUME",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "GRAMMAR_OBSERVES_CLOSE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_GRAMMAR_OBSERVES_CLOSE",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "GRAMMAR_OBSERVES_CLOSE",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "HISTORY_ARRAYS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_HISTORY_ARRAYS",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "HISTORY_ARRAYS",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "HISTORY_AVAILABILITY"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_HISTORY_AVAILABILITY",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "HISTORY_AVAILABILITY",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpAreaColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpAreaColor",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpAreaColor",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpAreaStyle"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpAreaStyle",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpAreaStyle",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpAreaWidth"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpAreaWidth",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpAreaWidth",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpEnableExtremeSentinels",
+        "InpExtremeSentinelStyle",
+        "InpExtremeSentinelWidth",
+        "InpLowerSentinelColor",
+        "InpShowExtremeSentinels",
+        "InpUpperSentinelColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CANDIDATE_GENEALOGY",
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpEnableExtremeSentinels",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "SENTINEL",
+      "target_joint": "InpEnableExtremeSentinels",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpExtremeSentinelStyle"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpExtremeSentinelStyle",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "SENTINEL",
+      "target_joint": "InpExtremeSentinelStyle",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpExtremeSentinelWidth"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpExtremeSentinelWidth",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "SENTINEL",
+      "target_joint": "InpExtremeSentinelWidth",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpHistoryDays",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "COVERAGE",
+      "target_joint": "InpHistoryDays",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpHourBegin",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "CLOCK",
+      "target_joint": "InpHourBegin",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpHourEnd",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "CLOCK",
+      "target_joint": "InpHourEnd",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpHourEndArea",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "CLOCK",
+      "target_joint": "InpHourEndArea",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpLowerSentinelColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpLowerSentinelColor",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "SENTINEL",
+      "target_joint": "InpLowerSentinelColor",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpMinBegin",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "CLOCK",
+      "target_joint": "InpMinBegin",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpMinEnd",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "CLOCK",
+      "target_joint": "InpMinEnd",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "InpHourBegin",
+        "InpHourEnd",
+        "InpHourEndArea",
+        "InpMinBegin",
+        "InpMinEnd",
+        "InpMinEndArea"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_InpMinEndArea",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "CLOCK",
+      "target_joint": "InpMinEndArea",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpPeriodColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpPeriodColor",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpPeriodColor",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpPeriodStyle"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpPeriodStyle",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpPeriodStyle",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpPeriodWidth"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpPeriodWidth",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpPeriodWidth",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE",
+        "GRAMMAR_GAP_RESUME",
+        "SENTINEL_GAP_FAIL_CLOSED"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpRequireChartContinuity",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "COVERAGE",
+      "target_joint": "InpRequireChartContinuity",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpRequireExactStartAlignment",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "COVERAGE",
+      "target_joint": "InpRequireExactStartAlignment",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "InpHistoryDays",
+        "InpRequireChartContinuity",
+        "InpRequireExactStartAlignment",
+        "InpRequireRangeContinuity"
+      ],
+      "closure_status": "OPEN_REVIEW_REQUIRED",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_InpRequireRangeContinuity",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "COVERAGE",
+      "target_joint": "InpRequireRangeContinuity",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpShowExtremeSentinels"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpShowExtremeSentinels",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "SENTINEL",
+      "target_joint": "InpShowExtremeSentinels",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpShowLegacyLines"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpShowLegacyLines",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "LEGACY_RENDERER",
+      "target_joint": "InpShowLegacyLines",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "UNKNOWN",
+        "G1_KERNEL_EXTRACTION": "UNKNOWN",
+        "G2_ROLE_CENSUS": "UNKNOWN",
+        "G3_REACHABILITY": "UNKNOWN",
+        "G4_OBSERVER_SURFACE": "UNKNOWN",
+        "G5_CONTINUATION_GRAMMAR": "UNKNOWN",
+        "G6_EQUIVALENCE_CONTRACT": "UNKNOWN",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "UNKNOWN",
+        "G8_LABORATORY": "UNKNOWN"
+      },
+      "authority_impact_basis": "UNRESOLVED_PREDECESSOR_CLASSIFICATION",
+      "closure_set": [
+        "InpUniqueId"
+      ],
+      "closure_status": "UNKNOWN",
+      "descendant_requalification_cone": [],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "UNKNOWN",
+      "intervention_id": "OTO_I_InpUniqueId",
+      "intervention_status": "UNKNOWN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "IDENTITY",
+      "target_joint": "InpUniqueId",
+      "unchanged_ancestry": [],
+      "unknown_fields": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ]
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "PRESERVED",
+        "G2_ROLE_CENSUS": "PRESERVED",
+        "G3_REACHABILITY": "PRESERVED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_PUBLICATION_ONLY_RESTRICTION",
+      "closure_set": [
+        "InpUpperSentinelColor"
+      ],
+      "closure_status": "CLOSED_UNDER_EXPLICIT_RESTRICTION",
+      "descendant_requalification_cone": [
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G4",
+      "intervention_id": "OTO_I_InpUpperSentinelColor",
+      "intervention_status": "LOCALLY_REWRITEABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT"
+      ],
+      "runtime_evidence_basis": "no runtime evidence required for static publication restriction",
+      "runtime_evidence_required": false,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "EXPLICIT_INPUT",
+      "target_group": "SENTINEL",
+      "target_joint": "InpUpperSentinelColor",
+      "unchanged_ancestry": [
+        "G0",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "LEGACY_REPAINT_EVERY_TICK"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_LEGACY_REPAINT_EVERY_TICK",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "LEGACY_REPAINT_EVERY_TICK",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "ONE_PREDECESSOR_DAY_CONTEXT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_ONE_PREDECESSOR_DAY_CONTEXT",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "ONE_PREDECESSOR_DAY_CONTEXT",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "PLATFORM_EMPTY_VALUE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_PLATFORM_EMPTY_VALUE",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "PLATFORM_EMPTY_VALUE",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "UNKNOWN",
+        "G1_KERNEL_EXTRACTION": "UNKNOWN",
+        "G2_ROLE_CENSUS": "UNKNOWN",
+        "G3_REACHABILITY": "UNKNOWN",
+        "G4_OBSERVER_SURFACE": "UNKNOWN",
+        "G5_CONTINUATION_GRAMMAR": "UNKNOWN",
+        "G6_EQUIVALENCE_CONTRACT": "UNKNOWN",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "UNKNOWN",
+        "G8_LABORATORY": "UNKNOWN"
+      },
+      "authority_impact_basis": "UNRESOLVED_PREDECESSOR_CLASSIFICATION",
+      "closure_set": [
+        "PLATFORM_FLOATING_ARITHMETIC"
+      ],
+      "closure_status": "NOT_SEPARABLY_INTERVENABLE",
+      "descendant_requalification_cone": [],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_NUMERICAL_DOMAIN",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "UNKNOWN",
+      "intervention_id": "OTO_I_PLATFORM_FLOATING_ARITHMETIC",
+      "intervention_status": "NOT_SEPARABLY_INTERVENABLE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_NUMERICAL_DOMAIN",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "PLATFORM_FLOATING_ARITHMETIC",
+      "unchanged_ancestry": [],
+      "unknown_fields": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ]
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "PREVIOUS_DAY_OWNERSHIP"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_PREVIOUS_DAY_OWNERSHIP",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "PREVIOUS_DAY_OWNERSHIP",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "PREV_CALCULATED"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_INITIALIZATION",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_PREV_CALCULATED",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_INITIALIZATION",
+        "ARCH_UPDATE_DISPATCH"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "PREV_CALCULATED",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PROVISIONAL_COMMITTED_SPLIT",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "PROVISIONAL_SENTINEL_COMMITTED_IDENTITY_SPLIT",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "RANGE_END_BAR_INCLUSIVE"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_RANGE_END_BAR_INCLUSIVE",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "RANGE_END_BAR_INCLUSIVE",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "SENTINELS_OBSERVE_HIGH_LOW"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_SENTINELS_OBSERVE_HIGH_LOW",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "SENTINELS_OBSERVE_HIGH_LOW",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "SENTINEL_AREA_END_COMPLETED_BAR"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_SENTINEL_AREA_END_COMPLETED_BAR",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "SENTINEL_AREA_END_COMPLETED_BAR",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "SENTINEL_GAP_FAIL_CLOSED"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_SENTINEL_GAP_FAIL_CLOSED",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "SENTINEL_GAP_FAIL_CLOSED",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "STOP_SIGNAL"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_STOP_SIGNAL",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "STOP_SIGNAL",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "STRICT_EXTREME_RENEWAL"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_STRICT_EXTREME_RENEWAL",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "STRICT_EXTREME_RENEWAL",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "STRICT_LOCATION_RAILS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_STRICT_LOCATION_RAILS",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "STRICT_LOCATION_RAILS",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "SYMBOL"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE",
+        "HISTORY_AVAILABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_SYMBOL",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "SYMBOL",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "TIMEFRAME"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE",
+        "DERIVED_PERIOD_SECONDS",
+        "FREEZE_AT_END_BAR_CLOSE",
+        "HISTORY_AVAILABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_TIMEFRAME",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_COVERAGE_EVALUABILITY",
+        "ARCH_INITIALIZATION",
+        "ARCH_PUBLICATION_SURFACE"
+      ],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "TIMEFRAME",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "PRESERVED",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "INVALIDATED",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "INVALIDATED",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "STATIC_SEMANTIC_DEFORMATION_REQUIRES_KERNEL_REEXTRACTION",
+      "closure_set": [
+        "UNRESOLVED_AREA_END_BAR_OPEN"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G1",
+      "intervention_id": "OTO_I_UNRESOLVED_AREA_END_BAR_OPEN",
+      "intervention_status": "REQUIRES_COUPLED_REWRITE",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [
+        "ARCH_CAUSAL_STATE_TRANSITION",
+        "ARCH_CLOCK_SESSION_RESOLUTION",
+        "ARCH_COVERAGE_EVALUABILITY"
+      ],
+      "roots_invalidated": [
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [
+        "G0_ROOT"
+      ],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "LATENT_POLICY",
+      "target_group": "UNGROUPED",
+      "target_joint": "UNRESOLVED_AREA_END_BAR_OPEN",
+      "unchanged_ancestry": [
+        "G0"
+      ],
+      "unknown_fields": []
+    },
+    {
+      "authority_impact": {
+        "G0_INPUT_AUTHORITY": "REQUALIFY",
+        "G1_KERNEL_EXTRACTION": "REEXTRACT",
+        "G2_ROLE_CENSUS": "REEXECUTE",
+        "G3_REACHABILITY": "REPROVE_NAMED_COMPONENTS",
+        "G4_OBSERVER_SURFACE": "REFREEZE",
+        "G5_CONTINUATION_GRAMMAR": "REQUALIFY",
+        "G6_EQUIVALENCE_CONTRACT": "NEW_FIBER_CONTRACT_REQUIRED",
+        "G7_FORMAL_ANALYSIS_BOUNDARY": "THEOREM_TRANSFER_REAUDIT",
+        "G8_LABORATORY": "AUTHORITY_BUNDLE_INVALIDATED"
+      },
+      "authority_impact_basis": "DOMAIN_OR_COMMON_DOMAIN_AUTHORITY_NOT_CLOSED",
+      "closure_set": [
+        "UNUSED_RUNTIME_ARRAYS"
+      ],
+      "closure_status": "REQUIRES_RUNTIME_EVIDENCE",
+      "descendant_requalification_cone": [
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "downstream_affected_nodes": [
+        "ARCH_UNUSED_INPUT_SURFACE"
+      ],
+      "dynamic_dof_authority": "NONE",
+      "earliest_invalidated_gate": "G0",
+      "intervention_id": "OTO_I_UNUSED_RUNTIME_ARRAYS",
+      "intervention_status": "CHANGES_INPUT_DOMAIN",
+      "numeric_authority_distance": "NOT_CLAIMED",
+      "preservation_requirements": [],
+      "roots_invalidated": [
+        "G0_ROOT",
+        "G1_ROOT",
+        "G2_ROOT",
+        "G3_ROOT",
+        "G4_ROOT",
+        "G5_ROOT",
+        "G6_ROOT",
+        "G7_ROOT",
+        "G8_ROOT"
+      ],
+      "roots_preserved": [],
+      "runtime_evidence_basis": "OTO-I runtime confirmation or OTO-C open/runtime status",
+      "runtime_evidence_required": true,
+      "static_proof_basis": [
+        "OTO_I_INTERVENTION_REGISTRY",
+        "OTO_C_CLOSURE_REGISTRY",
+        "intervention_status",
+        "closure_status",
+        "preservation_requirements",
+        "downstream_affected_nodes"
+      ],
+      "target_class": "AMBIENT_COORDINATE",
+      "target_group": "UNGROUPED",
+      "target_joint": "UNUSED_RUNTIME_ARRAYS",
+      "unchanged_ancestry": [],
+      "unknown_fields": []
+    }
+  ],
+  "schema": "OTO_A_AUTHORITY_IMPACT_REGISTRY_V1"
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_set_hash": "f179d1daaeecd6ac7fabcffff605f1ad3b5757fae3d11b9132f94a51397583bf",
+  "build_a_artifact_count": 7,
+  "build_b_artifact_count": 7,
+  "byte_identical": true,
+  "logical_root": "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+  "mismatch_count": 0,
+  "schema": "OTO_A_DETERMINISTIC_REBUILD_RECEIPT_V1"
+}

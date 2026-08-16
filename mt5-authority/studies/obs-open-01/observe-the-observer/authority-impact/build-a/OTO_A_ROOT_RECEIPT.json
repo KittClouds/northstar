@@ -1,0 +1,46 @@
+{
+  "logical_root": "a6a8dc1b01dcb97fcd75dde29594d472fbcc526b44add2263c89c4a89a1accc0",
+  "payload": {
+    "artifacts": [
+      {
+        "bytes": 852,
+        "path": "OTO_A_PROTOCOL_V1.json",
+        "sha256": "a66328d4dac877c446b16ffc1140fe50588457b55c4adf3e80e62327a7fd933c"
+      },
+      {
+        "bytes": 127960,
+        "path": "OTO_A_AUTHORITY_IMPACT_REGISTRY.json",
+        "sha256": "cd6acb8e0b0c96785965296efde939e82d1f669d1818308765d17a98c56d8b7c"
+      },
+      {
+        "bytes": 478,
+        "path": "OTO_A_AUTHORITY_CONES.json",
+        "sha256": "b23671019ddb6fba6133f27cdb246d32b6a98a471df55fbd5e58830a9cc3c3d5"
+      },
+      {
+        "bytes": 19953,
+        "path": "OTO_A_ROOT_INVALIDATION_MATRIX.json",
+        "sha256": "222eca55f394e593fef502b3189d5671530f7ef289700c679ad98ea82a951c0f"
+      },
+      {
+        "bytes": 423,
+        "path": "OTO_A_ACCESS_AUDIT.json",
+        "sha256": "68b67bda6283d83a7ceab0f8389fd57dcfecd71b208acf17ca4fa5953821fe67"
+      },
+      {
+        "bytes": 536,
+        "path": "OTO_A_TYPED_FINDINGS.json",
+        "sha256": "851b945e8c48326d1a22adb179e88d8070b6bc2b8f900c3ab1afcce028536af7"
+      }
+    ],
+    "authority": "OBS_OPEN_OTO_STATIC_AUTHORITY_IMPACT_TOPOLOGY_V1",
+    "intervention_count": 58,
+    "parent_closure_root": "b96ad31eb43f30ec5026a71a1d607d95e0041543f67418dd20180fabf3c7db71",
+    "parent_intervention_root": "2fc9a4c150040b0f5167c341503583f1caeb298241eb1ec04b9614cc3837065f",
+    "parent_static_root": "145fe2f99c75e1214f6cf38b75e83538f4cfef46c5f04b1edfa7ba87b0cd3c8d",
+    "parent_topology_root": "5dae6f027af87de766742391f4c96665d062fbd5aef3cfecf9f2592b561f4bf1",
+    "runtime_transport_root": "03fc7cc1733f771573637329d9236ba548c1d29b69846cee655b84b746ed9901",
+    "schema": "OTO_A_ROOT_PAYLOAD_V1"
+  },
+  "schema": "OTO_A_ROOT_RECEIPT_V1"
+}

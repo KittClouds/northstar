@@ -1,0 +1,18 @@
+{
+  "counterfactual_execution": "NONE",
+  "earliest_invalidated_gate_counts": {
+    "G0": 15,
+    "G1": 29,
+    "G4": 12,
+    "UNKNOWN": 2
+  },
+  "execution_state": "SEALED",
+  "independent_dimension_count": "NOT_EVALUABLE",
+  "intervention_count": 58,
+  "maximum_authority": "OBS_OPEN_OTO_STATIC_AUTHORITY_IMPACT_TOPOLOGY_V1",
+  "question_status": "CLOSED",
+  "result": "STATIC_AUTHORITY_IMPACT_TOPOLOGY_SEALED",
+  "runtime_evidence_required_count": 46,
+  "schema": "OTO_A_TYPED_FINDINGS_V1",
+  "status": "QUALIFIED_STATIC_TOPOLOGY"
+}

@@ -1,0 +1,89 @@
+{
+  "qualification": "KITT-OBS-R1",
+  "seal": "KITT_OBSERVER_RECEIPT_LIFECYCLE_V1",
+  "status": "QUALIFIED",
+  "authority_environment": "standard MetaTrader 5 portable tester",
+  "trading_com_terminal_used": false,
+  "buffer_contract": "NONE",
+  "receipt_state_contract": ["OPEN", "FINALIZING", "CLOSED"],
+  "run_outcomes": [
+    "COMPLETED",
+    "STOPPED_EARLY",
+    "INVALID_CONFIGURATION",
+    "INPUT_UNAVAILABLE",
+    "WRITE_FAILURE",
+    "OBSERVER_FAILURE",
+    "TESTER_TERMINATED",
+    "NOT_EVALUABLE"
+  ],
+  "runs": {
+    "r4": {
+      "experiment_id": "KITT_DAILY_SWING_OBSERVER_V1",
+      "run_instance_id": "KITT_OBS_R1_RUN_R4",
+      "receipt_state": "CLOSED",
+      "run_outcome": "COMPLETED",
+      "completion_predicate": true,
+      "manifest_verified": true,
+      "frames": 961,
+      "zones": 155,
+      "events": 155,
+      "manifest_digest": "FNV1A64_10092234868442078508"
+    },
+    "r5": {
+      "experiment_id": "KITT_DAILY_SWING_OBSERVER_V1",
+      "run_instance_id": "KITT_OBS_R1_RUN_R5",
+      "receipt_state": "CLOSED",
+      "run_outcome": "COMPLETED",
+      "completion_predicate": true,
+      "manifest_verified": true,
+      "frames": 961,
+      "zones": 155,
+      "events": 155,
+      "manifest_digest": "FNV1A64_6027151650963417565"
+    },
+    "r11_final": {
+      "experiment_id": "KITT_DAILY_SWING_OBSERVER_V1",
+      "run_instance_id": "KITT_OBS_R1_RUN_R11_FINAL",
+      "receipt_state": "CLOSED",
+      "run_outcome": "COMPLETED",
+      "completion_predicate": true,
+      "manifest_verified": true,
+      "frames": 961,
+      "zones": 155,
+      "events": 155,
+      "manifest_digest": "FNV1A64_13364680161203777738"
+    },
+    "r10_orphan": {
+      "run_instance_id": "KITT_OBS_R1_RUN_R10_ORPHAN",
+      "receipt_state": "OPEN",
+      "admission": "REJECTED"
+    }
+  },
+  "replay": {
+    "first_run_instance_id": "KITT_OBS_R1_RUN_R4",
+    "second_run_instance_id": "KITT_OBS_R1_RUN_R11_FINAL",
+    "physical_run_ids_distinct": true,
+    "semantic_root": "005450c1fd3505a1f7f3a05ea87f09afbd0322664ac853502250e4dd2c2c9f46",
+    "status": "QUALIFIED"
+  },
+  "fault_injection": {
+    "status": "QUALIFIED",
+    "cases": [
+      "missing_artifact",
+      "data_hash_mismatch",
+      "schema_mismatch",
+      "post_close_write",
+      "receipt_write_after_close",
+      "manifest_hash_mismatch",
+      "manifest_count_mismatch",
+      "orphan_open_receipt"
+    ]
+  },
+  "nonclaims": [
+    "live_runtime_equivalence",
+    "all_MT5_environments",
+    "observer_scientific_validity",
+    "buffer_consumer_authority",
+    "universal_determinism"
+  ]
+}

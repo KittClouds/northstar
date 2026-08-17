@@ -1,0 +1,27 @@
+{
+  "schema": "NATIVE_CARRIER_02_CONSTITUTION_V1",
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "source_text_sha256": "15bf9449e7c84b3b047fa307ee495b91c48849e39e26664b127a4d689e413e87",
+  "parent_carrier_01_root": "846108bc23b29128741673ce118a90f970f59935b48e166f8332229f761ac65f",
+  "scope": "SEALED_NATIVE_CARRIER_01_PARTITIONS_ONLY",
+  "main_lane": "collision-lift geometry inside nine non-singleton L0 full-meet blocks",
+  "companions": ["NC02-X1", "NC02-X2", "NC02-X3"],
+  "main_domain": "D0=union of unordered pairs within nine non-singleton L0 full-meet blocks",
+  "stage_order": ["P2-L1", "P1-L1", "P4-L1", "P3-L1", "P5-L1"],
+  "stage_coordinate_nonclaims": ["TIME", "CAUSAL_DEPTH", "INFORMATION_AMOUNT", "IMPORTANCE", "DIFFICULTY"],
+  "firewall": {
+    "D_A_raw_reads": 0,
+    "D_B_reads": 0,
+    "D_C_reads": 0,
+    "D_D_reads": 0,
+    "targets_read": 0,
+    "outcomes_read": 0,
+    "Sentinel_values_consumed": 0,
+    "confirmation_sessions_opened": 0,
+    "semantic_translators_created": 0,
+    "cross_optic_native_payload_reads": 0,
+    "Thing_2": "UNBOUND"
+  },
+  "stop_condition": ["nine blocks characterized", "2328 pairs assigned exactly one lambda", "survival identities pass", "nine trees sealed", "firewall pass"],
+  "nonclaims": ["common native semantics", "causal mechanism", "predictive value", "market value", "behavioral equivalence", "Thing 2", "tree clustering", "prevalence"]
+}

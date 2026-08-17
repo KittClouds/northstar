@@ -1,0 +1,12 @@
+{
+  "schema": "NATIVE_CARRIER_02_PROBE_REGISTRY_V1",
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "lanes": {
+    "MAIN": {"inputs": ["carrier", "L0 opaque partitions", "L1 opaque partitions"], "outputs": ["collision blocks", "survival census", "trees"]},
+    "NC02-X1": {"inputs": ["signature surface registry", "frozen construction contracts"], "outputs": ["construction forcing ledger"], "native_payload_reads": 0},
+    "NC02-X2": {"inputs": ["carrier", "L0 collision blocks", "L1 opaque partitions"], "outputs": ["global witness strata", "L0 localization"], "native_payload_reads": 0},
+    "NC02-X3": {"inputs": ["carrier", "L0 collision blocks", "L1 opaque partitions"], "outputs": ["cross-resolution relation", "cross-root pair census", "incidence"], "native_payload_reads": 0}
+  },
+  "lane_isolation": {"main_to_companions_steering": 0, "companions_to_main_steering": 0, "companion_cross_steering": 0},
+  "closure": {"main_x2_exact_reconciliation_required": true, "main_x1_equality_required": false, "main_x3_numeric_equality_required": false}
+}

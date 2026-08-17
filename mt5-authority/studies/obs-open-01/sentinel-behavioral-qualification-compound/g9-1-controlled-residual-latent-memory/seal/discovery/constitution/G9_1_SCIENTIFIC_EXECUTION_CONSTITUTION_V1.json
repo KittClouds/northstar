@@ -1,0 +1,37 @@
+{
+  "schema": "G9_1_SCIENTIFIC_EXECUTION_CONSTITUTION_V1",
+  "authority_source": "RECOGNIZED_CONSTITUTING_PROJECT_PRINCIPAL_EXECUTIVE_ORDER_2026_08_16",
+  "derivation": "NEW_DESCENDANT_NOT_G9_MUTATION",
+  "parent_G9_qualification_root": "2e65b1032d43e843129fc6a57fd16d572329cc2c6925265e8dd85d3660ee6ee5",
+  "parent_G9_primary_science_root": "3844cc9dafe1f54aa54fb501381f16faf3b5c67958bdafc2e54d50325b55b5db",
+  "question": "WITH_TRANSITION_ORDINAL_HELD_FIXED_WHAT_RESIDUAL_BOUNDARY_OR_LAWFUL_NONEMPTY_FUTURE_FRACTURES_REMAIN",
+  "phases": ["EXACT_STRATUM_CENSUS", "PRECOMMITTED_LATENT_MECHANISM_DISCOVERY"],
+  "controls": {
+    "E0": "SAME_04A_FIBER_AND_REACHABLE_AND_G6_COMPARABLE",
+    "E1": "E0_AND_EQUAL_TRANSITION_ORDINAL",
+    "E2": "E1_AND_FULL_G4_EPSILON_EQUALITY_UNDER_G6_CORRESPONDENCE",
+    "semantic_time": "SEALED_G6_AFFINE_CORRESPONDENCE_NOT_LITERAL_STORAGE_EQUALITY",
+    "additional_controls": "ONLY_AFTER_VERIFIED_MECHANISM_AND_NEW_DESCENDANT_PRECOMMIT"
+  },
+  "may_open_real_04a_da": true,
+  "may_execute_exact_g1": true,
+  "may_construct_exact_same_fiber_pairs": true,
+  "may_execute_precommitted_nonempty_g5_continuations": true,
+  "may_create_exact_G9_1_products": true,
+  "prohibitions": {
+    "D_B_reads": 0,
+    "D_C_reads": 0,
+    "D_D_reads": 0,
+    "target_reads": 0,
+    "outcome_reads": 0,
+    "external_optic_reads": 0,
+    "posthoc_controls": false,
+    "posthoc_mechanism_clustering": false,
+    "incidence_from_discovery": false,
+    "bounded_silence_implies_equivalence": false,
+    "raw_state_difference_implies_computational_activation": false,
+    "G10_necessity": false,
+    "market_prediction_or_trading": false
+  }
+}
+

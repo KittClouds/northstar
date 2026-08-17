@@ -1,0 +1,18 @@
+{
+  "schema": "G9_1_DISCOVERY_PRECOMMIT_V1",
+  "tranche": "MECHANISM_DISCOVERY_NOT_INCIDENCE",
+  "pair_order": "CANONICAL_FIBER_THEN_UNORDERED_PAIR_ID",
+  "pair_budget": 512,
+  "token_alphabet": "FIRST_16_CANONICAL_VALID_G5_RELATIVE_BAR_TOKENS",
+  "token_count": 16,
+  "nonempty_horizon": 2,
+  "continuation_order": "LENGTH_ASCENDING_THEN_LEXICOGRAPHIC_TOKEN_INDEX",
+  "maximum_continuations_per_pair": 272,
+  "saturation_stop": "128_CONSECUTIVE_QUALIFIED_PAIRS_WITH_NO_NEW_EXACT_MECHANISM_AFTER_AT_LEAST_ONE_MECHANISM",
+  "canonical_first_witness": true,
+  "frequency_authority": "NONE",
+  "incidence_authority": "NONE",
+  "no_result_driven_resizing": true,
+  "no_control_addition_during_run": true,
+  "cross_fiber_transport": "SEPARATE_POST_PRIMARY_DESCENDANT_ONLY"
+}

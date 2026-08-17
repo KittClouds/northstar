@@ -88,6 +88,10 @@ firewall_status = PASS
 
 No Sentinel, D_B/D_C/D_D, external target/outcome surface, confirmation, translator, or horizontal relation data were consumed. Native outcome fields were read only as the contract-frozen L0 signature surface. Thing 2 remains `UNBOUND`. Discovery counts are not prevalence or incidence claims. No redundancy claim is made without an explicit qualifier.
 
+## Verification record
+
+The first independent-verifier invocation produced a tooling false positive because it searched serialized selector text for the word `native_result`; the verifier was corrected to reject actual payload keys, then passed. Pytest was unavailable in the execution environment; py_compile and the three direct deterministic unit checks passed. The corrected A/B builds were byte-identical and the final independent verifier passed.
+
 ## Closure
 
 The carrier, five opaque signature products, Probe 1 partition/cube object, Probe 2 join/complement object, access ledger, and root receipt are sealed. This report records exact relational structure only; interpretation and any future real-history confirmation remain outside this campaign.

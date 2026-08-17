@@ -421,7 +421,7 @@ def render_report(parent: dict[str, Any], carrier: dict[str, Any], probe1: dict[
     lines.extend(["", "## Access and firewalls", "", "```text"])
     for key, value in access.items():
         lines.append(f"{key} = {value}")
-    lines.extend(["```", "", "No Sentinel, D_B/D_C/D_D, external target/outcome surface, confirmation, translator, or horizontal relation data were consumed. Native outcome fields were read only as the contract-frozen L0 signature surface. Thing 2 remains `UNBOUND`. Discovery counts are not prevalence or incidence claims. No redundancy claim is made without an explicit qualifier.", "", "## Closure", "", "The carrier, five opaque signature products, Probe 1 partition/cube object, Probe 2 join/complement object, access ledger, and root receipt are sealed. This report records exact relational structure only; interpretation and any future real-history confirmation remain outside this campaign."])
+    lines.extend(["```", "", "No Sentinel, D_B/D_C/D_D, external target/outcome surface, confirmation, translator, or horizontal relation data were consumed. Native outcome fields were read only as the contract-frozen L0 signature surface. Thing 2 remains `UNBOUND`. Discovery counts are not prevalence or incidence claims. No redundancy claim is made without an explicit qualifier.", "", "## Verification record", "", "The first independent-verifier invocation produced a tooling false positive because it searched serialized selector text for the word `native_result`; the verifier was corrected to reject actual payload keys, then passed. Pytest was unavailable in the execution environment; py_compile and the three direct deterministic unit checks passed. The corrected A/B builds were byte-identical and the final independent verifier passed.", "", "## Closure", "", "The carrier, five opaque signature products, Probe 1 partition/cube object, Probe 2 join/complement object, access ledger, and root receipt are sealed. This report records exact relational structure only; interpretation and any future real-history confirmation remain outside this campaign."])
     return "\n".join(lines) + "\n"
 
 
@@ -454,7 +454,9 @@ def build(args: argparse.Namespace) -> str:
     write_json(output / "NATIVE_CARRIER_ACCESS_LEDGER_V1.json", access)
     write_json(output / "NATIVE_CARRIER_01_OPERATIONAL_ATTEMPT_LEDGER_V1.json", {
         "schema": "NATIVE_CARRIER_01_OPERATIONAL_ATTEMPT_LEDGER_V1",
-        "attempts": [{"id": "CARRIER-R0", "status": "PASS", "scope": "parent roots, frozen contracts, stream hashes, and carrier membership"},
+        "attempts": [{"id": "CARRIER-V0A", "status": "SUPERSEDED_NOT_ADOPTED", "reason": "initial verifier searched serialized selector text and falsely reported a payload leak; no native payload was present in the product"},
+                     {"id": "CARRIER-V0B", "status": "ENVIRONMENTAL_TEST_LIMITATION", "reason": "pytest was unavailable; py_compile and direct deterministic unit checks were used instead"},
+                     {"id": "CARRIER-R0", "status": "PASS", "scope": "parent roots, frozen contracts, stream hashes, and carrier membership"},
                      {"id": "CARRIER-R1", "status": "PASS", "scope": "five arm-local opaque L0/L1 signature products"},
                      {"id": "CARRIER-R2", "status": "PASS", "scope": "Probe 1 partition/refinement/cube"},
                      {"id": "CARRIER-R3", "status": "PASS", "scope": "Probe 2 join/complement"}],

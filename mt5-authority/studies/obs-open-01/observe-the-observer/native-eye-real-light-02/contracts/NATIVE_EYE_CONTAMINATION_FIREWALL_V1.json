@@ -1,0 +1,28 @@
+{
+  "schema": "NATIVE_EYE_CONTAMINATION_FIREWALL_V1",
+  "allowed_partition": "D_A_ONLY",
+  "confirmation_partition": "D_C_69_SESSIONS_FROZEN_UNOPENED",
+  "forbidden_read_classes": [
+    "D_B_OHLC_OR_DERIVED_OUTCOMES",
+    "D_C_MEMBERSHIP_OR_OBSERVATIONS",
+    "D_D",
+    "TARGETS",
+    "OUTCOMES",
+    "FUTURE_DERIVED_FIELDS",
+    "SENTINEL_SCIENTIFIC_RESULTS",
+    "SIBLING_NATIVE_OUTPUTS",
+    "CX01_OUTPUT_VALUES"
+  ],
+  "arm_isolation": {
+    "export_process_per_arm": true,
+    "native_process_per_arm": true,
+    "sibling_native_values_available_during_execution": false,
+    "campaign_join_reads_only_terminal_receipts": true
+  },
+  "field_minimization": "EXPORT_ONLY_FIELDS_BOUND_TO_ACTIVE_ARM",
+  "raw_source_retention": "NONE_IN_PACKAGE",
+  "transient_packet_retention": "NONE",
+  "horizontal_science": false,
+  "Thing_2": "UNBOUND",
+  "status": "FROZEN_BEFORE_REAL_EXECUTION"
+}

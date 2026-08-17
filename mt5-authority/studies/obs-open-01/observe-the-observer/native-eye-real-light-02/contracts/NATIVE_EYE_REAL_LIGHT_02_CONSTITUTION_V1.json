@@ -1,0 +1,59 @@
+{
+  "schema": "NATIVE_EYE_REAL_LIGHT_02_CONSTITUTION_V1",
+  "authority_source": "RECOGNIZED_CONSTITUTING_PROJECT_PRINCIPAL_EXECUTIVE_ORDER_2026_08_16",
+  "purpose": "MAKE_THE_FIVE_FROZEN_NATIVE_EYES_SCIENTIFICALLY_USEFUL_ON_LAWFUL_D_A_HISTORY_WITHOUT_CROSS_ARM_OR_RESULT_CONTAMINATION",
+  "parents": {
+    "D_A_protocol_root": "3d1da3657154d5a4e11eca99cab021c71c9c8a5d6d4458469133f3d2b8e3a402",
+    "04A_root": "48102bd529abf01591842f85676b86eb66b0600dc8d702bd0dbb3d6b729b4c41",
+    "G0_root": "e317cabef33114edf47c50f4628a210ae8f1bd0b59feb436dc37e7df9cfe38bf",
+    "G1_root": "65cbe177fd5dc510ab9dc19e203a912a107ab8ac740b55a64926a1164edceafd",
+    "G4_root": "37ed98b4ebe447ef3c2152e550c99652d0157aea2c77b8a886379d1ba9e08e15",
+    "frozen_optic_identity_bundle": "FC00_SOL_ARM_IDENTITY_BUNDLE"
+  },
+  "authorized_actions": [
+    "read D_A through the sealed discovery loader",
+    "replay the exact G0 integer bridge and G1 kernel",
+    "construct arm-local projections from G4-authorized fields by a frozen type-and-authority rule",
+    "execute the unchanged frozen Python native transformation",
+    "seal native objects and native-only support morphology"
+  ],
+  "prospective_descendant_design": {
+    "allowed": true,
+    "scope": "ARM_LOCAL_FIELD_BINDING_AND_RESULT_INDEPENDENT_QUESTION_SCHEDULE_ONLY",
+    "may_change_native_algorithm": false,
+    "may_use_realized_values_to_select_fields_or_questions": false
+  },
+  "forbidden": [
+    "D_B scientific values",
+    "D_C confirmation membership or observations",
+    "D_D",
+    "targets",
+    "outcomes",
+    "future-derived fields",
+    "Sentinel result-conditioned cohorts",
+    "sibling optic outputs",
+    "cross-optic comparison",
+    "CX01 repair",
+    "Thing 2 binding",
+    "prediction economic or trading claims",
+    "incidence or prevalence claims"
+  ],
+  "execution_order": ["SOL-P1", "SOL-P2", "SOL-P3", "SOL-P4", "SOL-P5"],
+  "result_isolation": "ONE_EXPORTER_AND_ONE_PYTHON_PROCESS_PER_ARM; ONLY_RECEIPTS_JOIN_AFTER_ALL_ARMS_TERMINATE",
+  "terminal_statuses": [
+    "REAL_NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS",
+    "REAL_NATIVE_DOMAIN_EMPTY",
+    "REAL_APPLICABILITY_NOT_ESTABLISHED",
+    "NATIVE_PRECONDITION_VIOLATED_ON_REAL_DOMAIN",
+    "NOT_EVALUABLE"
+  ],
+  "nonclaims": [
+    "no cross-optic semantics",
+    "no comparison authority",
+    "no frequency law",
+    "no scientific sufficiency",
+    "no Thing 2",
+    "no market meaning"
+  ],
+  "status": "FROZEN_BEFORE_REAL_EXECUTION"
+}

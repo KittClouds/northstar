@@ -1,0 +1,71 @@
+{
+  "schema": "NATIVE_EYE_ARM_LOCAL_PROJECTION_REGISTRY_V1",
+  "selection_rule": "G4_AUTHORITY_AND_STATIC_TYPE_ONLY",
+  "value_conditioned_selection": false,
+  "common_source": "D_A_CANONICAL_INTEGER_M1_G1_APPLIED_TRACE",
+  "arms": [
+    {
+      "arm_id": "SOL-P1",
+      "native_question": "TEMPORAL_ORDER_COORDINATE_DEPENDENCE_V1",
+      "fields": [
+        "input_knowledge_time_ns",
+        "state_knowledge_time_ns",
+        "commit_knowledge_time_ns",
+        "upper_birth_knowledge_time_ns",
+        "lower_birth_knowledge_time_ns"
+      ],
+      "binding_rule": "ALL_FIVE_ALWAYS_OR_CONDITIONALLY_PRESENT_G4_AUTHORIZED_TEMPORAL_COORDINATES_IN_CANONICAL_ORDER",
+      "native_algorithm_changed": false
+    },
+    {
+      "arm_id": "SOL-P2",
+      "native_question": "FIXED_DECIMATION_HIDDEN_PROTECTED_ACTIVITY_V1",
+      "fields": ["protected_state", "ordered_emissions"],
+      "binding_rule": "EXACT_G4_PROTECTED_G1_STATE_AND_SEMANTIC_ORDERED_EMISSIONS; SOURCE_ROW_ID_REMOVED",
+      "native_algorithm_changed": false
+    },
+    {
+      "arm_id": "SOL-P3",
+      "native_question": "DETERMINACY_UNDER_CONTENT_INDEPENDENT_WITHDRAWAL_V1",
+      "fields": [
+        "causal_ordinal", "input_knowledge_time_ns", "state_knowledge_time_ns",
+        "upper_birth_knowledge_time_ns", "lower_birth_knowledge_time_ns",
+        "upper_birth_bar_index", "lower_birth_bar_index", "upper_age_bars",
+        "lower_age_bars", "upper_value_ticks", "lower_value_ticks",
+        "initialized", "upper_id", "lower_id"
+      ],
+      "question_schedule": "FOR_EACH_FIELD_FOR_EACH_LEFT_ORDINAL_FOR_OFFSETS_1_2_4_8_16_32_WHEN_RIGHT_EXISTS",
+      "question_schedule_result_independent": true,
+      "native_algorithm_changed": false
+    },
+    {
+      "arm_id": "SOL-P4",
+      "native_question": "GAP_RELATION_SENSITIVITY_TO_MONOTONE_TIME_DEFORMATION_V1",
+      "fields": [
+        "input_knowledge_time_ns", "state_knowledge_time_ns",
+        "commit_knowledge_time_ns", "upper_birth_knowledge_time_ns",
+        "lower_birth_knowledge_time_ns"
+      ],
+      "binding_rule": "EXECUTE_EACH_STATICALLY_AUTHORIZED_TEMPORAL_COORDINATE_IN_CANONICAL_ORDER",
+      "native_algorithm_changed": false
+    },
+    {
+      "arm_id": "SOL-P5",
+      "native_question": "MULTISCALE_SUPPORT_OF_INTEGER_VARIATION_V1",
+      "fields": [
+        "causal_ordinal", "input_knowledge_time_ns", "state_knowledge_time_ns",
+        "upper_birth_knowledge_time_ns", "lower_birth_knowledge_time_ns",
+        "upper_birth_bar_index", "lower_birth_bar_index", "upper_age_bars",
+        "lower_age_bars", "upper_value_ticks", "lower_value_ticks"
+      ],
+      "binding_rule": "EXECUTE_EACH_G4_AUTHORIZED_TEMPORAL_ORDINAL_OR_SCALAR_INTEGER_TRACE_IN_CANONICAL_ORDER; BOOLEAN_AND_GENEALOGICAL_IDS_EXCLUDED_FROM_MAGNITUDE_GEOMETRY",
+      "native_algorithm_changed": false
+    }
+  ],
+  "nonclaims": [
+    "field binding is not historical UATU fixture identity",
+    "descendant application does not alter native algorithm",
+    "duplicate semantic time coordinates are retained rather than deduplicated by observed values"
+  ],
+  "status": "FROZEN_BEFORE_REAL_EXECUTION"
+}

@@ -1,0 +1,30 @@
+[package]
+name = "obs-open-04a-g9"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+hashbrown = { version = "0.15.5", features = ["serde"] }
+memchr = "2.7.5"
+memmap2 = "0.9.8"
+northstar-operating-surface = { path = "../../../../governance/northstar-operating-surface-v1/engine" }
+obs-open-03a = { path = "../../future-process-atlas" }
+obs-open-04a = { path = "../../sentinel-memory-metrology" }
+obs-open-04a-g1 = { path = "../g1-semantic-kernel" }
+obs-open-04a-g5 = { path = "../g5-continuation-grammar" }
+obs-open-04a-g6 = { path = "../g6-behavioral-equivalence" }
+rayon = "1.11.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.143"
+sha2 = "0.10.9"
+
+[dev-dependencies]
+tempfile = "3.20.0"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+

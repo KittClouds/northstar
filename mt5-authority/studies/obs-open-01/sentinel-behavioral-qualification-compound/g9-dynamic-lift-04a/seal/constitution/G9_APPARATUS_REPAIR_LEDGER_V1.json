@@ -1,0 +1,40 @@
+{
+  "schema": "G9_APPARATUS_REPAIR_LEDGER_V1",
+  "repairs": [
+    {
+      "attempt": "PREFLIGHT_C_TARGET",
+      "status": "FAILED_BEFORE_SCIENTIFIC_EXECUTION",
+      "cause": "WINDOWS_DEEP_TARGET_LINK_PATH_LNK1104",
+      "repair": "ISOLATED_D_DRIVE_CARGO_TARGETS",
+      "scientific_capability_consumed": false
+    },
+    {
+      "attempt": "G9_BUILD_A",
+      "status": "NON_CONSUMABLE_DEVELOPMENT_FOSSIL",
+      "science_execution_completed": true,
+      "evidence_surface_defects": [
+        "EPSILON_ONLY_ENUM_CANONICALIZATION_MISSING_UNDERSCORE",
+        "FIBER_STATUS_LEDGER_NOT_MATERIALIZED",
+        "VERIFIER_RECEIPT_PAYLOADS_NOT_MATERIALIZED"
+      ],
+      "scientific_logic_changed_by_repair": false,
+      "search_geometry_changed_by_repair": false,
+      "result_values_used_to_change_search": false,
+      "repair": "NEW_REPAIRED_EXECUTION_LINEAGE_WITH_CANONICAL_ENUMS_AND_COMPLETE_EVIDENCE_SURFACES"
+    },
+    {
+      "attempt": "G9_BUILD_B_AND_C",
+      "status": "BYTE_IDENTICAL_QUALIFICATION_REPLAY_EVIDENCE_NOT_FINAL_PACKAGE",
+      "primary_science_root": "a5c071feb6f8e9a2be365676d79a7bc5068e0c6233d3260be66d8ae3a72eb102",
+      "complete_run_root": "783bd6b5be9a563235744aa9f25c0a7e442232291a40d60c4de2987c6a7bccab",
+      "byte_differences": 0,
+      "remaining_package_repairs": [
+        "PRESERVE_FULL_UPSTREAM_ACCESS_AUDIT",
+        "MATERIALIZE_04A_LOST_DEGREES_CONTRACT_AUDIT",
+        "BIND_SOURCE_AND_CONSTITUTION_SNAPSHOTS_IN_OUTER_PACKAGE"
+      ],
+      "scientific_logic_changed_by_repair": false,
+      "search_geometry_changed_by_repair": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "G9_DATA_CAPABILITY_V1",
+  "capability_id": "REAL_04A_DA_READ_FOR_G9_DYNAMIC_LIFT_V1",
+  "single_execution": true,
+  "authorized_path": "D:\\obs-open-01\\qualification\\universe-v1\\raw\\OBS_OPEN_01_source_bars.tsv",
+  "expected_bytes": 93138485,
+  "expected_sha256": "125b768ad87ba578c5498deffe50462909a6a1be422953a0f7488f036aac9d5b",
+  "authorized_partition": "D_A",
+  "authorized_operations": [
+    "LOAD_ATLAS_AUTHORITY",
+    "G1_EXACT_REPLAY",
+    "04A_EXACT_PRIMARY_MAP_PROJECTION",
+    "G6_COMPARABILITY",
+    "G9_EXACT_VERIFICATION"
+  ],
+  "forbidden_partitions": ["D_B", "D_C", "D_D"],
+  "outcomes": "FORBIDDEN",
+  "targets": "FORBIDDEN",
+  "parallax_before_primary_seal": "FORBIDDEN"
+}
+

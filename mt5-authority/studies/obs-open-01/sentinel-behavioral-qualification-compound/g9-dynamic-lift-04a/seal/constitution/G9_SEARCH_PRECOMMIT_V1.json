@@ -1,0 +1,22 @@
+{
+  "schema": "G9_SEARCH_PRECOMMIT_V1",
+  "frozen_before_authorized_D_A_open": true,
+  "pair_order": "MAP_ID_THEN_REDUCED_KEY_THEN_SESSION_ID_THEN_PREFIX_ORDINAL_LEXICOGRAPHIC",
+  "epsilon_first": true,
+  "continuation_coupling": "RELATIVE_COMPLETED_BAR_COUPLING_V1",
+  "token_order": "COVERAGE_COMPLETE_THEN_OHLC_DELTAS_LEXICOGRAPHIC",
+  "delta_tick_domain": [-1, 0, 1],
+  "coverage_domain": [false, true],
+  "horizon": 1,
+  "search_budget_lawful_pairs": 1024,
+  "primary_stop": "FIRST_EXACT_MAP_FALSIFICATION_MAY_CLOSE_PRIMARY_PROOF",
+  "secondary_characterization": "CONTINUE_THROUGH_FROZEN_PAIR_BUDGET",
+  "canonical_first_witness": "FIRST_VERIFIED_WITNESS_IN_FROZEN_ENUMERATION",
+  "retries": 0,
+  "fallbacks": 0,
+  "post_result_tuning": false,
+  "scientific_sufficiency": "NOT_CLAIMED",
+  "global_exhaustiveness": "NOT_CLAIMED",
+  "global_minimality": "NOT_CLAIMED"
+}
+

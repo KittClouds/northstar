@@ -1,0 +1,23 @@
+{
+  "schema": "CX01_CROSS_TYPE_CORRESPONDENCE_CONSTITUTION_V1",
+  "question": "Can each pair of already-sealed native synthetic optic objects answer one contract-justified common comparison question through non-enriching, nondegenerate projections?",
+  "pair_count": 10,
+  "pair_order": "canonical lexicographic arm_id",
+  "static_inputs_only": true,
+  "sibling_native_values_before_tranche_close": "FORBIDDEN",
+  "sentinel_values": "FORBIDDEN",
+  "raw_fixture": "FORBIDDEN",
+  "target": "FORBIDDEN",
+  "outcome": "FORBIDDEN",
+  "candidate_correspondence_family": "derive only from sealed native type contracts and static correspondence authority",
+  "common_question_semantics_required": true,
+  "non_enrichment_required": true,
+  "nondegeneracy_required": true,
+  "native_provenance_required_on_both_sides": true,
+  "design_non_conditioning_required": true,
+  "minimality_claim": "FORBIDDEN_UNLESS_EARNED",
+  "translator_composition": "FORBIDDEN",
+  "terminal_statuses": ["CROSS_TYPE_CORRESPONDENCE_QUALIFIED", "CROSS_TYPE_CORRESPONDENCE_QUALIFIED_WITH_RESTRICTIONS", "MULTIPLE_ADMISSIBLE_CORRESPONDENCES", "COMMON_ENCODING_WITHOUT_COMMON_SEMANTICS", "NO_NON_ENRICHING_COMMON_PROJECTION", "DEGENERATE_COMMON_PROJECTION", "QUESTION_TYPES_STRUCTURALLY_INCOMPATIBLE", "NO_LAWFUL_SHARED_QUESTION_DOMAIN", "NOT_EVALUABLE"],
+  "access_firewall": {"native_output_value_reads": 0, "sibling_native_reads": 0, "sentinel_reads": 0, "raw_fixture_reads": 0, "population_reads": 0, "target_reads": 0, "outcome_reads": 0},
+  "nonclaims": ["no horizontal science", "no real-history applicability", "no Thing 2", "no optic ranking"]
+}

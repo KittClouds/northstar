@@ -1,0 +1,8 @@
+{
+  "schema": "CX01_TRANSLATOR_COLLAPSE_GEOMETRY_V1",
+  "status": "NOT_LIVE_NO_ADMISSIBLE_TRANSLATOR",
+  "entries": [],
+  "reason": "No pair earned a candidate common object, so no translator may be executed or characterized.",
+  "design_firewall": "write-only side object; no RH01 or horizontal steering",
+  "nonclaims": ["no information-retention estimate", "no degenerate percentage", "no cross-optic value comparison"]
+}

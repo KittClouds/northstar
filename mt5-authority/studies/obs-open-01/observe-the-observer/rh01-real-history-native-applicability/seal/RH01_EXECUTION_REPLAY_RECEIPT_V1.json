@@ -1,0 +1,1 @@
+{"arm_order":["SOL-P1","SOL-P2","SOL-P3","SOL-P4","SOL-P5"],"cross_arm_result_reads":0,"native_output_value_reads":0,"nonclaims":["replay does not establish real applicability"],"real_history_reads":0,"replay_mode":"STATIC_METADATA_ONLY","schema":"RH01_EXECUTION_REPLAY_RECEIPT_V1","status":"PASS_BYTE_IDENTICAL"}

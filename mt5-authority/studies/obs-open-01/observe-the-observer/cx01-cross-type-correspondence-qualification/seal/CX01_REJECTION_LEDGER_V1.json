@@ -1,0 +1,11 @@
+{
+  "schema": "CX01_REJECTION_LEDGER_V1",
+  "status": "SEALED",
+  "rejections": [
+    {"candidate": "BOOL_STATUS_ENCODING", "reason": "COMMON_ENCODING_WITHOUT_COMMON_SEMANTICS", "pair_count": 10},
+    {"candidate": "RAW_STRUCTURAL_ENCODING", "reason": "TRANSLATOR_BECAME_OBSERVER", "pair_count": 10}
+  ],
+  "unqualified_authority": ["no cross-type correspondence root", "no common question semantics root", "no translator authority"],
+  "native_output_values_read": 0,
+  "nonclaims": ["no pair is scientifically impossible in all future descendants", "no horizontal conclusion"]
+}

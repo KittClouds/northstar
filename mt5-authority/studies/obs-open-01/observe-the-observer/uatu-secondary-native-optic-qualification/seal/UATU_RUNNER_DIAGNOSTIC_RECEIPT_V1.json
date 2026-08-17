@@ -1,0 +1,11 @@
+{
+  "schema": "UATU_RUNNER_DIAGNOSTIC_RECEIPT_V1",
+  "status": "CLOSED_NON_SCIENTIFIC_DIAGNOSTIC",
+  "first_attempt": "FAILED_BEFORE_ARM_EXECUTION",
+  "failure": "NameError: JSON literal false used in Python runner",
+  "scientific_artifacts_written_before_failure": false,
+  "population_or_result_access_before_failure": 0,
+  "repair": "Python boolean literal corrected to False before any arm receipt was accepted",
+  "reexecution": "PASS",
+  "nonclaims": ["not an arm result", "not a native-object failure", "not a qualification rejection"]
+}

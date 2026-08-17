@@ -1,0 +1,16 @@
+{
+  "schema": "UATU_IDENTITY_REPLAY_AUDIT_V1",
+  "status": "ARM_IDENTITIES_MATCH_EXCEPT_PREEXISTING_AGGREGATE_CONTRACT_ROOT",
+  "sealed_identity_bundle_sha256": "5912e384a5ebea237718415a451e643ebbd3a553c9cac3e48709ac76435f81fd",
+  "sealed_contracts_root": "08f1ef4926ab4ef3a4c26a6d370ebedd899f4b4683e6e4137e72a06e94084095",
+  "recomputed_contracts_root": "657e6145aceb26b565030da64eabde23bc7b58e576fbc17ca4598f2f00d55096",
+  "arm_identity_fields_match": true,
+  "implementation_hashes_match": true,
+  "optic_question_runtime_fields_match": true,
+  "common_source_root_match": true,
+  "historical_bundle_mutated": false,
+  "disposition": "RECONCILED_BY_NEW_DESCENDANT_ROOT",
+  "new_reconciliation_root": "512e62cfe40dea572d53514721721e430779dbf624cbb18e5ee5c6e79964b1c6",
+  "real_history_authority": "NONE",
+  "nonclaims": ["does not rewrite FC00", "does not promote synthetic output to real history", "does not qualify horizontal comparison"]
+}

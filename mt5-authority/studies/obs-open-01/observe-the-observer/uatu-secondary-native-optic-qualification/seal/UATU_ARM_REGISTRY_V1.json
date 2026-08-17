@@ -1,0 +1,16 @@
+{
+  "schema": "UATU_ARM_REGISTRY_V1",
+  "status": "TRANCHE_FROZEN_BEFORE_NATIVE_EXECUTION",
+  "planned_arm_set": [
+    {"arm_id": "SOL-P1", "optic_id": "CLOCK_PARALLAX_V1", "native_object_type": "INTEGER_COORDINATE_COMPARISON_RELATION", "question_id": "TEMPORAL_ORDER_COORDINATE_DEPENDENCE_V1"},
+    {"arm_id": "SOL-P2", "optic_id": "CAUSAL_RESOLUTION_LADDER_V1", "native_object_type": "CAUSAL_DECIMATION_HIDDEN_ACTIVITY_LEDGER", "question_id": "FIXED_DECIMATION_HIDDEN_PROTECTED_ACTIVITY_V1"},
+    {"arm_id": "SOL-P3", "optic_id": "PARTIAL_INFORMATION_MASK_FAMILY_V1", "native_object_type": "PARTIAL_INFORMATION_MASK_DETERMINACY_OBJECT", "question_id": "DETERMINACY_UNDER_CONTENT_INDEPENDENT_WITHDRAWAL_V1"},
+    {"arm_id": "SOL-P4", "optic_id": "INTEGER_MONOTONE_TIME_DEFORMATION_V1", "native_object_type": "MONOTONE_TIME_DEFORMATION_GAP_RELATION", "question_id": "GAP_RELATION_SENSITIVITY_TO_MONOTONE_TIME_DEFORMATION_V1"},
+    {"arm_id": "SOL-P5", "optic_id": "INTEGER_HAAR_LIFTING_V1", "native_object_type": "INTEGER_HAAR_MULTISCALE_LIFT", "question_id": "MULTISCALE_SUPPORT_OF_INTEGER_VARIATION_V1"}
+  ],
+  "execution_order": ["SOL-P1", "SOL-P2", "SOL-P3", "SOL-P4", "SOL-P5"],
+  "ordering_authority": "UATU_SECONDARY_TRANCHE_CONSTITUTION_V1",
+  "native_statuses_before_execution": "PENDING",
+  "horizontal_translation": "OUT_OF_SCOPE",
+  "native_values_from_other_arms": "FORBIDDEN"
+}

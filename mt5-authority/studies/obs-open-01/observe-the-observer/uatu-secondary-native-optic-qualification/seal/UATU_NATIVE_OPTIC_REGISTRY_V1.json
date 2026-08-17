@@ -1,0 +1,16 @@
+{
+  "schema": "UATU_NATIVE_OPTIC_REGISTRY_V1",
+  "status": "TRANCHE_TERMINAL_NATIVE_OBJECTS_SEALED_WITH_RESTRICTIONS",
+  "identity_authority_root": "512e62cfe40dea572d53514721721e430779dbf624cbb18e5ee5c6e79964b1c6",
+  "native_optics": [
+    {"arm_id": "SOL-P1", "optic_id": "CLOCK_PARALLAX_V1", "native_object_type": "INTEGER_COORDINATE_COMPARISON_RELATION", "native_object_root": "af03d85f9aed62a42a29de4a160f447c03464ffaa1bd3fe30500b98eaae6fc96", "qualification_receipt_sha256": "3e848c39a5dad50e0511cd81a7d997b28f0d4be9f8dc3402c37cb6cb7cac358c", "native_output_summary": "MIXED", "native_domain": "16-record synthetic fixture", "status": "NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS"},
+    {"arm_id": "SOL-P2", "optic_id": "CAUSAL_RESOLUTION_LADDER_V1", "native_object_type": "CAUSAL_DECIMATION_HIDDEN_ACTIVITY_LEDGER", "native_object_root": "8619d3e37a9859f2a176df0f4dd74de53c18dc21e5de0670f8b9911a8504e2a3", "qualification_receipt_sha256": "170d0b2c675590bd2f9dd1acb45f3c156ad1ae86b3f003b5ab9cf234b9d84d70", "native_output_summary": "YES", "native_domain": "16-record synthetic fixture", "status": "NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS"},
+    {"arm_id": "SOL-P3", "optic_id": "PARTIAL_INFORMATION_MASK_FAMILY_V1", "native_object_type": "PARTIAL_INFORMATION_MASK_DETERMINACY_OBJECT", "native_object_root": "e8cc71570e2bf6b93256bb4f9394a894cf3faa06aad7e9e7828e8a4b740bd362", "qualification_receipt_sha256": "6a9bc0301d31b530043baa6db82ef9241065e2fc3ff54bcfe5aecfc2d12aee8e", "native_output_summary": "NO", "native_domain": "16-record synthetic fixture", "status": "NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS"},
+    {"arm_id": "SOL-P4", "optic_id": "INTEGER_MONOTONE_TIME_DEFORMATION_V1", "native_object_type": "MONOTONE_TIME_DEFORMATION_GAP_RELATION", "native_object_root": "4a2a5779f75a8af0172e67ec32e06990f3e87f28286236a00429cafdab775bf5", "qualification_receipt_sha256": "f7d35046c4a5194630305d602f31eda769020144668cbbb55141d5e2532bfabf", "native_output_summary": "YES", "native_domain": "16-record synthetic fixture", "status": "NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS"},
+    {"arm_id": "SOL-P5", "optic_id": "INTEGER_HAAR_LIFTING_V1", "native_object_type": "INTEGER_HAAR_MULTISCALE_LIFT", "native_object_root": "85106f972bdb73593cb846c8f97d6a410e2439ceff3d941c31db7b435487f200", "qualification_receipt_sha256": "e8b7ccf334c02477430784d0d43c564e3e374e5b3642d2d57477716457026627", "native_output_summary": "YES", "native_domain": "16-record synthetic fixture", "status": "NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS"}
+  ],
+  "protocol_only_non_native": [{"arm_id": "SOL-P6", "status": "ARM_NOT_EVALUABLE", "reason": "identity not materialized in FC00 bundle"}],
+  "native_objects_are_not_horizontal_views": true,
+  "real_history_applicability": "NOT_ESTABLISHED",
+  "nonclaims": ["no Sentinel comparison", "no shared equivalence type", "no optic ranking", "no Thing 2"]
+}

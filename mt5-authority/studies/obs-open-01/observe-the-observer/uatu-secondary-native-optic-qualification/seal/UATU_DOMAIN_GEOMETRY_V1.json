@@ -1,0 +1,26 @@
+{
+  "schema": "UATU_DOMAIN_GEOMETRY_V1",
+  "status": "RESULT_BLIND_DOMAIN_GEOMETRY_SEALED",
+  "source": "frozen synthetic fixture and frozen arm question configurations only",
+  "native_specimen_domains": [
+    {"arm_id": "SOL-P1", "D_status": "NONEMPTY", "D_cardinality": 16},
+    {"arm_id": "SOL-P2", "D_status": "NONEMPTY", "D_cardinality": 16},
+    {"arm_id": "SOL-P3", "D_status": "NONEMPTY", "D_cardinality": 16},
+    {"arm_id": "SOL-P4", "D_status": "NONEMPTY", "D_cardinality": 16},
+    {"arm_id": "SOL-P5", "D_status": "NONEMPTY", "D_cardinality": 16}
+  ],
+  "pairwise_specimen_pullbacks": {"status": "NONEMPTY", "cardinality": 16, "basis": "common canonical synthetic specimen identity"},
+  "native_question_domains": [
+    {"arm_id": "SOL-P1", "Q_status": "NONEMPTY", "Q_cardinality": 49, "basis": "offsets 1,2,4,8 over 16 records and two coordinates"},
+    {"arm_id": "SOL-P2", "Q_status": "NONEMPTY", "Q_cardinality": 11, "basis": "widths 2,4,8 fixed windows over 16 records"},
+    {"arm_id": "SOL-P3", "Q_status": "NONEMPTY", "Q_cardinality": 6, "basis": "six frozen masks applied to one frozen statement"},
+    {"arm_id": "SOL-P4", "Q_status": "NONEMPTY", "Q_cardinality": 75, "basis": "15 adjacent gaps across five frozen deformations"},
+    {"arm_id": "SOL-P5", "Q_status": "NONEMPTY", "Q_cardinality": 1, "basis": "one frozen integer multiscale transform request"}
+  ],
+  "pairwise_native_question_pullbacks": "OVERLAP_NOT_CONSTRUCTIBLE",
+  "pairwise_native_question_reason": "native question types differ and no cross-type correspondence or translator is qualified",
+  "higher_order_pullbacks": "NOT_CONSTRUCTIBLE",
+  "result_values_used": false,
+  "sample_bag_candidate": "none; geometry is mechanically explained by frozen eligibility/configuration",
+  "nonclaims": ["no cross-optic relation", "no attainable signature restriction", "no Thing 2"]
+}

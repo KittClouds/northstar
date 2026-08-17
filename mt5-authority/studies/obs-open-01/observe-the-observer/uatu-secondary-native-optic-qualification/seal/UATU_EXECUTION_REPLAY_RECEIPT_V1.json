@@ -1,0 +1,1 @@
+{"schema":"UATU_EXECUTION_REPLAY_RECEIPT_V1","status":"PASS_BYTE_IDENTICAL","first_artifact_count":18,"second_artifact_count":18,"byte_identical":true,"execution_order":["SOL-P1","SOL-P2","SOL-P3","SOL-P4","SOL-P5"],"native_qualified_count":5,"population_reads":0,"sentinel_reads":0,"other_secondary_native_reads":0,"target_reads":0,"outcome_reads":0}

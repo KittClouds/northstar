@@ -1,0 +1,22 @@
+{
+  "schema": "DARK_FOREST_POST_UATU_NATIVE_STATUS_RECEIPT_V1",
+  "parent_horizontal_root": "73e0bdea5b0dcf7389e262aef012483f2c7bc124363b55dc470d4232a7d7e640",
+  "uatu_root_receipt": "UATU_ROOT_RECEIPT_V1",
+  "status": "NATIVE_STATUS_REOPENED_NO_HORIZONTAL_SCIENCE",
+  "qualified_native_optics": [
+    {"optic_id": "SENTINEL_G9_PRIMARY", "scope": "DECLARED_D_A_RESTRICTED_SCOPE", "native_object_status": "QUALIFIED_WITH_RESTRICTIONS"},
+    {"optic_id": "CLOCK_PARALLAX_V1", "scope": "SYNTHETIC_ONLY", "native_object_status": "QUALIFIED_WITH_RESTRICTIONS"},
+    {"optic_id": "CAUSAL_RESOLUTION_LADDER_V1", "scope": "SYNTHETIC_ONLY", "native_object_status": "QUALIFIED_WITH_RESTRICTIONS"},
+    {"optic_id": "PARTIAL_INFORMATION_MASK_FAMILY_V1", "scope": "SYNTHETIC_ONLY", "native_object_status": "QUALIFIED_WITH_RESTRICTIONS"},
+    {"optic_id": "INTEGER_MONOTONE_TIME_DEFORMATION_V1", "scope": "SYNTHETIC_ONLY", "native_object_status": "QUALIFIED_WITH_RESTRICTIONS"},
+    {"optic_id": "INTEGER_HAAR_LIFTING_V1", "scope": "SYNTHETIC_ONLY", "native_object_status": "QUALIFIED_WITH_RESTRICTIONS"}
+  ],
+  "native_domain_status": "ESTABLISHED_ONLY_WITH_DECLARED_SCOPES",
+  "specimen_pullback_status": "NONEMPTY_SYNTHETIC_ONLY_FOR_SECONDARY_ARMS",
+  "native_question_pullback_status": "OVERLAP_NOT_CONSTRUCTIBLE",
+  "cross_type_correspondence_status": "NOT_QUALIFIED",
+  "relation_signatures": "NONE",
+  "refinement_or_incomparability": "NONE",
+  "thing_2": "UNBOUND",
+  "nonclaims": ["no horizontal comparison", "no cross-optic agreement", "no real-history secondary authority"]
+}

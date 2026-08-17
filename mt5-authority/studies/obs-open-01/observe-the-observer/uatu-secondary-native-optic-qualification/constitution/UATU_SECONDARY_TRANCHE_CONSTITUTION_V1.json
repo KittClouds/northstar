@@ -1,0 +1,39 @@
+{
+  "schema": "UATU_SECONDARY_TRANCHE_CONSTITUTION_V1",
+  "mission": "Qualify planned secondary optics as native scientific objects on their own lawful synthetic scope before any horizontal comparison.",
+  "planned_arm_set": ["SOL-P1", "SOL-P2", "SOL-P3", "SOL-P4", "SOL-P5"],
+  "protocol_only_arms": [{"arm_id": "SOL-P6", "status": "ARM_NOT_EVALUABLE", "reason": "no materialized native identity in FC00 bundle"}],
+  "execution_order": {"rule": "canonical lexicographic arm_id", "order": ["SOL-P1", "SOL-P2", "SOL-P3", "SOL-P4", "SOL-P5"], "result_independent": true},
+  "common_prerequisites": ["SOL_FC00_ARM_IDENTITY_BUNDLE_V1", "SOL_EXECUTION_ENVIRONMENT_CONTRACT_V1", "SOL_AUTHORIZED_OPTICAL_INPUT_V1", "SOL_COMMON_RESOURCE_POLICY_V1", "SOL_COMPLETE_FROZEN_DOMAIN_V1", "SOL_PRE_READ_RETRY_ONLY_V1", "SOL_FC02_SYNTHETIC_QUALIFICATION_RECEIPT_V1"],
+  "common_transport_boundary": {
+    "status": "QUALIFIED_SYNTHETIC_ONLY",
+    "may_provide": ["canonical specimen identity", "synthetic fixture provenance", "integer and ordered field transport", "input integrity", "access accounting"],
+    "may_not_provide": ["native state semantics", "native equivalence", "pair selection", "result steering", "cross-optic ontology", "population authority"]
+  },
+  "result_isolation": {
+    "cross_arm_native_values": "FORBIDDEN_UNTIL_ENTIRE_TRANCHE_TERMINAL",
+    "sentinel_values": "FORBIDDEN",
+    "G9_G9_1_cohort_reuse": "FORBIDDEN",
+    "target_or_outcome_inputs": "FORBIDDEN",
+    "result_conditioned_retuning": false,
+    "result_conditioned_stopping": false
+  },
+  "native_object_rule": {
+    "type_is_arm_native": true,
+    "shared_relation_type_required": false,
+    "native_object_must_be_sealed_before_translation": true,
+    "horizontal_translator_in_scope": false
+  },
+  "terminal_statuses": ["NATIVE_OBJECT_QUALIFIED", "NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS", "NATIVE_DOMAIN_EMPTY", "NATIVE_DOMAIN_NOT_ESTABLISHED", "PREREQUISITE_NOT_EVALUABLE", "FORMALISM_NOT_APPLICABLE", "ARM_NOT_EVALUABLE"],
+  "access_firewall": {
+    "population_reads": 0,
+    "real_04a_history_reads": 0,
+    "sentinel_reads": 0,
+    "other_secondary_native_reads": 0,
+    "target_reads": 0,
+    "outcome_reads": 0,
+    "g8_invocations": 0,
+    "explorer_invocations": 0
+  },
+  "nonclaims": ["no Sentinel agreement", "no horizontal overlap", "no independence score", "no Thing 2", "no market_or_predictive_meaning"]
+}

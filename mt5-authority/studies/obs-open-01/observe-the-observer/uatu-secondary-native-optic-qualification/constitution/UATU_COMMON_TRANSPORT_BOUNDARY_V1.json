@@ -1,0 +1,13 @@
+{
+  "schema": "UATU_COMMON_TRANSPORT_BOUNDARY_V1",
+  "status": "QUALIFIED_SYNTHETIC_ONLY",
+  "source_authority": "SOL_FC00_ARM_IDENTITY_BUNDLE_V1",
+  "allowed_operations": ["DIRECT_COPY", "INTEGER_VALIDATION", "ORDER_PRESERVING_PACKAGING", "CANONICAL_SERIALIZATION", "PROVENANCE_ATTACHMENT", "ACCESS_ACCOUNTING"],
+  "native_semantics_injected": false,
+  "cross_arm_result_access": false,
+  "population_access": false,
+  "sentinel_access": false,
+  "allowed_fields": ["causal_ordinal", "t_event", "t_knowledge", "protected_state", "emissions", "value_ticks"],
+  "forbidden_fields": ["target", "outcome", "future", "economic", "trading", "cross_arm_result", "grammar_state_and_event"],
+  "nonclaims": ["not a common observer", "not a native optic", "not real-history transport authority", "not horizontal comparison authority"]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "NATIVE_SIGNATURE_SURFACE_REGISTRY_V1",
+  "status": "FROZEN_BEFORE_NATIVE_VALUE_READS",
+  "arms": {
+    "SOL-P1": {"L0": "native_result.outcome", "L1": "path_complete + exact native_result payload"},
+    "SOL-P2": {"L0": "native_result.outcome", "L1": "path_complete + exact native_result payload"},
+    "SOL-P3": {"L0": "native_result.outcome", "L1": "path_complete + exact native_result payload"},
+    "SOL-P4": {"L0": "sorted field -> native_result[field].outcome tuple", "L1": "path_complete + exact native_result payload"},
+    "SOL-P5": {"L0": "sorted field -> native_result[field].outcome tuple", "L1": "path_complete + exact native_result payload"}
+  },
+  "L1_excluded_outer_fields": {
+    "specimen_id": "transport/provenance identity; carried by common carrier, not signature",
+    "record_count": "outer transport validation; native payload retains its exact scientific structure"
+  },
+  "L1_retained_outer_fields": {
+    "path_complete": "native scope/incomplete-path status required for interpretation"
+  },
+  "relation_input": "opaque class IDs and carrier IDs only; no native payload"
+}

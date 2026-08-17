@@ -1,0 +1,56 @@
+{
+  "schema": "NATIVE_CARRIER_01_CONSTITUTION_V1",
+  "status": "FROZEN_BEFORE_NATIVE_VALUE_READS",
+  "purpose": "Construct two prospectively frozen probe families over five sealed native real-history objects without changing native optics or opening horizontal science.",
+  "parent_native_morph_root": "70b9848742b050dcb9c578b62c5f74d59e0e1cf17ff626f12a86c41fcc95b9bd",
+  "parent_real_light_root": "2a748f34f1c72703a0658f6dd5daa02ed88140017f278ff7e06661d1b22b366d",
+  "arms": ["SOL-P1", "SOL-P2", "SOL-P3", "SOL-P4", "SOL-P5"],
+  "carrier": {
+    "identity": "sealed_specimen_id_and_provenance_identity",
+    "required_specimen_count": 154,
+    "require_equal_membership_across_arms": true,
+    "ordering": "canonical_specimen_id_ascending",
+    "empty_statuses": ["CARRIER_NOT_CONSTRUCTIBLE", "CARRIER_CONSTRUCTED_EMPTY", "CARRIER_NONEMPTY"]
+  },
+  "signature_levels": {
+    "L0": "canonical_native_outcome_representation_when_existing_in_sealed_payload",
+    "L1": "complete_sealed_native_scientific_payload_excluding_only_outer_transport_identity",
+    "inclusion": "L0_is_a_declared_exact_projection; L1_is_not_feature_engineered",
+    "class_identity": "exact_canonical_bytes_sha256_verified_by_byte_equality",
+    "class_ids_are_opaque_to_relation_layer": true
+  },
+  "probe_1": {
+    "name": "native-distinction-partition-and-cube-probe",
+    "inputs": "sealed opaque signature products and common carrier only",
+    "outputs": ["partition anatomy", "exact refinement/incomparability", "all nonempty meet anatomy", "five-bit distinction cube", "unique contribution triggers"],
+    "no_payload_reentry": true
+  },
+  "probe_2": {
+    "name": "native-join-and-complement-probe",
+    "inputs": "sealed Probe 1 partition products only",
+    "outputs": ["join anatomy", "meet/join complement witnesses", "inclusion-minimal bases", "residual components"],
+    "no_native_payload_reads": true
+  },
+  "firewall": {
+    "D_A_raw_reads": 0,
+    "D_B_reads": 0,
+    "D_C_reads": 0,
+    "D_D_reads": 0,
+    "confirmation_sessions_opened": 0,
+    "Sentinel_values_consumed": 0,
+    "targets_read": 0,
+    "outcomes_read": 0,
+    "horizontal_science": false,
+    "semantic_translators_created": 0,
+    "Thing_2": "UNBOUND"
+  },
+  "nonclaims": [
+    "no_cross_optic_equivalence_is_inferred",
+    "no_redundancy_claim_without_qualifier",
+    "no_common_latent_object",
+    "no_prevalence_or_incidence_from_discovery_counts",
+    "no_target_or_market_meaning",
+    "no_confirmation_generalization",
+    "no_horizontal_science"
+  ]
+}

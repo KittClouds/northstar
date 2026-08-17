@@ -1,0 +1,57 @@
+{
+  "schema": "REAL_LIGHT_01_CONSTITUTION_V1",
+  "mission": "Test whether the five already-qualified synthetic native optics can be instantiated on lawful real 04A history without changing their scientific identity.",
+  "planned_arm_set": ["SOL-P1", "SOL-P2", "SOL-P3", "SOL-P4", "SOL-P5"],
+  "execution_order": {
+    "rule": "canonical lexicographic arm_id",
+    "result_independent": true
+  },
+  "scientific_identity_invariant": "F_i_real_equals_F_i_synthetic",
+  "architecture": {
+    "common_transport": "T_H_REAL_TO_C_REAL",
+    "arm_local_admission": "A_i_C_REAL_TO_X_i",
+    "native_optic": "F_i_FROZEN_SYNTHETIC_IDENTITY"
+  },
+  "common_transport_may_provide": [
+    "canonical_source_identity",
+    "chronology_and_causal_ordering",
+    "provenance",
+    "authorized_source_representation",
+    "canonical_integer_value_transport",
+    "session_context_identity_if_common",
+    "access_accounting"
+  ],
+  "common_transport_may_not_provide": [
+    "native_state_semantics",
+    "native_relation_semantics",
+    "native_question_selection",
+    "cross_arm_ontology",
+    "population_authority",
+    "result_steering"
+  ],
+  "forbidden_inputs": [
+    "sentinel_outputs",
+    "other_real_secondary_outputs",
+    "cx01_sibling_values",
+    "targets",
+    "outcomes",
+    "thing_2_hypotheses",
+    "future_horizontal_overlap",
+    "result_conditioned_parameters",
+    "post_hoc_native_repair"
+  ],
+  "terminal_statuses": [
+    "REAL_NATIVE_OBJECT_QUALIFIED",
+    "REAL_NATIVE_OBJECT_QUALIFIED_WITH_RESTRICTIONS",
+    "REAL_NATIVE_DOMAIN_EMPTY",
+    "REAL_APPLICABILITY_NOT_ESTABLISHED",
+    "NATIVE_PRECONDITION_VIOLATED_ON_REAL_DOMAIN",
+    "NOT_EVALUABLE"
+  ],
+  "support_morphology": "NATIVE_ONLY_AFTER_REAL_NATIVE_OBJECT_SEALED",
+  "surprise_sweep": "REAL_LIGHT_X1_WRITE_ONLY_PER_ARM",
+  "horizontal_science": "OUT_OF_SCOPE",
+  "cx01": "IMMUTABLE_CLOSED",
+  "thing_2": "UNBOUND",
+  "repair_policy": "NO_REPAIR_NEW_OPTIC_LINEAGE_REQUIRED"
+}

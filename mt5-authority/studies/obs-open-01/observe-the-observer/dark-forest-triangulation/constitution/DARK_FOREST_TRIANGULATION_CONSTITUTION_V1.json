@@ -1,0 +1,79 @@
+{
+  "schema": "DARK_FOREST_TRIANGULATION_CONSTITUTION_V1",
+  "phase": "HORIZONTAL_TRIANGULATION",
+  "purpose": "Map typed relational geometry of independently qualified observer optics without binding Thing 2.",
+  "primary_boundary": "Each optic must first produce and seal its native scientific object; cross-optic comparison is downstream only.",
+  "relation_status_vocabulary": [
+    "DISTINGUISHED",
+    "PRESERVED_EXACT",
+    "BOUNDED_SILENCE",
+    "NOT_COMPARABLE",
+    "NOT_EVALUABLE"
+  ],
+  "native_object_rule": {
+    "complete_equivalence_relation_not_inferred": true,
+    "partition_authority_not_inferred": true,
+    "preservation_requires_positive_authority": true,
+    "bounded_silence_is_not_preservation": true
+  },
+  "lawful_overlap_rule": {
+    "definition": "Q_ij = Q_i intersect Q_j under both correspondence and context contracts.",
+    "outcome_conditioned_subset_selection_forbidden": true,
+    "pair_identity_must_be_common": true,
+    "orientation": "preserve if either relation is directional; otherwise canonical unordered pair"
+  },
+  "relation_signature_rule": {
+    "definition": "S(p) = typed status vector across optics for one common lawful pair.",
+    "voting_or_numeric_reduction_forbidden": true,
+    "unknowns_not_coerced_to_zero": true
+  },
+  "refinement_rule": {
+    "requires_positive_preservation_authority": true,
+    "counterexample_must_be_constructive": true,
+    "claims_are_domain_indexed": true,
+    "incomparability_requires_opposite_witnesses": true
+  },
+  "independence_rule": {
+    "representation": "typed anatomy vector",
+    "scalar_independence_score_forbidden": true,
+    "shared_ancestry_must_be_carried": true,
+    "cheap_explanation_attack_required": true
+  },
+  "sampling_rule": {
+    "discovery_frequency_is_not_incidence": true,
+    "incidence_requires_frozen_sampling_design": true,
+    "adaptive_discovery_must_not_be_promoted": true
+  },
+  "target_firewall": {
+    "thing_2_status": "UNBOUND",
+    "latent_object_construction_forbidden": true,
+    "market_or_predictive_interpretation_forbidden": true
+  },
+  "primary_optic_firewall": {
+    "external_optic_inputs_before_primary_seal": 0,
+    "secondary_optics_may_not_select_primary_inputs": true,
+    "secondary_optics_may_not_redefine_primary_verdicts": true
+  },
+  "exploratory_direction": {
+    "id": "ATTAINABLE_RELATION_SIGNATURE_GEOMETRY",
+    "status": "AUTHORIZED_AS_SEPARATE_EXPLORATORY_SIDE_OBJECT",
+    "inputs": "already-sealed typed relation signatures only",
+    "latent_object_inference": "FORBIDDEN",
+    "mechanical_exclusion_and_shared_ancestry_attacks_required": true
+  },
+  "access_firewall": {
+    "population_reads": 0,
+    "target_reads": 0,
+    "outcome_reads": 0,
+    "pair_construction": 0,
+    "token_realization": 0,
+    "g8_invocations": 0,
+    "explorer_invocations": 0
+  },
+  "nonclaims": [
+    "no_common_hidden_object",
+    "no_cross_optic_confluence",
+    "no_thing_2_identity",
+    "no_population_or_economic_authority"
+  ]
+}

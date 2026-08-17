@@ -1,0 +1,14 @@
+{
+  "schema": "DARK_FOREST_REFINEMENT_ATLAS_V1",
+  "status": "NO_REFINEMENT_OR_INCOMPARABILITY_CLAIM_EARNED",
+  "domain_indexing_required": true,
+  "constructive_witness_requirement": true,
+  "positive_preservation_requirement": true,
+  "claims": [],
+  "required_witness_forms": {
+    "refinement_counterexample": "A-preserved and B-distinguished on the same lawful overlap pair",
+    "incomparability": "one A-preserved/B-distinguished witness plus one A-distinguished/B-preserved witness"
+  },
+  "forbidden_promotions": ["BOUNDED_SILENCE_TO_PRESERVED", "NOT_EVALUABLE_TO_PRESERVED", "missing_overlap_to_refinement"],
+  "nonclaims": ["no optic hierarchy", "no partition algebra", "no cross-optic equivalence"]
+}

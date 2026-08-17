@@ -1,0 +1,8 @@
+{
+  "schema": "DARK_FOREST_DISAGREEMENT_ATLAS_V1",
+  "status": "NO_LAWFUL_CROSS_OPTIC_DISAGREEMENT_SPECIMEN",
+  "entries": [],
+  "required_specimen": "common lawful pair with positive status from both optics and opposite typed outcomes",
+  "context_transport_status": "NOT_LIVE",
+  "nonclaims": ["no optic is right/wrong ranking", "no stable crossed distinction", "no context dependence result"]
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "DARK_FOREST_RELATION_SIGNATURE_ATLAS_V1",
+  "status": "NOT_LIVE_NO_LAWFUL_PAIRWISE_OVERLAP",
+  "signature_definition": "S(p) = typed relation status vector for one common lawful pair across independent optics.",
+  "entries": [],
+  "typed_statuses_not_numeric": true,
+  "bounded_silence_not_preservation": true,
+  "discovery_signature_count": 0,
+  "incidence_design": "NOT_APPLICABLE",
+  "nonclaims": ["no voting", "no agreement score", "no latent class", "no Thing 2 binding"]
+}

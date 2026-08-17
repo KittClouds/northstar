@@ -1,0 +1,28 @@
+{
+  "schema": "DARK_FOREST_LAWFUL_OVERLAP_ATLAS_V1",
+  "status": "NO_LAWFUL_PAIRWISE_OVERLAP_ESTABLISHED",
+  "overlap_rule": "Q_ij is the mechanical intersection of two sealed native optic domains under both correspondence contracts.",
+  "outcome_conditioned_subset_selection": false,
+  "pair_identity_rule": "common history/configuration identity plus orientation/correspondence binding required",
+  "independent_native_optic_domains": [
+    {"optic_id": "SENTINEL_G9_PRIMARY", "domain_status": "ESTABLISHED_WITH_RESTRICTIONS", "pair_domain": "138962 lawful same-fiber G6-comparable pairs"},
+    {"optic_id": "SOL-P1", "domain_status": "NONE_ESTABLISHED", "pair_domain": "NONE"},
+    {"optic_id": "SOL-P2", "domain_status": "NONE_ESTABLISHED", "pair_domain": "NONE"},
+    {"optic_id": "SOL-P3", "domain_status": "NONE_ESTABLISHED", "pair_domain": "NONE"},
+    {"optic_id": "SOL-P4", "domain_status": "NONE_ESTABLISHED", "pair_domain": "NONE"},
+    {"optic_id": "SOL-P5", "domain_status": "NONE_ESTABLISHED", "pair_domain": "NONE"}
+  ],
+  "pairwise_overlaps": [],
+  "non_overlap_reasons": [
+    "secondary native relation objects are not executed/qualified",
+    "FC01_SOL_NOT_EVALUABLE",
+    "G8_04A_real_history_adapter_not_qualified",
+    "G5_token_realization_not_qualified",
+    "arm_specific_G6_relations_not_qualified",
+    "optic_verifier_bridges_not_qualified",
+    "pair_count_not_bound",
+    "finite_question_box_bounds_not_bound"
+  ],
+  "same_primary_lineage_not_cross_optic_overlap": ["SENTINEL_G9_PRIMARY", "SENTINEL_G9_1_RESIDUAL"],
+  "nonclaims": ["no cross-optic denominator", "no common tape equivalence", "no relation signature atlas entries"]
+}

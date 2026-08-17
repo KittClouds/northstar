@@ -1,0 +1,11 @@
+{
+  "schema": "DARK_FOREST_SAMPLE_BAG_INDEX_V1",
+  "status": "BAGS_ONLY_NO_TARGET_INTERPRETATION",
+  "bags": [
+    {"bag_id": "G9_IMMEDIATE_FRACTURE_SPECIMENS", "source": "sentinel-behavioral-qualification-compound/g9-dynamic-lift-04a/seal/G9_VERIFIED_FRACTURE_GRAPH.json", "status": "SEALED_PRIMARY_SPECIMEN_BAG", "content": "1024 exact verified immediate fractures under declared D_A scope", "cross_optic_use": "FORBIDDEN_UNTIL_LAWFUL_OVERLAP"},
+    {"bag_id": "G9_1_CONTROL_STRATA", "source": "sentinel-behavioral-qualification-compound/g9-1-controlled-residual-latent-memory/seal/G9_1_QUALIFICATION_ROOT_RECEIPT.json", "status": "SEALED_NEGATIVE_CONTROL_BAG", "content": "E0=138962, E1=0, E2=0; no continuation evaluated", "interpretation": "NO_ORDINAL_MATCHED_LAWFUL_SAME_FIBER_SPECIMENS"}
+  ],
+  "exploratory_direction": "ATTAINABLE_RELATION_SIGNATURE_GEOMETRY",
+  "target_status": "THING_2_UNBOUND",
+  "nonclaims": ["no prevalence", "no latent class", "no common ontology"]
+}

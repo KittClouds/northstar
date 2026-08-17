@@ -1,0 +1,126 @@
+{
+  "schema": "DARK_FOREST_OPTIC_REGISTRY_V1",
+  "status": "HORIZONTAL_TRIANGULATION_READY_WITHOUT_LAWFUL_PAIRWISE_OVERLAP",
+  "native_relation_status_vocabulary": [
+    "DISTINGUISHED",
+    "PRESERVED_EXACT",
+    "BOUNDED_SILENCE",
+    "NOT_COMPARABLE",
+    "NOT_EVALUABLE"
+  ],
+  "optics": [
+    {
+      "optic_id": "SENTINEL_G9_PRIMARY",
+      "optic_class": "PRIMARY_04A_BEHAVIORAL_OBSERVER",
+      "native_object_status": "PARTIAL_TYPED_RELATION_SEALED",
+      "relation_domain": "DECLARED_D_A_SCOPE_LAWFUL_SAME_FIBER_G6_COMPARABLE_PAIRS",
+      "relation_authority": "G9_DYNAMIC_LIFT_04A_QUALIFIED_WITH_RESTRICTIONS",
+      "qualification_root": "2e65b1032d43e843129fc6a57fd16d572329cc2c6925265e8dd85d3660ee6ee5",
+      "primary_science_root": "3844cc9dafe1f54aa54fb501381f16faf3b5c67958bdafc2e54d50325b55b5db",
+      "map_id": "04A_CURRENT_STATE_TO_REDUCED_GEOMETRY",
+      "lawful_pair_count": 138962,
+      "observed_fibers": 46807,
+      "collision_fibers": 6369,
+      "verified_distinguished_pairs": 1024,
+      "bounded_silence_pairs": 0,
+      "preserved_exact_pairs": 0,
+      "not_comparable_pairs": 0,
+      "not_evaluable_pairs": 0,
+      "blind_spots": ["G4_GRAMMAR_STATE_AND_EVENT"],
+      "restrictions": ["DECLARED_D_A_SCOPE_ONLY", "PRIMARY_MAP_ONLY", "NO_GLOBAL_EQUIVALENCE_FROM_BOUNDED_SILENCE"],
+      "nonclaims": ["complete_equivalence_relation", "global_preservation", "market_or_predictive_meaning"]
+    },
+    {
+      "optic_id": "SENTINEL_G9_1_RESIDUAL",
+      "optic_class": "PRIMARY_RESIDUAL_CONTROL_DESCENDANT",
+      "native_object_status": "PARTIAL_TYPED_RELATION_SEALED_NO_CONTROL_SPECIMENS",
+      "relation_domain": "G9_E0_LAWFUL_PAIRS_WITH_ORDINAL_CONTROL_STRATA",
+      "qualification_root": "9b9d842076d55effda67251f560f1747a63554439e1c375516ad86ba2e9c17c5",
+      "primary_science_root": "575e884fdceebb91f9550a245bedded77286f4b18d531e190e0d9f05bae8c645",
+      "strata": {"E0": 138962, "E1": 0, "E2": 0},
+      "native_outcome": "NO_ORDINAL_MATCHED_LAWFUL_SAME_FIBER_SPECIMENS",
+      "continuation_evaluations": 0,
+      "bounded_silence_pairs": 0,
+      "nonclaims": ["ordinal_is_only_lost_distinction", "latent_fracture_absence", "exact_preservation"]
+    },
+    {
+      "optic_id": "SOL-P1",
+      "optic_class": "SECONDARY_OPTIC",
+      "native_object_status": "ARM_NOT_EVALUABLE",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "optic_contract_id": "CLOCK_PARALLAX_V1",
+      "implementation_id": "SOL_FC02_P1_PYTHON_IMPL_V1",
+      "question_id": "TEMPORAL_ORDER_COORDINATE_DEPENDENCE_V1",
+      "blocking_receipt": "FC01_SOL_NOT_EVALUABLE",
+      "blocking_reasons": ["G8_04A_real_history_adapter_not_qualified", "G5_token_realization_not_qualified", "arm_specific_G6_relations_not_qualified", "optic_verifier_bridges_not_qualified", "pair_count_not_bound", "finite_question_box_bounds_not_bound"],
+      "relation_status": "NOT_EVALUABLE"
+    },
+    {
+      "optic_id": "SOL-P2",
+      "optic_class": "SECONDARY_OPTIC",
+      "native_object_status": "ARM_NOT_EVALUABLE",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "optic_contract_id": "CAUSAL_RESOLUTION_LADDER_V1",
+      "implementation_id": "SOL_FC02_P2_PYTHON_IMPL_V1",
+      "question_id": "FIXED_DECIMATION_HIDDEN_PROTECTED_ACTIVITY_V1",
+      "blocking_receipt": "FC01_SOL_NOT_EVALUABLE",
+      "relation_status": "NOT_EVALUABLE"
+    },
+    {
+      "optic_id": "SOL-P3",
+      "optic_class": "SECONDARY_OPTIC",
+      "native_object_status": "ARM_NOT_EVALUABLE",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "optic_contract_id": "PARTIAL_INFORMATION_MASK_FAMILY_V1",
+      "implementation_id": "SOL_FC02_P3_PYTHON_IMPL_V1",
+      "question_id": "DETERMINACY_UNDER_CONTENT_INDEPENDENT_WITHDRAWAL_V1",
+      "blocking_receipt": "FC01_SOL_NOT_EVALUABLE",
+      "relation_status": "NOT_EVALUABLE"
+    },
+    {
+      "optic_id": "SOL-P4",
+      "optic_class": "SECONDARY_OPTIC",
+      "native_object_status": "ARM_NOT_EVALUABLE",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "optic_contract_id": "INTEGER_MONOTONE_TIME_DEFORMATION_V1",
+      "implementation_id": "SOL_FC02_P4_PYTHON_IMPL_V1",
+      "question_id": "GAP_RELATION_SENSITIVITY_TO_MONOTONE_TIME_DEFORMATION_V1",
+      "blocking_receipt": "FC01_SOL_NOT_EVALUABLE",
+      "relation_status": "NOT_EVALUABLE"
+    },
+    {
+      "optic_id": "SOL-P5",
+      "optic_class": "SECONDARY_OPTIC",
+      "native_object_status": "ARM_NOT_EVALUABLE",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "optic_contract_id": "INTEGER_HAAR_LIFTING_V1",
+      "implementation_id": "SOL_FC02_P5_PYTHON_IMPL_V1",
+      "question_id": "MULTISCALE_SUPPORT_OF_INTEGER_VARIATION_V1",
+      "blocking_receipt": "FC01_SOL_NOT_EVALUABLE",
+      "relation_status": "NOT_EVALUABLE"
+    },
+    {
+      "optic_id": "SOL-P6",
+      "optic_class": "SECONDARY_OPTIC_PROTOCOL_ARM",
+      "native_object_status": "NATIVE_OBJECT_NOT_MATERIALIZED",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "relation_status": "NOT_EVALUABLE",
+      "nonclaims": ["no P6 scientific object", "no P6 relation domain"]
+    },
+    {
+      "optic_id": "EXTERNAL_MICROFILM_OVERLAY",
+      "optic_class": "SECONDARY_OPTIC_DEFINITION_ONLY",
+      "native_object_status": "BLOCKED_PENDING_SEPARATE_SOURCE",
+      "native_relation_domain": "NONE_ESTABLISHED",
+      "relation_status": "NOT_EVALUABLE"
+    }
+  ],
+  "architecture_only_objects": [
+    "G8_1_OPTICAL_TOOL_REGISTRY",
+    "G8_3_ARM_INDEPENDENCE_MATRIX",
+    "FC01_OPTIC_LIFT_PREREQUISITE_RECEIPT_V2",
+    "SOL_CAMPAIGN_ROOT_RECEIPT",
+    "KAMMI_CAMPAIGN_ROOT_RECEIPT"
+  ],
+  "global_nonclaims": ["no pairwise overlap", "no refinement", "no incomparability", "no common hidden object", "THING_2_UNBOUND"]
+}

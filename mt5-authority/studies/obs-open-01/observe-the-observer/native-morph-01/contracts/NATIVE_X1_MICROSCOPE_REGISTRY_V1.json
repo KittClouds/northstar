@@ -1,0 +1,22 @@
+{
+  "schema": "NATIVE_X1_MICROSCOPE_REGISTRY_V1",
+  "selection_rule": "STATIC_NATIVE_CONTRACT_FAMILIES_ONLY",
+  "value_conditioned_selection": false,
+  "families": [
+    {"id":"EXACT_NATIVE_SUPPORT_SUBSETS","status":"FROZEN"},
+    {"id":"NATIVE_TRANSITION_SUPPORT","status":"FROZEN"},
+    {"id":"CONTRACT_DEFINED_RECURRENCES","status":"FROZEN"},
+    {"id":"INTEGER_IDENTITIES","status":"FROZEN"},
+    {"id":"NATIVE_SYMMETRIES","status":"FROZEN"},
+    {"id":"NATIVE_ORDER_RELATIONS","status":"FROZEN"},
+    {"id":"MULTISCALE_IDENTITIES","status":"FROZEN"},
+    {"id":"STATE_RELATION_OCCUPANCY","status":"FROZEN"},
+    {"id":"CONTRACT_DEFINED_FORBIDDEN_CONFIGURATIONS","status":"FROZEN"},
+    {"id":"EXACT_CLOSURE_PROPERTIES","status":"FROZEN"},
+    {"id":"NATIVE_GRAPH_TOPOLOGICAL_STRUCTURE","status":"FROZEN"}
+  ],
+  "surprise_rule": "NOTICE_FREEZE_BAG_BLIND_ATTACK",
+  "outside_family_rule": "QUARANTINE_ONLY",
+  "interpretation": "NONE",
+  "status": "FROZEN_BEFORE_NATIVE_VALUE_READS"
+}
